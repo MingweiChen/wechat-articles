@@ -1,0 +1,291 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 引言区块 -->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); border-radius:12px; padding:20px; margin:1em 0; text-align:center;">
+  <p style="font-size:15px; color:rgba(255,255,255,0.9); margin:0; line-height:1.6;">
+    OpenAI 连续发布三款 GPT-5.5 模型<br>
+    这可能是今年最重要的 AI 更新
+  </p>
+</section>
+
+<!-- 正文开始 -->
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+就在昨天，OpenAI 正式向所有用户推送了 <strong style="color:#e74c3c;">GPT-5.5 Instant</strong>，这是继4月23日发布 GPT-5.5 旗舰版和 Pro 版之后，面向普通用户的重磅升级。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+一位 NVIDIA 工程师在试用后说了一句话，让整个科技圈都在传：
+</p>
+
+<blockquote style="background:#fff3e0; border-left:4px solid #ff9800; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+  <p style="font-size:17px; color:#e65100; margin:0; line-height:1.7; font-style:italic;">
+    "失去 GPT-5.5 的访问权限，感觉就像被截肢一样。"
+  </p>
+</blockquote>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+到底有多强？我花了几个小时整理了这份完整解读，带你一次看懂这次更新的所有关键信息。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第一部分 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  📊 一、三个版本，各有分工
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+这次 OpenAI 一口气发布了三个版本，定位清晰：
+</p>
+
+<section style="background:#f8f9fa; border-radius:12px; padding:20px; margin:1.2em 0;">
+  <p style="font-size:16px; color:#333; margin:0 0 12px 0; line-height:1.8;">
+    <strong style="color:#667eea;">🔷 GPT-5.5（旗舰版）</strong><br>
+    <span style="color:#666; font-size:15px;">定位：最强智能，代码+科研+复杂任务</span>
+  </p>
+  <p style="font-size:16px; color:#333; margin:0 0 12px 0; line-height:1.8;">
+    <strong style="color:#9c27b0;">🔶 GPT-5.5 Pro</strong><br>
+    <span style="color:#666; font-size:15px;">定位：专业高难度工作，法律/金融/数据科学</span>
+  </p>
+  <p style="font-size:16px; color:#333; margin:0; line-height:1.8;">
+    <strong style="color:#4caf50;">🔹 GPT-5.5 Instant</strong><br>
+    <span style="color:#666; font-size:15px;">定位：人人可用，日常对话的默认模型</span>
+  </p>
+</section>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第二部分 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  🚀 二、5 大核心升级
+</p>
+
+<!-- 升级1 -->
+<p style="font-size:17px; font-weight:bold; color:#333; margin:1.5em 0 0.5em; padding-left:12px; border-left:4px solid #4caf50;">
+  升级①：幻觉大幅减少
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0;">
+这是很多人最关心的问题。官方数据：
+</p>
+
+<section style="background:#e8f5e9; border-radius:10px; padding:16px 20px; margin:1em 0;">
+  <p style="font-size:28px; font-weight:bold; color:#2e7d32; margin:0 0 8px 0; text-align:center;">
+    -52.5%
+  </p>
+  <p style="font-size:14px; color:#666; margin:0; text-align:center;">
+    在医学、法律、金融等高风险领域<br>幻觉声明减少超过一半
+  </p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+另外，在用户标记过事实错误的"老大难"对话中，不准确声明也减少了 <strong style="color:#e74c3c;">37.3%</strong>。
+</p>
+
+<!-- 升级2 -->
+<p style="font-size:17px; font-weight:bold; color:#333; margin:1.5em 0 0.5em; padding-left:12px; border-left:4px solid #2196f3;">
+  升级②：终于不刷表情包了
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+很多人吐槽 ChatGPT 回复里表情太多、废话太多。这次官方专门提到：
+</p>
+
+<blockquote style="background:#e3f2fd; border-left:4px solid #2196f3; padding:14px 18px; margin:1em 0; border-radius:0 8px 8px 0;">
+  <p style="font-size:15px; color:#1565c0; margin:0; line-height:1.7;">
+    回复更紧凑、更切中要点，同时保持友好的温度和个性。<br>
+    减少不必要的追问，<strong>避免过度使用表情符号</strong>。
+  </p>
+</blockquote>
+
+<!-- 升级3 -->
+<p style="font-size:17px; font-weight:bold; color:#333; margin:1.5em 0 0.5em; padding-left:12px; border-left:4px solid #ff9800;">
+  升级③：真正"记住你"
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+现在它会更有效地利用你的聊天记录、上传的文件，甚至连接的 Gmail。你不用反复解释自己的背景和偏好了。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+更重要的是，新增了<strong style="color:#ff9800;">「记忆来源」</strong>功能——你可以看到它用了哪些信息来个性化回复，不想要的可以随时删除。
+</p>
+
+<!-- 升级4 -->
+<p style="font-size:17px; font-weight:bold; color:#333; margin:1.5em 0 0.5em; padding-left:12px; border-left:4px solid #9c27b0;">
+  升级④：代码能力爆表
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+GPT-5.5 在多个编程基准测试中刷新纪录：
+</p>
+
+<table style="width:100%; border-collapse:collapse; margin:1em 0; font-size:14px;">
+  <thead>
+    <tr style="background:#667eea; color:#fff;">
+      <th style="padding:12px 8px; text-align:left; border:none;">测试项目</th>
+      <th style="padding:12px 8px; text-align:center; border:none;">GPT-5.5</th>
+      <th style="padding:12px 8px; text-align:center; border:none;">上一代</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#f5f5f5;">
+      <td style="padding:10px 8px; border-bottom:1px solid #eee;">Terminal-Bench 2.0</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee; color:#e74c3c; font-weight:bold;">82.7%</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee;">75.1%</td>
+    </tr>
+    <tr>
+      <td style="padding:10px 8px; border-bottom:1px solid #eee;">GDPval（知识工作）</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee; color:#e74c3c; font-weight:bold;">84.9%</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee;">83.0%</td>
+    </tr>
+    <tr style="background:#f5f5f5;">
+      <td style="padding:10px 8px; border-bottom:1px solid #eee;">FrontierMath</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee; color:#e74c3c; font-weight:bold;">51.7%</td>
+      <td style="padding:10px 8px; text-align:center; border-bottom:1px solid #eee;">47.6%</td>
+    </tr>
+    <tr>
+      <td style="padding:10px 8px;">CyberGym（网络安全）</td>
+      <td style="padding:10px 8px; text-align:center; color:#e74c3c; font-weight:bold;">81.8%</td>
+      <td style="padding:10px 8px; text-align:center;">79.0%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+Every 创始人 Dan Shipper 评价说：
+</p>
+
+<blockquote style="background:#fce4ec; border-left:4px solid #e91e63; padding:14px 18px; margin:1em 0; border-radius:0 8px 8px 0;">
+  <p style="font-size:15px; color:#c2185b; margin:0; line-height:1.7;">
+    "GPT-5.5 是我用过的第一个拥有<strong>真正概念清晰度</strong>的编程模型。"
+  </p>
+</blockquote>
+
+<!-- 升级5 -->
+<p style="font-size:17px; font-weight:bold; color:#333; margin:1.5em 0 0.5em; padding-left:12px; border-left:4px solid #00bcd4;">
+  升级⑤：速度不变，更省 Token
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+通常模型越大越慢，但 GPT-5.5 做到了<strong>智商提升、速度不变</strong>。而且完成相同任务需要的 Token 更少，实际使用成本可能反而降低。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第三部分 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  💰 三、价格翻倍，但可能更便宜？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+API 价格确实涨了：
+</p>
+
+<section style="display:flex; gap:12px; margin:1em 0;">
+  <section style="flex:1; background:#ffebee; border-radius:10px; padding:16px; text-align:center;">
+    <p style="font-size:13px; color:#666; margin:0 0 6px 0;">GPT-5.4 输出</p>
+    <p style="font-size:20px; font-weight:bold; color:#333; margin:0;">$15</p>
+    <p style="font-size:12px; color:#999; margin:4px 0 0 0;">/百万tokens</p>
+  </section>
+  <section style="flex:1; background:#e8f5e9; border-radius:10px; padding:16px; text-align:center;">
+    <p style="font-size:13px; color:#666; margin:0 0 6px 0;">GPT-5.5 输出</p>
+    <p style="font-size:20px; font-weight:bold; color:#e74c3c; margin:0;">$30</p>
+    <p style="font-size:12px; color:#999; margin:4px 0 0 0;">/百万tokens</p>
+  </section>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+但 OpenAI 说，因为 Token 效率提升，大多数用户的<strong>实际花费可能更少</strong>。据 Artificial Analysis 测算，GPT-5.5 的性价比是竞品的 <strong style="color:#e74c3c;">2 倍</strong>。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第四部分 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  🔐 四、安全：史上最强防护
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+OpenAI 强调这次部署了「迄今最强的安全措施」：
+</p>
+
+<ul style="padding-left:20px; margin:1em 0;">
+  <li style="font-size:15px; color:#333; line-height:1.9; margin:0.6em 0;">内部+外部红队测试</li>
+  <li style="font-size:15px; color:#333; line-height:1.9; margin:0.6em 0;">针对网络安全和生物能力的专项测试</li>
+  <li style="font-size:15px; color:#333; line-height:1.9; margin:0.6em 0;">近 200 个可信合作伙伴提前试用并反馈</li>
+  <li style="font-size:15px; color:#333; line-height:1.9; margin:0.6em 0;">更严格的网络风险分类器</li>
+</ul>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第五部分 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  📱 五、现在就能用
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+不同版本的开放情况：
+</p>
+
+<section style="background:#f5f5f5; border-radius:10px; padding:16px 20px; margin:1em 0;">
+  <p style="font-size:15px; color:#333; margin:0 0 10px 0; line-height:1.8;">
+    <span style="color:#4caf50; font-weight:bold;">✅ GPT-5.5 Instant</span><br>
+    <span style="color:#666; font-size:14px;">所有用户，今天起自动切换为默认模型</span>
+  </p>
+  <p style="font-size:15px; color:#333; margin:0 0 10px 0; line-height:1.8;">
+    <span style="color:#2196f3; font-weight:bold;">✅ GPT-5.5 旗舰版</span><br>
+    <span style="color:#666; font-size:14px;">Plus / Pro / Business / Enterprise 用户</span>
+  </p>
+  <p style="font-size:15px; color:#333; margin:0; line-height:1.8;">
+    <span style="color:#9c27b0; font-weight:bold;">✅ GPT-5.5 Pro</span><br>
+    <span style="color:#666; font-size:14px;">Pro / Business / Enterprise 用户</span>
+  </p>
+</section>
+
+<p style="font-size:15px; color:#888; line-height:1.8; margin:1em 0;">
+💡 小提示：付费用户可以在设置里切回 GPT-5.3 Instant，保留 3 个月。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 结语 -->
+<p style="font-size:20px; font-weight:bold; color:#333; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:2px solid #667eea;">
+  写在最后
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+GPT-5.5 的发布，标志着 AI 正在从「回答问题的助手」变成「真正干活的同事」。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+OpenAI 内部已经有 <strong style="color:#e74c3c;">85%</strong> 的员工每周都在用它工作——财务团队用它审核 7 万页税务文件，比去年快了两周；市场团队用它自动生成周报，每周省下 5-10 小时。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1em 0; text-indent:2em;">
+现在，这个能力也对所有人开放了。
+</p>
+
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); border-radius:12px; padding:20px; margin:1.5em 0; text-align:center;">
+  <p style="font-size:16px; color:#fff; margin:0; line-height:1.7;">
+    打开 ChatGPT，你现在用的就是 GPT-5.5 Instant<br>
+    <span style="font-size:14px; opacity:0.8;">去试试，感受一下区别</span>
+  </p>
+</section>
+
+<!-- 尾部信息 -->
+<p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0; line-height:1.6;">
+  — END —
+</p>
+
+<p style="font-size:12px; color:#bbb; text-align:center; margin:0.5em 0; line-height:1.6;">
+  资料来源：OpenAI 官网、Engadget、9to5Mac
+</p>
+
+</section>
