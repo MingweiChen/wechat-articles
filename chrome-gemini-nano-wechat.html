@@ -1,0 +1,203 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 开篇区块 -->
+<section style="background:linear-gradient(135deg,#4285f4 0%,#34a853 50%,#ea4335 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+  <p style="font-size:24px; color:#fff; margin:0 0 12px 0; font-weight:bold; letter-spacing:1px;">你的硬盘被「白嫖」了</p>
+  <p style="font-size:16px; color:rgba(255,255,255,0.9); margin:0;">Chrome 偷装 4GB AI 模型，删了还自动重下</p>
+</section>
+
+<!-- 导语 -->
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+<strong style="color:#ea4335;">2026年5月4日</strong>，瑞典计算机科学家 Alexander Hanff 公开了一份报告，揭露了一个惊人事实：Google Chrome 浏览器正在<strong style="color:#ea4335;">未经用户同意</strong>的情况下，向全球数亿台电脑静默安装一个 <strong style="color:#ea4335;">4GB</strong> 的 AI 模型。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+更离谱的是：你删掉它，重启浏览器，它又自己装回来了。
+</p>
+
+<!-- 数据卡片 -->
+<section style="background:linear-gradient(135deg,#fff5f5 0%,#ffe6e6 100%); border-radius:10px; padding:20px; margin:1.5em 0; border-left:4px solid #ea4335;">
+  <p style="font-size:15px; color:#666; margin:0 0 12px 0; font-weight:bold;">📊 关键数据</p>
+  <p style="font-size:15px; color:#333; margin:6px 0;">• 模型大小：<strong style="color:#ea4335;">约 4GB</strong></p>
+  <p style="font-size:15px; color:#333; margin:6px 0;">• 下载时间：<strong style="color:#ea4335;">14 分钟</strong>静默完成</p>
+  <p style="font-size:15px; color:#333; margin:6px 0;">• 用户提示：<strong style="color:#ea4335;">零</strong></p>
+  <p style="font-size:15px; color:#333; margin:6px 0;">• 删除后：<strong style="color:#ea4335;">自动重新下载</strong></p>
+  <p style="font-size:15px; color:#333; margin:6px 0;">• 潜在影响设备：<strong style="color:#ea4335;">数亿台</strong></p>
+</section>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题1 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+01 发生了什么？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+Hanff（网名「That Privacy Guy」）在调查中发现，Chrome 会在后台悄悄下载一个名为 <strong>Gemini Nano</strong> 的 AI 模型，存储在用户电脑的 <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px;">OptGuideOnDeviceModel</code> 文件夹中，核心文件叫 <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px;">weights.bin</code>。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+整个过程<strong>没有任何提示</strong>，没有弹窗询问「是否同意」，也没有进度条。Hanff 通过 macOS 系统日志还原了安装过程：在一个全新创建、从未接受过任何键盘或鼠标输入的 Chrome 配置文件中，模型于 2026 年 4 月 24 日<strong>自动下载</strong>，全程仅用 14 分 28 秒。
+</p>
+
+<!-- 引用块 -->
+<blockquote style="background:#f0f4ff; border-left:4px solid #4285f4; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+  <p style="font-size:15px; color:#333; margin:0; line-height:1.8;">
+  「我的浏览器前台只是停留在一个普通网页上，后台却启动了多个解压进程，把 4GB 文件写入了我的硬盘。」<br>
+  <span style="font-size:13px; color:#999;">—— Alexander Hanff</span>
+  </p>
+</blockquote>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+该行为已在 <strong>Windows 11、macOS (Apple Silicon)、Ubuntu</strong> 三大平台上得到确认。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题2 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+02 最讽刺的地方
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+Chrome 地址栏中有一个醒目的 <strong>「AI Mode」</strong> 按钮，一个正常人看到它，再想到自己硬盘里躺着 4GB 的 AI 模型，自然会认为：点击这个按钮，AI 在本地运行，数据不出我的电脑。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+<strong style="color:#ea4335;">错。</strong>
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+Hanff 的调查发现，「AI Mode」实际上把你的查询<strong>发送到 Google 云端服务器</strong>处理。那 4GB 的本地模型呢？它只被用于一些藏在右键菜单深处的功能，比如「帮我写」和诈骗检测——普通用户几乎不会发现它们。
+</p>
+
+<!-- 对比卡片 -->
+<section style="background:#f8f9fa; border-radius:10px; padding:20px; margin:1.5em 0;">
+  <p style="font-size:15px; color:#666; margin:0 0 12px 0; font-weight:bold;">🤔 你以为 vs 实际</p>
+  <p style="font-size:15px; color:#333; margin:8px 0;"><strong>你以为</strong>：4GB 模型 + AI Mode = 本地隐私处理</p>
+  <p style="font-size:15px; color:#ea4335; margin:8px 0;"><strong>实际</strong>：4GB 模型闲置，AI Mode 照样上传云端</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+换句话说：你付出了 4GB 存储空间和下载流量，却<strong>没有得到你以为的隐私保护</strong>。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题3 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+03 这合法吗？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+Hanff 认为，这明显违反了<strong>欧盟电子隐私指令（ePrivacy Directive）第 5(3) 条</strong>——这正是网站必须弹出「Cookie 同意」横幅的法律依据。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+该条款要求：在向用户设备存储任何数据之前，必须获得<strong>「事先、自由、具体、知情、明确」</strong>的同意。Chrome 的静默下载，一条都不满足。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+他还援引了 <strong>GDPR 第 5(1) 条</strong>（透明性原则）和<strong>第 25 条</strong>（隐私设计义务），认为 Google 的做法构成系统性违规。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题4 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+04 Google 怎么说？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+Google 发言人回应称：
+</p>
+
+<!-- 引用块 -->
+<blockquote style="background:#f5f5f5; border-left:4px solid #34a853; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+  <p style="font-size:15px; color:#333; margin:0; line-height:1.8;">
+  「自 2024 年起，我们为 Chrome 提供 Gemini Nano 作为轻量级本地模型。它支持诈骗检测等重要安全功能，且不会将数据发送到云端。设备存储不足时会自动卸载。2026 年 2 月起，用户可以在设置中关闭它。」
+  </p>
+</blockquote>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+但 Google <strong>没有回答</strong>两个关键问题：
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+<strong>❶</strong> 为什么不事先征求用户同意？<br>
+<strong>❷</strong> 为什么删除后会自动重新下载？
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题5 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+05 如何检查和关闭？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+<strong>检查是否安装：</strong>
+</p>
+
+<p style="font-size:15px; color:#333; line-height:1.9; margin:0.8em 0; text-indent:0; background:#f5f5f5; padding:12px 16px; border-radius:8px; font-family:monospace;">
+在地址栏输入：chrome://on-device-internals
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+<strong>关闭方法：</strong>
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+<strong>方法 1</strong>：设置 → 系统 → 关闭「On-device AI」
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+<strong>方法 2</strong>：地址栏输入 <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px;">chrome://flags</code> → 搜索 <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px;">optimization-guide-on-device-model</code> → 设为 Disabled → 重启
+</p>
+
+<!-- 文件路径卡片 -->
+<section style="background:#f8f9fa; border-radius:10px; padding:16px 20px; margin:1.5em 0;">
+  <p style="font-size:14px; color:#666; margin:0 0 8px 0; font-weight:bold;">📁 文件位置</p>
+  <p style="font-size:13px; color:#333; margin:4px 0; font-family:monospace;"><strong>Windows</strong>：%LOCALAPPDATA%\Google\Chrome\User Data\OptGuideOnDeviceModel</p>
+  <p style="font-size:13px; color:#333; margin:4px 0; font-family:monospace;"><strong>macOS</strong>：~/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel</p>
+</section>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 小标题6 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #4285f4;">
+06 更大的问题
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+这不是个例。就在两周前，Hanff 还曝光了 <strong>Anthropic 的 Claude Desktop</strong> 在用户安装后，向七款 Chromium 浏览器静默写入自动化配置，涉及约 300 万台设备。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+从 Anthropic 到 Google，模式如出一辙：<strong>先斩后奏，用户的设备，我说了算。</strong>
+</p>
+
+<!-- 结语卡片 -->
+<section style="background:linear-gradient(135deg,#4285f4 0%,#34a853 100%); border-radius:10px; padding:20px; margin:1.5em 0; text-align:center;">
+  <p style="font-size:16px; color:#fff; margin:0; line-height:1.8;">
+  Hanff 说得好：<br><strong>「如果一家公司不主动问你'要不要装'，<br>说明它嘴上的'负责任 AI'不值几个钱。」</strong>
+  </p>
+</section>
+
+<!-- 文末引导 -->
+<section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:2em 0; text-align:center;">
+  <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">赞</strong>+<strong style="color:#07c160;">在看</strong>，让更多人知道</p>
+  <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 你的 Chrome 中招了吗？评论区聊聊</p>
+  <p style="font-size:15px; color:#333; margin:0;">📤 转发给用 Chrome 的朋友，提醒他们检查一下</p>
+</section>
+
+<!-- 尾部 -->
+<p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>
