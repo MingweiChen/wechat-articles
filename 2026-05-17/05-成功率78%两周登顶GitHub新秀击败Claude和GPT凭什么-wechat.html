@@ -1,0 +1,324 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <!-- 开篇区块（渐变背景） -->
+  <section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+    <p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">AI 编程深度观察</p>
+    <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">成功率78%两周登顶<br>GitHub新秀击败Claude和GPT</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">OpenHands：开源 Agent 框架的逆袭</p>
+  </section>
+
+  <!-- 核弹开头 -->
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">
+    <strong style="color:#e74c3c;">一个开源项目，两周内把 Anthropic 和 OpenAI 都挤下去了。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    GitHub Trending 榜单很少出现这种场面：一个名不见经传的开源项目，在短短两周内从默默无闻冲到榜首，背后没有硅谷大厂背书，没有天价融资造势，只有一群执着于"让 AI 真正写代码"的开发者。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这个项目叫 <strong style="color:#e74c3c;">OpenHands</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    而它刚刚在 SWE-bench——全球公认最难的 AI 代码能力测试——上交出了一份让所有人侧目的成绩单：<strong style="color:#e74c3c;">78% 的任务解决率</strong>，超越了 Anthropic 的 Claude，也超越了 OpenAI。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 小标题 01 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    01 数据不会说谎：78% 意味着什么
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    先说背景。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    SWE-bench 是普林斯顿大学推出的基准测试，被称为"AI 程序员的高考"。它从 Django、scikit-learn、SymPy 等 12 个顶级 Python 开源项目中抽取了 2294 个真实 Bug，要求 AI 不仅要定位问题，还要写出能通过所有测试的补丁代码。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是让 AI 写个 Hello World，而是让它修复生产环境里的真实故障。
+  </p>
+
+  <!-- 引用块：历史对比 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      2023 年 10 月，SWE-bench 刚推出时，最强的 Claude 2 只跑出了 <strong style="color:#e74c3c;">1.96%</strong>。没错，100 个 Bug 只能修 2 个。<br><br>
+      一年半后的今天，OpenHands 的成绩是 <strong style="color:#e74c3c;">78%</strong>。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2026 年 5 月最新榜单：
+  </p>
+
+  <!-- 排行榜卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.9; margin:0 0 8px 0;"><strong>🥇 OpenHands (Claude Opus 4.5)</strong> — 77.6%</p>
+    <p style="font-size:15px; color:#333; line-height:1.9; margin:0 0 8px 0;"><strong>🥈 Claude Code (Opus 4.7)</strong> — ~78%</p>
+    <p style="font-size:15px; color:#333; line-height:1.9; margin:0 0 8px 0;"><strong>🥉 OpenAI Codex Agent (GPT-5 Pro)</strong> — ~76%</p>
+    <p style="font-size:15px; color:#333; line-height:1.9; margin:0 0 8px 0;"><strong>④ Cursor Agent (Sonnet 4.6)</strong> — ~67%</p>
+    <p style="font-size:15px; color:#666; line-height:1.9; margin:0;"><strong>⑤ Devin (Cognition AI)</strong> — ~58%</p>
+  </section>
+
+  <p style="font-size:14px; color:#999; line-height:1.6; margin:0.8em 0; text-indent:2em;">
+    数据来源：SWE-bench 官方排行榜与 Presenc AI 2026 年度报告。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>关键点来了</strong>：OpenHands 用的是开源框架 + Claude 模型，而 Claude Code 是 Anthropic 的官方产品。同样的模型，OpenHands 的工程化实现打出了相当甚至更高的分数。
+  </p>
+
+  <!-- 信息卡片：核心结论 -->
+  <section style="background:linear-gradient(135deg,#fff5f5 0%,#fff 100%); border-radius:10px; padding:18px 20px; margin:1.2em 0; border-left:4px solid #e74c3c;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.8; margin:0; font-weight:bold;">
+      💡 Agent 框架的工程能力，可能比底层模型更重要。
+    </p>
+  </section>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 小标题 02 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    02 OpenHands 凭什么赢
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    所有人都在卷模型参数、卷上下文长度、卷推理能力。<strong style="color:#e74c3c;">OpenHands 卷的是工程。</strong>
+  </p>
+
+  <p style="font-size:18px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.6em;">
+    ▎CodeAct：让 Agent 像程序员一样思考
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    传统 AI 编码工具的思路是：你问一句，我答一句。ChatGPT 模式。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    OpenHands 不一样。它的核心 Agent 架构叫 CodeAct——不是生成代码片段，而是让 AI 像真正的程序员一样工作：
+  </p>
+
+  <!-- 能力列表卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">✅ <strong>执行 bash 命令</strong>：ls、grep、git，该用什么用什么</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">✅ <strong>运行 Python 代码</strong>：不是建议你运行，而是直接运行</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">✅ <strong>浏览网页</strong>：需要查文档？自己去查</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0;">✅ <strong>编辑文件</strong>：不是给你 diff，而是直接改</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这是一个<strong style="color:#e74c3c;">能自己动手的 Agent</strong>，不是一个只会说话的 Chatbot。
+  </p>
+
+  <p style="font-size:18px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.6em;">
+    ▎沙箱隔离：安全地让 AI 放手干
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    让 AI 执行代码是危险的。万一它 <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px; font-family:monospace;">rm -rf /</code> 怎么办？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    OpenHands 的解决方案：<strong>Docker 沙箱</strong>。每个 Agent 运行在隔离的容器里，想删库？请在你自己的沙箱里删。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这让团队敢于把 OpenHands 部署在生产环境，让它直接处理 GitHub Issues、自动提交 PR。
+  </p>
+
+  <p style="font-size:18px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.6em;">
+    ▎推理时扩展 + Critic 模型：让正确率翻倍
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    OpenHands 团队在论文中披露了一个关键技术：<strong style="color:#e74c3c;">推理时扩展（Inference-Time Scaling）</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    简单说，就是让 Agent 对同一个问题跑多次，然后用一个专门训练的 Critic 模型来挑选最佳答案。
+  </p>
+
+  <!-- 技术数据引用 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      他们用时间差分学习（TD Learning）训练了一个基于 Qwen 2.5 Coder 32B 的评分模型，从单次尝试的 <strong>60.6%</strong> 准确率，提升到五次尝试的 <strong>66.4%</strong>，最终达到 <strong style="color:#e74c3c;">77.6%</strong>。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>同样的底层模型，不同的工程方法，结果天差地别。</strong>
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 小标题 03 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    03 社区反应：为什么开发者疯狂涌入
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    截至目前，OpenHands 在 GitHub 上已经拿下 <strong style="color:#e74c3c;">73,000+ Star</strong>，超过 500 位贡献者，6700+ 次代码提交。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    它的增长速度超过了当年的 LangChain，逼近 Hugging Face Transformers 的巅峰期。
+  </p>
+
+  <!-- 社区评价卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#555; line-height:1.9; margin:0 0 12px 0; font-style:italic;">
+      "OpenHands SDK 是目前最完整的 Agent 开发工具包，工具调用的可靠性让人惊艳。"
+    </p>
+    <p style="font-size:13px; color:#999; margin:0;">—— Oracle 数据科学布道师 Nacho Martínez Rincón</p>
+  </section>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#555; line-height:1.9; margin:0 0 12px 0; font-style:italic;">
+      "这才是 AI 编码工具该有的样子。不是另一个聊天界面，而是能真正解决问题、推送到生产环境的自主系统。"
+    </p>
+    <p style="font-size:13px; color:#999; margin:0;">—— 独立开发者 Dan Kempe</p>
+  </section>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#555; line-height:1.9; margin:0 0 12px 0; font-style:italic;">
+      "我没试过 Devin，但我太爱 OpenHands 了。直接开 GitHub Issue，AI 自己搞定然后提 PR，这种感觉太神奇了。"
+    </p>
+    <p style="font-size:13px; color:#999; margin:0;">—— YC 创业者 Christian Genco</p>
+  </section>
+
+  <!-- 数据亮点 -->
+  <section style="background:linear-gradient(135deg,#fff5f5 0%,#fff 100%); border-radius:10px; padding:18px 20px; margin:1.2em 0; border-left:4px solid #e74c3c;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.8; margin:0;">
+      <strong style="color:#e74c3c;">87% 的 Bug 工单当日解决</strong> —— 这是 OpenHands 团队给出的企业客户数据。客户以为他们雇了一支工程师团队，实际上他们部署了一个 Agent。
+    </p>
+  </section>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 小标题 04 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    04 技术亮点速览
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    如果你是开发者，这几个点值得关注：
+  </p>
+
+  <!-- 技术亮点卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.6; margin:0 0 12px 0; font-weight:bold;">🚪 多入口设计</p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">SDK（Python 库）/ CLI（命令行）/ GUI（本地 Web 界面）/ Cloud（托管服务）—— 想怎么用就怎么用</p>
+  </section>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.6; margin:0 0 12px 0; font-weight:bold;">🔄 模型无关</p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">Claude、GPT、Gemini、DeepSeek、开源模型——随便换。LiteLLM 网关统一接入 100+ 模型 API</p>
+  </section>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.6; margin:0 0 12px 0; font-weight:bold;">🔒 企业级安全</p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">自托管 / 私有云部署 / Kubernetes 原生 / 细粒度 RBAC / 全流程审计日志</p>
+  </section>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:16px; color:#1a1a2e; line-height:1.6; margin:0 0 12px 0; font-weight:bold;">🧩 扩展性</p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">Micro-Agent 微服务架构 / MCP 协议支持 / GitHub、GitLab、Slack、Jira 原生集成</p>
+  </section>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 小标题 05 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    05 这意味着什么
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    一个有趣的事实：OpenHands 的核心团队来自卡内基梅隆大学，不是硅谷大厂。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    他们没有 Anthropic 的顶级人才密度，没有 OpenAI 的算力资源，没有 Google 的数据飞轮。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    但他们做出了一个在最硬核基准测试上打平甚至超越巨头的开源项目。
+  </p>
+
+  <!-- 核心观点卡片 -->
+  <section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%); border-radius:10px; padding:20px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:17px; color:#fff; line-height:1.8; margin:0; font-weight:bold;">
+      🎯 这给所有 AI 开发者传递了一个信号：<br>Agent 时代的竞争规则变了。
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    模型能力的天花板在被逼近，差异化的空间从"谁的模型更强"转向<strong style="color:#e74c3c;">"谁的工程更好"</strong>。
+  </p>
+
+  <!-- 要点列表 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">• 更好的工具链设计</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">• 更聪明的多次推理策略</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">• 更安全的执行环境</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0;">• 更灵活的扩展架构</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这些"脏活累活"，才是下一阶段 AI 编程工具的<strong>核心战场</strong>。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 写在最后 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    写在最后
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2023 年，SWE-bench 刚推出时，业内共识是"AI 修 Bug？做梦吧。"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2024 年，Devin 横空出世，"AI 程序员"从概念变成产品，但只有少数人能用上。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2025-2026 年，OpenHands 证明了：<strong style="color:#e74c3c;">最强的 AI 程序员，可以是开源的、免费的、每个人都能用的。</strong>
+  </p>
+
+  <!-- 结语卡片 -->
+  <section style="background:linear-gradient(135deg,#fff5f5 0%,#fff 100%); border-radius:10px; padding:20px; margin:1.5em 0; text-align:center; border:1px solid #fce4e4;">
+    <p style="font-size:17px; color:#1a1a2e; line-height:1.8; margin:0; font-weight:bold;">
+      Agent 框架的下半场，可能不在硅谷。<br>
+      它在每一个愿意贡献代码的开发者手里。
+    </p>
+  </section>
+
+  <!-- 项目链接 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.5em 0;">
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">🔗 <strong>项目地址</strong>：github.com/OpenHands/OpenHands</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0 0 6px 0;">📚 <strong>官方文档</strong>：docs.openhands.dev</p>
+    <p style="font-size:15px; color:#333; line-height:2; margin:0;">☁️ <strong>在线试用</strong>：www.openhands.dev</p>
+  </section>
+
+  <!-- 文末引导 -->
+  <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 评论区聊聊你的看法</p>
+    <p style="font-size:15px; color:#333; margin:0;">📤 转发给关心 AI 编程的朋友</p>
+  </section>
+
+  <!-- 尾部 -->
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>
