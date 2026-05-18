@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-05-18_074942_fxo2",
+  "date": "2026-05-18",
+  "articles": [
+    {
+      "rank": 1,
+      "slug": "shanghai-robot",
+      "title": "10万台人形机器人入厂：上海225亿押注具身智能时代",
+      "score": 88,
+      "word_count": 1730
+    },
+    {
+      "rank": 2,
+      "slug": "nvidia-jensen",
+      "title": "黄仁勋痛斥GPU原子弹论：数十亿人用显卡，我绝不推荐核弹",
+      "score": 85,
+      "word_count": 1933
+    },
+    {
+      "rank": 3,
+      "slug": "china-ai",
+      "title": "7.693万亿Token！中国大模型周调用量反超美国1.81倍",
+      "score": 85,
+      "word_count": 1932
+    },
+    {
+      "rank": 4,
+      "slug": "ai-cyber",
+      "title": "3周AI扫描=1年人工测试：25分钟攻击窗口倒逼安全革命",
+      "score": 85,
+      "word_count": 1756
+    }
+  ]
+}
