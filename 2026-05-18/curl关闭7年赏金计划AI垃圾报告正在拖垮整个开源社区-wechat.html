@@ -1,0 +1,187 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <!-- 开篇区块 -->
+  <section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+    <p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">开源安全观察</p>
+    <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">curl 关闭 7 年赏金计划<br>AI 垃圾报告正在拖垮整个开源社区</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">四大事件揭示开源生态的信任危机</p>
+  </section>
+
+  <!-- 核弹开头 -->
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">
+    <strong style="color:#e74c3c;">87 个漏洞，10 万美元奖金，7 年心血——curl 赏金计划宣布终结。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是一个普通项目的落幕，而是整个开源安全生态遭遇系统性冲击的缩影。当 AI 生成的垃圾报告淹没维护者邮箱，当 MCP 协议的设计缺陷波及 7000+ 服务器，当 600 万假 Star 操纵 GitHub 信任体系，开源世界正在经历一场前所未有的信任危机。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    本期，我们深度解读四个正在重塑开源格局的重大事件。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第一部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    01 curl 赏金计划：被 AI slop 逼停的 7 年传奇
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2026 年 1 月 31 日，curl 创始人 Daniel Stenberg 宣布正式关闭运行了近 7 年的漏洞赏金计划。这个嵌入在 Windows、macOS 和几乎所有 Linux 发行版中的网络传输工具，其安全研究曾是行业标杆。
+  </p>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;"><strong>📊 历史成绩单</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">• 确认漏洞：<strong style="color:#e74c3c;">87 个</strong><br>• 累计奖金：<strong style="color:#e74c3c;">超 10 万美元</strong><br>• 合作平台：HackerOne + Internet Bug Bounty</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    转折点发生在 2024 年下半年。AI 生成的低质量报告（业内称为"AI slop"）开始大规模涌入。到 2025 年，漏洞确认率从此前的 15% 以上<strong style="color:#e74c3c;">暴跌至不足 5%</strong>——每 20 份报告里只有不到 1 份是真实的安全问题。
+  </p>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; margin:0; font-style:italic;">"我们正在被 DDoS 攻击。这些垃圾报告对维护者的心理造成了严重负担，消耗了本该用于真正改进项目的时间和精力。"</p>
+    <p style="font-size:13px; color:#999; margin:8px 0 0 0; text-align:right;">—— Daniel Stenberg</p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    HackerOne 的数据显示，curl 项目遭受的垃圾报告远超同类开源项目。Stenberg 表示，这些"安全研究者"往往带着恶意目的，极力将无关紧要的发现包装成"严重漏洞"，却从不参与实际的代码修复。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    新规则很简单：<strong>不再提供任何金钱奖励，提交垃圾报告者将被永久封禁并公开点名。</strong>这是开源世界对 AI 滥用的一次强硬回击。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第二部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    02 MCP 协议安全危机：7000+ 服务器暴露在 RCE 风险下
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2026 年 4 月，OX Security 研究人员披露了一个令人震惊的发现：Anthropic 的 Model Context Protocol（MCP）存在<strong style="color:#e74c3c;">"设计层面"的远程代码执行漏洞</strong>，影响范围覆盖 Python、TypeScript、Java、Rust 全部官方 SDK。
+  </p>
+
+  <section style="background:#fff3cd; border-radius:10px; padding:18px 20px; margin:1.2em 0; border:1px solid #ffc107;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;"><strong>⚠️ 影响规模</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">• 受影响服务器：<strong style="color:#e74c3c;">7,000+</strong><br>• 受影响下载量：<strong style="color:#e74c3c;">1.5 亿+</strong><br>• 涉及项目：LiteLLM、LangChain、LangFlow、Flowise 等</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    问题的核心在于 MCP 的 STDIO 传输接口设计：它会在返回错误之前先执行任意操作系统命令。这意味着攻击者可以在任何运行 MCP 的系统上获得完全控制权，访问敏感数据、API 密钥、聊天记录，甚至进行横向移动。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    研究人员发现了 <strong>10 个相关 CVE</strong>，涵盖 GPT Researcher、LiteLLM、Agent Zero、Windsurf 等热门项目。更令人担忧的是，Anthropic 官方将这一行为定性为"预期功能"，拒绝修改协议架构。
+  </p>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; margin:0; font-style:italic;">"这是 AI 供应链漏洞之母。一个架构决策，悄无声息地传播到每种语言、每个下游库、每个信任该协议的项目中。"</p>
+    <p style="font-size:13px; color:#999; margin:8px 0 0 0; text-align:right;">—— OX Security 研究团队</p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>紧急建议：</strong>立即审计所有 MCP 集成，阻止公网 IP 访问 STDIO 接口，在沙箱中运行 MCP 服务，仅从可信来源安装 MCP 服务器。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第三部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    03 TalkPipe：桑迪亚国家实验室的 Unix 管道式 AI 编排
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    在一片安全阴云中，一个来自<strong>桑迪亚国家实验室</strong>的开源项目带来了一丝清新。TalkPipe 是一个 Python 工具包，它的设计哲学简单而优雅：<strong style="color:#e74c3c;">像 Unix 管道一样编排 AI 工作流</strong>。
+  </p>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;"><strong>🔧 核心特性</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">• 双重 API：Python 管道语法 + ChatterLang DSL<br>• 流式生成器：内存友好的大数据处理<br>• 即插即用：支持 OpenAI、Ollama、Anthropic</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    TalkPipe 的独特之处在于它不试图成为一个庞大的 AI 平台，而是专注于做好一件事：<strong>让 AI 管道像 Unix 命令一样可组合、可脚本化、可审查</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    用 Python 写：<code style="background:#f0f0f0; padding:2px 6px; border-radius:4px;">io.echo(data="hello") | uppercase() | io.Print()</code>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    用 ChatterLang 写：<code style="background:#f0f0f0; padding:2px 6px; border-radius:4px;">INPUT FROM echo[data="1,2,3"] | cast[cast_type="int"] | print</code>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    对于需要 RAG、批量评分、网页抓取、自动化的工程师和研究人员，TalkPipe 提供了一个不需要放弃 Python 控制权的选择。它在 PyPI 已发布到 0.12.0 版本，正在积极开发中。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第四部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    04 600 万假 Star：GitHub 信任体系正在崩塌
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这是本周最具冲击力的研究。来自卡内基梅隆大学的团队开发了 StarScout 工具，分析了 2019-2024 年间 GitHub 的 <strong>63.9 亿事件、3.26 亿 Star</strong>，发现了一个惊人的地下经济。
+  </p>
+
+  <section style="background:#ffe6e6; border-radius:10px; padding:18px 20px; margin:1.2em 0; border:1px solid #ff6b6b;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;"><strong>🚨 研究发现（ICSE 2026 收录）</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">• 假 Star 总量：<strong style="color:#e74c3c;">600 万+</strong><br>• 涉及仓库：<strong style="color:#e74c3c;">18,617 个</strong><br>• 参与账号：<strong style="color:#e74c3c;">30.1 万个</strong><br>• 最大非恶意类别：<strong style="color:#e74c3c;">AI/LLM 项目</strong></p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    假 Star 的价格低得离谱：<strong>每个仅需 0.03 到 0.85 美元</strong>，可以在 Fiverr、Telegram 甚至普通网站上公开购买。而 VC 们普遍使用 Star 数作为项目筛选指标——Redpoint 数据显示，种子轮项目的中位数 Star 数为 2,850。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    研究揭示了明显的异常模式：某个"FreeDomain"项目有 <strong>15.7 万 Star，但只有 168 个 Watcher</strong>；另一个曾登顶 Runa Capital ROSS 指数榜首的项目，被检测出 47.4% 的欺诈率。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更严重的是，<strong>假 Star 已成为恶意软件分发的温床</strong>。研究者发现的一个案例：一个有 111 个 Star（109 个是假的）的仓库，表面看是区块链应用，实际上通过混淆代码窃取加密货币。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    FTC 2024 年规则已将购买虚假社交影响力列为违规行为，每次违规罚款最高 <strong>53,088 美元</strong>。SEC 也已对在融资中虚增指标的创始人提起诉讼。Star 指标作为技术尽调工具，实际上已经失效。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 结语 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    结语：开源信任重建之路
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这四个事件共同指向一个核心问题：<strong style="color:#e74c3c;">开源生态的信任机制正在被系统性地侵蚀</strong>。AI 放大了攻击者的能力，却没有同等放大防御者的资源。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    curl 的决定或许会引发连锁反应——更多项目可能跟进关闭赏金计划。MCP 的案例警示我们，"设计如此"不能成为推卸责任的借口。而 GitHub Star 经济的崩塌，则需要平台、投资者和监管者共同行动。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    好消息是，像 TalkPipe 这样的项目证明，优秀的开源工具仍在不断涌现。开源精神并未消亡，只是需要新的信任基础设施。
+  </p>
+
+  <!-- 文末引导 -->
+  <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 评论区聊聊：你遇到过 AI 垃圾报告吗？</p>
+    <p style="font-size:15px; color:#333; margin:0;">📤 转发给关心开源安全的朋友</p>
+  </section>
+
+  <!-- 尾部 -->
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>
