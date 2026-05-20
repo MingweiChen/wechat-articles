@@ -1,0 +1,11 @@
+{
+  "date": "2026-05-20",
+  "total": 5,
+  "articles": [
+    {"rank": 1, "prefix": "01", "score": 84.5, "slug": "google-io-spark", "title": "9亿用户见证：谷歌Gemini Spark发布，24小时AI员工正式上岗！"},
+    {"rank": 2, "prefix": "02", "score": 82.5, "slug": "google-ai-exodus-compute", "title": "谷歌AI算力内卷逼走顶尖人才彭博揭秘离职潮"},
+    {"rank": 3, "prefix": "03", "score": 82, "slug": "meta-layoff-ai", "title": "扎克伯格今夜再挥刀：Meta裁员8000人，省下的钱全拿去买GPU"},
+    {"rank": 4, "prefix": "04", "score": 80.5, "slug": "openai-bank-finance", "title": "ChatGPT接入12000家银行：OpenAI正式围观你的存款"},
+    {"rank": 5, "prefix": "05", "score": 80, "slug": "alibaba-ai-revenue-30", "title": "阿里财报亮剑：AI已攻下云收入三成江山"}
+  ]
+}
