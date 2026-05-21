@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "slug": "alibaba-token-15x",
+    "title": "阿里云5个月Token收入涨15倍：未来账单多一项，AI使用费来了！",
+    "review_score": 86.5,
+    "pool_score": 100,
+    "combined_score": 90.5
+  },
+  {
+    "rank": 2,
+    "slug": "mistral-physics-ai",
+    "title": "ASML光刻机故障检修提速120倍：Mistral收购物理AI公司Emmi！",
+    "review_score": 86.5,
+    "pool_score": 89,
+    "combined_score": 87.2
+  },
+  {
+    "rank": 3,
+    "slug": "microsoft-agent-security",
+    "title": "微软紧急开源AI Agent安全工具：85%攻击成功率背后的致命漏洞!",
+    "review_score": 86.5,
+    "pool_score": 88,
+    "combined_score": 86.9
+  },
+  {
+    "rank": 4,
+    "slug": "kingdee-lingee-os",
+    "title": "金蝶徐少春：未来最值钱的员工不是会干活的人，而是能指挥100个AI干活的人!",
+    "review_score": 84.5,
+    "pool_score": 92,
+    "combined_score": 86.8
+  },
+  {
+    "rank": 5,
+    "slug": "tencent-openclaw-wechat",
+    "title": "腾讯OpenClaw接入微信：13亿用户的AI变现窗口打开了！",
+    "review_score": 84.5,
+    "pool_score": 92,
+    "combined_score": 86.8
+  }
+]
