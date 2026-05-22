@@ -1,0 +1,256 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <!-- 开篇区块 -->
+  <section style="background:linear-gradient(135deg,#0a0f1a 0%,#1a237e 50%,#283593 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+    <p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">开源基建</p>
+    <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">领英 Liger Kernel 700 万下载<br>这次直接让 AI 自己写 GPU 底层算子！</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">用 AI 制造更好的 AI，递归已经开始</p>
+  </section>
+
+  <!-- 核弹开头 -->
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">
+    <strong style="color:#1a237e;">700万次下载、100+贡献者、覆盖近40种大模型架构</strong>——领英开源的 Liger Kernel 项目刚刚完成了一次技术跃迁：让 AI Agent 自动编写 GPU 底层算子。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong style="color:#e74c3c;">这不是"AI辅助写代码"，而是"AI独立完成算子工程的分析、实现、测试、优化全流程"。</strong>
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第一部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    01 为什么这件事很难？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    GPU 底层算子（Kernel）开发是大模型训练的"隐形门槛"。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    写一个 Triton 或 CUDA kernel，你需要同时精通：数值计算的数学原理、GPU 硬件架构、内存管理与寄存器优化、还要能在精度和性能之间反复权衡。<strong>全球真正能胜任这个活的人，可能不到几千人。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更要命的是：这批人要同时服务于整个开源社区。每发布一个新的大模型架构（比如 Llama 4、Gemma 3），就需要有人手动适配优化。PyTorch 团队忙不过来，Hugging Face 团队忙不过来，连 NVIDIA 自己都忙不过来。
+  </p>
+
+  <blockquote style="background:#e8eaf6; border-left:4px solid #3949ab; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#1a237e; margin:0; font-weight:bold;">💡 金句</p>
+    <p style="font-size:16px; color:#333; margin:8px 0 0 0; font-style:italic;">开源AI的瓶颈不是想法不够多，而是能写kernel的人不够用。</p>
+  </blockquote>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第二部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    02 领英的解法：让 AI 自己写 Kernel
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    领英 AI 基础设施团队构建了一套完整的 Agent 工作流，覆盖算子开发的全生命周期：
+  </p>
+
+  <section style="background:#fff3e0; border-radius:10px; padding:18px 20px; margin:1.2em 0; border:1px solid #ffb74d;">
+    <p style="font-size:15px; color:#333; margin:0 0 12px 0;"><strong>🔧 liger-kernel-dev：从零创建新算子</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">
+      输入可以是 PyTorch 代码片段、论文链接、甚至一句自然语言描述——比如"ReLU 平方激活函数"。
+    </p>
+    <p style="font-size:15px; color:#555; margin:8px 0 0 0; line-height:1.8;">
+      <strong>Agent 工作流：</strong><br>
+      • <strong style="color:#e65100;">理解阶段</strong>：分析输入，将算子分类为三种复杂度等级<br>
+      • <strong style="color:#e65100;">执行阶段</strong>：参考同类型 Liger kernel，生成完整实现、测试、基准<br>
+      • <strong style="color:#e65100;">验证阶段</strong>：运行正确性校验，硬性错误阻断，软性偏差标记复核
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>实际成果（PR #1171）：</strong>ReLU² kernel 实现 <strong style="color:#e74c3c;">1.9 倍前向加速、3.2 倍反向加速、37.5% 内存节省</strong>。过去需要专家花几天完成的工作，现在只需要人类审核一份结构化 profile 文档。
+  </p>
+
+  <section style="background:#e3f2fd; border-radius:10px; padding:18px 20px; margin:1.2em 0; border:1px solid #64b5f6;">
+    <p style="font-size:15px; color:#333; margin:0 0 12px 0;"><strong>🔗 liger-autopatch：适配新模型架构</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">
+      每个大模型都有微妙的架构差异：Gemma 会把部分计算上转到 fp32，Llama 只做部分转换；RMSNorm 的 offset 参数各家不同；MoE 路由、视觉编码器、RoPE 变体更是五花八门。
+    </p>
+    <p style="font-size:15px; color:#555; margin:8px 0 0 0; line-height:1.8;">
+      错误处理任何一个细节，你不会收到报错——只会得到一个"看起来在训练，其实在产生垃圾梯度"的模型。
+    </p>
+    <p style="font-size:15px; color:#555; margin:8px 0 0 0; line-height:1.8;">
+      <strong>实际成果（PR #1165/1166）：</strong>Nemotron 和 Ministral 两个模型的适配，<strong style="color:#1565c0;">代码直接合并，人工只做 profile 审核</strong>。
+    </p>
+  </section>
+
+  <section style="background:#fce4ec; border-radius:10px; padding:18px 20px; margin:1.2em 0; border:1px solid #f48fb1;">
+    <p style="font-size:15px; color:#333; margin:0 0 12px 0;"><strong>⚡ liger-kernel-perf：优化现有算子</strong></p>
+    <p style="font-size:15px; color:#555; margin:0; line-height:1.8;">
+      这是最硬核的部分。Agent 会：<br>
+      • 运行 NVIDIA NCU 性能分析<br>
+      • 诊断瓶颈类型（内存带宽受限、计算受限、延迟受限）<br>
+      • 生成多个优化版本，每个版本附带"实验室笔记"<br>
+      • 自动学习历史优化经验，迭代改进<br>
+      • 任何导致其他指标下降超过 5% 的改动会被自动拒绝
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>实际成果（PR #1187）：</strong><code style="background:#f5f5f5; padding:2px 6px; border-radius:3px;">fused_add_rms_norm</code> 反向传播 kernel 在 H100 上只有 12.5% 的 GPU 利用率——115 个寄存器/线程导致严重的寄存器压力。Agent 诊断问题后应用四项针对性优化。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    最终结果：<strong style="color:#e74c3c;">3.35 倍反向加速，整体 59% 全程加速，40 项测试零回归</strong>。
+  </p>
+
+  <blockquote style="background:#e8eaf6; border-left:4px solid #3949ab; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#1a237e; margin:0; font-weight:bold;">💡 金句</p>
+    <p style="font-size:16px; color:#333; margin:8px 0 0 0; font-style:italic;">寄存器压力导致 GPU 只跑了八分之一性能，AI 用四步修好了人类可能调一周的 bug。</p>
+  </blockquote>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第三部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    03 内部实战：64.7% GPU 成本直降
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    领英把这套系统用在了内部推荐模型的训练上。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    他们构建了一个基于 <code style="background:#f5f5f5; padding:2px 6px; border-radius:3px;">torch.compile</code> 的 kernel 选择框架：通过 TorchDynamo 捕获计算图，识别可融合操作，从 CI/CD 验证过的 kernel 注册表中选择最优实现，通过 torch fx 图变换自动替换。
+  </p>
+
+  <section style="background:linear-gradient(135deg,#1b5e20 0%,#2e7d32 100%); border-radius:10px; padding:20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:rgba(255,255,255,0.8); margin:0 0 12px 0;">📊 Agent 生成的批处理分区均值池化 kernel 成果：</p>
+    <p style="font-size:18px; color:#fff; margin:0; line-height:2;">
+      <strong>编码器步骤时间：</strong>400ms → 40ms（<span style="color:#76ff03;">10 倍提速</span>）<br>
+      <strong>平均训练步骤时间：</strong>1.12s → 0.39s（<span style="color:#76ff03;">3 倍提速</span>）<br>
+      <strong>端到端训练 GPU 小时数：</strong><span style="color:#76ff03;">节省 64.7%</span>
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是实验室数据，是真实跑在领英推荐系统训练流程里的生产结果。
+  </p>
+
+  <blockquote style="background:#e8eaf6; border-left:4px solid #3949ab; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#1a237e; margin:0; font-weight:bold;">💡 金句</p>
+    <p style="font-size:16px; color:#333; margin:8px 0 0 0; font-style:italic;">64.7% 的 GPU 成本省下来了，省出来的算力足够再训几个模型。</p>
+  </blockquote>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第四部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    04 这套系统为什么有效？五个设计原则
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    领英总结的设计原则，对任何想用 Agent 做工程自动化的团队都有参考价值：
+  </p>
+
+  <p style="font-size:15px; color:#333; margin:0.8em 0; line-height:1.8; padding-left:0;">
+    <strong style="color:#1a237e;">1. Profile 才是产品，代码是副产品</strong><br>
+    <span style="padding-left:1em;">Agent 不直接写代码——它先生成一份结构化的"决策档案"（Profile），捕获所有架构决策。人工审核的是推理过程，不是代码 diff。</span>
+  </p>
+
+  <p style="font-size:15px; color:#333; margin:0.8em 0; line-height:1.8; padding-left:0;">
+    <strong style="color:#1a237e;">2. 复用而非发明</strong><br>
+    <span style="padding-left:1em;">三级分类系统确保 Agent 参考同类已验证的实现，而不是自由发挥。创造力被约束在真正需要创造力的地方。</span>
+  </p>
+
+  <p style="font-size:15px; color:#333; margin:0.8em 0; line-height:1.8; padding-left:0;">
+    <strong style="color:#1a237e;">3. 阶段性人工检查点</strong><br>
+    <span style="padding-left:1em;">三阶段流水线（理解→执行→验证）之间强制人工复核，把审核工作量控制在"看一份文档"的级别。</span>
+  </p>
+
+  <p style="font-size:15px; color:#333; margin:0.8em 0; line-height:1.8; padding-left:0;">
+    <strong style="color:#1a237e;">4. 验证是一等公民</strong><br>
+    <span style="padding-left:1em;">区分硬性失败和软性失败，三次失败后停止生成并汇报，而不是产出越来越错的代码。</span>
+  </p>
+
+  <p style="font-size:15px; color:#333; margin:0.8em 0; line-height:1.8; padding-left:0;">
+    <strong style="color:#1a237e;">5. 模板驱动一致性</strong><br>
+    <span style="padding-left:1em;">生成的代码遵循 Liger 项目的所有约定，让审核快速、让代码可维护。</span>
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第五部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    05 "AI 造 AI"的递归开始了
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Twitter 上讲了两年的"AI building AI"，大部分是营销话术。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong style="color:#e74c3c;">这一次是真的。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    写出 <code style="background:#f5f5f5; padding:2px 6px; border-radius:3px;">fused_add_rms_norm</code> 优化 kernel 的 Agent，训练出的模型可能会成为下一代 Agent。那些 Agent 会写出更好的 kernel。递归已经在领英的生产环境里真实运转，为推荐系统省下 64.7% 的算力。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>更关键的是，这套模式可以复制。</strong>每个成熟的开源基础设施项目——PyTorch、vLLM、llama.cpp、Triton 本身——都有同样的结构：重复性工程任务、明确的正确性标准、专家时间瓶颈。领英刚刚把剧本公开了。
+  </p>
+
+  <blockquote style="background:#e8eaf6; border-left:4px solid #3949ab; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#1a237e; margin:0; font-weight:bold;">💡 金句</p>
+    <p style="font-size:16px; color:#333; margin:8px 0 0 0; font-style:italic;">写 kernel 的 AI 训练下一代 AI，下一代 AI 再写更好的 kernel——递归已经在跑了。</p>
+  </blockquote>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第六部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a237e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #3949ab;">
+    06 对开发者意味着什么？
+  </p>
+
+  <section style="background:#f5f5f5; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; margin:0 0 10px 0;"><strong style="color:#1a237e;">如果你在做 Agent 工程化：</strong></p>
+    <p style="font-size:15px; color:#555; margin:0 0 12px 0;">直接抄"Profile 作为中间表示"的模式。不要让 LLM 直接从自然语言生成代码，强制它先输出结构化决策文档，人审文档，代码从文档确定性生成。</p>
+
+    <p style="font-size:15px; color:#333; margin:0 0 10px 0;"><strong style="color:#1a237e;">如果你在维护开源库：</strong></p>
+    <p style="font-size:15px; color:#555; margin:0 0 12px 0;">发布你自己的 Agent Skills。Liger 把工作流直接放在仓库里，任何人用编程 Agent 都能跑。你的贡献者管道瞬间扩容无限倍。</p>
+
+    <p style="font-size:15px; color:#333; margin:0 0 10px 0;"><strong style="color:#1a237e;">如果你对 GPU kernel 开发感兴趣但被门槛劝退：</strong></p>
+    <p style="font-size:15px; color:#555; margin:0;">护城河刚刚矮了一大截。你现在可以通过理解数学原理——而不是硬件细节——为顶级开源项目贡献优化算子。</p>
+  </section>
+
+  <!-- 结语 -->
+  <section style="background:linear-gradient(135deg,#0a0f1a 0%,#1a237e 100%); border-radius:10px; padding:20px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:16px; color:#fff; margin:0 0 12px 0; line-height:1.8;">
+      <strong>开源 AI 基础设施的瓶颈从来不是想法，而是专家工时。</strong><br>
+      这个瓶颈正在被 AI 自己消解。
+    </p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.7); margin:0;">
+      代码在 github.com/linkedin/Liger-Kernel，工作流随仓库一起发布。
+    </p>
+  </section>
+
+  <blockquote style="background:#e8eaf6; border-left:4px solid #3949ab; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#1a237e; margin:0; font-weight:bold;">💡 金句</p>
+    <p style="font-size:16px; color:#333; margin:8px 0 0 0; font-style:italic;">门槛从"精通 CUDA 十年"变成了"看得懂数学公式"——开源社区的游戏规则变了。</p>
+  </blockquote>
+
+  <!-- 文末引导 -->
+  <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 评论区聊聊：你觉得AI写底层代码靠谱吗？</p>
+    <p style="font-size:15px; color:#333; margin:0;">📤 转发给搞AI基建的朋友</p>
+  </section>
+
+  <!-- 尾部 -->
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>

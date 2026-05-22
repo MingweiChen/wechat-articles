@@ -1,0 +1,10 @@
+{
+  "date": "2026-05-22",
+  "articles": [
+    {"rank": 1, "slug": "likafu-lisasu-agent", "title": "李开复对话苏姿丰：大模型排座次结束，Agent诸神之战开启！", "score": 92},
+    {"rank": 2, "slug": "microsoft-ey-agent", "title": "微软安永10亿美元大单：派工程师进驻企业，不落地不罢休！", "score": 90},
+    {"rank": 3, "slug": "lingji-os-release", "title": "四大痛点直接歼灭！国内首个AI智能体底层设施来了！", "score": 88},
+    {"rank": 4, "slug": "openai-codex-finances", "title": "2亿人问理财，OpenAI接入银行账户：AI要管你的钱了！", "score": 86.5},
+    {"rank": 5, "slug": "linkedin-liger-kernel", "title": "领英Liger Kernel 700万下载，这次直接让AI自己写GPU底层算子！", "score": 84}
+  ]
+}

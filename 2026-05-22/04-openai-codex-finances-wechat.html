@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2亿人问理财，OpenAI接入银行账户：AI要管你的钱了！</title>
+  <style>
+    /* 微信公众号样式重置 */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; background: #fff; }
+    .article { max-width: 677px; margin: 0 auto; padding: 20px 16px; }
+    
+    /* 标题样式 */
+    h1 { font-size: 22px; font-weight: bold; color: #000; line-height: 1.4; margin-bottom: 24px; text-align: center; }
+    
+    /* 引言 */
+    .lead { font-size: 16px; font-weight: bold; color: #000; margin-bottom: 20px; }
+    
+    /* 正文段落 */
+    p { font-size: 16px; margin-bottom: 20px; text-align: justify; }
+    
+    /* 章节标题 */
+    h2 { font-size: 18px; font-weight: bold; color: #000; margin: 32px 0 20px 0; padding-left: 12px; border-left: 4px solid #07c160; }
+    
+    /* 小标题/强调 */
+    .section-lead { font-size: 16px; font-weight: bold; color: #000; margin-bottom: 16px; }
+    
+    /* 引用金句 */
+    .quote { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-left: 4px solid #07c160; padding: 16px 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+    .quote p { font-size: 15px; font-weight: 500; color: #1a1a1a; margin: 0; font-style: italic; }
+    
+    /* 列表 */
+    ul { margin: 16px 0 20px 24px; }
+    li { font-size: 16px; margin-bottom: 8px; }
+    
+    /* 有序列表 */
+    ol { margin: 16px 0 20px 24px; }
+    ol li { font-size: 16px; margin-bottom: 12px; }
+    
+    /* 加粗文本 */
+    strong { font-weight: 600; color: #000; }
+    
+    /* 分隔线 */
+    hr { border: none; border-top: 1px dashed #ddd; margin: 32px 0; }
+    
+    /* 结尾强调 */
+    .ending { font-size: 16px; font-weight: bold; color: #000; text-align: center; margin-top: 32px; padding: 20px; background: #f8f9fa; border-radius: 8px; }
+    
+    /* 问答列表 */
+    .qa-list { background: #f8f9fa; padding: 16px 20px; border-radius: 8px; margin: 16px 0 20px 0; }
+    .qa-list li { font-size: 15px; color: #444; }
+  </style>
+</head>
+<body>
+  <article class="article">
+    <h1>OpenAI 一周三连发：Codex 正式解锁"目标模式"，ChatGPT 接管你的银行账户</h1>
+    
+    <p class="lead">5 月 22 日，OpenAI 又更新了。</p>
+    
+    <p>距离上次 Codex 大版本升级不到一个月，Goal Mode（目标模式）从实验功能正式"转正"。与此同时，Mac 端新增 Appshots 功能，而 ChatGPT 的个人财务功能也在美国灰度开放——AI 可以直接读取你的银行账单了。</p>
+    
+    <p>这不是一次单一功能发布，而是 OpenAI 在"AI 超级入口"战略上的三管齐下。</p>
+    
+    <hr>
+    
+    <h2>一、Goal Mode 转正：从"指令式"到"目标式"的范式跃迁</h2>
+    
+    <p class="section-lead">300 万周活开发者，终于等来了真正的"放手"体验。</p>
+    
+    <p>此前的 Codex 模式是"任务式"的：开发者给指令，AI 执行，完成一步、等下一步。效率提升明显，但本质上还是人在"带节奏"。</p>
+    
+    <p>Goal Mode 的设计逻辑完全不同。用户只需定义最终产出目标和验收标准，Codex 会在后台持续自主运行——哪怕需要几小时甚至几天，直到任务达成。</p>
+    
+    <p><strong>这是什么概念？</strong></p>
+    
+    <p>传统的 AI 编程助手像个实习生，你要拆任务、排工序、盯进度。Goal Mode 下的 Codex 更像项目经理：你说"下周一之前把这个 PR 合并"，它自己拆解依赖、跑测试、处理 merge conflict，中途遇到问题还会主动暂停等你确认。</p>
+    
+    <p>OpenAI 官方文档给出的典型场景包括：关闭待处理 PR、清理技术债务、跨多天完成代码重构。Codex 团队负责人 Derrick Choi 在 X 上透露，目标的定义方式直接影响效果——需要明确产出物、约束条件和验收标准。</p>
+    
+    <div class="quote">
+      <p>Goal Mode 不是让 AI 更聪明，而是让开发者更懒——这是生产力的最高形态。</p>
+    </div>
+    
+    <p>更关键的变化在于工作流整合。Goal Mode 现已同步支持 Codex 桌面端、IDE 扩展和 CLI，企业用户还能通过新的 Analytics 面板追踪代码生成量、Token 消耗和插件使用情况。</p>
+    
+    <p><strong>行业背景：</strong> Anthropic 的 Claude Code 近期势头凶猛，被不少企业列为首选工具。OpenAI 这次密集更新，本质上是在"编程 Agent"赛道上发起正面反攻。</p>
+    
+    <hr>
+    
+    <h2>二、Appshots：Mac 用户的"一键投喂"</h2>
+    
+    <p class="section-lead">同时双击 Command 键，当前窗口直接进 AI。</p>
+    
+    <p>Appshots 是本周更新中最"小而美"的功能，但实用性极高。</p>
+    
+    <p>操作逻辑非常简单：在 Mac 上同时按下左右两个 Command 键，Codex 会自动截取当前活动窗口，并附带窗口内的所有文本信息——包括屏幕上没显示出来的部分。</p>
+    
+    <p>这意味着什么？</p>
+    
+    <p>当你在 Figma 里设计一个复杂界面、在 Chrome 里调试一段 CSS、在 VS Code 里排查一个诡异 Bug，不再需要手动截图、复制粘贴、描述上下文。按一下快捷键，所有信息直接进入 Codex 的上下文，AI 可以直接"看到"你看到的。</p>
+    
+    <div class="quote">
+      <p>Appshots 消灭的不是操作步骤，而是认知负荷——这才是真正的人机交互升级。</p>
+    </div>
+    
+    <p>另一个值得关注的配套更新：远程电脑控制。Codex 现在可以在 Mac 锁屏状态下继续执行任务，用户通过 Codex Mobile 远程监控进度。OpenAI 强调安全机制：短期授权、覆盖显示、本地输入自动重新锁屏。</p>
+    
+    <hr>
+    
+    <h2>三、个人财务功能：ChatGPT 开始接管你的钱包</h2>
+    
+    <p class="section-lead">连接 12000+ 金融机构，看板可视化你的资产和消费。</p>
+    
+    <p>5 月 15 日，OpenAI 悄然向美国 Pro 用户灰度推送了 ChatGPT 的个人财务（Finances）功能。一周后，这项功能的争议热度丝毫不减。</p>
+    
+    <p><strong>核心机制：</strong> 用户通过 Plaid 连接银行、信用卡、投资账户，ChatGPT 生成可视化财务看板，涵盖资产组合表现、消费分析、订阅追踪、待付账单四大模块。</p>
+    
+    <p><strong>典型问答：</strong></p>
+    <ul class="qa-list">
+      <li>"过去 3 个月我在外卖上花了多少？"</li>
+      <li>"帮我规划 5 年内在湾区买房的存款计划"</li>
+      <li>"如果我现在卖掉这只股票，对今年报税有什么影响？"</li>
+    </ul>
+    
+    <p>OpenAI 表示，每月有超过 2 亿人在 ChatGPT 上咨询财务问题。GPT-5.5 的推理能力提升，让它能够处理"复杂的、上下文依赖的个人财务问题"。</p>
+    
+    <div class="quote">
+      <p>当 AI 开始读你的银行账单，便利与隐私之间的边界，由你自己定义。</p>
+    </div>
+    
+    <p><strong>争议焦点：</strong> 隐私与信义责任。人类理财顾问有法定义务为客户利益服务，ChatGPT 没有。OpenAI 在界面上写着"不能替代专业理财建议"，但整个产品体验却在模拟专业理财师。这个认知落差，才是真正的风险敞口。</p>
+    
+    <p>技术细节层面，ChatGPT 只能读取账户余额、交易记录、投资和负债信息，无法看到完整账号或执行转账操作。用户可以随时断开连接，数据在 30 天内删除。</p>
+    
+    <p><strong>商业版图：</strong> OpenAI 在 4 月收购了个人理财 AI 初创公司 Hiro 团队，据称这一功能正是由 Hiro 核心成员主导开发。Plaid CEO Zach Perret 的表态耐人寻味："今天发布的只是起点，一年、两年、三年后，整个行业的形态都会不同。"</p>
+    
+    <hr>
+    
+    <h2>四、超级入口之战：OpenAI 的底层逻辑</h2>
+    
+    <p>把 Codex、Appshots、个人财务三件事放在一起看，会发现 OpenAI 的野心早已超越单一产品。</p>
+    
+    <p><strong>Codex 的定位正在从"编程助手"变成"软件开发全生命周期平台"。</strong> 内置浏览器、111+ 插件集成、跨应用代理执行……Codex 负责人 Thibault Sottiaux 直接在媒体会上承认："我们在公开构建超级应用。"</p>
+    
+    <p><strong>ChatGPT 则在向"个人数据中枢"演进。</strong> 健康、财务、日程、工作——每一个高价值数据品类，OpenAI 都在尝试接入。Plaid 连接是第一步，Intuit 集成已在路上（意味着报税、信用卡申请等动作也能在 ChatGPT 内完成）。</p>
+    
+    <div class="quote">
+      <p>AI 战争的终局不在谁模型更强，而在谁成为用户生活的默认入口。</p>
+    </div>
+    
+    <p>对开发者和普通用户而言，这轮更新的信号非常明确：<strong>OpenAI 不满足于做工具，它要做平台。</strong></p>
+    
+    <hr>
+    
+    <h2>五、该如何理解这波"密集轰炸"？</h2>
+    
+    <p>三个要点：</p>
+    
+    <ol>
+      <li><strong>竞争压力加速产品节奏。</strong> Anthropic 的 Claude Code 和 Cowork 在企业市场抢占心智，OpenAI 必须用更激进的功能迭代来反击。</li>
+      <li><strong>从 SaaS 到 Agent，行业范式正在切换。</strong> Goal Mode 是典型的"目标导向型 Agent"，用户不再下达步骤指令，而是定义终态。这对开发流程、项目管理、甚至职业分工都会产生深远影响。</li>
+      <li><strong>AI 正在深入高信任度数据领域。</strong> 财务、健康、身份——这些过去只有银行和医院能触及的数据，现在 AI 也在叩门。监管、隐私、安全的讨论会越来越激烈。</li>
+    </ol>
+    
+    <p><strong>最后一个判断：</strong> 这不是 OpenAI 的"周更新"，而是"月计划"的集中释放。未来一个月内，大概率还会有模型层面的重磅消息（GPT-5.5 已在财务功能中亮相，通用版本发布或许就在眼前）。</p>
+    
+    <hr>
+    
+    <div class="ending">
+      <p>OpenAI 不是在发布功能，而是在重新定义"AI 应该管多少事"的边界。</p>
+      <p style="margin-top: 12px;">Codex 管你的代码，ChatGPT 管你的钱包，Appshots 管你的屏幕。<br>剩下的问题只有一个：你愿意把边界画在哪里？</p>
+    </div>
+    
+  </article>
+</body>
+</html>
