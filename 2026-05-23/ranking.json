@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-05-23T05:43:00Z",
+  "run_id": "2026-05-23_053519",
+  "articles": [
+    {
+      "rank": 1,
+      "score": 92,
+      "iteration": 1,
+      "slug": "微软峰会到华为大会这5个开源新趋势决定了你下半年的财路建议收藏",
+      "title": "微软峰会到华为大会：这5个开源新趋势决定了你下半年的财路（建议收藏）",
+      "formula_type": "干货清单型",
+      "topic_dir": "topic-05-agentic-ai-stack"
+    },
+    {
+      "rank": 2,
+      "score": 90,
+      "iteration": 1,
+      "slug": "OpenAI攻克80年数学悬案的同一天5400台防火墙被AI辅助攻破技术双刃剑的残酷真相",
+      "title": "OpenAI攻克80年数学悬案的同一天，5400台防火墙被AI辅助攻破：技术双刃剑的残酷真相",
+      "formula_type": "借势对立型",
+      "topic_dir": "topic-03-ai-security-paradox"
+    },
+    {
+      "rank": 3,
+      "score": 89,
+      "iteration": 1,
+      "slug": "一边是季度盈利5.59亿美元一边是年亏损64亿美元AI时代最魔幻的两极撕裂",
+      "title": "一边是季度盈利5.59亿美元，一边是年亏损64亿美元：AI时代最魔幻的两极撕裂",
+      "formula_type": "极端对比型",
+      "topic_dir": "topic-04-ai-two-worlds"
+    },
+    {
+      "rank": 4,
+      "score": 88,
+      "iteration": 1,
+      "slug": "Anthropic单季赚了109亿而第一批All-in-AI的普通人正在被自己押注的技术淘汰",
+      "title": "Anthropic单季赚了109亿，而第一批All in AI的普通人，正在被自己押注的技术淘汰",
+      "formula_type": "镜像共鸣型",
+      "topic_dir": "topic-01-anthropic-mirror"
+    },
+    {
+      "rank": 5,
+      "score": 86,
+      "iteration": 1,
+      "slug": "Anthropic季度利润5.59亿美元提前两年盈利AI公司只会烧钱的常识被彻底撕碎了",
+      "title": "Anthropic季度利润5.59亿美元，提前两年盈利：AI公司只会烧钱的常识，被彻底撕碎了",
+      "formula_type": "颠覆常识型",
+      "topic_dir": "topic-02-anthropic-profit"
+    }
+  ]
+}
