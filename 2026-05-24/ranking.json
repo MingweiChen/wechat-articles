@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-05-24_061524_go7y",
+  "generated_at": "2026-05-24T06:25:00Z",
+  "total_articles": 5,
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "karpathy-149k-star",
+      "title": "一个文件狂揽149k Star，Karpathy教AI写代码的4条铁律火了。",
+      "score": 88.0,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": 2,
+      "slug": "karpathy-joins-anthropic",
+      "title": "Karpathy转投Anthropic，15个月估值翻15倍的公司又抢走一人！",
+      "score": 86.5,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": 3,
+      "slug": "google-io-2026",
+      "title": "月活9亿的Gemini开始干活了，Google再砸400亿押注AI！",
+      "score": 86.5,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": 4,
+      "slug": "google-400b-anthropic",
+      "title": "Google砸400亿投资对手Anthropic，AI三强争霸变成二打一！",
+      "score": 84.5,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 8
+      }
+    },
+    {
+      "rank": 5,
+      "slug": "multica-ai-teammates",
+      "title": "GitHub日涨410星，这个项目让10个AI像员工一样接任务。",
+      "score": 84.5,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9
+      }
+    }
+  ]
+}
