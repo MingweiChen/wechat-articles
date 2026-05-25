@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-05-25T05:30:00Z",
+  "run_id": "2026-05-25_051653_fkf4",
+  "total_articles": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "score": 85,
+      "slug": "topic2-ai-agent",
+      "title": "52%企业已用AI Agent上线生产，88%获正向ROI，聊天机器人时代终结！",
+      "formula_type": "数字震撼型",
+      "html_file": "01-ai-agent-wechat.html",
+      "iteration": 1,
+      "dimensions": {"hook":9,"punch":9,"density":8,"structure":8,"compliance":8}
+    },
+    {
+      "rank": 2,
+      "score": 84.5,
+      "slug": "topic1-model-war",
+      "title": "72小时3巨头同发新旗舰，DeepSeek价格仅OpenAI六分之一，大模型格局变了！",
+      "formula_type": "数字对决型",
+      "html_file": "02-model-war-wechat.html",
+      "iteration": 1,
+      "dimensions": {"hook":9,"punch":9,"density":8,"structure":8,"compliance":8}
+    },
+    {
+      "rank": 3,
+      "score": 84.5,
+      "slug": "topic4-stanford-report",
+      "title": "斯坦福报告实锤：中美AI差距仅剩2.7%，三年前的恐慌可以收起来了。",
+      "formula_type": "反转验证型",
+      "html_file": "03-stanford-report-wechat.html",
+      "iteration": 1,
+      "dimensions": {"hook":9,"punch":8,"density":9,"structure":8,"compliance":8}
+    },
+    {
+      "rank": 4,
+      "score": 84.5,
+      "slug": "topic5-humanoid-robot",
+      "title": "特斯拉Optimus年产100万台，中国掌控70%供应链，机器人元年来了！",
+      "formula_type": "数字震撼型",
+      "html_file": "04-humanoid-robot-wechat.html",
+      "iteration": 1,
+      "dimensions": {"hook":9,"punch":8,"density":9,"structure":8,"compliance":8}
+    },
+    {
+      "rank": 5,
+      "score": 84,
+      "slug": "topic3-ai-investment",
+      "title": "一季度1100亿砸向AI，研发投入超营收10倍，这不是泡沫是国运豪赌。",
+      "formula_type": "数字震撼型",
+      "html_file": "05-ai-investment-wechat.html",
+      "iteration": 1,
+      "dimensions": {"hook":9,"punch":9,"density":8,"structure":8,"compliance":8}
+    }
+  ]
+}
