@@ -1,0 +1,71 @@
+{
+  "date": "2026-05-26",
+  "run_id": "2026-05-26_041500_2rd1",
+  "articles": [
+    {
+      "rank": 1,
+      "score": 91,
+      "slug": "musk-altman-trial",
+      "title": "马斯克败诉OpenAI：1500亿索赔被驳回，但审判爆出的内幕才是重头戏！",
+      "formula_type": "权威人物型",
+      "iteration": 1,
+      "files": {
+        "content": "musk-altman-trial/content.md",
+        "html": "musk-altman-trial/musk-altman-trial-wechat.html",
+        "review": "musk-altman-trial/review.json"
+      }
+    },
+    {
+      "rank": 2,
+      "score": 90,
+      "slug": "meta-layoffs",
+      "title": "扎克伯格再挥刀：Meta裁员8000人，省下的钱全拿去买GPU！",
+      "formula_type": "权威人物型",
+      "iteration": 1,
+      "files": {
+        "content": "meta-layoffs/content.md",
+        "html": "meta-layoffs/meta-layoffs-wechat.html",
+        "review": "meta-layoffs/review.json"
+      }
+    },
+    {
+      "rank": 3,
+      "score": 89,
+      "slug": "anthropic-valuation",
+      "title": "Anthropic估值冲击9000亿：成立仅5年，凭什么超越OpenAI成全球最贵AI公司！",
+      "formula_type": "数字震撼型",
+      "iteration": 1,
+      "files": {
+        "content": "anthropic-valuation/content.md",
+        "html": "anthropic-valuation/anthropic-valuation-wechat.html",
+        "review": "anthropic-valuation/review.json"
+      }
+    },
+    {
+      "rank": 4,
+      "score": 88,
+      "slug": "deepseek-price-cut",
+      "title": "DeepSeek永久降价75%：API价格低至OpenAI九分之一，定价权之战开打！",
+      "formula_type": "数字震撼型",
+      "iteration": 1,
+      "files": {
+        "content": "deepseek-price-cut/content.md",
+        "html": "deepseek-price-cut/deepseek-price-cut-wechat.html",
+        "review": "deepseek-price-cut/review.json"
+      }
+    },
+    {
+      "rank": 5,
+      "score": 87,
+      "slug": "github-agent-skills",
+      "title": "GitHub热榜变天：Agent Skills大爆发，单日涨星2000+，AI编程技能树时代来了！",
+      "formula_type": "数字震撼型",
+      "iteration": 1,
+      "files": {
+        "content": "github-agent-skills/content.md",
+        "html": "github-agent-skills/github-agent-skills-wechat.html",
+        "review": "github-agent-skills/review.json"
+      }
+    }
+  ]
+}
