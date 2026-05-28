@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-28",
+  "articles": [
+    {
+      "rank": 1,
+      "slug": "huawei-tau-law",
+      "title": "华为韬定律：55%密度提升+41%能效，逻辑折叠秋季首发！",
+      "score": 95,
+      "reason": "国内最热话题，技术深度+自主创新叙事"
+    },
+    {
+      "rank": 2,
+      "slug": "anthropic-stainless",
+      "title": "3亿美元收购编译器公司，Anthropic掐住OpenAI的SDK命脉！",
+      "score": 92,
+      "reason": "冲突感强，AI大战新维度"
+    },
+    {
+      "rank": 3,
+      "slug": "pope-ai-warning",
+      "title": "14亿信徒的领袖警告：AI风险已大到梵蒂冈都坐不住了！",
+      "score": 88,
+      "reason": "角度独特，宗教+科技罕见交汇"
+    },
+    {
+      "rank": 4,
+      "slug": "ai-models-leak",
+      "title": "440亿vs240亿：三家AI巨头下一代模型同周泄露！",
+      "score": 85,
+      "reason": "信息量大，模型军备竞赛"
+    },
+    {
+      "rank": 5,
+      "slug": "amazon-snowflake",
+      "title": "60亿美元敲定：Amazon联手Snowflake，Agent专用芯片时代正式开启！",
+      "score": 82,
+      "reason": "行业趋势，Agent芯片赛道"
+    }
+  ]
+}
