@@ -1,235 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; max-width: 680px; margin: 0 auto; padding: 20px; }
-h1 { font-size: 22px; font-weight: bold; line-height: 1.4; margin-bottom: 20px; }
-h2 { font-size: 18px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #1a1a1a; }
-p { margin: 15px 0; text-align: justify; }
-blockquote { border-left: 4px solid #07c160; padding-left: 15px; margin: 20px 0; color: #666; background: #f7f7f7; padding: 15px; }
-strong { color: #07c160; }
-ul, ol { padding-left: 20px; }
-li { margin: 8px 0; }
-.highlight { background: linear-gradient(to bottom, transparent 60%, #ffe066 60%); }
-</style>
-</head>
-<body>
-<h1>华为发布"韬定律"：不靠EUV光刻机，用"时间缩微"挑战摩尔定律</h1>
-<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:12px; padding:24px; margin:1.2em 0;">
-<p style="font-size:24px; font-weight:bold; color:#fff; text-align:center; margin:0 0 12px 0;">
-381款芯片 × 55%密度提升 × 2031年等效1.4nm
-</p>
-<p style="font-size:16px; color:#ccc; text-align:center; margin:0;">
-当所有人都在追逐EUV时，华为选择了另一条路
-</p>
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+<p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">科技深度</p>
+<p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">华为发布"韬定律"<br>不靠EUV光刻机，用"时间缩微"挑战摩尔定律</p>
+<p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">381款芯片 × 55%密度提升 × 2031年等效1.4nm</p>
 </section>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-5月25日，ISCAS 2026（IEEE国际电路与系统研讨会），何庭波发布了一张PPT。台下的国际半导体专家们先是沉默，然后开始交头接耳。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-PPT上写着一个希腊字母：<strong style="color:#e74c3c;">τ（韬）</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-这是中国半导体行业第一次在全球学术顶会上，提出一个指导产业发展的理论框架。不是跟随，不是追赶，而是<strong style="color:#e74c3c;">另起炉灶</strong>。
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;"><strong style="color:#e74c3c;">当所有人都在追逐EUV时，华为选择了另一条路。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">5月25日，ISCAS 2026（IEEE国际电路与系统研讨会），何庭波发布了一张PPT。台下的国际半导体专家们先是沉默，然后开始交头接耳。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">PPT上写着一个希腊字母：<strong style="color:#e74c3c;">τ（韬）</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是中国半导体行业第一次在全球学术顶会上，提出一个指导产业发展的理论框架。不是跟随，不是追赶，而是<strong style="color:#e74c3c;">另起炉灶</strong>。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-01 摩尔定律撞墙了，然后呢？
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-先说一个残酷的事实：摩尔定律正在死亡。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-1965年，戈登·摩尔提出了那个著名的预言：集成电路上的晶体管数量每18-24个月翻一番，成本减半。这条定律统治了半导体行业60年。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-但现在，物理极限来了。
-</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">01 摩尔定律撞墙了，然后呢？</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先说一个残酷的事实：摩尔定律正在死亡。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">1965年，戈登·摩尔提出了那个著名的预言：集成电路上的晶体管数量每18-24个月翻一番，成本减半。这条定律统治了半导体行业60年。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但现在，物理极限来了。</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
-• 3nm工艺，晶体管栅极宽度只有<strong>十几个原子</strong><br>
-• 2nm节点，量子隧穿效应开始显著<br>
-• EUV光刻机单台售价<strong>超20亿美元</strong>，全球只有ASML能造<br>
-• 从3nm到2nm，制造成本<strong>暴涨40%</strong>，良率却在下降
-</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">• 3nm工艺，晶体管栅极宽度只有<strong>十几个原子</strong><br>• 2nm节点，量子隧穿效应开始显著<br>• EUV光刻机单台售价<strong>超20亿美元</strong>，全球只有ASML能造<br>• 从3nm到2nm，制造成本<strong>暴涨40%</strong>，良率却在下降</p>
 </blockquote>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-传统的"几何缩微"——把晶体管越做越小——已经快走到头了。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-更关键的是，<strong style="color:#e74c3c;">中国买不到EUV</strong>。出口管制之下，这条路对我们来说，门关上了。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-怎么办？
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统的"几何缩微"——把晶体管越做越小——已经快走到头了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更关键的是，<strong style="color:#e74c3c;">中国买不到EUV</strong>。出口管制之下，这条路对我们来说，门关上了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">怎么办？</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-02 韬定律：用"时间"换"空间"
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-何庭波给出的答案是：<strong style="color:#e74c3c;">换一个维度思考问题</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-既然在"空间"上（把晶体管做得更小）受阻，那就在"时间"上做文章。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-这就是<strong style="color:#e74c3c;">韬（τ）定律</strong>的核心——<strong>时间缩微</strong>。
-</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">02 韬定律：用"时间"换"空间"</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">何庭波给出的答案是：<strong style="color:#e74c3c;">换一个维度思考问题</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">既然在"空间"上（把晶体管做得更小）受阻，那就在"时间"上做文章。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是<strong style="color:#e74c3c;">韬（τ）定律</strong>的核心——<strong>时间缩微</strong>。</p>
 <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
-<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
-<strong>韬定律的核心逻辑：</strong>
-</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
-摩尔定律：缩小晶体管尺寸 → 塞进更多晶体管 → 性能提升<br><br>
-韬定律：<strong style="color:#e74c3c;">优化计算时序</strong> → 减少无效等待 → 同样的晶体管做更多的事 → 等效性能提升
-</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;"><strong>韬定律的核心逻辑：</strong></p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">摩尔定律：缩小晶体管尺寸 → 塞进更多晶体管 → 性能提升<br><br>韬定律：<strong style="color:#e74c3c;">优化计算时序</strong> → 减少无效等待 → 同样的晶体管做更多的事 → 等效性能提升</p>
 </section>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-打个比方：
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-摩尔定律是"修更宽的路"；韬定律是"<strong style="color:#e74c3c;">让车跑得更聪明</strong>"——红灯少一点，弯道抄得近一点，堵车的时候换条路。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-具体怎么实现？核心技术叫"<strong style="color:#e74c3c;">逻辑折叠</strong>"。
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">打个比方：</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">摩尔定律是"修更宽的路"；韬定律是"<strong style="color:#e74c3c;">让车跑得更聪明</strong>"——红灯少一点，弯道抄得近一点，堵车的时候换条路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">具体怎么实现？核心技术叫"<strong style="color:#e74c3c;">逻辑折叠</strong>"。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-03 逻辑折叠：AI时代的"数据高速公路"
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-为什么AI芯片需要"逻辑折叠"？因为AI推理有一个致命瓶颈：<strong style="color:#e74c3c;">数据搬运</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-现代AI模型的参数量动辄百亿、千亿。运行一次推理，需要把海量数据从内存搬到计算单元，算完再搬回去。
-</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">03 逻辑折叠：AI时代的"数据高速公路"</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">为什么AI芯片需要"逻辑折叠"？因为AI推理有一个致命瓶颈：<strong style="color:#e74c3c;">数据搬运</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">现代AI模型的参数量动辄百亿、千亿。运行一次推理，需要把海量数据从内存搬到计算单元，算完再搬回去。</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
-一个残酷的数据：在典型的AI推理任务中，<strong>超过60%的时间花在数据搬运上</strong>，真正用于计算的时间不到40%。
-</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">一个残酷的数据：在典型的AI推理任务中，<strong>超过60%的时间花在数据搬运上</strong>，真正用于计算的时间不到40%。</p>
 </blockquote>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-这就像一个工厂，工人60%的时间在搬运原材料，只有40%的时间在干活。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-"逻辑折叠"的思路是：<strong style="color:#e74c3c;">把搬运和计算"折叠"在一起</strong>。
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就像一个工厂，工人60%的时间在搬运原材料，只有40%的时间在干活。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">"逻辑折叠"的思路是：<strong style="color:#e74c3c;">把搬运和计算"折叠"在一起</strong>。</p>
 <section style="background:linear-gradient(135deg,#e3f2fd 0%,#bbdefb 100%); border-radius:10px; padding:18px 20px; margin:1.2em 0; border-left:4px solid #2196f3;">
-<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
-<strong>逻辑折叠的三层含义：</strong>
-</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
-<strong>1. 空间折叠</strong>：把存储单元和计算单元物理上靠得更近，减少数据搬运距离<br>
-<strong>2. 时间折叠</strong>：让数据搬运和计算同时进行，流水线化<br>
-<strong>3. 逻辑折叠</strong>：重新设计计算逻辑，让同一批数据能被复用多次
-</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;"><strong>逻辑折叠的三层含义：</strong></p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;"><strong>1. 空间折叠</strong>：把存储单元和计算单元物理上靠得更近，减少数据搬运距离<br><strong>2. 时间折叠</strong>：让数据搬运和计算同时进行，流水线化<br><strong>3. 逻辑折叠</strong>：重新设计计算逻辑，让同一批数据能被复用多次</p>
 </section>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-表面是架构创新，<strong style="color:#e74c3c;">本质是对AI计算本质的重新理解</strong>。
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">表面是架构创新，<strong style="color:#e74c3c;">本质是对AI计算本质的重新理解</strong>。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-04 381款芯片，已经量产了
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-何庭波在发布会上透露了一个关键数字：<strong style="color:#e74c3c;">基于韬定律理念设计的芯片，已经量产了381款</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-这不是PPT，这是已经跑在生产线上的东西。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-更劲爆的消息是：<strong style="color:#e74c3c;">2026年秋季发布的麒麟芯片，将首发"逻辑折叠"技术</strong>。
-</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">04 381款芯片，已经量产了</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">何庭波在发布会上透露了一个关键数字：<strong style="color:#e74c3c;">基于韬定律理念设计的芯片，已经量产了381款</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这不是PPT，这是已经跑在生产线上的东西。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更劲爆的消息是：<strong style="color:#e74c3c;">2026年秋季发布的麒麟芯片，将首发"逻辑折叠"技术</strong>。</p>
 <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
-<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
-<strong>预期性能提升（据发布会数据）：</strong>
-</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
-• 晶体管密度提升 <strong style="color:#e74c3c;">55%</strong><br>
-• 能效提升 <strong style="color:#e74c3c;">41%</strong><br>
-• 2031年目标：达到等效 <strong style="color:#e74c3c;">1.4nm</strong> 水平
-</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;"><strong>预期性能提升（据发布会数据）：</strong></p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">• 晶体管密度提升 <strong style="color:#e74c3c;">55%</strong><br>• 能效提升 <strong style="color:#e74c3c;">41%</strong><br>• 2031年目标：达到等效 <strong style="color:#e74c3c;">1.4nm</strong> 水平</p>
 </section>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-注意"等效"这个词。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-它可能不是真正的1.4nm制程，但在实际性能上，要达到1.4nm芯片的水平。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong style="color:#e74c3c;">用老工艺，跑出新性能。</strong>这就是"时间换空间"的真正含义。
-</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">注意"等效"这个词。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它可能不是真正的1.4nm制程，但在实际性能上，要达到1.4nm芯片的水平。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">用老工艺，跑出新性能。</strong>这就是"时间换空间"的真正含义。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-05 这意味着什么？
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-三个判断：
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong>第一，中国半导体开始有自己的"话语权"了。</strong>
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-过去60年，全球半导体行业的游戏规则都是摩尔定律。追赶者只能在这条路上跑，跑得再快也是跟随。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-现在，中国第一次提出了一套可能成为行业新范式的理论。不管最终能否被全球接受，<strong style="color:#e74c3c;">这本身就是一个信号</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong>第二，这条路不一定更容易，但可能更适合中国。</strong>
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-"逻辑折叠"对架构设计能力要求极高，但对制造工艺的要求相对宽松。这正好契合中国的现状：EUV买不到，但工程师不缺。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong style="color:#e74c3c;">用设计能力弥补制造短板</strong>，这是一条扬长避短的路。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong>第三，AI时代的芯片竞争，规则可能真的在变。</strong>
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-传统芯片比的是"谁的晶体管更小"。AI芯片比的是"<strong style="color:#e74c3c;">谁能更高效地处理数据搬运</strong>"。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-英伟达的成功不是因为晶体管最小，而是因为GPU的并行架构更适合AI计算。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-如果韬定律的方向是对的，那AI芯片的竞争，可能会从"制程之争"转向"架构之争"。
-</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">05 这意味着什么？</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">三个判断：</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong>第一，中国半导体开始有自己的"话语权"了。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去60年，全球半导体行业的游戏规则都是摩尔定律。追赶者只能在这条路上跑，跑得再快也是跟随。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">现在，中国第一次提出了一套可能成为行业新范式的理论。不管最终能否被全球接受，<strong style="color:#e74c3c;">这本身就是一个信号</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong>第二，这条路不一定更容易，但可能更适合中国。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">"逻辑折叠"对架构设计能力要求极高，但对制造工艺的要求相对宽松。这正好契合中国的现状：EUV买不到，但工程师不缺。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">用设计能力弥补制造短板</strong>，这是一条扬长避短的路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong>第三，AI时代的芯片竞争，规则可能真的在变。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统芯片比的是"谁的晶体管更小"。AI芯片比的是"<strong style="color:#e74c3c;">谁能更高效地处理数据搬运</strong>"。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">英伟达的成功不是因为晶体管最小，而是因为GPU的并行架构更适合AI计算。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果韬定律的方向是对的，那AI芯片的竞争，可能会从"制程之争"转向"架构之争"。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
-06 写在最后
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-韬，在中文里有"隐藏、收敛"的意思。韬光养晦。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-但在物理学里，τ（tau）是时间常数的符号。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-用时间换空间，用耐心换突破。这个名字，或许本身就是一种态度。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-韬定律能不能成功？2026年秋季的麒麟芯片，会是第一张答卷。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-<strong style="color:#e74c3c;">当所有人都在追EUV的时候，华为选择了一条没人走过的路。</strong>
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-这条路能不能走通，我们拭目以待。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-但至少，<strong style="color:#e74c3c;">中国半导体有了自己的定律</strong>。
-</p>
-<p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">
-共勉。
-</p>
-<p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">06 写在最后</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">韬，在中文里有"隐藏、收敛"的意思。韬光养晦。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但在物理学里，τ（tau）是时间常数的符号。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">用时间换空间，用耐心换突破。这个名字，或许本身就是一种态度。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">韬定律能不能成功？2026年秋季的麒麟芯片，会是第一张答卷。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">当所有人都在追EUV的时候，华为选择了一条没人走过的路。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这条路能不能走通，我们拭目以待。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但至少，<strong style="color:#e74c3c;">中国半导体有了自己的定律</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">共勉。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
 <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
 <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
-<p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 评论区聊聊你的看法</p>
+<p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 评论区聊聊：你看好"韬定律"这条路吗？</p>
 <p style="font-size:15px; color:#333; margin:0;">📤 转发给关心这个话题的朋友</p>
 </section>
-</body></html>
+<p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+</section>
