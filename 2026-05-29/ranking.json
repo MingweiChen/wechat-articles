@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-05-29T02:45:00Z",
+  "run_id": "2026-05-29_023800_f7a2",
+  "articles": [
+    {
+      "rank": 1,
+      "slug": "humanoid-robot-war",
+      "title": "特斯拉关厂梭哈机器人中国却已卖2万台！80%份额碾压全球格局已定",
+      "score": 98,
+      "category": "机器人/中美竞争",
+      "word_count": 1900,
+      "output_file": "01-humanoid-robot-war-wechat.html"
+    },
+    {
+      "rank": 2,
+      "slug": "ai-layoff-truth",
+      "title": "23万人被AI替代裁员后一半公司又把人请回来了！",
+      "score": 95,
+      "category": "就业/职场",
+      "word_count": 1950,
+      "output_file": "02-ai-layoff-truth-wechat.html"
+    },
+    {
+      "rank": 3,
+      "slug": "ai-cheating-study",
+      "title": "9.5万大学生研究揭露：每天用AI的学生26%在作弊！",
+      "score": 92,
+      "category": "AI与教育",
+      "word_count": 2100,
+      "output_file": "03-ai-cheating-study-wechat.html"
+    },
+    {
+      "rank": 4,
+      "slug": "ai-healthcare-breakthrough",
+      "title": "FDA批准1357个AI医疗设备！首款纯AI设计新药进入临床II期",
+      "score": 90,
+      "category": "AI医疗",
+      "word_count": 1800,
+      "output_file": "04-ai-healthcare-breakthrough-wechat.html"
+    },
+    {
+      "rank": 5,
+      "slug": "understand-anything",
+      "title": "日增4000星的代码神器来了！Understand-Anything让你秒懂20万行代码",
+      "score": 90,
+      "category": "开发者工具",
+      "word_count": 1700,
+      "output_file": "05-understand-anything-wechat.html"
+    }
+  ]
+}

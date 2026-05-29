@@ -1,0 +1,34 @@
+封面图生成提示词 / Cover Image Prompt
+
+【中文描述】
+科技战争主题封面，展现中美人形机器人竞争格局。
+
+画面左侧：一排整齐的白色人形机器人（代表中国制造），数量众多，形成工业化量产的震撼视觉，流水线背景带有红色元素。
+
+画面右侧：单独一台银灰色科技感机器人（代表特斯拉Optimus），后方是关闭中的汽车工厂，灯光暗淡。
+
+中间：两方对峙，有电流或数据流交汇碰撞的视觉效果。
+
+整体色调：深蓝+红色+银色的科技感，带有未来战争氛围。
+
+文字空间：上方或中央预留标题位置（建议1/3画面）。
+
+【English Prompt for AI Image Generation】
+Epic tech rivalry poster, humanoid robots face-off scene:
+
+Left side: Army of sleek white humanoid robots in perfect formation, industrial mass production setting with red accent lighting, conveying Chinese manufacturing power, dozens of identical units on assembly line.
+
+Right side: Single silver-grey futuristic humanoid robot (Tesla Optimus style), standing before a dimming car factory with "CLOSING" signs, dramatic shadows.
+
+Center: Collision point with electric sparks, data streams, and energy clash effects between the two sides.
+
+Style: Cinematic sci-fi movie poster, dramatic lighting, deep blue and red color scheme with metallic silver accents, 4K quality, photorealistic with slight stylization.
+
+Composition: Wide 16:9 aspect ratio, leave upper 1/3 clean for title text overlay.
+
+Mood: Technological cold war, industrial revolution, historic rivalry.
+
+【建议参数】
+- 尺寸：1280x720 或 1920x1080（横版封面）
+- 风格：科幻电影海报风格
+- 关键词：humanoid robots, tech rivalry, China vs USA, industrial revolution, futuristic warfare

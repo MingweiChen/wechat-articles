@@ -1,0 +1,388 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <!-- 开篇区块（紫色开发者渐变背景） -->
+  <section style="background:linear-gradient(135deg,#4a148c 0%,#6a1b9a 50%,#7b1fa2 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+    <p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">开发者工具</p>
+    <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">Understand-Anything<br>让AI帮你「看懂」任何代码</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">24小时狂揽3776星，总星数突破42000</p>
+  </section>
+
+  <!-- 核弹开头 -->
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">
+    <strong style="color:#e74c3c;">GitHub日增4000星！一个开源项目正在用AI彻底改变「代码考古」这件事。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    你有没有经历过这样的噩梦？入职新公司第一天，leader把一个20万行代码的项目甩给你，说："先熟悉一下代码。"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    你打开IDE，密密麻麻的文件夹像迷宫一样铺开。点进一个文件，满屏的import语句指向四面八方。跳转几次之后，你已经完全迷失了——这个函数是谁调用的？那个类继承了什么？业务逻辑到底藏在哪里？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更可怕的是，当你鼓起勇气问同事，得到的回答往往是："这块代码是之前的人写的，我也不太清楚……"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>代码考古，是每个开发者都逃不掉的痛。</strong>而现在，一个名叫<strong>Understand-Anything</strong>的开源项目，正在用AI彻底改变这个局面。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第一部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    01 一天涨了近4000星，它凭什么？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    就在过去24小时，Understand-Anything在GitHub上狂揽<strong style="color:#e74c3c;">3776颗星</strong>，总星数飙升至<strong style="color:#e74c3c;">42907</strong>。这种爆发式增长在开源圈并不常见，通常意味着它真正击中了开发者的痛点。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    那它到底做了什么？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>一句话：把任何代码库变成一张交互式知识图谱。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    不是那种看起来很炫但没什么用的可视化图表，而是真正能让你"看懂"代码的智能地图——每个文件、函数、类都是一个可点击的节点，带有清晰的自然语言解释，告诉你它是干什么的、和谁有关系、在系统里扮演什么角色。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #7b1fa2; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong>"Graphs that teach > graphs that impress"</strong><br>
+      （教你东西的图 > 炫技的图）
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    作者<strong>Lum1104</strong>显然不是来秀技术的。他要解决的是一个实实在在的问题：<strong style="color:#7b1fa2;">让代码不再是只有原作者才能读懂的天书。</strong>
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第二部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    02 它是怎么工作的？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Understand-Anything本质上是一个Claude Code插件，但它已经支持了几乎所有主流的AI编程工具：
+  </p>
+
+  <!-- 信息卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>🔌 支持的AI编程工具</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>Claude Code</strong>（原生支持）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>OpenAI Codex</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>Cursor</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>GitHub Copilot</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • <strong>Gemini CLI</strong>
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    使用方式简单得令人发指：
+  </p>
+
+  <!-- 代码块 -->
+  <section style="background:#2d2d2d; border-radius:8px; padding:16px 18px; margin:1.2em 0; overflow-x:auto;">
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 1. 安装插件</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /plugin marketplace add Lum1104/Understand-Anything
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /plugin install understand-anything
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 2. 分析代码库</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 3. 打开交互式仪表盘</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-dashboard
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    三行命令，你的代码库就被转化成了一张可缩放、可搜索、可交互的知识图谱。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>但真正的魔法藏在底层。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    当你运行<code style="background:#f3f4f6; color:#7b1fa2; padding:2px 6px; border-radius:4px; font-size:14px;">/understand</code>时，系统会启动一个多智能体流水线，包含5个专门的AI Agent协同工作：
+  </p>
+
+  <!-- 信息卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>🤖 5个AI Agent协同工作</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>项目扫描器</strong>：发现所有文件，识别语言和框架
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>文件分析器</strong>：提取函数、类、依赖关系，构建图节点
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>架构分析器</strong>：识别代码的架构层次（API、Service、Data、UI）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>导览生成器</strong>：自动创建学习路径，告诉你该按什么顺序看代码
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • <strong>图谱审查器</strong>：验证生成的知识图谱是否完整、引用是否正确
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    所有这些并行执行，增量更新，只重新分析发生变化的文件。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第三部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    03 不止是看，还能问
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    知识图谱只是起点。Understand-Anything真正强大的地方在于：<strong style="color:#7b1fa2;">它让你可以和代码对话。</strong>
+  </p>
+
+  <!-- 代码块 -->
+  <section style="background:#2d2d2d; border-radius:8px; padding:16px 18px; margin:1.2em 0; overflow-x:auto;">
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 直接问问题</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-chat 支付流程是怎么工作的？
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 看看你的改动会影响哪些模块</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-diff
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 深入理解某个具体文件</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-explain src/auth/login.ts
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 为新人生成入职指南</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 12px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-onboard
+    </p>
+    <p style="font-size:14px; color:#abb2bf; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      <span style="color:#7c7c7c;"># 提取业务领域知识</span>
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /understand-domain
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <code style="background:#f3f4f6; color:#7b1fa2; padding:2px 6px; border-radius:4px; font-size:14px;">/understand-chat</code>特别实用。你可以用自然语言提问："用户登录的鉴权逻辑在哪里？""订单状态机是怎么流转的？""哪些模块会受到数据库schema变更的影响？"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    AI会基于它构建的知识图谱给你答案，而不是瞎猜。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第四部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    04 四个让我印象深刻的功能
+  </p>
+
+  <p style="font-size:17px; font-weight:bold; color:#4a148c; margin:1.5em 0 0.6em; text-indent:0;">
+    🏛️ 架构层自动分类
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    代码自动被归类到不同的架构层：API层、服务层、数据层、UI层、工具层。每层用不同颜色标注，一眼就能看出系统的整体结构。对于接手老项目的人来说，这可能是最快建立全局认知的方式。
+  </p>
+
+  <p style="font-size:17px; font-weight:bold; color:#4a148c; margin:1.5em 0 0.6em; text-indent:0;">
+    🧩 业务域视图
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    除了代码结构，它还能提取出"业务流程视图"——哪些代码对应哪个业务领域，业务流程分哪些步骤，每个步骤涉及哪些模块。技术和业务的映射关系，终于不再是一个黑盒。
+  </p>
+
+  <p style="font-size:17px; font-weight:bold; color:#4a148c; margin:1.5em 0 0.6em; text-indent:0;">
+    🔍 Diff影响分析
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    改代码之前跑一下<code style="background:#f3f4f6; color:#7b1fa2; padding:2px 6px; border-radius:4px; font-size:14px;">/understand-diff</code>，它会告诉你这次改动可能影响到系统的哪些部分。涟漪效应可视化，避免"改了一行代码，炸了整个系统"的惨剧。
+  </p>
+
+  <p style="font-size:17px; font-weight:bold; color:#4a148c; margin:1.5em 0 0.6em; text-indent:0;">
+    📚 语言特性解释
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    代码里用到了泛型、闭包、装饰器这些高级特性？它会在上下文中解释这些概念，特别适合团队里有不同技术水平成员的场景。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第五部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    05 谁应该用这个工具？
+  </p>
+
+  <!-- 信息卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>🎯 适用人群</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>新入职的开发者</strong>：不用再花几周时间"考古"，导览功能会带你按正确的顺序理解架构
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>技术主管/架构师</strong>：快速审视项目全貌，识别架构问题，做重构决策时有据可依
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>产品经理和设计师</strong>：终于可以理解"技术上为什么做不了"背后的真实原因
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • <strong>用AI辅助编程的开发者</strong>：给你的Copilot/Cursor更深的项目上下文，生成的代码更靠谱
+    </p>
+  </section>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第六部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    06 怎么开始？
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    如果你用Claude Code，直接在终端里安装：
+  </p>
+
+  <!-- 代码块 -->
+  <section style="background:#2d2d2d; border-radius:8px; padding:16px 18px; margin:1.2em 0; overflow-x:auto;">
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0 0 6px 0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /plugin marketplace add Lum1104/Understand-Anything
+    </p>
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      /plugin install understand-anything
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    如果你用Cursor，克隆仓库后自动发现插件。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Copilot、Codex、Gemini CLI用户可以让AI去获取安装指令：
+  </p>
+
+  <!-- 代码块 -->
+  <section style="background:#2d2d2d; border-radius:8px; padding:16px 18px; margin:1.2em 0; overflow-x:auto;">
+    <p style="font-size:14px; color:#e5c07b; line-height:1.7; margin:0; font-family:'Fira Code',Consolas,Monaco,monospace;">
+      Fetch and follow instructions from https://github.com/Lum1104/Understand-Anything
+    </p>
+  </section>
+
+  <!-- 信息卡片 -->
+  <section style="background:linear-gradient(135deg,#4a148c 0%,#6a1b9a 50%,#7b1fa2 100%); border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#fff; line-height:1.8; margin:0 0 10px 0;">
+      <strong>📌 项目资源</strong>
+    </p>
+    <p style="font-size:15px; color:rgba(255,255,255,0.9); line-height:1.8; margin:0 0 8px 0;">
+      • GitHub：github.com/Lum1104/Understand-Anything
+    </p>
+    <p style="font-size:15px; color:rgba(255,255,255,0.9); line-height:1.8; margin:0;">
+      • 在线Demo：understand-anything.com
+    </p>
+  </section>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 结语 -->
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    写在最后
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    读代码从来不是一件轻松的事。每个程序员都经历过盯着屏幕发呆、在文件之间反复跳转、试图在脑子里拼凑出完整图景的时刻。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Understand-Anything做的事情很简单：<strong style="color:#7b1fa2;">把这个拼图的过程，从你脑子里搬到屏幕上。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    它不会替你写代码，但它会让你"看见"代码。而看见，是理解的第一步。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #7b1fa2; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      "如果这个工具能帮你省下几分钟在复杂代码里挖掘的时间，这就是我想要的全部。"<br>
+      <span style="color:#999;">— Lum1104，项目作者</span>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    42000多颗星，是开发者们用脚投票的结果。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    如果你正在被一个庞大的代码库折磨，不妨试试。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 文末引导 -->
+  <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多开发者看到</p>
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 你接手过最复杂的代码库有多大？评论区聊聊</p>
+    <p style="font-size:15px; color:#333; margin:0;">📤 转发给正在"考古"的同事</p>
+  </section>
+
+  <!-- 尾部 -->
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>
