@@ -1,423 +1,199 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>300克的AI主机，跑动1220亿参数大模型：联想要把云端算力搬进你家</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.8;
-            color: #333;
-            background: #fff;
-            padding: 20px;
-            max-width: 100%;
-        }
-        article {
-            max-width: 680px;
-            margin: 0 auto;
-        }
-        h1 {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 1.4;
-            margin-bottom: 24px;
-            color: #000;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 600;
-            margin: 32px 0 16px;
-            color: #000;
-            border-left: 4px solid #07c160;
-            padding-left: 12px;
-        }
-        h3 {
-            font-size: 18px;
-            font-weight: 600;
-            margin: 24px 0 12px;
-            color: #333;
-        }
-        p {
-            margin-bottom: 16px;
-            font-size: 16px;
-            text-align: justify;
-        }
-        .lead {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 24px;
-            padding: 16px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            border-radius: 8px;
-        }
-        .highlight-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            padding: 20px;
-            border-radius: 12px;
-            margin: 24px 0;
-        }
-        .highlight-box strong {
-            color: #ffd700;
-        }
-        ul, ol {
-            margin: 16px 0;
-            padding-left: 24px;
-        }
-        li {
-            margin-bottom: 8px;
-            font-size: 16px;
-        }
-        strong {
-            color: #07c160;
-        }
-        .data-card {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-            margin: 20px 0;
-        }
-        .data-item {
-            background: #f8f9fa;
-            padding: 16px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        .data-item .number {
-            font-size: 28px;
-            font-weight: 700;
-            color: #667eea;
-        }
-        .data-item .label {
-            font-size: 14px;
-            color: #666;
-            margin-top: 4px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 14px;
-        }
-        th, td {
-            padding: 12px 8px;
-            text-align: center;
-            border: 1px solid #e0e0e0;
-        }
-        th {
-            background: #667eea;
-            color: #fff;
-            font-weight: 600;
-        }
-        tr:nth-child(even) {
-            background: #f8f9fa;
-        }
-        tr:last-child {
-            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
-            font-weight: 600;
-        }
-        .scene-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 12px;
-            padding: 20px;
-            margin: 16px 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        .scene-card h4 {
-            font-size: 16px;
-            color: #667eea;
-            margin-bottom: 8px;
-        }
-        .product-compare {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-            margin: 20px 0;
-        }
-        .product-card {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        .product-card.flagship {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-        }
-        .product-card h4 {
-            font-size: 18px;
-            margin-bottom: 12px;
-        }
-        .product-card .price {
-            font-size: 24px;
-            font-weight: 700;
-            margin: 8px 0;
-        }
-        .product-card.flagship .price {
-            color: #ffd700;
-        }
-        .question-box {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 16px;
-            margin: 16px 0;
-            border-radius: 0 8px 8px 0;
-        }
-        .question-box h4 {
-            color: #856404;
-            margin-bottom: 8px;
-        }
-        .conclusion {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            color: #fff;
-            padding: 24px;
-            border-radius: 12px;
-            margin-top: 32px;
-        }
-        .conclusion h2 {
-            color: #fff;
-            border-left-color: #ffd700;
-        }
-        .conclusion p {
-            color: #ccc;
-        }
-        .conclusion strong {
-            color: #ffd700;
-        }
-        .cta-box {
-            background: #07c160;
-            color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-            margin: 20px 0;
-        }
-        .cta-box .date {
-            font-size: 20px;
-            font-weight: 700;
-        }
-        .cta-box .price {
-            font-size: 32px;
-            font-weight: 700;
-            margin: 8px 0;
-        }
-    </style>
-</head>
-<body>
-    <article>
-        <h1>300克的AI主机，跑动1220亿参数大模型：联想要把云端算力搬进你家</h1>
-        
-        <p class="lead">你能想象一台仅重300克、一个充电宝大小的设备，却能跑动1220亿参数的大模型吗？</p>
-        
-        <p>5月19日，联想在北京首钢园发布了天禧AI 4.0，同时带来了一个全新硬件品类——AI主机。其中旗舰款P7的规格直接让人瞪大眼睛：</p>
-        
-        <div class="highlight-box">
-            <strong>整机300克</strong>，本地算力<strong>190 TOPS</strong>，支持<strong>122B参数大模型</strong>，128K上下文窗口，7×24小时稳定运行，功耗仅30W。
-        </div>
-        
-        <p>这不是PPT概念机，7月1日就开启众筹，首发价6999元。</p>
-        
-        <h2>AI主机是什么？为什么需要它？</h2>
-        
-        <p>在解释AI主机之前，我们先看看你家里可能有的几样东西：</p>
-        
-        <ul>
-            <li><strong>NAS</strong>：存储文件，可能跑点Docker应用</li>
-            <li><strong>智能音箱</strong>：语音交互的入口，但算力几乎为零</li>
-            <li><strong>Mac Mini/迷你主机</strong>：通用计算设备，跑AI要外接显卡</li>
-            <li><strong>路由器</strong>：网络中枢，跟AI没关系</li>
-        </ul>
-        
-        <p>联想AI主机P7要做的是——<strong>把这些设备的AI能力提取出来，做成一个专门的"家庭AI算力节点"</strong>。</p>
-        
-        <p>它不是通用电脑，不是存储设备，而是一台专为大模型推理优化的边缘计算设备。核心价值很简单：<strong>让云端级别的AI能力，跑在你家里。</strong></p>
-        
-        <h3>和现有方案的本质区别</h3>
-        
-        <table>
-            <tr>
-                <th>方案</th>
-                <th>算力</th>
-                <th>隐私</th>
-                <th>成本</th>
-                <th>便携性</th>
-            </tr>
-            <tr>
-                <td>云端API调用</td>
-                <td>无限</td>
-                <td>数据出端</td>
-                <td>Token按量付费</td>
-                <td>依赖网络</td>
-            </tr>
-            <tr>
-                <td>本地显卡方案</td>
-                <td>高</td>
-                <td>数据不出端</td>
-                <td>一次性投入高</td>
-                <td>固定部署</td>
-            </tr>
-            <tr>
-                <td>联想AI主机P7</td>
-                <td>190 TOPS</td>
-                <td>数据不出端</td>
-                <td>6999元</td>
-                <td>随身携带</td>
-            </tr>
-        </table>
-        
-        <p>关键差异在于：P7把"本地AI"从极客玩家的领域，拉到了普通家庭能用的水平。</p>
-        
-        <h2>190 TOPS从哪来？后摩智能M50的存算一体架构</h2>
-        
-        <p>AI主机P7的算力核心是后摩智能的M50芯片，这是一款专为端边侧大模型推理设计的存算一体芯片。</p>
-        
-        <p>传统芯片架构中，数据在存储和计算单元之间来回搬运，产生大量功耗和延迟。M50的存算一体架构把计算直接放在存储旁边，减少数据搬运，能效比大幅提升。</p>
-        
-        <p>这让P7实现了几个看起来矛盾的指标：</p>
-        
-        <div class="data-card">
-            <div class="data-item">
-                <div class="number">190</div>
-                <div class="label">TOPS本地算力</div>
-            </div>
-            <div class="data-item">
-                <div class="number">30W</div>
-                <div class="label">整机最大功耗</div>
-            </div>
-            <div class="data-item">
-                <div class="number">35dB</div>
-                <div class="label">满载运行噪音</div>
-            </div>
-            <div class="data-item">
-                <div class="number">300g</div>
-                <div class="label">整机重量</div>
-            </div>
-        </div>
-        
-        <p>对比一下：要跑类似规模的模型，传统方案可能需要一张RTX 4090显卡（功耗450W、重量2公斤、价格1.2万元以上），还不算主机、电源等配套。</p>
-        
-        <h2>"端-边-云"协同：普通用户能获得什么？</h2>
-        
-        <p>AI主机P7定位为"家庭边缘算力节点"，这个"边缘"是什么意思？</p>
-        
-        <p>在AI架构中，"端"指手机、平板、PC等终端设备；"云"指远程数据中心；"边缘"是介于两者之间的计算节点。</p>
-        
-        <p>联想的思路是：<strong>把P7作为家庭AI的中枢，手机、PC、平板等终端只负责交互，重的推理任务扔给P7处理，需要更强能力时再上云。</strong></p>
-        
-        <p>天禧AI 4.0系统会自动选择最优路径：简单任务在终端本地跑，复杂任务交给P7，极端需求调用云端。用户不需要操心任务分配，系统替你决定。</p>
-        
-        <h3>实际场景：这玩意儿能干嘛？</h3>
-        
-        <div class="scene-card">
-            <h4>场景1：断网也能用的AI助手</h4>
-            <p>高铁上、地下室、出差的酒店WiFi卡顿——这些场景下云端AI直接没法用。P7的本地推理速度达到50 Token/s，无网环境也能流畅跑AI。</p>
-        </div>
-        
-        <div class="scene-card">
-            <h4>场景2：隐私敏感的本地处理</h4>
-            <p>公司合同、家庭照片、个人日记——这些数据你愿意传到云端？P7支持数据不出端，所有处理本地完成。</p>
-        </div>
-        
-        <div class="scene-card">
-            <h4>场景3：告别Token焦虑</h4>
-            <p>P7支持"一机双模"切换。智能体模式下预装天禧Claw，直接使用联想的AI能力；大模型模式下开放API，接入任何AI应用，相当于一个"本地免费Token工厂"。</p>
-            <p><strong>用联想的话说：买个P7，等于买了无限Token额度。</strong></p>
-        </div>
-        
-        <div class="scene-card">
-            <h4>场景4：多设备算力共享</h4>
-            <p>一台P7可以给全家的设备提供AI算力。爸妈的手机、孩子的平板、你的笔记本——都可以把重的任务扔给P7处理，数据隔离、记忆独立。</p>
-        </div>
-        
-        <h2>不止P7：AI主机Mini和完整产品线</h2>
-        
-        <p>除了旗舰款P7，联想还发布了入门款AI主机Mini：</p>
-        
-        <div class="product-compare">
-            <div class="product-card flagship">
-                <h4>AI主机 P7</h4>
-                <p>190 TOPS算力</p>
-                <p>支持122B参数模型</p>
-                <p>7月1日众筹</p>
-                <div class="price">¥6999</div>
-            </div>
-            <div class="product-card">
-                <h4>AI主机 Mini</h4>
-                <p>45 TOPS算力</p>
-                <p>Mac Mini一半大小</p>
-                <p>6月12日预售</p>
-                <div class="price">¥2999</div>
-            </div>
-        </div>
-        
-        <p>Mini更适合对算力需求不那么极端的家庭，跑一些轻量模型足够用。</p>
-        
-        <p>这次发布会上还有一组数据值得注意：<strong>联想10款新品均达到国标L3级智能化要求</strong>。这个L3不是自动驾驶那个L3，是《人工智能终端智能化分级》国家标准的最高等级，意味着设备具备"复杂任务自主执行能力"。</p>
-        
-        <p>联想还启动了"苍穹计划"，投入1万亿Token算力和千万级激励基金，推动开发者和用户共建天禧生态。</p>
-        
-        <h2>行业趋势：AI终端化的临界点到了</h2>
-        
-        <p>AI主机P7的出现，标志着一个临界点：<strong>大模型正式从云端走向消费级终端。</strong></p>
-        
-        <p>过去两年，大模型的主战场在云端。OpenAI、Anthropic、Google们用数万张GPU训练千亿参数模型，用户通过API按Token付费调用。这个模式有几个明显问题：</p>
-        
-        <ol>
-            <li><strong>成本持续累积</strong>：重度用户一个月几百块Token费用不稀奇</li>
-            <li><strong>隐私无法保证</strong>：数据必须上传云端才能处理</li>
-            <li><strong>延迟无法消除</strong>：网络抖动直接影响体验</li>
-            <li><strong>离线无法使用</strong>：没网等于没有AI</li>
-        </ol>
-        
-        <p>这些问题的根源是"算力在云端"。解决方案也很直接：<strong>把算力搬到用户身边。</strong></p>
-        
-        <p>P7代表了一种新的可能：<strong>用专门优化的边缘计算设备，在功耗、成本、体验之间找到平衡点</strong>。它不是要取代云端，而是补足云端覆盖不到的场景。就像CDN不是要取代源站，而是把内容缓存到离用户更近的地方。</p>
-        
-        <h2>冷静看待：这是真需求还是伪命题？</h2>
-        
-        <p>AI主机是个新品类，也意味着没有前车之鉴。几个问题值得思考：</p>
-        
-        <div class="question-box">
-            <h4>1. 算力够用吗？</h4>
-            <p>190 TOPS跑122B模型是够的，但这是2026年的水平。模型规模还在指数增长，一两年后可能就不够看了。</p>
-        </div>
-        
-        <div class="question-box">
-            <h4>2. 生态完善吗？</h4>
-            <p>目前P7主要服务于联想天禧生态。第三方应用接入、开发者工具、模型库丰富度，都需要时间积累。</p>
-        </div>
-        
-        <div class="question-box">
-            <h4>3. 6999元值吗？</h4>
-            <p>看你怎么算。一年云端Token费用可能就要这个数。长期来看可能划算，但前提是你确实重度使用AI。</p>
-        </div>
-        
-        <div class="question-box">
-            <h4>4. 谁真正需要？</h4>
-            <p>重度AI用户、隐私敏感人群、经常断网环境下工作的人——这些是明确的目标用户。普通轻度用户可能觉得云端就够了。</p>
-        </div>
-        
-        <div class="conclusion">
-            <h2>结语：AI硬件的新物种</h2>
-            <p>回到开头的问题：300克的设备能跑1220亿参数模型，意味着什么？</p>
-            <p>它意味着AI能力的物理载体正在变小、变轻、变便宜。从数据中心的机房，到桌面的显卡主机，再到口袋里的专用设备——每一次"缩小"都带来新的可能性。</p>
-            <p>联想AI主机P7不是第一个尝试的产品，也不会是最后一个。但它确实把"边缘AI算力"这个概念，做成了一个<strong>可以量产、可以定价、可以购买</strong>的消费品。</p>
-        </div>
-        
-        <div class="cta-box">
-            <div class="date">7月1日 众筹开启</div>
-            <div class="price">¥6999</div>
-            <p>值不值得尝鲜，得看你对"本地AI"的需求有多强烈。</p>
-        </div>
-        
-        <p style="text-align: center; color: #999; margin-top: 32px;">至少，AI硬件的选择又多了一种。</p>
-    </article>
-</body>
-</html>
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 开篇区块（渐变背景） -->
+<section style="background:linear-gradient(135deg,#2d3436 0%,#636e72 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+<p style="font-size:14px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">AI硬件新物种 · 联想天禧4.0</p>
+<p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;"><span style="color:#f8b500;">300克</span> · <span style="color:#00d9ff;">190 TOPS</span><br>跑动1220亿参数大模型</p>
+<p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">AI主机P7 | 家庭边缘算力节点来了</p>
+</section>
+
+<!-- 核弹开头 -->
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:2em;">
+你能想象一台仅重300克、一个充电宝大小的设备，却能跑动1220亿参数的大模型吗？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+5月19日，联想在北京首钢园发布了天禧AI 4.0，同时带来了一个全新硬件品类——AI主机。其中旗舰款P7的规格直接让人瞪大眼睛：<strong style="color:#e74c3c;">整机300克，本地算力190 TOPS，支持122B参数大模型，128K上下文窗口，7×24小时稳定运行，功耗仅30W。</strong>
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+这不是PPT概念机，7月1日就开启众筹，首发价<strong style="color:#e74c3c;">6999元</strong>。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 第一部分 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+01 AI主机是什么？为什么需要它？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+在解释AI主机之前，我们先看看你家里可能有的几样东西：NAS存储、智能音箱、Mac Mini/迷你主机、路由器。联想AI主机P7要做的是——<strong style="color:#e74c3c;">把这些设备的AI能力提取出来，做成一个专门的"家庭AI算力节点"</strong>。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+它不是通用电脑，不是存储设备，而是一台专为大模型推理优化的边缘计算设备。核心价值很简单：<strong style="color:#e74c3c;">让云端级别的AI能力，跑在你家里。</strong>
+</p>
+
+<!-- 对比卡片 -->
+<section style="background:#e3f2fd; border-radius:10px; padding:18px 20px; margin:1.2em 0; border-left:4px solid #2196f3;">
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 12px 0;">
+<strong>📊 和现有方案的对比</strong>
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+<strong>云端API</strong>：算力无限，但数据出端、Token按量付费、依赖网络
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+<strong>本地显卡</strong>：数据不出端，但一次性投入高（RTX4090 1.2万+）、固定部署
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+<strong style="color:#e74c3c;">联想P7</strong>：190 TOPS、数据不出端、6999元、随身携带
+</p>
+</section>
+
+<!-- 第二部分 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+02 190 TOPS从哪来？后摩智能M50的存算一体架构
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+AI主机P7的算力核心是后摩智能的M50芯片，这是一款专为端边侧大模型推理设计的<strong style="color:#e74c3c;">存算一体芯片</strong>。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+传统芯片架构中，数据在存储和计算单元之间来回搬运，产生大量功耗和延迟。M50把计算直接放在存储旁边，减少数据搬运，能效比大幅提升。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+这让P7实现了几个看起来矛盾的指标：
+</p>
+
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong style="color:#e74c3c;">算力够大</strong>：190 TOPS，流畅运行122B参数模型
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong style="color:#e74c3c;">功耗够低</strong>：整机最大30W，普通移动电源就能供电
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong style="color:#e74c3c;">噪音够小</strong>：满载低于35分贝，比正常说话声还安静
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+• <strong style="color:#e74c3c;">体积够小</strong>：仅手掌大小，整机300克
+</p>
+</section>
+
+<blockquote style="background:#fff3cd; border-left:4px solid #ffc107; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+<p style="font-size:15px; color:#856404; line-height:1.8; margin:0;">
+<strong>💡 对比参考：</strong>要跑类似规模的模型，传统方案需要RTX 4090显卡（功耗450W、重量2kg、价格1.2万元以上），还不算主机、电源等配套。
+</p>
+</blockquote>
+
+<!-- 第三部分 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+03 四大使用场景：这玩意儿能干嘛？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0;"><strong style="color:#e74c3c; font-size:17px;">🚀 场景1：断网也能用的AI助手</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:0.8em 0; text-indent:2em;">
+高铁上、地下室、酒店WiFi卡顿——这些场景下云端AI直接没法用。P7的本地推理速度达到<strong style="color:#e74c3c;">50 Token/s</strong>，无网环境也能流畅跑AI。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0;"><strong style="color:#3498db; font-size:17px;">🔒 场景2：隐私敏感的本地处理</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:0.8em 0; text-indent:2em;">
+公司合同、家庭照片、个人日记——这些数据你愿意传到云端？P7支持<strong style="color:#3498db;">数据不出端</strong>，所有处理本地完成。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0;"><strong style="color:#27ae60; font-size:17px;">💰 场景3：告别Token焦虑</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:0.8em 0; text-indent:2em;">
+P7支持"一机双模"切换。大模型模式下开放API，接入任何AI应用，相当于一个<strong style="color:#27ae60;">"本地免费Token工厂"</strong>。买个P7，等于买了无限Token额度。
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0;"><strong style="color:#9b59b6; font-size:17px;">📱 场景4：多设备算力共享</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:0.8em 0; text-indent:2em;">
+一台P7可以给全家的设备提供AI算力。爸妈的手机、孩子的平板、你的笔记本——都可以把重的任务扔给P7处理，<strong style="color:#9b59b6;">数据隔离、记忆独立</strong>。
+</p>
+
+<!-- 第四部分 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+04 入门款Mini和完整产品线
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+除了旗舰款P7，联想还发布了入门款AI主机Mini：
+</p>
+
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+<strong>🖥️ AI主机Mini 规格</strong>
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong>算力</strong>：45 TOPS（P7的四分之一）
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong>体积</strong>：Mac Mini一半大小
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+• <strong>功耗</strong>：平均15W｜<strong>噪音</strong>：低于30分贝
+</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+• <strong style="color:#e74c3c;">价格</strong>：首发2999元，6月12日预售
+</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+此外，联想<strong style="color:#e74c3c;">10款新品均达到国标L3级智能化要求</strong>（《人工智能终端智能化分级》最高等级），并启动"苍穹计划"，投入1万亿Token算力和千万级激励基金推动生态建设。
+</p>
+
+<!-- 第五部分 -->
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+05 冷静看待：这是真需求还是伪命题？
+</p>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+AI主机是个新品类，也意味着没有前车之鉴。几个问题值得思考：
+</p>
+
+<section style="background:linear-gradient(135deg,#ffebee 0%,#fce4ec 100%); border-radius:10px; padding:18px 20px; margin:1.2em 0; border-left:4px solid #e91e63;">
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 8px 0;">
+<strong>⚠️ 算力够用吗？</strong> 190 TOPS跑122B够用，但一两年后可能不够看
+</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 8px 0;">
+<strong>⚠️ 生态完善吗？</strong> 目前主要服务联想天禧生态，第三方接入需要时间
+</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 8px 0;">
+<strong>⚠️ 6999元值吗？</strong> 看你怎么算，重度用户一年云端费用可能就这个数
+</p>
+<p style="font-size:15px; color:#333; line-height:1.8; margin:0;">
+<strong>⚠️ 谁真正需要？</strong> 重度AI用户、隐私敏感人群、经常断网环境工作者
+</p>
+</section>
+
+<!-- 结尾金句 -->
+<div style="background:linear-gradient(135deg,#2d3436 0%,#636e72 100%); border-radius:8px; padding:20px 24px; margin:1.8em 0; text-align:center;">
+<p style="color:#fff; font-size:17px; font-weight:bold; margin:0; line-height:1.6;">
+AI能力的物理载体正在变小、变轻、变便宜。<br>
+从数据中心到显卡主机，再到口袋设备——<br>
+每一次"缩小"都带来新的可能性。
+</p>
+</div>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+7月1日众筹开启，6999元。值不值得尝鲜，得看你对"本地AI"的需求有多强烈。至少，<strong style="color:#e74c3c;">AI硬件的选择又多了一种</strong>。
+</p>
+
+<!-- 分割线 -->
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+<!-- 文末引导 -->
+<section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+<p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+<p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 6999元你会入手吗？评论区聊聊</p>
+<p style="font-size:15px; color:#333; margin:0;">📤 转发给对AI硬件感兴趣的朋友</p>
+</section>
+
+<!-- 尾部 -->
+<p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>
