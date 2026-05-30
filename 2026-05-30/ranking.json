@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-30",
+  "run_id": "2026-05-30_083921_d963",
+  "articles": [
+    {
+      "rank": 1,
+      "score": 87,
+      "title": "9650亿vs8520亿：Anthropic估值反超OpenAI，三巨头IPO大战开打！",
+      "slug": "9650亿vs8520亿-Anthropic估值反超OpenAI三巨头IPO大战开打",
+      "category": "商业",
+      "formula_type": "数字对决型",
+      "source_dir": "topic-01-anthropic-opus",
+      "files": {
+        "content": "content.md",
+        "html": "9650亿vs8520亿-Anthropic估值反超OpenAI三巨头IPO大战开打-wechat.html",
+        "review": "review.json"
+      },
+      "dimensions": {"hook":9,"punch":8,"density":9,"structure":8,"compliance":9}
+    },
+    {
+      "rank": 2,
+      "score": 86.5,
+      "title": "19.8万Star的ECC让AI编程工具集体开窍了！",
+      "slug": "ecc-198k-star-ai-coding-tools-upgrade",
+      "category": "开源",
+      "formula_type": "数字震撼型",
+      "source_dir": "topic-02-ecc-github",
+      "files": {
+        "content": "content.md",
+        "html": "ecc-198k-star-ai-coding-tools-upgrade-wechat.html",
+        "review": "review.json",
+        "covers": [
+          "ecc-198k-star-ai-coding-tools-upgrade-cover-banner.png",
+          "ecc-198k-star-ai-coding-tools-upgrade-cover-wide.png",
+          "ecc-198k-star-ai-coding-tools-upgrade-cover-square.png"
+        ]
+      },
+      "dimensions": {"hook":9,"punch":8,"density":9,"structure":8,"compliance":9}
+    },
+    {
+      "rank": 3,
+      "score": 85,
+      "title": "Musk诉Altman案落幕：一场关于AI"灵魂"的硅谷战争",
+      "slug": "Musk诉Altman案落幕一场关于AI灵魂的硅谷战争",
+      "category": "人物",
+      "formula_type": "权威人物型",
+      "source_dir": "topic-03-musk-altman",
+      "files": {
+        "content": "content.md",
+        "html": "content.html",
+        "review": "review.json"
+      },
+      "notes": "封面因API限流未生成"
+    },
+    {
+      "rank": 4,
+      "score": 84,
+      "title": "李飞飞首秀：一口气发32款Agent产品，阿里云这波太猛了！",
+      "slug": "李飞飞首秀一口气发32款Agent产品阿里云这波太猛了",
+      "category": "产品",
+      "formula_type": "权威人物型",
+      "source_dir": "topic-04-alibaba-agent",
+      "files": {
+        "content": "content.md",
+        "html": "content.html",
+        "review": "review.json"
+      },
+      "notes": "封面待生成"
+    },
+    {
+      "rank": 5,
+      "score": 82,
+      "title": "300克的AI主机，跑动1220亿参数大模型：联想要把云端算力搬进你家！",
+      "slug": "300克的AI主机跑动1220亿参数大模型联想要把云端算力搬进你家",
+      "category": "产品",
+      "formula_type": "数字震撼型",
+      "source_dir": "topic-05-lenovo-ai",
+      "files": {
+        "content": "content.md",
+        "html": "article.html",
+        "review": "review.json"
+      },
+      "notes": "封面因API限流未生成"
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "avg_score": 84.9,
+    "covers_generated": 1,
+    "covers_pending": 4
+  }
+}
