@@ -4,27 +4,65 @@
     {
       "order": 1,
       "title": "潘建伟团队再登Nature：九章四号操控3050个光子，算力是超算的10⁵⁴倍！",
-      "slug": "jiuzhang4-quantum-nature",
+      "slug": "jiuzhang4-quantum",
       "category": "量子计算/国产突破",
-      "word_count": 2800,
-      "status": "ready",
       "files": {
         "content": "jiuzhang4-quantum-content.md",
         "html": "jiuzhang4-quantum-wechat.html",
         "cover": "jiuzhang4-quantum-cover.png"
       },
-      "score": 95,
-      "urgency": "high",
-      "publish_priority": 1
+      "score": 95
+    },
+    {
+      "order": 2,
+      "title": "Figure 03直播130小时不休息！人形机器人真的要抢人类饭碗了",
+      "slug": "figure03-robot",
+      "category": "机器人/科技趋势",
+      "files": {
+        "content": "figure03-robot-content.md",
+        "cover": "figure03-robot-cover.png"
+      },
+      "score": 92
+    },
+    {
+      "order": 3,
+      "title": "DeepSeek V4开源发布：中国AI调用量是美国的2倍，成本只有GPT的1/170！",
+      "slug": "deepseek-v4",
+      "category": "AI/国产模型",
+      "files": {
+        "content": "deepseek-v4-content.md",
+        "cover": "deepseek-v4-cover.png"
+      },
+      "score": 90
+    },
+    {
+      "order": 4,
+      "title": "哈佛重磅研究：AI诊断准确率67%，人类医生只有50%！",
+      "slug": "ai-diagnosis",
+      "category": "医疗/研究",
+      "files": {
+        "content": "ai-diagnosis-content.md",
+        "cover": "ai-diagnosis-cover.png"
+      },
+      "score": 88
+    },
+    {
+      "order": 5,
+      "title": "华为Tau定律：不用EUV光刻机，也能造出等效1.4nm芯片！",
+      "slug": "huawei-tau",
+      "category": "芯片/国产替代",
+      "files": {
+        "content": "huawei-tau-content.md",
+        "cover": "huawei-tau-cover.png"
+      },
+      "score": 86
     }
   ],
   "workflow_status": {
     "topic_discovery": "completed",
     "writing": "completed",
     "review": "completed",
-    "title_optimization": "completed",
-    "html_conversion": "completed",
-    "cover_generation": "in_progress",
-    "git_sync": "pending"
+    "cover_generation": "completed",
+    "git_sync": "completed"
   }
 }
