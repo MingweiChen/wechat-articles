@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-31",
+  "articles": [
+    {
+      "order": 1,
+      "title": "潘建伟团队再登Nature：九章四号操控3050个光子，算力是超算的10⁵⁴倍！",
+      "slug": "jiuzhang4-quantum-nature",
+      "category": "量子计算/国产突破",
+      "word_count": 2800,
+      "status": "ready",
+      "files": {
+        "content": "jiuzhang4-quantum-content.md",
+        "html": "jiuzhang4-quantum-wechat.html",
+        "cover": "jiuzhang4-quantum-cover.png"
+      },
+      "score": 95,
+      "urgency": "high",
+      "publish_priority": 1
+    }
+  ],
+  "workflow_status": {
+    "topic_discovery": "completed",
+    "writing": "completed",
+    "review": "completed",
+    "title_optimization": "completed",
+    "html_conversion": "completed",
+    "cover_generation": "in_progress",
+    "git_sync": "pending"
+  }
+}
