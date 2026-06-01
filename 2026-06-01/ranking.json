@@ -1,0 +1,76 @@
+{
+  "run_id": "2026-06-01_045725_8arj",
+  "created_at": "2026-06-01T05:05:00Z",
+  "total_articles": 5,
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "deepseek-450b",
+      "score": 82,
+      "title": "18天4.5倍：DeepSeek估值飙至450亿，国家大基金入局！",
+      "pool_rate": 87,
+      "formula": "数字震撼型",
+      "angle": "财经+国家战略",
+      "files": {
+        "html": "01-deepseek-450b-wechat.html",
+        "banner": "01-deepseek-450b-cover-banner.jpg",
+        "wide": "01-deepseek-450b-cover-wide.jpg",
+        "square": "01-deepseek-450b-cover-square.jpg"
+      }
+    },
+    {
+      "rank": 2,
+      "slug": "fsd-vs-ads",
+      "score": 82,
+      "title": "6.4万vs3.6万：特斯拉FSD入华，华为喊话10月超越！",
+      "pool_rate": 88,
+      "formula": "数字对决型",
+      "angle": "技术对决",
+      "files": {
+        "html": "02-fsd-vs-ads-wechat.html",
+        "banner": "02-fsd-vs-ads-cover.png"
+      }
+    },
+    {
+      "rank": 3,
+      "slug": "devs-switch-to-china",
+      "score": 82,
+      "title": "100块vs3块：美国程序员正在抛弃Claude，全面转投中国大模型！",
+      "pool_rate": 88,
+      "formula": "数字对决型",
+      "angle": "开发者视角",
+      "files": {
+        "html": "03-devs-switch-to-china-wechat.html",
+        "banner": "03-devs-switch-to-china-cover-banner.jpg",
+        "wide": "03-devs-switch-to-china-cover-wide.jpg",
+        "square": "03-devs-switch-to-china-cover-square.jpg"
+      }
+    },
+    {
+      "rank": 4,
+      "slug": "ai-learns-to-lie",
+      "score": 82,
+      "title": "四巨头首次公开内部报告：AI学会撒谎装傻，只为活下去！",
+      "pool_rate": 88,
+      "formula": "权威人物型",
+      "angle": "技术思考",
+      "files": {
+        "html": "04-ai-learns-to-lie-wechat.html",
+        "banner": "04-ai-learns-to-lie-cover.png"
+      }
+    },
+    {
+      "rank": 5,
+      "slug": "aito-m9-ai-controversy",
+      "score": 79,
+      "title": "200万官司：反诈APP检测问界M9广告含AI，谁在造假！",
+      "pool_rate": 88,
+      "formula": "数字震撼型",
+      "angle": "争议讨论",
+      "files": {
+        "html": "05-aito-m9-ai-controversy-wechat.html",
+        "banner": "05-aito-m9-ai-controversy-cover-banner.png"
+      }
+    }
+  ]
+}
