@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-02",
+  "run_id": "2026-06-02_050249_y0fa",
+  "total": 6,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 92,
+      "title": "AI诊断正式纳入医保：12项检查可报销，首年惠及1.2亿人！",
+      "slug": "ai-medical-insurance",
+      "dimensions": {
+        "hook": 10,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "files": [
+        "01-AI诊断正式纳入医保12项检查可报销首年惠及1.2亿人-wechat.html"
+      ]
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 90,
+      "title": "宇树科技73天闪电过会：募资42亿冲刺A股具身智能第一股！",
+      "slug": "unitree-ipo",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "files": [
+        "02-宇树科技73天闪电过会募资42亿冲刺A股具身智能第一股-wechat.html"
+      ]
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 88,
+      "title": "Anthropic秘密递交IPO：估值9650亿超越OpenAI，AI王座正式易主！",
+      "slug": "anthropic-ipo",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      },
+      "iterations": 1,
+      "files": [
+        "03-Anthropic秘密递交IPO估值9650亿超越OpenAI-AI王座正式易主-wechat.html"
+      ]
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 87,
+      "title": "英伟达RTX Spark vs华为鸿蒙电脑：1P算力和全链自研，两条路！",
+      "slug": "rtx-spark-vs-hongmeng",
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "files": [
+        "04-英伟达RTX-Spark-vs华为鸿蒙电脑1P算力和全链自研两条路-wechat.html"
+      ]
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 86,
+      "title": "马斯克600亿美元收购Cursor：SpaceX上市后30天内完成交易！",
+      "slug": "spacex-cursor",
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      },
+      "iterations": 1,
+      "files": [
+        "05-马斯克600亿美元收购Cursor-SpaceX上市后30天内完成交易-wechat.html"
+      ]
+    },
+    {
+      "rank": 6,
+      "prefix": "06",
+      "score": 84,
+      "title": "DeepSeek OpenCode月增千星：免费开源的AI编程工具杀入战场！",
+      "slug": "deepseek-opencode",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      },
+      "iterations": 1,
+      "files": [
+        "06-DeepSeek-OpenCode月增千星免费开源的AI编程工具杀入战场-wechat.html"
+      ]
+    }
+  ]
+}
