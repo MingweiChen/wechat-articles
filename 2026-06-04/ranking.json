@@ -1,0 +1,52 @@
+{
+  "run_id": "2026-06-04_150858_3139",
+  "generated_at": "2026-06-04T15:08:58Z",
+  "total_articles": 5,
+  "ranking": [
+    {
+      "rank": 1,
+      "score": 88,
+      "slug": "gitlab-layoffs",
+      "title": "业绩创新高却裁员14%！GitLab证明了一件事：AI时代没有铁饭碗",
+      "formula_type": "反转验证型",
+      "category": "职场/AI",
+      "iteration": 1
+    },
+    {
+      "rank": 2,
+      "score": 87,
+      "slug": "altman-amodei-unite",
+      "title": "IPO打得头破血流的Altman和Amodei，今天为这件事握手言和",
+      "formula_type": "权威人物型",
+      "category": "人物/行业",
+      "iteration": 1
+    },
+    {
+      "rank": 3,
+      "score": 86,
+      "slug": "blue-origin-explosion",
+      "title": "贝索斯火箭炸成烟花！SpaceX冲刺万亿IPO，Blue Origin原地爆炸",
+      "formula_type": "权威人物型",
+      "category": "科技/人物",
+      "iteration": 1
+    },
+    {
+      "rank": 4,
+      "score": 85,
+      "slug": "token-resale",
+      "title": "月入百万的AI Token倒卖生意：有人暴富，有人一周跑路",
+      "formula_type": "数字震撼型",
+      "category": "揭秘/商业",
+      "iteration": 1
+    },
+    {
+      "rank": 5,
+      "score": 84,
+      "slug": "github-bans-researcher",
+      "title": "GitHub封禁发现漏洞的安全研究员！微软这波操作，开发者怒了",
+      "formula_type": "痛点解决型",
+      "category": "争议/科技",
+      "iteration": 1
+    }
+  ]
+}
