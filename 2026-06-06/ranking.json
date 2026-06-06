@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T05:12:00Z",
+  "generated_at": "2026-06-06T14:06:00Z",
   "run_id": "2026-06-06_050500_99af",
   "articles": [
     {
@@ -9,7 +9,13 @@
       "title": "微软亮剑：7款自研大模型发布，数学得分97%碾压Claude，量子芯片2029商用！",
       "formula_type": "数字震撼型",
       "iteration": 1,
-      "dimensions": {"hook": 9, "punch": 9, "density": 10, "structure": 9, "compliance": 9}
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 10,
+        "structure": 9,
+        "compliance": 9
+      }
     },
     {
       "rank": 2,
@@ -18,7 +24,13 @@
       "title": "华为1.4纳米路线图曝光：中美AI差距仅剩2.7%，DeepSeek用国产芯片练出1.6万亿参数！",
       "formula_type": "数字对决型",
       "iteration": 1,
-      "dimensions": {"hook": 10, "punch": 9, "density": 9, "structure": 9, "compliance": 8}
+      "dimensions": {
+        "hook": 10,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 8
+      }
     },
     {
       "rank": 3,
@@ -27,7 +39,13 @@
       "title": "库克最后一战：Siri整合Gemini和ChatGPT，苹果终于承认单打独斗搞不定AI！",
       "formula_type": "权威人物型",
       "iteration": 1,
-      "dimensions": {"hook": 9, "punch": 8, "density": 9, "structure": 9, "compliance": 9}
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      }
     },
     {
       "rank": 4,
@@ -36,7 +54,13 @@
       "title": "黄仁勋+高通CEO+英特尔CEO齐喊：AI Agent时代全面到来，抵抗是徒劳的！",
       "formula_type": "权威人物型",
       "iteration": 1,
-      "dimensions": {"hook": 9, "punch": 8, "density": 9, "structure": 8, "compliance": 9}
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
     },
     {
       "rank": 5,
@@ -45,7 +69,28 @@
       "title": "Waymo新车砍掉一半传感器：成本暴降至2万美元，自动驾驶的成本战正式打响！",
       "formula_type": "数字震撼型",
       "iteration": 1,
-      "dimensions": {"hook": 9, "punch": 8, "density": 9, "structure": 8, "compliance": 9}
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": 6,
+      "score": 86,
+      "slug": "claude-leak-china-vs-us",
+      "title": "Claude让陌生人看到你的对话！硅谷云AI最致命漏洞，3年犯2次同款错误",
+      "formula_type": "数字震撼型",
+      "iteration": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 7
+      }
     }
   ]
 }
