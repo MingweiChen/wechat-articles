@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-07",
+  "total": 5,
+  "sort_rule": "review_score DESC, then (hook+punch+density) DESC, then title_score DESC",
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "slug": "zhuimi-yuhao-banned",
+      "title": "追觅俞浩微博禁言！700亿IPO雷军狂赚28亿翻200倍！",
+      "review_score": 88,
+      "title_score": 95,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 8
+      },
+      "word_count": 2273,
+      "iteration": 2
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "slug": "anthropic-ipo-965b",
+      "title": "Anthropic冲刺9650亿IPO！Claude剑指硅谷AI第一股！",
+      "review_score": 86,
+      "title_score": 95,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 7
+      },
+      "word_count": 1939,
+      "iteration": 2
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "slug": "openai-realtime-audio",
+      "title": "10亿用户开口聊AI！OpenAI Realtime Audio上线，延迟低至320毫秒！",
+      "review_score": 86,
+      "title_score": 95,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 7
+      },
+      "word_count": 1850,
+      "iteration": 2
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "slug": "anthropic-80-percent-code",
+      "title": "Anthropic重磅自爆！80%代码由Claude撰写，AI构建自身的时代来了！",
+      "review_score": 84,
+      "title_score": 92,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 6
+      },
+      "word_count": 2130,
+      "iteration": 2
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "slug": "nvidia-cosmos3",
+      "title": "英伟达Cosmos 3 8项基准全拿第1！黄仁勋物理AI野心彻底亮牌！",
+      "review_score": 83,
+      "title_score": 95,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 6
+      },
+      "word_count": 1978,
+      "iteration": 2
+    }
+  ]
+}
