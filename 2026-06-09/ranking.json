@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-09",
+  "total": 5,
+  "articles": [
+    {
+      "slug": "china-unicorn-2026-ai-supremacy",
+      "score": 88,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      },
+      "iteration": 1,
+      "title": "中国独角兽11.7万亿，AI首超新能源千亿级激增！",
+      "rank": 1,
+      "prefix": "01",
+      "files": [
+        "01-china-unicorn-2026-ai-supremacy-wechat.html",
+        "01-china-unicorn-2026-ai-supremacy-cover-banner.jpg",
+        "01-china-unicorn-2026-ai-supremacy-cover-wide.jpg",
+        "01-china-unicorn-2026-ai-supremacy-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "nev-may-shakeup-xiaomi-skynomad",
+      "score": 84.5,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 8
+      },
+      "iteration": 1,
+      "title": "零跑5月交付8.1万领跑，理想同比降18%小米寻天曝光！",
+      "rank": 2,
+      "prefix": "02",
+      "files": [
+        "02-nev-may-shakeup-xiaomi-skynomad-wechat.html",
+        "02-nev-may-shakeup-xiaomi-skynomad-cover-banner.jpg",
+        "02-nev-may-shakeup-xiaomi-skynomad-cover-wide.jpg",
+        "02-nev-may-shakeup-xiaomi-skynomad-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "deepseek-500b-funding",
+      "score": 84,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 8
+      },
+      "iteration": 1,
+      "title": "DeepSeek敲定500亿融资，腾讯领投阿里出局！",
+      "rank": 3,
+      "prefix": "03",
+      "files": [
+        "03-deepseek-500b-funding-wechat.html",
+        "03-deepseek-500b-funding-cover-banner.jpg",
+        "03-deepseek-500b-funding-cover-wide.jpg",
+        "03-deepseek-500b-funding-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "china-ai-four-ipos",
+      "score": 81.5,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 7
+      },
+      "iteration": 1,
+      "title": "智谱150亿募资IPO，中国AI四子半年冲科创板！",
+      "rank": 4,
+      "prefix": "04",
+      "files": [
+        "04-china-ai-four-ipos-wechat.html",
+        "04-china-ai-four-ipos-cover-banner.jpg",
+        "04-china-ai-four-ipos-cover-wide.jpg",
+        "04-china-ai-four-ipos-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "china-embodied-ai-dual-core",
+      "score": 80,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 7
+      },
+      "iteration": 1,
+      "title": "宇树IPO同日黄仁勋押注H2+，具身智能中国双核！",
+      "rank": 5,
+      "prefix": "05",
+      "files": [
+        "05-china-embodied-ai-dual-core-wechat.html",
+        "05-china-embodied-ai-dual-core-cover-banner.jpg",
+        "05-china-embodied-ai-dual-core-cover-wide.jpg",
+        "05-china-embodied-ai-dual-core-cover-square.jpg"
+      ]
+    }
+  ]
+}
