@@ -1,0 +1,27 @@
+{
+  "title": "22亿入主当晚就质押50%，追觅创始人A股首秀两连跌停！",
+  "slug": "22yi-zhiya50-zhuimi-ashou-liangtieding",
+  "filename_zh": "22亿入主当晚就质押50追觅创始人A股首秀两连跌停",
+  "char_count": 26,
+  "formula_type": "数字震撼型 + 权威人物型",
+  "elements": {
+    "number_a": "22亿",
+    "number_b": "50%",
+    "person": "追觅创始人",
+    "event": "A股首秀两连跌停",
+    "conflict": "入主当晚就质押"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "leading_15_has_hook": true,
+    "score": 95
+  },
+  "alternatives": [
+    "追觅创始人22亿入主嘉美包装A股首秀连吃两个跌停！",
+    "22亿入主当晚就质押50%！追觅创始人A股首秀连吃跌停！"
+  ]
+}
