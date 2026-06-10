@@ -1,0 +1,22 @@
+{
+  "title": "库克最后一场WWDC：苹果给Siri装了Google内核！",
+  "slug": "apple-wwdc26-siri-gemini",
+  "main_title_line1": "库克最后一场WWDC：",
+  "main_title_line2": "苹果给Siri装了Google内核！",
+  "subtitle": "苹果史上最尴尬的胜利，14年自研神话出现裂缝",
+  "char_count": 25,
+  "formula_type": "权威人物型 + 反转验证型",
+  "elements": {
+    "person": "库克",
+    "action": "最后一场WWDC",
+    "impact": "Siri换Google内核"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

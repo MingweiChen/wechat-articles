@@ -1,0 +1,22 @@
+{
+  "title": "Anthropic掀桌子！Mythos级Fable 5公开，Opus一夜变备胎！",
+  "slug": "anthropic-fable5-mythos",
+  "main_title_line1": "Anthropic掀桌子！Mythos级Fable 5",
+  "main_title_line2": "公开放出，Opus一夜变备胎！",
+  "subtitle": "9650亿估值反超OpenAI，企业级AI迎来新王",
+  "char_count": 35,
+  "formula_type": "权威人物型 + 反转验证型",
+  "elements": {
+    "person": "Anthropic",
+    "action": "Mythos级Fable 5公开放出",
+    "impact": "Opus一夜变备胎"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 90
+  }
+}

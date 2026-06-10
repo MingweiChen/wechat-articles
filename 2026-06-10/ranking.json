@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "total_articles": 1,
+  "total_articles": 5,
   "articles": [
     {
       "rank": "01",
@@ -15,6 +15,63 @@
         "structure": 9,
         "compliance": 8
       }
+    },
+    {
+      "rank": "02",
+      "slug": "apple-wwdc26-siri-gemini",
+      "title": "库克最后一场WWDC：苹果给Siri装了Google内核！",
+      "score": 90,
+      "iteration": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": "03",
+      "slug": "anthropic-fable5-mythos",
+      "title": "Anthropic掀桌子！Mythos级Fable 5公开，Opus一夜变备胎！",
+      "score": 90,
+      "iteration": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": "04",
+      "slug": "huawei-ai-glasses-2499",
+      "title": "2499元、12小时续航、0.7秒抓拍！华为撕开AI眼镜千亿临界点！",
+      "score": 88,
+      "iteration": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      }
+    },
+    {
+      "rank": "05",
+      "slug": "huawei-hdc2026-harmonyos7",
+      "title": "鸿蒙7.0倒计时48小时！纯血、自研、端侧AI三件事一次干完！",
+      "score": 86,
+      "iteration": 1,
+      "dimensions": {
+        "hook": 8,
+        "punch": 9,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9
+      }
     }
-  ]
+  ],
+  "note": "按总分排序；追觅保持 01 位置避免 git 历史冲突（已 push）。Apple/Anthropic 90分并列前列，华为系列分列后位。"
 }

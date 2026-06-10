@@ -1,0 +1,22 @@
+{
+  "title": "2499元、12小时续航、0.7秒抓拍！华为撕开AI眼镜临界点！",
+  "slug": "huawei-ai-glasses-2499",
+  "main_title_line1": "2499元、12小时续航、0.7秒抓拍！",
+  "main_title_line2": "华为撕开AI眼镜千亿临界点！",
+  "subtitle": "2025到2029，国内市场从112亿冲到1191亿",
+  "char_count": 27,
+  "formula_type": "数字震撼型",
+  "elements": {
+    "numbers": ["2499元", "12小时", "0.7秒"],
+    "brand": "华为",
+    "event": "撕开AI眼镜临界点"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

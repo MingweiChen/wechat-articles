@@ -1,0 +1,316 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <!-- 开篇区块（深色渐变背景） -->
+  <section style="background:linear-gradient(135deg,#1d1d1f 0%,#2d2d30 50%,#3a3a3c 100%); border-radius:12px; padding:32px 22px; margin:1em 0; text-align:center;">
+    <p style="font-size:14px; color:rgba(255,255,255,0.55); margin:0 0 14px 0; letter-spacing:3px;">WWDC26 · 苹果观察</p>
+    <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.45;">库克最后一场WWDC：<br>苹果给Siri装了Google内核！</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.6); margin:0; line-height:1.6;">苹果史上最尴尬的胜利，14年自研神话出现裂缝</p>
+  </section>
+
+  <!-- 核弹开头 -->
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">
+    <strong style="color:#e74c3c;">苹果史上最尴尬的胜利。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+    WWDC26 主舞台上，Tim Cook 站在那块巨大的屏幕前，宣布 Siri 终于"完整版"上线。台下掌声雷动。但发布会进行到第 23 分钟，Craig Federighi 轻飘飘说了一句话——这次重写的 Siri，<strong style="color:#e74c3c;">内核由 Google Gemini 驱动</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+    掌声停了两秒。然后又响起来。但已经不是同一种掌声了。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">
+    这是 Tim Cook 作为 CEO 的<strong>最后一场 WWDC</strong>。9 月 1 日，他正式交棒给 John Ternus，结束 14 年 CEO 任期。本来应该是一场加冕式，却变成了苹果 AI 战略的一次公开承认——<strong style="color:#e74c3c;">自研搞不定，只能借兵</strong>。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第一部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1d1d1f; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    01 18 个月的债，终于还了一半
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    时间倒回 2024 年 6 月。同样是 WWDC，同样是 Federighi 在台上，苹果向全世界承诺：Apple Intelligence 将在"未来 18 个月内"完整推出，Siri 将彻底重写，具备<strong>屏幕感知、跨 App 操作、个人语境理解</strong>三大能力。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    那是苹果在 AI 时代的第一次正面回应。彼时 ChatGPT 已经火了 18 个月，Google 推出 Gemini 1.5，微软把 Copilot 塞进 Office 全家桶。苹果姗姗来迟，但姿态很高——<strong>我们做得慢，是因为我们做得对</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    结果呢？据多家媒体报道，苹果内部 2025 年初承认 Siri 重写延期，核心原因是大模型自研团队进度不及预期，"个人语境"功能多次跑通失败。彭博社披露，功能从原定 iOS 18.4 一路推到 iOS 19.4，最终落到 <strong style="color:#e74c3c;">iOS 27</strong>。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      承诺 18 个月，实际 24 个月。被微软抢走的企业市场、被 Google 蚕食的搜索入口、被 OpenAI 拿走的开发者心智，<strong style="color:#e74c3c;">已经不是钱能买回来的了</strong>。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    WWDC26 上，Federighi 终于宣布"Apple Intelligence 2.0"完整版上线。<strong>iOS 27、iPadOS 27、macOS 27、watchOS、visionOS、tvOS</strong> 同步更新——苹果罕见地把六大系统编号统一，试图营造"全平台 AI"的整齐感。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    但所有人都看出来了：<strong style="color:#e74c3c;">这不是兑现，这是补考</strong>。而且作弊了。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第二部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1d1d1f; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    02 Gemini 内核：苹果 30 年第一次"借兵"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Federighi 的原话："For the rebuilt Siri experience, we partnered with Google to integrate Gemini at the foundation level."
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong style="color:#e74c3c;">foundation level</strong>——基础层。不是某个 App 调 API 那种合作，是 Siri 的语言理解、推理、生成，核心都跑在 Gemini 上。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    什么概念？回顾苹果 30 年——
+  </p>
+
+  <!-- 信息卡片：苹果自研历史 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>苹果 30 年自研清单</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">
+      • macOS 内核（自研 Darwin）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">
+      • iPhone CPU（自研 A 系列）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">
+      • Mac CPU（自研 M 系列）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • 地图（踢掉 Google 自建）
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong>苹果从来都是自己干</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    唯一的例外是 Safari 默认搜索：Google 每年付苹果约 200 亿美元买这个位置。但那是 Google 求着苹果用，<strong>苹果是甲方</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这次反过来了。<strong style="color:#e74c3c;">苹果求着 Google 借模型</strong>。据公开信息显示，苹果自研 LLM 在性能、推理速度、上下文长度上没能追上 Gemini 2.5 Pro，而 OpenAI 报价过高谈判不顺，Anthropic 因 Amazon 持股受限。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      表面是合作，本质是认输。<strong style="color:#e74c3c;">苹果用 30 年证明了垂直整合的伟大，然后在 AI 这个新战场上，亲手撕开了一个口子。</strong>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更微妙的是，Gemini 后端意味着用户的语音、屏幕内容、个人数据，要经过 Google 的服务器。苹果的对策是"<strong>Private Cloud Compute</strong>"加密层，但要让外部模型在不解密的情况下运行，业内对其端到端隐私的兑现度仍存疑。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Cook 那句一直挂在嘴边的"<strong>Privacy is a fundamental human right</strong>"，今天有了新的注脚。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第三部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1d1d1f; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    03 EU 和中国都不能用，问题不只是监管
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    发布会结束时，屏幕角落出现一行小字：<strong>Apple Intelligence 2.0 will not be available in the European Union and mainland China at launch.</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    EU 不能用，是因为 <strong>DMA 数字市场法案</strong>。欧盟要求苹果开放第三方 AI 接入，允许用户选择默认 AI 助手——苹果不愿意。<strong style="color:#e74c3c;">4 亿欧洲 iPhone 用户，今年继续用残废版 Siri</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    中国市场更复杂。据公开信息显示，苹果在中国的 AI 合作 2024 年就开始谈，候选包括百度、阿里、字节，<strong>至今没有官宣落地</strong>。Gemini 在中国不可用，苹果又不能让用户体验"两套系统"，所以中国版只能继续等。
+  </p>
+
+  <!-- 数据卡片 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>📊 关键数据</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      EU + 中国市场，合计占苹果<strong style="color:#e74c3c;">全球营收约 35%</strong>。
+    </p>
+  </section>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      这不是技术问题，是地缘问题。当你的核心 AI 能力依赖另一家公司，而那家公司在两个最重要的市场都不可用——<strong style="color:#e74c3c;">你的产品就被切成了三块</strong>。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更深一层：中国对生成式 AI 有备案制度，模型必须本地化、可审计。苹果如果接百度文心或阿里通义，中国版 iPhone 的 Siri 内核就和全球版<strong style="color:#e74c3c;">完全不是同一个东西</strong>——隐私政策、用户体验、开发者适配，全部分叉。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    短期是尴尬，长期是<strong style="color:#e74c3c;">结构性裂痕</strong>。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第四部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1d1d1f; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    04 Cook 14 年：从供应链魔术师到 AI 时代旁观者
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    镜头拉远一点。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Cook 2011 年从乔布斯手里接过 CEO 时，苹果市值 3500 亿美元。今天交棒给 Ternus，苹果市值 3.4 万亿美元——<strong style="color:#e74c3c;">翻了将近 10 倍</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    不是侥幸。Cook 时代做对了三件事：
+  </p>
+
+  <!-- 卡片：Cook 时代成就 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>✅ Cook 时代三大胜利</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>服务业务从零做到 1000 亿美元年营收</strong>（App Store、iCloud、Apple Pay）
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>苹果芯片自研化</strong>，M 系列让 Mac 反超 Intel，每年省下数十亿授权费
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • <strong>供应链重构</strong>，从中国向印度越南分散，据公开报道印度 iPhone 产能已占全球约 25%
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    但短板这两年也越来越明显：
+  </p>
+
+  <!-- 卡片：Cook 时代短板 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>⚠️ Cook 时代三大遗憾</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • 造车项目 <strong>Project Titan</strong> 10 年烧掉百亿美元，2024 年正式取消
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>Vision Pro</strong> 销量低于内部预期，2025 年传出产能砍半
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • <strong>AI 战略反应迟缓</strong>，从 ChatGPT 问世到今天用了<strong style="color:#e74c3c;">3 年半</strong>才拿出借 Google 内核的方案
+    </p>
+  </section>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      Cook 是史上最伟大的运营 CEO，但运营思维的边界，就是 AI 这种<strong style="color:#e74c3c;">赌博式技术革命</strong>的天花板。他擅长把已有的东西做到极致，不擅长在迷雾中冒险。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    接班人 <strong>John Ternus</strong> 现年 50 岁，1995 年加入苹果，主导了 M 芯片、Vision Pro、Apple Silicon Mac。<strong style="color:#e74c3c;">他是工程师，不是运营专家</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这个选择本身就是信号：苹果董事会明白，接下来的 10 年不是供应链效率战争，是<strong style="color:#e74c3c;">技术原创力</strong>的战争。Cook 时代的最优解，不是 Ternus 时代的最优解。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 第五部分 -->
+  <p style="font-size:20px; font-weight:bold; color:#1d1d1f; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    05 这场发布会的真正含义
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    把所有线索拼起来：库克最后一场 keynote、自研 Siri 失败改用 Google 内核、EU 中国不可用、接班人是工程师而非运营出身。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是一场普通的 WWDC，是<strong style="color:#e74c3c;">苹果一个时代的官方收官</strong>。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      过去 14 年，苹果靠"<strong>控制一切</strong>"赚钱。下一个 14 年，苹果可能要学会"<strong style="color:#e74c3c;">和谁合作</strong>"赚钱。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    对中国科技公司，两个启示：
+  </p>
+
+  <!-- 卡片：两个启示 -->
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 12px 0;">
+      <strong>💡 两个关键启示</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 12px 0;">
+      <strong style="color:#e74c3c;">第一</strong>，AI 大模型已经从加分项变成<strong>基础设施</strong>。苹果这种级别都不得不外采，自研 LLM 门槛在快速抬高。短期看，可能只剩 5-7 家全球玩家能玩这个游戏。
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong style="color:#e74c3c;">第二</strong>，<strong>垂直整合不再是万能护城河</strong>。当核心智能能力来自外部供应商，产品差异化重新回到设计、生态、隐私、本地化——这些是中国公司<strong style="color:#e74c3c;">从来不输</strong>的领域。
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Cook 9 月 1 日离任。Ternus 接手的是一个市值 3.4 万亿、但 <strong style="color:#e74c3c;">AI 内核不在自己手里</strong>的苹果。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    发布会最讽刺的画面是：Cook 在台上说"the most personal AI"时，身后大屏幕的小字写着 <strong style="color:#e74c3c;">Powered by Google</strong>。
+  </p>
+
+  <!-- 引用块 -->
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      这不是失败，是<strong style="color:#e74c3c;">一个时代用最体面的方式承认自己的局限</strong>。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    下一个时代，赌的是 Ternus，赌的是苹果能不能在 5 年内把 Gemini 这根拐杖，<strong>换成自己的腿</strong>。
+  </p>
+
+  <!-- 分割线 -->
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <!-- 文末引导 -->
+  <section style="background:#f5f5f5; border-radius:8px; padding:20px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 10px 0; line-height:1.8;">如果觉得有启发，<strong style="color:#e74c3c;">点赞 + 在看 + 转发</strong>，让更多人看到。</p>
+    <p style="font-size:15px; color:#333; margin:0 0 10px 0; line-height:1.8;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+    <p style="font-size:15px; color:#333; margin:0; line-height:1.8;">💬 评论区聊聊：你觉得苹果换 Google 内核，是<strong>认输</strong>还是<strong>务实</strong>？</p>
+  </section>
+
+  <!-- 尾部 -->
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0; letter-spacing:2px;">— END —</p>
+
+</section>
