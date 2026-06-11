@@ -1,0 +1,371 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+  <section style="background:linear-gradient(135deg,#2d3436 0%,#3d4548 50%,#636e72 100%); border-radius:12px; padding:30px 22px; margin:1em 0; text-align:center;">
+    <p style="font-size:13px; color:rgba(255,255,255,0.55); margin:0 0 14px 0; letter-spacing:3px;">硅谷复盘 · AI 行业</p>
+    <p style="font-size:24px; color:#fff; margin:0 0 14px 0; font-weight:bold; line-height:1.5;">扎克伯格九个月翻盘<br>砍掉 Llama、调 8000 人、用 400 亿换回了什么</p>
+    <p style="font-size:14px; color:rgba(255,255,255,0.6); margin:0; line-height:1.7;">六月七日 Muse Spark 发布，Meta 单日上涨 9%。一笔账，写给所有还在硬扛沉没成本的公司。</p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0 1.2em 0; text-indent:0;">
+    <strong style="color:#e74c3c;">400 亿美元，9 个月，8000 个工位，1 个 28 岁的 CAO。</strong>
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这是从 2025 年 9 月到 2026 年 6 月，扎克伯格在 Meta 内部完成的"换血手术"账单。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    代价昂贵到刺眼，但市场给了一个意外的答案——<strong style="color:#e74c3c;">6 月 7 日 Muse Spark 模型发布当天，Meta 股价单日上涨 9%</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    一个月前还被嘲笑"Llama 已死"的公司，一夜之间被重新放回了 AI 第一梯队的牌桌。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是反转剧本，是真金白银砸出来的"重启键"。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    01 沉没成本就是沉没成本：Llama 是怎么被推倒的
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    时间倒回 2025 年 Q3。Llama 4 刷榜事件还没发酵完，内部测评显示：多个真实业务场景下，Llama 4 的表现比对外宣称的指标差出一大截。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    紧接着，开发节奏几乎冻结。数据质量的"老账"被翻出来——Meta 几年时间堆起来的训练数据 pipeline，被外部团队评估为"问题集中、修复成本极高"。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    按硅谷惯常的剧本，这种时候大公司一般做两件事：开发布会洗白，加预算续命。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    扎克伯格做了第三件——<strong style="color:#e74c3c;">承认它救不回来了</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Llama 项目组被打散重组，下一代版本搁置，资源压在一条全新的产品线——Muse Spark。
+  </p>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.5em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      沉没成本就是沉没成本。承认这一点，比花十亿美金继续往里填，便宜得多。
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是面子问题，是商业决策。继续修，是修一个声誉受损的旧引擎；推倒重来，是重新定义起点。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    很多 AI 公司做不出第二代产品，本质上不是技术问题，是没人敢说"放弃"两个字。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    02 143 亿美元买什么？答案是"时间"
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    2025 年 11 月，Meta 以 <strong style="color:#e74c3c;">143 亿美元收购 Scale AI 49% 股份</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这不是一笔正常的战略投资。踩着监管红线的最大值——再多 1%，就要走更复杂的并表流程。意图明显：<strong style="color:#e74c3c;">拿最大控制权，又不触发反垄断审查</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Scale AI 是谁？数据标注起家的独角兽，硅谷顶级 AI 实验室的"幕后军火商"，OpenAI、Anthropic 早期都是它的客户。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Meta 买的不是公司，是那套被业界验证过的<strong style="color:#e74c3c;">数据治理体系</strong>——采集、清洗、标注、反馈循环的全套流水线。Meta 自己试图做出同样体系，花了 4 年也没做出来。
+  </p>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.5em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong>从商业角度看，143 亿不是收购费，是"加速费"。</strong>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    143 亿换 4 年时间，平均每年 35 亿买"不再造轮子"的权利。在用月做单位的行业里，这笔账不亏。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    更狠的一步，还在后面。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    03 28 岁的 CAO，和一位图灵奖大佬的告别
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    收购完成一个月后，扎克伯格做了一个让整个硅谷震动的人事任命——
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    <strong style="color:#e74c3c;">Alexandr Wang，Scale AI 创始人，28 岁，被任命为 Meta 史上首位 CAO（首席 AI 官）</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这个职位是新设的。直接向扎克伯格汇报，统管 Meta 所有 AI 业务线。在 Wang 之前，Meta 内部最有 AI 话语权的人是 Yann LeCun——深度学习"三巨头"之一，2018 年图灵奖得主。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    新架构落地后，LeCun 选择了职业转向。据多家媒体报道，他将加入新的研究平台，不再担任 Meta 任何核心管理职务。
+  </p>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.5em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>业内两种观点的分野</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • LeCun 代表学术派路线，强调长周期、底层研究
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • Wang 代表商业派路线，强调数据驱动、快速产品化
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • 两条路线不互斥，但同一家公司内，统帅只能有一个
+    </p>
+  </section>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.5em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong>硅谷这两年最大的变化是：不看年龄看结果。</strong>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    28 岁的 Wang 能坐到这个位置，不是因为年轻，是因为 Scale AI 在过去 18 个月里证明了"数据壁垒比模型壁垒更值钱"。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这事的信号深远——<strong style="color:#e74c3c;">当国内公司还在按"资历从厚到薄"排座位的时候，硅谷已经开始按"项目跑通的速度"排座位</strong>。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    04 8000 人的"组织优化"：管理岗先动刀
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    6 月 10 日，更详细的人员调整数据开始在媒体之间流转。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    总规模约 8000 人。组成结构透露出更多信号：
+  </p>
+
+  <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.5em 0;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>8000 人组织优化的内部构成</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong style="color:#e74c3c;">管理岗位 1400+</strong>，其中超过一半是软件工程经理
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>软件工程师近 1000 人</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      • <strong>数据科学家 419 人</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      • 其余分布在产品、运营、设计等支持岗
+    </p>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    最反直觉的一点是：<strong style="color:#e74c3c;">这次团队调整里，被砍最多的不是基层，是中层管理者</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    按以往大厂剧本，第一批走人的通常是边缘业务线的执行岗。Meta 这次反着来——从管理层开刀。一个细节：原本"工程师→Manager→Sr Manager→Director→VP"的五级汇报链，在 AI 业务线被压缩到了三级。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    背后的逻辑是：<strong style="color:#e74c3c;">AI 产品的迭代周期已经短到不允许有"中间传话人"存在</strong>。Wang 接手后明确要求，所有 AI 业务线的核心决策必须在 48 小时内闭环。五级汇报链跑一轮，48 小时早就过去了。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    当然，组织优化的争议也没少过。
+  </p>
+
+  <section style="background:linear-gradient(135deg,#fff3e0 0%,#ffe0b2 100%); border-radius:10px; padding:18px 20px; margin:1.5em 0; border-left:4px solid #ff9800;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>⚠️ 内部项目 MCI 的争议</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      最具代表性的是被员工称为 <strong>MCI（Meta Continuous Improvement）的内部项目</strong>。该项目会记录员工部分操作行为，作为优化内部 AI 工具的参考数据。员工对其数据使用边界存在不同看法，有报道提及曾出现 1500 人左右的内部联名请愿。公司回应称项目仍在评估调整中。
+    </p>
+  </section>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.5em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong>当 AI 公司开始用员工训练 AI，员工和数据之间的界限就成了下一个治理难题。</strong>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这件事没有标准答案。但至少说明一点：在硅谷做 AI 公司，PR 危机已经从"产品翻车"扩散到了"组织文化"层面。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    05 单日涨 9%：市场为什么愿意买单
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    把所有事拼起来看：
+  </p>
+
+  <section style="margin:1.5em 0; overflow-x:auto;">
+    <table style="width:100%; border-collapse:collapse; font-size:14px; line-height:1.7; background:#fff;">
+      <thead>
+        <tr style="background:#2d3436; color:#fff;">
+          <th style="padding:10px 12px; text-align:left; border:1px solid #2d3436;">时间点</th>
+          <th style="padding:10px 12px; text-align:left; border:1px solid #2d3436;">事件</th>
+          <th style="padding:10px 12px; text-align:left; border:1px solid #2d3436;">市场信号</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">2025 Q3</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">Llama 4 测评争议发酵</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#666;">唱空声起</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">2025/11</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">143 亿入股 Scale AI</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#666;">谨慎乐观</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">2025/12</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">Wang 出任 CAO</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#666;">评价分化</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">2026 初</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;">LeCun 职业转向</td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#666;">短期承压</td>
+        </tr>
+        <tr style="background:#fff3e0;">
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;"><strong>2026/6/7</strong></td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#333;"><strong>Muse Spark 发布</strong></td>
+          <td style="padding:10px 12px; border:1px solid #ddd; color:#e74c3c;"><strong>单日 +9%</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    9 个月时间，扎克伯格打完了一套<strong style="color:#e74c3c;">"换帅+换数据底座+换组织+换产品"</strong>的组合拳。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    单独拿出来任何一步都足以引发争议。但放在一起看，市场读懂了一件事——<strong style="color:#e74c3c;">Meta 不是在修补 AI 业务，是在重新定义 AI 业务</strong>。
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    Muse Spark 发布当天的 +9%，背后的解读其实并不复杂：
+  </p>
+
+  <section style="background:#e3f2fd; border-radius:10px; padding:18px 20px; margin:1.5em 0; border-left:4px solid #2196f3;">
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0 0 10px 0;">
+      <strong>市场买单的四个理由</strong>
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      ① 投资人对"Llama 包袱"的担忧解除
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      ② Scale AI 的数据基础证明了产品交付能力
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 8px 0;">
+      ③ 新组织结构跑出了第一个有实际产出的成果
+    </p>
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      ④ 400 亿美元的研发支出第一次有了"看得见的回报"
+    </p>
+  </section>
+
+  <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.5em 0; border-radius:0 8px 8px 0;">
+    <p style="font-size:15px; color:#555; line-height:1.8; margin:0;">
+      <strong>表面是产品发布，本质是一次治理结构的市场验证。</strong>
+    </p>
+  </blockquote>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    这场赌博远没有结束。Muse Spark 只是开局，后面还要接受真实业务场景的长期检验。但至少在 6 月这个时间点，扎克伯格用 400 亿美元和 9 个月，<strong style="color:#e74c3c;">让市场重新相信"Meta 还能在 AI 牌桌上待下去"</strong>。
+  </p>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">
+    06 三个判断，留给国内 AI 行业
+  </p>
+
+  <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">
+    抛开围观情绪，三个判断值得记下来。
+  </p>
+
+  <section style="background:linear-gradient(135deg,#e8f5e9 0%,#c8e6c9 100%); border-radius:10px; padding:18px 20px; margin:1.5em 0; border-left:4px solid #4caf50;">
+    <p style="font-size:15px; color:#1b5e20; line-height:1.8; margin:0 0 8px 0;">
+      <strong>判断一：敢于承认"沉没成本"，是大公司的稀缺能力</strong>
+    </p>
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0;">
+      Llama 不是不能继续修，是不值得继续修。能拍板说"不修了"的人，全球范围内都不多。过去两年最大的内耗，就是没人敢叫停那些"明知道走不下去却已经投了几个亿"的项目。
+    </p>
+  </section>
+
+  <section style="background:linear-gradient(135deg,#e8f5e9 0%,#c8e6c9 100%); border-radius:10px; padding:18px 20px; margin:1.5em 0; border-left:4px solid #4caf50;">
+    <p style="font-size:15px; color:#1b5e20; line-height:1.8; margin:0 0 8px 0;">
+      <strong>判断二：数据壁垒在 2026 年比模型壁垒更重要</strong>
+    </p>
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0;">
+      143 亿的收购清楚说明：大模型架构趋同的当下，谁有更干净、更结构化、反馈循环更快的数据，谁就能在下一代产品里赢出来。
+    </p>
+  </section>
+
+  <section style="background:linear-gradient(135deg,#e8f5e9 0%,#c8e6c9 100%); border-radius:10px; padding:18px 20px; margin:1.5em 0; border-left:4px solid #4caf50;">
+    <p style="font-size:15px; color:#1b5e20; line-height:1.8; margin:0 0 8px 0;">
+      <strong>判断三：组织扁平化不是赶时髦，是 AI 业务的硬约束</strong>
+    </p>
+    <p style="font-size:15px; color:#333; line-height:1.8; margin:0;">
+      48 小时决策周期不是 KPI，是物理边界。当模型迭代周期被压缩到周以下，五级汇报链就是公司的死刑判决。
+    </p>
+  </section>
+
+  <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+
+  <section style="background:linear-gradient(135deg,#2d3436 0%,#3d4548 100%); border-radius:12px; padding:24px 22px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:18px; color:#fff; margin:0 0 12px 0; font-weight:bold; line-height:1.6;">
+      400 亿美元买 9 个月，贵不贵？
+    </p>
+    <p style="font-size:16px; color:rgba(255,255,255,0.85); margin:0 0 12px 0; line-height:1.8;">
+      如果换来的是一张能继续坐的牌桌，<strong style="color:#ffeb3b;">那这笔账，在 AI 行业算便宜的</strong>。
+    </p>
+    <p style="font-size:15px; color:rgba(255,255,255,0.7); margin:0; line-height:1.7; font-style:italic;">
+      真刀真枪的时代，从来不便宜。
+    </p>
+  </section>
+
+  <section style="background:#f5f5f5; border-radius:8px; padding:16px; margin:1.5em 0; text-align:center;">
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+    <p style="font-size:15px; color:#333; margin:0 0 8px 0;">💬 你怎么看扎克伯格这套组合拳？评论区聊聊</p>
+    <p style="font-size:15px; color:#333; margin:0;">📤 转发给关心 AI 行业的朋友</p>
+  </section>
+
+  <p style="font-size:13px; color:#999; text-align:center; margin:2em 0 1em 0;">— END —</p>
+
+</section>

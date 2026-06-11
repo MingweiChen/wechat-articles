@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-11",
+  "run_id": "2026-06-11_050848_4b09",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 90.0,
+      "pool_score": 100,
+      "iteration": 1,
+      "title": "库克谢幕WWDC：2.5亿罚单后，Siri大脑正式接入Gemini！",
+      "slug_dir": "apple-wwdc-siri",
+      "title_slug": "库克谢幕WWDC2.5亿罚单后Siri大脑正式接入Gemini",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9
+      },
+      "files": [
+        "01-库克谢幕WWDC2.5亿罚单后Siri大脑正式接入Gemini-wechat.html",
+        "01-apple-wwdc-siri-cover-banner.jpg",
+        "01-apple-wwdc-siri-cover-wide.jpg",
+        "01-apple-wwdc-siri-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 88.5,
+      "pool_score": 95,
+      "iteration": 1,
+      "title": "小米Q1赚61亿同比-43%，雷军反手砸600亿AI豪赌！",
+      "slug_dir": "xiaomi-q1-earnings",
+      "title_slug": "小米Q1赚61亿同比-43雷军反手砸600亿AI豪赌",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      },
+      "files": [
+        "02-小米Q1赚61亿同比-43雷军反手砸600亿AI豪赌-wechat.html",
+        "02-xiaomi-q1-earnings-cover-banner.jpg",
+        "02-xiaomi-q1-earnings-cover-wide.jpg",
+        "02-xiaomi-q1-earnings-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 84.0,
+      "pool_score": 98,
+      "iteration": 2,
+      "title": "扎克伯格9个月翻盘：砍Llama调8000人换AI牌桌！",
+      "slug_dir": "meta-llama-zuck",
+      "title_slug": "扎克伯格9个月翻盘砍Llama调8000人换AI牌桌",
+      "dimensions": {
+        "hook": 8,
+        "punch": 9,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9
+      },
+      "files": [
+        "03-扎克伯格9个月翻盘砍Llama调8000人换AI牌桌-wechat.html",
+        "03-meta-llama-zuck-cover-banner.jpg",
+        "03-meta-llama-zuck-cover-wide.jpg",
+        "03-meta-llama-zuck-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 82.0,
+      "pool_score": 100,
+      "iteration": 1,
+      "title": "阿里8天换帅：92后陈宇森执掌钉钉，AI优先开局！",
+      "slug_dir": "dingding-ceo-change",
+      "title_slug": "阿里8天换帅92后陈宇森执掌钉钉AI优先开局",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9
+      },
+      "files": [
+        "04-阿里8天换帅92后陈宇森执掌钉钉AI优先开局-wechat.html",
+        "04-dingding-ceo-change-cover-banner.jpg",
+        "04-dingding-ceo-change-cover-wide.jpg",
+        "04-dingding-ceo-change-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 80.0,
+      "pool_score": 100,
+      "iteration": 2,
+      "title": "黄仁勳今天走上证人席：6.7亿芯片争议背后的合规大考！",
+      "slug_dir": "nvidia-senate-jensen",
+      "title_slug": "黄仁勳今天走上证人席67亿芯片争议背后的合规大考",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 8
+      },
+      "files": [
+        "05-黄仁勳今天走上证人席67亿芯片争议背后的合规大考-wechat.html",
+        "05-nvidia-senate-jensen-cover-banner.jpg",
+        "05-nvidia-senate-jensen-cover-wide.jpg",
+        "05-nvidia-senate-jensen-cover-square.jpg"
+      ]
+    }
+  ]
+}
