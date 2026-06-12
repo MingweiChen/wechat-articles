@@ -9,6 +9,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">接下来三件事被一口气甩出来，节奏快到台下许多观众都没反应过来：</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">1. <strong style="color:#e74c3c;">openPangu 2.0 Pro</strong>：5050 亿参数（505B），激活 180 亿（18B），稀疏配比 <strong style="color:#e74c3c;">28:1</strong> 2. <strong style="color:#e74c3c;">openPangu 2.0 Flash</strong>：920 亿参数（92B），激活 60 亿（6B），轻量化部署 3. <strong style="color:#e74c3c;">6 月 30 日全栈开源</strong>：预训练代码、后训练代码、训练算子……七大组件一次性放出</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">底下评论区里有句话刷屏了：「<strong style="color:#e74c3c;">华为这次不是发模型，是把整套答案抄给你看。</strong>」</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">发布会结束三十分钟后，开发者群里就有人开始算账：按 505B 总参的训练投入估算，仅算力一项的烧钱量级就足以让大多数公司望而却步，<strong style="color:#e74c3c;">而华为这次直接把这套"烧出来的成果"免费送给全行业</strong>。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">二、505B 参数是什么概念？这一刀切下去有多狠</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">光看数字，可能感觉不到震撼。把 openPangu 2.0 Pro 放到 2026 年 6 月这个时间点的全球开源大模型坐标系里看，画风就立刻不一样了。</p>
@@ -26,13 +27,30 @@
 <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 28:1 稀疏比 = 千亿参数档位里目前最高的稀疏度</p>
 </section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">简单说：<strong style="color:#e74c3c;">它的训练投入是按 505B 来算的，但你跑起来只用 18B 的算力成本。</strong></p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;"><strong style="color:#e74c3c;">这就是华为这次发布会最聪明的一招：把"训练时的奢侈"和"推理时的克制"拆开来卖，让企业用得起千亿级模型。</strong></blockquote>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">第二刀：512K 上下文，把"长文本能力"拉到了头部。</strong> 512K 大概是 38 万汉字。这是什么概念？整本《三体》三部曲是大约 88 万字，512K 上下文一次性塞进半部《三体》没问题。这种长度，在 Agent 场景里特别值钱：你可以把整个项目的代码库、整本产品手册、整个客户对话历史，一股脑扔给它，让它自己消化。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#e74c3c;">第三刀：6 月 30 日全栈开源，七大组件一次性掏出来。</strong> 这是华为这次最狠的一招。</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">不只开源模型权重，连<strong style="color:#e74c3c;">预训练代码、后训练代码、训练算子、推理算子、Tokenizer、数据处理脚本</strong>都一起放出来。</blockquote>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这意味着什么？意味着任何一家公司、一个高校、一个独立开发者，<strong style="color:#e74c3c;">都可以拿着这套东西从零复现 openPangu 2.0</strong>。这不是"我把饭做好了给你吃"，这是"我把厨房钥匙、菜谱、火候、刀工都交给你了"。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">国产开源大模型走到 2026 年这一步，已经不是单纯比"模型有多强"，而是比"开源得有多彻底"。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">三、昇腾亲和+鸿蒙适配：这次华为亮的是"全栈底牌"</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">三、把时间拉长看：国产开源大模型这三年，跑出了一条"加速度曲线"</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果只看 openPangu 2.0 这一发，可能会觉得只是又一次发布。但把它放到过去三年的国产开源大模型时间轴上看，你会发现一件更震撼的事：<strong style="color:#e74c3c;">国产开源大模型每一年都在重新定义自己的天花板</strong>。</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0; overflow-x:auto;"><p style="font-size:15px; color:#1a1a2e; line-height:1.8; margin:0 0 8px 0; padding-bottom:8px; border-bottom:2px solid #e74c3c; font-weight:bold;">年份 | 代表模型 | 参数规模 | 上下文 | 开源粒度</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0; padding-bottom:6px; border-bottom:1px dashed #e0e0e0;"><strong>年份</strong>: <strong style="color:#e74c3c;">2024 年</strong>  ｜  <strong>代表模型</strong>: DeepSeek V2 等  ｜  <strong>参数规模</strong>: 200B-300B 总参  ｜  <strong>上下文</strong>: 32K-128K  ｜  <strong>开源粒度</strong>: 模型权重 + 部分代码</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0; padding-bottom:6px; border-bottom:1px dashed #e0e0e0;"><strong>年份</strong>: <strong style="color:#e74c3c;">2025 年</strong>  ｜  <strong>代表模型</strong>: DeepSeek V3、Qwen3 等  ｜  <strong>参数规模</strong>: 480B-671B 总参  ｜  <strong>上下文</strong>: 128K-256K  ｜  <strong>开源粒度</strong>: 模型权重 + 训练框架</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0;"><strong>年份</strong>: <strong style="color:#e74c3c;">2026 年</strong>  ｜  <strong>代表模型</strong>: <strong style="color:#e74c3c;">openPangu 2.0 Pro</strong>  ｜  <strong>参数规模</strong>: <strong style="color:#e74c3c;">505B 总参 / 18B 激活</strong>  ｜  <strong>上下文</strong>: <strong style="color:#e74c3c;">512K</strong>  ｜  <strong>开源粒度</strong>: <strong style="color:#e74c3c;">七大组件全栈开源</strong></p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">三年三个台阶，每个台阶都比上一个跳得高。</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;"><p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">2024 年</strong>：国产开源大模型刚刚证明"我们也能做"</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">2025 年</strong>：国产开源大模型证明"我们能做得比海外开源还要好"</p>
+<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">2026 年</strong>：国产开源大模型在比"谁开源得最彻底、谁的全栈最完整"</p>
+</section>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;"><strong style="color:#e74c3c;">过去三年，国产开源大模型的进化速度，比海外同行整整快了一个身位。</strong></blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更值得注意的是开源粒度的变化。2024 年大家还在比"权重开不开源"，2025 年开始比"训练框架开不开源"，到了 2026 年，比的已经是"训练算子、推理算子、数据脚本、后训练流程，是不是全部开放"。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">每往下走一层，开源的"含金量"都翻一倍。openPangu 2.0 这次直接把七层全部打开，等于一次性把行业的开源标准抬到了新高度。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">四、昇腾亲和+鸿蒙适配：这次华为亮的是"全栈底牌"</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">如果你只看模型参数，那你只看到了华为这次发布的一半。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">另一半，藏在两条产品线里：<strong style="color:#e74c3c;">昇腾算力</strong>和<strong style="color:#e74c3c;">鸿蒙系统</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#1a1a2e; font-size:17px;">昇腾这一面：推理速度比业界主流开源模型快 2 倍</strong></p>
@@ -42,6 +60,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">举一个最直观的例子。同样一台服务器、同样一个推理请求，跑别家模型可能要 10 秒返回，跑 openPangu 2.0 Pro 在昇腾上只需要 5 秒。在大规模线上部署的场景里，这意味着<strong style="color:#e74c3c;">同样的成本，可以服务两倍的用户</strong>。或者反过来说，<strong style="color:#e74c3c;">同样的用户量，硬件成本可以减半</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是"昇腾亲和"的真正威力。它不是简单的"我的模型在我的芯片上能跑"，而是<strong style="color:#e74c3c;">"我的模型为我的芯片做了深度优化，跑出来的效率你抄不走"</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而这背后，是华为最近几年一直在做的事：<strong style="color:#e74c3c;">软硬件一体化</strong>。模型架构、算子库、编译器、芯片指令集，全部由华为自家团队协同设计。这种闭环，在 2026 年的 AI 行业里，全球能做到的公司一只手数得过来。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;"><strong style="color:#e74c3c;">别人是"模型适配芯片"，华为是"模型和芯片一起出生"。这是两种完全不同物种的较量。</strong></blockquote>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#1a1a2e; font-size:17px;">鸿蒙这一面：Agent 任务"更快、更准、更省"</strong></p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">发布会上还有另一张图，对比的是 openPangu 2.0 Pro 和业界主流开源模型在鸿蒙生态下完成同样 Agent 任务的表现：</p>
 <section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0; overflow-x:auto;"><p style="font-size:15px; color:#1a1a2e; line-height:1.8; margin:0 0 8px 0; padding-bottom:8px; border-bottom:2px solid #e74c3c; font-weight:bold;">维度 | openPangu 2.0 Pro | 业界主流开源</p>
@@ -54,7 +73,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更关键的是，HarmonyOS 7 在同一场发布会上也宣布了一组数字：<strong style="color:#e74c3c;">鸿蒙智能代理框架 2.0，目标任务执行率超过 90%</strong>。这意味着接下来鸿蒙生态里的每一个 App、每一个智能服务，都可以无缝接入 openPangu 2.0，让 AI 真正"动起来"。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">昇腾跑模型 + 鸿蒙跑 Agent + openPangu 2.0 做大脑</strong>。这是一条彻底的中国闭环。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">四、过去一年的"盘古之殇"，今天彻底翻篇了</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">五、过去一年的"盘古之殇"，今天彻底翻篇了</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">讲到这里，我们必须要回到一个绕不开的话题。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去一年里，盘古这个名字，在中文 AI 圈里其实并不那么"光彩"。从 2025 年下半年开始，关于盘古技术路线的各种质疑声音不绝于耳。一些自媒体甚至给它冠上了一个标签：「<strong style="color:#e74c3c;">盘古之殇</strong>」。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">那段时间，每次盘古发布新版本，评论区都会被各种各样的质疑刷屏。技术指标的可信度、训练路径的独立性、与海外主流模型的差异，每一个细节都被放大讨论。</p>
@@ -67,7 +86,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">不管你之前对盘古抱有什么样的看法，6 月 30 日之后，所有的争议都会有一个客观的、可验证的答案。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#e74c3c;">这就是工程师文化对舆论压力的最优解：用代码说话。</strong></p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">五、这一发牌，对国产 AI 生态意味着什么</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">六、这一发牌，对国产 AI 生态意味着什么</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把 openPangu 2.0 这件事放到 2026 年 6 月这个时间节点看，意义其实远远超过一个产品发布。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#1a1a2e; font-size:17px;">第一个意义：国产开源 AI 进入"全栈竞争"阶段</strong></p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">过去几年，国产大模型的开源主要走两条路：</p>
@@ -99,7 +118,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是华为这两年一直在搭建的"AI 时代操作系统"。手机、平板、车机、智慧屏、IoT 设备，所有终端都跑鸿蒙，所有终端的 AI 都跑 openPangu，所有 AI 都跑在昇腾上。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果这套生态真的跑起来了，那未来 5-10 年，<strong style="color:#e74c3c;">鸿蒙将不只是一个手机操作系统，而是一个 AI 时代的全场景终端平台</strong>。这个想象空间，比单纯发一个模型大太多。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">六、对开发者、对企业、对普通人，这件事都意味着什么</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">七、对开发者、对企业、对普通人，这件事都意味着什么</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">抛开宏大叙事，回到具体的人身上。openPangu 2.0 全栈开源，对不同的人意味着不同的事。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#1a1a2e; font-size:17px;">对开发者：一个真正"能动手"的开源大模型</strong></p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去你想基于一个开源大模型做点什么，能做的事其实很有限。改改 prompt、做做微调，已经是大多数开发者能触及的极限。</p>
@@ -120,7 +139,7 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">HarmonyOS 7 + openPangu 2.0 的组合，会让未来一年的鸿蒙手机出现一种全新的体验：<strong style="color:#e74c3c;">你说一句话，手机自己帮你把多个 App 里的事情都办了</strong>。订机票、查天气、回邮件、整理日程、约朋友吃饭，过去要打开五六个 App 才能完成的事，未来可能一句话就搞定。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而且，因为 openPangu 2.0 是端云协同的，<strong style="color:#e74c3c;">很多任务可以直接在手机本地完成</strong>，不用上传到云端。这对隐私敏感的用户来说，是一个巨大的加分项。</p>
 <p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
-<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">七、写在最后：这一夜，国产 AI 的方向更清楚了</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">八、写在最后：这一夜，国产 AI 的方向更清楚了</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">"我们不需要追海外模型一年发几次榜的节奏。" "我们要做的，是把中国 AI 的根基，深深扎下去。"</blockquote>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这是发布会现场，余承东说的最后一句话。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">2026 年的中国 AI 行业，已经走到了一个全新的阶段。从 2024 年的"我们能不能做"，到 2025 年的"我们做出来了"，到今天的"<strong style="color:#e74c3c;">我们正在重新定义这个行业</strong>"。</p>
