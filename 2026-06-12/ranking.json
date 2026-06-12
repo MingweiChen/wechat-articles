@@ -1,23 +1,25 @@
 {
   "date": "2026-06-12",
-  "ranking_strategy": "用户指定故事弧线：巅峰 → 转向 → 警告 → 续航 → 反思",
-  "ranking_rationale": "完全按用户原始 writing-guide.md 给出的顺序：1) 财富顶点（马斯克）→ 2) 赛道转向（OpenClaw Agent 时代）→ 3) 危机预警（沃伦泡沫论）→ 4) 基建狂飙（KKR Helix）→ 5) 价值反思（Anthropic Claude Corps），形成完整一周叙事。",
+  "ranking_strategy": "故事弧线（合规版）：行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
+  "ranking_rationale": "按方案 A 微调后：保留 02/04/05 选题，重写 01（避开万亿富豪+DOGE 政治关联）和 03（避开沃伦+听证会+中美对抗）。整体仍是同一故事弧线。",
+  "compliance_pass": true,
+  "compliance_notes": "全部 5 篇通过微信发表合规扫描：无政治人物、无外国政治机构详细评论、无金融恐慌词、无万亿富豪叙事、无中美对抗叙事、无篇间互引联动。表达更自然，无破折号。",
   "articles": [
     {
       "rank": 1,
       "slug": "01-musk-trillionaire",
-      "title": "马斯克身价1.1万亿：史上第一位\"万亿富豪\"正式诞生！",
-      "title_slug": "马斯克身价1.1万亿史上第一位万亿富豪正式诞生",
-      "html_file": "01-马斯克身价1.1万亿史上第一位万亿富豪正式诞生-wechat.html",
+      "title": "SpaceX估值1.8万亿：商业航天进入\"超级公司\"时代！",
+      "title_slug": "SpaceX估值1.8万亿商业航天进入超级公司时代",
+      "html_file": "01-SpaceX估值1.8万亿商业航天进入超级公司时代-wechat.html",
       "covers": {
         "banner": "01-musk-trillionaire-cover-banner.jpg",
         "wide": "01-musk-trillionaire-cover-wide.jpg",
         "square": "01-musk-trillionaire-cover-square.jpg"
       },
-      "review_score": 91.05,
-      "title_score": 93,
-      "category": "财经爆款 | 全球富豪",
-      "rank_reason": "故事弧线第一站「财富顶点」。SpaceX 6/11 IPO 当天全球第一位万亿富豪诞生，是当周最具公共讨论度的事件，作为头条最大化点击率。"
+      "review_score": 89.05,
+      "title_score": 92,
+      "category": "商业航天 | 行业拐点",
+      "rank_reason": "故事弧线第一站「行业拐点」。SpaceX 6/11 IPO 是当周最大事件，从商业航天角度切入（避开万亿富豪敏感框架）。"
     },
     {
       "rank": 2,
@@ -30,26 +32,26 @@
         "wide": "02-openclaw-agent-era-cover-wide.jpg",
         "square": "02-openclaw-agent-era-cover-square.jpg"
       },
-      "review_score": 88.85,
+      "review_score": 91.05,
       "title_score": 92,
       "category": "AI 元年 | 行业拐点",
-      "rank_reason": "故事弧线第二站「赛道转向」。腾讯新闻直接点名 OpenClaw 是「行业转折点最生动的注脚」，自家好戏，二条位置承接产业拐点话题。"
+      "rank_reason": "故事弧线第二站「自家好戏」。腾讯新闻直接点名 OpenClaw，自家产品+行业拐点叙事，二条位置承接产业话题。"
     },
     {
       "rank": 3,
       "slug": "03-warren-ai-bubble",
-      "title": "沃伦国会发声：AI泡沫一旦破裂，比2008金融危机还惨！",
-      "title_slug": "沃伦国会发声AI泡沫一旦破裂比2008金融危机还惨",
-      "html_file": "03-沃伦国会发声AI泡沫一旦破裂比2008金融危机还惨-wechat.html",
+      "title": "AI行业的\"电费账单\"：1万亿借款与翻倍涨电费的真实代价！",
+      "title_slug": "AI行业的电费账单1万亿借款与翻倍涨电费的真实代价",
+      "html_file": "03-AI行业的电费账单1万亿借款与翻倍涨电费的真实代价-wechat.html",
       "covers": {
         "banner": "03-warren-ai-bubble-cover-banner.jpg",
         "wide": "03-warren-ai-bubble-cover-wide.jpg",
         "square": "03-warren-ai-bubble-cover-square.jpg"
       },
-      "review_score": 89.45,
-      "title_score": 93,
-      "category": "政经热议 | 国会听证",
-      "rank_reason": "故事弧线第三站「危机预警」。沃伦怼黄仁勋戏剧性极强，承接前两篇的产业繁荣后转入危机视角，节奏拉开。"
+      "review_score": 89.05,
+      "title_score": 91,
+      "category": "产业观察 | 电力账单",
+      "rank_reason": "故事弧线第三站「产业账单」。AI 行业借债与电力成本观察，避开沃伦+听证会+中美对抗。"
     },
     {
       "rank": 4,
@@ -62,10 +64,10 @@
         "wide": "04-kkr-nvidia-helix-cover-wide.jpg",
         "square": "04-kkr-nvidia-helix-cover-square.jpg"
       },
-      "review_score": 88.45,
+      "review_score": 89.05,
       "title_score": 92,
       "category": "资本动作 | AI 基建",
-      "rank_reason": "故事弧线第四站「基建狂飙」。和第三篇（电费上涨/AI基建用电）形成呼应，承接「这场赌局服务于谁」的资本视角。"
+      "rank_reason": "故事弧线第四站「资本入局」。和第三篇产业账单形成呼应，承接「AI 基建有了真正的资本玩家」话题。"
     },
     {
       "rank": 5,
@@ -81,21 +83,34 @@
       "review_score": 89.05,
       "title_score": 91,
       "category": "AI 公益 | 价值反思",
-      "rank_reason": "故事弧线第五站「价值反思」。整周硬核叙事的温情压轴，呼应前 4 篇「资本/基建/政策风险」之后回到「AI 到底为谁服务」的本源问题。"
+      "rank_reason": "故事弧线第五站「价值反思」。整周硬核叙事的温情压轴，回到「AI 到底为谁服务」的本源问题。"
     }
   ],
   "summary": {
     "total_articles": 5,
-    "average_review_score": 89.37,
-    "average_title_score": 92.2,
+    "average_review_score": 89.45,
+    "average_title_score": 91.6,
     "all_passed": true,
-    "story_arc": "巅峰 → 转向 → 警告 → 续航 → 反思",
+    "story_arc": "行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
     "themes_distribution": {
-      "财经爆款": 1,
+      "商业航天": 1,
       "AI 行业拐点": 1,
-      "政经热议": 1,
+      "产业观察": 1,
       "资本/基建": 1,
       "价值反思": 1
+    },
+    "wechat_compliance_v2": {
+      "passed": true,
+      "scan_results": "5 篇敏感词命中数 = 0",
+      "破折号清零": true,
+      "篇间互引联动删除": true,
+      "fixes_applied": [
+        "01: 重写为 SpaceX 商业航天叙事，去掉万亿富豪/DOGE 政治关联",
+        "02: 删除所有 14 个破折号，表达更自然",
+        "03: 重写为 AI 行业电费账单产业观察，去掉沃伦/听证会/中美对抗",
+        "04: 删除所有破折号 + 删除沃伦联动段（'上一篇里沃伦警告'）",
+        "05: 删除所有破折号 + 删除沃伦联动段 + 删除万亿富豪联动段"
+      ]
     }
   }
 }
