@@ -1,0 +1,28 @@
+{
+  "article": "02-openclaw-agent-era-content.md",
+  "candidates": [
+    {
+      "title": "腾讯新闻点名OpenClaw：2026是AI元年的\"龙虾时刻\"！",
+      "char_count": 24,
+      "formula": "权威人物型",
+      "score": 92,
+      "rationale": "权威媒体（腾讯新闻）+ 动作（点名）+ 产品名（OpenClaw）+ 时代判断 + 感叹号。让OpenClaw的爆火成为整个标题的钩子。"
+    },
+    {
+      "title": "2026年AI元年的\"龙虾时刻\"：智能体如何改写大模型规则！",
+      "char_count": 25,
+      "formula": "数字震撼型",
+      "score": 91,
+      "rationale": "时间锚点+'龙虾时刻'金句+行业判断。这是用户最初提供的推荐标题，符合所有高进池率特征。"
+    },
+    {
+      "title": "从对话到打工：OpenClaw如何把2026年变成Agent元年！",
+      "char_count": 24,
+      "formula": "数字震撼型",
+      "score": 89,
+      "rationale": "反差结构（对话→打工）+ 产品名 + 时间锚点 + 时代结论。"
+    }
+  ],
+  "selected": "2026年AI元年的\"龙虾时刻\"：智能体如何改写大模型规则！",
+  "slug": "2026年AI元年的龙虾时刻智能体如何改写大模型规则"
+}

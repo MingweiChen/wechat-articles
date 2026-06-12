@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-12",
+  "ranking_strategy": "用户指定故事弧线：巅峰 → 转向 → 警告 → 续航 → 反思",
+  "ranking_rationale": "完全按用户原始 writing-guide.md 给出的顺序：1) 财富顶点（马斯克）→ 2) 赛道转向（OpenClaw Agent 时代）→ 3) 危机预警（沃伦泡沫论）→ 4) 基建狂飙（KKR Helix）→ 5) 价值反思（Anthropic Claude Corps），形成完整一周叙事。",
+  "articles": [
+    {
+      "rank": 1,
+      "slug": "01-musk-trillionaire",
+      "title": "马斯克身价1.1万亿：史上第一位\"万亿富豪\"正式诞生！",
+      "title_slug": "马斯克身价1.1万亿史上第一位万亿富豪正式诞生",
+      "html_file": "01-马斯克身价1.1万亿史上第一位万亿富豪正式诞生-wechat.html",
+      "covers": {
+        "banner": "01-musk-trillionaire-cover-banner.jpg",
+        "wide": "01-musk-trillionaire-cover-wide.jpg",
+        "square": "01-musk-trillionaire-cover-square.jpg"
+      },
+      "review_score": 91.05,
+      "title_score": 93,
+      "category": "财经爆款 | 全球富豪",
+      "rank_reason": "故事弧线第一站「财富顶点」。SpaceX 6/11 IPO 当天全球第一位万亿富豪诞生，是当周最具公共讨论度的事件，作为头条最大化点击率。"
+    },
+    {
+      "rank": 2,
+      "slug": "02-openclaw-agent-era",
+      "title": "2026年AI元年的\"龙虾时刻\"：智能体如何改写大模型规则！",
+      "title_slug": "2026年AI元年的龙虾时刻智能体如何改写大模型规则",
+      "html_file": "02-2026年AI元年的龙虾时刻智能体如何改写大模型规则-wechat.html",
+      "covers": {
+        "banner": "02-openclaw-agent-era-cover-banner.jpg",
+        "wide": "02-openclaw-agent-era-cover-wide.jpg",
+        "square": "02-openclaw-agent-era-cover-square.jpg"
+      },
+      "review_score": 88.85,
+      "title_score": 92,
+      "category": "AI 元年 | 行业拐点",
+      "rank_reason": "故事弧线第二站「赛道转向」。腾讯新闻直接点名 OpenClaw 是「行业转折点最生动的注脚」，自家好戏，二条位置承接产业拐点话题。"
+    },
+    {
+      "rank": 3,
+      "slug": "03-warren-ai-bubble",
+      "title": "沃伦国会发声：AI泡沫一旦破裂，比2008金融危机还惨！",
+      "title_slug": "沃伦国会发声AI泡沫一旦破裂比2008金融危机还惨",
+      "html_file": "03-沃伦国会发声AI泡沫一旦破裂比2008金融危机还惨-wechat.html",
+      "covers": {
+        "banner": "03-warren-ai-bubble-cover-banner.jpg",
+        "wide": "03-warren-ai-bubble-cover-wide.jpg",
+        "square": "03-warren-ai-bubble-cover-square.jpg"
+      },
+      "review_score": 89.45,
+      "title_score": 93,
+      "category": "政经热议 | 国会听证",
+      "rank_reason": "故事弧线第三站「危机预警」。沃伦怼黄仁勋戏剧性极强，承接前两篇的产业繁荣后转入危机视角，节奏拉开。"
+    },
+    {
+      "rank": 4,
+      "slug": "04-kkr-nvidia-helix",
+      "title": "KKR联手英伟达成立\"百亿AI基建公司\"，前AWS掌门人挂帅！",
+      "title_slug": "KKR联手英伟达成立百亿AI基建公司前AWS掌门人挂帅",
+      "html_file": "04-KKR联手英伟达成立百亿AI基建公司前AWS掌门人挂帅-wechat.html",
+      "covers": {
+        "banner": "04-kkr-nvidia-helix-cover-banner.jpg",
+        "wide": "04-kkr-nvidia-helix-cover-wide.jpg",
+        "square": "04-kkr-nvidia-helix-cover-square.jpg"
+      },
+      "review_score": 88.45,
+      "title_score": 92,
+      "category": "资本动作 | AI 基建",
+      "rank_reason": "故事弧线第四站「基建狂飙」。和第三篇（电费上涨/AI基建用电）形成呼应，承接「这场赌局服务于谁」的资本视角。"
+    },
+    {
+      "rank": 5,
+      "slug": "05-anthropic-claude-corps",
+      "title": "Anthropic推出\"Claude Corps\"：教非营利组织用AI改变世界！",
+      "title_slug": "Anthropic推出Claude Corps教非营利组织用AI改变世界",
+      "html_file": "05-Anthropic推出Claude Corps教非营利组织用AI改变世界-wechat.html",
+      "covers": {
+        "banner": "05-anthropic-claude-corps-cover-banner.jpg",
+        "wide": "05-anthropic-claude-corps-cover-wide.jpg",
+        "square": "05-anthropic-claude-corps-cover-square.jpg"
+      },
+      "review_score": 89.05,
+      "title_score": 91,
+      "category": "AI 公益 | 价值反思",
+      "rank_reason": "故事弧线第五站「价值反思」。整周硬核叙事的温情压轴，呼应前 4 篇「资本/基建/政策风险」之后回到「AI 到底为谁服务」的本源问题。"
+    }
+  ],
+  "summary": {
+    "total_articles": 5,
+    "average_review_score": 89.37,
+    "average_title_score": 92.2,
+    "all_passed": true,
+    "story_arc": "巅峰 → 转向 → 警告 → 续航 → 反思",
+    "themes_distribution": {
+      "财经爆款": 1,
+      "AI 行业拐点": 1,
+      "政经热议": 1,
+      "资本/基建": 1,
+      "价值反思": 1
+    }
+  }
+}

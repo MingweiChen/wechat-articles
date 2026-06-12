@@ -1,0 +1,28 @@
+{
+  "article": "05-anthropic-claude-corps-content.md",
+  "candidates": [
+    {
+      "title": "Anthropic推出\"Claude Corps\"：教非营利组织用AI改变世界！",
+      "char_count": 25,
+      "formula": "权威人物型",
+      "score": 91,
+      "rationale": "公司名前置 + 项目名 + 行动描述 + 价值主张 + 感叹号。这是用户原始推荐标题，符合所有高进池率特征。"
+    },
+    {
+      "title": "9650亿估值的Anthropic：把AI送进非营利组织里！",
+      "char_count": 22,
+      "formula": "数字震撼型",
+      "score": 89,
+      "rationale": "震撼估值（9650亿）+ 反差行动（送AI给非营利）+ 感叹号。"
+    },
+    {
+      "title": "从呼吁暂停AI到搞公益：Anthropic推出Claude Corps新计划！",
+      "char_count": 26,
+      "formula": "反转验证型",
+      "score": 88,
+      "rationale": "反差叙事（呼吁暂停→搞公益）+ 公司名 + 项目名 + 动作。"
+    }
+  ],
+  "selected": "Anthropic推出\"Claude Corps\"：教非营利组织用AI改变世界！",
+  "slug": "Anthropic推出Claude Corps教非营利组织用AI改变世界"
+}

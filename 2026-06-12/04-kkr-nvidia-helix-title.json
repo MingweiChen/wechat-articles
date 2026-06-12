@@ -1,0 +1,28 @@
+{
+  "article": "04-kkr-nvidia-helix-content.md",
+  "candidates": [
+    {
+      "title": "KKR联手英伟达成立\"百亿AI基建公司\"，前AWS掌门人挂帅！",
+      "char_count": 26,
+      "formula": "权威人物型",
+      "score": 92,
+      "rationale": "品牌名（KKR、英伟达、AWS）+ 具体数字（百亿）+ 公司类型 + 大佬挂帅 + 感叹号。三重品牌叠加最大化点击率。"
+    },
+    {
+      "title": "100亿砸AI基建：KKR、英伟达、科威特国家基金联手出手！",
+      "char_count": 26,
+      "formula": "数字震撼型",
+      "score": 90,
+      "rationale": "数字开头 + 三方阵容 + 联手动作 + 感叹号。'国家基金'有权威感。"
+    },
+    {
+      "title": "前AWS CEO重出江湖：执掌100亿AI基建巨兽Helix！",
+      "char_count": 23,
+      "formula": "权威人物型",
+      "score": 88,
+      "rationale": "人物（AWS CEO）+ 动作（重出江湖）+ 数字+ 公司名。'重出江湖'稍带武侠味，进池率略低。"
+    }
+  ],
+  "selected": "KKR联手英伟达成立\"百亿AI基建公司\"，前AWS掌门人挂帅！",
+  "slug": "KKR联手英伟达成立百亿AI基建公司前AWS掌门人挂帅"
+}
