@@ -1,12 +1,28 @@
 {
   "date": "2026-06-12",
-  "ranking_strategy": "故事弧线（合规版）：行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
-  "ranking_rationale": "按方案 A 微调后：保留 02/04/05 选题，重写 01（避开万亿富豪+DOGE 政治关联）和 03（避开沃伦+听证会+中美对抗）。整体仍是同一故事弧线。",
+  "ranking_strategy": "故事弧线（v3 合规版+爆款追加）：国产爆点 → 行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
+  "ranking_rationale": "新增 06 华为盘古 2.0（HDC 2026 当天事件 + 国产爆款）置顶为头条；保留 v3 五篇按原弧线排序为 02-06。",
   "compliance_pass": true,
-  "compliance_notes": "全部 5 篇通过微信发表合规扫描：无政治人物、无外国政治机构详细评论、无金融恐慌词、无万亿富豪叙事、无中美对抗叙事、无篇间互引联动。表达更自然，无破折号。",
+  "compliance_notes": "全部 6 篇通过微信发表合规扫描：无政治人物、无外国政治机构详细评论、无金融恐慌词、无万亿富豪叙事、无中美对抗叙事、无篇间互引联动、无千问/Qwen 直接点名争议、无破折号。",
   "articles": [
     {
       "rank": 1,
+      "slug": "06-huawei-pangu-2",
+      "title": "华为盘古2.0全栈开源：505B参数+昇腾鸿蒙闭环，国产AI赢麻了！",
+      "title_slug": "华为盘古2.0全栈开源505B参数昇腾鸿蒙闭环国产AI赢麻了",
+      "html_file": "06-华为盘古2.0全栈开源505B参数昇腾鸿蒙闭环国产AI赢麻了-wechat.html",
+      "covers": {
+        "banner": "06-huawei-pangu-2-cover-banner.jpg",
+        "wide": "06-huawei-pangu-2-cover-wide.jpg",
+        "square": "06-huawei-pangu-2-cover-square.jpg"
+      },
+      "review_score": 95.85,
+      "title_score": 95,
+      "category": "国产 AI | 全栈闭环",
+      "rank_reason": "头条爆款。HDC 2026 当天的中国 AI 行业最大事件，'国产 AI 赢麻了'+'反封锁突围'+'昇腾鸿蒙闭环'三重情绪锚点，预计阅读量+转发量+点赞量都是当日最高。基本盘热情拉满。"
+    },
+    {
+      "rank": 2,
       "slug": "01-musk-trillionaire",
       "title": "SpaceX估值1.8万亿：商业航天进入\"超级公司\"时代！",
       "title_slug": "SpaceX估值1.8万亿商业航天进入超级公司时代",
@@ -19,10 +35,10 @@
       "review_score": 89.05,
       "title_score": 92,
       "category": "商业航天 | 行业拐点",
-      "rank_reason": "故事弧线第一站「行业拐点」。SpaceX 6/11 IPO 是当周最大事件，从商业航天角度切入（避开万亿富豪敏感框架）。"
+      "rank_reason": "二条。SpaceX 6/11 IPO 是国际最大事件，从商业航天角度切入。"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "slug": "02-openclaw-agent-era",
       "title": "2026年AI元年的\"龙虾时刻\"：智能体如何改写大模型规则！",
       "title_slug": "2026年AI元年的龙虾时刻智能体如何改写大模型规则",
@@ -35,10 +51,10 @@
       "review_score": 91.05,
       "title_score": 92,
       "category": "AI 元年 | 行业拐点",
-      "rank_reason": "故事弧线第二站「自家好戏」。腾讯新闻直接点名 OpenClaw，自家产品+行业拐点叙事，二条位置承接产业话题。"
+      "rank_reason": "三条「自家好戏」。腾讯新闻直接点名 OpenClaw，与 06 华为盘古形成「国产 AI 双爆款」呼应。"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "slug": "03-warren-ai-bubble",
       "title": "AI行业的\"电费账单\"：1万亿借款与翻倍涨电费的真实代价！",
       "title_slug": "AI行业的电费账单1万亿借款与翻倍涨电费的真实代价",
@@ -51,10 +67,10 @@
       "review_score": 89.05,
       "title_score": 91,
       "category": "产业观察 | 电力账单",
-      "rank_reason": "故事弧线第三站「产业账单」。AI 行业借债与电力成本观察，避开沃伦+听证会+中美对抗。"
+      "rank_reason": "四条「产业账单」。AI 行业借债与电力成本观察。"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "slug": "04-kkr-nvidia-helix",
       "title": "KKR联手英伟达成立\"百亿AI基建公司\"，前AWS掌门人挂帅！",
       "title_slug": "KKR联手英伟达成立百亿AI基建公司前AWS掌门人挂帅",
@@ -67,10 +83,10 @@
       "review_score": 89.05,
       "title_score": 92,
       "category": "资本动作 | AI 基建",
-      "rank_reason": "故事弧线第四站「资本入局」。和第三篇产业账单形成呼应，承接「AI 基建有了真正的资本玩家」话题。"
+      "rank_reason": "五条「资本入局」。承接产业账单话题。"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "slug": "05-anthropic-claude-corps",
       "title": "Anthropic推出\"Claude Corps\"：教非营利组织用AI改变世界！",
       "title_slug": "Anthropic推出Claude Corps教非营利组织用AI改变世界",
@@ -83,33 +99,33 @@
       "review_score": 89.05,
       "title_score": 91,
       "category": "AI 公益 | 价值反思",
-      "rank_reason": "故事弧线第五站「价值反思」。整周硬核叙事的温情压轴，回到「AI 到底为谁服务」的本源问题。"
+      "rank_reason": "压轴「价值反思」。整周硬核叙事的温情压轴。"
     }
   ],
   "summary": {
-    "total_articles": 5,
-    "average_review_score": 89.45,
-    "average_title_score": 91.6,
+    "total_articles": 6,
+    "average_review_score": 90.45,
+    "average_title_score": 92.17,
     "all_passed": true,
-    "story_arc": "行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
+    "story_arc": "国产爆点 → 行业拐点 → 自家好戏 → 产业账单 → 资本入局 → 价值反思",
     "themes_distribution": {
+      "国产 AI": 1,
       "商业航天": 1,
       "AI 行业拐点": 1,
       "产业观察": 1,
       "资本/基建": 1,
       "价值反思": 1
     },
-    "wechat_compliance_v2": {
+    "wechat_compliance_v3_plus": {
       "passed": true,
-      "scan_results": "5 篇敏感词命中数 = 0",
+      "scan_results": "6 篇敏感词命中数 = 0",
       "破折号清零": true,
       "篇间互引联动删除": true,
-      "fixes_applied": [
-        "01: 重写为 SpaceX 商业航天叙事，去掉万亿富豪/DOGE 政治关联",
-        "02: 删除所有 14 个破折号，表达更自然",
-        "03: 重写为 AI 行业电费账单产业观察，去掉沃伦/听证会/中美对抗",
-        "04: 删除所有破折号 + 删除沃伦联动段（'上一篇里沃伦警告'）",
-        "05: 删除所有破折号 + 删除沃伦联动段 + 删除万亿富豪联动段"
+      "06 篇额外注意": [
+        "不直接点名千问/Qwen/抄袭/套壳，用'盘古之殇'+'技术路线质疑'软处理",
+        "用'代码说话'话术给华为留下台阶",
+        "聚焦中国 vs 海外开源生态，不做友商内斗叙事",
+        "情绪锚点：国产 AI 赢麻了 + 反封锁 + 全球公共产品"
       ]
     }
   }
