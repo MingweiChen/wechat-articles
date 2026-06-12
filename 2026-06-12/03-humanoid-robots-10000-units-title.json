@@ -1,0 +1,19 @@
+{
+  "title": "工信部联手国资委：万台人形机器人进厂干活，6大任务正式落地！",
+  "slug": "工信部联手国资委万台人形机器人进厂干活6大任务正式落地",
+  "char_count": 25,
+  "formula_type": "权威人物型",
+  "elements": {
+    "组织": "工信部+国资委",
+    "动作": "联合发布通知",
+    "影响": "万台人形机器人进厂"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}
