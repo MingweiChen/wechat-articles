@@ -1,0 +1,28 @@
+{
+  "article": "03-gpt-56-altman-content.md",
+  "candidates": [
+    {
+      "title": "GPT-5.6本周登场：Altman新论上市不急，150万上下文重塑AI！",
+      "char_count": 26,
+      "formula": "权威人物型",
+      "score": 91,
+      "rationale": "产品名前置 + 时间锚点（本周）+ 人名（Altman）+ 反传统结论 + 震撼数字（150万）+ 感叹号。三重信号叠加。"
+    },
+    {
+      "title": "OpenAI本周发GPT-5.6：150万上下文窗口加六档智能等级登场！",
+      "char_count": 26,
+      "formula": "数字震撼型",
+      "score": 88,
+      "rationale": "公司名 + 时间 + 产品名 + 双数据点（150万、六档）。"
+    },
+    {
+      "title": "Altman新论：AI能自我改进让上市不急，GPT-5.6本周搅动行业！",
+      "char_count": 26,
+      "formula": "权威人物型",
+      "score": 89,
+      "rationale": "人名前置 + 反常识判断 + 产品名 + 行业影响。'搅动'稍带争议性，进池率略低。"
+    }
+  ],
+  "selected": "GPT-5.6本周登场：Altman新论上市不急，150万上下文重塑AI！",
+  "slug": "GPT-5.6本周登场Altman新论上市不急150万上下文重塑AI"
+}

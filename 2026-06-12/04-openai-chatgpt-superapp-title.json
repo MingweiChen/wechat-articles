@@ -1,0 +1,28 @@
+{
+  "article": "04-openai-chatgpt-superapp-content.md",
+  "candidates": [
+    {
+      "title": "OpenAI内部宣告聊天已死：9亿用户ChatGPT即将变身超级应用！",
+      "char_count": 25,
+      "formula": "权威人物型",
+      "score": 93,
+      "rationale": "公司名前置 + '内部宣告'强表达 + 反差金句（聊天已死）+ 震撼数字（9亿用户）+ 转型动作 + 感叹号。'宣告'比'宣称'更有力，且'已死'是引用员工原话非编造。"
+    },
+    {
+      "title": "ChatGPT巨变前夜：OpenAI放弃Sora，9亿用户即将看见新形态！",
+      "char_count": 25,
+      "formula": "反转验证型",
+      "score": 89,
+      "rationale": "产品名前置 + 时间感（前夜）+ 战略动作（放弃Sora）+ 数字（9亿）+ 新形态。"
+    },
+    {
+      "title": "FT独家爆料OpenAI：ChatGPT全面改造，Codex转身吃下9亿用户！",
+      "char_count": 26,
+      "formula": "权威人物型",
+      "score": 87,
+      "rationale": "媒体源（FT）+ 公司名 + 改造动作 + 产品名 + 数字。'独家爆料'稍偏平台口语化。"
+    }
+  ],
+  "selected": "OpenAI内部宣告聊天已死：9亿用户ChatGPT即将变身超级应用！",
+  "slug": "OpenAI内部宣告聊天已死9亿用户ChatGPT即将变身超级应用"
+}

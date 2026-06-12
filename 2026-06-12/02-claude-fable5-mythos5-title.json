@@ -1,0 +1,28 @@
+{
+  "article": "02-claude-fable5-mythos5-content.md",
+  "candidates": [
+    {
+      "title": "Stripe一夜见证：Claude Fable 5让5000万行代码迁移只剩一天！",
+      "char_count": 26,
+      "formula": "数字震撼型",
+      "score": 93,
+      "rationale": "知名品牌（Stripe）开头 + 见证型动词 + 模型名 + 震撼数字（5000万行）+ 时间冲击（一天）+ 感叹号。完全符合高进池率所有特征。"
+    },
+    {
+      "title": "Anthropic连发两弹：Fable 5和Mythos 5一夜屠榜AI基准测试！",
+      "char_count": 26,
+      "formula": "权威人物型",
+      "score": 90,
+      "rationale": "公司名前置 + 双发布动作 + 具体产品 + 震撼结论（屠榜）。但'屠榜'稍有标题党味，所以列为备选。"
+    },
+    {
+      "title": "Claude Fable 5上线：5000万行代码1天搞定，编程时代被改写！",
+      "char_count": 26,
+      "formula": "数字震撼型",
+      "score": 88,
+      "rationale": "产品名前置 + 上线动作 + 震撼数字 + 时间 + 行业判断。"
+    }
+  ],
+  "selected": "Stripe一夜见证：Claude Fable 5让5000万行代码迁移只剩一天！",
+  "slug": "Stripe一夜见证Claude Fable 5让5000万行代码迁移只剩一天"
+}
