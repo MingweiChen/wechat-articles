@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-13",
+  "run_id": "2026-06-13_080000_v2",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "slug": "anthropic-900b",
+      "score": 89,
+      "dimensions": {
+        "hook": 10,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      },
+      "iteration": 1,
+      "title": "9000亿估值！Anthropic反超OpenAI！",
+      "files": [
+        "01-anthropic-900b-wechat.html",
+        "01-anthropic-900b-cover-banner.jpg",
+        "01-anthropic-900b-cover-wide.jpg",
+        "01-anthropic-900b-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "slug": "prometheus-bezos",
+      "score": 88,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9
+      },
+      "iteration": 1,
+      "title": "贝索斯回归：410亿建工业AI，不做ChatGPT！",
+      "files": [
+        "02-prometheus-bezos-wechat.html",
+        "02-prometheus-bezos-cover-banner.jpg",
+        "02-prometheus-bezos-cover-wide.jpg",
+        "02-prometheus-bezos-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "slug": "skill-economy",
+      "score": 86,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 8
+      },
+      "iteration": 1,
+      "title": "Skill狂揽4万Star：AI协作规则正在重写！",
+      "files": [
+        "03-skill-economy-wechat.html",
+        "03-skill-economy-cover-banner.jpg",
+        "03-skill-economy-cover-wide.jpg",
+        "03-skill-economy-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "slug": "meta-nuclear-ai",
+      "score": 85,
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 8,
+        "compliance": 7
+      },
+      "iteration": 1,
+      "title": "6.6GW！扎克伯格签下天量核电，AI抢电时代开打！",
+      "files": [
+        "04-meta-nuclear-ai-wechat.html",
+        "04-meta-nuclear-ai-cover-banner.jpg",
+        "04-meta-nuclear-ai-cover-wide.jpg",
+        "04-meta-nuclear-ai-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "slug": "snowflake-coco",
+      "score": 82,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9
+      },
+      "iteration": 1,
+      "title": "Snowflake发CoCo：企业SQL全交AI干！",
+      "files": [
+        "05-snowflake-coco-wechat.html",
+        "05-snowflake-coco-cover-banner.jpg",
+        "05-snowflake-coco-cover-wide.jpg",
+        "05-snowflake-coco-cover-square.jpg"
+      ]
+    }
+  ]
+}
