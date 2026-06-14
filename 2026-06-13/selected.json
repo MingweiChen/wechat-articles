@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-13",
+  "window": "6/12-6/13 UTC（严格 48h 时间窗）",
+  "main_axis": "6/12-6/13 国产 AI 战报",
+  "selection_rule": "用户明确指定的 5 个选题（雷军/鸿蒙/端侧三强/Qwen/比亚迪）",
+  "total_selected": 5,
+  "generated_at": "2026-06-14T01:56:00Z",
+  "generated_by": "user_dictated",
+  "top_picks": [
+    {
+      "rank": 1,
+      "id": "X1",
+      "score": 92,
+      "topic": "雷军 6/13 9:00 盐城极限直播 + SU7 五月双第一封神",
+      "slug_hint": "xiaomi-yu7-leijun-yancheng",
+      "category": "汽车/产品/人物",
+      "urgency": "high",
+      "why": "6/13 当日实时热点 + 雷军 IP + 七小时一镜到底直播仪式感 + SU7 五月双第一数据背书；0 风险题材",
+      "recommended_format": "数据开场 + 八项测试列表 + 时间轴 + 销量对比",
+      "angle": "用 SU7 24023 辆 vs Tesla Model 3 18370 辆开场，引出今早盐城 YU7 八项极限测试直播",
+      "data_points": ["24023 辆", "Tesla 18370 辆", "差 5653 辆", "9:00 盐城", "7 小时", "8 项测试", "YU7 标准版+GT"],
+      "title_options": [
+        "雷军今早盐城极限直播：YU7 八项硬核测试一镜到底，国产电车这次玩真的",
+        "24023 辆封神！雷军今晨盐城 7 小时直播，国产电车的高光时刻来了",
+        "盐城 9 点 YU7 直播：八项测试一镜到底，雷军把国产电车推到聚光灯下"
+      ],
+      "compliance_hint": "无政治、无金融、无个股推荐；雷军/小米客观叙事；不要写「碾压外资」「Tesla 输了」类极端情绪",
+      "sources": [
+        "6/13 9:00 盐城测试场直播",
+        "小米 5 月销量数据"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "X2",
+      "score": 91,
+      "topic": "鸿蒙 7 + openPangu 全面体系战：超 iOS 成中国第二大手机 OS",
+      "slug_hint": "harmonyos-7-surpass-ios",
+      "category": "操作系统/AI 平台",
+      "urgency": "high",
+      "why": "6/12 HDC 2026 当日重磅 + 余承东亲口公布 + 13 亿设备 1.8 亿日活硬数据 + AI Agent 架构升级；0 风险",
+      "recommended_format": "事件开场 + 数据三件套 + 体系战对比 + 国产生态",
+      "angle": "鸿蒙超 iOS 成中国第二大手机 OS（19% 占比），引出 HarmonyOS 7 + 小艺 CLOUD 智能体架构",
+      "data_points": ["19% 占比", "13 亿设备", "1.8 亿日活", "Gemini 1.2 万亿参数", "HDC 2026"],
+      "title_options": [
+        "鸿蒙 7 超越 iOS：13 亿设备 + 1.8 亿日活，中国 OS 三足鼎立时代正式开局",
+        "HDC 2026 重磅：鸿蒙登顶中国第二大手机 OS，小艺 CLOUD 一句话造 App",
+        "余承东宣布鸿蒙超 iOS：1.8 亿日活背后，AI 操作系统体系战开打"
+      ],
+      "compliance_hint": "无政治、无金融、无个股推荐；客观陈述华为产品事实；不要带「打败美国」「中国胜利」等政治化情绪",
+      "sources": [
+        "6/12 HDC 2026 大会",
+        "余承东主题演讲",
+        "苹果 WWDC 2026 对比"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "X3",
+      "score": 90,
+      "topic": "端侧 AI 三强对决：苹果投降式合作 / 谷歌死磕自研 / 中国堆参数",
+      "slug_hint": "edge-ai-three-paths",
+      "category": "深度分析/技术对比",
+      "urgency": "high",
+      "why": "6/13 钛媒体当日深度文已传播 + 三大阵营路线对比鲜明 + 国产端侧千亿参数硬实力；0 风险",
+      "recommended_format": "三栏对比 + 关键数据 + 路线总结",
+      "angle": "苹果付钱给 Google 调 Gemini，谷歌 Pixel 10 Tensor G5 全本地，中国小米 MiMo-V2 Pro 1T 参数；用三种路线讲端侧 AI 战争",
+      "data_points": ["Gemini 1.2 万亿参数", "苹果年付 Google 10 亿美元", "Pixel 10 Tensor G5 3nm", "TPU +60%", "MiMo-V2 Pro 1T 总参数 420 亿激活", "国产端侧千亿出货 2000 万台"],
+      "title_options": [
+        "端侧 AI 三强对决：苹果认怂请援军、谷歌死磕、中国堆参数，国产又赢麻了",
+        "苹果 10 亿请 Google 撑腰：端侧 AI 三大阵营终于摊牌了",
+        "中国端侧 AI 跑出 1T 参数：苹果谷歌走的两条路，第三条被国产抢先"
+      ],
+      "compliance_hint": "无政治、无金融、无个股推荐；不要写「美国不行了」类民族主义情绪；客观比较技术路线",
+      "sources": [
+        "6/13 钛媒体对比文章",
+        "苹果 WWDC 2026 Foundation Models Framework",
+        "Google Pixel 10 发布会",
+        "小米 MiMo-V2 Pro 公告"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "X4",
+      "score": 87,
+      "topic": "阿里 Qwen3.7-Plus 多模态 Agent + Gemini Omni 落地",
+      "slug_hint": "qwen-3-7-plus-multimodal-agent",
+      "category": "AI 模型/Agent",
+      "urgency": "medium",
+      "why": "6/2 发布、6/12 大量发酵 + 三大核心能力 + 兼容主流框架 + 阿里云百炼商用；多模态 Agent 是 2026 主线；0 风险",
+      "recommended_format": "能力三件套 + 跑分榜 + 实操场景",
+      "angle": "Visual Agent / Visual Coding / GUI Agent 三件套，截屏即生成网页，国产 Agent 已经会自己干活",
+      "data_points": ["ScreenSpot Pro", "OSWorld", "百炼 API", "Visual Agent", "Visual Coding", "GUI Agent"],
+      "title_options": [
+        "阿里 Qwen3.7-Plus 看懂屏幕一切：截屏即生成网页，国产 Agent 已经能自己干活了",
+        "Qwen3.7-Plus 三件套发布：Visual Agent 让 AI 真的会用电脑了",
+        "阿里 Qwen3.7-Plus 商用上线：百炼 API 让国产 Agent 直接进生产"
+      ],
+      "compliance_hint": "无政治、无金融、无个股推荐；阿里云客观叙事，不要写「投资机会」「市值」",
+      "sources": [
+        "阿里云 6/2 Qwen3.7-Plus 发布",
+        "百炼平台公告",
+        "Google Notebook LM Gemini Omni"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "X5",
+      "score": 85,
+      "topic": "比亚迪 4nm 智驾芯片璇玑 + 智驾事故无上限兜底首案",
+      "slug_hint": "byd-4nm-zhixuan-zerofault",
+      "category": "汽车/AI 芯片",
+      "urgency": "medium",
+      "why": "6 月初新闻持续发酵 + 4nm 国产首款 + 全系搭载 + 首起兜底赔付出现 + 王传福 160 万海外目标；0 风险",
+      "recommended_format": "芯片硬数据 + 兜底机制深度 + 海外战报",
+      "angle": "国内首款 4nm 智驾芯片璇玑 + 天神之眼 B 激光版选装 12000 + 智驾兜底首案落地，比亚迪把责任写进合约",
+      "data_points": ["4nm 制程", "璇玑芯片", "天神之眼 B", "选装 12000 元", "无上限兜底", "首起兜底案", "海外 160 万辆目标"],
+      "title_options": [
+        "比亚迪 4nm 智驾芯片 + 智驾事故无限兜底，国产智能驾驶卷出新天花板",
+        "比亚迪首发 4nm 芯片璇玑：智驾出事公司全赔，已经赔出第一案",
+        "璇玑芯片落地 + 海外 160 万：比亚迪把智驾责任写进合约"
+      ],
+      "compliance_hint": "无政治、无金融、无个股推荐；不要写「股价」「值得关注」类暗示；兜底案叙述要客观，避免「碾压特斯拉」",
+      "sources": [
+        "比亚迪璇玑芯片发布",
+        "天神之眼 B 激光版定价",
+        "首起兜底案报道",
+        "王传福海外战略发言"
+      ]
+    }
+  ],
+  "all_selected": [
+    {"rank": 1, "id": "X1", "score": 92, "topic": "雷军 6/13 9:00 盐城极限直播 + SU7 五月双第一封神", "category": "汽车/产品/人物", "urgency": "high"},
+    {"rank": 2, "id": "X2", "score": 91, "topic": "鸿蒙 7 + openPangu 全面体系战：超 iOS 成中国第二大手机 OS", "category": "操作系统/AI 平台", "urgency": "high"},
+    {"rank": 3, "id": "X3", "score": 90, "topic": "端侧 AI 三强对决：苹果投降式合作 / 谷歌死磕自研 / 中国堆参数", "category": "深度分析/技术对比", "urgency": "high"},
+    {"rank": 4, "id": "X4", "score": 87, "topic": "阿里 Qwen3.7-Plus 多模态 Agent + Gemini Omni 落地", "category": "AI 模型/Agent", "urgency": "medium"},
+    {"rank": 5, "id": "X5", "score": 85, "topic": "比亚迪 4nm 智驾芯片璇玑 + 智驾事故无上限兜底首案", "category": "汽车/AI 芯片", "urgency": "medium"}
+  ],
+  "compliance_global": {
+    "political_red_lines": "全部 0 触发（无中国领导人、无涉港台疆藏）",
+    "stock_recommendations": "全部 0 触发（不点名 A 股个股）",
+    "financial_extreme": "0 触发（不写崩盘/暴涨/万亿富豪情绪化叙事）"
+  }
+}
