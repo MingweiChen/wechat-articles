@@ -1,0 +1,118 @@
+{
+  "date": "2026-05-30",
+  "topics": [
+    {
+      "rank": 1,
+      "topic": "Anthropic发布Claude Opus 4.8，与OpenAI、Google IPO竞赛白热化",
+      "category": "商业",
+      "score": 92,
+      "sources": [
+        "https://finance.yahoo.com/news/anthropic-debuts-flagship-claude-opus-48-ai-model-as-ipo-race-with-openai-heats-up-170000527.html",
+        "https://www.moneycontrol.com/technology/anthropic-launches-claude-opus-4-8-with-dynamic-workflows-and-effort-control-here-s-how-it-compares-to-gpt-5-5-and-gemini-3-1-pro-article-13935278.html"
+      ],
+      "hook": "三巨头IPO前夕的最后模型大战，Opus 4.8带来动态工作流和努力控制功能",
+      "angle": "以IPO竞赛为主线，分析三家公司模型差异化策略，预测上市后格局",
+      "urgency": "high",
+      "key_facts": [
+        "Opus 4.8新增动态工作流，可用多个并行子代理执行大规模任务",
+        "新增努力控制功能，用户可决定模型推理深度",
+        "定价不变：$5/百万输入tokens，$25/百万输出tokens",
+        "Anthropic与OpenAI年内都将IPO，估值分别接近万亿和8500亿美元"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "GitHub今日热榜：ECC已获19.8万Star，AI编程工具生态爆发",
+      "category": "开源",
+      "score": 89,
+      "sources": [
+        "https://github.com/trending",
+        "https://github.com/affaan-m/ECC"
+      ],
+      "hook": "一个AI代码助手的技能系统，两天狂揽近20万Star，开发者疯了",
+      "angle": "分析ECC为何爆火，解读AI编程工具的Skills/Instincts/Memory架构革命",
+      "urgency": "high",
+      "key_facts": [
+        "ECC（AI Agent性能优化系统）获198,367 Star，今日新增1413",
+        "支持Claude Code、Codex、Cursor等主流AI编程工具",
+        "提供Skills、Instincts、Memory、Security四大模块",
+        "同期taste-skill、stop-slop等技能文件项目也在爆发"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Musk诉Altman案庭审进入白热化：AI的'昭昭天命'之争",
+      "category": "人物",
+      "score": 87,
+      "sources": [
+        "https://www.reuters.com/technology/artificial-intelligence/musk-v-altman-manifest-destiny-ai-2026-05-06/",
+        "https://www.forbes.com/sites/jonmarkman/2026/05/01/inside-openai-trial-how-musk-v-altman-will-define-the-future-of-ai/"
+      ],
+      "hook": "硅谷最大肥皂剧：马斯克称Altman不可信任，Brockman日记曝光'想赚几十亿'",
+      "angle": "从庭审细节切入，揭示AI公司治理的深层矛盾，分析对行业的影响",
+      "urgency": "medium",
+      "key_facts": [
+        "马斯克索赔1340亿美元，可能威胁OpenAI的IPO",
+        "Brockman日记被曝光：'It would be nice to be making the billions'",
+        "Brockman称马斯克曾站起来像要打他",
+        "案件将决定非营利AI机构能否合法转为营利机构"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "阿里云峰会：李飞飞首秀一口气发32款Agent产品，Qwen3.7-Max登顶国产第一",
+      "category": "产品",
+      "score": 85,
+      "sources": [
+        "https://www.msn.cn/zh-cn/技术/人工智能/阿里李飞飞首秀-一口气面向agent发了32个新品/ar-AA23Hkxj"
+      ],
+      "hook": "李飞飞出任阿里云CTO后首次亮相，Agent全栈升级，35小时长程任务能力惊人",
+      "angle": "解读阿里的Agent战略布局，与华为云、腾讯的差异化竞争分析",
+      "urgency": "high",
+      "key_facts": [
+        "发布50+新品及升级，国内首次围绕Agent全栈产品发布",
+        "Qwen3.7-Max在Arena全球盲测总榜位列国产第一",
+        "超越Kimi-K2.6、DeepSeek-V4-Pro、GLM-5.1",
+        "可胜任35小时长程任务"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "联想发布天禧AI 4.0：AI主机新品类诞生，家庭边缘算力节点来了",
+      "category": "产品",
+      "score": 82,
+      "sources": [
+        "https://www.xinhuanet.com/tech/20260520/3da28e856bf84e61a6e7de7fc89e9b35/c.html"
+      ],
+      "hook": "300g的AI主机，190 TOPS算力，支持122B本地大模型——联想开创新硬件品类",
+      "angle": "分析AI终端化趋势，端-边-云协同架构如何改变普通用户的AI体验",
+      "urgency": "medium",
+      "key_facts": [
+        "AI主机P7仅300g，算力190 TOPS，支持122B本地大模型",
+        "7×24小时稳定运行，定位家庭边缘算力节点",
+        "10款新品均达国标L3级智能化要求",
+        "启动'苍穹计划'开放1万亿Token算力"
+      ]
+    }
+  ],
+  "备选": [
+    {
+      "topic": "GPT-5.5 vs Claude Opus 4.7 vs Gemini 3.1 Pro：2026模型大战最新战报",
+      "category": "技术",
+      "score": 80,
+      "reason": "选题1已涵盖类似内容，避免重复"
+    },
+    {
+      "topic": "Sam Altman质疑马斯克太空数据中心计划：水下可能更靠谱",
+      "category": "人物",
+      "score": 78,
+      "reason": "话题性强但时效略过，非核心AI议题"
+    },
+    {
+      "topic": "MoneyPrinterTurbo：一键生成高清短视频的开源工具今日暴涨3563 Star",
+      "category": "开源",
+      "score": 77,
+      "reason": "工具向选题，受众面相对窄"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T04:15:00Z",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "DeepSeek V4-Pro永久降价75%，AI价格战白热化",
+      "category": "商业",
+      "score": 92,
+      "sources": [
+        "https://finance.yahoo.com/sectors/technology/articles/deepseek-hits-openai-anthropic-where-233700972.html"
+      ],
+      "hook": "DeepSeek API价格低至OpenAI的1/9，Anthropic的1/7，AI定价格局被彻底重写",
+      "angle": "从价格战背后分析：Nvidia是推手？中国AI如何用价格击穿美国护城河？对开发者意味着什么？",
+      "urgency": "high",
+      "key_facts": [
+        "V4-Pro永久降价75%，API价格$0.0035-$0.83/百万token",
+        "GPT-5.5定价$5入/$30出，Claude Opus 4.7定价$5入/$25出",
+        "同等100M输出token月费：DeepSeek约$348 vs Claude约$2500 vs OpenAI约$3000",
+        "原本5/31到期的促销价变为永久定价"
+      ],
+      "why_hot": "直接冲击OpenAI和Anthropic的定价体系，开发者build vs buy决策将发生根本变化"
+    },
+    {
+      "id": 2,
+      "topic": "Musk v. Altman世纪审判落幕：陪审团裁定Altman胜诉",
+      "category": "人物",
+      "score": 95,
+      "sources": [
+        "https://www.aljazeera.com/news/2026/5/19/musk-vs-altman-what-to-know-about-the-openai-verdict",
+        "https://www.reuters.com/technology/artificial-intelligence/musk-v-altman-manifest-destiny-ai-2026-05-06/",
+        "https://www.forbes.com/sites/jonmarkman/2026/05/01/inside-openai-trial-how-musk-v-altman-will-define-the-future-of-ai/"
+      ],
+      "hook": "9人陪审团裁定Musk败诉——他等太久才起诉。但Musk宣布上诉，战火远未熄灭",
+      "angle": "审判揭露的内幕：Altman曾说Musk要求90%股权、Brockman日记暴露\"想赚十亿\"、Musk差点动手打人？AI控制权之争的深层逻辑",
+      "urgency": "high",
+      "key_facts": [
+        "陪审团认定Musk起诉过晚，未进入实质审理",
+        "Musk索赔$1500亿，要求Altman/Brockman下台",
+        "Altman作证：Musk曾要求90%股权和CEO职位",
+        "Brockman日记曝光：'能赚十亿就好了'",
+        "Musk已宣布上诉"
+      ],
+      "why_hot": "硅谷最大肥皂剧尘埃落定，但揭露的内幕比判决本身更劲爆"
+    },
+    {
+      "id": 3,
+      "topic": "Anthropic估值冲击9000亿美元，有望超越OpenAI成全球最贵AI独角兽",
+      "category": "商业",
+      "score": 90,
+      "sources": [
+        "https://k.sina.cn/article_7857201856_1d45362c001905vxhy.html",
+        "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html"
+      ],
+      "hook": "成立仅5年，Anthropic即将超越OpenAI成为全球估值最高AI初创",
+      "angle": "Anthropic凭什么？Claude Code爆火、Google砸400亿、安全叙事的胜利？",
+      "urgency": "high",
+      "key_facts": [
+        "新一轮融资超300亿美元，估值有望突破9000亿美元",
+        "红杉、Dragoneer等四家机构各出资约20亿美元领投",
+        "OpenAI当前估值约8520亿美元",
+        "Google已承诺投资高达400亿美元",
+        "Anthropic年化收入已超300亿美元"
+      ],
+      "why_hot": "AI独角兽估值排名即将易主，Anthropic的崛起代表了一种新的AI公司范式"
+    },
+    {
+      "id": 4,
+      "topic": "GitHub热榜：Agent Skills生态大爆发，ECC项目单日涨2000+ Star",
+      "category": "开源",
+      "score": 85,
+      "sources": [
+        "https://github.com/trending",
+        "https://ossinsight.io/trending/ai"
+      ],
+      "hook": "Coding Agent的\"技能树\"时代来了：从Karpathy Skills到Cybersecurity Skills，开源社区在重新定义AI编程",
+      "angle": "为什么Agent Skills会火？详解ECC、taste-skill、codegraph等热门项目，如何用Skills让AI不再\"Slop\"",
+      "urgency": "medium",
+      "key_facts": [
+        "affaan-m/ECC：Agent性能优化系统，192K星，单日涨2000+",
+        "multica-ai/andrej-karpathy-skills：基于Karpathy观察的Claude行为改进，155K星",
+        "Lum1104/Understand-Anything：代码→知识图谱，31K星，单日涨5600",
+        "Leonxlnx/taste-skill：让AI有\"品味\"，不生成无聊内容，19K星",
+        "colbymchenry/codegraph：预索引代码知识图谱，减少token消耗，25K星"
+      ],
+      "why_hot": "Coding Agent从\"能用\"到\"好用\"的关键一步，Skills生态正在形成"
+    },
+    {
+      "id": 5,
+      "topic": "Meta大裁8000人全面转向AI，科技裁员新常态来临",
+      "category": "商业",
+      "score": 88,
+      "sources": [
+        "https://k.sina.cn/article_7857201856_1d45362c001905vwo0.html"
+      ],
+      "hook": "Meta正式启动AI大重组：裁员8000、调岗7000，以AI为核心逻辑的战略转型",
+      "angle": "不只是裁员：Meta的AI战略重组透露了什么信号？对整个科技行业意味着什么？",
+      "urgency": "high",
+      "key_facts": [
+        "裁员8000人，约占全球员工10%",
+        "另有7000人将被调配至AI新部门",
+        "5月20日凌晨4点分三批发送裁员通知",
+        "这是一次\"以AI为核心逻辑的战略重组\""
+      ],
+      "why_hot": "大厂AI转型的标志性事件，预示科技行业人才结构的根本性变化"
+    },
+    {
+      "id": 6,
+      "topic": "Google I/O 2026: Gemini 3.5 Flash + Spark Agent + Omni视频模型全面发布",
+      "category": "产品",
+      "score": 87,
+      "sources": [
+        "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+        "https://tech.yahoo.com/ai/gemini/article/google-launches-gemini-spark-a-personal-ai-agent-and-more-ai-updates-at-google-io-2026-172856405.html",
+        "https://analyticsindiamag.com/ai-features/14-wildest-ai-announcements-from-google-io-2026"
+      ],
+      "hook": "Google进入\"Agentic Gemini时代\"：3.5 Flash比竞品快4倍，Spark Agent全天候工作，Omni可从任何输入生成视频",
+      "angle": "14个I/O重磅发布全解析：从Search Agent到Android Halo，Google的AI全家桶如何对抗OpenAI+Anthropic",
+      "urgency": "medium",
+      "key_facts": [
+        "Gemini 3.5 Flash：速度是竞品4倍，已成为Gemini App默认模型",
+        "Gemini Spark：个人AI Agent，可全天候执行任务",
+        "Gemini Omni：从任何输入生成视频的世界模型",
+        "AI Mode Search：智能搜索框+Information Agents",
+        "Gemini月活用户从4亿增长到9亿+"
+      ],
+      "why_hot": "Google的反击：用速度和生态对抗OpenAI/Anthropic的模型优势"
+    },
+    {
+      "id": 7,
+      "topic": "OpenAI & Anthropic同时成立企业服务合资公司，华尔街抢占战打响",
+      "category": "商业",
+      "score": 83,
+      "sources": [
+        "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+        "https://thenewstack.io/anthropic-openai-wall-street-ai-agents-developers/"
+      ],
+      "hook": "72小时内，Anthropic和OpenAI先后宣布成立企业部署公司，抢夺华尔街市场",
+      "angle": "AI巨头为何都在做\"服务公司\"？Forward Deployed Engineer模式解析，对咨询公司（PwC/Accenture）意味着什么",
+      "urgency": "medium",
+      "key_facts": [
+        "Anthropic合资估值15亿美元，Blackstone/Goldman Sachs等领投",
+        "OpenAI的DeployCo估值100亿美元，募资40亿",
+        "Anthropic发布10个金融Agent模板：KYC、承保、月结等",
+        "Chamath警告：咨询公司正在引狼入室"
+      ],
+      "why_hot": "AI从\"模型竞争\"转向\"部署竞争\"，企业市场才是真正的战场"
+    },
+    {
+      "id": 8,
+      "topic": "中国Q1 AI融资超1100亿元，月之暗面、阶跃星辰等国产大模型集体斩获大额融资",
+      "category": "商业",
+      "score": 80,
+      "sources": [
+        "https://news.cctv.com/2026/05/24/ARTIvvEirVDfhuhgFhWqf5bs260524.shtml"
+      ],
+      "hook": "一季度近600起融资，总额超1100亿元，同比激增185% — 中国AI投资热潮背后的三大方向",
+      "angle": "钱都花在哪了？研发、算力、人才。具身智能、算力公司为何成资本新宠？",
+      "urgency": "medium",
+      "key_facts": [
+        "Q1 AI融资近600起，总额超1100亿元",
+        "同比增长185.4%",
+        "月之暗面、阶跃星辰等5月斩获超300亿元融资",
+        "具身智能公司（维他动力、鹿明机器人等）一周内连获数亿元融资",
+        "GPU采购和云服务占融资额30%-50%"
+      ],
+      "why_hot": "中国AI投资逆势增长，资本正在押注国产大模型和具身智能"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-09",
+  "window": "过去48小时（2026-06-07 ~ 2026-06-09 UTC）",
+  "selection_rule": "总分≥70 全部入选，按分数降序",
+  "total_selected": 10,
+  "top_picks": [
+    {
+      "rank": 1,
+      "id": "T1",
+      "score": 89,
+      "topic": "OpenAI 秘密提交IPO申请，估值1万亿美元，AI三巨头IPO洪流",
+      "why": "时效新鲜（6月8日发生）+ 万亿估值话题性顶级 + 与 SpaceX/Anthropic 形成三连发叙事，独家信息密度高",
+      "recommended_format": "【深度分析】AI万亿IPO三连发：OpenAI、Anthropic、SpaceX 同月冲击公开市场",
+      "title_options": [
+        "OpenAI追上来了！秘密提交IPO，三家AI巨头万亿估值同月冲击华尔街",
+        "Anthropic先一步、OpenAI紧跟上：万亿AI巨头集体IPO，散户的机会来了",
+        "SpaceX 1.77万亿、Anthropic 9650亿、OpenAI 8520亿：AI第一代帝国上市决战"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "T4",
+      "score": 87,
+      "topic": "Cognition 估值260亿，Devin写89%代码",
+      "why": "极强话题性 + 实用性，AI替代程序员的争议直接引爆，多个客户名单背书让叙事可信",
+      "recommended_format": "【行业观察】Devin写自己的89%代码：AI编程公司估值8个月翻倍背后的真相",
+      "title_options": [
+        "AI公司89%代码自己写！Cognition估值260亿，硅谷集体不写代码了",
+        "Devin写自己的89%代码：第一个'自我编程'AI公司估值狂飙",
+        "Goldman Sachs、NASA都在用：AI程序员Devin估值翻倍至260亿美元"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "T2",
+      "score": 86,
+      "topic": "苹果WWDC 2026: Siri AI + Apple Intelligence 升级",
+      "why": "时效极新（昨天发生）+ 苹果生态读者关心 + 中国不能用的争议性 + 明确产品干货",
+      "recommended_format": "【WWDC速读】十大重点+中国用户能用什么",
+      "title_options": [
+        "苹果WWDC 2026十大亮点！Siri AI终于来了，但中国iPhone暂时用不了",
+        "苹果Siri AI正式发布：底层用谷歌Gemini，欧盟和中国用户被'排除'",
+        "Liquid Glass升级、Spatial Reframing 重构照片：苹果AI补课全攻略"
+      ]
+    }
+  ],
+  "all_selected": [
+    {
+      "rank": 1,
+      "id": "T1",
+      "score": 89,
+      "topic": "OpenAI 秘密提交IPO申请，估值1万亿美元，AI三巨头IPO洪流",
+      "category": "资本/IPO",
+      "urgency": "high"
+    },
+    {
+      "rank": 2,
+      "id": "T4",
+      "score": 87,
+      "topic": "Cognition 估值260亿，Devin写89%代码",
+      "category": "AI Agent/资本",
+      "urgency": "medium"
+    },
+    {
+      "rank": 3,
+      "id": "T2",
+      "score": 86,
+      "topic": "苹果WWDC 2026: Siri AI + Apple Intelligence 升级",
+      "category": "产品发布/人物",
+      "urgency": "high"
+    },
+    {
+      "rank": 4,
+      "id": "T3",
+      "score": 86,
+      "topic": "DeepSeek 拿下 500亿融资估值3500亿",
+      "category": "资本/国产AI",
+      "urgency": "high"
+    },
+    {
+      "rank": 5,
+      "id": "T5",
+      "score": 81,
+      "topic": "Cursor Composer 2.5 1/10成本对标 Claude Opus + GPT-5.5",
+      "category": "AI Agent/产品",
+      "urgency": "medium"
+    },
+    {
+      "rank": 6,
+      "id": "T6",
+      "score": 81,
+      "topic": "Musk将成首位万亿富翁: SpaceX IPO估值1.77万亿",
+      "category": "资本/人物",
+      "urgency": "medium"
+    },
+    {
+      "rank": 7,
+      "id": "T7",
+      "score": 80,
+      "topic": "智谱+MiniMax同时冲A股 vs Anthropic OpenAI抢IPO",
+      "category": "资本/国产AI",
+      "urgency": "medium"
+    },
+    {
+      "rank": 8,
+      "id": "T8",
+      "score": 77,
+      "topic": "微软Build 2026 + 英伟达Cosmos 3: AI从'聊天'转向物理世界干活",
+      "category": "产品发布/AI Agent",
+      "urgency": "low-medium"
+    },
+    {
+      "rank": 9,
+      "id": "T9",
+      "score": 76,
+      "topic": "Anthropic 企业市占率反超 OpenAI: 34.4% vs 32.3%",
+      "category": "AI竞争格局",
+      "urgency": "low"
+    },
+    {
+      "rank": 10,
+      "id": "T10",
+      "score": 73,
+      "topic": "GitHub Trending: Skills生态崛起",
+      "category": "GitHub Trending",
+      "urgency": "low"
+    }
+  ],
+  "next_actions": [
+    "可联动 wechat-article-workflow 创作微信公众号文章",
+    "高优推荐：T1（IPO三连发）、T4（Devin写89%代码）、T2（WWDC速读）",
+    "中文读者偏好可优先：T3（DeepSeek融资）、T7（智谱MiniMax A股）"
+  ]
+}

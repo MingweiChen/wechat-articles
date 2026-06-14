@@ -1,0 +1,102 @@
+{
+  "collected_at": "2026-05-29T02:12:00Z",
+  "sources": [
+    {
+      "query": "AI chip semiconductor Nvidia AMD Intel 2026",
+      "highlights": [
+        {
+          "title": "Nvidia GTC 2026: CEO Jensen Huang sees $1 trillion in orders for Blackwell and Vera Rubin through '27",
+          "source": "CNBC",
+          "date": "2026-03-16",
+          "key_points": [
+            "Nvidia $1 trillion orders for Blackwell + Vera Rubin through 2027",
+            "Vera Rubin delivers 10x performance/watt vs Grace Blackwell",
+            "Nvidia acquired Groq for $20B, unveiled Groq 3 LPU",
+            "Kyber architecture preview for Vera Rubin Ultra (2027)",
+            "OpenClaw mentioned in keynote - Peter Steinberger joined OpenAI"
+          ]
+        },
+        {
+          "title": "AMD stock outperforms Nvidia 114% vs 18% YTD",
+          "source": "Globe and Mail",
+          "date": "2026-05-13",
+          "key_points": [
+            "AMD up 114% in 2026, Nvidia only 18%",
+            "AMD Q1 revenue +38% YoY, expects +46% Q2",
+            "Nvidia still dominates with 81% AI chip market share"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "OpenAI GPT Anthropic Claude Google Gemini AI news May 2026",
+      "highlights": [
+        {
+          "title": "Anthropic debuts flagship Claude Opus 4.8, tops OpenAI as most valuable AI startup",
+          "source": "Yahoo Finance / CNBC",
+          "date": "2026-05-28",
+          "key_points": [
+            "Claude Opus 4.8 released - beats GPT-5.5 and Gemini 3.1 Pro",
+            "Anthropic $65B Series H at $965B valuation - surpasses OpenAI",
+            "$47B revenue run rate (up from $10B last year)",
+            "Anthropic and OpenAI both racing to IPO",
+            "Claude now leads business AI adoption (34.4% vs OpenAI 32.3%)"
+          ]
+        },
+        {
+          "title": "Google I/O 2026: Gemini 3.5 Flash and Gemini Spark agent",
+          "source": "CNBC",
+          "date": "2026-05-19",
+          "key_points": [
+            "Gemini 3.5 Flash - half/third the price of frontier models",
+            "Gemini Spark - new general-purpose AI agent",
+            "Omni world model for video/physical simulation"
+          ]
+        },
+        {
+          "title": "Claude Opus 4.8, GPT-5.6, Mythos 1 Preview leaked",
+          "source": "Geeky Gadgets",
+          "date": "2026-05-26",
+          "key_points": [
+            "Three major models leaked simultaneously",
+            "Claude Opus 4.8 - enhanced visual + 30% more tokens",
+            "GPT-5.6 - agentic workflows, dual-version release",
+            "Mythos 1 - ethical safeguards, October 2026 public release"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "China AI DeepSeek Alibaba ByteDance Baidu 2026",
+      "highlights": [
+        {
+          "title": "DeepSeek V4 released - China's AI hero continues momentum",
+          "source": "The Star",
+          "date": "2026-04-24",
+          "key_points": [
+            "DeepSeek V4 - 1M tokens context, 1.6T parameters (Pro)",
+            "ByteDance Doubao - 100M+ DAU, #1 chatbot in China",
+            "SeeDance 2.0 video generator raises concerns",
+            "Moonshot AI Kimi K2.5 - massive success on OpenRouter",
+            "Alibaba Qwen app - 200M+ MAU"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "AI startup funding acquisition 2026",
+      "highlights": [
+        {
+          "title": "Q1 2026 VC funding shatters records - $300B globally",
+          "source": "Crunchbase",
+          "date": "2026-04-01",
+          "key_points": [
+            "Q1 2026: $300B total, $242B (80%) to AI",
+            "OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B",
+            "SpaceX acquired xAI for $250B - largest AI M&A ever"
+          ]
+        }
+      ]
+    }
+  ]
+}

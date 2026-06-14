@@ -1,0 +1,80 @@
+{
+  "date": "2026-05-31",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "九章四号问世！中国量子计算机算力是全球最快超算的10⁵⁴倍",
+      "category": "量子计算/国产突破",
+      "score": 95,
+      "sources": [
+        "https://www.chinadaily.com.cn/a/202605/15/WS6a0659aca310d6866eb48b37.html",
+        "https://global.chinadaily.com.cn/a/202605/13/WS6a049d5aa310d6866eb48721.html",
+        "https://news.qq.com/rain/a/20260524A07KI600"
+      ],
+      "hook": "超算算一万亿亿亿年，它只要25微秒",
+      "angle": "中国量子计算机再次刷新世界纪录，发表Nature顶刊",
+      "urgency": "high",
+      "key_facts": {
+        "photons": 3050,
+        "previous_photons": 255,
+        "time_quantum": "25微秒",
+        "time_supercomputer": "10^42年",
+        "speedup": "10^54倍",
+        "journal": "Nature",
+        "team": "潘建伟团队",
+        "institution": "中国科学技术大学"
+      }
+    },
+    {
+      "id": 2,
+      "topic": "人形机器人直播130小时不休息！Figure 03正在颠覆物流业",
+      "category": "机器人/科技趋势",
+      "score": 92,
+      "sources": [
+        "https://koreajoongangdaily.joins.com/news/2026-05-19/business/tech/Humanoid-robots-seem-ready-to-do-the-heavy-lifting-but-concerns-still-weighty/2596182",
+        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8573470"
+      ],
+      "hook": "机器人开始卷人类了，每天工作24小时还不要工资",
+      "angle": "Figure 03直播分拣包裹，Atlas搬冰箱，人形机器人量产竞赛",
+      "urgency": "high"
+    },
+    {
+      "id": 3,
+      "topic": "中国AI大模型调用量碾压美国！DeepSeek成本仅为GPT的1/170",
+      "category": "AI/国产模型",
+      "score": 90,
+      "sources": [
+        "https://www.ithome.com/0/942/955.htm",
+        "https://news.qq.com/rain/a/20260424A07A5A00"
+      ],
+      "hook": "中国AI调用量是美国的2倍，DeepSeek成本只有GPT的1/170",
+      "angle": "DeepSeek V4开源发布，全面适配华为昇腾，摆脱英伟达依赖",
+      "urgency": "high"
+    },
+    {
+      "id": 4,
+      "topic": "哈佛重磅研究——AI诊断准确率碾压急诊医生！",
+      "category": "医疗/研究",
+      "score": 88,
+      "sources": [
+        "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+      ],
+      "hook": "AI看病比医生还准？哈佛最新研究让医学界炸锅了",
+      "angle": "Science期刊发表，OpenAI o1准确率67%超越人类医生50-55%",
+      "urgency": "medium"
+    },
+    {
+      "id": 5,
+      "topic": "华为韬定律突围——不用光刻机也能造顶级芯片！",
+      "category": "芯片/国产替代",
+      "score": 86,
+      "sources": [
+        "https://global.chinadaily.com.cn/a/202605/26/WS6a14f944a310d6866eb4ab30.html"
+      ],
+      "hook": "美国封锁3年后，华为用一条新物理定律反杀",
+      "angle": "Tau定律用多层堆叠替代纳米制程，2031年达到等效1.4nm",
+      "urgency": "medium"
+    }
+  ],
+  "selected_for_writing": 1
+}

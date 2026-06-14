@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-05-29T02:35:00Z",
+  "selection_criteria": {
+    "threshold": 70,
+    "max_selections": 5
+  },
+  "selected": [
+    {
+      "rank": 1,
+      "id": "new-1-v2",
+      "score": 98,
+      "title": "人形机器人世界大战：特斯拉关厂造机器人，中国已占全球80%出货量",
+      "recommended_title": "特斯拉关厂All In机器人，但中国宇树已卖出2万台！人形机器人世界大战打响",
+      "category": "机器人/中美竞争",
+      "urgency": "高",
+      "source": "Forbes / eWeek / 新华网 / IT之家",
+      "date": "2026-05-13",
+      "key_points": [
+        "【Tesla】关停Model S/X产线 → Optimus生产线，年产100万台目标",
+        "【宇树】发布GD01可驾驶机甲，售价390万（$650K），全球首款量产",
+        "【宇树】2026目标出货2万台（2025年5500台），准备科创板IPO",
+        "【格局】中国占全球出货量80-90%，摩根士丹利翻倍预测至28000台",
+        "【国网】68亿采购8500台具身智能设备",
+        "【十强】智平方(百亿独角兽)、宇树、优必选(港股)、智元(比亚迪系)等",
+        "【价格战】宇树G1售价$4290起，R1售价2.99万元，打破价格天花板"
+      ],
+      "china_angle": "中国已领先特斯拉量产！宇树GD01可驾驶机甲刷屏全球，科创板IPO在即",
+      "reason": "中美机器人对决是2026最热话题，中国已占主导地位，反差感极强。"
+    },
+    {
+      "rank": 2,
+      "id": "new-2",
+      "score": 92,
+      "title": "Science重磅：9.5万大学生AI作弊调查",
+      "recommended_title": "Science重磅：9.5万大学生调查，每天用AI的学生1/4在作弊",
+      "category": "AI与教育",
+      "urgency": "高",
+      "source": "Berkeley News / Cornell / Forbes",
+      "date": "2026-05-21",
+      "key_points": [
+        "Science期刊发表，调查9.5万学生",
+        "37%学生每月使用AI，9%承认用AI作弊",
+        "每日AI用户作弊率26%，月度用户仅7%",
+        "普林斯顿恢复监考，结束133年荣誉制度传统",
+        "低收入和少数族裔学生AI使用率更低，加剧不平等"
+      ],
+      "reason": "权威科学研究，直击教育公平和诚信痛点。"
+    },
+    {
+      "rank": 3,
+      "id": "new-3",
+      "score": 90,
+      "title": "AI医疗爆发：FDA批准1357个AI设备，首款纯AI药物进入II期",
+      "recommended_title": "AI医疗元年！FDA已批1357个AI设备，首款纯AI设计新药成功进入II期",
+      "category": "AI医疗",
+      "urgency": "中",
+      "source": "MSN / Forbes",
+      "date": "2026-05-28",
+      "key_points": [
+        "FDA已批准1357个AI医疗设备，是2024年的3倍",
+        "Rentosertib成为首款纯AI设计药物进入Phase IIa成功",
+        "Insilico Medicine获礼来$27.5B合作",
+        "Nvidia与礼来建$10亿AI药物发现实验室",
+        "AI Phase I成功率80-90%（历史平均约50%）"
+      ],
+      "reason": "AI从概念到实际救命的里程碑，医疗AI终于交出成绩单。"
+    },
+    {
+      "rank": 4,
+      "id": 3,
+      "score": 90,
+      "title": "Understand-Anything爆火：把代码变成可交互知识图谱",
+      "recommended_title": "GitHub日增4000星！Understand-Anything让AI帮你「看懂」任何代码",
+      "category": "开发者工具",
+      "urgency": "高",
+      "source": "GitHub Trending",
+      "date": "2026-05-29",
+      "key_points": [
+        "单日3776 stars，总星数42907",
+        "代码→交互式知识图谱，支持搜索和提问",
+        "支持Claude Code、Codex、Cursor、Copilot、Gemini CLI"
+      ],
+      "reason": "开发者神器！解决代码理解痛点，实用性极强。"
+    },
+    {
+      "rank": 5,
+      "id": "new-5-v2",
+      "score": 95,
+      "title": "AI裁员真相：23万人被裁，但一半公司又把人请回来了",
+      "recommended_title": "23万人被AI替代，但一半公司又把人请回来了！AI裁员的荒诞真相",
+      "category": "就业/职场",
+      "urgency": "高",
+      "source": "CBS News / 腾讯新闻 / 钛媒体 / 网易",
+      "date": "2026-05-28",
+      "key_points": [
+        "【全球】2026年已有7.8万+科技岗位因AI被裁",
+        "【美国】Meta裁1.6万(20%)、亚马逊裁3万、微软裁1.5万",
+        "【中国】阿里员工从19.4万降到12.8万(减6.6万)，B站、网易、科大讯飞传出裁员",
+        "【反转】Gartner预测：到2027年，一半因AI裁员的公司会重新招人",
+        "【讽刺】Block裁4000人(40%)，不到一个月部分员工收到返岗通知",
+        "【真相】99%高管预计2年内因AI裁员（美世报告）",
+        "【冰火】AI岗位需求暴涨12倍，平均月薪60738元，比行业高26%",
+        "【洞见】被裁的不是能力最差的，而是「性价比最低」的"
+      ],
+      "china_angle": "阿里减员6.6万、网易清退外包，但AI岗位月薪6万疯抢人！中国大厂的用人逻辑正在重构",
+      "reason": "中美对照的AI就业生态，「裁了又招」的荒诞感引发共鸣，数据详实。"
+    }
+  ],
+  "backup": [
+    {
+      "rank": 6,
+      "id": 4,
+      "score": 90,
+      "title": "taste-skill：让AI告别「机器味」的开源利器"
+    },
+    {
+      "rank": 7,
+      "id": "new-5",
+      "score": 85,
+      "title": "EU简化AI法案：高风险系统合规延期1年，禁止AI「脱衣」应用"
+    },
+    {
+      "rank": 8,
+      "id": 5,
+      "score": 82,
+      "title": "MoneyPrinterTurbo：AI一键生成短视频"
+    }
+  ],
+  "notes": [
+    "选题1大幅加强中国内容：宇树GD01可驾驶机甲、科创板IPO、中国占80%出货量",
+    "选题5增加中国大厂裁员数据：阿里减员6.6万、网易清退外包、AI岗位月薪6万",
+    "「23万人被裁但一半公司又招回来」这个反转角度极具爆点",
+    "中美对比+荒诞反转 = 话题性极强"
+  ]
+}

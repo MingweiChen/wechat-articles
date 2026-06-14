@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-05-29T02:15:00Z",
+  "evaluation_criteria": {
+    "timeliness": 25,
+    "topicality": 25,
+    "personality": 20,
+    "practicality": 15,
+    "exclusivity": 15
+  },
+  "passing_threshold": 70,
+  "candidates": [
+    {
+      "id": 1,
+      "title": "Anthropic超越OpenAI成为最有价值AI公司，估值逼近万亿美元",
+      "original_title": "Anthropic tops OpenAI as most valuable AI startup, nears $1T valuation",
+      "source": "CNBC/Yahoo Finance",
+      "date": "2026-05-28",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+      "scores": {
+        "timeliness": 25,
+        "topicality": 25,
+        "personality": 20,
+        "practicality": 12,
+        "exclusivity": 15
+      },
+      "total_score": 97,
+      "key_angles": [
+        "Anthropic $65B融资，估值$965B超越OpenAI",
+        "Claude Opus 4.8同日发布，击败GPT-5.5",
+        "年化收入$47B（去年$10B），增长80倍",
+        "Anthropic vs OpenAI IPO竞赛白热化"
+      ],
+      "why_hot": "头条新闻！AI双雄格局逆转，Anthropic首次超越OpenAI。万亿估值里程碑+IPO竞赛，话题性极强。",
+      "recommended_angle": "硅谷AI霸主易位：Anthropic如何在18个月内超越OpenAI？"
+    },
+    {
+      "id": 2,
+      "title": "Claude企业采用率首超ChatGPT：AI商业格局变天",
+      "original_title": "Anthropic finally beat OpenAI in business AI adoption",
+      "source": "VentureBeat",
+      "date": "2026-05-13",
+      "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "scores": {
+        "timeliness": 22,
+        "topicality": 25,
+        "personality": 15,
+        "practicality": 15,
+        "exclusivity": 12
+      },
+      "total_score": 89,
+      "key_angles": [
+        "Ramp数据：Claude企业采用率34.4% vs ChatGPT 32.3%",
+        "Claude Code：全球4%的GitHub commits由它生成",
+        "Anthropic拒绝国防部合同，反而赢得用户好感",
+        "AI选择正成为身份认同标志（如iPhone蓝泡vs绿泡）"
+      ],
+      "why_hot": "数据驱动的行业洞察，揭示AI商业化真实格局。Claude Code的惊人增长是实用干货。",
+      "recommended_angle": "全球4%代码由AI编写：Claude Code如何改变开发者工作方式"
+    },
+    {
+      "id": 3,
+      "title": "Understand-Anything爆火：把代码变成可交互知识图谱",
+      "original_title": "Lum1104/Understand-Anything",
+      "source": "GitHub Trending",
+      "date": "2026-05-29",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "scores": {
+        "timeliness": 25,
+        "topicality": 23,
+        "personality": 12,
+        "practicality": 15,
+        "exclusivity": 15
+      },
+      "total_score": 90,
+      "key_angles": [
+        "单日3776 stars，总星数42907",
+        "代码→交互式知识图谱，支持搜索和提问",
+        "支持Claude Code、Codex、Cursor、Copilot、Gemini CLI",
+        "Graphs that teach > graphs that impress"
+      ],
+      "why_hot": "开发者神器！解决代码理解痛点，实用性极强。单日增长惊人，正在病毒式传播。",
+      "recommended_angle": "GitHub爆火：这个工具让AI帮你「看懂」任何代码库"
+    },
+    {
+      "id": 4,
+      "title": "taste-skill：让AI告别「机器味」的开源利器",
+      "original_title": "Leonxlnx/taste-skill",
+      "source": "GitHub Trending",
+      "date": "2026-05-29",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "scores": {
+        "timeliness": 25,
+        "topicality": 22,
+        "personality": 15,
+        "practicality": 15,
+        "exclusivity": 13
+      },
+      "total_score": 90,
+      "key_angles": [
+        "单日2234 stars，总星数26562",
+        "解决AI生成内容「千篇一律」问题",
+        "配套stop-slop移除AI痕迹",
+        "开源社区对AI内容质量的反思"
+      ],
+      "why_hot": "直击痛点！AI内容越来越同质化，这个工具代表了对「AI Slop」的反击。",
+      "recommended_angle": "厌倦AI废话？GitHub新锐工具教AI「学会品味」"
+    },
+    {
+      "id": 5,
+      "title": "MoneyPrinterTurbo：AI一键生成短视频，单日涨星4698",
+      "original_title": "harry0703/MoneyPrinterTurbo",
+      "source": "GitHub Trending",
+      "date": "2026-05-29",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "scores": {
+        "timeliness": 25,
+        "topicality": 20,
+        "personality": 10,
+        "practicality": 15,
+        "exclusivity": 12
+      },
+      "total_score": 82,
+      "key_angles": [
+        "单日4698 stars，总星数66578",
+        "一键生成高清短视频，支持多模型",
+        "中国开发者作品，国际火爆"
+      ],
+      "why_hot": "短视频创作门槛降为零，自媒体人的效率神器。",
+      "recommended_angle": "GitHub榜首：这个中国开发者工具让AI帮你批量造视频"
+    },
+    {
+      "id": 6,
+      "title": "三巨头下一代模型同时泄露：Claude Opus 4.8、GPT-5.6、Mythos 1",
+      "original_title": "Claude Opus 4.8, GPT-5.6, Mythos 1 Preview leaked",
+      "source": "Geeky Gadgets",
+      "date": "2026-05-26",
+      "url": "https://www.geeky-gadgets.com/latest-claude-opus-leak/",
+      "scores": {
+        "timeliness": 24,
+        "topicality": 25,
+        "personality": 20,
+        "practicality": 10,
+        "exclusivity": 18
+      },
+      "total_score": 97,
+      "key_angles": [
+        "三大模型同时泄露，AI军备竞赛加速",
+        "Claude Opus 4.8视觉增强但token消耗增30%",
+        "GPT-5.6双版本发布策略",
+        "Mythos 1伦理安全重点，10月公开"
+      ],
+      "why_hot": "独家泄露！AI三巨头下一代模型细节首次曝光，科技圈大事件。",
+      "recommended_angle": "AI军备竞赛：三巨头下一代模型同时泄露，谁将称王？"
+    },
+    {
+      "id": 7,
+      "title": "Google I/O 2026：Gemini 3.5 Flash半价出击，Gemini Spark Agent来袭",
+      "original_title": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark",
+      "source": "CNBC",
+      "date": "2026-05-19",
+      "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+      "scores": {
+        "timeliness": 20,
+        "topicality": 23,
+        "personality": 18,
+        "practicality": 12,
+        "exclusivity": 10
+      },
+      "total_score": 83,
+      "key_angles": [
+        "Gemini 3.5 Flash：同等能力半价",
+        "Gemini Spark：通用AI Agent",
+        "Omni世界模型：视频/物理模拟"
+      ],
+      "why_hot": "Google反击战！价格战+Agent战略双管齐下。",
+      "recommended_angle": "Google I/O重磅：Gemini降价一半，AI Agent正式登场"
+    },
+    {
+      "id": 8,
+      "title": "DeepSeek V4发布：中国AI英雄的万亿参数新武器",
+      "original_title": "DeepSeek V4 released - China's AI hero",
+      "source": "The Star",
+      "date": "2026-04-24",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/04/24/china039s-top-ai-players",
+      "scores": {
+        "timeliness": 18,
+        "topicality": 22,
+        "personality": 18,
+        "practicality": 12,
+        "exclusivity": 12
+      },
+      "total_score": 82,
+      "key_angles": [
+        "DeepSeek V4：100万token上下文，1.6万亿参数",
+        "性能媲美闭源模型，成本更低",
+        "中国AI四小龙格局：DeepSeek、智谱、MiniMax、Moonshot",
+        "Kimi K2.5在OpenRouter大火"
+      ],
+      "why_hot": "中国AI的全球崛起，开源路线的胜利。",
+      "recommended_angle": "DeepSeek V4：这家中国公司如何用1/6成本挑战美国AI巨头"
+    },
+    {
+      "id": 9,
+      "title": "Q1 2026 AI融资破纪录：$242B，三家占67%",
+      "original_title": "Q1 2026 Shatters VC Records - $300B globally, 80% to AI",
+      "source": "Crunchbase/PitchBook",
+      "date": "2026-05-12",
+      "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+      "scores": {
+        "timeliness": 20,
+        "topicality": 22,
+        "personality": 12,
+        "practicality": 10,
+        "exclusivity": 10
+      },
+      "total_score": 74,
+      "key_angles": [
+        "Q1融资$300B，AI占80%（$242B）",
+        "OpenAI $122B + Anthropic $30B + xAI $20B = 67%",
+        "SpaceX $250B收购xAI：史上最大AI并购",
+        "主权基金和企业成主力投资者"
+      ],
+      "why_hot": "宏观视角的AI投资格局，适合财经向读者。",
+      "recommended_angle": "2026 Q1 AI融资报告：$242B涌入，三家公司拿走2/3"
+    },
+    {
+      "id": 10,
+      "title": "MOSS-TTS开源：复旦大学多场景语音生成模型",
+      "original_title": "OpenMOSS/MOSS-TTS",
+      "source": "GitHub Trending",
+      "date": "2026-05-29",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "scores": {
+        "timeliness": 25,
+        "topicality": 18,
+        "personality": 12,
+        "practicality": 15,
+        "exclusivity": 10
+      },
+      "total_score": 80,
+      "key_angles": [
+        "高保真长文本TTS",
+        "多说话人对话",
+        "声音/角色设计",
+        "环境音效+实时流式"
+      ],
+      "why_hot": "国产开源TTS新星，实用性强。",
+      "recommended_angle": "复旦开源MOSS-TTS：一个模型搞定所有语音生成场景"
+    }
+  ]
+}

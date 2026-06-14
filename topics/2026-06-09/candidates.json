@@ -1,0 +1,296 @@
+{
+  "date": "2026-06-09",
+  "window": "2026-06-07 03:55 ~ 2026-06-09 03:55 UTC（过去48小时）",
+  "scoring_dimensions": {
+    "时效性": 0.25,
+    "话题性": 0.25,
+    "人物性": 0.20,
+    "实用性": 0.15,
+    "独家性": 0.15
+  },
+  "pass_threshold": 70,
+  "candidates": [
+    {
+      "id": "T1",
+      "topic": "OpenAI 秘密提交IPO申请，估值1万亿美元，与Anthropic、SpaceX组AI三巨头IPO洪流",
+      "category": "资本/IPO",
+      "score": {
+        "时效性": 25,
+        "话题性": 24,
+        "人物性": 18,
+        "实用性": 11,
+        "独家性": 11,
+        "total": 89
+      },
+      "sources": [
+        "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+        "https://finance.yahoo.com/markets/stocks/articles/openai-files-us-ipo-anthropic-211708802.html",
+        "https://www.france24.com/en/live-news/20260608-openai-makes-move-to-go-public-one-week-after-rival-anthropic"
+      ],
+      "hook": "三家AI公司同月冲击万亿美元IPO，AI泡沫还是新黄金时代？",
+      "angle": "OpenAI晚Anthropic一周提交IPO，估值落后900亿，万亿IPO三连发是AI产业拐点",
+      "urgency": "high",
+      "key_facts": [
+        "OpenAI 6月8日秘密提交S-1，目标估值1万亿美元",
+        "Anthropic 6月2日先提交，估值9650亿美元",
+        "SpaceX 6月12日Nasdaq上市，估值1.77万亿美元",
+        "OpenAI ChatGPT 9亿周活、5000万付费订阅",
+        "Anthropic ARR 470亿美元（vs 去年90亿）"
+      ]
+    },
+    {
+      "id": "T2",
+      "topic": "苹果WWDC 2026: Siri AI 终于来了但中国用不了，Apple Intelligence 改用谷歌Gemini",
+      "category": "产品发布/人物",
+      "score": {
+        "时效性": 25,
+        "话题性": 23,
+        "人物性": 14,
+        "实用性": 13,
+        "独家性": 11,
+        "total": 86
+      },
+      "sources": [
+        "https://news.qq.com/rain/a/20260609A01JFW00",
+        "https://www.reuters.com/business/siri-ai-child-safety-tools-key-takeaways-apples-wwdc-2026-06-08/"
+      ],
+      "hook": "苹果终于把Siri做成AI了，但欧盟和中国用不了——监管成苹果AI最大瓶颈",
+      "angle": "苹果AI迟到两年的尴尬现实：技术不输人，但被监管卡死，中国用户彻底无缘",
+      "urgency": "high",
+      "key_facts": [
+        "Siri AI 整合 Apple Intelligence，连续多轮对话",
+        "底层模型基于苹果自研 + 谷歌Gemini优化",
+        "欧盟和中国暂不上线（监管原因）",
+        "Liquid Glass 设计语言升级，图标重新设计",
+        "儿童安全自动模糊血腥暴力图像",
+        "AI图片生成 + Spatial Reframing 空间重构功能"
+      ]
+    },
+    {
+      "id": "T3",
+      "topic": "DeepSeek 拿下 500亿融资估值3500亿，腾讯领投，国产AI最大融资诞生",
+      "category": "资本/国产AI",
+      "score": {
+        "时效性": 24,
+        "话题性": 23,
+        "人物性": 16,
+        "实用性": 11,
+        "独家性": 12,
+        "total": 86
+      },
+      "sources": [
+        "https://news.qq.com/rain/a/20260603A084QN00",
+        "https://finance.sina.com.cn/wm/2026-06-04/doc-iniaeywa9635701.shtml",
+        "https://nai500.com/zh-hans/blog/2026/06/deepseek-70-10-ai/"
+      ],
+      "hook": "腾讯砸100亿、宁德时代抢着塞钱：DeepSeek估值3500亿，国产AI开启全球化进攻",
+      "angle": "DeepSeek 500亿融资刷新国产大模型纪录，对标 OpenAI 万亿估值仍有10倍差距",
+      "urgency": "high",
+      "key_facts": [
+        "总融资约500亿元（外部300亿+创始人梁文锋200亿）",
+        "投后估值3500亿人民币（约485亿美元）",
+        "腾讯投100亿成最大外部投资方",
+        "宁德时代、国家AI产业投资基金参与",
+        "梁文锋持股从1%跃升至34%，控制84.29%股权",
+        "对比：Anthropic估值9650亿美元 = 7倍DeepSeek"
+      ]
+    },
+    {
+      "id": "T4",
+      "topic": "Cognition 估值260亿，Devin写89%代码，AI正在杀死程序员？",
+      "category": "AI Agent/资本",
+      "score": {
+        "时效性": 22,
+        "话题性": 24,
+        "人物性": 16,
+        "实用性": 13,
+        "独家性": 12,
+        "total": 87
+      },
+      "sources": [
+        "https://memeburn.com/cognition-ai-raises-1-billion-as-devin-starts-writing-most-of-its-own-code/",
+        "https://thenextweb.com/news/cognition-just-raised-1-billion-at-a-26-billion-valuation-and-90-of-its-own-code-is-written-by-its-ai",
+        "https://digg.com/ai/11vqsnys"
+      ],
+      "hook": "AI公司89%的代码自己写：Cognition估值8个月翻倍至260亿，硅谷集体不写代码了",
+      "angle": "Devin成为第一个自己写自己的AI产品，从demo病毒到260亿估值，AI编程进入'自动驾驶时代'",
+      "urgency": "medium",
+      "key_facts": [
+        "估值$26B，8个月从$10.2B翻倍",
+        "ARR $492M（13倍同比增长）",
+        "客户: Goldman Sachs/NASA/Microsoft/Dell/Cisco",
+        "Devin 写 Cognition 89%内部代码",
+        "6月2日发布Devin Desktop（基于Windsurf）",
+        "6月3日与Carahsoft合作进军美国联邦政府"
+      ]
+    },
+    {
+      "id": "T5",
+      "topic": "Cursor Composer 2.5 发布: 1/10成本对标 Claude Opus 4.7 + GPT-5.5",
+      "category": "AI Agent/产品",
+      "score": {
+        "时效性": 19,
+        "话题性": 22,
+        "人物性": 13,
+        "实用性": 14,
+        "独家性": 13,
+        "total": 81
+      },
+      "sources": [
+        "https://memeburn.com/cursor-composer-2-5-officially-launches/"
+      ],
+      "hook": "$0.5/M tokens对$3-11/任务：Cursor自研模型把AI编程价格打骨折",
+      "angle": "Cursor用Moonshot Kimi K2.5底座 + RL训练做出对标Opus的自研模型，降本10倍",
+      "urgency": "medium",
+      "key_facts": [
+        "5月18日发布，2026 ARR $20亿",
+        "SWE-Bench Multilingual 79.8%，CursorBench v3.1 63.2%",
+        "成本: $1/任务 vs Opus/GPT-5.5的$3-11",
+        "底座: Moonshot开源 Kimi K2.5",
+        "下一代模型与SpaceX/xAI在Colossus 2超算上训练",
+        "10x计算量"
+      ]
+    },
+    {
+      "id": "T6",
+      "topic": "Musk将成首位万亿富翁: SpaceX IPO估值1.77万亿，史上最大",
+      "category": "资本/人物",
+      "score": {
+        "时效性": 20,
+        "话题性": 22,
+        "人物性": 19,
+        "实用性": 9,
+        "独家性": 11,
+        "total": 81
+      },
+      "sources": [
+        "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+        "https://www.forbes.com/sites/mattdurot/2026/06/03/spacexs-reported-ipo-price-would-make-elon-musk-the-worlds-first-trillionaire/"
+      ],
+      "hook": "马斯克净资产破万亿：SpaceX IPO开盘当天他将创造一个新富豪等级",
+      "angle": "550亿规模、1.77万亿估值、Musk独占82%投票权，史上最大IPO背后的造富狂欢",
+      "urgency": "medium",
+      "key_facts": [
+        "$135/股 × 555.6M股 = $75B 募资",
+        "估值$1.77T = 美国第7大上市公司",
+        "Musk SpaceX股份价值$866.5B",
+        "Tesla股份$355B + 期权$100B+",
+        "Forbes估其总净资产破$1T",
+        "366天锁定期",
+        "Nasdaq 6月12日上市"
+      ]
+    },
+    {
+      "id": "T7",
+      "topic": "智谱+MiniMax同时冲A股 vs Anthropic OpenAI抢IPO：全球大模型2026 IPO元年",
+      "category": "资本/国产AI",
+      "score": {
+        "时效性": 22,
+        "话题性": 21,
+        "人物性": 13,
+        "实用性": 11,
+        "独家性": 13,
+        "total": 80
+      },
+      "sources": [
+        "https://finance.sina.com.cn/tech/roll/2026-06-02/doc-inhzzqcq1524734.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-06-05/doc-iniaiust1762381.shtml"
+      ],
+      "hook": "中美'AI四子'同月IPO，5万亿资金大战开打",
+      "angle": "智谱150亿募资、MiniMax港股+A股、Anthropic+OpenAI万亿，AI第二代上市潮全面爆发",
+      "urgency": "medium",
+      "key_facts": [
+        "智谱拟科创板募150亿（120亿用于通用基座大模型）",
+        "智谱港股市值6300亿港元（较发行价12倍）",
+        "MiniMax港股市值2081亿港元",
+        "Anthropic估值$965B，OpenAI $852B",
+        "Anthropic ARR $47B（年初$9B）",
+        "全球IPO融资额$87.5B（2021以来同期最高）"
+      ]
+    },
+    {
+      "id": "T8",
+      "topic": "微软Build 2026 + 英伟达Cosmos 3: AI从'聊天'转向'物理世界干活'",
+      "category": "产品发布/AI Agent",
+      "score": {
+        "时效性": 21,
+        "话题性": 19,
+        "人物性": 12,
+        "实用性": 14,
+        "独家性": 11,
+        "total": 77
+      },
+      "sources": [
+        "https://news.qq.com/rain/a/20260603A05F6A00",
+        "https://www.huxiu.com/moment/1251528.html",
+        "https://www.sohu.com/a/1031650036_120096961"
+      ],
+      "hook": "微软7款MAI、英伟达开源物理AI、阿里通义3.7：AI集体进入'打工人'时代",
+      "angle": "三巨头同周发布对标产品，AI从答案输出转向任务执行，对'数字员工'共识形成",
+      "urgency": "low-medium",
+      "key_facts": [
+        "微软MAI 7款模型（Thinking-1对标Claude Sonnet 4.6）",
+        "MAI-Code-1-Flash 5B参数对标GitHub Copilot",
+        "英伟达Cosmos 3全模态物理AI开源",
+        "Cosmos 3合作伙伴: LG/三星/理想/思灵",
+        "阿里千问Qwen3.7-Plus多模态智能体连续运行11小时",
+        "Mustafa Suleyman: 未来3年算力提升1000倍"
+      ]
+    },
+    {
+      "id": "T9",
+      "topic": "Anthropic 企业市占率反超 OpenAI: 34.4% vs 32.3%",
+      "category": "AI竞争格局",
+      "score": {
+        "时效性": 18,
+        "话题性": 20,
+        "人物性": 14,
+        "实用性": 12,
+        "独家性": 12,
+        "total": 76
+      },
+      "sources": [
+        "https://www.forbes.com/sites/sandycarter/2026/06/05/claude-becomes-the-enterprise-favorite-as-anthropic-passes-openai/"
+      ],
+      "hook": "Claude悄悄做了OpenAI最害怕的事：企业市场反超",
+      "angle": "Ramp AI Index数据揭示企业AI市场拐点，Claude凭代码能力锁定开发者",
+      "urgency": "low",
+      "key_facts": [
+        "Anthropic 34.4% vs OpenAI 32.3%（企业采用率）",
+        "整体AI企业采用率 50.6%",
+        "付费双方约16%",
+        "Anthropic ARR $47B（70%来自企业）",
+        "Claude Code +Anthropic API为主要增长引擎"
+      ]
+    },
+    {
+      "id": "T10",
+      "topic": "GitHub Trending 大爆发: Skills生态崛起，最热项目24h涨1万星",
+      "category": "GitHub Trending",
+      "score": {
+        "时效性": 23,
+        "话题性": 17,
+        "人物性": 8,
+        "实用性": 14,
+        "独家性": 11,
+        "total": 73
+      },
+      "sources": [
+        "https://github.com/trending"
+      ],
+      "hook": "career-ops 24h+10344星：AI Skills生态正在重写'编程教育'",
+      "angle": "GitHub Trending 反映AI Skills范式：从单一工具到工作流模板的产业升级",
+      "urgency": "low",
+      "key_facts": [
+        "santifer/career-ops: 50658 stars (+10344 today)",
+        "mvanhorn/last30days-skill: 34931 (+2852)",
+        "danielmiessler/Personal_AI_Infrastructure: 15493 (+2162)",
+        "Panniantong/Agent-Reach: 24428 (+2047)",
+        "phuryn/pm-skills: 12809 (+1504)",
+        "google/skills: 12526 (+970)",
+        "openai/plugins: 2351 (+291)",
+        "趋势：从'AI助手'转向'职业操作系统'"
+      ]
+    }
+  ]
+}

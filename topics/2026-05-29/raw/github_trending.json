@@ -1,0 +1,97 @@
+{
+  "collected_at": "2026-05-29T02:12:00Z",
+  "source": "GitHub Trending",
+  "projects": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频",
+      "language": "Python",
+      "stars": 66578,
+      "forks": 9629,
+      "stars_today": 4698,
+      "category": "AI Video Generation"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "description": "Agent harness performance optimization system. Skills, instincts, memory, security for Claude Code, Codex, Cursor",
+      "category": "AI Agent Framework"
+    },
+    {
+      "name": "Leonxlnx/taste-skill",
+      "description": "Gives your AI good taste. Stops AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 26562,
+      "forks": 1991,
+      "stars_today": 2234,
+      "category": "AI Quality Control"
+    },
+    {
+      "name": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "stars": 6461,
+      "forks": 470,
+      "stars_today": 761,
+      "category": "AI Writing"
+    },
+    {
+      "name": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI",
+      "language": "TypeScript",
+      "stars": 47893,
+      "forks": 6797,
+      "stars_today": 493,
+      "category": "AI CRM"
+    },
+    {
+      "name": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown",
+      "category": "Document Processing"
+    },
+    {
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works",
+      "category": "AI Agent Framework"
+    },
+    {
+      "name": "revfactory/harness",
+      "description": "Meta-skill that designs domain-specific agent teams, defines specialized agents, and generates skills",
+      "language": "HTML",
+      "stars": 3919,
+      "forks": 582,
+      "stars_today": 65,
+      "category": "AI Agent Framework"
+    },
+    {
+      "name": "Lum1104/Understand-Anything",
+      "description": "Turn any code into interactive knowledge graph. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI",
+      "language": "TypeScript",
+      "stars": 42907,
+      "forks": 3424,
+      "stars_today": 3776,
+      "category": "Code Visualization"
+    },
+    {
+      "name": "OpenMOSS/MOSS-TTS",
+      "description": "Open-source speech and sound generation model family. High-fidelity TTS, multi-speaker dialogue, voice design",
+      "language": "Python",
+      "stars": 2276,
+      "forks": 217,
+      "stars_today": 71,
+      "category": "AI Voice/TTS"
+    },
+    {
+      "name": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor",
+      "language": "TypeScript",
+      "stars": 17795,
+      "forks": 1363,
+      "stars_today": 184,
+      "category": "AI Development"
+    },
+    {
+      "name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "category": "AI Agent Framework"
+    }
+  ]
+}
