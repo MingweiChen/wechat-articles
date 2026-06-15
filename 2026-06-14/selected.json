@@ -1,0 +1,314 @@
+{
+  "date": "2026-06-14",
+  "window": "6/13-6/14 UTC + 6/8-6/14 行业素材沉淀",
+  "main_axis": "AI 人才大迁徙 + Coding Agent 大战 + 具身万台俱乐部 + 中国大厂 6 月集体秀肌肉",
+  "selection_rule": "5 维度打分 ≥70 进入候选；同主题二选一去重；昨日避雷清单已过滤",
+  "scoring_dimensions": "时效性25% + 话题性25% + 人物性20% + 实用性15% + 独家性15%",
+  "pass_threshold": 70,
+  "yesterday_avoidance": [
+    "06-13 雷军 + SU7 直播",
+    "06-13 鸿蒙 7 + openPangu",
+    "06-13 端侧 AI 三强（苹果/谷歌/中国）",
+    "06-13 Qwen 3.7 Plus 多模态 Agent",
+    "06-13 比亚迪 4nm 智驾芯片"
+  ],
+  "anti_aigc_diversity": [
+    "5 篇标题风格分散：人物开头 / 产品对决 / 数字震撼 / 城市观察 / 数据全景",
+    "避免连续两天写同公司主线",
+    "5 篇骨架不重复：人才迁徙叙事 / 产品横评 / 人物特写 / 城市经济地理 / 全景观察",
+    "originality_warning 已标记给 #5（C7 豆包+阿里+腾讯，最容易掉进三段论模板）"
+  ],
+  "total_selected": 5,
+  "generated_at": "2026-06-14T16:25:00Z",
+  "generated_by": "topic_discovery_workflow_v2",
+  "top_picks": [
+    {
+      "rank": 1,
+      "id": "C1",
+      "score": 90,
+      "topic": "OpenAI 芯片 2 号员工跳槽 Anthropic + Karpathy 同月入职：硅谷上演 AI 版「攻占巴士底狱」",
+      "slug_hint": "openai-anthropic-talent-exodus",
+      "category": "人物/产业/人才战",
+      "urgency": "high",
+      "why": "6/7 Clive Chan 公告 + Karpathy 5/20 入职 Anthropic 双线叠加 + 8x 跳槽倍率硬数据 + 0 风险题材 + 极强人物性",
+      "recommended_format": "双人物开场 + 时间线串联 + 数据三件套 + 文化对比",
+      "angle": "Clive Chan「我要重新爬一座新山」+ Karpathy 同月入职预训练团队，背后是 OpenAI 80% vs 67% 留存率裂缝",
+      "data_points": [
+        "Clive Chan 2026/6/7 X 公告",
+        "OpenAI 自研芯片 #2",
+        "Google/SpaceX/Tesla/OpenAI 履历",
+        "Karpathy 5/20 加入 Anthropic 预训练（Nick Joseph 团队）",
+        "OpenAI 二年内 8+ 高管离职",
+        "Anthropic 留存率 80% vs OpenAI 67%",
+        "工程师跳 Anthropic 概率为反向 8 倍",
+        "DeepMind→Anthropic 11:1",
+        "271 次 AI 顶级人才跨厂移动",
+        "Anthropic 估值 $965B"
+      ],
+      "title_options": [
+        "OpenAI 芯片二号员工连夜出走，加上 Karpathy：硅谷正在上演 AI 版「攻占巴士底狱」",
+        "Karpathy + 芯片 #2 同月加入 Anthropic：OpenAI 一年走了 8 个高管，研究员们用脚投票",
+        "硅谷悄然变天：OpenAI 工程师跳 Anthropic 是反向的 8 倍，背后藏着两条人格分裂的路"
+      ],
+      "compliance_hint": "外国公司间人才流动，纯产业故事；不要写「OpenAI 完蛋了」「Anthropic 必胜」类极端，避开美国政治背景 / Sam Altman 个人评论；可以写 Karpathy/Chan 个人决策但保持中立",
+      "originality_hints": {
+        "personal_voice": "可插入对「研究员 vs 销售员」公司气质的个人观察",
+        "history_parallel": "可类比 1990s 贝尔实验室人才出走、PARC 流失",
+        "anti_template": "禁用「对开发者、对企业、对普通人意味着什么」三段论",
+        "structure_idea": "推荐用「时间线追踪」骨架（5/20 Karpathy → 6/7 Chan → 一年 8 人），避免典型「事件→影响→展望」三段论"
+      },
+      "sources": [
+        "https://www.alphamatch.ai/blog/openai-chip-employee-2-leaves-anthropic-2026",
+        "https://7min.ai/exodus/",
+        "https://thebytedive.com/ai/260520-ai-talent-war-karpathy-anthropic/",
+        "https://aihola.com/article/ai-talent-exodus-frontier-labs",
+        "https://www.resultsense.com/news/2026-05-20-karpathy-joins-anthropic-pretraining/"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "C3",
+      "score": 81,
+      "topic": "Cursor 3 + Warp 开源 + Claude Code：72 小时编程 Agent 大战完整复盘",
+      "slug_hint": "coding-agent-war-q2-2026",
+      "category": "产品/工具/AI 编程",
+      "urgency": "high",
+      "why": "Cursor 3 4/2 上线 8 个并行 agent + Warp 开源 + GitHub Copilot 6 月转 Token 计费三件大事在 5-6 月密集冲撞",
+      "recommended_format": "现状概览 + 三大产品对比 + 实测数据 + 程序员视角",
+      "angle": "程序员的工作方式正在被重构 - 从「写代码」变成「调度多个 AI 干活」，但代价是有人两天烧了 2000 美元",
+      "data_points": [
+        "Cursor 3 4/2 上线 codename Glass",
+        "8 个并行 Agent 通过 Git worktrees",
+        "Anysphere $3B 累计融资 估值 $29.3B",
+        "$2B ARR 三个月翻倍",
+        "Cursor 占 Fortune 500 64%",
+        "Claude Code Menlo 数据 54% 市场份额",
+        "Composer 2 fork Kimi 2.5 风波",
+        "用户两天烧 $2000",
+        "GitHub Copilot 6 月转 token billing",
+        "Warp 5 月开源 + OpenAI 投资"
+      ],
+      "title_options": [
+        "Cursor 3 + Warp 开源 + Copilot 转计费：编程 Agent 大战 72 小时完整复盘",
+        "8 个 AI 同时给你写代码：Cursor 3 上线那一周，硅谷程序员的钱包先哭了",
+        "Coding Agent 大爆发：Cursor 估值飙到 293 亿，但有人两天烧了 2000 美元"
+      ],
+      "compliance_hint": "纯产品赛道，无敏感；客观对比即可，不踩个股推荐",
+      "originality_hints": {
+        "personal_voice": "可插入「我亲自试 Cursor 3」实测体验",
+        "boring_stack": "不写「这意味着」三段论，不写「对程序员、对产品经理、对老板意味着什么」",
+        "anti_cta": "结尾不用「留个问题给你...评论区聊聊」，可以用「写代码这件事，未来可能不再是写」",
+        "structure_idea": "推荐用 FAQ 式骨架（Q: Cursor 3 干了啥？Q: 跟 Claude Code 哪不同？...）打破常规线性叙事"
+      },
+      "sources": [
+        "https://www.aitrove.ai/blog/cursor-agent-engine-autonomous-coding-2026",
+        "https://www.programming-helper.com/tech/ai-coding-agents-2026-cursor-claude-copilot-enterprise-comparison",
+        "https://tensoria.fr/en/tools/cursor-ide-coding-agent",
+        "https://mostpopularaitools.com/ai-news/cursor-3-launches-ai-agents-to-automate-coding-tasks"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "C4",
+      "score": 79,
+      "topic": "宇树 73 天闪电 IPO 过会：33 岁王兴兴和他从机器狗到人形万亿赛道的 4 年",
+      "slug_hint": "yushu-ipo-wangxingxing",
+      "category": "人物/IPO/具身智能",
+      "urgency": "high",
+      "why": "6/1 科创板过会 + 联想入股 + H2 Plus 下半年发布 + 王兴兴 33 岁个人 IP",
+      "recommended_format": "人物开场 + 时间线 + 产业坐标 + IPO 数据",
+      "angle": "33 岁王兴兴的 4 年逆袭，从一台研究生时期的四足机器狗，到今天上交所认可的「人形机器人第一股」",
+      "data_points": [
+        "6/1 宇树科创板过会",
+        "73 天闪电过会",
+        "联想入股",
+        "王兴兴身价或达 140 亿",
+        "上交所官方认证「人形机器人第一股」",
+        "H1 单款破 1.1 万台 全球 H1 出货量第一",
+        "四足机型 累计 3.3 万台",
+        "下半年 H2 Plus 上市",
+        "2025 上半年人形 5500 台",
+        "招股书 投入 20 亿做大脑/小脑",
+        "智元试图通过收购上纬新材抢「第一股」名号但未被认可"
+      ],
+      "title_options": [
+        "宇树 73 天闪电过会：33 岁王兴兴和他的人形机器人帝国如何一年从 0 到 140 亿",
+        "上交所官方盖章「人形机器人第一股」：宇树的 4 年，是中国制造的另一种叙事",
+        "王兴兴的逆袭：从研究生宿舍机器狗到 140 亿身价，今天上交所给了一个章"
+      ],
+      "compliance_hint": "宇树为 IPO 主体可写过会事实；严禁推荐买入/分析股价/「概念股清单」/「龙头标的」；可以写王兴兴个人故事和产业坐标，但不写未来涨幅预期",
+      "originality_hints": {
+        "personal_voice": "可插入「我看王兴兴 4 年前的本科论文 vs 今天招股书」类历史拉对",
+        "anti_template": "禁用「对宇树、对智元、对行业意味着什么」三段论",
+        "structure_idea": "推荐用人物特写骨架（背景 → 关键决策 → 现在），不要事件 → 影响 → 展望传统线",
+        "history_parallel": "可类比马斯克 SpaceX 早期、雷军小米创业期",
+        "structure_tag": "person_centric"
+      },
+      "sources": [
+        "https://finance.sina.com.cn/wm/2026-06-02/doc-inhzynrt4623477.shtml",
+        "https://finance.sina.com.cn/wm/2026-06-11/doc-inicavkc0449764.shtml",
+        "https://www.sohu.com/a/1032645256_122541822"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "C6",
+      "score": 76,
+      "topic": "智元/宇树/智身相继破万台：北京/上海/杭州城市禀赋背后的产业地理学",
+      "slug_hint": "humanoid-three-cities-paths",
+      "category": "产业/城市/独家观察",
+      "urgency": "medium-high",
+      "why": "三家相继宣布破万 + 三种路线分化 + 城市经济地理视角少有人写",
+      "recommended_format": "事件开场 + 三城三路线对比 + 短板/优势分析",
+      "angle": "人形机器人产业不是公司战争，是城市禀赋的较量 - 上海拼资本、杭州拼生态、北京拼科研",
+      "data_points": [
+        "智元（上海）/宇树（杭州）/智身（北京）三家破万台",
+        "智元依托上海资本+精密制造路线",
+        "宇树扎根杭州滨江物联网小镇 + 海康/阿里云生态",
+        "智身大兴+清华+应急/电网订单",
+        "宇树 H1 1.1 万 + 四足 3.3 万",
+        "智身铜锤 M1 一年破万 月产值破亿",
+        "通用人形/AI 生态/特种装备三种路线",
+        "上海订单流向高校实验室占多数",
+        "智元 6+1 模式 6 家子公司",
+        "宇树坚持单体集中"
+      ],
+      "title_options": [
+        "三家破万台、三个城市、三条路：人形机器人产业地理学",
+        "为什么人形机器人 KO 战发生在北京/上海/杭州，而不是深圳？",
+        "上海拼资本，杭州拼生态，北京拼科研：万台俱乐部背后的城市禀赋"
+      ],
+      "compliance_hint": "纯产业地理观察，不点名个股，不推荐买入；可以写城市优势对比但避免「东部 vs 中西部」类敏感叙事",
+      "originality_hints": {
+        "personal_voice": "可插入「我去年访问过滨江物联网小镇」类现场体验",
+        "anti_template": "禁用「对智元、对宇树、对智身意味着什么」三段论",
+        "structure_idea": "推荐用「地理学骨架」（三城分立 → 三条路 → 一个共同问题），破常规公司维度叙事",
+        "history_parallel": "可对照美国硅谷/德州/波士顿的科技产业禀赋分化",
+        "structure_tag": "geographic"
+      },
+      "sources": [
+        "https://www.163.com/dy/article/KV3E97VL0552YKV6.html",
+        "https://finance.sina.com.cn/wm/2026-06-11/doc-inicavkc0449764.shtml",
+        "https://www.sohu.com/a/1032645256_122541822"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "C7",
+      "score": 75,
+      "topic": "豆包 50 万亿 Token + 阿里 Token Foundry + 腾讯 20 个 Agent：中国 AI 大厂 6 月集体秀肌肉",
+      "slug_hint": "china-ai-giants-june-flex",
+      "category": "产业/竞争/中国大厂",
+      "urgency": "medium-high",
+      "why": "豆包 DAU 2 亿 + 50 万亿 Token + 阿里 Token Foundry 6/8 + 腾讯 6/5 + 美团 6/9 一周内集体动作",
+      "recommended_format": "全景概览 + 三家路径对比 + Token 经济解构",
+      "angle": "中国 AI 竞争从「百模大战」进入「入口之争」 - Token、Agent、入口三件套同时开火",
+      "data_points": [
+        "豆包 DAU 2 亿 / 日均 50 万亿 Token / 同比+10x",
+        "豆包累计 Token 超万亿企业客户 100+",
+        "6/8 阿里 Token Foundry 事业部 吴泳铭挂帅",
+        "千问 App 全面接入淘宝/支付宝/飞猪/高德",
+        "6/5 腾讯发布 20+ Agent + 市值单日+3600 亿",
+        "腾讯混元 Hy3 Preview",
+        "TokenHub 算力利用率+40%",
+        "美团 Tabbit AI 浏览器 6/9 上线 永久免费",
+        "美团 AI 助手「小美」对接腾讯元宝",
+        "QuestMobile AI MAU 4.4 亿",
+        "豆包 3.45 亿 / 千问 1.66 亿 / DeepSeek 1.27 亿 MAU"
+      ],
+      "title_options": [
+        "豆包 50 万亿 Token，阿里成立 Token Foundry，腾讯一口气 20 个 Agent：中国 AI 大厂 6 月底牌全亮",
+        "一周内：阿里设新事业部，腾讯股价飙 3600 亿，豆包 Token 涨 10 倍 - 中国 AI 入口战开打",
+        "Token、Agent、入口：中国 AI 大厂 6 月把所有底牌都亮了"
+      ],
+      "compliance_hint": "客观对比中国大厂动作，不写「卷死外资」/「碾压硅谷」类民族情绪；不点名个股，不推荐；不写中美对比类敏感",
+      "originality_hints": {
+        "personal_voice": "可插入「我用过豆包 vs 千问 vs 元宝」实测对比",
+        "anti_template": "⚠️ 高风险：禁用「对开发者、对企业、对普通人意味着什么」三段论 - 这个题材最容易掉进模板",
+        "anti_template_2": "禁用「第一/第二/第三个信号」穷举",
+        "anti_cta": "结尾不用「留个问题给你...评论区聊聊」",
+        "structure_idea": "推荐用「数据视角」骨架（一周三个数据 → Token Foundry 是什么 → 中国 AI 真正的护城河），避开 1-2-3 三段论",
+        "structure_tag": "data_driven"
+      },
+      "sources": [
+        "https://www.sohu.com/a/1034805249_122585292",
+        "https://www.sohu.com/a/1032541805_121885030",
+        "https://www.sohu.com/a/1029627354_121850782",
+        "https://news.qq.com/rain/a/20260604A03GTH00",
+        "https://finance.sina.com.cn/stock/t/2026-06-10/doc-iniawxzv4532232.shtml"
+      ],
+      "originality_warning": true,
+      "warning_reason": "话题最容易写成「对各方意味着什么」三段论 / 一周三件事穷举骨架 - 写作时要主动避开",
+      "anti_template_required": true
+    }
+  ],
+  "backup_picks": [
+    {
+      "id": "C5",
+      "score": 80,
+      "topic": "智元 vs 宇树 6+1 vs 单体路线 X-Y-Z 曲线对决",
+      "skip_reason": "和 #3 宇树 IPO + #4 三城万台俱乐部题材重叠，避免一天三个机器人选题"
+    },
+    {
+      "id": "C2",
+      "score": 79,
+      "topic": "OpenAI vs Anthropic 估值倒挂 - 研究员 vs 销售员",
+      "skip_reason": "和 #1 人才迁徙主题强重叠，可以并入 #1 写"
+    },
+    {
+      "id": "C8",
+      "score": 75,
+      "topic": "Cursor 烧钱反思 + Composer 2 抄 Kimi",
+      "skip_reason": "和 #2 同主题，已并入 #2"
+    },
+    {
+      "id": "C9",
+      "score": 74,
+      "topic": "Anthropic 文化护城河 + 7 名员工成亿万富翁",
+      "skip_reason": "和 #1 同主题"
+    },
+    {
+      "id": "C11",
+      "score": 71,
+      "topic": "美团 Tabbit AI 浏览器永久免费",
+      "skip_reason": "已并入 #5 中国 AI 大厂全景"
+    },
+    {
+      "id": "C12",
+      "score": 70,
+      "topic": "Apple Intelligence 下一代 + Siri 接 Gemini",
+      "skip_reason": "06-11 已发库克谢幕选题，重叠"
+    }
+  ],
+  "title_strategy_check": {
+    "rule": "5 篇标题风格不同，避免同一周「品牌+冒号+数字!」模板 ≥3 次",
+    "actual": [
+      "#1: 现象+人物+巴士底狱比喻（叙事开头）",
+      "#2: 三产品并列+全复盘（产品对决）",
+      "#3: 数字+人物特写+逆袭（人物驱动）",
+      "#4: 三城+地理学（学术观察）",
+      "#5: 数字+全景秀肌肉（数据驱动）"
+    ],
+    "diversity": "5 种风格全都不同，符合反 AIGC 多样性要求"
+  },
+  "structure_diversity_check": {
+    "rule": "5 篇骨架不能 ≥3 篇相同",
+    "structure_tags": [
+      "#1: timeline_human_story (人才迁徙时间线)",
+      "#2: faq_product_review (FAQ 式产品复盘)",
+      "#3: person_centric_biography (人物特写)",
+      "#4: geographic_economic (城市经济地理)",
+      "#5: data_driven_observation (数据观察)"
+    ],
+    "diversity": "5 种骨架完全不同，符合反 AIGC 跨篇模板红线"
+  },
+  "compliance_summary": {
+    "no_political_red_lines": true,
+    "no_individual_stock_recommendations": true,
+    "no_china_us_political_conflict": true,
+    "no_emotional_layoff_narrative": true,
+    "originality_warning_count": 1,
+    "warned_articles": ["#5 (C7)"]
+  },
+  "next_step": "5 个选题已选定，按 rank 顺序进入 wechat-article-workflow 的 Stage 1 撰写阶段；Stage 0 topic-loader 会读取本 selected.json"
+}
