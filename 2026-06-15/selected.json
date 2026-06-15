@@ -1,314 +1,333 @@
 {
-  "date": "2026-06-14",
-  "window": "6/13-6/14 UTC + 6/8-6/14 行业素材沉淀",
-  "main_axis": "AI 人才大迁徙 + Coding Agent 大战 + 具身万台俱乐部 + 中国大厂 6 月集体秀肌肉",
-  "selection_rule": "5 维度打分 ≥70 进入候选；同主题二选一去重；昨日避雷清单已过滤",
-  "scoring_dimensions": "时效性25% + 话题性25% + 人物性20% + 实用性15% + 独家性15%",
-  "pass_threshold": 70,
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T13:15:00Z",
+  "generated_by": "topic-discovery-via-main-session",
+  "window": "2026-06-13T00:00:00Z..2026-06-15T13:00:00Z",
+  "main_axis": "AI 产业的「真实成本」周——监管成本、运行成本、合规成本、资本成本、文化成本",
+  "pass_threshold": 7.5,
+  "scoring_dimensions": [
+    "时效性 (15%)",
+    "原创角度 (20%)",
+    "合规安全 (15%)",
+    "叙事潜力 (15%)",
+    "数据/事实硬度 (15%)",
+    "差异化 (10%)",
+    "反 AIGC 风险 (10%)"
+  ],
+  "selection_rule": "5 篇，主题去耦合（事件/产品/中国/资本/文化），骨架多样化",
   "yesterday_avoidance": [
-    "06-13 雷军 + SU7 直播",
-    "06-13 鸿蒙 7 + openPangu",
-    "06-13 端侧 AI 三强（苹果/谷歌/中国）",
-    "06-13 Qwen 3.7 Plus 多模态 Agent",
-    "06-13 比亚迪 4nm 智驾芯片"
+    "06-14 Karpathy 跳槽人才战",
+    "06-14 Cursor 3 + Codex 编程 Agent 三国杀",
+    "06-14 宇树 IPO + 王兴兴",
+    "06-14 北京/上海/杭州城市禀赋",
+    "06-14 豆包 50 万亿 Token 大厂秀"
   ],
-  "anti_aigc_diversity": [
-    "5 篇标题风格分散：人物开头 / 产品对决 / 数字震撼 / 城市观察 / 数据全景",
-    "避免连续两天写同公司主线",
-    "5 篇骨架不重复：人才迁徙叙事 / 产品横评 / 人物特写 / 城市经济地理 / 全景观察",
-    "originality_warning 已标记给 #5（C7 豆包+阿里+腾讯，最容易掉进三段论模板）"
-  ],
-  "total_selected": 5,
-  "generated_at": "2026-06-14T16:25:00Z",
-  "generated_by": "topic_discovery_workflow_v2",
+  "structure_diversity_check": {
+    "ok": true,
+    "rationale": "5 篇骨架完全不同：事件复盘 / 收购解读 / 产品发布会 / 资本拆解 / 文化思辨。开头方式：场景倒叙 / 一段时间线 / 产品体验 / 数字震撼 / 个人独白",
+    "non_template_count": 5
+  },
+  "title_strategy_check": {
+    "ok": true,
+    "rationale": "数字震撼 / 冲突反差 / 人物动作 / 疑问勾子 / 观察短语 五种风格各占一篇，无重复"
+  },
+  "anti_aigc_diversity": {
+    "fixed_phrases_avoided": [
+      "赢麻了",
+      "灵魂注入",
+      "教科书级",
+      "硬核信号",
+      "对 X、对 Y、对 Z 意味着什么",
+      "第一/二/三个意义",
+      "留一个问题给你...评论区聊聊"
+    ],
+    "structural_diversification": "事件叙事 / 收购解构 / 产品 Demo 体验 / 数字资本拆解 / 个人哲学 各一篇，明显的非模板骨架"
+  },
+  "compliance_summary": {
+    "political_redlines_avoided": true,
+    "stock_recommendations_avoided": true,
+    "layoff_negativity_avoided": true,
+    "notes": "篇 1 涉及美国出口管制，但是从「企业合规」「全球用户体验」「公司危机管理」三个产业视角切入，不评论中美政府层面冲突。篇 4 涉及循环资本，但写经济学逻辑，不评论具体股票走势。"
+  },
   "top_picks": [
     {
       "rank": 1,
-      "id": "C1",
-      "score": 90,
-      "topic": "OpenAI 芯片 2 号员工跳槽 Anthropic + Karpathy 同月入职：硅谷上演 AI 版「攻占巴士底狱」",
-      "slug_hint": "openai-anthropic-talent-exodus",
-      "category": "人物/产业/人才战",
-      "urgency": "high",
-      "why": "6/7 Clive Chan 公告 + Karpathy 5/20 入职 Anthropic 双线叠加 + 8x 跳槽倍率硬数据 + 0 风险题材 + 极强人物性",
-      "recommended_format": "双人物开场 + 时间线串联 + 数据三件套 + 文化对比",
-      "angle": "Clive Chan「我要重新爬一座新山」+ Karpathy 同月入职预训练团队，背后是 OpenAI 80% vs 67% 留存率裂缝",
+      "id": "ai-2026-06-15-anthropic-shutdown",
+      "score": 9.2,
+      "topic": "Claude Fable 5 上线 3 天被美国商务部一封信全球关停：AI 产品的合规风险已经超出技术风险",
+      "slug_hint": "claude-fable5-shutdown-compliance",
+      "category": "产业/合规/事件复盘",
+      "urgency": "今日凌晨（06-15 06:58 UTC）IBTimes UK 完整报道，前后 72 小时事件发酵中",
+      "why": "AI 行业第一次发生「7天上线、3天关停」的剧本。事件本身有强戏剧性（Karpathy 被锁、亚马逊举报、Anthropic 反驳「这不是 jailbreak」），并且揭示了 IPO 前夜 AI 公司在地缘政治面前的脆弱性。是「合规已经成为 AI 产品力一部分」的标志性事件。",
+      "recommended_format": "事件复盘 + 时间线 + 多方立场表 + 行业启示。开头从「全球用户 5:21 PM Eastern 突然无法登录 Claude Fable 5」这个具体时刻切入，倒叙到 6/13 周五早晨那封信",
+      "angle": "不是简单复述「Anthropic 模型被关停」，而是分析「这件事如何重写 AI 公司的合规账本」——以后 AI 公司估值里要扣多少合规风险溢价？哪些组件可以「90 分钟内被关停」？Karpathy 被锁这个荒诞场景如何成为整个事件的象征？",
       "data_points": [
-        "Clive Chan 2026/6/7 X 公告",
-        "OpenAI 自研芯片 #2",
-        "Google/SpaceX/Tesla/OpenAI 履历",
-        "Karpathy 5/20 加入 Anthropic 预训练（Nick Joseph 团队）",
-        "OpenAI 二年内 8+ 高管离职",
-        "Anthropic 留存率 80% vs OpenAI 67%",
-        "工程师跳 Anthropic 概率为反向 8 倍",
-        "DeepMind→Anthropic 11:1",
-        "271 次 AI 顶级人才跨厂移动",
-        "Anthropic 估值 $965B"
+        "时间：6/9 launch, 6/12 PM 5:21 Eastern 全球下线（约 72 小时）",
+        "Anthropic 收到 Commerce Secretary Howard Lutnick 的信，90 分钟内必须合规",
+        "受影响模型：Claude Fable 5（消费版）+ Mythos 5（Project Glasswing）",
+        "未受影响：Claude Opus 4.8 等其他模型仍在线",
+        "Karpathy 因 EB-1 绿卡身份属「US person」，理论上可以访问，但模型整体被关",
+        "Anthropic 的 3 位非美籍创始成员/研究员都受影响",
+        "亚马逊（Anthropic 最大投资人 130 亿美元）首席执行官 Andy Jassy 亲自上报财政部",
+        "Hyperliquid 上 Anthropic pre-IPO futures 下跌 3%",
+        "Anthropic 反驳：这不是 jailbreak，只是「previously known minor vulnerabilities」",
+        "Anthropic 正在 IPO 路上，估值约 9650 亿美元"
       ],
       "title_options": [
-        "OpenAI 芯片二号员工连夜出走，加上 Karpathy：硅谷正在上演 AI 版「攻占巴士底狱」",
-        "Karpathy + 芯片 #2 同月加入 Anthropic：OpenAI 一年走了 8 个高管，研究员们用脚投票",
-        "硅谷悄然变天：OpenAI 工程师跳 Anthropic 是反向的 8 倍，背后藏着两条人格分裂的路"
+        "上线 7 天、关停 3 天：Claude Fable 5 事件揭穿了 AI 公司最大的「隐藏成本」！",
+        "9650 亿估值 Anthropic 一封信下线全球用户：合规风险已经超出技术风险！",
+        "Karpathy 也被自己公司锁外了：AI 时代最荒诞的一幕只用了 90 分钟！"
       ],
-      "compliance_hint": "外国公司间人才流动，纯产业故事；不要写「OpenAI 完蛋了」「Anthropic 必胜」类极端，避开美国政治背景 / Sam Altman 个人评论；可以写 Karpathy/Chan 个人决策但保持中立",
-      "originality_hints": {
-        "personal_voice": "可插入对「研究员 vs 销售员」公司气质的个人观察",
-        "history_parallel": "可类比 1990s 贝尔实验室人才出走、PARC 流失",
-        "anti_template": "禁用「对开发者、对企业、对普通人意味着什么」三段论",
-        "structure_idea": "推荐用「时间线追踪」骨架（5/20 Karpathy → 6/7 Chan → 一年 8 人），避免典型「事件→影响→展望」三段论"
-      },
+      "compliance_hint": "重点：写「企业合规挑战」「公司危机管理」「IPO 风险」「投资者反应」等产业经济视角，不评论美中政府层面冲突，不批判美国出口管制制度本身，不替任何一方站队。「出口管制」可以提，但要包装成「监管不确定性」「合规风险」类商业术语。",
+      "originality_hints": [
+        "Karpathy 被锁这个荒诞细节，是整个事件的「皇帝的新衣」时刻",
+        "Anthropic 90 分钟决策窗口的工程性挑战（怎么 90 分钟内实现全球流量切断）",
+        "亚马逊投资 130 亿美元却向政府举报被投企业，这种治理冲突在 AI 时代会越来越多",
+        "对比：Opus 4.8 没受影响，Fable 5 上线只 7 天就被关，说明监管喜欢「新的、未充分测试的」目标",
+        "对未上市 AI 公司估值的真实启示：现在每个 AI 公司估值里都要打「合规折扣」"
+      ],
       "sources": [
-        "https://www.alphamatch.ai/blog/openai-chip-employee-2-leaves-anthropic-2026",
-        "https://7min.ai/exodus/",
-        "https://thebytedive.com/ai/260520-ai-talent-war-karpathy-anthropic/",
-        "https://aihola.com/article/ai-talent-exodus-frontier-labs",
-        "https://www.resultsense.com/news/2026-05-20-karpathy-joins-anthropic-pretraining/"
+        {
+          "title": "Anthropic's Top AI Scientist Locked Out of His Own Company's Most Powerful AI Because He's Not American",
+          "url": "https://www.ibtimes.co.uk/ai-expert-andrej-karpathy-anthropic-tech-regulation-1802715",
+          "publisher": "IBTimes UK",
+          "published": "2026-06-15"
+        },
+        {
+          "title": "Anthropic Launches Claude Fable, Its Most Advanced Public Model Yet",
+          "url": "https://techpp.com/2026/06/10/daily-brief-june-10-claude-mythos-gemini-3-5/",
+          "publisher": "TechPP",
+          "published": "2026-06-10"
+        },
+        {
+          "title": "Anthropic's Claude Fable 5 Challenges GPT 5.5 and Gemini 3.1 Pro",
+          "url": "https://www.republicworld.com/tech/anthropic-s-claude-fable-5-challenges-gpt-55-and-gemini-31-pro-with-stronger-coding-and-reasoning-skills-2026-06-10-127624",
+          "publisher": "Republic World",
+          "published": "2026-06-10"
+        }
       ]
     },
     {
       "rank": 2,
-      "id": "C3",
-      "score": 81,
-      "topic": "Cursor 3 + Warp 开源 + Claude Code：72 小时编程 Agent 大战完整复盘",
-      "slug_hint": "coding-agent-war-q2-2026",
-      "category": "产品/工具/AI 编程",
-      "urgency": "high",
-      "why": "Cursor 3 4/2 上线 8 个并行 agent + Warp 开源 + GitHub Copilot 6 月转 Token 计费三件大事在 5-6 月密集冲撞",
-      "recommended_format": "现状概览 + 三大产品对比 + 实测数据 + 程序员视角",
-      "angle": "程序员的工作方式正在被重构 - 从「写代码」变成「调度多个 AI 干活」，但代价是有人两天烧了 2000 美元",
+      "id": "ai-2026-06-15-openai-buys-ona",
+      "score": 8.8,
+      "topic": "OpenAI 收购 Ona（前 Gitpod）：当 AI Agent 有了「7×24 不下班」的工位，软件公司的形态会怎么变",
+      "slug_hint": "openai-acquires-ona-codex-always-on",
+      "category": "产品/智能体基建/收购",
+      "urgency": "6/12 OpenAI 正式公告，正在 IPO 路上（估值 8520 亿美元）",
+      "why": "比起昨天的「编程 Agent 三国杀」（横向工具对比），这一篇是「纵向基建演进」。Ona = 前 Gitpod，做的是「云端开发环境」。OpenAI 收购它，本质是给 Codex 加上「关掉笔记本后还能干活的工位」。这是 Agent 从「咨询助手」变成「自主员工」的真正基建跃迁。",
+      "recommended_format": "收购解构 + 产品演进时间线 + 产业变迁推演。开头不用戏剧化场景，直接从「Gitpod 改名 Ona 的那一刻就是为今天准备的」这个判断切入",
+      "angle": "不写「OpenAI 又买买买」的财经叙事，而是讲「Codex 一直缺的最后一块拼图终于补上：执行环境的持久性」。把 Gitpod 5 年前服务程序员、3 年前转型 Ona 服务 AI、今天被 OpenAI 收编这个完整弧线说清楚，再展开「云上有 AI 工位」对软件行业意味着什么。",
       "data_points": [
-        "Cursor 3 4/2 上线 codename Glass",
-        "8 个并行 Agent 通过 Git worktrees",
-        "Anysphere $3B 累计融资 估值 $29.3B",
-        "$2B ARR 三个月翻倍",
-        "Cursor 占 Fortune 500 64%",
-        "Claude Code Menlo 数据 54% 市场份额",
-        "Composer 2 fork Kimi 2.5 风波",
-        "用户两天烧 $2000",
-        "GitHub Copilot 6 月转 token billing",
-        "Warp 5 月开源 + OpenAI 投资"
+        "Codex 周活已超 500 万，今年涨 400%",
+        "Ona 自家工程团队，AI Agent co-author 60% 的合并 PR，贡献 72% 代码行",
+        "客户反馈：开发吞吐量涨 4 倍",
+        "Codex 用户结构：1/5 已经是非程序员的知识工作者，且涌入速度是开发者的 3 倍多",
+        "Ona 前身：Gitpod，德国基尔创立，云端开发环境创业公司",
+        "2025 年 9 月 Gitpod 改名 Ona，转型 AI Agent 安全执行",
+        "Anthropic 同期也收购了 Bun（JavaScript 运行时）+ Stainless（3 亿美元）",
+        "6/8 OpenAI 秘密递交 IPO 文件，估值 8520 亿美元"
       ],
       "title_options": [
-        "Cursor 3 + Warp 开源 + Copilot 转计费：编程 Agent 大战 72 小时完整复盘",
-        "8 个 AI 同时给你写代码：Cursor 3 上线那一周，硅谷程序员的钱包先哭了",
-        "Coding Agent 大爆发：Cursor 估值飙到 293 亿，但有人两天烧了 2000 美元"
+        "OpenAI 突然收购 Ona：500 万 Codex 用户从此「永不下线」！",
+        "Codex 的最后一块拼图：当 AI Agent 有了自己的「工位」，软件公司还需要这么多人吗？",
+        "为什么 OpenAI 急着在 IPO 前买下一家德国小公司：Agent 时代的暗线已经浮现！"
       ],
-      "compliance_hint": "纯产品赛道，无敏感；客观对比即可，不踩个股推荐",
-      "originality_hints": {
-        "personal_voice": "可插入「我亲自试 Cursor 3」实测体验",
-        "boring_stack": "不写「这意味着」三段论，不写「对程序员、对产品经理、对老板意味着什么」",
-        "anti_cta": "结尾不用「留个问题给你...评论区聊聊」，可以用「写代码这件事，未来可能不再是写」",
-        "structure_idea": "推荐用 FAQ 式骨架（Q: Cursor 3 干了啥？Q: 跟 Claude Code 哪不同？...）打破常规线性叙事"
-      },
+      "compliance_hint": "正常写收购和产品演进，不涉及政治。不要写到 OpenAI 估值时使用「最大 IPO」「最贵公司」等极端化措辞，平淡陈述。",
+      "originality_hints": [
+        "Gitpod -> Ona -> OpenAI 这个时间线本身就是「为 AI Agent 准备工位」的完整故事，没人这么讲过",
+        "类比：以前云厂商赚的是「人买虚拟机」的钱，未来云厂商赚的是「AI Agent 租虚拟机」的钱——计费模式都要改",
+        "Codex 用户结构从程序员扩展到知识工作者这个数据，比单纯收购信息更有产业含义",
+        "Anthropic 同期也在补类似拼图（Bun + Stainless）—— 两家公司同时在补「AI Agent 基础设施」，说明这是行业共识",
+        "「关掉笔记本，Agent 在云上继续干活」对 SaaS 行业的潜在颠覆"
+      ],
       "sources": [
-        "https://www.aitrove.ai/blog/cursor-agent-engine-autonomous-coding-2026",
-        "https://www.programming-helper.com/tech/ai-coding-agents-2026-cursor-claude-copilot-enterprise-comparison",
-        "https://tensoria.fr/en/tools/cursor-ide-coding-agent",
-        "https://mostpopularaitools.com/ai-news/cursor-3-launches-ai-agents-to-automate-coding-tasks"
+        {
+          "title": "OpenAI 突然收购！500万人 Codex，永不下线",
+          "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-iniccnft3505156.shtml",
+          "publisher": "新浪财经/新智元",
+          "published": "2026-06-12"
+        },
+        {
+          "title": "Anthropic 花 3 亿美元买下 Stainless",
+          "url": "https://www.sohu.com/a/1024678940_122759931",
+          "publisher": "搜狐",
+          "published": "2026-05-19"
+        }
       ]
     },
     {
       "rank": 3,
-      "id": "C4",
-      "score": 79,
-      "topic": "宇树 73 天闪电 IPO 过会：33 岁王兴兴和他从机器狗到人形万亿赛道的 4 年",
-      "slug_hint": "yushu-ipo-wangxingxing",
-      "category": "人物/IPO/具身智能",
-      "urgency": "high",
-      "why": "6/1 科创板过会 + 联想入股 + H2 Plus 下半年发布 + 王兴兴 33 岁个人 IP",
-      "recommended_format": "人物开场 + 时间线 + 产业坐标 + IPO 数据",
-      "angle": "33 岁王兴兴的 4 年逆袭，从一台研究生时期的四足机器狗，到今天上交所认可的「人形机器人第一股」",
+      "id": "ai-2026-06-15-doubao-task-mode",
+      "score": 8.5,
+      "topic": "今天 6/15 豆包正式推出「任务模式」：3.45 亿月活的 AI 聊天助手第一次长出「腿」",
+      "slug_hint": "doubao-task-mode-launch",
+      "category": "产品/字节/智能体",
+      "urgency": "2026 年 6 月 15 日（今天）正式上线，搜狐独家报道",
+      "why": "字节的豆包是中国月活最高的 AI 原生应用（3.45 亿 MAU），它今天正式从「问答工具」变成「能自主完成任务的 Agent」（多轮搜索 + 深度推理 + 浏览器自动化）。这是中国 AI 应用阵营对 Codex / Claude Code / Cursor 等海外 Agent 产品的正面回应，时间点又恰好在豆包月底 6 月下旬付费订阅上线前。",
+      "recommended_format": "产品发布会式 + 实测体验 + 产业坐标。开头从「打开豆包，你看到的不再是一个对话框，是一个有 To-Do list 的工位」切入",
+      "angle": "不写「字节又升级了」的科技稿叙事，而是讲「为什么是今天发布」+「这个功能背后字节的商业算盘」。配合下旬付费订阅上线，「任务模式」是字节给用户的「值得付费」的理由。横向对比海外（Codex、Claude Code），看中国 AI 应用走的是另一条路：不是程序员工具，而是普通人的「数字小白领」。",
       "data_points": [
-        "6/1 宇树科创板过会",
-        "73 天闪电过会",
-        "联想入股",
-        "王兴兴身价或达 140 亿",
-        "上交所官方认证「人形机器人第一股」",
-        "H1 单款破 1.1 万台 全球 H1 出货量第一",
-        "四足机型 累计 3.3 万台",
-        "下半年 H2 Plus 上市",
-        "2025 上半年人形 5500 台",
-        "招股书 投入 20 亿做大脑/小脑",
-        "智元试图通过收购上纬新材抢「第一股」名号但未被认可"
+        "2026-06-15 豆包正式推出「任务模式」（Task Mode）",
+        "三大核心能力：多轮搜索、深度推理、浏览器自动化",
+        "豆包月活 3.45 亿（QuestMobile 2026 Q1）",
+        "豆包模型日均 Token 使用 50 万亿，同比涨 10 倍",
+        "累计 Token 使用超万亿的企业客户超 100 家",
+        "豆包 6 月下旬上线付费订阅，4 档（免费 / 68元月 / 200元月 / 500元月）",
+        "对照：海外 Codex 周活 500 万，相比豆包小数量级",
+        "字节 2026 年初已上线扣子 2.0 + Agent Skills"
       ],
       "title_options": [
-        "宇树 73 天闪电过会：33 岁王兴兴和他的人形机器人帝国如何一年从 0 到 140 亿",
-        "上交所官方盖章「人形机器人第一股」：宇树的 4 年，是中国制造的另一种叙事",
-        "王兴兴的逆袭：从研究生宿舍机器狗到 140 亿身价，今天上交所给了一个章"
+        "豆包今天上线「任务模式」：3.45 亿月活 AI 助手第一次长出腿！",
+        "字节憋了半年的大招：豆包正式从问答机器变成「会自己跑腿」的数字小白领！",
+        "海外 Codex 主打程序员，豆包主打普通人：中国 AI Agent 走出另一条产品路线！"
       ],
-      "compliance_hint": "宇树为 IPO 主体可写过会事实；严禁推荐买入/分析股价/「概念股清单」/「龙头标的」；可以写王兴兴个人故事和产业坐标，但不写未来涨幅预期",
-      "originality_hints": {
-        "personal_voice": "可插入「我看王兴兴 4 年前的本科论文 vs 今天招股书」类历史拉对",
-        "anti_template": "禁用「对宇树、对智元、对行业意味着什么」三段论",
-        "structure_idea": "推荐用人物特写骨架（背景 → 关键决策 → 现在），不要事件 → 影响 → 展望传统线",
-        "history_parallel": "可类比马斯克 SpaceX 早期、雷军小米创业期",
-        "structure_tag": "person_centric"
-      },
+      "compliance_hint": "纯产品发布报道，不涉及任何敏感话题。注意：写商业话题（付费、Token 价格）正常陈述即可，不要用「割韭菜」「圈钱」等。",
+      "originality_hints": [
+        "实测对比 vs Codex / Cursor / Claude Code：豆包不是给程序员的工具，是给普通用户的「自动办事工人」",
+        "「任务模式」推出时间 = 付费订阅前 10 天，这不是巧合",
+        "豆包模型日均 50 万亿 Token，相比 Codex 周活 500 万，量级完全不同（注：但 Token 数 ≠ 用户数）",
+        "中国 AI 应用的「普通人导向」与海外「程序员/企业导向」的产品哲学差异",
+        "可写第一人称体验：「我让豆包帮我做了一件复杂的事情，发生了什么」"
+      ],
       "sources": [
-        "https://finance.sina.com.cn/wm/2026-06-02/doc-inhzynrt4623477.shtml",
-        "https://finance.sina.com.cn/wm/2026-06-11/doc-inicavkc0449764.shtml",
-        "https://www.sohu.com/a/1032645256_122541822"
+        {
+          "title": "字节跳动豆包 AI 助手重磅升级「任务模式」",
+          "url": "https://www.sohu.com/a/1036945384_122396381",
+          "publisher": "搜狐/AIbase",
+          "published": "2026-06-15"
+        },
+        {
+          "title": "字节豆包计划 6 月下旬正式上线付费订阅",
+          "url": "https://news.qq.com/rain/a/20260602A042BZ00",
+          "publisher": "腾讯网/币界网",
+          "published": "2026-06-02"
+        }
       ]
     },
     {
       "rank": 4,
-      "id": "C6",
-      "score": 76,
-      "topic": "智元/宇树/智身相继破万台：北京/上海/杭州城市禀赋背后的产业地理学",
-      "slug_hint": "humanoid-three-cities-paths",
-      "category": "产业/城市/独家观察",
-      "urgency": "medium-high",
-      "why": "三家相继宣布破万 + 三种路线分化 + 城市经济地理视角少有人写",
-      "recommended_format": "事件开场 + 三城三路线对比 + 短板/优势分析",
-      "angle": "人形机器人产业不是公司战争，是城市禀赋的较量 - 上海拼资本、杭州拼生态、北京拼科研",
+      "id": "ai-2026-06-15-circular-deals-2trillion",
+      "score": 8.3,
+      "topic": "「2 万亿循环订单」：揭秘 AI 大模型和云厂商之间的怪异资金游戏",
+      "slug_hint": "ai-cloud-circular-2-trillion-deals",
+      "category": "资本/AI 经济学/产业链",
+      "urgency": "Anthropic IPO（6/1）+ OpenAI IPO（6/8）+ SpaceX IPO（6 月）三家同期密集触发资本市场关注",
+      "why": "这是个被很多人提到、但很少有人讲清楚的现象——Amazon 给 Anthropic 投 130 亿美元，Anthropic 再用这钱回去买 Amazon 的算力；同理 Google 投 Anthropic + Anthropic 承诺 5 年花 2000 亿美元用 Google TPU。Microsoft + OpenAI、Nvidia + OpenAI 都是类似游戏。整个 AI 产业链有「2 万亿美元的循环订单」。这种结构是健康的还是泡沫？",
+      "recommended_format": "数字震撼开头 + 产业链拆解 + 历史类比 + 风险分析。从「Anthropic 5 年要付 Google 2000 亿美元」这个具体数字开场，再往外扩",
+      "angle": "不写「AI 公司估值都是泡沫」这种简单结论，而是冷静拆解：循环订单背后的「商业 vs 财务」二重逻辑。商业上是合理的（云厂商有压舱石客户、AI 公司有锁定算力），财务上是危险的（账面收入互喂、估值依赖循环）。类比 dot-com 时代电信设备和电信公司之间的循环、最近的能源/数据中心循环。",
       "data_points": [
-        "智元（上海）/宇树（杭州）/智身（北京）三家破万台",
-        "智元依托上海资本+精密制造路线",
-        "宇树扎根杭州滨江物联网小镇 + 海康/阿里云生态",
-        "智身大兴+清华+应急/电网订单",
-        "宇树 H1 1.1 万 + 四足 3.3 万",
-        "智身铜锤 M1 一年破万 月产值破亿",
-        "通用人形/AI 生态/特种装备三种路线",
-        "上海订单流向高校实验室占多数",
-        "智元 6+1 模式 6 家子公司",
-        "宇树坚持单体集中"
+        "Anthropic 5 年承诺花 2000 亿美元在 Google Cloud（TPU + 云服务）",
+        "Amazon 给 Anthropic 投资 130 亿美元（已经追加到这个量级）",
+        "Google 给 Anthropic 投资 40 亿美元，未来计划追加",
+        "Microsoft 给 OpenAI 投了约 137 亿美元",
+        "Anthropic + OpenAI 一起，占了 AWS/Google Cloud/Azure 共 2 万亿美元 backlog 的 50% 以上",
+        "Nvidia 给 OpenAI 投资 + OpenAI 买 Nvidia 芯片",
+        "OpenAI 2026 年内部预测亏损 140 亿美元",
+        "Anthropic Q2 2026 营收预估 109 亿美元，同比涨 130%",
+        "三家 IPO 同期（Anthropic 9650 亿 + OpenAI 8520 亿 + SpaceX 17700 亿 = 3.6 万亿美元）"
       ],
       "title_options": [
-        "三家破万台、三个城市、三条路：人形机器人产业地理学",
-        "为什么人形机器人 KO 战发生在北京/上海/杭州，而不是深圳？",
-        "上海拼资本，杭州拼生态，北京拼科研：万台俱乐部背后的城市禀赋"
+        "2 万亿美元的循环订单：AI 公司和云厂商之间隐藏的财务魔术！",
+        "Anthropic 5 年要付 Google 2000 亿：揭秘 AI 时代最大的「投资人即客户」游戏！",
+        "OpenAI 估值 8520 亿、Anthropic 9650 亿，但他们的钱大多数都还给了云厂商！"
       ],
-      "compliance_hint": "纯产业地理观察，不点名个股，不推荐买入；可以写城市优势对比但避免「东部 vs 中西部」类敏感叙事",
-      "originality_hints": {
-        "personal_voice": "可插入「我去年访问过滨江物联网小镇」类现场体验",
-        "anti_template": "禁用「对智元、对宇树、对智身意味着什么」三段论",
-        "structure_idea": "推荐用「地理学骨架」（三城分立 → 三条路 → 一个共同问题），破常规公司维度叙事",
-        "history_parallel": "可对照美国硅谷/德州/波士顿的科技产业禀赋分化",
-        "structure_tag": "geographic"
-      },
+      "compliance_hint": "🔥重要：完全不要写「这是不是泡沫」「快崩了」「逃离」等极端化措辞。写「商业 vs 财务的二重性」「健康的循环 vs 风险的循环」客观分析。不要点名任何上市公司股票或代码（Amazon/Google/Microsoft 是品牌名，可以提；不写 AMZN/GOOG 代码）。",
+      "originality_hints": [
+        "「投资人即客户」这种企业关系结构有什么历史先例（dot-com 时代电信设备）",
+        "为什么 Anthropic 必须把钱花在 Google：算力是稀缺商品，先付钱才能锁定 TPU",
+        "Karpathy 加入 Anthropic 也是循环的一部分：Anthropic 需要更多算力支撑模型升级",
+        "数据中心和能源公司之间的循环（OpenAI Stargate）也是类似游戏的另一面",
+        "类比：以前的 SaaS 是「软件公司直接卖给客户」，现在 AI 是「AI 公司卖给客户、然后再用这钱回去买算力」"
+      ],
       "sources": [
-        "https://www.163.com/dy/article/KV3E97VL0552YKV6.html",
-        "https://finance.sina.com.cn/wm/2026-06-11/doc-inicavkc0449764.shtml",
-        "https://www.sohu.com/a/1032645256_122541822"
+        {
+          "title": "Anthropic commits to spending $200 billion on Google's cloud and chips",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-commits-spending-200-billion-204952501.html",
+          "publisher": "Reuters/Yahoo Finance",
+          "published": "2026-05-05"
+        },
+        {
+          "title": "Anthropic just locked in over $200 billion in compute with Google Cloud",
+          "url": "https://www.msn.com/en-us/news/technology/anthropic-just-locked-in-over-200-billion-in-compute-with-google-cloud-cementing-the-cloud-backbone-behind-the-most-valuable-ai-company-on-earth/ar-AA24uDN2",
+          "publisher": "MSN",
+          "published": "2026-06"
+        },
+        {
+          "title": "Alphabet's Growth Thesis Reshaped by Anthropic's Looming IPO",
+          "url": "https://nai500.com/blog/2026/06/alphabets-growth-thesis-reshaped-by-anthropics-looming-ipo-via-tpu-supply-and-equity-stakes/",
+          "publisher": "NAI 500",
+          "published": "2026-06-04"
+        }
       ]
     },
     {
       "rank": 5,
-      "id": "C7",
-      "score": 75,
-      "topic": "豆包 50 万亿 Token + 阿里 Token Foundry + 腾讯 20 个 Agent：中国 AI 大厂 6 月集体秀肌肉",
-      "slug_hint": "china-ai-giants-june-flex",
-      "category": "产业/竞争/中国大厂",
-      "urgency": "medium-high",
-      "why": "豆包 DAU 2 亿 + 50 万亿 Token + 阿里 Token Foundry 6/8 + 腾讯 6/5 + 美团 6/9 一周内集体动作",
-      "recommended_format": "全景概览 + 三家路径对比 + Token 经济解构",
-      "angle": "中国 AI 竞争从「百模大战」进入「入口之争」 - Token、Agent、入口三件套同时开火",
+      "id": "ai-2026-06-15-vibe-coding-death",
+      "score": 8.0,
+      "topic": "「Vibe Coding」一周年祭：14 个月生命周期，连发明者自己都宣判它死亡",
+      "slug_hint": "vibe-coding-death-karpathy-agentic-engineering",
+      "category": "文化/AI 哲学/产品趋势",
+      "urgency": "Forbes 6/12 发文标题就是「Is Vibe Coding Already Dead? Even Karpathy Is Moving On」",
+      "why": "Vibe coding 是 2025 年 2 月 Karpathy 发明的词，14 个月内变成全球 AI 圈通用语，今天又被本人宣判过时（推「agentic engineering」替代）。这是 AI 时代「概念演化速度」的一个标志性事件——一个词从诞生到死亡比互联网时代任何术语都快。这也是一种文化思辨视角，避免硬新闻审美疲劳。",
+      "recommended_format": "个人独白式开头 + 一个概念的死亡时间线 + 哲学反思。开头第一人称：「我第一次听到 Vibe coding 这个词是在 2025 年 3 月某个深夜...」",
+      "angle": "不写「Karpathy 又发明新词」的资讯稿，而是借这件事讨论「为什么 AI 时代的概念寿命这么短」+「一个被淘汰的词到底失去了什么」。Vibe coding 死了，但它留下的产品形态（Cursor、Replit、Lovable 等）活着。AI 行业经常发明词、然后扔词，反映的是工具迭代速度远超抽象层。Agentic engineering 这个新词可能也只活 6 个月。",
       "data_points": [
-        "豆包 DAU 2 亿 / 日均 50 万亿 Token / 同比+10x",
-        "豆包累计 Token 超万亿企业客户 100+",
-        "6/8 阿里 Token Foundry 事业部 吴泳铭挂帅",
-        "千问 App 全面接入淘宝/支付宝/飞猪/高德",
-        "6/5 腾讯发布 20+ Agent + 市值单日+3600 亿",
-        "腾讯混元 Hy3 Preview",
-        "TokenHub 算力利用率+40%",
-        "美团 Tabbit AI 浏览器 6/9 上线 永久免费",
-        "美团 AI 助手「小美」对接腾讯元宝",
-        "QuestMobile AI MAU 4.4 亿",
-        "豆包 3.45 亿 / 千问 1.66 亿 / DeepSeek 1.27 亿 MAU"
+        "Vibe coding 诞生：2025 年 2 月，Karpathy 一条推文",
+        "Vibe coding「死亡」宣判：2026 年 2 月（Karpathy 自己），生命周期约 12 个月",
+        "Forbes 文章发表：2026 年 6 月 12 日",
+        "Karpathy 提出的替代词：「agentic engineering」",
+        "Vibe coding 期间诞生的工具：Cursor、Lovable、Replit Agent、v0、Bolt、Loveable 等",
+        "Karpathy 2026 年 5 月入职 Anthropic，做预训练（不是 vibe coding！）",
+        "讽刺数据：Vibe coding 这个词最早是描述「不看代码就让 AI 写」，现在 AI agent 自己写代码、自己 debug，已经超过了 vibe 阶段"
       ],
       "title_options": [
-        "豆包 50 万亿 Token，阿里成立 Token Foundry，腾讯一口气 20 个 Agent：中国 AI 大厂 6 月底牌全亮",
-        "一周内：阿里设新事业部，腾讯股价飙 3600 亿，豆包 Token 涨 10 倍 - 中国 AI 入口战开打",
-        "Token、Agent、入口：中国 AI 大厂 6 月把所有底牌都亮了"
+        "「Vibe Coding」一周年祭：连发明者自己都给它送终了！",
+        "14 个月的词汇生命：Karpathy 创造的「Vibe Coding」如何被自己埋葬？",
+        "为什么 AI 时代的概念寿命越来越短：从「Vibe Coding」之死说起！"
       ],
-      "compliance_hint": "客观对比中国大厂动作，不写「卷死外资」/「碾压硅谷」类民族情绪；不点名个股，不推荐；不写中美对比类敏感",
-      "originality_hints": {
-        "personal_voice": "可插入「我用过豆包 vs 千问 vs 元宝」实测对比",
-        "anti_template": "⚠️ 高风险：禁用「对开发者、对企业、对普通人意味着什么」三段论 - 这个题材最容易掉进模板",
-        "anti_template_2": "禁用「第一/第二/第三个信号」穷举",
-        "anti_cta": "结尾不用「留个问题给你...评论区聊聊」",
-        "structure_idea": "推荐用「数据视角」骨架（一周三个数据 → Token Foundry 是什么 → 中国 AI 真正的护城河），避开 1-2-3 三段论",
-        "structure_tag": "data_driven"
-      },
+      "compliance_hint": "纯文化思辨稿件，完全不触红线。注意：避免给任何工具/公司贴负面标签，保持文化讨论的中立性。",
+      "originality_hints": [
+        "Vibe coding 名字的「直觉性 + 反智」是它流行的原因，也是它过时的原因",
+        "一个词从诞生到死亡 14 个月，这个速度在中文互联网时代要慢得多（「O2O」用了 7 年才退役）",
+        "可以引用的「概念寿命」对比：dot-com、Web 2.0、Big Data、Mobile First、Cloud Native ... 这些词都活了 5-10 年",
+        "Karpathy 跳槽 Anthropic 这件事和「埋葬 vibe coding」的逻辑关联：他不需要再做这种「面向大众」的概念输出了，回归技术深耕",
+        "可以预言：Agentic engineering 也很可能 6-12 个月就被新词替代",
+        "第一人称：「我作为一个用过 Vibe coding 工作流的人，发现自己工作方式确实变了」"
+      ],
       "sources": [
-        "https://www.sohu.com/a/1034805249_122585292",
-        "https://www.sohu.com/a/1032541805_121885030",
-        "https://www.sohu.com/a/1029627354_121850782",
-        "https://news.qq.com/rain/a/20260604A03GTH00",
-        "https://finance.sina.com.cn/stock/t/2026-06-10/doc-iniawxzv4532232.shtml"
-      ],
-      "originality_warning": true,
-      "warning_reason": "话题最容易写成「对各方意味着什么」三段论 / 一周三件事穷举骨架 - 写作时要主动避开",
-      "anti_template_required": true
+        {
+          "title": "Is Vibe Coding Already Dead? Even Karpathy Is Moving On",
+          "url": "https://www.forbes.com/sites/jodiecook/2026/06/12/is-vibe-coding-already-dead-even-karpathy-is-moving-on/",
+          "publisher": "Forbes",
+          "published": "2026-06-12"
+        },
+        {
+          "title": "Andrej Karpathy's move to Anthropic is a major win",
+          "url": "https://www.aol.com/articles/anthropic-just-scored-major-ai-152617000.html",
+          "publisher": "Business Insider/AOL",
+          "published": "2026-05-19"
+        }
+      ]
     }
   ],
   "backup_picks": [
     {
-      "id": "C5",
-      "score": 80,
-      "topic": "智元 vs 宇树 6+1 vs 单体路线 X-Y-Z 曲线对决",
-      "skip_reason": "和 #3 宇树 IPO + #4 三城万台俱乐部题材重叠，避免一天三个机器人选题"
+      "title": "Tesla 50000 台 Optimus vs 宇树 16000 美元：人形机器人即将进入「成本死亡螺旋」",
+      "category": "具身智能",
+      "rationale": "和 06-14 宇树 IPO 选题主题接近，但角度从「公司」变成「价格」。备选。"
     },
     {
-      "id": "C2",
-      "score": 79,
-      "topic": "OpenAI vs Anthropic 估值倒挂 - 研究员 vs 销售员",
-      "skip_reason": "和 #1 人才迁徙主题强重叠，可以并入 #1 写"
+      "title": "Apple + Google 走消费 AI，OpenAI + Anthropic 走企业 AI：AI 产业的「两个时区」",
+      "category": "产业战略",
+      "rationale": "CNBC 6/11 主题，分析角度好但偏宏观。备选。"
     },
     {
-      "id": "C8",
-      "score": 75,
-      "topic": "Cursor 烧钱反思 + Composer 2 抄 Kimi",
-      "skip_reason": "和 #2 同主题，已并入 #2"
-    },
-    {
-      "id": "C9",
-      "score": 74,
-      "topic": "Anthropic 文化护城河 + 7 名员工成亿万富翁",
-      "skip_reason": "和 #1 同主题"
-    },
-    {
-      "id": "C11",
-      "score": 71,
-      "topic": "美团 Tabbit AI 浏览器永久免费",
-      "skip_reason": "已并入 #5 中国 AI 大厂全景"
-    },
-    {
-      "id": "C12",
-      "score": 70,
-      "topic": "Apple Intelligence 下一代 + Siri 接 Gemini",
-      "skip_reason": "06-11 已发库克谢幕选题，重叠"
+      "title": "Gemini 3.5 Pro 即将发布：Google 在 I/O 之后还能怎样追赶？",
+      "category": "产品发布",
+      "rationale": "06-14 已经有 Qwen 3.7 Plus，再加 Gemini 3.5 Pro 似乎类型重复。备选。"
     }
   ],
-  "title_strategy_check": {
-    "rule": "5 篇标题风格不同，避免同一周「品牌+冒号+数字!」模板 ≥3 次",
-    "actual": [
-      "#1: 现象+人物+巴士底狱比喻（叙事开头）",
-      "#2: 三产品并列+全复盘（产品对决）",
-      "#3: 数字+人物特写+逆袭（人物驱动）",
-      "#4: 三城+地理学（学术观察）",
-      "#5: 数字+全景秀肌肉（数据驱动）"
-    ],
-    "diversity": "5 种风格全都不同，符合反 AIGC 多样性要求"
-  },
-  "structure_diversity_check": {
-    "rule": "5 篇骨架不能 ≥3 篇相同",
-    "structure_tags": [
-      "#1: timeline_human_story (人才迁徙时间线)",
-      "#2: faq_product_review (FAQ 式产品复盘)",
-      "#3: person_centric_biography (人物特写)",
-      "#4: geographic_economic (城市经济地理)",
-      "#5: data_driven_observation (数据观察)"
-    ],
-    "diversity": "5 种骨架完全不同，符合反 AIGC 跨篇模板红线"
-  },
-  "compliance_summary": {
-    "no_political_red_lines": true,
-    "no_individual_stock_recommendations": true,
-    "no_china_us_political_conflict": true,
-    "no_emotional_layoff_narrative": true,
-    "originality_warning_count": 1,
-    "warned_articles": ["#5 (C7)"]
-  },
-  "next_step": "5 个选题已选定，按 rank 顺序进入 wechat-article-workflow 的 Stage 1 撰写阶段；Stage 0 topic-loader 会读取本 selected.json"
+  "total_selected": 5,
+  "next_step": "调用 Stage 1（writer）按 rank 顺序生成 5 篇 first-pass 文章草稿"
 }

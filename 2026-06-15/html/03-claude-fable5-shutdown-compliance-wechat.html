@@ -1,0 +1,58 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 开篇区块 -->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:12px; padding:28px 20px; margin:1em 0; text-align:center;">
+  <p style="font-size:15px; color:rgba(255,255,255,0.6); margin:0 0 12px 0; letter-spacing:2px;">AI 产业 | 合规危机</p>
+  <p style="font-size:26px; color:#fff; margin:0 0 16px 0; font-weight:bold; line-height:1.4;">90 分钟下线 9650 亿 AI 公司<br>一封信关停旗舰模型</p>
+  <p style="font-size:14px; color:rgba(255,255,255,0.5); margin:0;">Claude Fable 5 从 launch 到 shutdown 只用了 72 小时</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">美东时间 6 月 12 日下午 5:21，Andrej Karpathy 发现自己登不上 Claude Fable 5。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">他写了一条简短的推文：「我自己的公司不让我用模型了。」配图是一个 403 错误页面。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">按规则，Karpathy 持有 EB-1 绿卡，是「US person」，他本来不在那封信的射程之内。但 Anthropic 的工程团队没办法在 90 分钟里做精细化的用户筛查，最简单的合规方式就是——把整个 Claude Fable 5 和 Mythos 5 的访问权限一刀切关掉，全球下线。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">事后看，这条推文是整件事的「皇帝的新衣」时刻：一家估值 9650 亿美元、即将 IPO 的 AI 公司，连自己的明星研究员都被自己锁在了门外。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">倒推 72 小时：从 launch 到 shutdown</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">时间线是这样的：</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">6 月 9 日（周一）</strong>，Anthropic 正式发布 Claude Fable 5 和 Mythos 5。这是他们旗舰系列里的两个新成员，Fable 5 面向消费者，Mythos 5 是企业级的 Project Glasswing 部分。发布当天 Hyperliquid 上 Anthropic 的 pre-IPO futures 直接拉了 6%。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">6 月 13 日（周五）早晨</strong>，Anthropic 法务接到了 Commerce Secretary Howard Lutnick 办公室发来的一封信。信的核心内容是关于这两个模型的合规问题，要求 90 分钟内必须执行。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">6 月 12 日下午 5:21（美东）</strong>——等等，时间线在这里需要重排。准确的顺序是：周五信件先到，公司内部紧急动员一整天，到当天傍晚 5:21 完成全球流量切断。从信到执行，前后大约 9 小时；但合规窗口本身只有 90 分钟。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">未受影响的</strong>：Claude Opus 4.8、Claude Sonnet 4.5 以及更早期的版本仍在线。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这个细节值得停下来想 30 秒。监管选择的目标，不是 Anthropic「最强」的那个模型，而是「最新的、还没充分对外测试」的那个。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Karpathy 被锁的工程含义</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多人把 Karpathy 这条推文当段子来看。但我想说的是：<strong style="color:#e74c3c;">90 分钟全球切流量这件事本身，就是一个工程奇迹兼工程灾难</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">奇迹的部分是：Anthropic 的基础设施能在不到 100 分钟里识别两个特定模型的全部入口（API、claude.ai、企业 SDK、partner 集成、Bedrock、Vertex AI），并把它们整体下架，不影响其他模型。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">灾难的部分是：他们没有「按用户身份精细放行」的能力。也就是说，工程上没有现成的开关让 US person 继续用、non-US person 停用。整建制下架是唯一在 90 分钟里能完成的动作。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Karpathy 被自家系统锁外，证明的不是「他不重要」，而是「Anthropic 当前的合规工具箱里只有大锤，没有镊子」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">按这条逻辑推下去——所有正在 IPO 路上的 AI 公司，未来一年都要补一项基础设施：<strong style="color:#e74c3c;">按用户司法管辖区精细切流量的能力</strong>。这是一笔实打实的工程预算，也是合规账本上一项新的固定成本。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">亚马逊那 130 亿的尴尬</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">最有戏剧性的不是 Karpathy，是 Andy Jassy。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">亚马逊是 Anthropic 历史上最大的单一投资人，累计投入约 130 亿美元，深度绑定 AWS Bedrock，把 Claude 当作自家云的旗舰对外能力。结果这次，根据多方报道，是 Jassy 本人将相关情况上报到了财政部门口。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">投资人亲手向监管举报被投企业，这在 AI 圈里没有先例。</blockquote>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">但这件事的逻辑其实很冷静：亚马逊作为受美国法律强约束的上市公司，比 Anthropic 这个未上市初创承担更明确的合规责任。</blockquote>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">如果亚马逊知情而不报，受罚的是亚马逊；先报，反倒是把风险转移回被投企业。</blockquote>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">这是一种新型的 corporate governance 张力——在传统 VC 时代，投资人和被投企业利益基本一致；在 AI 时代，两者可能在合规这个维度上利益结构性对立。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">按这条线再推下去，未来 AI 公司在融资条款里大概会出现一种新的对赌：<strong style="color:#e74c3c;">「监管事件触发时，投资人的告知义务和保护义务如何分摊」</strong>。这种条款现在还没有标准模板，但 6 月之后估计会很快出现。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Anthropic 的反驳很重要</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">事件爆发后，Anthropic 的官方回应里有一句被很多人忽略的话：「这不是 jailbreak，只是 previously known minor vulnerabilities。」</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话翻译过来是：监管认定的「合规问题」，在 Anthropic 自己的安全列表里，是「已知的小漏洞」级别。两套评级体系出现了显著错位。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">错位本身不是新闻，新闻是：错位的代价是 9650 亿估值的公司在 72 小时内必须执行整体下架。也就是说，<strong style="color:#e74c3c;">当监管的判定标准和企业的内部判定标准不一致时，企业没有任何谈判空间</strong>。这跟传统行业（金融、医药、能源）的合规博弈逻辑完全不同。那些行业里，企业往往可以通过整改、申诉、过渡期换取时间，AI 行业目前没有这套缓冲机制。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Hyperliquid 上 Anthropic pre-IPO futures 在事件曝光后下跌了 3%。如果按 9650 亿估值线性折算，相当于 290 亿美元的市值在 72 小时内蒸发掉。投资人用脚投出来的「合规折扣」，第一次有了具体的价签。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">IPO 前夜，估值表里要新加一栏</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">我盘了一圈这件事的余波，最有杀伤力的不是 Anthropic 这一家公司的损失，而是它给整个未上市 AI 行业立的一个先例。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">在此之前，AI 公司估值模型大致是：ARR × 增速倍数 × 技术护城河系数。「监管不确定性」这一项，要么不在表里，要么作为脚注。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Claude Fable 5 事件之后，估值模型大概率要新加一栏，姑且叫它「合规折扣」。它的具体含义包括：</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">模型能在多短时间内被监管要求停止服务？停下来后多大比例的 ARR 会消失？公司是否有按司法管辖区精细切流量的工程能力？投资人和被投企业在合规事件下的利益是否仍然一致？</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">按这套新框架算，那些「全球都跑同一套 weights、不分 region 不分用户身份」的 AI 公司，估值要被打掉一截；那些「天生 multi-region、按用户身份精细控制」的公司，比如部分企业 SaaS 出身的玩家，反而会受益。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事让我想起 2018 年 GDPR 落地前后的那一波。当时也是一些大公司被迫在数月内重写整个数据架构，估值短期承压；但 12 个月之后回头看，能活下来的公司护城河反而更深，因为「合规能力」本身成了壁垒。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">AI 行业现在大概就在 2018 年那个节点。Claude Fable 5 是第一封信，不会是最后一封。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">下次某家 AI 公司发布新旗舰模型，所有人会下意识问的第一个问题不再是「跑分多少、上下文多长」，而是——「90 分钟之内，它能不能被关掉？」</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这才是这件事真正改变的东西。</p>
+
+<p style="text-align:center; color:#999; font-size:14px; margin:2em 0; letter-spacing:4px;">— END —</p>
+
+<section style="background:#f5f5f5; border-radius:8px; padding:18px 20px; margin:1.5em 0; font-size:15px; color:#666; line-height:1.8;">
+  <p style="margin:0 0 8px 0;"><strong>📢 互动一下</strong></p>
+  <p style="margin:0;">你怎么看这个趋势？评论区聊聊。</p>
+</section>
+
+</section>
