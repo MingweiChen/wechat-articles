@@ -1,0 +1,334 @@
+{
+  "date": "2026-06-14",
+  "window": "6/13-6/14 UTC + 6/8-6/14 行业素材沉淀",
+  "main_axis": "AI 人才大迁徙 + 中国 Agent 战 + 具身万台俱乐部 + Coding Agent 大爆发",
+  "candidates_count": 12,
+  "scoring_dimensions": "时效性25% + 话题性25% + 人物性20% + 实用性15% + 独家性15%",
+  "pass_threshold": 70,
+  "candidates": [
+    {
+      "id": "C1",
+      "topic": "OpenAI 芯片 2 号员工跳槽 Anthropic + Karpathy 同周入职：硅谷人才大迁徙坐标重置",
+      "category": "人才/产业",
+      "urgency": "high",
+      "scores": {
+        "时效性": 22,
+        "话题性": 24,
+        "人物性": 19,
+        "实用性": 11,
+        "独家性": 14
+      },
+      "total": 90,
+      "key_facts": [
+        "Clive Chan 2026/6/7 公告离开 OpenAI",
+        "OpenAI 自研芯片二号员工",
+        "前 Google/SpaceX/Tesla/OpenAI 履历",
+        "本周已开始在 Anthropic 工作",
+        "Karpathy 上月（5/20）已入职 Anthropic 预训练团队",
+        "OpenAI 2 年内 8+ 高管离职",
+        "Anthropic vs OpenAI 80% vs 67% 留存率",
+        "工程师跳 Anthropic 的几率是反向的 8 倍"
+      ],
+      "angle": "硅谷正在上演 AI 版「攻占巴士底狱」——OpenAI 不再是研究者第一选项",
+      "selling_point": "Karpathy + Chan 双线移动+人才报告硬数据，故事性极强；不踩政治红线",
+      "compliance": "外国公司间人才流动，无中美红线",
+      "originality_warning": false
+    },
+    {
+      "id": "C2",
+      "topic": "OpenAI 估值 $300B vs Anthropic 估值 $965B 倒挂：研究员 vs 销售员两条命运线",
+      "category": "财经/产业",
+      "urgency": "high",
+      "scores": {
+        "时效性": 21,
+        "话题性": 22,
+        "人物性": 14,
+        "实用性": 10,
+        "独家性": 12
+      },
+      "total": 79,
+      "key_facts": [
+        "Anthropic 估值 ~$965B/$900B（5 月在谈）",
+        "OpenAI 估值 ~$852B/$300B 不同口径",
+        "OpenAI 招聘转向企业销售/客户成功",
+        "Anthropic 95% 'recommend to friend' Glassdoor 评分",
+        "Anthropic 一年内 7 个员工成为亿万富翁",
+        "29 家新独角兽 / 18 家 OpenAI 系创业公司"
+      ],
+      "angle": "两个公司同样万亿身价，但骨子里走两条人格分裂之路",
+      "selling_point": "财经化叙事，对比清晰，避开个股推荐",
+      "compliance": "纯外国公司估值故事，无金融违规",
+      "originality_warning": false
+    },
+    {
+      "id": "C3",
+      "topic": "Cursor 3 + Warp 开源 + Claude Code：72 小时编程 Agent 大战完整复盘",
+      "category": "产品/工具",
+      "urgency": "high",
+      "scores": {
+        "时效性": 20,
+        "话题性": 22,
+        "人物性": 14,
+        "实用性": 14,
+        "独家性": 11
+      },
+      "total": 81,
+      "key_facts": [
+        "Cursor 3 4/2 上线 8 个并行 agent",
+        "估值 $29.3B 营收 $2B ARR",
+        "GitHub Copilot 6 月转 token 计费",
+        "Claude Code 占 Menlo Ventures 数据 54% 市场份额",
+        "Composer 2 抄 Kimi 2.5 风波",
+        "GPT-5.5 终端 benchmark 82.7%",
+        "用户实测一天烧 $2000",
+        "Anysphere 累计 $3B 融资"
+      ],
+      "angle": "程序员从「写代码」变成「调度多个 AI 干活」的元年",
+      "selling_point": "对程序员/产品经理实用性强，工具横评有干货",
+      "compliance": "纯产品赛道，无敏感",
+      "originality_warning": false
+    },
+    {
+      "id": "C4",
+      "topic": "宇树 IPO 73 天闪电过会 + 联想入股：人形机器人第一股冲科创板",
+      "category": "财经/产业/上市",
+      "urgency": "high",
+      "scores": {
+        "时效性": 19,
+        "话题性": 22,
+        "人物性": 16,
+        "实用性": 9,
+        "独家性": 13
+      },
+      "total": 79,
+      "key_facts": [
+        "6/1 宇树科技科创板过会",
+        "73 天闪电过会",
+        "联想入股",
+        "王兴兴身价或达 140 亿",
+        "上交所认可第一股 vs 上纬新材抢名争议",
+        "2026 上半年累计 5500 台人形",
+        "H1 单款破 1.1 万台",
+        "下半年 H2 Plus 上市"
+      ],
+      "angle": "33 岁王兴兴的 4 年逆袭",
+      "selling_point": "人物 + 资本 + 产业三层叠加，王兴兴个人故事自带流量",
+      "compliance": "宇树作为 IPO 主体可写过会事实，但严禁推荐买入/分析股价/概念股清单",
+      "originality_warning": false
+    },
+    {
+      "id": "C5",
+      "topic": "智元 vs 宇树「6+1 vs 单体」路线分裂：人形机器人两条 X-Y 曲线终极对决",
+      "category": "产业/对比",
+      "urgency": "medium-high",
+      "scores": {
+        "时效性": 18,
+        "话题性": 21,
+        "人物性": 17,
+        "实用性": 10,
+        "独家性": 14
+      },
+      "total": 80,
+      "key_facts": [
+        "智元 6+1 模式 6 家子公司",
+        "宇树坚持单体集中",
+        "智元 A3 万台下线营收破 10 亿",
+        "宇树投入 20 亿攻坚机器人大脑",
+        "智元邓泰华提 X、Y、Z 曲线",
+        "擎天租 6 轮融资估值 70 亿",
+        "智元收购上纬新材 抢「第一股」名号",
+        "宇树最终上交所官方认证第一股"
+      ],
+      "angle": "人形赛道复刻互联网平台 vs 极致单品路线 30 年战争",
+      "selling_point": "X-Y-Z 曲线视角独家，业内深度",
+      "compliance": "无敏感",
+      "originality_warning": false
+    },
+    {
+      "id": "C6",
+      "topic": "三家具身机器人破万台：智元/宇树/智身 + 北京/上海/杭州城市禀赋大决战",
+      "category": "产业/地理",
+      "urgency": "medium-high",
+      "scores": {
+        "时效性": 18,
+        "话题性": 19,
+        "人物性": 13,
+        "实用性": 12,
+        "独家性": 14
+      },
+      "total": 76,
+      "key_facts": [
+        "智元（上海）/宇树（杭州）/智身（北京）三家破万台",
+        "智元依托上海资本+精密制造",
+        "宇树扎根杭州滨江物联网小镇 + 海康/阿里云生态",
+        "智身大兴+清华+应急/电网订单",
+        "宇树 H1 1.1 万台 + 四足 3.3 万台",
+        "智身铜锤 M1 不到一年破万台 月产值破亿",
+        "三种路线: 通用人形/AI生态/特种装备"
+      ],
+      "angle": "人形机器人产业不是公司战争，是城市禀赋的较量",
+      "selling_point": "城市经济地理视角独家，避开个股反而更有深度",
+      "compliance": "纯产业地理观察",
+      "originality_warning": false
+    },
+    {
+      "id": "C7",
+      "topic": "豆包 50 万亿 Token + 阿里 Token Foundry + 腾讯一口气 20 款 Agent：大厂 6 月集体大动作",
+      "category": "产业/竞争",
+      "urgency": "medium-high",
+      "scores": {
+        "时效性": 18,
+        "话题性": 21,
+        "人物性": 14,
+        "实用性": 11,
+        "独家性": 11
+      },
+      "total": 75,
+      "key_facts": [
+        "豆包 DAU 2 亿 / 日均 50 万亿 Token / 同比+10x",
+        "6/8 阿里成立 Token Foundry 事业部 吴泳铭挂帅",
+        "6/5 腾讯发布 20+ Agent + 市值单日+3600 亿",
+        "美团 Tabbit AI 浏览器 6/9 上线",
+        "千问 App 接入淘宝/支付宝/飞猪/高德",
+        "QuestMobile AI 应用 MAU 4.4 亿，豆包 3.45 亿"
+      ],
+      "angle": "Agent 战争从「百模大战」进入「入口之争」",
+      "selling_point": "中国 AI 产业全景，多家公司客观对比",
+      "compliance": "纯商业，无敏感；避免「卷死外资」类情绪",
+      "originality_warning": true,
+      "warning_reason": "容易写成「对开发者/对企业/对普通人」三段论模板"
+    },
+    {
+      "id": "C8",
+      "topic": "Cursor 3 烧钱反思：用户两天烧 2000 美元 + Composer 2 抄 Kimi 信任危机",
+      "category": "产品/批判",
+      "urgency": "medium",
+      "scores": {
+        "时效性": 17,
+        "话题性": 19,
+        "人物性": 13,
+        "实用性": 13,
+        "独家性": 13
+      },
+      "total": 75,
+      "key_facts": [
+        "Cursor Pro $20/月起",
+        "实测两天烧 $2000",
+        "Composer 2 经查为 Moonshot Kimi 2.5 fork",
+        "公司未提前披露",
+        "GitHub Copilot 6 月转 token billing",
+        "Cursor 估值 $29.3B"
+      ],
+      "angle": "AI Coding 工具的「定价泡沫」：你为 token 烧的钱可能比工资还多",
+      "selling_point": "反向视角，避免一面倒吹捧",
+      "compliance": "无敏感",
+      "originality_warning": false
+    },
+    {
+      "id": "C9",
+      "topic": "Anthropic 一年 7 名员工成亿万富翁：Claude 文化护城河如何在硅谷反攻",
+      "category": "财经/文化",
+      "urgency": "medium",
+      "scores": {
+        "时效性": 17,
+        "话题性": 19,
+        "人物性": 16,
+        "实用性": 9,
+        "独家性": 13
+      },
+      "total": 74,
+      "key_facts": [
+        "Anthropic 95% Glassdoor recommend",
+        "Karpathy/Schulman/Murati 共流向 Anthropic 系",
+        "OpenAI 转向企业销售类招聘",
+        "13 OpenAI -> Anthropic 单方向流动",
+        "OpenAI 留存率 67% vs Anthropic 80%",
+        "Anthropic 推安全文化 vs Scale 文化"
+      ],
+      "angle": "硅谷的「研究院文化复兴」",
+      "selling_point": "组织文化深度对比，少有人写",
+      "compliance": "外国公司，无敏感",
+      "originality_warning": false
+    },
+    {
+      "id": "C10",
+      "topic": "GPT-5.5 + Mythos vs Opus 4.7 + Gemini 3.1：三巨头模型战 4-6 月战报盘点",
+      "category": "技术/对比",
+      "urgency": "low-medium",
+      "scores": {
+        "时效性": 14,
+        "话题性": 18,
+        "人物性": 11,
+        "实用性": 13,
+        "独家性": 10
+      },
+      "total": 66,
+      "key_facts": [
+        "GPT-5.5 4/23 发布",
+        "GPT-5.5 Instant 5/5 默认",
+        "Terminal-Bench 2.0 GPT-5.5 82.7%",
+        "Anthropic Mythos Preview 内部领先",
+        "Opus 4.7 4 月发布",
+        "Gemini 3.1 Pro 学术 + 金融领先",
+        "GPT-5.5 Pro $30/$180 per M token"
+      ],
+      "angle": "模型 benchmark 大战升级 - 价格也在升级",
+      "selling_point": "技术读者实用",
+      "compliance": "无敏感",
+      "originality_warning": false,
+      "skip_reason": "时效性偏弱 4 月主线 已过新闻窗口"
+    },
+    {
+      "id": "C11",
+      "topic": "美团 Tabbit AI 浏览器：永久免费搅局 + 内置多模型 + Agent 任务",
+      "category": "产品",
+      "urgency": "medium",
+      "scores": {
+        "时效性": 18,
+        "话题性": 17,
+        "人物性": 12,
+        "实用性": 13,
+        "独家性": 11
+      },
+      "total": 71,
+      "key_facts": [
+        "6/9 美团 GN06 团队 Tabbit 1.0",
+        "Win/macOS 同步上架 移动端测试",
+        "标准版永久免费",
+        "1000 次模型对话/周 + 10 个 Agent 任务/周",
+        "免费使用 + 50 张 AI 图/周",
+        "刘炯负责"
+      ],
+      "angle": "美团 AI 浏览器突袭：王兴的 AI 入口野心 + 永久免费策略",
+      "selling_point": "新产品 + 王兴决策视角",
+      "compliance": "无敏感",
+      "originality_warning": false
+    },
+    {
+      "id": "C12",
+      "topic": "Apple Intelligence 下一代 + Federighi WWDC 后续：苹果 AI 路线终于扔掉自尊心",
+      "category": "产品/战略",
+      "urgency": "medium",
+      "scores": {
+        "时效性": 15,
+        "话题性": 19,
+        "人物性": 15,
+        "实用性": 11,
+        "独家性": 10
+      },
+      "total": 70,
+      "key_facts": [
+        "6/8 Apple newsroom 发布会",
+        "Craig Federighi 主讲下一代 Apple Intelligence",
+        "Siri 接入 Gemini （6/11 之前已有报道）",
+        "苹果搁置 Vision Pro 押注智能眼镜",
+        "苹果新任 CEO 特纳斯调整战略"
+      ],
+      "angle": "Apple 终于承认：AI 这条路自己走不通了",
+      "selling_point": "苹果转折点 + 库克交班 + Federighi 个性",
+      "compliance": "无敏感（库克谢幕在 06-11 已写过 不重复）",
+      "originality_warning": false,
+      "skip_reason": "06-11 已发过库克谢幕选题 内容重叠"
+    }
+  ]
+}

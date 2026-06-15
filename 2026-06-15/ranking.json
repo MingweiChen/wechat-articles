@@ -1,0 +1,178 @@
+{
+  "date": "2026-06-15",
+  "run_id": "2026-06-15_044900_a8f3",
+  "generated_at": "2026-06-15T06:33:22Z",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 86,
+      "title": "三家破万台、三个城市、三条路：人形机器人产业地理学",
+      "title_slug": "三家破万台三个城市三条路人形机器人产业地理学",
+      "slug": "humanoid-three-cities-paths",
+      "category": "产业/城市/独家观察",
+      "word_count": 2001,
+      "iterations": 2,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 9
+      },
+      "originality": {
+        "has_unique_judgment": true,
+        "author_voice_strength": 9,
+        "counter_intuitive_score": 8,
+        "value_after_80pct_cut": 9,
+        "score": 9,
+        "violations": []
+      },
+      "files": [
+        "01-humanoid-three-cities-paths-bg.png",
+        "01-humanoid-three-cities-paths-cover-banner.jpg",
+        "01-humanoid-three-cities-paths-cover-square.jpg",
+        "01-humanoid-three-cities-paths-cover-wide.jpg",
+        "01-humanoid-three-cities-paths-wechat.html"
+      ]
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 84,
+      "title": "OpenAI 二号工程师跳了 Anthropic，硅谷悄悄换庄家！",
+      "title_slug": "OpenAI二号工程师跳了Anthropic硅谷悄悄换庄家",
+      "slug": "openai-anthropic-talent-exodus",
+      "category": "人物/产业/人才战",
+      "word_count": 1946,
+      "iterations": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "originality": {
+        "has_unique_judgment": true,
+        "author_voice_strength": 8,
+        "counter_intuitive_score": 7,
+        "value_after_80pct_cut": 8,
+        "score": 8,
+        "violations": []
+      },
+      "files": [
+        "02-openai-anthropic-talent-exodus-bg.png",
+        "02-openai-anthropic-talent-exodus-cover-banner.jpg",
+        "02-openai-anthropic-talent-exodus-cover-square.jpg",
+        "02-openai-anthropic-talent-exodus-cover-wide.jpg",
+        "02-openai-anthropic-talent-exodus-wechat.html"
+      ]
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 83,
+      "title": "8 个 AI 同时写代码：Cursor 3 让程序员钱包先哭了！",
+      "title_slug": "8个AI同时写代码Cursor3让程序员钱包先哭了",
+      "slug": "coding-agent-war-q2-2026",
+      "category": "产品/工具/AI 编程",
+      "word_count": 1993,
+      "iterations": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 8,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 9
+      },
+      "originality": {
+        "has_unique_judgment": true,
+        "author_voice_strength": 8,
+        "counter_intuitive_score": 7,
+        "value_after_80pct_cut": 8,
+        "score": 8,
+        "violations": []
+      },
+      "files": [
+        "03-coding-agent-war-q2-2026-bg.png",
+        "03-coding-agent-war-q2-2026-cover-banner.jpg",
+        "03-coding-agent-war-q2-2026-cover-square.jpg",
+        "03-coding-agent-war-q2-2026-cover-wide.jpg",
+        "03-coding-agent-war-q2-2026-wechat.html"
+      ]
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 82,
+      "title": "宇树 73 天闪电过会，王兴兴 33 岁拿到 140 亿身价！",
+      "title_slug": "宇树73天闪电过会王兴兴33岁拿到140亿身价",
+      "slug": "yushu-ipo-wangxingxing",
+      "category": "人物/IPO/具身智能",
+      "word_count": 1997,
+      "iterations": 1,
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "originality": {
+        "has_unique_judgment": true,
+        "author_voice_strength": 8,
+        "counter_intuitive_score": 7,
+        "value_after_80pct_cut": 8,
+        "score": 8,
+        "violations": []
+      },
+      "files": [
+        "04-yushu-ipo-wangxingxing-bg.png",
+        "04-yushu-ipo-wangxingxing-cover-banner.jpg",
+        "04-yushu-ipo-wangxingxing-cover-square.jpg",
+        "04-yushu-ipo-wangxingxing-cover-wide.jpg",
+        "04-yushu-ipo-wangxingxing-wechat.html"
+      ]
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 80,
+      "title": "豆包日均 50 万亿 Token，中国 AI 大厂入口战开打了！",
+      "title_slug": "豆包日均50万亿Token中国AI大厂入口战开打了",
+      "slug": "china-ai-giants-june-flex",
+      "category": "产业/竞争/中国大厂",
+      "word_count": 1672,
+      "iterations": 1,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "originality": {
+        "has_unique_judgment": true,
+        "author_voice_strength": 8,
+        "counter_intuitive_score": 8,
+        "value_after_80pct_cut": 8,
+        "score": 8,
+        "violations": []
+      },
+      "files": [
+        "05-china-ai-giants-june-flex-bg.png",
+        "05-china-ai-giants-june-flex-cover-banner.jpg",
+        "05-china-ai-giants-june-flex-cover-square.jpg",
+        "05-china-ai-giants-june-flex-cover-wide.jpg",
+        "05-china-ai-giants-june-flex-wechat.html"
+      ]
+    }
+  ]
+}
