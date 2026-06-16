@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-16",
+  "run_id": "2026-06-16_050115_1dce",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 89,
+      "title": "三天前还被吹爆，72小时后地表最强AI被亲妈一键关停",
+      "slug": "三天前还被吹爆72小时后地表最强AI被亲妈一键关停",
+      "dir": "anthropic-fable5-72h-shutdown",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "files": [
+        "01-三天前还被吹爆72小时后地表最强AI被亲妈一键关停-wechat.html",
+        "01-三天前还被吹爆72小时后地表最强AI被亲妈一键关停-cover-banner.jpg",
+        "01-三天前还被吹爆72小时后地表最强AI被亲妈一键关停-cover-wide.jpg",
+        "01-三天前还被吹爆72小时后地表最强AI被亲妈一键关停-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 88,
+      "title": "黄仁勋把人形机器人开源，10月发售本体交给中国公司",
+      "slug": "黄仁勋把人形机器人开源10月发售本体交给中国公司",
+      "dir": "nvidia-unitree-open-humanoid-platform",
+      "dimensions": {
+        "hook": 9,
+        "punch": 8,
+        "density": 9,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "files": [
+        "02-黄仁勋把人形机器人开源10月发售本体交给中国公司-wechat.html",
+        "02-黄仁勋把人形机器人开源10月发售本体交给中国公司-cover-banner.jpg",
+        "02-黄仁勋把人形机器人开源10月发售本体交给中国公司-cover-wide.jpg",
+        "02-黄仁勋把人形机器人开源10月发售本体交给中国公司-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 88,
+      "title": "10亿用户的ChatGPT，被自家人宣判：聊天已死",
+      "slug": "10亿用户的ChatGPT被自家人宣判聊天已死",
+      "dir": "openai-chat-is-dead-superapp",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "files": [
+        "03-10亿用户的ChatGPT被自家人宣判聊天已死-wechat.html",
+        "03-10亿用户的ChatGPT被自家人宣判聊天已死-cover-banner.jpg",
+        "03-10亿用户的ChatGPT被自家人宣判聊天已死-cover-wide.jpg",
+        "03-10亿用户的ChatGPT被自家人宣判聊天已死-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 87,
+      "title": "我们可能一直担心错了，真正失控的是一百万个普通AI",
+      "slug": "我们可能一直担心错了真正失控的是一百万个普通AI",
+      "dir": "deepmind-multi-agent-risk-warning",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 9
+      },
+      "files": [
+        "04-我们可能一直担心错了真正失控的是一百万个普通AI-wechat.html",
+        "04-我们可能一直担心错了真正失控的是一百万个普通AI-cover-banner.jpg",
+        "04-我们可能一直担心错了真正失控的是一百万个普通AI-cover-wide.jpg",
+        "04-我们可能一直担心错了真正失控的是一百万个普通AI-cover-square.jpg"
+      ]
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 82,
+      "title": "国产具身AI学会先想后做，复杂任务完成率飙升40%！",
+      "slug": "国产具身AI学会先想后做复杂任务完成率飙升40",
+      "dir": "zhiyuan-go2-embodied-action-cot",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 7,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "files": [
+        "05-国产具身AI学会先想后做复杂任务完成率飙升40-wechat.html",
+        "05-国产具身AI学会先想后做复杂任务完成率飙升40-cover-banner.jpg",
+        "05-国产具身AI学会先想后做复杂任务完成率飙升40-cover-wide.jpg",
+        "05-国产具身AI学会先想后做复杂任务完成率飙升40-cover-square.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-16",
+  "discovery_run": "2026-06-16 morning",
+  "theme": "AI 产业的成本与代价周：合规、资本、安全、具身突破",
+  "status": "pending_user_confirm",
+  "top_picks": [
+    {
+      "rank": 1,
+      "slug_hint": "anthropic-fable5-72h-shutdown",
+      "topic": "Anthropic 旗舰 Fable 5 / Mythos 5 上线 72 小时被全球关停，创顶级 AI 最短商用记录",
+      "category": "产业大事件/合规反讽",
+      "score": 95,
+      "freshness": "6/13 爆发，6/14-15 持续发酵",
+      "angle": "上线即巅峰、72 小时即被全量下线的荒诞；一家长期高喊『AI 太危险要强监管』的公司，最后被监管第一个关停自己的旗舰；封闭模型信任崩塌→『开源自救』成行业共识。",
+      "compliance_note": "🔴高敏。只写产业反讽+商业逻辑+开源叙事。绝不点名某国政府/某总统/白宫/出口管制制度，不评判中美。把『出口管制』包装成『监管不确定性/合规风险』。",
+      "title_options": ["上线72小时，全球最强AI被自己亲手关掉了", "求仁得仁：那个天天喊AI危险的公司，旗舰模型被关停了"]
+    },
+    {
+      "rank": 2,
+      "slug_hint": "zhiyuan-go2-embodied-action-cot",
+      "topic": "智源 GO-2 具身大模型发布，首创『动作思维链』达全球 SOTA，国产具身智能领跑",
+      "category": "技术突破/国产崛起",
+      "score": 90,
+      "freshness": "6/14 发布",
+      "angle": "从『视觉-语言-动作』直接执行，升级到『先推理动作序列再执行』；复杂任务完成率+40%；国产具身底层方法论首次全球领跑。",
+      "compliance_note": "🟢安全。纯技术+产业正能量。",
+      "title_options": ["机器人开始『先想后做』：国产具身AI干了件全球第一的事", "动作思维链：让机器人学会三思而后行"]
+    },
+    {
+      "rank": 3,
+      "slug_hint": "nvidia-unitree-open-humanoid-platform",
+      "topic": "英伟达 × 宇树开源人形机器人平台，宇树科创板过会，『芯片+本体』深度绑定",
+      "category": "巨头联动/机器人产业",
+      "score": 86,
+      "freshness": "6/14-15（宇树 6/15 IPO 审核）",
+      "angle": "英伟达把 Isaac GR00T 平台开源给高校，选了中国宇树而非特斯拉做硬件；CUDA 式生态野心复制到机器人；具身智能从巨头专属走向每个实验室。",
+      "compliance_note": "🟡注意。可提宇树/英伟达品牌名，但绝不写股票代码、不荐股、不写『A股人形机器人第一股值得关注』类暗示。只写产业生态。",
+      "title_options": ["英伟达选了中国宇树，把人形机器人的『安卓时刻』带来了", "黄仁勋的下一个CUDA，藏在一台六英尺机器人里"]
+    },
+    {
+      "rank": 4,
+      "slug_hint": "openai-chat-is-dead-superapp",
+      "topic": "OpenAI 内部喊『Chat is dead』：ChatGPT 要变超级 App，Codex 整合进主入口，转身扑企业市场",
+      "category": "产品战略转向",
+      "score": 85,
+      "freshness": "6/9-11 持续发酵",
+      "angle": "做出 ChatGPT 这个划时代产品的公司，内部却说『聊天已死』；一边冲千亿 IPO 一边做史上最大改版，要把对话框变成能替你办事的 superapp；同时砍消费产品(Sora 关停)、转身扑企业市场，被 Anthropic 在企业端反超后的战略急转弯。",
+      "compliance_note": "🟢相对安全。写产品/商业战略，估值平淡陈述不要『最大IPO/最贵公司』极端措辞，不写股票。",
+      "title_options": ["做出 ChatGPT 的公司，内部宣布『聊天已死』", "Chat is dead：OpenAI 要亲手埋掉让它封神的产品"]
+    },
+    {
+      "rank": 5,
+      "slug_hint": "deepmind-multi-agent-risk-warning",
+      "topic": "DeepMind 警告：百万级智能体大规模交互可能串通、羊群、级联失控",
+      "category": "前沿思辨/安全",
+      "score": 80,
+      "freshness": "6/14 报告",
+      "angle": "当所有人忙着造更强的单体 Agent，DeepMind 提醒真正的风险在『一百万个 Agent 同时互动』——串通、羊群效应、级联崩溃。从单模型安全转向群体安全。用非常规骨架（思辨/第一人称）承担多样化。",
+      "compliance_note": "🟢安全。纯技术思辨。",
+      "title_options": ["不是单个AI失控，是一百万个AI一起失控", "DeepMind 的新担忧：当 Agent 多到像人群"]
+    }
+  ],
+  "backups": [
+    {"slug_hint": "llm-price-war-tencent-xiaomi", "topic": "国产大模型价格战白热化：腾讯云 DeepSeek 降价 97.5%、小米 MiMo 降 99%，Token 经济开打", "note": "商业/价格战角度"},
+    {"slug_hint": "openai-chat-is-dead-superapp", "topic": "OpenAI 内部喊『Chat is dead』：ChatGPT 要变超级 App，Codex 整合进主入口", "note": "产品战略转向"},
+    {"slug_hint": "ali-qwen37-plus-agent-11h-app", "topic": "阿里 Qwen3.7-Plus：11 小时自主开发一款 APP，开放第三方 Agent 接入（瑞幸/肯德基/东航首批）", "note": "Agent 落地"}
+  ]
+}
