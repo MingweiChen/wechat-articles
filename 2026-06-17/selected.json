@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T04:55:00Z",
+  "note": "5 篇最终选定。纯按热度排,维度只是参考非配额。已与过去一周(06-10~06-16)文章查重,重复度高的剔除:英伟达×宇树机器人(06-16 同题)剔除、人形价格战(机器人主题写透)剔除。#3 开源前十保留但角度换成『榜单实测』规避与上周中国开源/价格战重复。合规(政治绝对红线)留撰写阶段把关;财经叙事可探讨但不落到个股推荐。",
+  "dedup_basis": "过去一周已写主题:机器人/宇树(06-14,06-16)、SpaceX(06-12)、Cursor/编程Agent(06-14,06-15)、中国开源/价格战(06-13,06-16)、国内智驾(06-13)、Anthropic(06-14~16)",
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "SpaceX 600 亿美元收购 Cursor:史上最大创业公司并购",
+      "category": "商业",
+      "score": 95,
+      "slug_hint": "spacex-cursor-60b",
+      "why": "刚 IPO 募 750 亿,两个交易日后掏 600 亿全股票买下 Cursor——史上最大创业并购。马斯克用公开市场股票当弹药给落后的 xAI 补编程课;火箭公司杀进编程战场的整合逻辑",
+      "recommended_format": "现场记录式(敲钟→两天后 8-K→市场反应),不用戏剧化灯光暗开头",
+      "dedup": "SpaceX/Cursor 上周碰过,但『并购』是全新事件,重复度低",
+      "sources": [
+        "https://www.forbes.com/sites/sandycarter/2026/06/16/spacex-buys-cursor-in-largest-startup-acquisition-ever-at-60-billion/",
+        "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+        "https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "59 辆 vs 600 辆:Robotaxi 的『承诺』与『现实』之间隔了多少车",
+      "category": "智能驾驶",
+      "score": 90,
+      "slug_hint": "robotaxi-59-vs-600",
+      "why": "全德州无监督 Robotaxi 车队只有 59 辆,同城对手跑近 600 辆;曾承诺『年底覆盖半个美国』。无监督自动驾驶从 demo 到规模化的鸿沟;纯视觉路线落地为何这么慢;前数据标注员视角",
+      "recommended_format": "对照数据+冷静观察,避免情绪化唱衰,落在产业规律",
+      "dedup": "上周智驾是国内 ADAS,这是美国 Robotaxi 规模化,角度不撞,重复度低",
+      "sources": [
+        "https://www.bloomberg.com/news/features/2026-06-10/tesla-robotaxi-fleet-totals-just-59-vehicles-despite-musk-promises",
+        "https://finance.yahoo.com/sectors/technology/articles/tesla-robotaxi-takes-big-step-213300685.html",
+        "https://www.electrive.com/2026/06/02/tesla-robotaxi-fleet-in-texas-reaches-only-42-vehicles/"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "开源模型前十,八个来自中国:一场没什么人预料到的反超",
+      "category": "开源世界",
+      "score": 88,
+      "slug_hint": "open-source-top10-china",
+      "why": "Artificial Analysis v4.0:开源前十里 8 个中国模型,Kimi K2.6 登顶,DeepSeek V4 Codeforces 3206 领跑所有模型(含闭源)。开源智能的结构性领先如何形成;低成本+长上下文+Apache 2.0 的组合拳;美国 hyperscaler 只剩 Gemma 独苗。聚焦榜单实测与技术指标,不写降价大战",
+      "recommended_format": "榜单复盘+作者观点,哲学思辨收尾(开源 vs 闭源的长期博弈)",
+      "dedup": "中国开源/价格战上周写过 2 次(06-13,06-16),重复度中等→角度改为『榜单实测复盘』而非价格战,规避重复",
+      "originality_warning": true,
+      "originality_hint": "榜单/数据全景型选题,writer 必须加入原创判断角度,不能只复述排名",
+      "sources": [
+        "https://officechai.com/ai/top-open-source-ai-models/",
+        "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+        "https://view.asiae.co.kr/en/article/2026042416273761798"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "游戏的 AI 拐点:从『会聊天的 NPC』到『一句话生成整个多人游戏』",
+      "category": "游戏",
+      "score": 83,
+      "slug_hint": "gaming-ai-turning-point",
+      "why": "同一周:育碧 GenAI NPC 『Teammates』进 FPS;The Sandbox 文字生成多人游戏引擎;Arkadium 拿 1500 亿次真人决策训练 AI(6/16 上线)。AI 重写游戏三层:角色(活 NPC)、生产(文字造游戏)、训练(游戏当 AI 试金石);更好玩还是更多 slop 的分岔",
+      "recommended_format": "三幕结构(角色/生产/训练),开发者+玩家双视角",
+      "dedup": "上周完全没碰游戏,重复度零,差异化最强",
+      "sources": [
+        "https://variety.com/2025/gaming/news/ubisoft-generative-ai-game-teammates-neo-npc-developers-1236588038/",
+        "https://cryptobriefing.com/sandbox-ai-game-engine-studio-launch/",
+        "https://finance.yahoo.com/technology/ai/articles/arkadium-launches-gamelab-help-ai-130000646.html"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub 趋势榜的『反 AI 垃圾』浪潮:开发者开始给 AI 立规矩",
+      "category": "开源世界",
+      "score": 80,
+      "slug_hint": "github-anti-ai-slop",
+      "why": "本月 GitHub 爆款一半在干同一件事:压缩上下文、去掉 AI 腔、给 agent 装记忆——stop-slop、taste-skill、headroom、codegraph 集体上榜。当人人都用 AI 写代码写文章,『反同质化、上下文工程』成了新刚需;这届开发者在驯化 AI",
+      "recommended_format": "趋势盘点+开发者视角观察,哲学思辨收尾",
+      "dedup": "没写过,重复度零,差异化强",
+      "originality_warning": true,
+      "originality_hint": "盘点型选题,writer 必须提炼出一个原创判断(为什么这个浪潮现在出现),不能只列项目清单",
+      "sources": [
+        "https://github.com/trending?since=monthly"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-17",
+  "total": 5,
+  "articles": [
+    {
+      "slug": "github-anti-ai-slop",
+      "score": 86,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "title": "GitHub本月爆款一半在给AI立规矩，风向彻底掉头了！",
+      "title_slug": "GitHub本月爆款一半在给AI立规矩风向彻底掉头了",
+      "rank": 1,
+      "prefix": "01"
+    },
+    {
+      "slug": "gaming-ai-turning-point",
+      "score": 84,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "title": "1500亿次真人决策被打包：游戏正从产品变成喂AI的考场！",
+      "title_slug": "1500亿次真人决策被打包游戏正从产品变成喂AI的考场",
+      "rank": 2,
+      "prefix": "02"
+    },
+    {
+      "slug": "open-source-top10-china",
+      "score": 84,
+      "dimensions": {
+        "hook": 8,
+        "punch": 7,
+        "density": 8,
+        "structure": 9,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "title": "开源智能榜前十占八席：中国军团登顶，八成创业公司默认选它！",
+      "title_slug": "开源智能榜前十占八席中国军团登顶八成创业公司默认选它",
+      "rank": 3,
+      "prefix": "03"
+    },
+    {
+      "slug": "robotaxi-59-vs-600",
+      "score": 84,
+      "dimensions": {
+        "hook": 9,
+        "punch": 7,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "title": "59辆对600辆，纯视觉Robotaxi落后了，卡住它的是数据不是决心！",
+      "title_slug": "59辆对600辆纯视觉Robotaxi落后了卡住它的是数据不是决心",
+      "rank": 4,
+      "prefix": "04"
+    },
+    {
+      "slug": "spacex-cursor-60b",
+      "score": 82,
+      "dimensions": {
+        "hook": 7,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "title": "马斯克敲钟两天后出手：SpaceX用600亿股票收购Cursor，史上最大并购！",
+      "title_slug": "马斯克敲钟两天后出手SpaceX用600亿股票收购Cursor史上最大并购",
+      "rank": 5,
+      "prefix": "05"
+    }
+  ]
+}

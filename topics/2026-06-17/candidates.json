@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T04:45:00Z",
+  "note": "多维度扩展版。选题阶段放开爆点,合规留到撰写阶段把关(政治绝对红线除外)。覆盖:商业并购/智能驾驶/人形机器人/开源模型/AI游戏。",
+  "dimensions_covered": ["商业", "智能驾驶", "人形机器人", "开源世界", "游戏", "AI硬件"],
+  "candidates": [
+    {
+      "topic": "SpaceX 600 亿美元收购 Cursor:史上最大创业公司并购",
+      "category": "商业",
+      "score": 95,
+      "hook": "刚 IPO 募 750 亿,两个交易日后掏 600 亿全股票买下 Cursor——史上最大创业并购",
+      "angle": "马斯克用公开市场股票当弹药,给落后的 xAI 补 AI 编程这一课;火箭公司杀进编程战场",
+      "sources": ["forbes.com/.../spacex-buys-cursor", "techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b", "cbsnews.com/.../spacex-cursor-60-billion"],
+      "urgency": "high"
+    },
+    {
+      "topic": "59 辆 vs 600 辆:Robotaxi 的'承诺'与'现实'之间隔了多少车",
+      "category": "智能驾驶",
+      "score": 90,
+      "hook": "Bloomberg 数据:某车企全德州 Robotaxi 车队只有 59 辆,而 Waymo 在同城跑近 600 辆;曾承诺'年底覆盖半个美国'",
+      "angle": "无监督自动驾驶从 demo 到规模化的鸿沟;为什么纯视觉路线落地这么慢;前数据标注员爆料训练真相",
+      "sources": ["bloomberg.com/.../tesla-robotaxi-fleet-totals-just-59-vehicles", "finance.yahoo.com/.../tesla-robotaxi-takes-big-step", "electrive.com/2026/06/02/tesla-robotaxi-fleet"],
+      "urgency": "high"
+    },
+    {
+      "topic": "黄仁勋的机器人新棋:美国芯片 + 中国身体,把人形机器人塞进每个实验室",
+      "category": "人形机器人",
+      "score": 89,
+      "hook": "英伟达首款机器人整机选了中国宇树:Jetson Thor 大脑 + 宇树 H2 身体 + 新加坡的手,卖给斯坦福、ETH;同期宇树冲刺 STAR 板 IPO 募 6.2 亿美元",
+      "angle": "'美国软件 + 中国硬件'的模块化分工成型;物理 AI 万亿赛道的产业链卡位;为什么这个组合可能是双赢",
+      "sources": ["cnbc.com/2026/06/01/nvidia-unitree-humanoid", "globaltimes.cn/page/202606/1362496", "aibusiness.com/robotics/nvidia-taps-unitree"],
+      "urgency": "high"
+    },
+    {
+      "topic": "5 万台 vs 1.6 万美元:人形机器人的价格战提前打响",
+      "category": "人形机器人",
+      "score": 84,
+      "hook": "一家目标 2026 年造 5 万台、单价 2-3 万美元;中国宇树 G1 直接把价格按到 1.6 万美元;摩根士丹利预测中国人形销量翻倍至 2.8 万台",
+      "angle": "机器人从'炫技 demo'走向'工厂打卡上班';价格、量产、供应链谁先跑通谁定标准",
+      "sources": ["msn.com/.../tesla-is-targeting-50000-optimus", "eweek.com/.../top-humanoid-robots-built-for-factory-work"],
+      "urgency": "medium"
+    },
+    {
+      "topic": "开源模型前十,八个来自中国:一场没什么人预料到的反超",
+      "category": "开源世界",
+      "score": 88,
+      "hook": "Artificial Analysis v4.0 榜单:开源前十里 8 个中国模型,Kimi K2.6 登顶,DeepSeek V4 Codeforces 3206 领跑所有模型;80% 用开源的创业公司默认选中国模型",
+      "angle": "开源智能的结构性领先如何形成;低成本 + 长上下文 + Apache 2.0 的组合拳;美国 hyperscaler 只剩 Gemma 一根独苗",
+      "sources": ["officechai.com/ai/top-open-source-ai-models", "venturebeat.com/.../alibabas-new-open-source-qwen3-5-medium", "view.asiae.co.kr/en/article/2026042416273761798"],
+      "urgency": "medium"
+    },
+    {
+      "topic": "DeepSeek V4 在国产芯片上完成后训练:推理之外,训练这道坎也开始迈",
+      "category": "开源世界",
+      "score": 82,
+      "hook": "华为 Ascend 910C 千卡集群,跑完 DeepSeek V4 Pro(1.6 万亿参数)全参数后训练,1500+ 轮迭代零中断",
+      "angle": "国产算力从'只能推理'到'能调教大脑'的跨越;开源权重 + 国产硬件的自循环;训练 vs 推理的技术难度差",
+      "sources": ["scmp.com/.../huawei-chips-refine-deepseek-model", "scmp.com/.../hong-kong-launches-deepseek-based-ai-model"],
+      "urgency": "medium"
+    },
+    {
+      "topic": "游戏的 AI 拐点:从'会聊天的 NPC'到'一句话生成整个多人游戏'",
+      "category": "游戏",
+      "score": 83,
+      "hook": "同一周:育碧把 GenAI NPC 'Teammates' 放进 FPS 实战;The Sandbox 推出文字生成多人游戏引擎;Arkadium 拿 1500 亿次真人决策数据训练 AI(6/16 上线)",
+      "angle": "AI 正在重写游戏的三层:角色(活的 NPC)、生产(文字造游戏)、训练(游戏当 AI 试金石);'更好玩'还是'更多垃圾'的分岔口",
+      "sources": ["variety.com/.../ubisoft-generative-ai-game-teammates", "cryptobriefing.com/sandbox-ai-game-engine-studio-launch", "finance.yahoo.com/.../arkadium-launches-gamelab"],
+      "urgency": "medium"
+    },
+    {
+      "topic": "索尼 PlayStation 全面押注 AI:从渲染头发到'告诉你买什么'",
+      "category": "游戏",
+      "score": 76,
+      "hook": "索尼 CEO 财报会长篇力挺 AI:Mockingbird 把数小时面部动画压到几分之一秒,AI 生成头发、AI 推荐'下一个该买的游戏';同时 PS5 涨价 100 美元",
+      "angle": "3A 成本爆炸 + 装机量停滞下,AI 是救命稻草还是 slop 放大器;平台方想用 AI 当'消费导购'的算盘",
+      "sources": ["kotaku.com/playstation-boss-embraces-ai"],
+      "urgency": "low"
+    },
+    {
+      "topic": "GitHub 趋势榜的'反 AI 垃圾'浪潮:开发者开始给 AI 立规矩",
+      "category": "开源世界",
+      "score": 80,
+      "hook": "本月 GitHub 爆款一半在干同一件事:压缩上下文、去掉 AI 腔、给 agent 装记忆——stop-slop、taste-skill、headroom、codegraph 集体上榜",
+      "angle": "当人人都用 AI 写代码写文章,'反同质化、上下文工程'成了新刚需;这届开发者在驯化 AI",
+      "sources": ["github.com/trending?since=monthly"],
+      "urgency": "medium"
+    },
+    {
+      "topic": "Anthropic 企业采用率首次反超 OpenAI:Claude 成了第一选择",
+      "category": "商业",
+      "score": 81,
+      "hook": "Ramp 5 万家企业刷卡数据:Anthropic 34.4% 反超 OpenAI 32.3%,新项目 70% 首选 Claude",
+      "angle": "'可靠、长上下文、听话'在企业市场打败'炫酷消费功能';模型是输入,系统才是护城河",
+      "sources": ["forbes.com/.../claude-becomes-the-enterprise-favorite"],
+      "urgency": "medium"
+    }
+  ]
+}
