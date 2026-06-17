@@ -1,88 +1,53 @@
-<section style="max-width:677px; margin:0 auto; font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;">
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
 
-  <section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); border-radius:14px; padding:34px 26px; margin:0 0 26px;">
-    <p style="color:#ffffff; font-size:24px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">同一周，三家公司从三个方向把游戏拆了</p>
-    <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:14px 0 0;">角色层、生产层、训练层，一周之内三层同时松动</p>
-  </section>
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">科 技 · 前 沿 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">1500亿次真人决策被打包：<br>游戏正从产品变成喂AI的考场</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">角色层、生产层、训练层，一周之内三层同时松动。</p>
+</section>
 
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">1500 亿次真人决策，被一家做休闲小游戏的公司拿去喂 AI。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">1500 亿次真人决策,被一家做休闲小游戏的公司拿去喂 AI。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话听上去像段子,但它是这一周游戏圈最该被记住的一笔。只是大多数人没注意到它,因为同一周还有两件更抢眼的事:育碧把会说话的 NPC 塞进了一款射击游戏,The Sandbox 让你打一行字就能生成一个能联机的多人游戏。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">三件事各自被单独报道,标题都很热闹。但摆在一起看,你会发现一个不太舒服的事实:它们不是三条平行的新闻,是同一台机器从三个高度啃同一块东西——游戏的角色层、生产层、训练层,一周之内三层同时松动。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这篇我分三幕讲。这三层的塌法完全不一样,而真正值得琢磨的那一层,恰恰是最不起眼的第三层。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第一幕：角色,NPC 开始有「脾气」了</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">育碧放出来一个叫「Teammates」的东西,目前只对很少的人开放闭门测试。它不是又一个聊天 demo。2024 年那版「Neo NPC」已经会聊天了,但那时候的 NPC 站在一个空房间里,跟谁都聊,就是没法打仗。这次育碧把它扔进了一款第一人称射击游戏,让它真的跟你并肩开枪。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">变化在哪?这些 AI 队友能听你用语音实时下命令,会根据当时的局面调整打法,还会在过程里露出各自不太一样的性格。育碧说,它们能读懂玩家的策略、情绪,甚至能接住你随口说的黑话和梗。游戏里还塞了个叫 Jaspar 的伙伴,认得你名字、懂这个游戏的世界观、会提醒你任务目标在哪、下一步该往哪走。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">听起来很美。但作为开发者,我更在意他们顺手做的另一件事:育碧给「Teammates」配了一套 API,把生成式系统那一堆复杂度全包起来,内置了对幻觉、偏见、毒性内容的护栏,而且被设计成一个「引擎无关的中间件」,能直接插进育碧自家的 Anvil 和 Snowdrop 两个引擎。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话的分量,远比「NPC 会说话」要重。育碧押的不是某一款 AI 游戏,而是想把生成式能力做成一个可以到处插拔的零件。这是平台思路,不是单品思路。注意,育碧把它叫「实验」「测试床」,不是成品。话说得很留余地,这恰恰是它聪明的地方。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第二幕:生产,一句话生成一个能联机的游戏</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">育碧动的是游戏里的「人」,The Sandbox 动的则是「造游戏」这件事本身。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">6 月 9 日,The Sandbox 上线了 The Sandbox Studio。它的卖点简单得有点欺负人:你用文字描述想要一个什么样的游戏,引擎就给你搭出来。全程在浏览器里完成,不用下载、不用安装,做出来的不是个单机小样,是能联机的多人游戏,可以发到浏览器、手机、桌面端,官方说之后还会接上 Telegram 和 Steam。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">有个细节很关键:它强调单人开发者能在「几个小时」内做出原型。几个小时,做一个能多人联机的游戏原型。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是什么概念,得对照传统流程才能体会。哪怕只是搭一个最简陋的多人游戏 demo,网络同步、状态管理、玩家匹配,随便哪一项都够独立开发者啃上几天。The Sandbox 想把这一整段门槛抹平,让「有个点子」和「有个能玩的游戏」之间那条沟,从几个月缩到一个下午。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个微妙的点容易被忽略:它不只是生成,生成的是「能联机的、可分发的」。生成单机画面早就有人做了,真正难的是生成一套能让多个真人同时在里头玩的完整系统。这事若真能稳定跑通,受冲击最大的不是 3A 大厂,是那一大票靠轻量级休闲游戏吃饭的中小工作室,因为他们赖以生存的「快、糙、便宜」,正好是 AI 最擅长的区间。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然,也得泼盆冷水。「打一行字生成一个游戏」这种 demo,过去几年我们见得还少吗?演示视频永远很惊艳,真到自己手里就处处是坑。能不能从「能生成一个」走到「能生成一个好玩的」,中间隔着的不是技术,是设计品味。而品味,恰恰是这一波 AI 最填不上的窟窿。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第三幕:训练,游戏正在从「产品」变成「考场」</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">前两幕都很热闹。但真正让我后背有点发凉的,是最安静的那件。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">6 月 16 日,一家叫 Arkadium 的公司上线了 GameLab。这家公司你大概率没听过,它做的是那种你在新闻网站边栏会顺手点开玩两把的休闲小游戏。就这么个不起眼的角色,手里攥着一组吓人的数字:每月 2200 万玩家,每年 17 亿次游玩,沉淀下来 1500 亿次真人决策。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而 GameLab 干的事,是把这 1500 亿次真人决策,打包卖给训练大模型的「前沿实验室」(Frontier Labs)。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">我们一直默认游戏是给人玩的,AI 进来是为了让游戏更好玩。但 Arkadium 把这个关系倒了过来:游戏是给 AI 用的,人,成了那个产出训练信号的角色。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">为什么是游戏数据?Arkadium 的逻辑其实很硬。互联网上那些静态文本,告诉模型的是「答案是什么」;而一局游戏里,记录的是一个真人怎么做选择、怎么随局面调整、怎么从失误里学乖。这是「过程」,不是「结果」。对一个想学会推理、而不只是背答案的模型来说,后者珍贵得多。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事让我想起一个老问题:这些年大模型最缺的从来不是算力,是「高质量的人类行为数据」。文本快被刨干净了,有人去抠代码仓库,有人去录真人操作电脑。而 Arkadium 的答案是:人类在游戏里做的每一个决策,都是一座没被开采过的金矿。它提供的也不只是数据,还有结构化的游戏环境,可以直接拿来做训练、评测和强化学习。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺这条线推下去,游戏的身份正在悄悄裂成两半:一半还是娱乐产品,另一半,变成了 AI 的训练场和考场。你打的每一局,可能既是在玩,也是在给某个模型当陪练、当考官。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而且不只 Arkadium。索尼那边,PlayStation 在用一套叫 Mockingbird 的技术,把原本要做好几个小时的面部动画,压缩到几分之一秒,还能用 AI 实时渲染头发。从角色,到生产,再到训练,链条上每一环都在被同一种力量重写。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">那么,是更好玩,还是更多垃圾?</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把三幕拼完,真正的问题才浮上来:这一切到底会让游戏更好玩,还是只会催生海量的「slop」(粗制滥造的 AI 内容)?</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">会更好玩的部分是真的。一个能听懂你黑话、有脾气、会随机应变的 AI 队友,一个让独立开发者一个下午就能验证点子的引擎,确实能放出一批本来根本不会被做出来的怪游戏。天花板被抬高了。但地板也被砸穿了。当「造一个能联机的游戏」便宜到几行字、一个下午,可以预见的是,平台会被海量的、长得都差不多的、玩两分钟就腻的 AI 游戏淹没。生成的门槛越低,垃圾的产量越高。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以这一周真正的拐点,不是「AI 能做游戏了」这种大词。育碧那位总监说过一句让我记很久的话:他们的角色是给 AI 赋予意义、把它叙事化,确保逻辑不会取代灵魂。AI 接管的,永远是那些能被流程化的部分,反应、生成、渲染、堆量。它接管不了的,是「这个角色为什么让人记一辈子」「这个机制为什么让人欲罢不能」。前者越来越不值钱,后者越来越值钱。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">游戏这门生意,正在被 AI 从三个高度同时改写:角色层让 NPC 活了,生产层让造游戏的门槛塌了,训练层让游戏本身变成了喂 AI 的饲料。三层都在松动,但缝隙里漏下来的,既有前所未见的好东西,也有铺天盖地的垃圾。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">接下来几年,游戏行业最稀缺的不会是「会用 AI 的人」,那很快人人都会。最稀缺的,是那些在 AI 把一切都变得廉价、变得过剩之后,还知道什么叫「好玩」的人。</p>
 
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话听上去像段子，但它是这一周游戏圈最该被记住的一笔。只是大多数人没注意到它，因为同一周还有两件更抢眼的事：育碧把会说话的 NPC 塞进了一款射击游戏，The Sandbox 让你打一行字就能生成一个能联机的多人游戏。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">三件事各自被单独报道，标题都很热闹。但摆在一起看，你会发现一个不太舒服的事实：它们不是三条平行的新闻，是同一台机器从三个高度啃同一块东西——游戏的角色层、生产层、训练层，一周之内三层同时松动。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">这篇我分三幕讲。这三层的塌法完全不一样，而真正值得琢磨的那一层，恰恰是最不起眼的第三层。</p>
-
-  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.8em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #764ba2;">第一幕：角色，NPC 开始有「脾气」了</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">育碧放出来一个叫「Teammates」的东西，目前只对很少的人开放闭门测试。它不是又一个聊天 demo。2024 年那版「Neo NPC」已经会聊天了，但那时候的 NPC 站在一个空房间里，跟谁都聊，就是没法打仗。这次育碧把它扔进了一款第一人称射击游戏，让它真的跟你并肩开枪。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">变化在哪？这些 AI 队友能听你用语音实时下命令，会根据当时的局面调整打法，还会在过程里露出各自不太一样的性格。育碧说，它们能读懂玩家的策略、情绪，甚至能接住你随口说的黑话和梗。游戏里还塞了个叫 Jaspar 的伙伴，认得你名字、懂这个游戏的世界观、会提醒你任务目标在哪、下一步该往哪走。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">听起来很美。但作为开发者，我更在意他们顺手做的另一件事：育碧给「Teammates」配了一套 API，把生成式系统那一堆复杂度全包起来，内置了对幻觉、偏见、毒性内容的护栏，而且被设计成一个「引擎无关的中间件」，能直接插进育碧自家的 Anvil 和 Snowdrop 两个引擎。</p>
-
-  <blockquote style="background:#f5f3fb; border-left:4px solid #764ba2; padding:16px 20px; margin:1.4em 0; border-radius:0 8px 8px 0;">
-    <p style="color:#444; font-size:15px; line-height:1.8; margin:0;">育碧押的不是某一款 AI 游戏，而是想把生成式能力做成一个可以到处插拔的零件。这是平台思路，不是单品思路。</p>
-  </blockquote>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">注意，育碧把它叫「实验」「测试床」，不是成品。话说得很留余地，这恰恰是它聪明的地方。</p>
-
-  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.8em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #764ba2;">第二幕：生产，一句话生成一个能联机的游戏</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">育碧动的是游戏里的「人」，The Sandbox 动的则是「造游戏」这件事本身。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">6 月 9 日，The Sandbox 上线了 The Sandbox Studio。它的卖点简单得有点欺负人：你用文字描述想要一个什么样的游戏，引擎就给你搭出来。全程在浏览器里完成，不用下载、不用安装，做出来的不是个单机小样，是能联机的多人游戏，可以发到浏览器、手机、桌面端，官方说之后还会接上 Telegram 和 Steam。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">有个细节很关键：它强调单人开发者能在「几个小时」内做出原型。<strong style="color:#764ba2;">几个小时，做一个能多人联机的游戏原型。</strong></p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是什么概念，得对照传统流程才能体会。哪怕只是搭一个最简陋的多人游戏 demo，网络同步、状态管理、玩家匹配，随便哪一项都够独立开发者啃上几天。The Sandbox 想把这一整段门槛抹平，让「有个点子」和「有个能玩的游戏」之间那条沟，从几个月缩到一个下午。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个微妙的点容易被忽略：它不只是生成，生成的是「能联机的、可分发的」。生成单机画面早就有人做了，真正难的是生成一套能让多个真人同时在里头玩的完整系统。这事若真能稳定跑通，受冲击最大的不是 3A 大厂，是那一大票靠轻量级休闲游戏吃饭的中小工作室，因为他们赖以生存的「快、糙、便宜」，正好是 AI 最擅长的区间。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然，也得泼盆冷水。「打一行字生成一个游戏」这种 demo，过去几年我们见得还少吗？演示视频永远很惊艳，真到自己手里就处处是坑。能不能从「能生成一个」走到「能生成一个好玩的」，中间隔着的不是技术，是设计品味。而品味，恰恰是这一波 AI 最填不上的窟窿。</p>
-
-  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.8em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #764ba2;">第三幕：训练，游戏正在从「产品」变成「考场」</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">前两幕都很热闹。但真正让我后背有点发凉的，是最安静的那件。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">6 月 16 日，一家叫 Arkadium 的公司上线了 GameLab。这家公司你大概率没听过，它做的是那种你在新闻网站边栏会顺手点开玩两把的休闲小游戏。就这么个不起眼的角色，手里攥着一组吓人的数字：每月 2200 万玩家，每年 17 亿次游玩，沉淀下来 1500 亿次真人决策。</p>
-
-  <section style="background:#f8f6fc; border-radius:10px; padding:18px 22px; margin:1.4em 0;">
-    <p style="color:#764ba2; font-size:15px; font-weight:bold; margin:0 0 10px;">Arkadium 的家底</p>
-    <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📊 每月 <strong style="color:#764ba2;">2200 万</strong> 玩家<br>🎮 每年 <strong style="color:#764ba2;">17 亿</strong> 次游玩<br>🧠 沉淀 <strong style="color:#764ba2;">1500 亿</strong> 次真人决策</p>
-  </section>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">而 GameLab 干的事，是把这 1500 亿次真人决策，打包卖给训练大模型的「前沿实验室」（Frontier Labs）。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">我们一直默认游戏是给人玩的，AI 进来是为了让游戏更好玩。但 Arkadium 把这个关系倒了过来：游戏是给 AI 用的，人，成了那个产出训练信号的角色。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">为什么是游戏数据？Arkadium 的逻辑其实很硬。互联网上那些静态文本，告诉模型的是「答案是什么」；而一局游戏里，记录的是一个真人怎么做选择、怎么随局面调整、怎么从失误里学乖。这是「过程」，不是「结果」。对一个想学会推理、而不只是背答案的模型来说，后者珍贵得多。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事让我想起一个老问题：这些年大模型最缺的从来不是算力，是「高质量的人类行为数据」。文本快被刨干净了，有人去抠代码仓库，有人去录真人操作电脑。而 Arkadium 的答案是：人类在游戏里做的每一个决策，都是一座没被开采过的金矿。它提供的也不只是数据，还有结构化的游戏环境，可以直接拿来做训练、评测和强化学习。</p>
-
-  <blockquote style="background:#f5f3fb; border-left:4px solid #764ba2; padding:16px 20px; margin:1.4em 0; border-radius:0 8px 8px 0;">
-    <p style="color:#444; font-size:15px; line-height:1.8; margin:0;">游戏的身份正在悄悄裂成两半：一半还是娱乐产品，另一半，变成了 AI 的训练场和考场。你打的每一局，可能既是在玩，也是在给某个模型当陪练、当考官。</p>
-  </blockquote>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">而且不只 Arkadium。索尼那边，PlayStation 在用一套叫 Mockingbird 的技术，把原本要做好几个小时的面部动画，压缩到几分之一秒，还能用 AI 实时渲染头发。从角色，到生产，再到训练，链条上每一环都在被同一种力量重写。</p>
-
-  <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.8em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #764ba2;">那么，是更好玩，还是更多垃圾？</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">把三幕拼完，真正的问题才浮上来：这一切到底会让游戏更好玩，还是只会催生海量的「slop」（粗制滥造的 AI 内容）？</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">会更好玩的部分是真的。一个能听懂你黑话、有脾气、会随机应变的 AI 队友，一个让独立开发者一个下午就能验证点子的引擎，确实能放出一批本来根本不会被做出来的怪游戏。天花板被抬高了。但地板也被砸穿了。当「造一个能联机的游戏」便宜到几行字、一个下午，可以预见的是，平台会被海量的、长得都差不多的、玩两分钟就腻的 AI 游戏淹没。生成的门槛越低，垃圾的产量越高。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以这一周真正的拐点，不是「AI 能做游戏了」这种大词。育碧那位总监说过一句让我记很久的话：他们的角色是给 AI 赋予意义、把它叙事化，确保逻辑不会取代灵魂。AI 接管的，永远是那些能被流程化的部分，反应、生成、渲染、堆量。它接管不了的，是「这个角色为什么让人记一辈子」「这个机制为什么让人欲罢不能」。前者越来越不值钱，后者越来越值钱。</p>
-
-  <p style="color:#333; font-size:16px; line-height:1.9; margin:1.2em 0; text-indent:2em;">游戏这门生意，正在被 AI 从三个高度同时改写：角色层让 NPC 活了，生产层让造游戏的门槛塌了，训练层让游戏本身变成了喂 AI 的饲料。三层都在松动，但缝隙里漏下来的，既有前所未见的好东西，也有铺天盖地的垃圾。</p>
-
-  <blockquote style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); padding:20px 24px; margin:1.6em 0; border-radius:10px;">
-    <p style="color:#ffffff; font-size:16px; line-height:1.85; margin:0; font-weight:500;">接下来几年，游戏行业最稀缺的不会是「会用 AI 的人」，那很快人人都会。最稀缺的，是那些在 AI 把一切都变得廉价、变得过剩之后，还知道什么叫「好玩」的人。</p>
-  </blockquote>
-
-  <section style="margin:2.4em 0 0; padding:22px 0 0; border-top:1px solid #eee; text-align:center;">
-    <p style="color:#999; font-size:14px; line-height:1.8; margin:0 0 12px;">三层都在松动，你觉得最先被 AI 吃掉的会是哪一层？评论区聊聊</p>
-    <p style="color:#bbb; font-size:13px; letter-spacing:3px; margin:0;">— END —</p>
-  </section>
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 三层都在松动，你觉得最先被 AI 吃掉的会是哪一层？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
 
 </section>
