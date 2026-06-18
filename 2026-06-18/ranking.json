@@ -8,7 +8,9 @@
       "title": "三家AI巨头四万亿估值，两周内集体挤进华尔街闸门",
       "title_file": "ai-giants-ipo-wallstreet-title.json",
       "rank": 1,
-      "prefix": "01"
+      "prefix": "01",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06-18/html/01-ai-giants-ipo-wallstreet-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06-18/html/01-ai-giants-ipo-wallstreet-wechat.html"
     },
     {
       "slug": "anthropic-passes-openai-enterprise",
@@ -16,7 +18,9 @@
       "title": "34.4%对32.3%，Anthropic企业采用率首次反超OpenAI！",
       "title_file": "anthropic-passes-openai-enterprise-title.json",
       "rank": 2,
-      "prefix": "02"
+      "prefix": "02",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06-18/html/02-anthropic-passes-openai-enterprise-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06-18/html/02-anthropic-passes-openai-enterprise-wechat.html"
     },
     {
       "slug": "bezos-prometheus-physical-ai",
@@ -24,7 +28,9 @@
       "title": "贝索斯掏120亿押注物理AI：要教AI自己造发动机！",
       "title_file": "title.json",
       "rank": 3,
-      "prefix": "03"
+      "prefix": "03",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06-18/html/03-bezos-prometheus-physical-ai-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06-18/html/03-bezos-prometheus-physical-ai-wechat.html"
     },
     {
       "slug": "intel-most-advanced-chip-apple",
@@ -32,7 +38,9 @@
       "title": "苹果八年首次松口：Intel最先进芯片量产，逼近代工订单！",
       "title_file": "title.json",
       "rank": 4,
-      "prefix": "04"
+      "prefix": "04",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06-18/html/04-intel-most-advanced-chip-apple-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06-18/html/04-intel-most-advanced-chip-apple-wechat.html"
     },
     {
       "slug": "suno-ai-music-copyright-war",
@@ -40,7 +48,9 @@
       "title": "Suno融4亿同时被唱片巨头集体起诉：这场版权战定整个AIGC生死！",
       "title_file": "suno-ai-music-copyright-war-title.json",
       "rank": 5,
-      "prefix": "05"
+      "prefix": "05",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06-18/html/05-suno-ai-music-copyright-war-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06-18/html/05-suno-ai-music-copyright-war-wechat.html"
     }
   ]
 }
