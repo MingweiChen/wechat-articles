@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T00:50:00Z",
+  "note": "5 篇最终选定。纯按热度排+查重过滤+多样性平衡(避免5篇全是融资/资本扎堆)。骨架刻意错开。合规留撰写阶段(政治绝对红线已在选题阶段避开G7议题)。",
+  "dedup_basis": "过去一周(06-11~06-17)已写主题见 candidates.json;本批全部低/中重复,机器人和GitHub两个中等重复主题已砍,保留差异化更强的5篇",
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "贝索斯的 Prometheus:120 亿美元押注「物理 AI」,要造一个会设计飞机引擎的 AI",
+      "category": "前沿",
+      "score": 90,
+      "slug_hint": "bezos-prometheus-physical-ai",
+      "why": "Bezos 亲自下场,Prometheus B 轮融 120 亿、估值 410 亿美元,7 个月总融资破 180 亿;目标「通用工程师」AI——设计 jet engine、芯片、药物分子。AI 下一战场不在屏幕在物理世界;物理 AI 护城河比纯软件深;Bezos 还想搞千亿基金买制造业工厂",
+      "recommended_format": "人物特写+赛道分析,从 Bezos 的下注看物理 AI 拐点,不用戏剧化开头",
+      "dedup": "全新,上周没碰 Bezos/物理AI制造",
+      "sources": ["https://www.techtimes.com/articles/318330/20260613/prometheus-ai-startup-bezos-raises-12-billion-41-billion-valuation.htm", "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"]
+    },
+    {
+      "rank": 2,
+      "topic": "AI 集体上华尔街:SpaceX、Anthropic、OpenAI 三家万亿巨头排队 IPO",
+      "category": "资本",
+      "score": 86,
+      "slug_hint": "ai-giants-ipo-wallstreet",
+      "why": "SpaceX 1.75 万亿已上市,Anthropic(9650亿)、OpenAI(8520亿)隔周递表;十年来对高增长科技股最大胃口测试。AI 从私募狂欢走向公开市场审视;两家都还亏钱却急上市因为私募钱融到头;安全叙事撞季度财报",
+      "recommended_format": "三主角对照叙事,避免'对X对Y对Z'三段论",
+      "dedup": "上周写SpaceX收购Cursor,IPO/上市潮是新角度",
+      "sources": ["https://money.usnews.com/investing/news/articles/2026-06-08/openai-files-for-us-ipo-after-anthropic-as-ai-giants-head-to-public-markets", "https://techxplore.com/news/2026-06-openai-week-rival-anthropic.html"]
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic 企业采用率首次反超 OpenAI:Claude 成了新项目第一选择",
+      "category": "竞争",
+      "score": 84,
+      "slug_hint": "anthropic-passes-openai-enterprise",
+      "why": "Ramp 5 万家企业刷卡数据:Anthropic 34.4% 超 OpenAI 32.3%,一年翻两番;新项目首选 Claude 占 70%。为什么'可靠、长上下文、听话'打败'炫酷消费功能';模型是输入,系统才是护城河;token 计价藏成本隐忧",
+      "recommended_format": "数据复盘+商业逻辑拆解,作者第一人称判断",
+      "dedup": "全新,企业采用反超这个具体数据角度上周未写",
+      "sources": ["https://www.forbes.com/sites/sandycarter/2026/06/05/claude-becomes-the-enterprise-favorite-as-anthropic-passes-openai/"]
+    },
+    {
+      "rank": 4,
+      "topic": "Suno 融 4 亿、估值 54 亿,一边狂奔一边被唱片公司围剿:AI 音乐的版权战",
+      "category": "AI应用",
+      "score": 82,
+      "slug_hint": "suno-ai-music-copyright-war",
+      "why": "AI 音乐 Suno D 轮融 4 亿、估值 54 亿;同时被多家唱片公司起诉——用版权音乐训练 AI。AI 生成音乐爆发与版权正面冲突;创作工具 vs 版权方世纪官司;AIGC 商业化绕不开的法律地雷",
+      "recommended_format": "冲突双线叙事(增长线+诉讼线),开发者+版权方双视角",
+      "dedup": "全新领域,上周完全没碰 AI 音乐/版权,差异化最强",
+      "sources": ["https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"]
+    },
+    {
+      "rank": 5,
+      "topic": "Intel 最先进芯片量产,逼近拿下苹果订单:那个掉队的巨头在回来",
+      "category": "硬件",
+      "score": 80,
+      "slug_hint": "intel-most-advanced-chip-apple",
+      "why": "Intel 开始量产最先进制程芯片,逼近一笔可能的苹果代工订单;一度被 TSMC/三星甩开的老牌巨头试图翻身。芯片制造的地缘重构;美国本土先进制程的回归赌注;苹果为何可能给 Intel 机会",
+      "recommended_format": "翻身故事+产业格局,时间线倒叙(从掉队到量产)",
+      "dedup": "全新,上周没碰芯片制造/Intel",
+      "sources": ["https://www.cnbc.com/2026/06/17/intel-most-advanced-chip-apple.html", "https://www.design-reuse.com/news/202530648-samsung-and-nvidia-partnership-upgrade-hbm4e-hbm5-and-autonomous-driving-chip-foundry-enter-substantial-discussions/"]
+    }
+  ]
+}

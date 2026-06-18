@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-18",
+  "total": 5,
+  "articles": [
+    {
+      "slug": "ai-giants-ipo-wallstreet",
+      "score": 88,
+      "title": "三家AI巨头四万亿估值，两周内集体挤进华尔街闸门",
+      "title_file": "ai-giants-ipo-wallstreet-title.json",
+      "rank": 1,
+      "prefix": "01"
+    },
+    {
+      "slug": "anthropic-passes-openai-enterprise",
+      "score": 83,
+      "title": "34.4%对32.3%，Anthropic企业采用率首次反超OpenAI！",
+      "title_file": "anthropic-passes-openai-enterprise-title.json",
+      "rank": 2,
+      "prefix": "02"
+    },
+    {
+      "slug": "bezos-prometheus-physical-ai",
+      "score": 82,
+      "title": "贝索斯掏120亿押注物理AI：要教AI自己造发动机！",
+      "title_file": "title.json",
+      "rank": 3,
+      "prefix": "03"
+    },
+    {
+      "slug": "intel-most-advanced-chip-apple",
+      "score": 82,
+      "title": "苹果八年首次松口：Intel最先进芯片量产，逼近代工订单！",
+      "title_file": "title.json",
+      "rank": 4,
+      "prefix": "04"
+    },
+    {
+      "slug": "suno-ai-music-copyright-war",
+      "score": 82,
+      "title": "Suno融4亿同时被唱片巨头集体起诉：这场版权战定整个AIGC生死！",
+      "title_file": "suno-ai-music-copyright-war-title.json",
+      "rank": 5,
+      "prefix": "05"
+    }
+  ]
+}

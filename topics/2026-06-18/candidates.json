@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T00:50:00Z",
+  "note": "纯按热度排,非维度配额。已与过去一周(06-11~06-17)查重。排除政治绝对红线:G7峰会美国主导AI联盟排除中国(涉Trump+中美+政要)。",
+  "dedup_basis": "过去一周已写:SpaceX收购Cursor(17)、Robotaxi(17)、开源前十(17)、游戏AI(17)、GitHub反AI垃圾(17)、Anthropic Fable关停(15-16)、宇树/英伟达机器人(14-16)、智元具身(14-16)、中国价格战(13-16)、OpenAI Chat is dead(16)、DeepMind多智能体警告(16)、Vibe Coding祭(15)",
+  "candidates": [
+    {
+      "topic": "贝索斯的 Prometheus:120 亿美元押注「物理 AI」,要造一个会设计飞机引擎的 AI",
+      "category": "前沿",
+      "score": 90,
+      "hook": "Bezos 亲自下场,Prometheus B 轮融 120 亿、估值 410 亿美元,7 个月总融资破 180 亿;目标是「通用工程师」AI——设计 jet engine、芯片、药物分子",
+      "angle": "AI 下一个战场不在屏幕里而在物理世界;为什么物理 AI 的护城河比纯软件深;Bezos 还想搞 1000 亿基金去买制造业工厂",
+      "dedup": "全新,上周没碰 Bezos/Prometheus/物理AI 制造",
+      "sources": ["techtimes.com/.../prometheus-ai-bezos-12-billion", "crunchbase Prometheus"]
+    },
+    {
+      "topic": "AI 集体上华尔街:SpaceX、Anthropic、OpenAI 三家万亿巨头排队 IPO",
+      "category": "资本",
+      "score": 86,
+      "hook": "SpaceX 1.75 万亿已上市,Anthropic(9650亿)、OpenAI(8520亿)隔周递表;十年来对高增长科技股最大的一次胃口测试",
+      "angle": "AI 从私募狂欢走向公开市场审视;两家都还在亏钱却急着上市,因为私募的钱已经融到头了;安全叙事撞上季度财报",
+      "dedup": "上周写了SpaceX收购Cursor,但IPO/上市潮是新角度;Anthropic/OpenAI IPO上周未写",
+      "sources": ["money.usnews.com/.../openai-files-ipo", "techxplore.com/.../openai-week-rival-anthropic"]
+    },
+    {
+      "topic": "Anthropic 企业采用率首次反超 OpenAI:Claude 成了新项目第一选择",
+      "category": "竞争",
+      "score": 84,
+      "hook": "Ramp 5 万家企业刷卡数据:Anthropic 34.4% 超过 OpenAI 32.3%,一年翻两番;新项目首选 Claude 的占 70%",
+      "angle": "为什么「可靠、长上下文、听话」打败了「炫酷消费功能」;模型是输入,系统才是护城河;但 token 计价模式藏着成本隐忧",
+      "dedup": "全新,上周没写企业采用率反超这个具体数据角度",
+      "sources": ["forbes.com/.../claude-becomes-the-enterprise-favorite"]
+    },
+    {
+      "topic": "Suno 融 4 亿美元、估值 54 亿,一边狂奔一边被唱片公司围剿:AI 音乐的版权战",
+      "category": "AI应用",
+      "score": 82,
+      "hook": "AI 音乐工具 Suno D 轮融 4 亿美元、估值 54 亿;同时正被多家唱片公司起诉——用版权音乐训练 AI",
+      "angle": "AI 生成音乐的爆发与版权的正面冲突;创作工具 vs 版权方的世纪官司;AIGC 商业化绕不开的法律地雷",
+      "dedup": "全新领域,上周完全没碰 AI 音乐/版权,差异化最强",
+      "sources": ["news.crunchbase.com/.../biggest-funding-rounds-june-5-2026"]
+    },
+    {
+      "topic": "Intel 最先进芯片量产,逼近拿下苹果订单:那个掉队的巨头在回来",
+      "category": "硬件",
+      "score": 80,
+      "hook": "Intel 开始量产其最先进制程芯片,逼近一笔可能的苹果代工订单;一度被 TSMC/三星甩开的老牌巨头试图翻身",
+      "angle": "芯片制造的地缘重构;美国本土先进制程的回归赌注;苹果为何可能给 Intel 一个机会",
+      "dedup": "全新,上周没碰芯片制造/Intel",
+      "sources": ["cnbc 'Intel begins production of most-advanced chip'"]
+    },
+    {
+      "topic": "机器人融资狂潮:德国 Neura 融 14 亿,2026 已融 558 亿创纪录,欧洲入局",
+      "category": "机器人",
+      "score": 79,
+      "hook": "德国 Neura Robotics 融 14 亿美元(Nvidia/Amazon/Qualcomm/Bosch);2026 机器人赛道已融 558 亿,几乎是去年纪录两倍;欧洲玩家杀进美中主导的赛道",
+      "angle": "物理 AI 的资本狂热;为什么钱从屏幕涌向实体;欧洲想证明 AI 领袖不只出在硅谷",
+      "dedup": "上周机器人写的是中国(宇树/智元),这个是全球融资+欧洲角度,中等重复",
+      "sources": ["cnbc.com/.../neura-robotics-funding", "finance.yahoo.com/.../neura-robotics-series-c"]
+    },
+    {
+      "topic": "上下文工程崛起:headroom 们用「压缩」把 AI 的 token 砍掉 60-95%",
+      "category": "开源",
+      "score": 77,
+      "hook": "GitHub 本月爆款 headroom(3 万星)专干一件事:把喂给 AI 的内容压缩 60-95%、答案不变;代码知识图谱、AI 记忆工具集体上榜",
+      "angle": "当 token 就是钱,「省 token」成了新刚需;上下文工程从玄学变成工程学;这届开发者在给 AI 减负",
+      "dedup": "上周写了GitHub反AI垃圾,这个聚焦token压缩/上下文工程,角度不同但同源,中等重复",
+      "sources": ["github.com/trending?since=monthly"]
+    }
+  ]
+}
