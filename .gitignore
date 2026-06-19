@@ -1,5 +1,8 @@
 # Drafts: 工作目录（包含 BG 原图、subagent metadata、self-check 等）
 */drafts/
+*/*/drafts/
 */.current-run-id
+*/*/.current-run-id
 */topics.json
+*/*/topics.json
 *-bg.png

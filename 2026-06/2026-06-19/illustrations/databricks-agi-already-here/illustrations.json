@@ -2,12 +2,12 @@
   "slug": "databricks-agi-already-here",
   "date": "2026-06-19",
   "count": 4,
-  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/databricks-agi-already-here",
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-19/illustrations/databricks-agi-already-here",
   "images": [
     {
       "seq": "01",
       "file": "01-ghodsi-keynote.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/databricks-agi-already-here/01-ghodsi-keynote.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-19/illustrations/databricks-agi-already-here/01-ghodsi-keynote.jpg",
       "caption": "Databricks 创始人兼 CEO Ali Ghodsi 在 Data + AI Summit 主舞台——一个卖「数据地基」的人，跳出来宣布 AGI 已来",
       "anchor": "## 智商不是瓶颈,这才是反直觉的地方",
       "position": "before_heading",
@@ -18,7 +18,7 @@
     {
       "seq": "02",
       "file": "02-enterprise-datacenter.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/databricks-agi-already-here/02-enterprise-datacenter.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-19/illustrations/databricks-agi-already-here/02-enterprise-datacenter.jpg",
       "caption": "第一道墙：让 Agent 真的「看见」企业的真实生产数据，而不是开卷抄文档",
       "anchor": "## 第一道墙:让 Agent 真的“看见”生产数据",
       "position": "after_heading",
@@ -29,7 +29,7 @@
     {
       "seq": "03",
       "file": "03-ghodsi-complexity-cost.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/databricks-agi-already-here/03-ghodsi-complexity-cost.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-19/illustrations/databricks-agi-already-here/03-ghodsi-complexity-cost.jpg",
       "caption": "营收暴涨、利润率却在缩水——Agent 用得越凶，Token 烧得越快，这是 Ghodsi 被问得最多的问题",
       "anchor": "## 第二道墙:Agent 越多,利润越薄",
       "position": "after_heading",
@@ -40,7 +40,7 @@
     {
       "seq": "04",
       "file": "04-agent-security-shield.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/databricks-agi-already-here/04-agent-security-shield.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-19/illustrations/databricks-agi-already-here/04-agent-security-shield.jpg",
       "caption": "第三道墙：当攻防双方都换上 Agent，「以火攻火」——人盯告警的老办法已经不够看",
       "anchor": "## 第三道墙:它要动手,你得拦得住",
       "position": "after_heading",
