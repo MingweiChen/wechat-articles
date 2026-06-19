@@ -1,0 +1,257 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T04:36:00Z",
+  "batch_verdict": "pass",
+  "review_rounds": 2,
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "GPT-5.6 还没发布,赌场已经开了:有人在押注它哪天上线",
+      "category": "前沿",
+      "slug": "gpt56-prediction-market-bet",
+      "review_score": 90,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI 模型发布从'技术事件'变成可下注、可做市的金融标的——一个还没发布的产品,它的'发布日期'本身就有六位数美元在博弈,说明 AI 注意力经济长出了二级市场。",
+        "axis": "不写参数(官方没发系统卡),换轴写'未发布模型的发布日为何成赌博标的'——预测市场、信息差套利、发布择时的金融化。",
+        "why_worth": "下一个观察 AI 竞赛的指标不是 benchmark,而是'发布择时'被金融化。"
+      },
+      "sources": [
+        "https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm"
+      ],
+      "review_note": "数字口径以稿成时实时为准;thesis 收口到'发布择时金融化',别写参数前瞻。",
+      "slug_hint": "gpt56-prediction-market-bet",
+      "score": 90
+    },
+    {
+      "rank": 2,
+      "topic": "Databricks 创始人当众说:AGI 已经来了,只是没人让它进公司干活",
+      "category": "企业AI",
+      "slug": "databricks-agi-already-here",
+      "review_score": 83,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AGI 瓶颈不在模型够不够聪明,而在 context/成本/控制三道工程墙——谁先让 Agent 安全碰企业真实数据并采取行动,谁就拿走 AGI 的商业化红利,跟参数无关。",
+        "axis": "大家等实验室宣布'AGI 诞生';本篇换轴——卖数据平台的人说 AGI 早来了,战场是'让 AI 在公司里上班'的基础设施。",
+        "why_worth": "AGI 落地真实卡点不是更强模型,是数据能否被 Agent 安全用起来。"
+      },
+      "sources": [
+        "https://siliconangle.com/2026/06/16/agi-moment-databricks-new-releases-zero-support-deployment-ai-agents/"
+      ],
+      "review_note": "开头砸 Ghodsi 原话冲突;产品名词串成一条主线;核实 Panther 并购时效。",
+      "slug_hint": "databricks-agi-already-here",
+      "score": 83
+    },
+    {
+      "rank": 3,
+      "topic": "一年赚的钱几乎等于这轮融的钱:中国 AI 应用公司第一次证明能造血",
+      "category": "AI应用",
+      "slug": "liblib-evoken-arr-funding",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "中国 AI 估值锚从'技术能力折现'换成'真实收入'——演语(LiblibAI)ARR≈融资额,标志应用层从'能不能做出来'翻篇到'能不能赚回来',赢家是做内容生产入口+创作者社区的。",
+        "dots": [
+          "ARR 3亿美元≈本轮融资3亿",
+          "LiblibAI 3000万用户/每3个设计师1个在用",
+          "单一产品到 Evoken 集团化",
+          "对标 Cursor/Suno/HeyGen"
+        ],
+        "why_worth": "可迁移标尺:看 AI 应用值不值钱看 ARR/融资比值。"
+      },
+      "sources": [
+        "https://www.163.com/dy/article/KVMRVJSC0556EX0D.html"
+      ],
+      "review_note": "导语切干净'应用层 ARR'与'大模型烧钱融资'两轴;ARR≈融资别写成因果。",
+      "slug_hint": "liblib-evoken-arr-funding",
+      "score": 80
+    },
+    {
+      "rank": 4,
+      "topic": "消失 18 个月后,OpenAI 前 CTO 带着一条相反的路线回来了",
+      "category": "人物",
+      "slug": "mira-murati-thinking-machines-comeback",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "当所有人比参数、比烧钱时,Mira Murati 押相反方向——让 AI 像'双人自行车'实时与人协同(200ms 交互模型),而不是把人甩在身后;她赌 OpenAI-Google-Meta 寡头之外存在'人机协同'的独立第三极。",
+        "axis": "不写 $50B 估值/被挖角八卦,换轴到'路线之争'——为什么坚持开放+人机协同+治理制衡,这套理念与她亲历的 Altman 罢免如何绑定。",
+        "dots": [
+          "18个月沉默后首次公开露面",
+          "Tinker 微调 API+交互模型路线",
+          "$2B 种子轮/谈判 $50B 估值",
+          "创始团队被 OpenAI 和 Meta 两头挖角",
+          "亲历 Altman 罢免后对'治理不能押注单人'的反思"
+        ],
+        "counter_intuitive": "表面是留不住人的脆弱新厂;实际她在赌一条巨头都没走的路——AI 不该自主狂奔甩开人类。",
+        "why_worth": "AI 竞赛除了'更大更强'还有一条'人机协同'的分叉路,一个亲历权力斗争的人为何执着于治理。"
+      },
+      "sources": [
+        "https://thenextweb.com/news/mira-murati-resurfaces-after-18-months-with-a-warning-about-ai-governance-and-a-product-no-one-expected",
+        "https://cryptobriefing.com/mira-murati-thinking-machines-lab-bloomberg-tech/"
+      ],
+      "review_note": "数字正文核实;Altman 罢免亲历→治理反思→押人机协同串成因果链;人才流失只作背景不写八卦。",
+      "slug_hint": "mira-murati-thinking-machines-comeback",
+      "score": 80
+    },
+    {
+      "rank": 5,
+      "topic": "143 亿挖来最贵的 AI 团队,扎克伯格却在为一件事头疼",
+      "category": "商业观察",
+      "slug": "meta-superintelligence-talent-paradox",
+      "review_score": 76,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "钱能买顶尖人才和算力,却买不来组织共识和使命感——Meta 143 亿买 Scale AI、九位数年薪挖角组'超级智能'团队却陷内耗;AI 竞赛的下一个瓶颈正从'钱和人'转移到'组织能不能让人才真正发挥'。",
+        "axis": "不比钱/人/模型,换轴到'组织与管理'视角——为什么最有钱的玩家陷入最低效的状态。",
+        "dots": [
+          "143亿买Scale AI+九位数挖角",
+          "6500人应用AI团队被'征召'做重复打标",
+          "Muse Spark 模型市场反响平平",
+          "股价12个月跌18%为巨头最差",
+          "扎克伯格内部承认'犯了错误'"
+        ],
+        "counter_intuitive": "钱和人才都买到顶配,产出的却是最低士气和最慢进展——投入产出第一次明显背离。",
+        "why_worth": "新判断维度:看一家公司能不能赢 AI,别只看砸多少钱挖多少人,看组织能不能把人才变战斗力。"
+      },
+      "sources": [
+        "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+        "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html"
+      ],
+      "review_note": "合规:商业/管理悖论视角,客观提及士气作论据,不渲染裁员惨状、不用'古拉格/血洗'类情绪词、不做行业末日叙事;标题去悬念用事实+数字。",
+      "slug_hint": "meta-superintelligence-talent-paradox",
+      "score": 76
+    }
+  ],
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "GPT-5.6 还没发布,赌场已经开了:有人在押注它哪天上线",
+      "category": "前沿",
+      "slug": "gpt56-prediction-market-bet",
+      "review_score": 90,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI 模型发布从'技术事件'变成可下注、可做市的金融标的——一个还没发布的产品,它的'发布日期'本身就有六位数美元在博弈,说明 AI 注意力经济长出了二级市场。",
+        "axis": "不写参数(官方没发系统卡),换轴写'未发布模型的发布日为何成赌博标的'——预测市场、信息差套利、发布择时的金融化。",
+        "why_worth": "下一个观察 AI 竞赛的指标不是 benchmark,而是'发布择时'被金融化。"
+      },
+      "sources": [
+        "https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm"
+      ],
+      "review_note": "数字口径以稿成时实时为准;thesis 收口到'发布择时金融化',别写参数前瞻。",
+      "slug_hint": "gpt56-prediction-market-bet",
+      "score": 90
+    },
+    {
+      "rank": 2,
+      "topic": "Databricks 创始人当众说:AGI 已经来了,只是没人让它进公司干活",
+      "category": "企业AI",
+      "slug": "databricks-agi-already-here",
+      "review_score": 83,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AGI 瓶颈不在模型够不够聪明,而在 context/成本/控制三道工程墙——谁先让 Agent 安全碰企业真实数据并采取行动,谁就拿走 AGI 的商业化红利,跟参数无关。",
+        "axis": "大家等实验室宣布'AGI 诞生';本篇换轴——卖数据平台的人说 AGI 早来了,战场是'让 AI 在公司里上班'的基础设施。",
+        "why_worth": "AGI 落地真实卡点不是更强模型,是数据能否被 Agent 安全用起来。"
+      },
+      "sources": [
+        "https://siliconangle.com/2026/06/16/agi-moment-databricks-new-releases-zero-support-deployment-ai-agents/"
+      ],
+      "review_note": "开头砸 Ghodsi 原话冲突;产品名词串成一条主线;核实 Panther 并购时效。",
+      "slug_hint": "databricks-agi-already-here",
+      "score": 83
+    },
+    {
+      "rank": 3,
+      "topic": "一年赚的钱几乎等于这轮融的钱:中国 AI 应用公司第一次证明能造血",
+      "category": "AI应用",
+      "slug": "liblib-evoken-arr-funding",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "中国 AI 估值锚从'技术能力折现'换成'真实收入'——演语(LiblibAI)ARR≈融资额,标志应用层从'能不能做出来'翻篇到'能不能赚回来',赢家是做内容生产入口+创作者社区的。",
+        "dots": [
+          "ARR 3亿美元≈本轮融资3亿",
+          "LiblibAI 3000万用户/每3个设计师1个在用",
+          "单一产品到 Evoken 集团化",
+          "对标 Cursor/Suno/HeyGen"
+        ],
+        "why_worth": "可迁移标尺:看 AI 应用值不值钱看 ARR/融资比值。"
+      },
+      "sources": [
+        "https://www.163.com/dy/article/KVMRVJSC0556EX0D.html"
+      ],
+      "review_note": "导语切干净'应用层 ARR'与'大模型烧钱融资'两轴;ARR≈融资别写成因果。",
+      "slug_hint": "liblib-evoken-arr-funding",
+      "score": 80
+    },
+    {
+      "rank": 4,
+      "topic": "消失 18 个月后,OpenAI 前 CTO 带着一条相反的路线回来了",
+      "category": "人物",
+      "slug": "mira-murati-thinking-machines-comeback",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "当所有人比参数、比烧钱时,Mira Murati 押相反方向——让 AI 像'双人自行车'实时与人协同(200ms 交互模型),而不是把人甩在身后;她赌 OpenAI-Google-Meta 寡头之外存在'人机协同'的独立第三极。",
+        "axis": "不写 $50B 估值/被挖角八卦,换轴到'路线之争'——为什么坚持开放+人机协同+治理制衡,这套理念与她亲历的 Altman 罢免如何绑定。",
+        "dots": [
+          "18个月沉默后首次公开露面",
+          "Tinker 微调 API+交互模型路线",
+          "$2B 种子轮/谈判 $50B 估值",
+          "创始团队被 OpenAI 和 Meta 两头挖角",
+          "亲历 Altman 罢免后对'治理不能押注单人'的反思"
+        ],
+        "counter_intuitive": "表面是留不住人的脆弱新厂;实际她在赌一条巨头都没走的路——AI 不该自主狂奔甩开人类。",
+        "why_worth": "AI 竞赛除了'更大更强'还有一条'人机协同'的分叉路,一个亲历权力斗争的人为何执着于治理。"
+      },
+      "sources": [
+        "https://thenextweb.com/news/mira-murati-resurfaces-after-18-months-with-a-warning-about-ai-governance-and-a-product-no-one-expected",
+        "https://cryptobriefing.com/mira-murati-thinking-machines-lab-bloomberg-tech/"
+      ],
+      "review_note": "数字正文核实;Altman 罢免亲历→治理反思→押人机协同串成因果链;人才流失只作背景不写八卦。",
+      "slug_hint": "mira-murati-thinking-machines-comeback",
+      "score": 80
+    },
+    {
+      "rank": 5,
+      "topic": "143 亿挖来最贵的 AI 团队,扎克伯格却在为一件事头疼",
+      "category": "商业观察",
+      "slug": "meta-superintelligence-talent-paradox",
+      "review_score": 76,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "钱能买顶尖人才和算力,却买不来组织共识和使命感——Meta 143 亿买 Scale AI、九位数年薪挖角组'超级智能'团队却陷内耗;AI 竞赛的下一个瓶颈正从'钱和人'转移到'组织能不能让人才真正发挥'。",
+        "axis": "不比钱/人/模型,换轴到'组织与管理'视角——为什么最有钱的玩家陷入最低效的状态。",
+        "dots": [
+          "143亿买Scale AI+九位数挖角",
+          "6500人应用AI团队被'征召'做重复打标",
+          "Muse Spark 模型市场反响平平",
+          "股价12个月跌18%为巨头最差",
+          "扎克伯格内部承认'犯了错误'"
+        ],
+        "counter_intuitive": "钱和人才都买到顶配,产出的却是最低士气和最慢进展——投入产出第一次明显背离。",
+        "why_worth": "新判断维度:看一家公司能不能赢 AI,别只看砸多少钱挖多少人,看组织能不能把人才变战斗力。"
+      },
+      "sources": [
+        "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+        "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html"
+      ],
+      "review_note": "合规:商业/管理悖论视角,客观提及士气作论据,不渲染裁员惨状、不用'古拉格/血洗'类情绪词、不做行业末日叙事;标题去悬念用事实+数字。",
+      "slug_hint": "meta-superintelligence-talent-paradox",
+      "score": 76
+    }
+  ],
+  "total_selected": 5
+}

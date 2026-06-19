@@ -1,0 +1,89 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T04:33:00Z",
+  "review_round": 2,
+  "dedup_basis": "过去一周(06-12~06-18)已写: DeepSeek 510亿融资(06-18)、Anthropic企业采用反超OpenAI(06-18)、SpaceX+Anthropic+OpenAI IPO潮(06-18)、贝索斯Prometheus物理AI(06-18)、Suno版权战(06-18)、Intel芯片(06-18)、SpaceX收购Cursor(06-17)、Robotaxi(06-17)、开源前十八中国(06-17)、游戏AI(06-17)、反AI垃圾(06-17)、智源GO-2(06-16)、英伟达×宇树(06-16)、OpenAI Chat is dead(06-16)、国产价格战(06-16)、Apple Intelligence+Siri接Gemini(06-14)、宇树IPO(06-14)、豆包Token(06-14)",
+  "candidates": [
+    {
+      "rank": 1,
+      "topic": "GPT-5.6 还没发布,赌场已经开了:有人在押注它哪天上线",
+      "category": "前沿",
+      "score": 90,
+      "review_verdict": "keep",
+      "slug_hint": "gpt56-prediction-market-bet",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI 模型发布已经从'技术事件'变成了一个可下注、可做市的金融标的——当一个还没发布的产品,它的'发布日期'本身就有六位数美元在博弈时,说明 AI 的注意力经济长出了二级市场。",
+        "axis": "不写参数(官方没发系统卡,参数都是猜的),换轴写'未发布模型的发布日为何成赌博标的'——从预测市场、信息差套利、OpenAI 发布择时来看 AI 行业的'期货化'。",
+        "why_worth": "读者会意识到 AI 竞赛的下一个观察指标不是 benchmark,而是'发布择时'本身被金融化。"
+      },
+      "review_note": "数字口径以稿成时实时为准,thesis 收口到'发布择时金融化',别写参数前瞻。"
+    },
+    {
+      "rank": 2,
+      "topic": "Databricks 创始人当众说:AGI 已经来了,只是没人让它进公司干活",
+      "category": "企业AI",
+      "score": 83,
+      "review_verdict": "keep",
+      "slug_hint": "databricks-agi-already-here",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AGI 瓶颈早不在'模型够不够聪明',而在 context/成本/控制三道工程墙——谁先让 Agent 安全碰到企业真实数据并采取行动,谁就拿走 AGI 真正的商业化红利,跟参数无关。",
+        "axis": "大家等某实验室宣布'AGI 诞生';本篇换轴——一个卖数据平台的人说 AGI 早来了,战场是'让 AI 在公司里上班'的基础设施。",
+        "why_worth": "读者重新理解 AGI 落地真实卡点:不是等更强模型,是数据能不能被 Agent 安全用起来。"
+      },
+      "review_note": "开头砸 Ghodsi 原话冲突,产品名词串成一条主线,核实 Panther 并购时效。"
+    },
+    {
+      "rank": 3,
+      "topic": "一年赚的钱几乎等于这轮融的钱:中国 AI 应用公司第一次证明能造血",
+      "category": "AI应用",
+      "score": 80,
+      "review_verdict": "keep",
+      "slug_hint": "liblib-evoken-arr-funding",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "中国 AI 估值锚从'技术能力折现'换成'真实收入'——演语(LiblibAI)ARR≈融资额,标志应用层叙事从'能不能做出来'翻篇到'能不能赚回来',赢家是做内容生产入口+创作者社区的。",
+        "dots": ["ARR 3亿美元≈本轮融资3亿", "LiblibAI 3000万用户/每3个设计师1个在用", "单一产品到 Evoken 集团化", "对标 Cursor/Suno/HeyGen"],
+        "why_worth": "读者拿到可迁移标尺:看 AI 应用值不值钱看 ARR/融资比值。"
+      },
+      "review_note": "导语切干净'应用层 ARR'与'大模型烧钱融资'两轴;ARR≈融资别写成因果。"
+    },
+    {
+      "rank": 4,
+      "topic": "消失 18 个月后,这位 OpenAI 前 CTO 复出:她要在巨头夹缝里造'第三种 AI'",
+      "category": "人物",
+      "score": 86,
+      "review_verdict": "swap-in",
+      "swap_reason": "替原#4苹果端侧(时效衰减+撞旧Siri叙事)。独立人物线,基线零重叠,冲突/期待强。",
+      "slug_hint": "mira-murati-thinking-machines-comeback",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "当所有人都在比谁的模型参数大、谁烧钱多时,Mira Murati 押的是相反方向——让 AI 像'双人自行车'一样实时和人协同(200 毫秒交互模型),而不是把人甩在身后;她赌的是 OpenAI-Google-Meta 寡头之外,还存在一个'人机协同'路线的独立第三极。",
+        "axis": "大家写她都盯'$50B 估值'和'被 Meta 挖角';本篇换轴到'路线之争'——她为什么坚持开放+人机协同+治理制衡,这套理念和她亲历的 Altman 罢免风波如何绑在一起。",
+        "dots": ["18个月沉默后首次公开露面", "Tinker 微调 API+交互模型路线", "$2B 种子轮/谈判 $50B 估值", "创始团队被 OpenAI 和 Meta 两头挖角", "亲历 Altman 罢免后对'治理不能押注单人'的反思"],
+        "counter_intuitive": "表面是一个留不住人的脆弱新厂;实际她在赌一条巨头都没走的路——AI 不该自主狂奔甩开人类。",
+        "why_worth": "读者看到 AI 竞赛除了'更大更强'还有一条'人机协同'的分叉路,以及一个亲历权力斗争的人为何如此执着于治理。"
+      },
+      "review_note": "聚焦路线之争与第三极,人才流失只作背景,别写成八卦;与#5错开(她讲路线,#5讲组织)。"
+    },
+    {
+      "rank": 5,
+      "topic": "花 143 亿挖来最贵的 AI 团队,扎克伯格却买不到一样东西",
+      "category": "商业观察",
+      "score": 82,
+      "review_verdict": "swap-in",
+      "swap_reason": "替原#5中国调用量(7天内第三篇'中国崛起'母题,dedup硬伤)。全新母题,组织/管理换轴,人物冲突强。",
+      "slug_hint": "meta-superintelligence-talent-paradox",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "钱能买来顶尖人才和算力,却买不来组织共识和使命感——Meta 用 143 亿美元买下 Scale AI、九位数年薪挖角组建'超级智能'团队,结果却陷入内部内耗;这暴露了一个被资本叙事盖住的真相:AI 竞赛的下一个瓶颈正从'钱和人'转移到'组织能不能让人才真正发挥'。",
+        "axis": "大家写 AI 竞赛都比钱、比人、比模型;本篇换轴到'组织与管理'视角——为什么最有钱的玩家反而陷入效率最低的状态,人才战的边际反噬。",
+        "dots": ["143亿买Scale AI+九位数挖角", "6500人应用AI团队被'征召'做重复打标", "Muse Spark 模型市场反响平平", "股价12个月跌18%为巨头最差", "扎克伯格内部承认'犯了错误'"],
+        "counter_intuitive": "钱和人才都买到了顶配,产出的却是最低的士气和最慢的进展——投入和产出第一次明显背离。",
+        "why_worth": "读者得到一个新判断维度:看一家公司能不能赢 AI,别只看它砸了多少钱挖了多少人,看它的组织能不能把人才变成战斗力。"
+      },
+      "review_note": "合规:走商业/管理悖论视角,客观提及士气作论据,不渲染裁员惨状、不用'古拉格/血洗'类情绪词、不做行业末日叙事(遵守MEMORY负能量红线)。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">科 技 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">AGI 已经来了<br>只是没人放它进公司上班</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">一个卖数据底座的人说 AGI 已来,他盯的不是参数表,而是另一件事。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">“我们认为 AGI 已经到了。AI 现在不缺智商,它够聪明了。问题是它还没真正渗进我们的组织。真正的问题是:<strong style="color:#e74c3c;">怎么让它在公司里干活?</strong>”</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">说这话的不是某个赶着发系统卡的模型实验室,而是 Databricks 的 CEO Ali Ghodsi。6 月中旬,旧金山 Moscone 中心,他在自家 Data + AI Summit 主舞台上,当着三万多名数据从业者,把整个行业等了好几年的那句话,轻飘飘说成了过去式。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话的分量,在于说它的人是谁。实验室喊“AGI 快来了”不稀奇,他们的融资叙事就靠这个续命。但 Ghodsi 卖的不是模型,他卖的是数据湖仓,是企业放数据的那个底座。一个卖“地基”的人跳出来说 AGI 已来,他盯的不是参数表,而是另一件事:<strong style="color:#e74c3c;">这玩意儿这么聪明了,为什么进了公司就变蠢?</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">智商不是瓶颈,这才是反直觉的地方</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先把一个数字摆这儿:据斯坦福那门讲 AI 超级周期的课上 Ghodsi 自己引的数据,企业 AI 的概念验证(POC),大约 <strong style="color:#e74c3c;">95% 跑不进生产</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">模型在 benchmark 上能解奥赛题、能写代码、能通过律考,可一旦放进一家真实公司,它就开始干蠢事。如果模型真有 AGI 水平,这个失败率根本说不通。Ghodsi 的解释很冷静:不是模型笨,是它没有上下文。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">“即便一个超级智能的模型,放进你公司也会干蠢事,因为它拿着的是一张残缺的地图。”</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">他打了个戳人的比方。每家公司里都有那么一个老员工,干了十五年、二十年,脑子里装着所有东西:哪条流程改过但从没写进文档,哪个客户群才会触发那个诡异的边缘情况,真正拍板时遵循的是哪条没人明说的潜规则。这个人的脑子,从没被搬进任何 AI 系统里。模型缺的不是智商,是这颗脑子。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是为什么 Ghodsi 把战场从“模型够不够强”整个挪走了。在他的坐标系里,AGI 落地卡在三道工程墙上,跟参数毫无关系:<strong style="color:#e74c3c;">上下文(context)、成本(cost)、控制(control)</strong>。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第一道墙:让 Agent 真的“看见”生产数据</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这道墙最根本。模型再聪明,看不见公司的真实数据,就是个外人。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Databricks 这次甩出来的东西,几乎全冲着“让 Agent 安全碰到真实生产数据”这一个目标。它发了一套新架构,官方叫 Lake TAP(事务/分析一体化处理),核心一句话:让 AI Agent 能在数据湖里同一份数据上,同时读运营库和分析库,再跨着一大堆生产数据库去观察、推理、动手。配套还有个实时引擎,据联合创始人 Reynold Xin 现场演示,<strong style="color:#e74c3c;">几万个 Agent 同时砸向同一个查询,延迟还能压在毫秒级</strong>,他说现有系统没一个能做到。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更值得琢磨的是 Genie 这条线。新发的 Genie One 底下挂了个叫 Genie Ontology 的“活上下文层”,持续从公司内外的业务数据里学,Ghodsi 把它类比成 Google 搜索的 PageRank,给企业数据做相关性排序。他给 Genie 下了句很狠的定义:</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">“Genie 是算出来的,别的 Agent 是背出来的。”</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">翻译过来就是:满大街的“企业 Agent”其实是套了层壳的检索增强,把文档塞进上下文窗口再让模型复述;而他要做的,是让 Agent 接上活的业务数据去现算。<strong style="color:#e74c3c;">前者是开卷抄答案,后者是真懂这家公司。</strong> 这中间的差距,恰恰就是那个跑不进生产的 95%。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第二道墙:Agent 越多,利润越薄</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这道墙最容易被忽略,但 Ghodsi 拿自家财报把它砸实了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">他告诉 CNBC,Databricks 年化营收同比涨了 <strong style="color:#e74c3c;">80% 多,冲到 69 亿美元</strong>。漂亮。可下一句他话锋一转:利润率在缩水,因为客户开始成批成批地部署 Agent,把成本推上去了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个微妙的点,值得停一下。当一家公司告诉你它营收暴涨、同时利润率在掉,而原因是“客户用得太凶”,这说明 Agent 经济正撞上一堵真实的墙:Token 烧得太快。Ghodsi 自己也认:“每家公司都在为成本失控发愁,这是我们被问得最多的问题。”</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以他们端出 Unity AI Gateway,一个管控层,把安全、成本管理、Agent 监控捏在一起。说白了,当公司里跑着成千上万个 Agent、每个都在疯狂调用模型,你得有个收费站,知道钱花在哪、哪个 Agent 在空转。<strong style="color:#e74c3c;">没有这道闸,Agent 进公司不是降本,是失血。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第三道墙:它要动手,你得拦得住</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">模型聪明、看得见数据、成本也压住了,最后还剩一个最让企业睡不着的问题:你敢让它动手吗?</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">让 Agent 读数据已经够慌,让它在生产环境里采取行动(改库、发指令、回工单),风险是另一个量级。Databricks 给出的答案是给 Agent 装护栏,这次还是真金白银买的。6 月 16 日,它官宣收购 AI 安全运营平台 <strong style="color:#e74c3c;">Panther</strong>,这是它在安全领域的第三笔并购。Panther 在 2021 年那轮融资后估值 14 亿美元,客户里有 Anthropic。Ghodsi 对 Reuters 把逻辑摊得明明白白:</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">“如果他们用 Agent 攻击你,你就得用 Agent 防守。以火攻火。”</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">他的判断是:AI 已经把攻击者钻漏洞的时间大幅压缩,老一套靠人工管告警的安全方式“已经死了”。当攻防双方都换上 Agent,人盯告警的速度根本不够看。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把三件事拎到一起看就清楚了:</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">Lake TAP</strong> 解决“让 Agent 看见数据”</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">Unity Gateway</strong> 解决“看住 Agent 花的钱”</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">Panther</strong> 解决“在 Agent 动手时兜住安全”</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">三件产品,串的是同一根主线:怎么让 Agent 安全地碰公司真实生产数据并采取行动。这根线,就是 Ghodsi 眼里 AGI 落地的全部。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">顺这条线推下去:红利不在模型层</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把三道墙叠在一起,会浮出来一个比“AGI 来没来”更值钱的结论。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果 Ghodsi 是对的,模型已经够聪明、卡点全在工程,那 AGI 的商业化红利就不在模型层。它会沿着一个老剧本往上爬:每一层基础设施被做成标准品,价值就往上面那一层迁移。Ghodsi 自己捋过这条历史线:PC 时代 IBM 称王,操作系统层被微软拿走,虚拟化归了 VMware,云基础设施归了 AWS。每一层一旦商品化,溢价就让给上面一层。他赌模型层也会这么压到接近零毛利,因为开源追得比多数人想象的快。真正能赚钱的,是离“公司怎么真实运转”最近的那一层。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就解释了一家卖数据底座的公司,为什么敢抢在实验室前面宣布 AGI 已来:按这套逻辑,谁先让 Agent 安全碰到企业真实数据、并且敢放它动手,谁就拿走红利,跟谁家模型多几个 B 参数没关系。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然,这只是 Ghodsi 这个坐标系里的故事,屁股决定脑袋的成分不能忽略,卖地基的人当然希望你相信地基才是胜负手。同一场峰会上,OpenAI 联合创始人 Greg Brockman 就轻轻顶了一句:“AGI 更像一种感觉,不是个有定义的东西。现在是当 builder 最好的时代。”一个站在应用基础设施这头,一个站在模型那头,两边对“AGI 到没到”的答案,本就取决于你站哪。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但有一点,无论你信不信 AGI 已来,都成立:下一轮竞争的胜负手,正在从“谁的模型更强”悄悄挪到“谁能让 AI 在公司里真的上班”。模型这几年一直是聚光灯的中心,而真正决定这波 AI 能不能变成钱的,可能是那些根本不发布参数、只忙着把数据接进 Agent 的人。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">地基的活儿不性感,但楼盖多高,从来是地基说了算。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你公司里的 AI,真的「上班」了吗</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
