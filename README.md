@@ -13,8 +13,8 @@
 
 | 文件 | 主题 | 更新时间 |
 |------|------|----------|
-| `gpt-5.5-wechat.html` | GPT-5.5 发布解读 | 2026-05-06 |
-| `embodied-ai-expose-wechat.html` | 具身智能行业调查 | 2026-05-06 |
+| `archive/gpt-5.5-wechat.html` | GPT-5.5 发布解读 | 2026-05-06 |
+| `archive/embodied-ai-expose-wechat.html` | 具身智能行业调查 | 2026-05-06 |
 
 ## 注意事项
 
