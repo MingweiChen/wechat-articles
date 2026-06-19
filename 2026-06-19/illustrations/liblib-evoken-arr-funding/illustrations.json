@@ -1,0 +1,52 @@
+{
+  "slug": "liblib-evoken-arr-funding",
+  "date": "2026-06-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/liblib-evoken-arr-funding",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-ai-design-studio.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/liblib-evoken-arr-funding/01-ai-design-studio.jpg",
+      "caption": "中国每三位设计师里就有一位在用它——星流做 AI 设计，LibTV 做 AI 视频，三条线卡住创意生产链",
+      "anchor": "## 把几个点串起来,才看得清它为什么\"贵得有道理\"",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "stock/ai-design-studio",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-creator-community.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/liblib-evoken-arr-funding/02-creator-community.jpg",
+      "caption": "累计 3000 万用户、50 万个原创模型、过亿份素材——社区攒数据，是它真正的护城河",
+      "anchor": "## 把几个点串起来,才看得清它为什么\"贵得有道理\"",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "stock/creator-community-gallery",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-valuation-finance.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/liblib-evoken-arr-funding/03-valuation-finance.jpg",
+      "caption": "给中国 AI 估值的那把尺正在换：从「模型多强」的折现，换成「ARR 和融资额的比值」",
+      "anchor": "## 真正变了的,是\"给中国 AI 估值的那把尺\"",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "stock/finance-arr-chart",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-global-valuation-gap.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06-19/illustrations/liblib-evoken-arr-funding/04-global-valuation-gap.jpg",
+      "caption": "同样的收入，在两个市场被定出两个价——中国科技资产的「结构性折价」，一家公司改变不了",
+      "anchor": "## 但别急着喊\"中国 AI 应用赢了\"",
+      "position": "after_heading",
+      "source": "ai-generated",
+      "source_url": "azure/gpt-image-2",
+      "width": "400px"
+    }
+  ]
+}
