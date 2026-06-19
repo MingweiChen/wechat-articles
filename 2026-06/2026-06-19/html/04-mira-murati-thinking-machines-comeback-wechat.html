@@ -41,12 +41,36 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Thinking Machines 押的方向叫<strong style="color:#e74c3c;">「交互模型(interaction models)」</strong>,逻辑正好相反:边听边说,同时进行。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">5 月 11 日,他们放出第一个自研模型 TML-Interaction-Small 的研究预览。它把输入切成 200 毫秒一小块连续处理,一边接收 200 毫秒、一边生成 200 毫秒,两条数据流踩在同一个时钟节拍上。官方报的轮替延迟约 0.40 秒,差不多是人正常对话的反应速度,也接近你眨一次眼的时间。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">技术上这叫 full duplex（全双工）。说人话:<strong style="color:#e74c3c;">它更像一通电话,而不是一条短信。</strong></p>
-<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0; overflow-x:auto;">
-<p style="font-size:15px; color:#1a1a2e; line-height:1.8; margin:0 0 8px 0; padding-bottom:8px; border-bottom:2px solid #e74c3c; font-weight:bold;">维度 | 主流「轮流制」模型 | Murati 押的「交互模型」</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0; padding-bottom:6px; border-bottom:1px dashed #e0e0e0;"><strong>维度</strong>: 工作方式  ｜  <strong>主流「轮流制」模型</strong>: 你说完→它答,轮流来  ｜  <strong>Murati 押的「交互模型」</strong>: 边听边说,同时进行</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0; padding-bottom:6px; border-bottom:1px dashed #e0e0e0;"><strong>维度</strong>: 答话时的感知  ｜  <strong>主流「轮流制」模型</strong>: 生成回复时对外界「冻结」  ｜  <strong>Murati 押的「交互模型」</strong>: 持续接收,可被打断、可插话</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0; padding-bottom:6px; border-bottom:1px dashed #e0e0e0;"><strong>维度</strong>: 响应速度  ｜  <strong>主流「轮流制」模型</strong>: 依赖外挂组件判断停顿  ｜  <strong>Murati 押的「交互模型」</strong>: 约 0.40 秒,接近真人对话</p>
-<p style="font-size:15px; color:#555; line-height:1.8; margin:0;"><strong>维度</strong>: 隐含的姿态  ｜  <strong>主流「轮流制」模型</strong>: AI 是被调用的工具  ｜  <strong>Murati 押的「交互模型」</strong>: AI 是同步在场的搭档</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">维度</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">主流「轮流制」模型</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">Murati 押的「交互模型」</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">工作方式</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">你说完→它答,轮流来</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">边听边说,同时进行</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">答话时的感知</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">生成回复时对外界「冻结」</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">持续接收,可被打断、可插话</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">响应速度</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">依赖外挂组件判断停顿</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">约 0.40 秒,接近真人对话</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">隐含的姿态</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">AI 是被调用的工具</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">AI 是同步在场的搭档</td>
+</tr>
+</tbody>
+</table>
 </section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">注意,这套东西现在还只是研究预览,没对公众开放,计划今年晚些再放更大版本。在此之前,公司真正出货的产品只有一个:Tinker,一个帮你微调开源模型的 API,2025 年 10 月上线。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一家估值被传到 500 亿的公司,到现在为止真正卖的东西,是一个面向开发者的微调工具。这件事本身就够「反直觉」了。</p>
