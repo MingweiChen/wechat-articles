@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T00:40:00Z",
+  "batch_verdict": "pass",
+  "review_rounds": 2,
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "用华为芯片、零英伟达，反超 GPT-5.5：GLM-5.2 把「算力封锁」变成了开源东风",
+      "category": "前沿",
+      "slug": "glm52-huawei-zero-nvidia",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "GLM-5.2 真正的信号不是「又一个国产模型刷榜」，而是它整条训练-推理链路零英伟达、跑在华为昇腾等国产算力上，还用最宽松的 MIT 协议开源——当封锁逼出了一条自给自足的算力栈，开源就从「追赶策略」变成了「绕开管制的护城河」。",
+        "axis": "不写 benchmark 谁高谁低（数字会过时），换轴写『一个被列入实体清单的实验室，如何用国产芯片把成本打到对手的 1/6，并把开源做成对冲地缘风险的武器』。",
+        "why_worth": "下一个看 AI 竞赛的指标，不是参数，而是『谁的模型不依赖被管制的硬件还能打到第一梯队』。"
+      },
+      "sources": [
+        "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+        "https://decrypt.co/371613/china-z-ai-glm-5-2-model-rivals-claude-opus",
+        "https://news.qq.com/rain/a/20260617A048NU00"
+      ],
+      "review_note": "数字口径(benchmark/价格/股价)以稿成时实时为准。地缘部分只写技术与商业事实(实体清单、出口管制、国产算力适配),严禁对任一国政府做价值判断或魔鬼化叙事;不出现任何买入股票的暗示。",
+      "score": 91
+    },
+    {
+      "rank": 2,
+      "topic": "一边裁掉 15 万人，一边造出 4400 个百万富翁：AI 成了裁员最好的「借口」",
+      "category": "趋势",
+      "slug": "ai-layoff-powder-keg",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "今年的科技裁员潮里，AI 更像「话术」而非「元凶」——公司利润创纪录却把人推出门，连 Andreessen 都直说 AI 是『裁员的银弹借口』，真问题是疫情期的过度招聘。当一边 15 万人失业、另一边 IPO 一夜造出几千个百万富翁，撕裂的不是技术曲线，是分配。",
+        "axis": "不站队『AI 会不会抢工作』的旧辩论，换轴写『AI 如何成为一种叙事工具：股价因裁员上涨，于是裁员需要一个体面的理由』。",
+        "why_worth": "理解这轮裁员，关键词不是『自动化』，而是『谁在为这套说辞买单、谁在受益』。"
+      },
+      "sources": [
+        "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+        "https://www.dqindia.com/news/meta-layoffs-2026-ai-restructuring-zuckerberg-mistakes-12038953",
+        "https://www.ndtvprofit.com/business/ai-paradox-salesforce-cuts-agentforce-jobs-weeks-after-touting-1-billion-plus-ai-revenue-11617154"
+      ],
+      "review_note": "保持中立观察，不煽动对立情绪、不做阶级动员式表述;数字以实时为准;只陈述公开事实与公开人物言论。",
+      "score": 89
+    },
+    {
+      "rank": 3,
+      "topic": "英伟达把人形机器人做成了「安卓」：黄仁勋送出参考设计，真正的钱在应用层",
+      "category": "机器人",
+      "slug": "nvidia-isaac-groot-android-of-robots",
+      "review_score": 87,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Isaac GR00T 不是又一台炫技人形机器人，而是英伟达把『身体(宇树)+手(Sharpa)+大脑(Jetson Thor)+仿真训练栈』打包成一套参考设计——复刻它当年用 CUDA 和安卓式平台『从底层吃掉整个市场』的剧本。当造机器人不再是难点，胜负就移到了『让机器人去干哪一件具体的活』的应用层。",
+        "axis": "不复述发布会参数，换轴写『平台战争』：谁掌握机器人的操作系统层，谁就像安卓之于手机一样从下往上拿走定价权;而最大的财富往往诞生在它上面那一层。",
+        "why_worth": "看人形机器人别只盯硬件谁更像人，要盯『谁在铺操作系统、应用层的空位留给了谁』。"
+      },
+      "sources": [
+        "https://www.inc.com/connor-jewiss/how-nvidias-new-humanoid-machine-solves-the-robot-industrys-biggest-problem/91361759",
+        "https://www.engadget.com/2184658/nvidia-isaac-gr00t-humanoid-robotic-platform/",
+        "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+      ],
+      "review_note": "纯技术/商业平台分析;涉及中美企业(英伟达/宇树)只写商业合作事实,不引申地缘政治评判;不暗示买卖任何股票。",
+      "score": 87
+    },
+    {
+      "rank": 4,
+      "topic": "没有头，也没有脸：这台人形机器人想终结「终结者美学」",
+      "category": "机器人",
+      "slug": "genesis-eno-faceless-humanoid",
+      "review_score": 84,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "当全行业都在比谁的机器人更像人——头、脸、双眼、拟人表情，Genesis AI 的 Eno 反着下注：没有头、没有脸，用完即折叠收进墙角，像一件北欧家具而非科幻怪物。它赌的是『我们真正愿意请进家的机器人，根本不该长得像人』，这可能是人形机器人的一次『iPhone 时刻』式审美反转。",
+        "axis": "不写机器人能力清单，换轴写『形态哲学之争』：拟人 vs 去拟人，哪一种设计才能跨过普通人心里的接受门槛(恐怖谷)，让机器人真正落进客厅。",
+        "why_worth": "机器人能否进家，卡点也许不在算法，而在『它该长什么样我们才不抗拒』。"
+      },
+      "sources": [
+        "https://www.forbes.com/sites/johnkoetsier/2026/06/16/is-eno-from-genesis-ai-the-iphone-moment-for-humanoid-robots/"
+      ],
+      "review_note": "单一信源,需在文中标注『厂商 pre-launch 演示、量产与规格仍在优化』,避免把 demo 当成已落地能力;保持冷静不吹捧。",
+      "score": 84
+    },
+    {
+      "rank": 5,
+      "topic": "AI 的「问责时代」来了：佛州起诉 OpenAI、股东起诉微软，风险从技术变成法律",
+      "category": "趋势",
+      "slug": "ai-accountability-era-lawsuits",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "2026 年 AI 的最大风险，正从『模型会不会出错』转向『出错了谁赔』。佛州把 OpenAI 告上法庭主打『产品设计缺陷』、微软被股东集体诉讼指控『夸大 AI、掩盖云增速放缓』、AI LEAD 法案要把 AI 系统按『产品责任』来管——这套组合拳，正在把 AI 从『伦理委员会的议题』拽进『运营和法务的议题』。",
+        "axis": "不写单个官司的八卦，换轴写『范式转移』：社交媒体当年走过的『从内容审核到产品责任』那条路，AI 正在被极速压缩地重走一遍，企业的合规窗口正在关闭。",
+        "why_worth": "判断一家 AI 公司能不能活，下一个关键变量不是模型多强，而是它的『可问责性』经不经得起诉讼。"
+      },
+      "sources": [
+        "https://www.inc.com/soren-kaplan/florida-just-sued-openai-over-chatgpt-heres-what-this-means-for-all-companies-involved-in-ai/91355777",
+        "https://www.neowin.net/news/microsoft-faces-shareholder-lawsuit-over-masking-ai-costs-and-slowing-azure-growth/"
+      ],
+      "review_note": "陈述诉讼为『指控/未决』,不预判判决;涉及未成年人安全话题谨慎措辞,不渲染自残等细节;中立呈现。",
+      "score": 85
+    }
+  ]
+}

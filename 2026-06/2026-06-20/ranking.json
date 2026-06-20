@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-20",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1, "prefix": "01", "score": 88,
+      "title": "一边裁掉15万人，一边造出4400个百万富翁，AI成了最体面的理由",
+      "slug": "ai-layoff-powder-keg",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-20/html/01-ai-layoff-powder-keg-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-20/html/01-ai-layoff-powder-keg-wechat.html",
+      "iterations": 1
+    },
+    {
+      "rank": 2, "prefix": "02", "score": 88,
+      "title": "英伟达把人形机器人做成了安卓，3万美元一台，真正的钱不在机器人",
+      "slug": "nvidia-isaac-groot-android-of-robots",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-20/html/02-nvidia-isaac-groot-android-of-robots-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-20/html/02-nvidia-isaac-groot-android-of-robots-wechat.html",
+      "iterations": 1
+    },
+    {
+      "rank": 3, "prefix": "03", "score": 87,
+      "title": "零英伟达、用华为芯片，GLM-5.2反超GPT-5.5，价格只要六分之一",
+      "slug": "glm52-huawei-zero-nvidia",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-20/html/03-glm52-huawei-zero-nvidia-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-20/html/03-glm52-huawei-zero-nvidia-wechat.html",
+      "iterations": 1
+    },
+    {
+      "rank": 4, "prefix": "04", "score": 87,
+      "title": "佛州起诉OpenAI、股东告微软，AI的问责时代用83页诉状开场",
+      "slug": "ai-accountability-era-lawsuits",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-20/html/04-ai-accountability-era-lawsuits-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-20/html/04-ai-accountability-era-lawsuits-wechat.html",
+      "iterations": 1
+    },
+    {
+      "rank": 5, "prefix": "05", "score": 82,
+      "title": "没有头也没有脸，这台20自由度的机器人想终结终结者美学",
+      "slug": "genesis-eno-faceless-humanoid",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-20/html/05-genesis-eno-faceless-humanoid-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-20/html/05-genesis-eno-faceless-humanoid-wechat.html",
+      "iterations": 1
+    }
+  ]
+}
