@@ -1,0 +1,56 @@
+{
+  "slug": "05-genesis-eno-faceless-humanoid",
+  "date": "2026-06-20",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/05-genesis-eno-faceless-humanoid",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-humanoid-industry-lineup.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/05-genesis-eno-faceless-humanoid/01-humanoid-industry-lineup.jpg",
+      "caption": "如今的人形机器人，几乎都在比谁更像人——头、躯干、双臂一应俱全",
+      "anchor": "## 全行业都在「比谁更像人」，它偏不",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Optimus_bot_at_Tesla_showroom_-_20251118_-_01.jpg",
+      "license": "CC BY-SA 4.0 (Sikander Iqbal / Wikimedia Commons)",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-faceless-humanoid-concept.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/05-genesis-eno-faceless-humanoid/02-faceless-humanoid-concept.jpg",
+      "caption": "砍掉头之后：一台无头无脸、像家具一样的人形机器人示意图",
+      "anchor": "## 为什么砍掉头？因为头里没有脑子",
+      "position": "after_heading",
+      "source": "ai",
+      "source_url": "openai/gpt-image-2",
+      "license": "AI-generated (gpt-image-2)",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-uncanny-valley-concept.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/05-genesis-eno-faceless-humanoid/03-uncanny-valley-concept.jpg",
+      "caption": "「恐怖谷」：越像人却又不完全像人，反而让人本能地觉得诡异",
+      "anchor": "## 这其实是一场关于「恐怖谷」的赌局",
+      "position": "after_heading",
+      "source": "ai",
+      "source_url": "azure/gpt-image-2",
+      "license": "AI-generated (gpt-image-2)",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-dexterous-robot-hand.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/05-genesis-eno-faceless-humanoid/04-dexterous-robot-hand.jpg",
+      "caption": "灵巧的多自由度机械手——长短不一的手指，能看也能摸，才是它真正的底气",
+      "anchor": "## 手，才是它真正的底气",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shadow_Hand_Bulb_large.jpg",
+      "license": "CC BY-SA 3.0 (Shadow Robot Company / Wikimedia Commons)",
+      "width": "400px"
+    }
+  ]
+}
