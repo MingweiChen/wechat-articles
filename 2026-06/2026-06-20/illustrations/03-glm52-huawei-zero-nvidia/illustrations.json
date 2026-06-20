@@ -1,0 +1,41 @@
+{
+  "slug": "03-glm52-huawei-zero-nvidia",
+  "date": "2026-06-20",
+  "count": 3,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-ai-chip-closeup.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/01-ai-chip-closeup.jpg",
+      "caption": "一块处理器芯片——当进口被掐断，算力的起点回到了硅片本身",
+      "anchor": "## 当被封锁的一方，把硬件依赖归了零",
+      "position": "before_heading",
+      "source": "ai",
+      "source_url": "azure-gpt-image-2",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-server-racks.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/02-server-racks.jpg",
+      "caption": "成排运转的服务器——训练与推理的成本，藏在这一格格机柜里",
+      "anchor": "## 成本打到 1/6，开源就不再只是「追赶」",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-neural-network.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/03-neural-network.jpg",
+      "caption": "神经网络示意——下一个值得盯的指标，不在参数量里",
+      "anchor": "## 下一个看 AI 竞赛的指标，不是参数",
+      "position": "after_heading",
+      "source": "ai",
+      "source_url": "azure-gpt-image-2",
+      "width": "400px"
+    }
+  ]
+}
