@@ -1,0 +1,52 @@
+{
+  "slug": "04-ai-accountability-era-lawsuits",
+  "date": "2026-06-20",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/04-ai-accountability-era-lawsuits",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-courthouse-gavel.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/04-ai-accountability-era-lawsuits/01-courthouse-gavel.jpg",
+      "caption": "「产品、设计、缺陷」——这套措辞绕开了护了平台二十年的内容免责盾，把战场从「内容该不该管」搬到了「产品安不安全」",
+      "anchor": "## 为什么「产品设计缺陷」这五个字，比官司本身更重要",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://www.pexels.com/photo/close-up-photo-of-wooden-gavel-5668473/",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-scales-of-justice.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/04-ai-accountability-era-lawsuits/02-scales-of-justice.jpg",
+      "caption": "三步连成一条线：法律系统正在给 AI 重新归类，从「会说话的内容」改判为「会出事的产品」",
+      "anchor": "## 把四件事串成一条线",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://www.pexels.com/photo/statue-of-lady-justice-with-scales-30483129/",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-legal-documents.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/04-ai-accountability-era-lawsuits/03-legal-documents.jpg",
+      "caption": "另一场官司盯的是 AI 怎么讲故事——股东集体诉讼指控「夸大 AI 进展、掩盖云业务放缓」，问责从产品端推到了财报端",
+      "anchor": "## 微软那场官司，把「问责」从产品端推到了财报端",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://www.pexels.com/photo/man-hands-on-table-showing-contract-papers-8815872/",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-contract-compliance.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/04-ai-accountability-era-lawsuits/04-contract-compliance.jpg",
+      "caption": "「我只是调了个 API」不再是免责声明——责任正在往「谁用了它」蔓延，整条 AI 应用链上的部署方都在这张网里",
+      "anchor": "## 责任正在往「谁用了它」蔓延",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://www.pexels.com/photo/person-signing-a-contract-5387258/",
+      "width": "400px"
+    }
+  ]
+}

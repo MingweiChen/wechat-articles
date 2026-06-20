@@ -12,6 +12,10 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是 GLM-5.2 最该被记住的一行参数。不是 753B 的总参数，不是 100 万 token 的上下文，也不是 MIT 协议四个字母，而是<strong style="color:#e74c3c;">它跑在华为昇腾上，整条链路零英伟达，却把价格打到了对手的六分之一</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">智谱（Z.ai）这家实验室，名字早就躺在某大国的实体清单里。被掐断顶级 GPU 供应的公司，本该是落后者。可 6 月 16 日开源的这个模型，在 FrontierSWE 这类长链路编程基准上拿到 74.4 分，<strong style="color:#e74c3c;">反超了 OpenAI 的 GPT-5.5（72.6 分），离 Claude Opus 4.8 只差约一个百分点</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">大多数报道会去比这些数字谁高谁低。但数字会过时，三个月后榜单又换一轮。真正不会过时的，是这句话背后的坐标系变了。</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/01-ai-chip-closeup.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">一块处理器芯片——当进口被掐断，算力的起点回到了硅片本身</p>
+</section>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">当被封锁的一方，把硬件依赖归了零</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去三年，看一家中国 AI 公司行不行，默认的尺子是「它能搞到多少英伟达卡」。卡多 = 有未来，卡少 = 慢慢掉队。整个行业的焦虑，都建立在「算力 = 进口硬件」这个等式上。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">GLM-5.2 把这个等式划掉了。</p>
@@ -19,6 +23,10 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个很容易被忽略的反转：实体清单的本意是减速，结果却逼出了一条完整的自给算力栈。当进口这条路被堵死，剩下的唯一选项就是把国产链路真正跑通。不是 PPT 上的「兼容」，而是拿一个全球前列的模型，把整条国产链路从训练到推理实打实压测了一遍。这种验证，过去三年没有任何一家公司有动力去做，因为只要还能买到英伟达，就没人愿意走这条更难的路。</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">被卡住硬件供应的一方，反而最先证明了「不用那块硬件也能打」。约束没有变成天花板，变成了一条被迫挖通的隧道。</blockquote>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">成本打到 1/6，开源就不再只是「追赶」</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/02-server-racks.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">成排运转的服务器——训练与推理的成本，藏在这一格格机柜里</p>
+</section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">零英伟达不是一句口号，它直接落到了价格上。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">外界估算 GLM-5.2 的训练投入约 2500 万美元，对照动辄数亿美元的前沿模型，这是一个数量级的差距；落到 API 上，调用价格约为对手的六分之一。便宜不是因为偷工减料，而是因为算力账本的结构变了：不再为进口硬件的稀缺性付一笔看不见的溢价。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把这几件事串起来，结论就不是「又一个国产模型刷榜」那么简单了：</p>
@@ -31,6 +39,10 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这条链推到尽头，开源的角色就变了。早几年，国产模型开源更像一种「追赶策略」：免费放出来，换社区、换口碑、换迭代速度。<strong style="color:#e74c3c;">而现在，当模型本身就长在不依赖管制硬件的栈上，开源就成了一道护城河</strong>：你管得住硬件出口，却管不住一份已经挂在 Hugging Face 和魔搭上、全世界都能拉下来的权重。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">封锁能拦住芯片这种「物」，拦不住权重这种「比特」。这是两种完全不同的东西。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">下一个看 AI 竞赛的指标，不是参数</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/03-glm52-huawei-zero-nvidia/03-neural-network.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">神经网络示意——下一个值得盯的指标，不在参数量里</p>
+</section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">所以这件事真正的信号是什么？</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">不是 GLM-5.2 多强，强的模型每个月都有。是它顺手证明了一条以前没人敢确认的路径：<strong style="color:#e74c3c;">一个被掐住进口硬件的实验室，可以用本土芯片、本土工具链，造出一个全球第一梯队、且价格只有六分之一的开源模型</strong>。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺着这条线往下推，评判 AI 竞赛的那把尺子会换。以前比参数量、比谁的卡多；接下来更值得盯的是另一个问题：</p>

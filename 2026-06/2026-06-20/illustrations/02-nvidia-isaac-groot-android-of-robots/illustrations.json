@@ -1,0 +1,52 @@
+{
+  "slug": "02-nvidia-isaac-groot-android-of-robots",
+  "date": "2026-06-20",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/02-nvidia-isaac-groot-android-of-robots",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-unitree-h2-humanoid.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/02-nvidia-isaac-groot-android-of-robots/01-unitree-h2-humanoid.jpg",
+      "caption": "宇树 H2 人形机器人——GR00T 参考设计选用的「身体」，近 6 英尺、全身 31 个自由度",
+      "anchor": "## 一份「参考设计」，藏着整个剧本",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://interestingengineering.com/innovation/china-new-humanoid-robot-unitree-h2",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-platform-stack-foundation.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/02-nvidia-isaac-groot-android-of-robots/02-platform-stack-foundation.jpg",
+      "caption": "平台打法的精髓：先铺好底座，再让所有人「在你这层上面盖楼」",
+      "anchor": "## 这一幕，英伟达演过两次了",
+      "position": "after_heading",
+      "source": "ai",
+      "source_url": "azure-gpt-image-2",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-warehouse-logistics-robots.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/02-nvidia-isaac-groot-android-of-robots/03-warehouse-logistics-robots.jpg",
+      "caption": "眼下绝大多数「落地」还困在仓库这种封闭场景——胜负手在应用层",
+      "anchor": "## 难点挪到哪去了？应用层",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ocado_warehouse_bots.jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-platform-war-value-up.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/02-nvidia-isaac-groot-android-of-robots/04-platform-war-value-up.jpg",
+      "caption": "身体会越来越便宜，系统会越来越隐形，而钱，永远往上走一层",
+      "anchor": "## 看这场仗，别盯着机器人的脸",
+      "position": "after_heading",
+      "source": "ai",
+      "source_url": "azure-gpt-image-2",
+      "width": "400px"
+    }
+  ]
+}

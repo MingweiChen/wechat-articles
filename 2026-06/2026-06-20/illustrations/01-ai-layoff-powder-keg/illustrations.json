@@ -1,0 +1,52 @@
+{
+  "slug": "01-ai-layoff-powder-keg",
+  "date": "2026-06-20",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/01-ai-layoff-powder-keg",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-empty-office.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/01-ai-layoff-powder-keg/01-empty-office.jpg",
+      "caption": "疫情两年招得太满的工位，如今空空荡荡——AI 只是把这场纠错说得体面些",
+      "anchor": "## 「银弹借口」",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Empty_room_of_office.jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-cube-farm.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/01-ai-layoff-powder-keg/02-cube-farm.jpg",
+      "caption": "一排排格子间——账本上被「优化」掉的，是利润创纪录公司里的真实头数",
+      "anchor": "## 账本对不上",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cube_Farm.jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-lone-worker.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/01-ai-layoff-powder-keg/03-lone-worker.jpg",
+      "caption": "灯光暗下来的开放办公区，只剩一个还没离场的人——近 15 万个名字背后的另一张名单",
+      "anchor": "## 同一周的两张名单",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lone_office_worker_(Unsplash).jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-wall-street-sign.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-20/illustrations/01-ai-layoff-powder-keg/04-wall-street-sign.jpg",
+      "caption": "当股价开始奖励裁员，AI 就从生产力工具，变成了一件好用的叙事工具",
+      "anchor": "## 火药桶的真正引信",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_Street_Sign_NYC.jpg",
+      "width": "400px"
+    }
+  ]
+}
