@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-21",
+  "dedup_basis_ref": "candidates.json dedup_basis",
+  "selected": [
+    {
+      "rank_hint": 1,
+      "slug": "apple-siri-gemini-outsourced-brain",
+      "topic": "隐私立身的苹果，把Siri的大脑外包给最大对手：每年10亿租Gemini，跑在英伟达B200上",
+      "category": "产品",
+      "score": 88,
+      "sources": ["https://thenextweb.com/news/apple-wwdc-2026-siri-ai-gemini-ios-27", "https://www.techtimes.com/articles/317985/20260608/", "https://thenextweb.com/news/apple-siri-google-gemini-nvidia-privacy-wwdc", "https://www.cnbctv18.com/technology/apple-brings-google-gemini-to-siri-at-wwdc-2026-ahead-of-tim-cooks-ceo-exit-ws-l-19921848.htm"],
+      "hook": "把隐私当premium产品的苹果，最核心的Siri大脑交给了最大对手——1.2万亿参数定制Gemini，跑在谷歌云的英伟达B200上",
+      "angle": "苹果不是终于追上AI，而是体面地承认自研失败、并把这场失败包装成隐私架构胜利",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "苹果这次真正发布的不是Siri，是一套'承认打不过就外包、但用三层隐私架构把外包说成自己赢'的体面叙事——它标志着'全栈自研'神话在消费AI端正式破产",
+        "dots": ["1.2万亿参数Siri其实是定制Gemini，每年付谷歌约10亿美元", "最重磅推理跑在谷歌云的英伟达B200上，苹果自己只留端侧小模型", "上一代Siri承诺跳票两年、刚赔了2.5亿美元集体诉讼", "这是库克最后一场keynote，9月交棒给硬件出身的Ternus"],
+        "axis": "大家都写'苹果AI终于发力/Siri变聪明了'，本篇换轴写'苹果用隐私话术给一次自研失败做了最体面的台阶'",
+        "counter_intuitive": "表面是苹果隐私护城河的延伸，实际是把最敏感的推理交给了它在搜索和操作系统上最大的对手",
+        "why_worth": "几乎所有报道都在夸Siri功能，没人把'10亿/年租对手大脑+跑对手芯片+刚赔完跳票官司+库克谢幕'这四点串起来，得出'全栈自研神话破产'这个判断"
+      },
+      "urgency": "high",
+      "dedup": "低重复：苹果Siri/WWDC过去一周未写过"
+    },
+    {
+      "rank_hint": 2,
+      "slug": "ai-disproves-erdos-conjecture-vs-retrieval-fiasco",
+      "topic": "AI第一次'创造'了人类不知道的数学知识：推翻Erdős坚守80年的猜想——而7个月前同一家公司还因把'检索已有答案'当'解题'被当众打脸",
+      "category": "科技",
+      "score": 85,
+      "review_score": 85,
+      "review_verdict": "keep",
+      "sources": ["https://openai.com/index/model-disproves-discrete-geometry-conjecture/", "https://www.nature.com/articles/d41586-026-01651-0", "https://www.sciencealert.com/stunning-ai-solution-for-80-year-old-problem-shocks-mathematicians", "https://www.techtimes.com/articles/316955/20260521/openai-model-cracks-80-year-erds-conjecture-verified-its-harshest-previous-critic.htm", "https://phys.org/news/2026-05-ai-major-breakthrough-math-problem.html"],
+      "hook": "同一家公司，7个月前因把'检索文献里已有答案'吹成'解开难题'被打假删帖，这次让一个通用模型自主推翻了Erdős坚守80年的猜想，9位数学家联署验证、Gowers说可无保留登Annals",
+      "angle": "复述≠创造——AI给这个争论第一次提供了一个可验证的判定标准",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "把同一家公司的两件事并置——2025年10月宣称'解决10个Erdős问题'实为检索已有证明被打假、副总裁删帖4月离职，2026年5月一个通用推理模型自主推翻Erdős单位距离猜想并通过9位外部数学家验证——恰好标出了AIGC时代最关键的那条线：复述不是创造，而这次AI真的跨过去了",
+        "dots": ["2026年5月OpenAI内部通用模型推翻Erdős#90单位距离猜想，用代数数论从高维格投影回平面，证明ν(n)≥n^(1+δ)", "9位外部数学家联署验证、含曾打假上一次的Bloom；Fields奖得主Gowers称可无保留登Annals", "7个月前2025年10月副总裁Weil宣称解决10个Erdős问题，实为检索文献已有证明，被Bloom斥'严重失实'、Hassabis称'尴尬'、Weil于4月离职", "DeepMind同期用自家模型解了9个Erdős小问题；Will Sawin随后把指数精确到δ=0.014"],
+        "axis": "别人都写'AI解出数学难题好厉害'，本篇换轴写'同一家公司一次复述翻车、一次原创封神，正好划清复述与创造的界线'，咬合本号信息增量内核",
+        "counter_intuitive": "表面是AI能力的一次突破，实际是给'AIGC到底算不算创造'这个争论第一次提供了可验证的判定标准",
+        "why_worth": "国内号多半只会翻译'AI解开80年数学难题'，没人把它和7个月前同公司的检索翻车并置，得出'复述≠创造、AI这次真跨过去了'的判断——这正是本号一直在讲的信息增量内核"
+      },
+      "urgency": "high",
+      "dedup": "低重复：AI做原创数学发现/Erdős主题过去一周未写；替换原Shazeer选题(事实红线风险+组织病母题重复)"
+    },
+    {
+      "rank_hint": 3,
+      "slug": "karpathy-claude-md-rules-layer-war",
+      "topic": "一个65行的txt文件登顶GitHub：AI竞争正从'模型能力'转向'约束模型的规则层'",
+      "category": "开源",
+      "score": 82,
+      "sources": ["https://www.computeleap.com/blog/karpathy-claude-md-template-skills-github-stars-viral/", "https://github.com/trending?since=weekly", "https://ossinsight.io/trending/ai", "https://www.developersdigest.tech/blog/karpathy-claude-md-skills-menu"],
+      "hook": "不是框架不是SDK，一个纯文本文件一天5800星冲到全球第二；NVIDIA这周还上线了给AI技能'杀毒'的扫描器",
+      "angle": "当人人都能调最强模型，真正稀缺的是'怎么管住模型'的那层规则和纪律",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Karpathy规则文件爆火+NVIDIA技能扫描器+各种skills库霸榜，是同一件事的三个切面：AI竞争的主战场正从'谁的模型更强'下移到'谁能更好地约束和编排模型'，模型本身正在变成可替换的底座",
+        "dots": ["forrestchang/andrej-karpathy-skills单日5800星、全球第二，核心就一个65行CLAUDE.md", "NVIDIA SkillSpector本周冲榜：专门扫描AI agent skills的安全漏洞", "GitHub周榜headroom/agent-skills/系统提示词泄露库集体霸榜", "findarepo数据：147个Claude工具、124个MCP server被追踪"],
+        "axis": "大家都写'又一个repo爆火了'，本篇换轴写'爆的不是某个repo，是整个【规则与编排层】成了新战场，这是平台成熟度的标志(类比2013年npm/2018年k8s operator)'",
+        "counter_intuitive": "表面是开发者圈一个梗式爆款，实际是模型商品化的早期信号——大家开始给'随时可换的模型'造管理层",
+        "why_worth": "国内号多半只会翻译'Karpathy规则火了'，没人把它+NVIDIA扫描器+skills霸榜串成'规则层战争/模型商品化'的判断并给出npm/k8s类比"
+      },
+      "urgency": "medium",
+      "dedup": "中重复：GitHub开源06-17碰过(反AI垃圾)，本次是'规则层/技能生态'全新事件与角度"
+    },
+    {
+      "rank_hint": 4,
+      "slug": "ai-video-unit-economics-bytedance-vs-openai",
+      "topic": "AI视频的单位经济学：一边OpenAI养不起关掉旗舰Sora，一边字节把单秒成本砍到5毛",
+      "category": "商业",
+      "score": 80,
+      "sources": ["https://news.qq.com/rain/a/20260616A07SHE00", "https://theconversation.com/elon-musk-vs-sam-altman-how-the-legal-battle-of-the-tech-billionaires-could-shape-the-future-of-ai-281732"],
+      "hook": "同一条赛道，最贵的那个因为每天烧100万美元算力被关掉，最便宜的那个把单秒成本压到5毛钱",
+      "angle": "AI视频的胜负手不是谁效果炸，是谁先把'单位成本×调用量'这道账算平",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "AI视频这一年真正的分水岭不是模型效果，而是单位经济学：OpenAI关掉日烧百万、还拖垮10亿迪士尼合作的Sora，字节用Seedance 2.0 Mini把单秒打到0.5元主攻电商批量——决定生死的是成本结构而非炫技",
+        "dots": ["OpenAI上市前悄悄关停旗舰视频模型Sora，关停前日烧约100万美元算力，并带走10亿美元迪士尼合作", "字节Seedance 2.0 Mini单秒成本降到0.5元、比标准快速版快2倍，定位电商营销批量生产", "AI视频是开源AI里最快的赛道(findarepo)，但落地拼的是高频大批量的边际成本"],
+        "axis": "大家都写'某视频模型效果炸裂/又出新模型'，本篇换轴只算一笔账：单位成本×调用频次，谁先转正谁活下来",
+        "counter_intuitive": "表面是OpenAI技术领先，实际是它在视频上输给了自己的成本结构；字节赢的不是模型而是会计",
+        "why_worth": "把'OpenAI关Sora'和'字节砍到5毛'这两条平时分开报的新闻并到一张成本表上看，得出'AI视频拼会计不拼炫技'的判断，是别处没有的增量"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：AI视频成本主题过去一周未写"
+    },
+    {
+      "rank_hint": 5,
+      "slug": "ai-giants-brake-pedal-vs-ipo-gas-pedal",
+      "topic": "史上最贵的两个对手罕见联手喊'AI快失控了，求政府给踩刹车的权力'——可同一周，它们都在抢千亿美元IPO踩油门",
+      "category": "商业",
+      "score": 80,
+      "review_score": 80,
+      "review_verdict": "keep",
+      "sources": ["https://www.studioglobal.ai/discover/answers/what-recent-proposals-have-openai-and-anthropic-6a28aa4ab4909f172852ab1b", "https://aidailybrief.ai/e/2026-06-11", "https://www.politico.com/news/2026/06/18/white-house-talks-with-anthropic-shift-to-setting-ai-security-rules-00967758", "https://www.channelnewsasia.com/business/anthropic-v-openai-behind-bitter-battle-future-ai-6176571", "https://www.nbcnews.com/tech/tech-news/anthropic-rankles-users-safety-first-fable-release-rcna349702"],
+      "hook": "6月初OpenAI和Anthropic罕见同声呼吁建立'有暂停权'的全球监管机构——可同一周，两家都在冲史上最大的千亿美元IPO",
+      "angle": "喊'踩刹车'=给自己造监管护城河，安全叙事是IPO估值的一部分",
+      "writing_approach": {
+        "increment_path": "换轴+串点",
+        "thesis": "OpenAI和Anthropic 6月初罕见同声呼吁设立'有暂停权'的全球监管机构，表面是安全自觉，实际是两家冲千亿IPO前的叙事博弈——把'AI太危险、只有我们能管'做成监管护城河，越喊危险越能锁死赛道、把后来者和开源挡在门外",
+        "dots": ["Anthropic 6/4发报告《When AI Builds Itself》自曝merge进自家代码库的80%已由Claude所写、警告递归自我改进6-12个月内可能到来、呼吁全行业可验证的暂停机制", "OpenAI 6/9 Altman+首席科学家Pachocki备忘录更进一步、提议设有'暂停前沿开发'权力的国际组织、预测2028年3月AI将自己做相当一部分研究", "同期两家都在冲史上最大IPO：Anthropic 9650亿估值6/1秘密递表、OpenAI 8520亿目标冲万亿9月上市", "对照刚发生的Fable 5事件：Anthropic因悄悄给AI研究类请求降智被开发者批'只想当前沿AI唯一仲裁者'"],
+        "axis": "别人都写'AI巨头呼吁监管真有责任感'，本篇换轴写'呼吁踩刹车=给自己造监管护城河，安全叙事是IPO估值的一部分'",
+        "counter_intuitive": "表面是安全良心发现，实际是用'危险'两个字做监管套利+IPO叙事，最大受害者是开源和后来者",
+        "why_worth": "多数号会把两家呼吁监管写成'巨头有责任感'，本篇把6/1递表、6/4自曝喊暂停、6/9提暂停权国际组织、同期冲万亿IPO的时间线并到一起，再用Fable降智事件做实锤，得出'安全叙事=监管护城河+IPO叙事'的判断"
+      },
+      "urgency": "high",
+      "dedup": "低重复：换轴=监管护城河/IPO叙事套利，区别于已写的'AI问责诉讼''DeepMind失控警告'；替换原Mistral选题(传播力弱、review判swap)"
+    }
+  ]
+}

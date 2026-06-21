@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-21",
+  "articles": [
+    {
+      "slug": "ai-disproves-erdos-conjecture-vs-retrieval-fiasco",
+      "title": "OpenAI模型推翻80年数学猜想：这次不是检索，是真的创造。",
+      "score": 88,
+      "rank0": 2,
+      "prefix": "01"
+    },
+    {
+      "slug": "ai-video-unit-economics-bytedance-vs-openai",
+      "title": "OpenAI养不起关掉Sora，字节把AI视频做到5毛一秒。",
+      "score": 84,
+      "rank0": 4,
+      "prefix": "02"
+    },
+    {
+      "slug": "apple-siri-gemini-outsourced-brain",
+      "title": "苹果给Siri换上对手的大脑：每年近10亿租Gemini跑在B200上。",
+      "score": 82,
+      "rank0": 1,
+      "prefix": "03"
+    },
+    {
+      "slug": "karpathy-claude-md-rules-layer-war",
+      "title": "一个65行的文本文件登顶GitHub：AI竞争换了主战场。",
+      "score": 82,
+      "rank0": 3,
+      "prefix": "04"
+    },
+    {
+      "slug": "ai-giants-brake-pedal-vs-ipo-gas-pedal",
+      "title": "两大对手罕见联手喊给AI踩刹车，同一周却都在抢千亿IPO。",
+      "score": 82,
+      "rank0": 5,
+      "prefix": "05"
+    }
+  ]
+}

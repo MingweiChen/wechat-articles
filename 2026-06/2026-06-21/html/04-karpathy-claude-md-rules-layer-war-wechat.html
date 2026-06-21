@@ -1,0 +1,100 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">开 源 · 技 术 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">一个65行的文本文件登顶GitHub<br>AI竞争正从模型能力，转向约束模型的规则层</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">不是框架不是SDK，一个纯文本文件冲到全球第二，背后是一场刚刚开始的规则层战争。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">一个纯文本文件，一天涨了将近<strong style="color:#e74c3c;">5800颗星</strong>，冲到全球第二。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">不是框架，不是SDK，没有安装脚本。就是一个你拖进项目根目录的<code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">.md</code>文件，名字叫CLAUDE.md，全文不到65行。它甚至不是Karpathy本人写的，只是有人把他对“大模型写代码时怎么翻车”的零散观察整理成了一份规则清单，挂上了他的名字。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">七个平台同一天集体点亮：GitHub、HN、Reddit、X、两个YouTube圈、Substack。这种全网共振，一年也见不到几次。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">大多数号会把它写成“又一个repo火了”。但如果你只盯着这一个文件，会错过它背后真正在发生的事。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">把三件事放一起看</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/karpathy-claude-md-rules-layer-war/01-github-trending.jpg" style="width:380px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">GitHub Trending 实时榜单——围绕模型的外围工具正集体冲榜</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这周GitHub上还热闹了几件别的事，单看都是孤立新闻，串起来才有意思：</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">事件</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">表面</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">共同点</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">Karpathy规则文件爆火</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">一个梗式爆款</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">教模型“该怎么干活”</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">NVIDIA上线SkillSpector</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">安全工具冲榜</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">给AI技能“杀毒”查漏洞</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">agent-skills/提示词泄露库霸榜</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">开发者抄作业</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">都在攒“怎么调教模型”的资产</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">findarepo追踪到147个Claude工具、124个MCP server</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">生态数据</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">围绕模型的外围层在膨胀</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">注意，这四件事<strong style="color:#e74c3c;">没有一件是关于模型本身的</strong>。没人在讨论谁家参数更多、谁的benchmark更高。所有热度都聚在一个地方：<strong style="color:#e74c3c;">怎么管住模型、怎么编排模型、怎么给模型立规矩。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是那条草蛇灰线。爆的不是某个repo，是整个“规则与编排层”突然成了开发者最焦虑、最愿意付费、最舍得花时间的地方。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">为什么一个txt能值5800颗星</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/karpathy-claude-md-rules-layer-war/02-karpathy.jpg" style="width:300px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Andrej Karpathy——这份规则清单被挂上了他的名字（图源 Wikimedia Commons，CC0）</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先说清楚CLAUDE.md是什么。它躺在项目根目录，Claude Code一启动就自动读进去，当成整个会话的上下文。你可以把它理解成一份<strong style="color:#e74c3c;">你自己能改的系统提示词</strong>——区别是它跟代码一起进版本库，能分享给团队，改它不用碰任何配置界面。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">Karpathy这份模板真正聪明的地方，是它克制。官方最佳实践里有句话点破了关键：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">模型大概只有150到200条指令的“服从预算”，系统提示词本身就吃掉了50条。CLAUDE.md一旦太长，Claude会忽略掉一半，因为重要规则淹没在噪音里。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">多数人把CLAUDE.md当成“我所有偏好的垃圾桶”，越写越长，结果模型一条都记不住。Karpathy的版本反过来，全文压在65行，只干一件事：<strong style="color:#e74c3c;">把模型最常犯的那几个错，写成不可逾越的行为契约。</strong>比如“别假设、别藏起你的困惑、把取舍摆到台面上”。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">5800颗星投的不是这个文件本身，是这个共识：<strong style="color:#e74c3c;">当模型已经足够强，真正稀缺的是怎么约束它。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这不是新鲜事，软件史上演过两遍</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/karpathy-claude-md-rules-layer-war/03-claude-md-file.jpg" style="width:380px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">CLAUDE.md 躺在项目根目录，启动即被自动读取——一份能进版本库的「系统提示词」</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这里有个容易被忽略的点。“底座成熟、价值上移”这件事，在技术史上不是第一次发生。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">2013年前后，JavaScript的运行时早就稳定了，V8引擎谁也卷不动了。那一年真正爆发的是<strong style="color:#e74c3c;">npm</strong>——包管理、依赖编排、生态约定。语言本身变成了水电，所有人开始比“谁的工程组织能力更强”。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">2018年的Kubernetes也一样。容器技术本身已经标准化，真正的战场转移到了<strong style="color:#e74c3c;">Operator</strong>这一层——怎么声明式地编排、约束、自动化运维这些容器。底层的“能力”不再是壁垒，“怎么管理这些能力”才是。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">按这个逻辑推下去，今天AI圈正在重演同一幕：</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 模型能力本身正在<strong style="color:#e74c3c;">快速趋同、快速商品化</strong></p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 真正的护城河上移到了“规则层”和“编排层”</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 谁能更好地约束、调度、复用模型，谁就赢</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一个65行txt能冲到全球第二，不是因为开发者无聊，是因为这是<strong style="color:#e74c3c;">平台走向成熟的标准信号</strong>。npm火的时候、Operator火的时候，圈外人也都觉得“不就是个配置文件吗”。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">反过来想，这对模型厂商是坏消息</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/karpathy-claude-md-rules-layer-war/04-rules-layer-arch.jpg" style="width:380px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">价值正在上移：从「模型底座」到「规则层」再到「编排层」</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这件事还有一层更扎心的味道。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果竞争主战场真的从“模型能力”下移到了“规则与编排”，那意味着什么？意味着<strong style="color:#e74c3c;">模型本身正在变成可替换的底座。</strong>今天你的CLAUDE.md写给Claude，明天换个更便宜的模型，规则照样能用，你积累的资产在规则层，不在模型层。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">NVIDIA这周上线SkillSpector，专门扫描AI agent技能的安全漏洞，恰恰是个佐证。<strong style="color:#e74c3c;">你不会给一次性的东西配杀毒软件。</strong>只有当“技能”“规则”这些外围资产开始被当成需要长期维护、需要安全审计的基础设施，这套生态才算真正立住了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以表面上，这是开发者圈一个有点好玩的爆款。往深里看，这是模型商品化的早期信号——所有人都在悄悄给“一个随时可以换掉的模型”，搭建它的管理层。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">模型还在卷参数的时候，聪明的人已经开始卷“怎么不依赖任何一个特定模型”了。这一层，才是接下来几年真正值钱的地方。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你的项目里，有这样一个规则文件吗？</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

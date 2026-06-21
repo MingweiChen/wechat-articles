@@ -1,0 +1,98 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#8e2de2 0%,#4a00e0 50%,#1a1a2e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">科 技 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">苹果给Siri换上对手的大脑<br>每年近10亿租Gemini，跑在对手的芯片上</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">把隐私当招牌的苹果，把最核心的Siri大脑，交给了搜索和系统上最大的对手。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">新版Siri背后那颗号称1.2万亿参数的大脑，不是苹果自己造的——据多家媒体披露，它是一个跑在谷歌云、由英伟达B200芯片驱动的<strong style="color:#e74c3c;">定制版Gemini</strong>，苹果为此每年要给谷歌付约10亿美元。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把这句话再读一遍。一家把「隐私是我们最贵的产品」印在发布会海报上的公司，把用户最私密的那部分推理，交给了它在搜索和操作系统两条战线上最大的对手。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以WWDC 2026台上真正发布的，从来不是一个更聪明的语音助手。是一套话术：<strong style="color:#e74c3c;">承认打不过，就外包；但要把外包，讲成一场自己赢的隐私胜利。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一、最重磅的活，苹果自己干不了</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/apple-siri-gemini-outsourced-brain/01-apple-keynote-logo.jpg" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">苹果发布会现场：当「全栈自研」的招牌遇上AI拐点。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">苹果软件主管费德里吉在媒体沟通会上说得很漂亮：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">「你的请求完全属于你。它们永远不会被存储，永远不会被任何人访问。」</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">漂亮归漂亮，架构图不会说谎。新Siri把请求分三层走：</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">简单任务</strong>：留在你手机里，跑苹果自家的小模型；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">中等复杂</strong>：交给苹果自己的私有云计算服务器；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">最重的推理</strong>：路由到谷歌云，落在英伟达B200上的那个定制Gemini。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">看出门道了吗？越是体现「AI智商」的那一层活，苹果自己越干不了，得借对手的云、对手的芯片、对手的模型。苹果亲手保留的，只剩端侧那点轻量小模型。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它发布的所谓五个新模型（AFM家族），据其AI高管自己的说法，是从Gemini<strong style="color:#e74c3c;">蒸馏</strong>出来的，最强那个的质量也只是和谷歌前沿模型「相近」。说白了，这是给别人的引擎套了个苹果的壳。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是第一个被所有人夸功能时漏掉的事实：<strong style="color:#e74c3c;">苹果不是在Siri上追上了AI，而是承认自己追不上，于是把大脑租了回来。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">二、三层隐私架构，是给「自研失败」搭的台阶</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/apple-siri-gemini-outsourced-brain/02-siri-ai-ui.jpg" style="width:380px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">WWDC 2026 上展示的新版 Siri AI 界面——漂亮的壳，底层跑的是 Gemini。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这里有个微妙的点，值得多看一眼。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">苹果为什么要花那么大力气，去讲匿名化、令牌化、英伟达的机密计算硬件加密、合同里禁止谷歌拿数据训练？因为它必须解释一件在逻辑上很尴尬的事：把最敏感的推理交给最大对手，凭什么还说自己安全。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">于是隐私架构在这里的真实功能，不只是保护用户，更是<strong style="color:#e74c3c;">叙事工程</strong>。它把一个本来很难听的事实（核心能力外包给谷歌），翻译成一句很好听的话（我们用三层防护把你的隐私焊死了）。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">表面是苹果隐私护城河的又一次延伸，本质是它把最私密的那部分计算，亲手交到了对手手里——然后用「隐私」两个字，给这次交接做了最体面的包装。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而且这层包装并不算严丝合缝。报道里也写了：谷歌云那一层至今<strong style="color:#e74c3c;">没有公开的独立审计</strong>，合同里「禁止用苹果用户数据训练」的条款，下次续约时是可以重新谈的。换句话说，所有的安全承诺，目前都建立在「相信苹果，也顺带相信谷歌」之上。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">三、把四件事串起来，才看得清这是什么</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/apple-siri-gemini-outsourced-brain/03-google-b200-datacenter.jpg" style="width:300px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">谷歌云的英伟达 Blackwell（B200）机柜——新版 Siri 最重的推理，就落在这样的对手机房里。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">单看「Siri接入Gemini」，是条产品新闻。但把下面这几件平时分开报的事并到一张时间线上，味道就变了：</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">事件</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">信息（据报道）</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">新Siri大脑</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">1.2万亿参数定制Gemini，每年约10亿美元租金</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">跑在哪</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">谷歌云 + 英伟达B200，苹果只留端侧小模型</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">上一代Siri</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">智能化承诺跳票约两年，刚赔了约2.5亿美元集体诉讼和解</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">谁在台上</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">库克最后一场keynote，9月把CEO交给硬件出身的Ternus</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这四个点连起来，是一条挺扎心的因果链：</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">苹果在生成式AI这一波<strong style="color:#e74c3c;">起步慢了</strong>，自研Siri反复跳票、还赔了一笔不小的和解金；于是它选择了最快的止损方式，花钱买对手的能力；偏偏交班又踩在这个节骨眼上，库克谢幕的最后一场大会，发布的恰恰是一次「我们自己没做成」的体面承认。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">顺这条线推下去，结论就不是「Siri终于变聪明了」，而是另一句更难听的话。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">四、真正破产的，是「全栈自研」那个神话</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-21/illustrations/apple-siri-gemini-outsourced-brain/04-apple-devices-os27.jpg" style="width:380px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">苹果全家桶与 iOS 27 ——端到端攥在手里的故事，第一次在最核心的智能层裂开。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">苹果最让人买账的故事，一直是「全栈自研」：自己的芯片、自己的系统、自己的服务，端到端攥在手里，所以又快又安全。这套叙事撑起了它的溢价，也撑起了无数「苹果模式」的信徒。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但消费级AI这一关，这个神话第一次公开破了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">最核心的智能层，苹果交了出去。</strong> 不是边角料，不是某个供应链零件，是用户每天张嘴就用的那个「大脑」。一家以掌控力立身的公司，在最新、最关键的技术拐点上，选择了当租客而不是房东。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这才是这场发布会真正的信号：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">当连苹果都要租对手的大脑、跑对手的芯片，「全栈自研」在消费AI端，就不再是一条护城河，而是一句越来越难自圆其说的口号。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">别人都在写「Siri变聪明了」。我更愿意把它读成另一件事：苹果用一套教科书般精致的隐私话术，给一次自研失败，铺了一级最体面的台阶。台阶很漂亮，但它终究是往下走的。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">库克把这场keynote留给了自己谢幕，也把一个难题留给了接棒的人：一家靠「我全都自己做」赢得溢价的公司，当最重要的那件事开始外包，它还能继续讲那个老故事多久。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得苹果这步是认怂，还是务实？</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
