@@ -1,0 +1,159 @@
+{
+  "date": "2026-06-22",
+  "dedup_basis": [
+    "06-21 苹果Siri外包Gemini / AI推翻Erdős猜想 / 65行txt登顶GitHub / AI视频单位经济学(Sora关停-字节降本) / 马斯克+Altman联手喊监管同时抢IPO",
+    "06-20 GLM-5.2华为芯片反超 / 裁员造4400富翁 / 英伟达机器人安卓 / 无头人形机器人 / AI问责时代起诉OpenAI微软",
+    "06-19 GPT-5.6赌场 / Databricks AGI已来 / 中国AI造血 / OpenAI前CTO回归 / 扎克伯格143亿挖人",
+    "06-18 高通收购Tenstorrent / Copilot按量计费上架DeepSeek / DeepSeek 510亿融资 / 科创板第五套 / AI眼镜进车间",
+    "06-17 SpaceX 600亿收购Cursor / Robotaxi 59vs600 / 开源前十8中国 / 游戏AI拐点 / GitHub反AI垃圾立规矩",
+    "06-16 Fable5/Mythos5关停 / 智源GO-2 / 英伟达×宇树开源人形 / Chat is dead Codex / DeepMind多智能体失控 / 国产价格战",
+    "06-15 Fable5合规关停 / OpenAI收购Ona / 豆包任务模式 / 2万亿循环订单 / Vibe Coding一周年祭"
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "AI 的尽头是电：Altman 投的核聚变公司估值 17 个月翻三倍，巨头开始为 2028 年的『电荒』下注",
+      "category": "商业",
+      "score": 88,
+      "sources": [
+        "https://www.ai-market-watch.com/news/nuclear-fusion-startup-helion-raises-465m-reaches-155b-valuation-f96flj",
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://finance.yahoo.com/markets/stocks/articles/ai-spending-huge-now-could-165639336.html"
+      ],
+      "hook": "Helion 融 4.65 亿、估值 155 亿，背后是 AI 圈一个没人能绕开的瓶颈——电不够了",
+      "angle": "跳出『谁的模型强』，从『电从哪来』切 AI 竞赛的真正胜负手",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "AI 竞赛的胜负手正从『算力』悄悄移到『电力』——巨头们在赌一项还没真正成功过的技术(核聚变)，来填 2028 年就会撞上的电力缺口",
+        "dots": [
+          "Helion 17 个月估值从 54 亿涨到 155 亿、Altman/Brockman 背书、已签微软 2028 购电协议",
+          "OpenAI 1220 亿融资明说要砸数据中心、Altman 谈过单个数据中心耗电超整个纽约市",
+          "七大厂 2026 capex 超 7000 亿、Alphabet 一家年投 1800-1900 亿",
+          "Helion 的 Polaris 才到 1.5 亿摄氏度、聚变发电从没商用过——时间表对不对得上是最大问号"
+        ],
+        "axis": "大家都写模型/芯片军备竞赛，本篇换轴写『电』这个物理天花板",
+        "counter_intuitive": "表面看 AI 比的是谁参数大、谁芯片多，实际比的是谁先锁住未来的电",
+        "why_worth": "把融资、capex、购电协议、聚变进度四条线串成一条『电力即胜负手』的逻辑，读者读完会重新理解这轮 AI 烧的到底是什么"
+      },
+      "urgency": "high",
+      "review_score": 84,
+      "review_verdict": "keep",
+      "dedup": "低：能源/电力瓶颈角度过去一周未写过"
+    },
+    {
+      "rank": 2,
+      "topic": "连最有钱的公司都开始『卖股票』烧 AI：Alphabet 发 800 亿新股，被华尔街读成泡沫进入高危期的信号",
+      "category": "财经",
+      "score": 86,
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/ai-spending-huge-now-could-165639336.html",
+        "https://www.datacenterknowledge.com/infrastructure/openai-raises-122b-to-expand-ai-infrastructure-broadens-cloud-and-chip-strategy"
+      ],
+      "hook": "现金最多的公司之一，居然要靠卖股票给 AI 续命——融资方式的变化，是泡沫的温度计",
+      "angle": "从『融资方式从现金→发债→发股的演变』读 AI 基建的成熟度与风险",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "当账上现金最多的公司都开始卖股票烧 AI，说明这轮基建已经烧穿了自由现金流；融资方式从『掏现金』到『发债』再到『发股』的滑动，就是 AI 泡沫从青春期走向高危期的温度计",
+        "dots": [
+          "Alphabet 发 800 亿股票、其中约 300 亿交税、CEO 说首期超额认购",
+          "Oracle 去年 9 月起发债近 500 亿、Meta 10 月发债 300 亿——大家先动的是债",
+          "Alphabet 是第一个动『股权』的超大厂，分析师：选股权而非信贷说明市场对 AI 数据中心融资变挑剔了",
+          "七巨头 2026 capex 破 7000 亿、投资增速已超过利润增速"
+        ],
+        "axis": "大家都写 capex 天文数字，本篇换轴写『钱从哪来、用什么形式来』这个更早预警的指标",
+        "counter_intuitive": "表面看发股票是有信心、不差钱，实际上恰恰暴露了连巨头都开始绕过现金、向外部资本伸手",
+        "why_worth": "把现金/债/股三种融资方式排成一条时间线，给读者一把读 AI 泡沫的尺子，而不是只惊叹数字大。全程只谈行业宏观，不碰任何个股买卖建议"
+      },
+      "urgency": "high",
+      "review_score": 82,
+      "review_verdict": "keep",
+      "dedup": "低：资本市场/融资方式角度过去一周未写"
+    },
+    {
+      "rank": 3,
+      "topic": "同一个编辑器里，四家 AI 模型开始贴身肉搏：微软把自研模型塞进 Copilot，和它最大的投资对象同台抢生意",
+      "category": "产品",
+      "score": 85,
+      "sources": [
+        "https://www.msn.com/en-us/news/technology/microsoft-and-google-are-rolling-out-new-coding-models-to-challenge-openai-and-anthropic/ar-AA25NSrE"
+      ],
+      "hook": "微软自研 MAI-Code-1、谷歌 Gemini 3.5 Flash 双双挤进 Copilot，和 OpenAI、Anthropic 在同一个框里抢每一次按键",
+      "angle": "从『模型战场从排行榜转移到编辑器默认项』看平台既当裁判又当选手的微妙",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "模型竞争的主战场，正从『benchmark 排行榜』转移到『开发者编辑器里那个默认下拉框』——而微软把自研模型塞进自家 Copilot、跟它最大的投资对象 OpenAI 同台竞争，让平台方第一次公开地既当裁判又当选手",
+        "dots": [
+          "微软 Build 2026 一口气放 7 个自研模型、含专调 GitHub 的 MAI-Code-1 + Flash 小号",
+          "谷歌 Gemini 3.5 Flash 同期进 Copilot 模型选择器",
+          "Copilot 里现在 OpenAI/Anthropic/微软/谷歌四方同框、开发者每次补全都在『盲选』后端",
+          "评判标准变成 SWE-Bench Pro / MCP-Atlas 这种『跨仓库 + 工具调用』的真实工程能力"
+        ],
+        "axis": "大家都写哪个模型分高，本篇换轴写『模型正在变成编辑器里看不见的后端、入口比能力更值钱』",
+        "counter_intuitive": "表面是多了几个模型选项，实际是微软在用平台位置稀释对单一供应商(包括自己投的 OpenAI)的依赖",
+        "why_worth": "点破『分发入口 > 模型能力』的拐点，以及平台方自研模型与被投公司同台的利益张力，这是排行榜视角看不到的"
+      },
+      "urgency": "medium",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "dedup": "低-中：Copilot 06-18 写过按量计费，本篇角度为『四方同框/平台既裁判又选手』，全新"
+    },
+    {
+      "rank": 4,
+      "topic": "万亿富翁放话单挑英伟达：马斯克说要造『强 2-3 倍、成本只要 1/10』的 AI 芯片，拉上英特尔建史上最大晶圆厂",
+      "category": "人物",
+      "score": 84,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-hes-building-090400535.html"
+      ],
+      "hook": "『我脑子里已经把整颗芯片的物理设计排好了』——马斯克要用激进简化单挑英伟达",
+      "angle": "把『颠覆者叙事』和『复利者现实』对撞，看马斯克的芯片豪言能不能落地",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "马斯克的芯片豪言本质是一场『颠覆者叙事』撞上『复利者现实』：他靠激进简化想把成本砍到 1/10，但英伟达的护城河从来不是单颗芯片性能，而是一根永远在往前挪的标杆——你瞄准的靶子自己会跑",
+        "dots": [
+          "马斯克对 Baron 称在造『比英伟达强 2-3 倍、成本 1/10』的芯片、自称已在脑中排好整颗物理设计",
+          "TeraFab：特斯拉+SpaceX/xAI 要建『史上最大晶圆厂』、英特尔 4 月加入、找过 ASML CEO",
+          "特斯拉芯片靠『单一客户、删掉历史包袱』做到激进简化，自称性价比或好 10 倍",
+          "英伟达没停：新 Vera Rubin 每兆瓦 token 数比 GB200 高 10 倍——标杆一直在挪"
+        ],
+        "axis": "大家都写马斯克又放卫星，本篇换轴写『为什么单挑英伟达难的不是造芯片、而是追一个一直在加速的对手』",
+        "counter_intuitive": "表面是性能与成本的硬仗，实际是『一次性追平』对『持续复利』的结构性差距",
+        "why_worth": "给读者一套判断『XX 要取代英伟达』这类新闻的框架——看的不是发布会数字，是标杆移动速度。只做产业分析，不含任何买卖股票建议"
+      },
+      "urgency": "medium",
+      "review_score": 79,
+      "review_verdict": "keep",
+      "dedup": "低：马斯克芯片单挑英伟达过去一周未写"
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub 热榜不追新模型了，改追『驯化 AI』：给智能体装记忆、省 token、立规矩的开源项目集体霸榜",
+      "category": "开源",
+      "score": 82,
+      "sources": [
+        "https://github.com/trending",
+        "https://ossinsight.io/trending/ai",
+        "https://findarepo.com/"
+      ],
+      "hook": "霸榜的不是新模型，是 headroom(省 95% token)、cognee/supermemory(给 AI 装记忆)、taste-skill(给 AI 调性格)",
+      "angle": "从『热榜从模型转向调教工具』读 AI 进入『能力过剩、工程稀缺』的新阶段",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "GitHub 当下最火的一批项目，全是给现有 AI『装记忆、省 token、立规矩、调性格』的外挂——这说明模型能力已经阶段性过剩，真正卡脖子的变成了『怎么让它记得住、别废话、别瞎干』的工程层，AI 正从『造大脑』转向『管大脑』",
+        "dots": [
+          "headroom：压缩工具输出/日志/RAG，少烧 60-95% token、同样答案",
+          "cognee/supermemory/codebase-memory-mcp/mem0：集体给 agent 补『长期记忆+知识图谱』",
+          "taste-skill(48k 星)/ponytail(像全公司最懒资深工程师那样思考)：给 AI 调『品味』和『克制』",
+          "对照榜单：真正爆涨的全是『驯化工具』，新基础模型反而不在 24h 增速榜前列"
+        ],
+        "axis": "大家都追『谁家新模型更强』，本篇换轴写『开发者已经不缺脑子、缺的是把脑子管好的工程』",
+        "counter_intuitive": "表面是开源社区在玩小工具，实际是行业重心从『模型层』下沉到『管控层』的拐点信号",
+        "why_worth": "把四类驯化工具(省token/装记忆/立规矩/调品味)串成『管大脑』这条主线，给读者一个判断 AI 成熟度的全新坐标，区别于上周的『反 AI 垃圾』(那篇讲规则、本篇讲记忆与工程层下沉)"
+      },
+      "urgency": "medium",
+      "review_score": 78,
+      "review_verdict": "keep",
+      "dedup": "中：06-17 写过『GitHub 反 AI 垃圾/给 AI 立规矩』，本篇换角度为『装记忆+省token+工程层下沉』，避开规则那条线"
+    }
+  ]
+}
