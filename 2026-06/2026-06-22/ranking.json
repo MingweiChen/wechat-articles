@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "slug": "ai-power-helion-fusion-2028",
+      "title": "AI的尽头是电：Altman押注的核聚变17个月估值翻三倍。",
+      "score": 87,
+      "prefix": "01"
+    },
+    {
+      "slug": "musk-chip-nvidia-terafab",
+      "title": "万亿富翁放话单挑英伟达：马斯克要造强2-3倍的AI芯片。",
+      "score": 83,
+      "prefix": "02"
+    },
+    {
+      "slug": "alphabet-equity-ai-bubble",
+      "title": "连最有钱的公司都开始卖股票烧AI：Alphabet发800亿新股。",
+      "score": 82,
+      "prefix": "03"
+    },
+    {
+      "slug": "copilot-four-model-arena",
+      "title": "同一个编辑器里，四家AI模型开始贴身肉搏。",
+      "score": 82,
+      "prefix": "04"
+    },
+    {
+      "slug": "github-tame-ai-memory-token",
+      "title": "GitHub热榜不追新模型了，改追驯化AI的开源项目。",
+      "score": 80,
+      "prefix": "05"
+    }
+  ]
+}

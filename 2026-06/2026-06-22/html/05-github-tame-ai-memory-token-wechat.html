@@ -1,0 +1,110 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">开 源 · 技 术 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">GitHub热榜，开始追驯化AI<br>给智能体装记忆、省token、立规矩的开源项目集体霸榜</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">榜单不再追最新最大的模型，转头追那些给AI装记忆、教AI克制的工具——这是个被忽略的拐点。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">打开 GitHub Trending，你会发现一件怪事。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">冲在最前面的，不是哪家又开源了千亿参数的新大脑。是一批名字听都没听过的小工具：有的专门帮 AI 省 token，有的给 AI 装记忆，有的教 AI 闭嘴别废话，还有一个 48k 星的项目，干脆就是给 AI 调「品味」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">模型不是主角了。<strong style="color:#e74c3c;">给模型当保姆的，才是。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这背后藏着一个比「谁家模型更强」更值得琢磨的信号：开发者已经不缺脑子了，缺的是把这颗脑子管好的工程。AI 这门生意，正在从「造大脑」，悄悄换轨到「管大脑」。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一、最火的那批项目，全在干同一件事</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/01-headroom-token-compress.jpg" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">headroom：把喂给模型的日志、上下文先压一遍，同样的答案省下六到九成 token</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">先看几个这阵子蹿得最猛的名字，它们表面上八竿子打不着，串起来却是一条线。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">项目类型</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">在干的事</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">解决的痛点</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">headroom</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">压缩工具输出、日志、RAG 上下文</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">同样的答案，少烧 60%-95% 的 token</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">cognee / supermemory / mem0</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">给 agent 补长期记忆 + 知识图谱</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">模型「金鱼记忆」，关了对话就失忆</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">codebase-memory-mcp</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">让 AI 记住整个代码库的来龙去脉</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">改一行代码忘了三行上下文</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">taste-skill / ponytail</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">给 AI 调「品味」和「克制」</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">AI 太热情、太啰嗦、爱过度发挥</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">发现没有？这四类东西，<strong style="color:#e74c3c;">没有一个是在让模型变聪明</strong>。它们全是在给一个已经够聪明的模型做减法、做约束、做外挂。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">headroom 的逻辑最直白：你的 AI agent 调一次工具，吐回来几千行日志，里面 90% 是噪音，但每个字都在烧你的 token。它干的事，就是在这堆噪音进模型之前先压一遍，答案不变，账单砍掉一大半。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这不是性能优化，这是<strong style="color:#e74c3c;">承认了一件事：模型的智力是够的，是我们喂给它的东西太脏、太贵、太冗余。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">二、给 AI 装记忆，成了一门显学</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/02-cognee-ai-memory-graph.jpg" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">cognee：在模型外面接一张知识图谱，给「金鱼记忆」的 agent 补上长期记忆</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">如果说省 token 是「钱」的问题，那记忆就是「命」的问题。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">现在这一代大模型有个尴尬的先天缺陷：它没有记忆。每开一个新对话，它都是失忆重生，昨天跟你聊了三小时的项目，今天它一个字都不记得。所谓「上下文窗口」再长，也只是临时工作台，关机即清空。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">于是 cognee、supermemory、mem0 这一票项目集体爆发，干的是同一件事：在模型外面，给它接一个长期记忆系统。把对话、文档、代码、决策，统统存进一张知识图谱，让 agent 下次再来的时候，能「想起」上次发生了什么。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">一个没有记忆的智能体，本质上只是一个能说会道的陌生人。每次见面都得从头自我介绍。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事的微妙之处在于：它彻底承认了模型本身不会变得「记得住」。大家不再指望下一代模型自带超强记忆，而是默认——记忆这事，模型不管，那就外面给它补一个。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">codebase-memory-mcp 把这个逻辑推到了写代码场景：让 AI 助手记住整个仓库的历史、约定和坑。<strong style="color:#e74c3c;">因为大家发现，AI 写代码最大的问题从来不是不会写，是它记不住你这个项目的规矩。</strong> 智力管够，记性归零，这就是当下 agent 的真实画像。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">三、最反直觉的一个：花力气教 AI「克制」</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/03-taste-skill-restraint.jpg" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">taste-skill：48k 星，专门给 AI 调「品味」、按住它的过度发挥</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">省 token、装记忆，好歹还能理解。但榜上有个东西，第一眼会让人愣住。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一个叫 taste-skill 的项目，攒了 48k 星。它干嘛的？给 AI 调「品味」。还有个叫 ponytail 的，介绍写得更绝——让 AI 像「全公司最懒的那个资深工程师」一样思考。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">最懒的资深工程师，是什么形象？是那种你让他加个功能，他先反问你「这个真的需要吗」的人；是能用十行解决就绝不写一百行的人；是对花里胡哨的方案本能反感、只想用最笨最稳办法的人。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把 AI 往这个方向调，等于在反向纠正这一代模型的通病：<strong style="color:#e74c3c;">太勤快了。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">你让它改个标点，它顺手把整个函数重构了；你问它一个简单问题，它给你列出七个维度的分析。模型的「热情」和「发挥欲」，在真实工程里往往是灾难。所以才需要专门一个工具，按住它，告诉它：别自作主张，别过度发挥，做完我说的就停。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">一年前我们嫌 AI 太笨，想方设法让它多想一点。一年后我们嫌它太勤，想方设法让它少干一点。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这个转弯，信息量极大。它说明大家对模型能力的焦虑已经过去了，现在的焦虑是：这玩意儿太能干，得有人管。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">四、对照榜单，才看懂这是个拐点</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/04-supermemory-engine.jpg" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">supermemory：又一个霸榜的「记忆引擎」，注意力的重心正从模型层下沉到管控层</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把视角拉远一点，你会看到一个更扎眼的对比。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">真正在 24 小时增速榜上爆涨的，<strong style="color:#e74c3c;">全是这些「驯化工具」</strong>——省 token 的、装记忆的、调品味的。而那些新发布的基础模型，反倒没怎么挤进增速榜前列。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这不是说新模型不重要。而是说，在开发者用脚投票的那张表上，<strong style="color:#e74c3c;">注意力的重心已经下沉了。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">从「模型层」下沉到了「管控层」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这条线如果你顺着往下推，会得出一个不太一样的判断：AI 行业过去两年的主旋律是「军备竞赛」，比谁的参数大、谁的跑分高、谁的脑子更聪明。但热榜在告诉我们，主战场正在换地方。</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 当模型能力变成了<strong style="color:#e74c3c;">够用甚至过剩</strong>的公共品，</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 真正稀缺、真正卡脖子的，就变成了<strong style="color:#e74c3c;">怎么把这份过剩的能力，便宜、稳定、听话地用起来。</strong></p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就像一个公司里，最贵的从来不是那个最聪明的人，而是能把这帮聪明人组织好、不让他们互相添乱的那套管理。<strong style="color:#e74c3c;">模型是天才员工，而这些霸榜的小工具，是刚刚上岗的管理层。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">五、对做事的人，这意味着什么</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">落到具体的人身上，这个换轨其实是个好消息。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它意味着，你不必再焦虑地追每一个新模型。模型这层，正在变成水和电，重要，但同质化，且越来越不需要你操心。真正能拉开差距的，是上面那层工程：你怎么给你的 AI 系统设计记忆、控制成本、约束行为。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这也意味着一个新的机会窗口。<strong style="color:#e74c3c;">过去做 AI 创业，门槛是你得有模型；现在做 AI 工程，门槛是你得懂怎么驯服模型。</strong> 后者不需要几亿美金的算力，需要的是对真实场景的理解——知道哪些日志该压、哪些上下文该记、哪些发挥该摁住。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">GitHub 这张热榜，本质上是一群一线工程师在用 star 投票，告诉所有人：聪明的大脑已经不稀奇了，怎么把它管明白，才是接下来几年真正值钱的手艺。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">造大脑的时代，喧嚣但终会沉淀。管大脑的时代，才刚刚开始，而且它属于每一个肯弯下腰、把脏活累活做透的人。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你的AI项目，卡在记忆还是成本上？</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

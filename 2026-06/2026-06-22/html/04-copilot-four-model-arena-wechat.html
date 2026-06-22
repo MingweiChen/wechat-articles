@@ -1,0 +1,101 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">科 技 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">四家AI模型，挤进同一个编辑器肉搏<br>微软把自研模型塞进Copilot，和最大投资对象同台抢生意</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">当模型可以随时切换，真正值钱的不再是模型本身，而是谁握着那个入口。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">光标停在一行没写完的函数后面。我按下 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">Tab</code>，灰色的补全跳出来，顺手收下。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这一秒，我没意识到一件事：刚才那段代码，到底是 OpenAI 写的，还是 Anthropic、是微软自研的模型、还是谷歌的 Gemini，我根本不知道，也没人告诉我。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><strong style="color:#e74c3c;">编辑器右下角那个不起眼的下拉框里，现在挤着四家公司的模型。</strong> 它们在抢同一个位置——抢我下一次按 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">Tab</code> 时，到底由谁来接管这一行。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去两年，模型之间比的是排行榜上的分数。而 Build 2026 之后，战场悄悄换了地方：从「谁的跑分高」，挪到了「谁是那个默认选项」。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">现场：微软一口气端出七个自家模型</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/01-model-picker.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">GitHub Copilot 的模型选择下拉框——一个不起眼的菜单，决定了谁来接管你下一行代码</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Build 2026 上，微软没只发一个模型，而是端出了一整排：<strong style="color:#e74c3c;">七个自研模型</strong>，其中专门为 GitHub 场景调校的 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">MAI-Code-1</code>，外加一个主打低延迟的 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">Flash</code> 小号。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">几乎同一时间，谷歌的 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">Gemini 3.5 Flash</code> 也滑进了 Copilot 的模型选择器。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把镜头拉远看这个下拉框，会发现一个有点荒诞的画面：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">一个编辑器的补全菜单里，OpenAI、Anthropic、微软、谷歌四家同框。开发者每敲一次回车，都是在一群互为对手的供应商里盲选后端。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个微妙的点。微软是 OpenAI 最大的投资方，按常理它该把流量往 OpenAI 那边导。可它转头把自研模型摆在了同一个菜单、同一排选项里，跟自己投的公司面对面抢用户的每一次点击。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#e74c3c;">平台方第一次这么公开地，既当裁判又当选手。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">为什么入口比能力更值钱</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/02-auto-dropdown.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">VS Code 的模型菜单里，多家供应商的模型与「自动选择」并排排列</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">很多人看到这条新闻的第一反应是：哦，又多了几个模型可选，挺好。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但顺着这条线往下推，会得到一个不太一样的结论。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">对一个普通开发者来说，模型早就不是一个「品牌」了，而是编辑器背后一段看不见的后端逻辑。绝大多数人不会去逐一对比七个模型的参数表，他们只会用那个默认选中的。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">旧战场</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">新战场</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">模型是台前的「明星产品」</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">模型是幕后的「无名后端」</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">用户冲着某个模型而来</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">用户冲着编辑器而来，顺手用了某个模型</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">比的是发布会和跑分</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">比的是谁占住了默认下拉框</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一旦模型退到幕后，<strong style="color:#e74c3c;">谁握着分发入口，谁就握着流量的总开关。</strong> 你的模型再强，挤不进那个下拉框，开发者一辈子也不会按到你。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是微软真正在下的那步棋：它不需要自研模型每一项都打赢 OpenAI，它只需要让自研模型出现在那个所有人都会点到的位置上。位置本身，就是筹码。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这条逻辑在互联网历史上反复上演过。当年浏览器的默认搜索引擎、手机的预装应用，都是同一个剧本——能力相近时，决定胜负的从来不是产品本身多强，而是它有没有站在用户的必经之路上。<strong style="color:#e74c3c;">模型这一仗，正在被打回这个老规律里。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">换个角度想，这对开发者其实是双刃剑。选项变多了，看起来是自由；但绝大多数人最终还是只用默认那个，真正的选择权，悄悄从用户手里，回到了那个决定「默认指向谁」的平台手里。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">评判标准也跟着变了</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/03-four-model-arena.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">四家模型挤进同一个下拉框，争抢同一个默认位置——示意图</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">战场换了地方，裁判的尺子也换了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去刷榜，刷的是一道道孤立的算法题、一段段几十行的小函数。但放进真实编辑器里，这些指标基本失效，没有哪个工程师的日常是做奥数题。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">于是新的评判标准浮出水面：像 <strong style="color:#e74c3c;">SWE-Bench Pro</strong> 这种要在真实代码仓库里跨文件改 bug 的任务，像 <strong style="color:#e74c3c;">MCP-Atlas</strong> 这种考模型会不会调用外部工具、查文档、跑测试的能力。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">衡量一个模型好不好用，不再看它单题答得多漂亮，而看它能不能在一个几十万行的真实项目里，调对工具、改对地方、不把别处搞坏。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这其实是个信号：模型能力的竞争，正在从「会不会答题」滑向「会不会干活」。而干活这件事，恰恰是在编辑器里、在工具链里发生的——又一次绕回了入口。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺这条线推下去会发现一个闭环：评判标准越靠近真实工程，模型就越离不开编辑器这个运行环境；越离不开环境，掌握环境的平台方话语权就越大。<strong style="color:#e74c3c;">裁判的尺子和选手的赛场，被同一家公司握在了手里。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这盘棋里，OpenAI 站在哪</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/04-nadella.jpg" style="width:400px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">微软 CEO 萨提亚·纳德拉——既是 OpenAI 最大投资方，又亲手为它培养替补</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把前面几条线串起来，会看到一个反直觉的画面。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">表面上，这是「平台变开放了，给开发者更多选择」。<strong style="color:#e74c3c;">实际上，这是微软在用平台位置，稀释自己对单一供应商的依赖——包括它自己投的 OpenAI。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">逻辑并不复杂：</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 把 OpenAI、Anthropic、谷歌、自研模型全摆进同一个菜单，没有谁是不可替代的；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 哪天某家涨价、出问题、或者关系生变，微软随手就能把默认项切到别家；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 自研模型摆在那儿，本身就是一张随时能加注的底牌。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">对一个深度绑定了某家供应商的平台来说，最贵的不是钱，是「离不开」。而把对手和自己人塞进同一个下拉框，恰恰是把「离不开」一点点拆成「随时能换」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这一手，对 OpenAI 来说滋味复杂：最大的金主，正在亲手为它培养替补。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">写在最后</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">下次你在编辑器里按下 <code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;">Tab</code>，不妨多看一眼右下角那个下拉框。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">那里没有发布会的灯光，没有刷屏的跑分海报，只有一行行小字排在一起。但模型竞争真正的胜负，已经从聚光灯下的舞台，搬到了这个没人多看一眼的角落。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">排行榜决定谁上头条，下拉框决定谁有饭吃。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你日常用Copilot会切哪家模型？</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
