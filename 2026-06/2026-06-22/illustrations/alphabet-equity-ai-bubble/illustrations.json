@@ -1,0 +1,52 @@
+{
+  "slug": "alphabet-equity-ai-bubble",
+  "date": "2026-06-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/alphabet-equity-ai-bubble",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-alphabet-hq.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/alphabet-equity-ai-bubble/01-alphabet-hq.jpg",
+      "caption": "Alphabet（谷歌母公司）在加州山景城的总部园区——账上趴着上千亿现金、被公认「最不缺钱」的超大科技公司。",
+      "anchor": "## Alphabet 是第一个动「股权」的",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Campus2_cropped.jpg",
+      "width": "320px"
+    },
+    {
+      "seq": "02",
+      "file": "02-nyse-wallstreet.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/alphabet-equity-ai-bubble/02-nyse-wallstreet.jpg",
+      "caption": "纽约证券交易所——Oracle、Meta 先后在公开市场发债，Alphabet 则直接发了巨额股票。",
+      "anchor": "## 先动债的，是 Oracle 和 Meta",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+      "width": "330px"
+    },
+    {
+      "seq": "03",
+      "file": "03-sundar-pichai.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/alphabet-equity-ai-bubble/03-sundar-pichai.jpg",
+      "caption": "Alphabet CEO 桑达尔·皮查伊（Sundar Pichai）——他出来说，首期认购就超额了，市场抢着要。",
+      "anchor": "## 「超额认购」的另一面",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg",
+      "width": "260px"
+    },
+    {
+      "seq": "04",
+      "file": "04-funding-ladder.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/alphabet-equity-ai-bubble/04-funding-ladder.jpg",
+      "caption": "一把被忽略的尺子：融资三步递进——自由现金流（绿）→ 发债（黄）→ 股权（红）。每往下滑一格，系统脆弱性就高一档。",
+      "anchor": "## 一把被所有人忽略的尺子",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "source_url": "image_generate openai/gpt-image-2",
+      "width": "360px"
+    }
+  ]
+}

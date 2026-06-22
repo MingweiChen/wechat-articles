@@ -1,0 +1,52 @@
+{
+  "slug": "github-tame-ai-memory-token",
+  "date": "2026-06-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-headroom-token-compress.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/01-headroom-token-compress.jpg",
+      "caption": "headroom：把喂给模型的日志、上下文先压一遍，同样的答案省下六到九成 token",
+      "anchor": "## 一、最火的那批项目，全在干同一件事",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://github.com/chopratejas/headroom",
+      "width": "360px"
+    },
+    {
+      "seq": "02",
+      "file": "02-cognee-ai-memory-graph.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/02-cognee-ai-memory-graph.jpg",
+      "caption": "cognee：在模型外面接一张知识图谱，给「金鱼记忆」的 agent 补上长期记忆",
+      "anchor": "## 二、给 AI 装记忆，成了一门显学",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://github.com/topoteretes/cognee",
+      "width": "360px"
+    },
+    {
+      "seq": "03",
+      "file": "03-taste-skill-restraint.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/03-taste-skill-restraint.jpg",
+      "caption": "taste-skill：48k 星，专门给 AI 调「品味」、按住它的过度发挥",
+      "anchor": "## 三、最反直觉的一个：花力气教 AI「克制」",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://github.com/Leonxlnx/taste-skill",
+      "width": "360px"
+    },
+    {
+      "seq": "04",
+      "file": "04-supermemory-engine.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/github-tame-ai-memory-token/04-supermemory-engine.jpg",
+      "caption": "supermemory：又一个霸榜的「记忆引擎」，注意力的重心正从模型层下沉到管控层",
+      "anchor": "## 四、对照榜单，才看懂这是个拐点",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://github.com/supermemoryai/supermemory",
+      "width": "360px"
+    }
+  ]
+}

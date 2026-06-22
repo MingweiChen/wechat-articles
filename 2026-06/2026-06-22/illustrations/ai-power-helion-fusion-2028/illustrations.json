@@ -1,0 +1,52 @@
+{
+  "slug": "ai-power-helion-fusion-2028",
+  "date": "2026-06-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/ai-power-helion-fusion-2028",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-helion-fusion-reactor.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/ai-power-helion-fusion-2028/01-helion-fusion-reactor.jpg",
+      "caption": "聚变装置内炽热的等离子体——人类追了七十年，至今没有一座电站真正商用。",
+      "anchor": "## 赌注押在一个还没兑现的技术上",
+      "position": "after_heading",
+      "source": "generate",
+      "source_url": "image_generate gpt-image-2",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-data-center-server.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/ai-power-helion-fusion-2028/02-data-center-server.jpg",
+      "caption": "塞满机柜的数据中心——单个超大数据中心的耗电量能超过整座纽约市。",
+      "anchor": "## 大家盯着芯片，巨头在抢电",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Datacenter-telecom.jpg",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-power-grid-towers.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/ai-power-helion-fusion-2028/03-power-grid-towers.jpg",
+      "caption": "输电铁塔与电网——一座新电站从规划到并网动辄五到十年。",
+      "anchor": "## 七千亿的资本开支，本质是一张电费账单",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Electricity_Pylon.jpg",
+      "width": "260px"
+    },
+    {
+      "seq": "04",
+      "file": "04-sam-altman.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/ai-power-helion-fusion-2028/04-sam-altman.jpg",
+      "caption": "Sam Altman——把 AI 推上天的人，正悄悄把钱押向「还没成功过」的聚变。",
+      "anchor": "## 一份签到 2028 年的购电合同",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped).jpg",
+      "width": "300px"
+    }
+  ]
+}

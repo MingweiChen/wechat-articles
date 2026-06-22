@@ -1,0 +1,52 @@
+{
+  "slug": "copilot-four-model-arena",
+  "date": "2026-06-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-model-picker.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/01-model-picker.jpg",
+      "caption": "GitHub Copilot 的模型选择下拉框——一个不起眼的菜单，决定了谁来接管你下一行代码",
+      "anchor": "## 现场：微软一口气端出七个自家模型",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://code.visualstudio.com/docs/copilot/customization/language-models",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-auto-dropdown.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/02-auto-dropdown.jpg",
+      "caption": "VS Code 的模型菜单里，多家供应商的模型与「自动选择」并排排列",
+      "anchor": "## 为什么入口比能力更值钱",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-four-model-arena.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/03-four-model-arena.jpg",
+      "caption": "四家模型挤进同一个下拉框，争抢同一个默认位置——示意图",
+      "anchor": "## 评判标准也跟着变了",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "source_url": "openai/gpt-image-2",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-nadella.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/copilot-four-model-arena/04-nadella.jpg",
+      "caption": "微软 CEO 萨提亚·纳德拉——既是 OpenAI 最大投资方，又亲手为它培养替补",
+      "anchor": "## 这盘棋里，OpenAI 站在哪",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Satya_Nadella.jpg",
+      "width": "400px"
+    }
+  ]
+}

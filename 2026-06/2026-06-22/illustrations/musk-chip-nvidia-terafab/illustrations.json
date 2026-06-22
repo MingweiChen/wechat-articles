@@ -1,0 +1,52 @@
+{
+  "slug": "musk-chip-nvidia-terafab",
+  "date": "2026-06-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/musk-chip-nvidia-terafab",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-elon-musk.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/musk-chip-nvidia-terafab/01-elon-musk.jpg",
+      "caption": "马斯克——把「不可能」一次次做成「量产」的人，这次瞄准了芯片",
+      "anchor": "## 他不是第一次这么干，而且真干成过",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://en.wikipedia.org/wiki/Elon_Musk",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "02-terafab-wafer-plant.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/musk-chip-nvidia-terafab/02-terafab-wafer-plant.jpg",
+      "caption": "晶圆厂航拍——建一座 fab 动辄百亿美元、五到七年，是科技世界最烧钱的生意之一",
+      "anchor": "## TeraFab：把豪言浇成水泥",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant",
+      "width": "360px"
+    },
+    {
+      "seq": "03",
+      "file": "03-jensen-huang-nvidia.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/musk-chip-nvidia-terafab/03-jensen-huang-nvidia.jpg",
+      "caption": "黄仁勋与英伟达——护城河不是某一颗芯片，而是一根永远在往前挪的标杆",
+      "anchor": "## 你瞄准的不是一个靶子，是一根会跑的标杆",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "width": "300px"
+    },
+    {
+      "seq": "04",
+      "file": "04-silicon-wafer.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-22/illustrations/musk-chip-nvidia-terafab/04-silicon-wafer.jpg",
+      "caption": "一块硅晶圆——芯片只是硅，英伟达卖的是一整套随时间增厚的系统",
+      "anchor": "## 颠覆者的算盘，撞上复利者的现实",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://en.wikipedia.org/wiki/Wafer_(electronics)",
+      "width": "320px"
+    }
+  ]
+}
