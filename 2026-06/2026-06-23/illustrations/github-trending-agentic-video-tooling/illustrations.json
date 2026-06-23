@@ -1,0 +1,41 @@
+{
+  "slug": "github-trending-agentic-video-tooling",
+  "date": "2026-06-23",
+  "count": 3,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-openmontage-trending.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/01-openmontage-trending.jpg",
+      "caption": "登顶的 OpenMontage：12 条流水线、52 个工具、500+ agent 技能，把 AI 编程助手变成视频工作室",
+      "anchor": "## 顺着榜单往下走",
+      "position": "after_heading",
+      "source": "github",
+      "source_url": "https://github.com/calesthio/OpenMontage",
+      "width": "560px"
+    },
+    {
+      "seq": "02",
+      "file": "02-palmier-pro-editor.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/02-palmier-pro-editor.jpg",
+      "caption": "Palmier Pro：原生 macOS 剪辑器内置本地 MCP 服务，让 agent 直接伸手进时间线操作",
+      "anchor": "## 这页榜单真正在说的那件事",
+      "position": "after_heading",
+      "source": "github",
+      "source_url": "https://github.com/palmier-io/palmier-pro",
+      "width": "560px"
+    },
+    {
+      "seq": "03",
+      "file": "03-voicebox-studio.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/03-voicebox-studio.jpg",
+      "caption": "Voicebox：本地优先的开源语音工作室，克隆人声、7 个 TTS 引擎、23 种语言，接上「配音」这道工序",
+      "anchor": "## 「技能」正在变成新的那一层",
+      "position": "after_heading",
+      "source": "github",
+      "source_url": "https://github.com/jamiepine/voicebox",
+      "width": "560px"
+    }
+  ]
+}

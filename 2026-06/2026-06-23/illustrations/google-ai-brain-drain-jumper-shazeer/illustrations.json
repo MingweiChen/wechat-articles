@@ -1,0 +1,48 @@
+{
+  "slug": "google-ai-brain-drain-jumper-shazeer",
+  "date": "2026-06-23",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/google-ai-brain-drain-jumper-shazeer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-talent-leaving.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/google-ai-brain-drain-jumper-shazeer/01-talent-leaving.jpg",
+      "caption": "一周内两位资深科学家前后脚离开——在 DeepMind 这不是噪声，是结构性信号",
+      "anchor": "## 为什么偏偏是谷歌在流血",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "320px"
+    },
+    {
+      "seq": "02",
+      "file": "02-nobel-coding-tool.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/google-ai-brain-drain-jumper-shazeer/02-nobel-coding-tool.jpg",
+      "caption": "最稀缺的那块脑子，本能去解下一个生物学难题，却被摁在一个卖不动的商业产品上",
+      "anchor": "## 一个诺奖得主，最后被派去做卖不动的工具",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "320px"
+    },
+    {
+      "seq": "03",
+      "file": "03-market-probability.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/google-ai-brain-drain-jumper-shazeer/03-market-probability.jpg",
+      "caption": "市场这一次砍的不是某季度利润，是谷歌还能不能待在第一梯队的「概率」",
+      "anchor": "## 市场重新定价的，不是财报，是「概率」",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "320px"
+    },
+    {
+      "seq": "04",
+      "file": "04-talent-moat.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/google-ai-brain-drain-jumper-shazeer/04-talent-moat.jpg",
+      "caption": "算力可以堆、芯片可以等，可一个能想出 AlphaFold 的脑子，市面上数得过来",
+      "anchor": "## AI 真正卡脖子的，不是芯片",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "320px"
+    }
+  ]
+}

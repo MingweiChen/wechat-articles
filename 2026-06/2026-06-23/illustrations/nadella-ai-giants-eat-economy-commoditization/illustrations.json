@@ -1,0 +1,48 @@
+{
+  "slug": "nadella-ai-giants-eat-economy-commoditization",
+  "date": "2026-06-23",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-value-concentration.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/01-value-concentration.jpg",
+      "caption": "价值过度集中 vs 分散：所有价值都堆向单一支柱，还是摊在更广的生态网络上",
+      "anchor": "## 那句被反复引用的狠话，狠在哪",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "560px"
+    },
+    {
+      "seq": "02",
+      "file": "02-value-shift-layers.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/02-value-shift-layers.jpg",
+      "caption": "价值从模型层往上挪：底层引擎变成可替换标准件，应用层与生态层接住价值",
+      "anchor": "## 他真正想推销的概念：别让「公司老兵」跟着模型一起被换掉",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "560px"
+    },
+    {
+      "seq": "03",
+      "file": "03-learning-loop.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/03-learning-loop.jpg",
+      "caption": "企业的「学习闭环」：数据、流程、知识、产出绕成环，中间的引擎可随时拔插替换",
+      "anchor": "## 上架最便宜的模型，是这套逻辑最直接的落地",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "560px"
+    },
+    {
+      "seq": "04",
+      "file": "04-commodity-utility.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/04-commodity-utility.jpg",
+      "caption": "模型商品化：像水电煤一样的标准化基础设施，按需付费、随接随换",
+      "anchor": "## 为什么是微软喊这一嗓子，而不是别人",
+      "position": "after_heading",
+      "source": "ai_generate",
+      "width": "560px"
+    }
+  ]
+}

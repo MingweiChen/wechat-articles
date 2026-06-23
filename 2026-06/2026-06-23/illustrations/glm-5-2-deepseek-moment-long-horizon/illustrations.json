@@ -1,0 +1,41 @@
+{
+  "slug": "glm-5-2-deepseek-moment-long-horizon",
+  "date": "2026-06-23",
+  "count": 3,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-long-horizon-agent.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/01-long-horizon-agent.jpg",
+      "caption": "长程任务示意：从规划到联调再到交付，AI 自己把一个完整工程从头跑到尾",
+      "anchor": "## 真正变了的东西，叫「长程任务」",
+      "position": "after_heading",
+      "source": "image_generate",
+      "source_url": "",
+      "width": "560px"
+    },
+    {
+      "seq": "02",
+      "file": "02-open-vs-closed.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/02-open-vs-closed.jpg",
+      "caption": "开源与闭源的差距在收窄——价值从「模型层」往「应用层」漏",
+      "anchor": "## 价值正在从「模型层」往「应用层」漏",
+      "position": "after_heading",
+      "source": "image_generate",
+      "source_url": "",
+      "width": "560px"
+    },
+    {
+      "seq": "03",
+      "file": "03-efficiency-under-constraint.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/03-efficiency-under-constraint.jpg",
+      "caption": "算力被卡住，逼出来的往往是另一条路上的效率——同样的硬件足迹做更多事",
+      "anchor": "## 这次和上次有什么不一样",
+      "position": "after_heading",
+      "source": "image_generate",
+      "source_url": "",
+      "width": "560px"
+    }
+  ]
+}

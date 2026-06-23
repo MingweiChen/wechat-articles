@@ -1,0 +1,48 @@
+{
+  "slug": "lecun-xai-failure-ai-bubble-world-models",
+  "date": "2026-06-23",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-unit-economics.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/01-unit-economics.jpg",
+      "caption": "天平的一端是成本，另一端是收入——他对 xAI 的判断，落点其实是单位经济学",
+      "anchor": "## 他说 xAI 会输，理由其实很冷静",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "width": "560px"
+    },
+    {
+      "seq": "02",
+      "file": "02-ai-bubble.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/02-ai-bubble.jpg",
+      "caption": "收入在涨，窟窿也在涨——补贴退坡的那天，泡沫会怎样？",
+      "anchor": "## 他说行业要爆泡沫，账也基本是对的",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "width": "560px"
+    },
+    {
+      "seq": "03",
+      "file": "03-two-paths.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/03-two-paths.jpg",
+      "caption": "一条路铺的是语言符号，一条路铺的是物理世界——大语言模型 vs 世界模型",
+      "anchor": "## 关键的一步：他不是中立的证人",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "width": "560px"
+    },
+    {
+      "seq": "04",
+      "file": "04-expert-conflict.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/04-expert-conflict.jpg",
+      "caption": "一头喊着警报，一头亮着价签——对的事实，可以服务于一个有偏的结论",
+      "anchor": "## 怎么听懂一个「带货式专家」",
+      "position": "after_heading",
+      "source": "ai_generated",
+      "width": "560px"
+    }
+  ]
+}

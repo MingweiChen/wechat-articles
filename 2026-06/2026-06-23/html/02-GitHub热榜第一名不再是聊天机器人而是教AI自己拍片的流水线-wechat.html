@@ -1,0 +1,94 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">开 源 · 技 术 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">GitHub 热榜第一名<br>不再是聊天机器人，而是教 AI 自己拍片的流水线</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">顺着今天这张榜单往下走一遍，你会发现开源社区的注意力，正在从造更聪明的大脑，挪到给大脑装上能干完整活的手脚和工序。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">今天打开 GitHub Trending，从上往下扫一遍，会发现一件有点反常的事。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">排在最前面的那个项目，自称是「全球首个开源 agentic 视频制作系统」。往下三四个位置，是一个专门给 AI 用的 macOS 视频剪辑器；再往下，是一个能克隆人声、自己配音的开源「配音棚」；再往下，是几个名字带着 frame、montage、voice 的仓库。一整页扫完，你会有种错觉：这不是一个代码托管平台的热榜，倒像是一家虚拟影视厂的招聘启事，岗位全开给了 AI。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去能登上这个榜首的，多半是某个更强的大模型，或者套壳大模型的聊天应用。今天不是。今天最火的，是教 AI 怎么把一部片子从头干到尾的「手脚」和「工序」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这篇不打算逐个测评项目。我想顺着今天这张榜单往下走一遍，看看它的结构本身在说什么。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">顺着榜单往下走</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/01-openmontage-trending.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">登顶的 OpenMontage：12 条流水线、52 个工具、500+ agent 技能，把 AI 编程助手变成视频工作室</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先说占着第一名的那个，叫 <strong style="color:#e74c3c;">OpenMontage</strong>，作者 ID 是 calesthio。它的定位很直白：把你手里的 AI 编程助手，变成一间完整的视频制作工作室。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">数字摆出来是这样的：<strong style="color:#e74c3c;">12 条生产流水线、52 个工具、500 多个 agent 技能</strong>。流水线覆盖讲解片、口播、录屏演示、电影感预告、动画、播客、本地化、纪录片混剪；工具管的是视频生成、配图、配音、配乐、字幕这些活。技能这一层最有意思，它装的不是代码，是「拍片的门道」：分镜怎么调度、每个阶段的导演决策、质量检查清单、各种工具怎么搭配着用。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它有个细节值得单独拎出来。市面上很多所谓 AI 视频，本质是把一张静态图加点运镜动起来。OpenMontage 想做的是另一件事：先从免费素材库和公开影像档案里建一个素材池，按需求去检索真正的动态镜头，剪进时间线，再渲染成片。一个「让静图动起来」，一个「把真镜头剪成片」，这俩不是一个量级的活。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它支持的宿主也说明了问题：Claude Code、Cursor、Copilot、Windsurf、Codex 都能跑。换句话说，它不绑定某一个模型，它绑定的是「会调工具的 agent」这个角色。一天时间，它涨了将近三千颗星。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">接着往下，是 <strong style="color:#e74c3c;">palmier-pro</strong>，一个原生的 macOS 视频剪辑器。它的卖点很对今天这个味道：编辑器本体里内置了一个本地 MCP 服务，意思是 Claude、Codex、Cursor 这些 agent 可以直接操作这个剪辑器，生成素材、裁剪、重新排序、带着完整工程上下文重做某一段。编辑器和那个服务都是开源免费的，只在调用 AI 生成时收点积分钱。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">这是个很微妙的设计取向：它没把 AI 做成剪辑软件里的一个按钮，而是把整个剪辑软件，做成了 AI 能伸手进去操作的对象。主客关系反过来了。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">再往下，<strong style="color:#e74c3c;">voicebox</strong>，作者 jamiepine。一个本地优先的开源 AI 语音工作室，能克隆声音、用 7 个 TTS 引擎在 23 种语言里生成语音、还能往任何文本框里听写。它强调全部在本地跑，不把你的声音传出去。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">视频要配音、配音要人声，这个环节它接上了。再加上榜单上还能看到 heygen 家的 hyperframes 这类项目，你把这几个仓库在脑子里连一条线就会发现：<strong style="color:#e74c3c;">从写脚本、找素材、剪辑、配音到渲染输出，今天这张榜单几乎把视频生产的每一道工序，都对上了一个专门交给 agent 的工具。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这页榜单真正在说的那件事</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/02-palmier-pro-editor.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Palmier Pro：原生 macOS 剪辑器内置本地 MCP 服务，让 agent 直接伸手进时间线操作</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果只看单个项目，结论无非是「又一个 AI 视频工具火了」。但把它们摆在一起、放在同一天的同一张榜上，事情就不太一样了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个容易被忽略的背景。同期还挂在高位的，是一类完全不带「视频」二字的项目：有人维护的 agent 技能集合，星标十几万；安全方向的技能库，也是一万八千多星。趋势话题里，「AI agent」「AI 技能」「MCP」「AI 工作流」这些词扎堆出现。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把这两拨，视频工具和技能/工作流，叠在一起看，一条线就显出来了：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">开源社区的注意力，正在从「造一个更聪明的大脑」，挪到「给这个大脑装上能干完整活的手脚和工序」。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去两三年，热榜的主角是模型本身：参数更大、跑分更高、上下文更长。大家比的是「谁的脑子更好使」。而今天榜上这批东西，默认你已经有一个够用的脑子了。它不再去卷脑子，它卷的是：怎么把一件需要十几道工序、过去极度依赖人力的活，拆成 agent 能一道道接力干完的链条。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">视频之所以第一个被啃，恰恰因为它过去最重人力。一条像样的片子，要选题、写稿、找素材、剪辑、配音、配乐、校对、出片，每一步都要人盯。这种「工序密集型」的活，反倒成了检验 agent 工具化到底走到哪一步的最佳试验场：能把视频这条链跑通，别的链条大概率也跑得通。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">「技能」正在变成新的那一层</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/github-trending-agentic-video-tooling/03-voicebox-studio.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Voicebox：本地优先的开源语音工作室，克隆人声、7 个 TTS 引擎、23 种语言，接上「配音」这道工序</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">OpenMontage 那 500 多个技能，和星标十几万的那个技能合集，其实指向同一个东西。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去我们给 AI 喂能力，靠的是把模型练得更强，或者塞一堆函数调用的接口。现在多出来一层，叫 <strong style="color:#e74c3c;">技能（skill）</strong>。它通常就是一堆 markdown 写的说明书：这一步该干什么、用哪个工具、怎么自查、做到什么程度算合格、卡在哪要存个档。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺着这条线往下推，会推出一个挺有意思的判断。模型层这两年其实在快速「同质化」：开源模型追上闭源、便宜模型够用上场，单看模型本身，差距在收窄。差距收窄之后，竞争自然会往上挪一层，挪到「谁家的 agent 更会干活」。而「会干活」这件事，越来越不存在模型权重里，而是存在这些一条条写下来的技能和流水线里。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这也解释了为什么 OpenMontage 谁都能跑：Claude Code 能跑、Cursor 能跑、Copilot 也能跑。因为真正值钱的不是底下那个模型，是上面那套「拍片的门道」。模型成了可替换的零件，门道成了护城河。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">看的维度</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">过去的热榜主角</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">今天这页榜单</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">卷的东西</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">模型本身（参数、跑分、上下文）</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">工具链 + 技能（怎么把活干完）</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">默认前提</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">脑子还不够好，得继续练</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">脑子够用了，缺手脚和工序</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">护城河在哪</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">模型权重</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">markdown 写下来的流水线和技能</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">最先被啃的活</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">问答、写代码片段</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">视频这种重人力、多工序的生产链</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">把这页榜单当成一个信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然，也别把话说满。这些项目大多还很早期，星标涨得快，能不能稳定产出可用的成片，是另一回事。开源热榜本来就有「一天蹿红、一周冷却」的脾气，今天登顶不代表三个月后还在。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但热榜的价值，从来不在某个具体项目能不能活下来，而在它的结构变化里藏着的方向。当排在最前面的不再是一个更聪明的 AI 大脑，而是一群教 AI 把整部片子从头干到尾的工具和技能，这本身就是一个信号：开源社区下一个押注的地方，正在从「模型」往「会干活的 agent」转移。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">下一次再打开 Trending，不妨少看一眼谁家又出了更大的模型，多看几眼那些教 agent 怎么把一条完整活儿干完的仓库，那里的动静，可能比参数表更值得留意。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 模型层同质化后，下一个护城河在哪？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
