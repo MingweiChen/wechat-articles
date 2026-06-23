@@ -6,43 +6,49 @@
   "images": [
     {
       "seq": "01",
-      "file": "01-value-concentration.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/01-value-concentration.jpg",
-      "caption": "价值过度集中 vs 分散：所有价值都堆向单一支柱，还是摊在更广的生态网络上",
+      "file": "01-nadella-portrait.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/01-nadella-portrait.jpg",
+      "caption": "微软 CEO 萨提亚·纳德拉——这轮喊「别让少数模型吃掉所有价值」的人，正是地球上把 AI 攥得最紧的玩家之一",
       "anchor": "## 那句被反复引用的狠话，狠在哪",
       "position": "after_heading",
-      "source": "ai_generate",
-      "width": "560px"
-    },
-    {
-      "seq": "02",
-      "file": "02-value-shift-layers.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/02-value-shift-layers.jpg",
-      "caption": "价值从模型层往上挪：底层引擎变成可替换标准件，应用层与生态层接住价值",
-      "anchor": "## 他真正想推销的概念：别让「公司老兵」跟着模型一起被换掉",
-      "position": "after_heading",
-      "source": "ai_generate",
-      "width": "560px"
-    },
-    {
-      "seq": "03",
-      "file": "03-learning-loop.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/03-learning-loop.jpg",
-      "caption": "企业的「学习闭环」：数据、流程、知识、产出绕成环，中间的引擎可随时拔插替换",
-      "anchor": "## 上架最便宜的模型，是这套逻辑最直接的落地",
-      "position": "after_heading",
-      "source": "ai_generate",
-      "width": "560px"
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg",
+      "license": "CC BY-SA 4.0 / Brian Smale & Microsoft (Wikimedia Commons)",
+      "type": "A",
+      "width": "360px"
     },
     {
       "seq": "04",
-      "file": "04-commodity-utility.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/04-commodity-utility.jpg",
-      "caption": "模型商品化：像水电煤一样的标准化基础设施，按需付费、随接随换",
+      "file": "04-human-vs-token-capital.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/04-human-vs-token-capital.png",
+      "caption": "human capital 对 token capital：企业真正值钱的，不是接了哪个最强模型，而是换了引擎也带得走的那套能力",
+      "anchor": "## 他真正想推销的概念：别让「公司老兵」跟着模型一起被换掉",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "type": "B",
+      "width": "540px"
+    },
+    {
+      "seq": "03",
+      "file": "03-value-shift-layers.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/03-value-shift-layers.png",
+      "caption": "价值从模型层往上挪：底层引擎被打成可替换标准件，应用层与生态层接住价值",
+      "anchor": "## 上架最便宜的模型，是这套逻辑最直接的落地",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "type": "B",
+      "width": "520px"
+    },
+    {
+      "seq": "02",
+      "file": "02-value-concentration.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/nadella-ai-giants-eat-economy-commoditization/02-value-concentration.png",
+      "caption": "价值过度集中 vs 摊薄分散：只要模型层别出现独大赢家，微软那套「平台+入口+生态」反而越值钱",
       "anchor": "## 为什么是微软喊这一嗓子，而不是别人",
       "position": "after_heading",
-      "source": "ai_generate",
-      "width": "560px"
+      "source": "matplotlib",
+      "type": "B",
+      "width": "540px"
     }
   ]
 }

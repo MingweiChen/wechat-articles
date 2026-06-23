@@ -1,48 +1,60 @@
 {
   "slug": "lecun-xai-failure-ai-bubble-world-models",
   "date": "2026-06-23",
-  "count": 4,
+  "count": 5,
   "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models",
   "images": [
     {
       "seq": "01",
-      "file": "01-unit-economics.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/01-unit-economics.jpg",
-      "caption": "天平的一端是成本，另一端是收入——他对 xAI 的判断，落点其实是单位经济学",
-      "anchor": "## 他说 xAI 会输，理由其实很冷静",
+      "file": "01-yann-lecun-portrait.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/01-yann-lecun-portrait.jpg",
+      "caption": "图灵奖得主、前 Meta 首席 AI 科学家 Yann LeCun（图片来源：Wikimedia Commons / 摄影 Jérémy Barande，CC BY-SA 2.0）",
+      "anchor": "# 一个刚融了 10 亿的人，告诉你 AI 行业要爆泡沫",
       "position": "after_heading",
-      "source": "ai_generated",
-      "width": "560px"
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yann_LeCun_-_2018_(cropped).jpg",
+      "license": "CC BY-SA 2.0",
+      "width": "420px"
     },
     {
       "seq": "02",
-      "file": "02-ai-bubble.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/02-ai-bubble.jpg",
-      "caption": "收入在涨，窟窿也在涨——补贴退坡的那天，泡沫会怎样？",
-      "anchor": "## 他说行业要爆泡沫，账也基本是对的",
+      "file": "02-unit-economics-bars.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/02-unit-economics-bars.jpg",
+      "caption": "他对 xAI 的判断，落点其实是单位经济学：自家最贵的资产靠租给对手回血，一个季度还在巨亏",
+      "anchor": "## 他说 xAI 会输，理由其实很冷静",
       "position": "after_heading",
-      "source": "ai_generated",
-      "width": "560px"
+      "source": "matplotlib",
+      "width": "520px"
     },
     {
       "seq": "03",
-      "file": "03-two-paths.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/03-two-paths.jpg",
-      "caption": "一条路铺的是语言符号，一条路铺的是物理世界——大语言模型 vs 世界模型",
-      "anchor": "## 关键的一步：他不是中立的证人",
+      "file": "03-bubble-cost-vs-price.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/03-bubble-cost-vs-price.jpg",
+      "caption": "价格在涨、成本在降，但成本降得远没价格涨得快——中间那块「亏损口子」，现在由投资人替你补贴（示意图）",
+      "anchor": "## 他说行业要爆泡沫，账也基本是对的",
       "position": "after_heading",
-      "source": "ai_generated",
-      "width": "560px"
+      "source": "matplotlib",
+      "width": "520px"
     },
     {
       "seq": "04",
-      "file": "04-expert-conflict.jpg",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/04-expert-conflict.jpg",
-      "caption": "一头喊着警报，一头亮着价签——对的事实，可以服务于一个有偏的结论",
+      "file": "04-llm-vs-world-model.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/04-llm-vs-world-model.jpg",
+      "caption": "LeCun 押注的两条路之争：大语言模型预测「下一个词」，世界模型则去理解「真实世界怎么运转」",
+      "anchor": "## 关键的一步：他不是中立的证人",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "width": "520px"
+    },
+    {
+      "seq": "05",
+      "file": "05-expert-two-buckets.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/lecun-xai-failure-ai-bubble-world-models/05-expert-two-buckets.jpg",
+      "caption": "听「带货式专家」的笨办法：能被公开数据验证的归一摞（基本可信），他想把你引向的结论归另一摞（听听就好）",
       "anchor": "## 怎么听懂一个「带货式专家」",
       "position": "after_heading",
-      "source": "ai_generated",
-      "width": "560px"
+      "source": "matplotlib",
+      "width": "520px"
     }
   ]
 }
