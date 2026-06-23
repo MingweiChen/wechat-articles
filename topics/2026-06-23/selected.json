@@ -1,0 +1,185 @@
+{
+  "date": "2026-06-23",
+  "dedup_basis": [
+    "06-22 核聚变电荒2028 / Alphabet发800亿新股泡沫 / Copilot四模型贴身肉搏 / 马斯克单挑英伟达造芯 / GitHub改追驯化AI",
+    "06-21 苹果Siri外包Gemini / AI推翻Erdős猜想 / 65行txt登顶GitHub / AI视频单位经济学 / 马斯克+Altman联手喊监管抢IPO",
+    "06-20 GLM-5.2华为芯片反超 / 裁员造4400富翁 / 英伟达机器人安卓 / 无头人形机器人 / AI问责起诉OpenAI微软",
+    "06-19 GPT-5.6赌场 / Databricks AGI已来 / 中国AI造血 / OpenAI前CTO回归 / 扎克伯格143亿挖人",
+    "06-18 高通收购Tenstorrent / Copilot按量计费上架DeepSeek / DeepSeek 510亿融资 / 科创板第五套 / AI眼镜进车间",
+    "06-17 SpaceX 600亿收购Cursor / Robotaxi 59vs600 / 开源前十8中国 / 游戏AI拐点 / GitHub反AI垃圾立规矩",
+    "06-16 Fable5关停 / 智源GO-2 / 英伟达×宇树开源人形 / Chat is dead Codex / DeepMind多智能体失控 / 国产价格战"
+  ],
+  "batch_verdict": "pass",
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "一周内两位顶级科学家出走，谷歌一天蒸发 2500 亿：诺奖得主走前被调去做『卖不动的编程工具』",
+      "category": "商业",
+      "score": 90,
+      "sources": [
+        "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "https://siliconcanals.com/sc-n-a-nobel-laureate-just-walked-out-of-google-deepmind-for-anthropic-and-the-part-nobody-is-discussing-is-what-alphabet-had-reassigned-him-to-do-before-he-left/",
+        "https://www.morningstar.com/news/marketwatch/20260620138/google-shake-up-highlights-how-human-brains-may-be-the-scarcest-ai-resource-of-all"
+      ],
+      "hook": "Gemini 联合负责人 Noam Shazeer 投奔 OpenAI、AlphaFold 缔造者诺奖得主 John Jumper 转投 Anthropic——前后脚两天，Alphabet 一天市值蒸发约 2500 亿美元",
+      "angle": "不写『谁挖走了谁』，写一个被忽略的细节:诺奖得主离开前被调去做谷歌一直卖不动的编程工具——人才流失的真正原因是『研究自由』而非钱",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "AI 竞赛最稀缺的资源不是算力也不是芯片，而是能定义方向的顶尖人才;而留住他们的关键变量不是薪酬，是『让他做自己想做的研究』的自由——谷歌恰恰在这件事上输了",
+        "dots": [
+          "Shazeer(Transformer 论文作者之一)两年前花 27 亿美元从 Character.AI 请回，如今再次出走 OpenAI",
+          "Jumper 是 AlphaFold 缔造者、2024 诺贝尔化学奖得主，离职前被爆调去做谷歌『难以卖给企业客户』的编程工具产品线",
+          "DeepMind 历来是 AI 圈离职率最低的『最稳』研究机构，一周走两位资深科学家是结构性信号",
+          "分析师:这未必短期影响财务，但『降低了谷歌保持前沿地位的概率』——市场据此重新给 GOOGL 定价"
+        ],
+        "axis": "大家都写『AI 人才战白热化』，本篇换轴写『为什么是谷歌在流血』——把一个被忽略的细节(诺奖得主被调去做编程工具)放大成全文的解释钥匙",
+        "counter_intuitive": "表面是钱的战争，实质是『自由的战争』:谁能让科学家自己决定做什么，谁就能留住人",
+        "why_worth": "把两次出走、股价、分析师定价逻辑和『人才被错配』的细节串成一条『自由即护城河』的逻辑，读完会重新理解 AI 巨头真正的竞争壁垒在哪"
+      },
+      "urgency": "high",
+      "review_score": 87,
+      "review_verdict": "keep",
+      "dedup": "低:本周写过『扎克伯格143亿挖人』(06-19)，但那是 Meta 视角的砸钱挖人;本篇是谷歌视角的『为什么留不住+被错配』结构性分析，轴不同",
+      "slug_hint": "google-ai-brain-drain-jumper-shazeer",
+      "recommended_format": "深度解读:一个被忽略的细节 → 放大成结构性解释",
+      "why": "把两次顶级出走、股价、人才错配细节串成『研究自由才是护城河』的逻辑",
+      "compliance_hint": "无政治红线;涉及 GOOGL/Alphabet 仅作新闻事件叙述，禁任何个股买卖建议或目标价推荐"
+    },
+    {
+      "rank": 2,
+      "topic": "又一个 DeepSeek 时刻:一个能连续干几小时活的中国开源模型，让硅谷 CEO 集体改口『这事变了』",
+      "category": "科技",
+      "score": 88,
+      "sources": [
+        "https://officechai.com/ai/this-changes-things-open-source-glm-5-2-impresses-vercel-box-ceos/",
+        "https://indianexpress.com/article/technology/artificial-intelligence/what-is-glm-5-2-china-open-weight-ai-model-10752010/",
+        "https://tech.yahoo.com/ai/gemini/articles/glm-5-2-another-open-195234055.html"
+      ],
+      "hook": "Vercel CEO:『震惊于 GLM-5.2 的编程能力，这事变了。』Zhipu(智谱)港股一天暴涨 42%——上一次中国模型引发这种反应，还是一年多前的 DeepSeek",
+      "angle": "不复述跑分，写『长程任务』这个新战场:模型从『即时问答』进化到『能像人一样连续工作几小时跑完一个完整工程』，以及它为什么让硅谷真正紧张",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "GLM-5.2 的意义不在某个 benchmark 超了谁，而在它证明了开源模型已经能稳定承接『长程任务』(连续数小时自主跑完一个完整工程)——这把价值从『模型层』往『应用层』推，硅谷紧张的是这个,不是分数",
+        "dots": [
+          "硅谷一线建设者(Vercel/Box/Fast.AI 创始人)罕见地不约而同给出同一反应——『可当日常主力的第一个开源模型』",
+          "技术亮点:744B 参数 MoE、1M 上下文、MIT 开源协议、自研 IndexShare 把每 token 算力降到约 1/3",
+          "一条真实链路:从开发→联调→测试→打包上线，累计处理 88 万词元、几乎用满 1M 上下文窗口",
+          "商业冲击:GLM Coding Plan 定价约为 Claude 同类的十分之一;有创业 CEO 称迁到中国开源模型后『省了数百万美元』"
+        ],
+        "axis": "别人写『中国模型又追上来了』的民族叙事，本篇换轴写『长程任务』这一技术拐点 + 价值链从模型层向应用层转移的产业意义",
+        "counter_intuitive": "真正的威胁不是『跑分超了 GPT』，而是『开源 + 便宜 + 够用』正在把闭源大厂最赚钱的那块护城河填平",
+        "why_worth": "把开发者真实反馈、架构创新、长程任务实测、价格战四条线串起来，解释这次『DeepSeek 时刻 2.0』和上次有什么不同"
+      },
+      "urgency": "high",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "dedup": "中→低:06-20 写过 GLM-5.2 但角度是『华为芯片反超(国产算力)』;本篇换轴到『长程任务技术拐点 + 应用层价值转移 + 硅谷反应』，新闻beat也是 06-19 后才爆发的西方开发者反应潮",
+      "slug_hint": "glm-5-2-deepseek-moment-long-horizon",
+      "recommended_format": "技术拐点解读 + 产业意义",
+      "why": "用『长程任务』这个新轴避开跑分复读，解释开源追平闭源对整个应用层意味着什么",
+      "compliance_hint": "无政治红线;Zhipu 涨幅仅作市场事实陈述，禁个股推荐;不渲染中美对抗叙事，聚焦技术与产业"
+    },
+    {
+      "rank": 3,
+      "topic": "『AI 教父』开炮:说马斯克 xAI 是个失败，还警告整个行业要『大泡沫爆炸』——但他自己刚押了 10 亿赌注",
+      "category": "观点",
+      "score": 84,
+      "sources": [
+        "https://www.cnbc.com/2026/06/18/yann-lecun-elon-musk-xai-failure-ai-labs-bubble-risk.html",
+        "https://thenextweb.com/news/yann-lecun-xai-failure-ai-bubble-explosion",
+        "https://finance.yahoo.com/technology/ai/articles/yann-lecun-calls-elon-musk-123639100.html"
+      ],
+      "hook": "图灵奖得主、前 Meta 首席 AI 科学家 Yann LeCun:xAI『算是个失败』,整个行业正冒着『大泡沫爆炸』的风险——但别忘了,他自己刚融了 10 亿美元押注一条完全不同的技术路线",
+      "angle": "不只复述骂战，拆解 LeCun 论点背后的『利益相关』:他的每一句批评,同时也是在为自己的 world models 路线做推销——既要讲清他说得对的地方,也要标明他不是中立的人",
+      "writing_approach": {
+        "increment_path": "串点+反共识",
+        "thesis": "LeCun 的两个判断(xAI 会输、行业要爆泡沫)在单位经济学上确实有依据,但他同时是 LLM 路线的最大唱衰者和 world models 的最大卖家——这篇要同时给出『他对在哪』和『他为什么不是中立证人』",
+        "dots": [
+          "对 xAI:核心论点是『创始团队走光了』,马斯克难再招到顶尖人才;基建只能靠出租给对手(Google 月付约 9.2 亿美元租 Colossus)回血",
+          "对行业:『AI 服务价格在涨,但运行成本降得不够快,所有公司都在亏钱,普通人的使用由投资人买单——这不可持续』",
+          "数字佐证:OpenAI 5 月机密 S-1 显示月收入约 20 亿美元却仍在巨亏;xAI 一季度运营亏损约 25 亿美元",
+          "利益相关:LeCun 的 AMI Labs 3 月融资约 10 亿、估值 35 亿,赌的就是『LLM 是死路、world models 才是未来』——他的警告也是他的招商"
+        ],
+        "axis": "别人写『教父开骂马斯克』的吃瓜叙事,本篇换轴做『论点 vs 利益』的双面拆解,教读者怎么听懂一个『不中立的专家』",
+        "counter_intuitive": "最该认真听的泡沫警告,恰恰来自最有动机制造泡沫恐慌的人——对和动机可以同时成立",
+        "why_worth": "把骂战、单位经济学、融资数字、利益相关四条线串起来,给读者一套『如何评估带货式专家发言』的思维工具"
+      },
+      "urgency": "medium",
+      "review_score": 82,
+      "review_verdict": "keep",
+      "dedup": "低:本周写过泡沫/能源话题,但本篇是 LeCun 个人 + world models 路线之争 + 『如何听懂不中立专家』的方法论角度,独立成题",
+      "slug_hint": "lecun-xai-failure-ai-bubble-world-models",
+      "recommended_format": "观点拆解:论点 vs 利益相关 双面分析",
+      "why": "用『论点和动机可同时成立』的框架,把一场骂战写成一堂媒体素养课",
+      "compliance_hint": "无政治红线;不渲染个人攻击,聚焦技术路线与商业逻辑;禁个股推荐"
+    },
+    {
+      "rank": 4,
+      "topic": "最大金主反水:微软 CEO 罕见开炮『不能让 AI 巨头吃掉整个经济』,转身考虑上架中国最便宜的模型",
+      "category": "商业",
+      "score": 85,
+      "sources": [
+        "https://thenextweb.com/news/nadella-ai-giants-eat-economy",
+        "https://www.wsj.com/tech/ai/microsofts-satya-nadella-we-cant-let-ai-giants-eat-the-economy-b9d33b9f",
+        "https://redmondmag.com/articles/2026/06/18/nadella-says-enterprise-ai-future-may-depend-less-on-frontier-models-than-learning-systems.aspx"
+      ],
+      "hook": "作为 OpenAI 最大的投资人,微软 CEO 纳德拉却放话:『不能让少数几个模型吃掉所有价值,否则政治经济根本不会容忍。』——同一周,微软在考虑把中国最便宜的模型 DeepSeek 上架 Copilot",
+      "angle": "不写『微软又出新模型』,写一个反转:亲手点燃 AI 热潮的人,如今开始给巨头降温——他的『社会许可』论背后,既是政治经济判断,也是微软自己的生意",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "纳德拉的『反巨头宣言』表面是政治经济警告(AI 不能一边说要消灭白领工作、一边要无限建数据中心的权力),实质是微软的商业站位:用便宜模型 + 客户自有『学习闭环』,把价值从『前沿模型』分散到『前沿生态』——而微软想做那个生态的底座",
+        "dots": [
+          "最锋利的一句:『你不能说白领工作都没了、这甚至可能是武器,同时又要用一切权力去建数据中心』——直指 OpenAI/Anthropic",
+          "核心概念:human capital(人的判断)vs token capital(公司自建自有的 AI 能力),换模型不该丢失『公司老兵』的经验",
+          "落地动作:微软已推出一套低成本模型、Copilot Cowork 让用户选模型,并在权衡是否托管 DeepSeek",
+          "利益相关:微软自己今年计划砸约 1900 亿美元建数据中心、又是 OpenAI 最大backer——无论哪家不能独大,微软都赢"
+        ],
+        "axis": "别人写微软产品发布,本篇换轴写『最大金主为什么反水』+『社会许可』这个少见的政治经济视角",
+        "counter_intuitive": "喊『别让巨头吃掉经济』的,正是地球上最大的 AI 权力集中体之一——批评和生意可以是同一件事",
+        "why_worth": "把宣言金句、token capital 概念、低价模型动作、利益相关串起来,解释这轮『商品化叙事』背后真正的产业博弈"
+      },
+      "urgency": "high",
+      "review_score": 83,
+      "review_verdict": "keep",
+      "dedup": "中→低:06-22 写过『Copilot 四模型贴身肉搏』是产品层竞争;本篇是纳德拉个人的政治经济宣言 + 商品化叙事,轴不同;与本批 rank2 区分:那篇讲中国开源模型本身,这篇讲微软的站位与社会许可论",
+      "slug_hint": "nadella-ai-giants-eat-economy-commoditization",
+      "recommended_format": "观点解读:反转 + 政治经济视角",
+      "why": "用『最大金主反水』的反差,切入 AI 商品化与社会许可这个少见但要害的视角",
+      "compliance_hint": "无政治红线(此处政治经济指产业治理,非国家政治);禁个股推荐;不渲染失业恐慌,聚焦产业逻辑"
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub 热榜变天:排第一的不再是聊天机器人,而是一整套『让 AI 自己拍片子』的开源流水线",
+      "category": "开源",
+      "score": 83,
+      "sources": [
+        "https://github.com/trending",
+        "https://github.com/calesthio/OpenMontage",
+        "https://github.com/explore"
+      ],
+      "hook": "GitHub 今日热榜:『全球首个开源 agentic 视频制作系统』12 条流水线 52 个工具 500+ 技能登顶;旁边是 AI 视频编辑器 palmier-pro、AI 配音棚 voicebox、『写 HTML 渲染成视频』的 heygen——视频生产正在被一群 AI agent 接管",
+      "angle": "不评单个项目,写一个集体趋势:开源社区的注意力正从『更强的模型』转向『让 agent 把活干完』的工具链,尤其是视频这种过去最重人力的环节",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "GitHub 热榜的结构性变化说明一件事:开源生态的焦点已从『造更聪明的大脑』转向『给 agent 装上能干完整活的手脚』——而视频制作,正成为这波 agentic 工具化最激进的试验场",
+        "dots": [
+          "OpenMontage:把 AI 编程助手变成『全套视频制作工作室』,12 条流水线 / 52 工具 / 500+ agent 技能,一天涨近 3000 星",
+          "同期上榜:palmier-pro(为 AI 打造的 macOS 视频编辑器)、voicebox(开源 AI 配音棚)、heygen『写 HTML 渲染成视频,为 agent 而生』",
+          "更大背景:mattpocock/skills 140k 星、Anthropic 安全技能 1.8 万星——『agent 技能』正成为新的抽象层",
+          "趋势判断:从『一个聪明模型回答问题』到『一群 agent 用工具 + 技能跑完一条完整生产链路』,视频是最先被啃下的高人力环节"
+        ],
+        "axis": "别人逐个介绍热门 repo,本篇换轴用『热榜结构变化』讲一个产业趋势:工具/技能层正在取代模型层成为新焦点",
+        "counter_intuitive": "GitHub 上最火的不再是更强的 AI 大脑,而是教 AI 怎么把一整部片子从头干到尾的『手脚和工序』",
+        "why_worth": "把多个同期热榜项目串成一条『agentic 工具化』趋势线,帮读者看懂开源社区下一个押注的方向"
+      },
+      "urgency": "medium",
+      "review_score": 80,
+      "review_verdict": "keep",
+      "dedup": "低:06-22『GitHub 改追驯化 AI』讲的是给 agent 装记忆/省 token 的基础设施;本篇聚焦『agentic 视频生产工具链』这一具体且更新的趋势,且基于 06-23 当日热榜",
+      "slug_hint": "github-trending-agentic-video-tooling",
+      "recommended_format": "趋势观察:从热榜结构变化读产业方向",
+      "why": "用当日热榜的结构变化,串出『工具/技能层取代模型层』的开源新趋势",
+      "compliance_hint": "无政治红线;纯技术/开源生态,无个股;注意 deepfake 类项目仅客观提及,不渲染滥用"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-21",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "needs_swap",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "apple-siri-gemini-outsourced-brain",
+      "virality": 8,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 82.5,
+      "verdict": "keep",
+      "issues": [
+        "‘1.2万亿定制Gemini’数字需核实，疑似把参数量/金额混淆，进标题前必须对齐口径",
+        "‘赔2.5亿’的对象与依据要给来源，否则像编"
+      ],
+      "suggestions": [
+        "主轴坐实‘自研神话破产’的冲突点，库克谢幕做人物锚",
+        "三层隐私架构用一张图讲清，别让thesis飘"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "ai-video-unit-economics-bytedance-vs-openai",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 78.75,
+      "verdict": "keep",
+      "issues": [
+        "与06-16‘国产token价格战’存在‘成本战’母题轻度重叠，需用‘视频单位经济学’角度做区隔",
+        "‘Sora日烧百万拖垮10亿迪士尼单’因果链偏强，需补证据避免硬拗"
+      ],
+      "suggestions": [
+        "用‘单秒成本×调用量’做一张对比表，把thesis量化",
+        "标题主打‘OpenAI关Sora vs 字节5毛’的直接对撞"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "karpathy-claude-md-rules-layer-war",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 76.0,
+      "verdict": "keep",
+      "issues": [
+        "偏开发者向，泛科技读者需要一句人话翻译‘规则层’",
+        "与06-17‘GitHub反AI垃圾’同源GitHub热度，但角度不同，可接受"
+      ],
+      "suggestions": [
+        "用npm/k8s类比降低理解门槛",
+        "标题压‘65行txt登顶GitHub’+卡帕西人名"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "mistral-europe-third-pole-sovereign-ai",
+      "virality": 6,
+      "dedup": 8,
+      "originality": 7,
+      "title_pool": 6,
+      "score": 68.25,
+      "verdict": "swap",
+      "issues": [
+        "欧洲主权AI对本受众(25-45男/看爆点)情绪驱动弱，缺人物与直接冲突",
+        "标题人名锚弱，进池主要靠‘160亿欧’单一数字，易平淡",
+        "score<70，未达keep线"
+      ],
+      "suggestions": [
+        "若保留：把‘中美夹缝欧洲选边’的对立感前置，加一个可辨识人物(Mensch)",
+        "或换更高爆点选题，见swap_candidates"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "shazeer-google-exodus-transformer-author",
+      "virality": 7,
+      "dedup": 6,
+      "originality": 5,
+      "title_pool": 7,
+      "score": 65.5,
+      "verdict": "swap",
+      "issues": [
+        "事实风险高：‘卡帕西去Anthropic’与公开事实不符(Karpathy为Eureka Labs)，‘沙泽尔二次离开投奔OpenAI’需强证据，错则红线级翻车",
+        "‘谷歌留不住发明者’母题在06-19(Meta抢人/Murati回归)已被反复消费，dedup偏高",
+        "originality=5，thesis老套，score<70"
+      ],
+      "suggestions": [
+        "若保留：必须先逐个dot核实人物去向，去掉无法证实的节点",
+        "建议换为信息增量更高的选题，见swap_candidates"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    {
+      "for_rank": 5,
+      "idea": "把‘人才流失’换成单一可证实的反转事件型选题(明确人物+明确去向+一手信源)，避免与06-19抢人母题撞车且杜绝事实风险",
+      "why": "高virality需要可坐实的人物冲突而非综述式叙事"
+    },
+    {
+      "for_rank": 4,
+      "idea": "若需补强欧洲题，可转‘主权AI vs 算力封锁’的地缘冲突切口并绑定具体人物/具体禁令事件，提升爆点与标题人名锚",
+      "why": "现版本情绪驱动与转发动机不足"
+    }
+  ]
+}

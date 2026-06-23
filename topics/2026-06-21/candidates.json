@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-21",
+  "dedup_basis": [
+    "06-20: GLM-5.2华为零英伟达 / AI裁员造百万富翁 / 英伟达人形机器人安卓化 / 无脸人形机器人 / AI问责时代诉讼",
+    "06-19: Meta超级智能抢人悖论 / GPT-5.6预测市场对赌 / Liblib营收融资 / Mira Murati回归 / Databricks AGI已来",
+    "06-18: 高通收购Tenstorrent / 微软Copilot按量计费+托管DeepSeek / DeepSeek510亿融资(宁德) / 科创板第五套标准 / AI眼镜进工厂 / Anthropic企业反超OpenAI / 贝索斯Prometheus / Intel最先进芯片 / Suno音乐版权战",
+    "06-17: SpaceX 600亿收购Cursor / Robotaxi 59vs600 / 开源前十中国占8 / 游戏AI拐点 / GitHub反AI垃圾浪潮",
+    "06-16: Fable5被关停 / 智源GO-2具身动作思维链 / 英伟达宇树开源人形 / Chat is dead超级App / DeepMind百万智能体失控 / 国产token价格战",
+    "06-15: Fable5合规关停 / OpenAI收购Ona / 豆包任务模式 / 2万亿循环订单 / Vibe Coding一周年祭",
+    "06-14: 硅谷AI人才攻占巴士底狱 / 编程Agent大战 / 宇树IPO王兴兴 / 三城机器人产业地理 / 中国大厂6月秀肌肉"
+  ],
+  "candidates": [
+    {
+      "topic": "隐私立身的苹果，把Siri的大脑外包给最大对手：每年10亿租Gemini，跑在英伟达B200上",
+      "category": "产品",
+      "score": 88,
+      "sources": ["https://thenextweb.com/news/apple-wwdc-2026-siri-ai-gemini-ios-27", "https://www.techtimes.com/articles/317985/20260608/", "https://thenextweb.com/news/apple-siri-google-gemini-nvidia-privacy-wwdc"],
+      "hook": "把隐私当卖点的苹果，最核心的Siri大脑交给了最大对手谷歌+英伟达",
+      "angle": "苹果不是终于追上AI，而是体面承认自研失败",
+      "urgency": "high"
+    },
+    {
+      "topic": "Transformer作者沙泽尔出走DeepMind投奔OpenAI：谷歌花27亿买回，不到两年又走",
+      "category": "人物",
+      "score": 84,
+      "sources": ["https://news.qq.com/rain/a/20260618A0AEM100"],
+      "hook": "最会发明AI的公司，留不住发明AI的人",
+      "angle": "谷歌的组织病：不是技术不行，是漏斗留不住顶尖大脑",
+      "urgency": "high"
+    },
+    {
+      "topic": "一个65行的txt文件登顶GitHub：AI竞争正从'模型能力'转向'约束模型的规则层'",
+      "category": "开源",
+      "score": 82,
+      "sources": ["https://www.computeleap.com/blog/karpathy-claude-md-template-skills-github-stars-viral/", "https://github.com/trending?since=weekly", "https://ossinsight.io/trending/ai"],
+      "hook": "不是框架不是SDK，一个纯文本文件一天5800星全球第二，NVIDIA还出了给AI技能杀毒的扫描器",
+      "angle": "模型之外的'操作系统'战争：第三方在Anthropic铺完路线图前就把生态做火了",
+      "urgency": "medium"
+    },
+    {
+      "topic": "被中美叙事淹没的第三极：Mistral 160亿欧融资，领投是法国公投行而非VC",
+      "category": "商业",
+      "score": 78,
+      "sources": ["https://www.sohu.com/a/1036211109_122893087"],
+      "hook": "欧洲不玩通用大模型军备赛，用'主权基金+行业小模型'另起炉灶",
+      "angle": "AI不止中美两条路，欧洲的第三种活法",
+      "urgency": "medium"
+    },
+    {
+      "topic": "AI视频的单位经济学：一边OpenAI养不起关掉旗舰，一边字节把单秒成本砍到5毛",
+      "category": "商业",
+      "score": 80,
+      "sources": ["https://news.qq.com/rain/a/20260616A07SHE00", "https://theconversation.com/elon-musk-vs-sam-altman-how-the-legal-battle-of-the-tech-billionaires-could-shape-the-future-of-ai-281732"],
+      "hook": "AI视频真正的胜负手不是效果，是单位成本谁先算平",
+      "angle": "最贵的关掉了，最便宜的活下来了——成本曲线在重写行业",
+      "urgency": "medium"
+    },
+    {
+      "topic": "DeepMind《From AGI to ASI》报告：顶级理论家不吵AGI能不能实现，直接讨论之后的'连续爆炸'",
+      "category": "技术",
+      "score": 75,
+      "sources": ["https://news.qq.com/rain/a/20260613A08UQ800"],
+      "hook": "Shane Legg们把门槛设到'数万专家协作十年'，还点了太空数据中心这种瓶颈",
+      "angle": "真正的分歧已不是AGI何时到，而是到了之后会不会失速",
+      "urgency": "low"
+    }
+  ]
+}
