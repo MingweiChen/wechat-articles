@@ -13,6 +13,10 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">让他失态的，是一个中国开源模型。Z.AI（前身智谱）6 月 13 日放出 GLM-5.2，权重免费下载，MIT 协议，没有任何使用限制。消息出来后，智谱的港股一度单日跳涨。上一次中国模型让硅谷出现这种集体反应，还是一年多前的 DeepSeek。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但如果你只盯着「中国模型又追上来了」这条线，会错过这次真正的看点。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">几个一线建设者，不约而同说了同一句话</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/01-swebench-pro-coding.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">SWE-bench Pro 跑分：开源的 GLM-5.2（62.1）已压过 GPT-5.5（58.6），逼近 Claude Opus 4.8（数据来源 Z.AI 官方榜单）</p>
+</section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">值得注意的是，这次发声的不是吃瓜群众，是一批每天靠 AI 吃饭、自己在搭系统、上产品的人。他们的判断更值钱，因为他们要为自己的判断买单。</p>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">Box CEO Aaron Levie：开源和闭源的差距「保持收窄而不是拉大」，这意味着更多价值可以建在 AI 之上——这对整个应用层都是好事，包括前沿实验室自己。</blockquote>
 <blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">Answer.AI 与 Fast.AI 联合创始人 Jeremy Howard 说得更直接：GLM-5.2 是「a marvel（一个奇迹）」，至少和 Claude Opus 4.8、GPT-5.5 一个水平。他特意点出跑分图表抓不到的东西：分寸感、判断力、可靠的长上下文处理。</blockquote>
@@ -20,8 +24,8 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这四个人，Rauch、Levie、Howard、Velloso，背景不同、立场不同、彼此没串供，却在没人组织的情况下收敛到同一个反应。这种「自发的共识」，比任何一张 benchmark 截图都难反驳。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">真正变了的东西，叫「长程任务」</p>
 <section style="text-align:center; margin:1.4em 0;">
-<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/01-long-horizon-agent.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
-<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">长程任务示意：从规划到联调再到交付，AI 自己把一个完整工程从头跑到尾</p>
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/03-long-horizon-flow.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">从「即时问答」到「长程任务」：交一个目标，模型自己规划、执行、联调、交付，连续工作几小时</p>
 </section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">跑分当然也好看。GLM-5.2 在 SWE-bench Pro 上拿到 <strong style="color:#e74c3c;">62.1 分</strong>，压过 GPT-5.5 的 58.6；在衡量长程任务完成度的 FrontierSWE 上，跟 Claude Opus 4.8 只差不到一个百分点。综合的 Artificial Analysis 智能指数 v4.1 拿到 51 分，全球第四，在开源阵营里领先第二名整整七分。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但分数不是重点。重点藏在 Howard 那句「可靠的长上下文处理」里。</p>
@@ -30,8 +34,8 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">为什么这正好是硅谷最敏感的那根神经？因为闭源大厂过去最值钱、利润最厚的那块，恰恰就是「复杂的、需要长时间推理的、企业愿意为之付高价的」活。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">价值正在从「模型层」往「应用层」漏</p>
 <section style="text-align:center; margin:1.4em 0;">
-<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/02-open-vs-closed.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
-<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">开源与闭源的差距在收窄——价值从「模型层」往「应用层」漏</p>
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/02-intelligence-index-gap.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Artificial Analysis 智能指数 v4.1：GLM-5.2（51 分）居开源第一，与闭源前沿差距收窄到约 7 分</p>
 </section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这里有个微妙的点，Levie 那句话其实说破了。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">闭源模型的商业模式是「你依赖我」。消费者离不开供应商，供应商才能截留足够多的价值，这对烧着几十亿美元建基建、又被投资人盯着要营收增长的公司来说，是命根子。</p>
@@ -39,6 +43,10 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺这条线推下去：当开源模型能以接近前沿的质量处理规划、执行和 agent 工作流，那些在 AI 上面搭产品的公司，就可以在几乎不损失性能的前提下重新配置自己的模型栈，便宜的活交给开源，最难的推理和编排留给闭源。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">价值不会消失，但它会从「谁的模型最强」这一层，往下漏到「谁能把模型用得最好」那一层。这才是「应用层」三个字的分量。前沿实验室仍然守得住最硬的那部分，可「什么活路由到哪」的算盘，已经被重新打过了。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">把账算给你看</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/04-pricing-fraction.png" style="width:540px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">把账算给你看：GLM-5.2 输入约 $1.4、输出约 $4.4 / 百万词元，只有闭源前沿的一个零头，权重还能 MIT 免费下载</p>
+</section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">让这套逻辑从口号变成行动的，是价格。</p>
 <section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
 <table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
@@ -70,8 +78,8 @@
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">还有一个常被忽略的隐性价值：稳定性。最近一轮出口管制行动让某些前沿模型在全球范围内下线，对一家把核心业务架在 AI 上的公司来说，「会不会因为一纸政策决定被掐断」本身就是风险。MIT 协议的开源权重，从「锦上添花」变成了「保命选项」。</p>
 <p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这次和上次有什么不一样</p>
 <section style="text-align:center; margin:1.4em 0;">
-<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/03-efficiency-under-constraint.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
-<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">算力被卡住，逼出来的往往是另一条路上的效率——同样的硬件足迹做更多事</p>
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-23/illustrations/glm-5-2-deepseek-moment-long-horizon/05-efficiency-constraint.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">算力被卡住，提升靠训练而非堆规模：同样 744B 总参数、激活 400 亿，GLM-5.2 相比上一代的进步几乎全部来自训练改进</p>
 </section>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">DeepSeek 那一次，硅谷被惊到的是「成本」，原来用这么少的钱，也能逼近 o1。投资人开始怀疑，那道领先优势是不是没看上去那么稳。</p>
 <p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">GLM-5.2 这一次，惊到他们的不是便宜，而是「够用到可以当主力」。不同公司、不同模型、不同的 benchmark 类别，但故事的形状一模一样：一个本以为还落后一截的对手，突然递到了你面前一个你不得不认真用的东西。</p>
