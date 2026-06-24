@@ -128,9 +128,16 @@
     "swapped_out": [
       "Neura人形机器人融资(67.5)",
       "高通反英伟达并购(66)",
-      "戴尔超算货架化(60)"
+      "戴尔超算货架化(60)",
+      "桑德斯50%股权国有化AI(75,政治风险最高,被头条挤下)"
     ],
     "user_decision": "政治非中国即可，按这5篇继续",
-    "iteration": 2
+    "iteration": 3,
+    "headline": {
+      "topic": "灵晟登顶TOP500",
+      "review": 90,
+      "is_headline": true,
+      "fact_checked": true
+    }
   }
 }
