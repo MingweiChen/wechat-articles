@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-24",
+  "dedup_basis": [
+    "06-23: (空)",
+    "06-22: 核聚变估值翻三倍/电荒、Alphabet发800亿新股泡沫信号、四家模型同编辑器肉搏(微软自研塞Copilot)、马斯克单挑英伟达造芯片、GitHub热榜改追'驯化AI'开源项目",
+    "06-21: 苹果Siri外包Gemini、AI创造新数学推翻Erdős猜想、65行txt登顶GitHub规则层、AI视频单位经济学Sora、最贵对手联手喊监管同时抢IPO",
+    "06-20: GLM-5.2华为芯片反超、裁15万造4400富翁、英伟达人形机器人安卓化参考设计、无头人形机器人、AI问责时代佛州起诉OpenAI",
+    "06-19: GPT-5.6赌场、Databricks说AGI已来、中国AI应用造血、OpenAI前CTO回归、扎克伯格143亿挖团队"
+  ],
+  "selected": [
+    {
+      "topic": "企业第一次'开新项目先选Claude'：5万家公司刷卡数据显示Anthropic反超OpenAI——反超点不在聊天，在编程",
+      "category": "商业",
+      "score": 85,
+      "sources": [
+        "https://www.forbes.com/sites/sandycarter/2026/06/05/claude-becomes-the-enterprise-favorite-as-anthropic-passes-openai/",
+        "https://thehill.com/policy/technology/5900111-anthropic-valuation-openai-race/"
+      ],
+      "hook": "Ramp刷了5万多家美国公司的企业卡和发票数据：Anthropic企业采用率34.4%，第一次反超OpenAI的32.3%。ChatGPT定义了消费AI，但'下一个项目选谁'的领先权易主了。",
+      "angle": "不写谁估值高/谁先IPO，而从'企业刷卡数据'这个被忽略的真实采购信号切入，讲消费冠军≠企业冠军",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "衡量AI谁赢，收入看的是'过去',而企业'开新项目先掏谁'看的是'下一个十年'——Ramp的刷卡数据显示这个先行指标第一次翻盘:Anthropic靠'长上下文+指令忠实+能进生产'补上了OpenAI忙着做消费花活时漏掉的洞，反超恰恰发生在编程这个最吃可靠性的场景。",
+        "dots": [
+          "Ramp指数:Anthropic 34.4% vs OpenAI 32.3%(5万+公司账单)",
+          "Anthropic新客户70%首选、一年采用率翻两番",
+          "约16%公司同时给两家付费(多模型栈)",
+          "反超集中在coding场景",
+          "隐患:token计费在预算收紧时招成本审查、春季现可靠性投诉"
+        ],
+        "axis": "大家都盯估值/IPO/融资额，本篇换到'企业刷卡采购数据'这个真实需求信号",
+        "counter_intuitive": "表面OpenAI总收入仍领先，实际'下一个项目选谁'的话语权已经交给Claude",
+        "why_worth": "读者拿到一个看AI竞争的新尺子(企业首选率>收入),并理解'消费爆款'和'企业默认'是两件事"
+      },
+      "dedup": "低重复。06-22写过'四家模型同编辑器肉搏(微软自研)'，本篇是OpenAI vs Anthropic的企业采用率反超(刷卡数据),角度和主角组合不同。",
+      "urgency": "high"
+    },
+    {
+      "topic": "模型打不过就用'入口'打：开源战略撤退后，扎克伯格把翻身赌注押在'让27亿人把Facebook当搜索引擎'",
+      "category": "产品",
+      "score": 83,
+      "sources": [
+        "https://www.forbes.com/sites/maryroeloffs/2026/06/15/facebook-launches-search-engine-ai-tool-that-could-make-meta-10-billion-a-year-analyst-says/"
+      ],
+      "hook": "Llama 4翻车、开源战略撤退、143亿买Scale AI挖来Wang之后，Meta在Facebook搜索里上线AI Mode：用自研Muse Spark直接答题，分析师说光这一个功能就能年入百亿——这是绕开'模型不如人'、用分发入口正面捅Google。",
+      "angle": "不写'Meta又出AI功能',而从'模型拼不过就改打自己最强的分发牌'这个竞争策略切入",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Meta在'比模型'这条赛道已经认输(Llama4 flop、放弃开源、闭源转Muse Spark);它的翻身策略是换战场——不跟OpenAI/Google拼模型强弱，而是把自己唯一无可比拟的资产(27亿人的分发入口)武器化，让Facebook搜索变成答题机，用流量正面切Google的搜索蛋糕。",
+        "dots": [
+          "Llama 4家族flop、Meta大体放弃开源战略",
+          "$143亿投Scale AI、挖来Alexandr Wang建Superintelligence Labs",
+          "闭源Muse Spark成首个MSL模型",
+          "Facebook Search上线AI Mode直接答题(抓Groups/Reels公开内容)",
+          "Morgan Stanley:留存10亿用户+变现10%查询=年入百亿美元",
+          "Meta股价YTD仍-8%、投资人对烧钱观望"
+        ],
+        "axis": "大家都写'Meta又加了个AI功能',本篇换到'打不过模型就改打入口'的竞争策略",
+        "counter_intuitive": "表面是搜索功能更新，实际是Meta承认正面拼模型已落后、改用分发入口迂回包抄Google",
+        "why_worth": "读者get到的是大厂AI竞争的另一种打法(用分发而非模型取胜),以及Meta把劣势(模型弱)绕成优势(入口强)的逻辑"
+      },
+      "dedup": "低重复。过去一周没写Meta搜索/分发，06-19写的是扎克伯格挖团队的内部管理头疼，本篇是产品/竞争策略，角度不同。",
+      "urgency": "medium"
+    },
+    {
+      "topic": "司法部下场救马斯克：为保Grok运转，要法院驳回黑人社区的污染诉讼——理由是Grok在伊朗战4天打了2000个目标",
+      "category": "商业",
+      "score": 84,
+      "sources": [],
+      "hook": "NAACP告xAI孟菲斯数据中心27台燃气轮机无证排污、紧挨黑人社区(全美哮喘第二城)。特朗普司法部罕见介入，要求'连带偏见'驳回，理由不是环保合规，而是国安：国防部首席AI官作证Grok Gov版'让美军96小时内向2000个目标投放2000枚弹药'。私有聊天机器人第一次被政府正式写进'战争关键基础设施'。",
+      "angle": "AI'卖铲子/算力'之外的另一面：当一个商用聊天机器人被政府定性为战争武器+战略资产，环境正义、公民诉讼权、AI军事化三件事在一个法庭上对撞。不是马斯克造芯(06-22已写)，是马斯克的AI被国家收编当武器。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "当一个商用聊天机器人被政府正式写进'战争关键基础设施'，它就不再只是消费品——xAI孟菲斯数据中心的排污官司之所以惊动司法部下场要求驳回，真正原因是Grok已被国防部认定为战争资产，于是环境正义、公民诉讼权、AI军事化三件本不相干的事第一次在同一个法庭对撞。",
+        "dots": [
+          "NAACP告xAI孟菲斯数据中心无证排污、紧挨黑人社区",
+          "司法部罕见介入要求驳回",
+          "理由是国防部作证Grok让美军96小时打2000个目标",
+          "私有聊天机器人第一次被定性为战争关键基础设施"
+        ],
+        "axis": "大家写AI都在卖铲子/算力/估值，本篇换到'AI军事化+国家收编'这个轴——不是马斯克造芯,是马斯克的AI被国家当武器收编后,连带豁免了民事追责",
+        "counter_intuitive": "表面是一桩环保排污诉讼,实际是私有AI被国家武器化后、公民连告它污染的权利都被国安理由盖过",
+        "why_worth": "读者get到一条没人串起来的链:商用AI一旦被写进战争机器,它的工厂就获得了普通企业没有的法律豁免——AI军事化的代价不只在战场,在你家旁边的数据中心"
+      },
+      "dedup": "Musk本周复现(06-22造芯/06-21抢IPO)，但母题完全不同(军事化+环境正义vs造芯)；用'政府把私有AI写进战争机器'这个新轴去重",
+      "urgency": "high",
+      "review_score": 79.5,
+      "review_verdict": "keep",
+      "_review_dims": {
+        "virality": 9,
+        "dedup": 7,
+        "originality": 8,
+        "title_pool": 7,
+        "score": 79.5
+      }
+    },
+    {
+      "topic": "Oracle年内裁2.1万人，AI首次被白纸黑字写进SEC文件当裁员理由",
+      "category": "商业",
+      "score": 86,
+      "sources": [],
+      "hook": "Oracle 10-K原话：'AI技术的采用与部署已经、且可能继续导致我们裁员。'——没有委婉语，律师在伪证罪下签字。一句话终结了Altman和经济学家'AI没在杀岗位、零证据'的整年话术。2.1万人(13%)走人，遣散费18亿美元(去年5倍)，同时砍人省下的8-10亿全砸进AI数据中心。",
+      "angle": "不是又一条裁员新闻，而是'举证责任'反转：第一份在联邦监管文件里、用法律语言承认AI=裁员的megacap。Altman/Sløk们说'零证据'，Oracle说'证据在这，盖了公章'。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI杀岗位的争论一直卡在'拿不出证据'，Oracle这份10-K第一次把'AI导致裁员'用法律语言写进联邦监管文件、由律师在伪证罪下签字——举证责任就此反转：不再是打工人证明自己被AI取代，而是巨头自己盖章承认了。",
+        "dots": [
+          "Oracle 10-K原话承认AI已致裁员",
+          "2.1万人(13%)+遣散费18亿(去年5倍)",
+          "砍人省下的钱全砸进AI数据中心(capex+162%)",
+          "Altman/经济学家整年说'零证据'"
+        ],
+        "axis": "大家都把它当'又一条裁员新闻'写惨状，本篇从'举证责任反转'这个法律/认识论角度切入——证据这次不在宏观数据里，在SEC公章上",
+        "counter_intuitive": "表面是Oracle省成本裁员，实际是第一份让'AI=裁员'从口水仗变成白纸黑字法律事实的文件",
+        "why_worth": "读者读完明白：判断AI是否在杀岗位，以后不用再吵'有没有证据'，因为巨头已经自己在监管文件里承认了——而且承认的同时把省下的钱投回AI，闭环讲清了"
+      },
+      "dedup": "裁员是拥挤赛道(本周未单写但行业常见)；靠'SEC法律承认 vs 大佬零证据'这个举证反转角度去重，不写'又裁员了'流水账",
+      "urgency": "high",
+      "review_score": 77.5,
+      "review_verdict": "keep",
+      "_review_dims": {
+        "virality": 8,
+        "dedup": 7,
+        "originality": 8,
+        "title_pool": 8,
+        "score": 77.5
+      }
+    },
+    {
+      "topic": "桑德斯要'国有化'AI巨头：对最大AI公司一次性征50%股权税，攒7万亿主权基金，每个美国人每年发$1000",
+      "category": "商业",
+      "score": 80,
+      "sources": [],
+      "hook": "桑德斯抛出American AI Sovereign Wealth Fund Act：年AI营收超2亿美元的公司，一次性上缴50%股票进国家主权基金，公众直接持有美国最大AI公司一半股权、并在董事会用投票权否决'伤害人民'的决策。基金估值约7万亿，5%年分红=每人每年$1000+。Altman私下会面后'明显不热情'，连特朗普都被点名'可能想分一杯羹'。",
+      "angle": "AI财富分配第一次从'UBI口号'变成'具体立法+具体百分比+具体支票'。不是要不要管AI，而是把'谁拥有AI'摆上桌：50%归全民。把Altman/Amodei的'我们慷慨给5%'和桑德斯的'要50%'正面对撞。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI财富分配第一次从'UBI口号'落成'具体立法+具体百分比+具体支票':桑德斯要营收超2亿的AI公司一次性上缴50%股权进国家主权基金、全民直接持股并在董事会有否决权——把'谁拥有AI'这个一直被回避的问题摆上桌,和Altman们'我们慷慨给5%'正面对撞。",
+        "dots": [
+          "桑德斯立法要50%股权税进主权基金",
+          "基金估值7万亿、5%分红=每人每年1000刀",
+          "全民持股+董事会否决'伤害人民'的决策权",
+          "Altman会面后'far apart'、Sacks细节没出就开骂"
+        ],
+        "axis": "大家写AI监管都在'要不要管、怎么管',本篇换到'所有权'这个轴——不是监管AI行为,是把AI公司一半股权直接收归全民",
+        "counter_intuitive": "表面是又一个左翼征税提案,实际是把'UBI靠谁出钱'的空头口号第一次锚定到'全民直接当AI巨头股东'的具体所有权结构",
+        "why_worth": "读者读完看清:AI财富分配的真正分歧不在'发不发钱',在'谁拥有生产资料'——5%施舍 vs 50%股权,是两套完全不同的未来"
+      },
+      "dedup": "政策类本周'喊监管'06-21出现过，但那是公司联手游说，这是参议员立法要50%股权，主体/诉求/数字完全不同；红线检查：美国国内政治，非中国领导人/港台疆藏，安全",
+      "urgency": "high",
+      "review_score": 75.0,
+      "review_verdict": "keep",
+      "_review_dims": {
+        "virality": 8,
+        "dedup": 7,
+        "originality": 7,
+        "title_pool": 7,
+        "score": 75.0
+      }
+    }
+  ],
+  "swap_log": {
+    "swapped_out": [
+      "Neura人形机器人融资",
+      "高通反英伟达并购",
+      "戴尔超算货架化"
+    ],
+    "swapped_in": [
+      "Oracle SEC裁员",
+      "司法部救Grok军事化",
+      "桑德斯50%股权国有化"
+    ],
+    "reason": "原3篇被独立review判swap(机器人疲劳/造芯撞题/超算B端低爆点)；用户确认政治非中国即可",
+    "note": "司法部/桑德斯篇政治色彩重,撰写阶段注意:仅美国国内政治,非中国领导人/港台疆藏;军事化叙事克制,聚焦商业与AI产业影响"
+  }
+}

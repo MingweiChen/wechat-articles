@@ -1,0 +1,136 @@
+{
+  "date": "2026-06-24",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Neura融14亿/投资人名单=供应链地图",
+      "virality": 7,
+      "dedup": 6,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 67.5,
+      "verdict": "swap",
+      "issues": [
+        "人形机器人主题本周已写两篇(06-20安卓化参考设计+无头机器人),读者疲劳,dedup承压",
+        "score未过70线,差在时效冲突点不够锋利"
+      ],
+      "suggestions": [
+        "标题强吊'Tether领投'这个反差点(稳定币巨头跨界造人形)而非又一笔融资",
+        "正文聚焦'同桌名单'拼图叙事,把英伟达/亚马逊/高通/博世做成一张牌桌图,弱化机器人本体"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "高通并购拼非英伟达全栈",
+      "virality": 7,
+      "dedup": 6,
+      "originality": 7,
+      "title_pool": 6,
+      "score": 66.0,
+      "verdict": "swap",
+      "issues": [
+        "反英伟达造芯片角度06-22马斯克篇已占位,冲突母题重复",
+        "Modular/Tenstorrent/Alphawave三笔并购对大众认知门槛偏高,转发动机弱",
+        "score未过70"
+      ],
+      "suggestions": [
+        "把'8-100亿谈Tenstorrent'数字前置做钩子,降低理解门槛",
+        "标题轴心改为'CUDA护城河第一道裂缝',用敌我叙事拉高传播"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic企业采用率首次反超OpenAI",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 80.0,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "34.4% vs 32.3%精确数字+'第一次反超'必须进标题",
+        "'企业开新项目先选谁=先行指标'是强thesis,正文用编程这个反超点收口"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "戴尔144块Vera Rubin/超算货架化",
+      "virality": 6,
+      "dedup": 6,
+      "originality": 6,
+      "title_pool": 6,
+      "score": 60.0,
+      "verdict": "swap",
+      "issues": [
+        "'安卓化'比喻06-20已用于人形机器人,本批又复用,母题撞车最重",
+        "国家实验室买家+整机柜话题偏B端硬核,virality天花板低",
+        "score明显低于线"
+      ],
+      "suggestions": [
+        "若保留:用'6小时上线'极速反差做唯一钩子,砍掉安卓化比喻避免与06-20撞",
+        "更建议作为替补,优先级最低"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Meta把27亿用户入口武器化切Google搜索",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 72.5,
+      "verdict": "keep",
+      "issues": [
+        "百亿年入为分析师估算,正文需标注口径避免标题党争议"
+      ],
+      "suggestions": [
+        "'Llama4翻车后换战场'是好的反转弧线,主线扣分发入口而非模型强弱",
+        "标题用'27亿人'+'正面切Google'对撞"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    {
+      "rank": 4,
+      "reason": "score60最低+安卓化母题与06-20撞车,优先替换"
+    },
+    {
+      "rank": 2,
+      "reason": "反英伟达冲突与06-22重复+认知门槛高"
+    },
+    {
+      "rank": 1,
+      "reason": "人形机器人本周第三篇,dedup疲劳,score差线2.5分"
+    }
+  ],
+  "final_resolution": {
+    "kept": [
+      "Anthropic企业采用反超(80)",
+      "Meta入口战切Google(72.5)"
+    ],
+    "swapped_in": [
+      {
+        "topic": "司法部救Grok/军事化",
+        "score": 79.5
+      },
+      {
+        "topic": "Oracle SEC裁员举证反转",
+        "score": 77.5
+      },
+      {
+        "topic": "桑德斯50%股权国有化AI",
+        "score": 75.0
+      }
+    ],
+    "swapped_out": [
+      "Neura人形机器人融资(67.5)",
+      "高通反英伟达并购(66)",
+      "戴尔超算货架化(60)"
+    ],
+    "user_decision": "政治非中国即可，按这5篇继续",
+    "iteration": 2
+  }
+}
