@@ -1,0 +1,58 @@
+{
+  "slug": "meta-entry-point-weaponize-search",
+  "date": "2026-06-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/meta-entry-point-weaponize-search",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-zuckerberg-portrait.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/meta-entry-point-weaponize-search/01-zuckerberg-portrait.jpg",
+      "caption": "扎克伯格——这一连串撤退与押注的拍板者，把翻身筹码押到了「入口」这张牌上",
+      "anchor": "## 先把这几步棋摆到一起看",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg",
+      "license": "CC BY 2.0 (Anthony Quintano, via Wikimedia Commons)",
+      "type": "A",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "04-meta-ai-logo.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/meta-entry-point-weaponize-search/04-meta-ai-logo.jpg",
+      "caption": "AI Mode 背后的发动机是 Meta AI——模型从「要去争冠的选手」降级成了「入口背后的引擎」",
+      "anchor": "## AI Mode 到底动了谁的奶酪",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meta_AI_logo.png",
+      "license": "CC0 (Meta Platforms, via Wikimedia Commons)",
+      "type": "A",
+      "width": "260px"
+    },
+    {
+      "seq": "03",
+      "file": "03-entry-revenue-estimate.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/meta-entry-point-weaponize-search/03-entry-revenue-estimate.png",
+      "caption": "摩根士丹利的估算口径：27 亿月活 → 估算留存约 10 亿 → 提问 10% 变现 → 年收入超 100 亿美元（均为估算，非已发生业绩）",
+      "anchor": "## 「27 亿人的入口」这张牌，到底值多少钱",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "type": "B",
+      "width": "540px"
+    },
+    {
+      "seq": "04",
+      "file": "02-model-vs-entry-strategy.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/meta-entry-point-weaponize-search/02-model-vs-entry-strategy.png",
+      "caption": "两个维度的胜负：模型战是 Meta 的短板（认了），入口战是它的长板（发力）——一次清醒的扬长避短",
+      "anchor": "## 这盘棋真正的看点",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "type": "B",
+      "width": "540px"
+    }
+  ]
+}

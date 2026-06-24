@@ -1,0 +1,60 @@
+{
+  "slug": "lingsheng-cpu-top500-china-supercomputer",
+  "date": "2026-06-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-lingsheng-machine.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/01-lingsheng-machine.jpg",
+      "caption": "部署于国家超算深圳中心的「灵晟」超级计算机机柜——1379万核心全部来自自研LX2 CPU，整机没有一颗GPU",
+      "anchor": "## 这不是一道技术品味题，是一道供给题",
+      "position": "after_heading",
+      "type": "A",
+      "source": "search",
+      "source_url": "https://www.stdaily.com/web/gdxw/2026-06/23/content_536306.html",
+      "source_note": "科技日报／国家超级计算深圳中心（受访单位供图）",
+      "width": "560px"
+    },
+    {
+      "seq": "02",
+      "file": "02-four-lists.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/02-four-lists.png",
+      "caption": "同一台灵晟在四把尺子下的成绩：HPL、HPCG双料第一，HPL-MxP（AI混合精度）第4、Green500（能效）第50——长板与短板同源",
+      "anchor": "## 纯 CPU 的代价，写在另一张榜单上",
+      "position": "after_heading",
+      "type": "B",
+      "source": "matplotlib",
+      "source_url": "https://top500.org/lists/top500/2026/06/",
+      "source_note": "数据来源：TOP500 第67期（2026-06，ISC2026），本号自制图表",
+      "width": "560px"
+    },
+    {
+      "seq": "03",
+      "file": "03-arch-compare.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/03-arch-compare.png",
+      "caption": "两条路线对比：主流CPU+GPU异构架构 vs 灵晟纯CPU全栈自主架构——后者更难被「二次断供」",
+      "anchor": "## 把「短板」反过来看，是另一种长板",
+      "position": "after_heading",
+      "type": "B",
+      "source": "matplotlib",
+      "source_url": "",
+      "source_note": "本号自制示意图（依据公开技术参数）",
+      "width": "560px"
+    },
+    {
+      "seq": "04",
+      "file": "04-top5-hpl.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/04-top5-hpl.png",
+      "caption": "TOP500第67期前五名HPL算力对比：灵晟2.198 EFlops，比第二的El Capitan（1.809）快两成多，唯一突破2 EFlops门槛",
+      "anchor": "## 一个意外的背书，来自对手那边",
+      "position": "after_heading",
+      "type": "B",
+      "source": "matplotlib",
+      "source_url": "https://top500.org/lists/top500/2026/06/",
+      "source_note": "数据来源：TOP500 第67期（2026-06，ISC2026），本号自制图表",
+      "width": "560px"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "doj-grok-xai-memphis-warmachine",
+  "date": "2026-06-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/doj-grok-xai-memphis-warmachine",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-emissions-load.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/doj-grok-xai-memphis-warmachine/01-emissions-load.png",
+      "caption": "孟菲斯近郊燃气电站的环境负荷：就地架设的燃气涡轮机数量、每年超 5300 吨氮氧化物排放、每日上百万加仑冷却用水（来源：NAACP 诉状、南方环境法律中心及公开报道）",
+      "anchor": "## 第一方：社区说的是「我家旁边的空气」",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "560px",
+      "type": "B"
+    },
+    {
+      "seq": "02",
+      "file": "02-grok-warmachine-facts.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/doj-grok-xai-memphis-warmachine/02-grok-warmachine-facts.png",
+      "caption": "司法部宣誓证词捅破的产业事实：商用聊天机器人 Grok 的政府版被国防部认定为「主要的涉密算力基础设施提供方」（标识：xAI / Wikimedia Commons）",
+      "anchor": "## 第二方：政府说的是「我要打赢的那场仗」",
+      "position": "after_heading",
+      "source": "composite",
+      "source_url": "https://commons.wikimedia.org/wiki/File:XAI_Logo.svg",
+      "width": "560px",
+      "type": "A/B"
+    },
+    {
+      "seq": "03",
+      "file": "03-three-parties.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/doj-grok-xai-memphis-warmachine/03-three-parties.png",
+      "caption": "三方对撞：社区争呼吸权、司法部争超算的军事价值、法律学者争公民诉讼权——同一法庭，三个房间各自喊话",
+      "anchor": "## 第三方：法庭上真正被审判的，是「公民还能不能告」",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "560px",
+      "type": "B"
+    },
+    {
+      "seq": "04",
+      "file": "04-causal-chain.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/doj-grok-xai-memphis-warmachine/04-causal-chain.png",
+      "caption": "一条没人串起来的因果链：从数据中心绕过许可供电，到军方采用 Grok，再到政府用「国家安全」让公民诉讼整个失效",
+      "anchor": "## 把这条没人串起来的链拎出来",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "560px",
+      "type": "B"
+    }
+  ]
+}

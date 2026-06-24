@@ -1,0 +1,112 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1565c0 0%,#0d47a1 50%,#002171 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#90caf9; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">产 业 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">全球最快的超算里<br>一颗GPU都没有</p>
+  <p style="width:46px; height:3px; background:#90caf9; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">深圳那台叫「灵晟」的机器，用1379万个自研CPU核心、零GPU，把美国El Capitan掀下世界第一。反常的不是快，是怎么快的。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">2.198 EFlops。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是中国深圳那台叫「灵晟」的机器，6 月 23 日在德国汉堡 ISC2026 大会上，第 67 期 TOP500 榜单亮相时跑出的双精度成绩。它比排第二的美国 El Capitan（1.809 EFlops）快了两成还多，把对方从世界第一的位置上掀了下去。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">真正反常的地方不在「快」，在「怎么快的」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">El Capitan 靠的是 AMD 的 CPU 加 MI300A 加速器。Frontier、Aurora、JUPITER，前五里的另外几台，无一例外都堆了大量 GPU 或专用加速卡。只有灵晟例外——<strong style="color:#e74c3c;">1379 万个核心，全部来自 304 核的自研 LX2 处理器，整台机器没有一颗 GPU。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">它是 TOP500 历史上第一台、纯靠 CPU 就把持续双精度算力顶过 2 EFlops 的系统。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事单看是一次扬眉吐气的速度登顶。但如果只盯着「中国九年后重回第一」这条线，会错过更值得拆的那个问题：<strong style="color:#e74c3c;">为什么偏偏是纯 CPU？</strong> 这条几乎没人愿意走的冷门路线，是怎么被走出来的，又付出了什么代价。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这不是一道技术品味题，是一道供给题</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/01-lingsheng-machine.jpg" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">部署于国家超算深圳中心的「灵晟」超级计算机机柜——1379万核心全部来自自研LX2 CPU，整机没有一颗GPU</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">先把一个容易被误读的点说清楚：灵晟走纯 CPU，不是设计师觉得 GPU 不好。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">恰恰相反，过去十年高性能计算的主流共识就是「CPU 管调度、GPU 管算力」，全世界的超算榜单几乎被这套异构架构统治。要论单位面积的浮点吞吐，GPU 仍然是更顺手的选择。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">那为什么不用？因为想用也未必拿得到。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">最先进的 GPU 和制造它们所需的先进制程，这几年一直处在出口管制的名单里。对一台要堆到 EFlops 量级、需要几万颗顶级芯片的超算来说，「供货不稳定、随时可能断」本身就是一个工程上无法接受的风险。<strong style="color:#e74c3c;">你没法把一台国家级科学装置的命脉，押在一条随时可能被掐断的供货线上。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个常被忽略的因果：当一条最优路线的「可得性」被打了折扣，工程上理性的反应不是硬等，而是绕路——把约束当成边界条件，重新解这道题。灵晟的纯 CPU 选择，本质是在「拿不到最优零件」这个前提下，逼出来的次优解。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">顺这条线推下去，它选择的代价和好处，就都能解释了。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">纯 CPU 的代价，写在另一张榜单上</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/02-four-lists.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">同一台灵晟在四把尺子下的成绩：HPL、HPCG双料第一，HPL-MxP（AI混合精度）第4、Green500（能效）第50——长板与短板同源</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">衡量超算有好几把尺子，灵晟在不同尺子下的表现，恰好把这条路线的长短板照得清清楚楚。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">榜单</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">衡量的东西</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">灵晟成绩</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">名次</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">HPL</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">双精度峰值算力</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">2.198 EFlops</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;"><strong style="color:#e74c3c;">第 1</strong></td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">HPCG</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">贴近真实科学应用</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">22.00 PFlops</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;"><strong style="color:#e74c3c;">第 1</strong></td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">HPL-MxP</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">混合精度（偏 AI）</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">7.92 EFlops</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">第 4</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">Green500</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">能效（每瓦算力）</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">52.07 GFlops/W</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">第 50</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">HPL 和 HPCG 双料第一，含金量很高。尤其 HPCG，它故意设计得「难刷分」，要求内存访问密集、通信复杂，逼近真实的科学计算负载。一台机器 HPL 高、HPCG 也高，说明它不是只会跑测试题的偏科生，是真能干活。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但 HPL-MxP 这一栏，露了底。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这把尺子量的是混合精度，也就是 AI 训练和推理最吃的那种低精度算力。灵晟的 HPL-MxP 只比自己的 HPL 高了 3.6 倍——而装了专用低精度加速器的机器，这个倍数通常能拉到十几倍。<strong style="color:#e74c3c;">3.6 这个数字，等于直接承认：它没有为 AI 准备的低精度加速单元。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">能效那一栏也得诚实讲。灵晟功耗约 42.2 兆瓦，是前十里最费电的，能效榜上只排到第 50。纯 CPU 堆出顶级算力，是用「电」和「占地」换来的。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">一句话总结这台机器：科学计算是真强，AI 算力是真短板，省电更是谈不上。登顶是事实，偏科也是事实。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">把「短板」反过来看，是另一种长板</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/03-arch-compare.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">两条路线对比：主流CPU+GPU异构架构 vs 灵晟纯CPU全栈自主架构——后者更难被「二次断供」</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">到这里，故事如果停在「赢了科学、输了 AI」，就还只是一篇跑分复盘。真正的增量在下一层。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这条被逼出来的路线，藏着一个反直觉的好处：<strong style="color:#e74c3c;">全部关键部件都在可控范围内。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把灵晟拆开看，处理器是自研 LX2，互联是自研的灵骐网络，操作系统是麒麟，连机柜都用了国产的鲲鹏。它不是某一个环节国产，是从芯片到网络到系统软件，整条栈都摆脱了对那条「随时可能被掐」的供货线的依赖。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这意味着什么？意味着这台机器很难被「二次制裁」。一台堆满进口 GPU 的超算，断供一来就是悬在头顶的剑；而一台全可控部件堆出来的机器，没有这把剑。<strong style="color:#e74c3c;">封锁的本意是卡住算力，结果反而逼着对方把技术栈做成了一块更难再被卡的整体。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然要讲分寸。LX2 用的是 Arm v9 指令集授权，这套指令集来自英国 Arm 公司——所以严格说，这条栈不是「零境外技术」。把它吹成完全自给自足，既不准确，也没必要。真实的成就已经足够：在最难的环节（芯片设计、系统集成、互联网络）做到了自主，并用它登上了顶峰。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一个意外的背书，来自对手那边</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/lingsheng-cpu-top500-china-supercomputer/04-top5-hpl.png" style="width:560px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">TOP500第67期前五名HPL算力对比：灵晟2.198 EFlops，比第二的El Capitan（1.809）快两成多，唯一突破2 EFlops门槛</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">如果说这台机器有什么「权威盖章」，它来自一个意想不到的人。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Jack Dongarra，图灵奖得主，HPL 这套基准测试的发明者，也是 TOP500 榜单的联合创始人。换句话说，这套游戏规则就是他定的。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">面对灵晟登顶，他的评价没有回避：<strong style="color:#e74c3c;">「他们用不依赖 GPU 的系统超过了我们。」</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话的分量在于说话人的身份。一个亲手制定标准、长期站在 GPU 路线一侧的人，承认对方用一条自己都没看好的路线赢了，这比任何官方通稿都更能说明问题。一条「非主流架构」能在主流标准的主场把主流架构掀翻，本身就是对这条路线最硬的认证。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">值得一提的是，灵晟的总设计师是中山大学教授、国家超算深圳中心主任卢宇彤。这是一位长期做高性能计算的学者。把一道「拿不到最优零件」的约束题解到全球第一，背后是一个工程团队对边界条件的极致利用，而不是某种运气。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">写在最后</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">复盘灵晟，最有意思的不是它跑了多快，而是它揭示了一个关于「封锁」的悖论。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">封锁想达到的效果，是让对手在最优路线上停步。短期看，它确实做到了，灵晟拿不到最好的 GPU，只能绕路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">但绕出来的这条路，把所有关键部件都收进了自己手里，反而长出了原路线没有的韧性：更难断供、更难再被卡。封锁压住了一条路，却把另一条路压成了更结实的样子。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">至于那块明摆着的 AI 短板，倒不必急着替它遮掩。一台机器同时拿下科学计算的两个第一、又在 AI 混合精度上落后，这种「长得很长、短得很短」的不均衡，恰恰是「被约束逼出来」的典型形状——它强在哪、弱在哪，都写着同一个原因。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">看懂这台没有 GPU 的世界第一，比单纯为它欢呼，要值钱得多。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#90caf9; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #90caf9; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 纯CPU这条冷门路线，你觉得是被逼出来的，还是主动选的？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

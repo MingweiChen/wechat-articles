@@ -1,0 +1,52 @@
+{
+  "slug": "anthropic-enterprise-passes-openai-claude",
+  "date": "2026-06-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/anthropic-enterprise-passes-openai-claude",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-claude-logo.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/anthropic-enterprise-passes-openai-claude/01-claude-logo.jpg",
+      "caption": "这次被投票的主角：Anthropic 的 Claude——企业新项目里第一次成了默认选项",
+      "anchor": "## 先看清这个数字到底在量什么",
+      "position": "after_heading",
+      "source": "wikimedia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Claude_AI_logo.svg",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "02-adoption-bar.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/anthropic-enterprise-passes-openai-claude/02-adoption-bar.jpg",
+      "caption": "企业付费采用率：Anthropic 34.4%（月增 3.8）首次反超 OpenAI 32.3%（月减 2.9），全美整体仅 50.6%——两家相加远超总数，说明大量公司给两家同时付钱",
+      "anchor": "## 先看清这个数字到底在量什么",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "https://ramp.com/leading-indicators/ai-index-may-2026",
+      "width": "540px"
+    },
+    {
+      "seq": "03",
+      "file": "03-growth-trajectory.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/anthropic-enterprise-passes-openai-claude/03-growth-trajectory.jpg",
+      "caption": "过去一年的轨迹：Anthropic 从 9% 翻两番到 34.4%，OpenAI 几乎原地踏步（同期约 +0.3 个百分点）",
+      "anchor": "## 反超的地方，偏偏是最不该「换帅」的编程",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "https://ramp.com/leading-indicators/ai-index-may-2026",
+      "width": "540px"
+    },
+    {
+      "seq": "04",
+      "file": "04-first-pick-share.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/anthropic-enterprise-passes-openai-claude/04-first-pick-share.jpg",
+      "caption": "首次为 AI 付费的企业，正面交锋时约七成先选 Anthropic——一个没有历史包袱的新客户，七成把第一票投给它",
+      "anchor": "## 把「消费冠军」错当「企业冠军」，是这两年最贵的误读",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "https://ramp.com/leading-indicators/ai-index-may-2026",
+      "width": "540px"
+    }
+  ]
+}

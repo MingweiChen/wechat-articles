@@ -1,0 +1,52 @@
+{
+  "slug": "oracle-sec-filing-ai-layoffs",
+  "date": "2026-06-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/oracle-sec-filing-ai-layoffs",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-oracle-logo.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/oracle-sec-filing-ai-layoffs/01-oracle-logo.jpg",
+      "caption": "把这句话写进10-K的，是甲骨文（Oracle）——一家市值巨头的年度法律文书",
+      "anchor": "## 这句话和HR话术，差在哪",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oracle_logo.svg",
+      "width": "300px"
+    },
+    {
+      "seq": "03",
+      "file": "03-sam-altman.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/oracle-sec-filing-ai-layoffs/03-sam-altman.jpg",
+      "caption": "同一时期，OpenAI掌门人Sam Altman却说自己「很高兴我错了」——白领岗位的大规模消失没怎么发生",
+      "anchor": "## 同一时间，还有人在说“零证据”",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_November_2022.jpg",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "02-layoff-severance.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/oracle-sec-filing-ai-layoffs/02-layoff-severance.jpg",
+      "caption": "文件披露的数字：员工从16.2万降到14.1万（-2.1万/-13%），而重组遣散开支从去年3.74亿暴增到18亿美元，约5倍",
+      "anchor": "## 把账算到底，这是个闭环",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "matplotlib",
+      "width": "560px"
+    },
+    {
+      "seq": "04",
+      "file": "04-resource-flow.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-24/illustrations/oracle-sec-filing-ai-layoffs/04-resource-flow.jpg",
+      "caption": "闭环：一头压缩人力、付18亿遣散，另一头资本开支+162%冲到557亿，省下的钱加倍灌回AI数据中心",
+      "anchor": "## 所以这事改变了什么",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "matplotlib",
+      "width": "560px"
+    }
+  ]
+}

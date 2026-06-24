@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-24",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 86,
+      "title": "中国超算重夺世界第一：纯CPU零GPU跑赢美国",
+      "slug": "lingsheng-cpu-top500-china-supercomputer",
+      "title_slug": "中国超算重夺世界第一纯CPU零GPU跑赢美国",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-24/html/01-中国超算重夺世界第一纯CPU零GPU跑赢美国-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-24/html/01-中国超算重夺世界第一纯CPU零GPU跑赢美国-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 86,
+      "title": "34.4%企业采用率：Anthropic首超OpenAI",
+      "slug": "anthropic-enterprise-passes-openai-claude",
+      "title_slug": "344%企业采用率Anthropic首超OpenAI",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-24/html/02-344%企业采用率Anthropic首超OpenAI-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-24/html/02-344%企业采用率Anthropic首超OpenAI-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 10,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 84,
+      "title": "扎克伯格弃赛模型：27亿人入口改做AI搜索切谷歌",
+      "slug": "meta-entry-point-weaponize-search",
+      "title_slug": "扎克伯格弃赛模型27亿人入口改做AI搜索切谷歌",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-24/html/03-扎克伯格弃赛模型27亿人入口改做AI搜索切谷歌-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-24/html/03-扎克伯格弃赛模型27亿人入口改做AI搜索切谷歌-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 84,
+      "title": "一桩排污官司：商用AI被政府列为战争资产",
+      "slug": "doj-grok-xai-memphis-warmachine",
+      "title_slug": "一桩排污官司商用AI被政府列为战争资产",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-24/html/04-一桩排污官司商用AI被政府列为战争资产-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-24/html/04-一桩排污官司商用AI被政府列为战争资产-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 7,
+        "density": 9,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 83,
+      "title": "AI砍掉2.1万岗位：Oracle把它写进SEC文件",
+      "slug": "oracle-sec-filing-ai-layoffs",
+      "title_slug": "AI砍掉21万岗位Oracle把它写进SEC文件",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-24/html/05-AI砍掉21万岗位Oracle把它写进SEC文件-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-24/html/05-AI砍掉21万岗位Oracle把它写进SEC文件-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 9,
+        "structure": 8,
+        "compliance": 8,
+        "aigc": 9
+      },
+      "iterations": 1
+    }
+  ]
+}
