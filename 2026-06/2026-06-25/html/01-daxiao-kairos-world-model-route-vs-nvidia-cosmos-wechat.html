@@ -1,0 +1,98 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">前 沿 · 路 线 之 争</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">一家中国小公司<br>比英伟达早半年押中同一条路</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">四张全球榜单第一名都写着Kairos，做它的大晓机器人你大概率没听过。但比「又一个国产SOTA」更值得说的，是英伟达半年后才跟上的那条路线。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">四张全球榜单，第一名都写着同一个名字：<strong style="color:#e74c3c;">Kairos</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">刷新 RoboTwin 2.0 双臂操作纪录，96.1 分登顶；在号称机器人泛化「终极考验」的 LIBERO-Plus 上拿 89.0 分压过所有人；在英伟达、伯克利、MIT 联合提出的 WorldModelBench 上拿 9.30 分。这家做出 Kairos 的公司叫大晓机器人（ACE ROBOTICS），你大概率没听过。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">但比「又一个国产 SOTA」更值得说的，是它身后那条时间线。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">这套「原生一体化世界模型」的架构，大晓在 2025 年 12 月就发了出来。半年后，英伟达的 Cosmos 3.0 把架构换成了同一条思路。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先后顺序一旦摆出来，故事就不是「小公司追上巨头」，而是另一种更少见的东西——<strong style="color:#e74c3c;">这一次，是巨头跟着一家中国创业公司走的方向。</strong></p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/01-kairos-official-benchmark-leaderboard.jpg" style="width:100%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">大晓官方公布的成绩单：Kairos 在 RoboTwin 2.0（96.1）、LIBERO-Plus（89.0）、WorldModelBench（9.30）、DreamGen（61.8）四榜均列第一（数据来源：大晓机器人）</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先把「刷榜」和「定义路线」分开</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">大多数人看到「四榜登顶、超越英伟达 Cosmos3」，第一反应是跑分叙事：又赢了一局。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个容易被跑分盖住的点。榜单分数是结果，<strong style="color:#e74c3c;">路线</strong>才是因。同一道题，你可以有两种赢法：一种是沿着别人定的范式，把参数堆大、把数据喂多，分数压过去；另一种是干脆换一套范式，让这道题本身变得不一样。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Kairos 走的是后一种。它在 WorldModelBench 的指令遵循维度拿 2.36 分，和英伟达 16B 参数的 Cosmos3 并列第一——而它只有 <strong style="color:#e74c3c;">4B 参数</strong>。同样的活，用四分之一的体量干完，这不是「更努力」，是「换了条路」。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">拼参数效率拼到 4 倍差距，靠的从来不是算力，是架构。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这条路是什么，它为什么难走</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/02-param-efficiency-4b-vs-16b.jpg" style="width:100%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">同一道题的两种赢法：Kairos 只用 4B 参数，就在 WorldModelBench 上打平 16B 的英伟达 Cosmos3——拼的是架构，不是算力</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">要讲清楚大晓押中了什么，得先说行业里大家都在走的那条「捷径」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">主流做法是：拿一个现成的通用视频生成模型（比如 Wan 系列），在机器人数据上做后训练、微调，让它学会「预测下一帧画面」。好处是省事、起步快。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">代价是这类模型骨子里没有物理因果，它会生成「看起来对」的画面，但不一定符合牛顿力学，遇到长时序任务还会越推越偏。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">大晓做了一件更重、也更慢的事：</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">不外挂，自己重写底层</strong>。2025 年 12 月推出原生「理解—生成—预测」一体化架构，把世界理解、画面生成、状态预测三件事捏进同一个模型里，而不是拼三个零件。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">自研混合线性注意力算子</strong>，让模型既能盯住眼前的局部动态，又能维持一段跨越长时间的全局记忆——论文里甚至给了误差不随时间累积发散的理论边界。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• <strong style="color:#e74c3c;">从端侧倒推架构</strong>。Kairos-4B 是全球第一款能直接驱动机器人本体的端侧世界模型，把扩散模型动辄几十轮的采样压到 4 轮，消费级硬件就能跑。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把这三件事连起来看，会发现一个反直觉的取舍：<strong style="color:#e74c3c;">它一开始就不是冲着「榜单分数最高」去的，是冲着「能在真机器人上跑起来」去的。</strong> 榜单第一只是顺路的副产品。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这也是为什么物理遵循维度里，它的牛顿力学、重力两项直接拿了满分 1.00。一个只想刷分的模型不会在这种地方下死功夫，因为它不打算真去开机器人。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">「同源架构」四个字的分量</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/03-timeline-daxiao-first-cosmos-follows.jpg" style="width:100%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">时间线：大晓 2025 年 12 月先推出原生一体化架构，约半年后英伟达 Cosmos 3.0 才换成同一条思路</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">回到开头那条时间线。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">世界模型这个方向，过去两年话语权基本在英伟达手里——Cosmos 系列几乎是默认参照系，国内外团队大多在它定义的框架里做优化。<strong style="color:#e74c3c;">谁定义范式，谁就拿走了路线的定价权。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以当一家成立没几年、名字都没几个人知道的中国公司，比 Cosmos 3.0 早半年把「原生一体化」这套思路跑通，还在它转过来之前就推到了端侧可部署，事情的性质就变了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这不再是「我们也能做到」，而是「这条路是我们先趟出来的」。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当然要克制地说：架构思路的「同源」不等于抄袭，世界模型走向统一、原生预训练，本就是不少团队各自摸索的共同趋势，谁影响谁很难拍板。但有一点是确定的——<strong style="color:#e74c3c;">在物理 AI 这条最被巨头垄断话语权的赛道上，第一次出现了「中国团队先押中、巨头随后转向」的样本。</strong> 这个样本本身，比多刷几个点的榜单分数重要得多。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">为什么是「世界模型」，而不是又一个大脑</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/04-vla-vs-world-model-paradigm.jpg" style="width:100%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">两种范式的分野：VLA 看到就出动作，世界模型先在脑内预测后果再动作——后者更扛长时序、复杂规划</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">最后说回机器人本身，这也是这件事真正落地的地方。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去机器人的主流方案叫 VLA（视觉-语言-动作）：看一眼、听指令、出动作，端到端。它的短板是缺一个「会预判后果」的环节，撞上去之前不知道会撞上。世界模型补的正是这块：它在脑子里先把「如果这么动，世界会变成什么样」演一遍，再决定动作。RoboTwin 2.0 的评测里专门对比了这两种范式，结论是后者更适合长时序、复杂规划的活。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);"></th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">VLA 范式</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">世界模型范式</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">核心逻辑</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">看到→直接出动作</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">先在脑内预测后果→再动作</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">擅长</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">短程、即时反应</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">长时序、复杂规划</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">短板</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">不预判、易在长任务跑偏</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">训练更重、更难</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Kairos 在 RoboTwin 2.0 上 96.1 分压过 G0.5、starVLA 这些 VLA 模型，等于在用结果说一句话：<strong style="color:#e74c3c;">机器人要真正进家庭、进工厂，光会反应不够，得先学会「想象」。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而它把这套「想象力」压进了 4B、压进了端侧、压进了消费级硬件——意味着这不是一篇只能躺在论文里的 SOTA，是一个能装进机器人脑袋、随机器人出门的东西。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">刷榜的故事每周都有，能定义一条路的，几年才碰上一回。这一次，定义的人这边坐着一支中国团队。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 这次是巨头跟着创业公司走，你怎么看？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

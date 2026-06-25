@@ -1,0 +1,53 @@
+{
+  "slug": "daxiao-kairos-world-model-route-vs-nvidia-cosmos",
+  "date": "2026-06-25",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-kairos-official-benchmark-leaderboard.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/01-kairos-official-benchmark-leaderboard.jpg",
+      "caption": "大晓官方公布的成绩单：Kairos 在 RoboTwin 2.0（96.1）、LIBERO-Plus（89.0）、WorldModelBench（9.30）、DreamGen（61.8）四榜均列第一（数据来源：大晓机器人）",
+      "anchor": "## 先把「刷榜」和「定义路线」分开",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://images.media-outreach.com/release.php/Thumb/1600x900/775651/775651-EN-jpeg-1600x900.jpeg",
+      "type": "A-news-real",
+      "width": "100%"
+    },
+    {
+      "seq": "02",
+      "file": "02-param-efficiency-4b-vs-16b.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/02-param-efficiency-4b-vs-16b.jpg",
+      "caption": "同一道题的两种赢法：Kairos 只用 4B 参数，就在 WorldModelBench 上打平 16B 的英伟达 Cosmos3——拼的是架构，不是算力",
+      "anchor": "## 这条路是什么，它为什么难走",
+      "position": "after_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    },
+    {
+      "seq": "03",
+      "file": "03-timeline-daxiao-first-cosmos-follows.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/03-timeline-daxiao-first-cosmos-follows.jpg",
+      "caption": "时间线：大晓 2025 年 12 月先推出原生一体化架构，约半年后英伟达 Cosmos 3.0 才换成同一条思路",
+      "anchor": "## 「同源架构」四个字的分量",
+      "position": "after_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    },
+    {
+      "seq": "04",
+      "file": "04-vla-vs-world-model-paradigm.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/daxiao-kairos-world-model-route-vs-nvidia-cosmos/04-vla-vs-world-model-paradigm.jpg",
+      "caption": "两种范式的分野：VLA 看到就出动作，世界模型先在脑内预测后果再动作——后者更扛长时序、复杂规划",
+      "anchor": "## 为什么是「世界模型」，而不是又一个大脑",
+      "position": "after_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    }
+  ]
+}

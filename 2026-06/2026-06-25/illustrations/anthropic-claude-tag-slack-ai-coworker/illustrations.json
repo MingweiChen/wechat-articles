@@ -1,0 +1,56 @@
+{
+  "slug": "anthropic-claude-tag-slack-ai-coworker",
+  "date": "2026-06-25",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/anthropic-claude-tag-slack-ai-coworker",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-claude-tag-slack-thread.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/anthropic-claude-tag-slack-ai-coworker/01-claude-tag-slack-thread.jpg",
+      "caption": "官方产品截图：在 Slack #launch 频道里 @Claude 派活，它接活、回到 thread 里贴出做完的清单——这就是这次真正变了的「形态」",
+      "anchor": "## 先把「能力升级」和「形态升级」分清楚",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/ (Image Credits: Anthropic)",
+      "type": "A",
+      "width": "360px"
+    },
+    {
+      "seq": "02",
+      "file": "02-tag-claude-incident.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/anthropic-claude-tag-slack-ai-coworker/02-tag-claude-incident.jpg",
+      "caption": "Anthropic 官方截图：同事在 #checkout-incidents 频道 @Claude 查故障，Claude 当众接活、列出排查步骤——群聊里直接派任务的真实形态",
+      "anchor": "## 先把「能力升级」和「形态升级」分清楚",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://claude.com/product/tag (Anthropic 官方产品页)",
+      "type": "A",
+      "width": "360px"
+    },
+    {
+      "seq": "03",
+      "file": "03-tool-vs-coworker.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/anthropic-claude-tag-slack-ai-coworker/03-tool-vs-coworker.png",
+      "caption": "四个维度看「工具 vs 同事」：在哪、归谁、怎么动、记不记事，Claude Tag 都换了位置",
+      "anchor": "## 同事和工具，差在哪三件事",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "matplotlib 自制信息示意图",
+      "type": "B",
+      "width": "360px"
+    },
+    {
+      "seq": "04",
+      "file": "04-org-context-landscape.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/anthropic-claude-tag-slack-ai-coworker/04-org-context-landscape.png",
+      "caption": "抢「组织上下文」这条赛道已挤满人：Anthropic、微软 Graph、Snowflake/Databricks、Glean",
+      "anchor": "## 当然，它也给自己埋了三道坎",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "matplotlib 自制信息示意图",
+      "type": "B",
+      "width": "360px"
+    }
+  ]
+}

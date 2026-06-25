@@ -1,0 +1,69 @@
+{
+  "slug": "embodied-ai-48b-financing-elite-club-bubble",
+  "date": "2026-06-25",
+  "count": 5,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-avg-funding.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble/01-avg-funding.png",
+      "caption": "均值从 2.49 亿翻到 5.5 亿像是大丰收，但只要剔掉 10 亿元以上的大额融资，单笔均值立刻回落到 2.12 亿，和去年的 2.22 亿几乎一样——翻倍是头部撑出来的假象。",
+      "anchor": "## 多出来的钱，几乎全堆在头部",
+      "position": "after_heading",
+      "source": "chart",
+      "source_url": "matplotlib (镜相工作室数据)",
+      "type": "B",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-rounds-distribution.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble/02-rounds-distribution.png",
+      "caption": "A 轮及更早占了 72.8%，B 轮及以后只有 19.4%。绝大多数钱还卡在「技术刚验证、产品没卖出」的分水岭之前，就已经拿到了天价定价。",
+      "anchor": "## 估值先到，产品后到",
+      "position": "after_heading",
+      "source": "chart",
+      "source_url": "matplotlib (镜相工作室数据)",
+      "type": "B",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-founder-background.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble/03-founder-background.png",
+      "caption": "43 家具身智能独角兽，创始人无一白手起家：近一半来自高校/科研（学术派），其余来自华为、阿里、理想等大厂或连续创业。门票从一开始就只发给少数人。",
+      "anchor": "## 这张牌桌，普通创业者上不去",
+      "position": "after_heading",
+      "source": "chart",
+      "source_url": "matplotlib (镜相工作室数据，比例为示意)",
+      "type": "B",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-track-valuation.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble/04-track-valuation.png",
+      "caption": "数量多≠值钱：垂直功能机器人数量占 35% 却只拿 26% 估值权重；人形机器人数量仅 23%，却拿走 30%。资本更愿意为「尚未被定义的未来」付钱。",
+      "anchor": "## 谁在为「最大的那个故事」买单",
+      "position": "after_heading",
+      "source": "chart",
+      "source_url": "matplotlib (镜相工作室数据)",
+      "type": "B",
+      "width": "400px"
+    },
+    {
+      "seq": "05",
+      "file": "05-unitree-g1.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/embodied-ai-48b-financing-elite-club-bubble/05-unitree-g1.jpg",
+      "caption": "宇树科技人形机器人 G1 实拍。宇树 73 天科创板过会，带头打开了二级市场的闸门——退出渠道先于商业闭环打通，「能不能交付」的大考会比预期来得更早。",
+      "anchor": "## 闸门已经打开，账总要还",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg",
+      "license": "CC0",
+      "type": "A",
+      "width": "360px"
+    }
+  ]
+}

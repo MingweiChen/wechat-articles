@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-25",
+  "run_id": "2026-06-25_041502_21d9",
+  "total": 5,
+  "articles": [
+    {
+      "slug": "daxiao-kairos-world-model-route-vs-nvidia-cosmos",
+      "title": "一家中国小公司比英伟达早半年押中同一条路，4榜登顶！",
+      "score": 83,
+      "topic_score": 84,
+      "illustration_score": 89,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "rank": 1,
+      "prefix": "01",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-25/html/01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-25/html/01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-wechat.html",
+      "files": [
+        "01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-wechat.html",
+        "01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-content.md",
+        "01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-cover-banner.jpg",
+        "01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-cover-wide.jpg",
+        "01-daxiao-kairos-world-model-route-vs-nvidia-cosmos-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "doubao-21-pro-agent-project-delivery-labor",
+      "title": "豆包2.1Pro连干18小时做完一颗芯片，AI的考卷被换了一张！",
+      "score": 83,
+      "topic_score": 84,
+      "illustration_score": 88,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "rank": 2,
+      "prefix": "02",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-25/html/02-doubao-21-pro-agent-project-delivery-labor-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-25/html/02-doubao-21-pro-agent-project-delivery-labor-wechat.html",
+      "files": [
+        "02-doubao-21-pro-agent-project-delivery-labor-wechat.html",
+        "02-doubao-21-pro-agent-project-delivery-labor-content.md",
+        "02-doubao-21-pro-agent-project-delivery-labor-cover-banner.jpg",
+        "02-doubao-21-pro-agent-project-delivery-labor-cover-wide.jpg",
+        "02-doubao-21-pro-agent-project-delivery-labor-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "embodied-ai-48b-financing-elite-club-bubble",
+      "title": "489亿砸进机器人，72.8%还停在A轮之前！",
+      "score": 82,
+      "topic_score": 87,
+      "illustration_score": 90,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 8
+      },
+      "iterations": 1,
+      "rank": 3,
+      "prefix": "03",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-25/html/03-embodied-ai-48b-financing-elite-club-bubble-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-25/html/03-embodied-ai-48b-financing-elite-club-bubble-wechat.html",
+      "files": [
+        "03-embodied-ai-48b-financing-elite-club-bubble-wechat.html",
+        "03-embodied-ai-48b-financing-elite-club-bubble-content.md",
+        "03-embodied-ai-48b-financing-elite-club-bubble-cover-banner.jpg",
+        "03-embodied-ai-48b-financing-elite-club-bubble-cover-wide.jpg",
+        "03-embodied-ai-48b-financing-elite-club-bubble-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "anthropic-claude-tag-slack-ai-coworker",
+      "title": "Claude被塞进Slack群聊当同事：变的不是能力，是它站的位置！",
+      "score": 82,
+      "topic_score": 86,
+      "illustration_score": 89,
+      "dimensions": {
+        "hook": 7,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1,
+      "rank": 4,
+      "prefix": "04",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-25/html/04-anthropic-claude-tag-slack-ai-coworker-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-25/html/04-anthropic-claude-tag-slack-ai-coworker-wechat.html",
+      "files": [
+        "04-anthropic-claude-tag-slack-ai-coworker-wechat.html",
+        "04-anthropic-claude-tag-slack-ai-coworker-content.md",
+        "04-anthropic-claude-tag-slack-ai-coworker-cover-banner.jpg",
+        "04-anthropic-claude-tag-slack-ai-coworker-cover-wide.jpg",
+        "04-anthropic-claude-tag-slack-ai-coworker-cover-square.jpg"
+      ]
+    },
+    {
+      "slug": "openai-hires-noam-shazeer-transformer-talent-war",
+      "title": "谷歌花27亿美元把他买回来，两年后他还是去了OpenAI！",
+      "score": 82,
+      "topic_score": 83,
+      "illustration_score": 88,
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 8
+      },
+      "iterations": 1,
+      "rank": 5,
+      "prefix": "05",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-25/html/05-openai-hires-noam-shazeer-transformer-talent-war-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-25/html/05-openai-hires-noam-shazeer-transformer-talent-war-wechat.html",
+      "files": [
+        "05-openai-hires-noam-shazeer-transformer-talent-war-wechat.html",
+        "05-openai-hires-noam-shazeer-transformer-talent-war-content.md",
+        "05-openai-hires-noam-shazeer-transformer-talent-war-cover-banner.jpg",
+        "05-openai-hires-noam-shazeer-transformer-talent-war-cover-wide.jpg",
+        "05-openai-hires-noam-shazeer-transformer-talent-war-cover-square.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-25",
+  "dedup_basis": [
+    "06-24: 灵晟CPU超算登顶TOP500、Anthropic企业反超OpenAI(刷卡数据/编程)、Meta用Facebook入口当搜索翻身、司法部救Grok孟菲斯污染诉讼、Oracle SEC文件AI裁2.1万",
+    "06-23: 纳德拉劝别迷信最强模型、GitHub第一变成AI拍片流水线OpenMontage、又一DeepSeek时刻GLM-5.2逼平GPT5.5、谷歌一周走两科学家蒸发2500亿、图灵奖得主警告AI泡沫爆炸",
+    "06-22: Altman核聚变估值翻三倍电荒、Alphabet发800亿新股泡沫信号、四模型同编辑器肉搏Copilot、马斯克单挑英伟达造芯片、GitHub热榜改追驯化AI",
+    "06-21: 苹果Siri外包Gemini、AI推翻Erdős猜想、65行txt登顶GitHub规则层、AI视频单位经济学Sora、最贵对手联手喊监管同时抢IPO",
+    "06-20: GLM-5.2华为芯片反超、裁15万造4400富翁、英伟达人形机器人安卓化GR00T参考设计、无头人形机器人、AI问责时代佛州起诉OpenAI",
+    "06-19: GPT-5.6赌场、Databricks说AGI已来、中国AI应用造血、Mira Murati回归、扎克伯格143亿挖团队",
+    "06-18: 高通收购Tenstorrent撬CUDA、Copilot按量计费上架DeepSeek、DeepSeek 510亿融资、科创板第五套标准扩容AI、AI眼镜进工厂"
+  ],
+  "selected": [
+    {
+      "topic": "Anthropic 把 Claude 塞进 Slack 当『同事』：你 @它 它就接活，干完回头戳你——连 Karpathy 都说这是新范式",
+      "category": "产品",
+      "score": 86,
+      "sources": [
+        "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+        "https://www.channelnewsasia.com/business/anthropic-launches-claude-tag-in-research-preview-slack-users-6204406",
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-launches-claude-tag-everything-you-need-to-know-about-the-slack-native-ai-agent/articleshow/131958086.cms"
+      ],
+      "hook": "6月23日Anthropic推出Claude Tag：一个常驻Slack的@Claude，能读频道、拆任务、主动提醒，多人协作，记忆持续——把'私聊机器人'变成了'群里的AI同事'。",
+      "angle": "不复述功能清单，而抓'交互形态'这个真变量：从一对一私聊→变成群里能被@、能主动行动、有记忆的多人共享队友，这才是产品级的范式跳变",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Claude Tag 真正的新东西不是'又能干活了'（这些能力早有），而是把 AI 从'私聊工具'变成了'群聊里的共享同事'——可被@、会主动行动、跨时间记住上下文、多人同时用，这一步把 AI 嵌进了组织协作的肌理里，比再强一个 benchmark 更难复制、也更黏",
+        "dots": [
+          "Claude Tag 6/23 上线，先接 Slack，@Claude 即可派活，干完主动回帖",
+          "Cat Wu(Claude Code产品负责人)原话：能力大多早就有，但'像@同事一样@它'这个形态本身就很强",
+          "内部数据：Anthropic 自己的 Claude Tag 已贡献产品团队 65%+ 的代码生成",
+          "Karpathy(刚加入Anthropic)发帖称这是与Claude交互的新范式：底层把工具/集成/记忆/安全打通后，它就像'无缝加入团队'",
+          "底座是上月发布的 Opus 4.8；管理员可按频道严格管控数据与权限，8/3 起旧版Slack体验迁移"
+        ],
+        "axis": "大家都写'Anthropic 又出新功能/企业级再加码'，本篇换到'人机交互形态'轴：私聊→群聊共享同事，是这次唯一真正变了的东西",
+        "counter_intuitive": "表面是一个 Slack 集成小更新，实际是把 AI 的'存在形态'从工具改成了同事——它不再等你提问，而是在群里主动盯、主动提醒、跨天记得你交代过什么",
+        "why_worth": "读者读完能分清'能力升级'和'形态升级'：为什么同样的底层能力，换成'群里能被@的共享队友'就成了护城河——因为它嵌进了组织协作流程，迁移成本是社会性的，不只是技术性的"
+      },
+      "dedup": "全新事件(6/23发布)，过去一周未写Claude Tag/企业协作Agent；与06-24'Anthropic企业反超OpenAI'同属Anthropic母题但事件(刷卡份额数据 vs 新产品形态)与角度完全不同，低重复",
+      "urgency": "high",
+      "slug_hint": "anthropic-claude-tag-slack-ai-coworker"
+    },
+    {
+      "topic": "一家中国小公司比英伟达早半年押中同一条路：大晓 Kairos 世界模型四大榜登顶，连 Cosmos 3.0 都跟着改架构",
+      "category": "技术",
+      "score": 84,
+      "sources": [
+        "https://news.qq.com/rain/a/20260615A054ET00",
+        "https://www.sohu.com/a/1038741161_211762",
+        "https://arxiv.org/abs/2606.16533",
+        "https://news.qq.com/rain/a/20260617A04FG200"
+      ],
+      "hook": "大晓机器人(ACE Robotics)开悟世界模型Kairos在RoboTwin 2.0、LIBERO-Plus、WorldModelBench等四大具身权威基准同时登顶，超越英伟达Cosmos3、PI等主流模型；且其'理解-生成-预测'原生一体化架构比英伟达Cosmos 3.0早半年提出，后者竟采用同源架构。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Kairos 的看点不是'又一个国产SOTA刷榜'，而是技术路线的先后：一家中国创业公司比英伟达提前半年押中了'原生一体化世界模型'这条路，等巨头的Cosmos 3.0转过来用同源架构时，它已经把这套范式跑到端侧可部署——这说明物理AI的路线话语权，第一次出现了中国团队定义、巨头跟随的样本",
+        "dots": [
+          "Kairos 在 RoboTwin 2.0 拿 96.1 平均成功率登顶，超 G0.5/starVLA 等VLA模型",
+          "WorldModelBench 指令遵循 2.36 分与 16B 的 Cosmos3 并列第一，参数效率高 4 倍",
+          "2025年12月大晓发布'理解-生成-预测'原生一体化架构，今年3月完成端侧部署",
+          "英伟达 Cosmos 3.0 此后发布，采用同源架构——路线被一家中国小公司提前押中",
+          "Kairos-4B 端侧具身大脑：把扩散数十轮采样压到4轮，消费级终端可跑，区别于'通用视频模型+续训微调'的主流捷径"
+        ],
+        "axis": "大家都写'国产模型又刷榜超英伟达'的跑分叙事，本篇换到'技术路线谁先谁后'轴：谁定义范式、谁在跟随、这条路为什么更适合机器人落地",
+        "counter_intuitive": "表面是又一次国产刷榜，实际是路线定义权的转移：不是跟着巨头优化，而是巨头反过来采用了和它同源的架构",
+        "why_worth": "读者读完能分清'刷榜SOTA'和'定义路线'的区别——为什么'原生一体化+端侧可部署'比单纯榜单分数更重要，以及世界模型这条路对机器人真正落地意味着什么"
+      },
+      "dedup": "全新事件(6/15-19技术报告与开源)；与06-20'英伟达人形机器人安卓化GR00T'同属机器人母题但事件(世界模型架构路线 vs 硬件参考设计)、主角、角度完全不同，低-中重复",
+      "urgency": "medium",
+      "slug_hint": "daxiao-kairos-world-model-route-vs-nvidia-cosmos"
+    },
+    {
+      "topic": "Transformer 八位作者最后一个也被挖走了：OpenAI 抢回 Noam Shazeer，Altman 说『只等了十年』",
+      "category": "人物",
+      "score": 83,
+      "sources": [
+        "https://www.crn.com/news/ai/2026/openai-hires-google-gemini-ai-guru-sam-altman-touts-new-hire"
+      ],
+      "hook": "6月18日，OpenAI挖来Google Gemini联合负责人Noam Shazeer——Transformer论文作者之一、Google前几百号员工、Character.AI创始人。Altman发文：'Noam是我从OpenAI创立之初就最想共事的人之一，只等了十年。'",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "Shazeer 转投 OpenAI 不是一次普通跳槽，而是一条人才流向的反转信号：2024年Google花27亿美元把他从Character.AI买回来稳住Gemini，两年后他又被OpenAI挖走——叠加OpenAI今年连挖Google云渠道负责人Kapase、Slack前CEO、OpenClaw作者，说明这轮竞争的核心稀缺品已经从'算力/模型'转回'定义模型的人'，而钱能买回人、买不回忠诚",
+        "dots": [
+          "Shazeer 是 Transformer 作者之一、Google 2000年初期员工，2021离开创办Character.AI",
+          "2024年Google豪掷27亿美元回购Character.AI团队+技术许可，把他请回来救Gemini",
+          "2026/6/18 他官宣加入OpenAI，Altman：'只等了十年''值得等'",
+          "同期OpenAI还挖来Google云渠道负责人Colleen Kapase、Slack前CEO Denise Dresser、OpenClaw作者Peter Steinberger",
+          "Google同周才推首个合作伙伴计划OpenAI Partner Network对垒——人走与组织反扑同时发生"
+        ],
+        "axis": "大家把它写成'又一桩大牌跳槽八卦'，本篇串成'人才流向反转+花钱买不回忠诚'的产业信号",
+        "counter_intuitive": "表面是OpenAI赢了一次招聘，实际是揭示了AI竞赛最贵的不是GPU而是'定义模型的少数人'——而这些人用钱锁不住，27亿买回来的人两年后照样被挖走",
+        "why_worth": "读者读完能看懂这轮人才战的底层逻辑：为什么顶级研究者的流动比模型benchmark更能预判格局，以及'天价回购'为什么是脆弱的护城河"
+      },
+      "dedup": "与06-19'扎克伯格143亿挖团队'、06-23'谷歌走两科学家'同属AI人才战母题，但本篇主角(Shazeer/Transformer作者)、事件(OpenAI挖角+Google两年前回购反转)、角度(花钱买不回忠诚)不同，中重复，保留并换'反转'角度",
+      "urgency": "medium",
+      "slug_hint": "openai-hires-noam-shazeer-transformer-talent-war"
+    },
+    {
+      "topic": "489 亿砸进机器人，没一分钱投给『普通人』：27 家公司卷走全部大额融资，创始人清一色顶级实验室出身",
+      "category": "商业",
+      "score": 87,
+      "sources": [
+        "https://finance.sina.com.cn/jjxw/2026-06-23/doc-iniemfsn1900040.shtml",
+        "https://news.qq.com/rain/a/20260623A09SHH00",
+        "https://news.qq.com/rain/a/20260608A0A46R00"
+      ],
+      "hook": "2026前五月国内具身智能437起融资、约489亿元，已超去年全年。但界面《镜相》起底：27家公司卷走了所有10亿元及以上大额融资(6家今年拿了两次)，43家独角兽创始人无一例外来自顶级高校实验室或华为/百度/微软——这是一场少数精英主导的实验。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "机器人融资的真问题不是'有没有泡沫'，而是'钱投给了谁'：489亿里头部27家拿走全部大额、A轮及更早占72.8%、创始人清一色精英实验室出身——估值跑在商业验证前面，这是一场由少数人主导、用样机和团队背景定价的实验，普通创业者和真实场景落地都还没拿到入场券",
+        "dots": [
+          "前5月437起融资约489亿，已超2025全年约455亿",
+          "27家公司卷走所有10亿+大额融资，其中6家今年已融两次",
+          "A轮及之前占72.8%，B轮及以后仅19.4%——大量钱在早期、远未到规模验证",
+          "梳理43家独角兽：创始人无一例外出自顶级高校实验室或华为/百度/微软",
+          "宇树73天科创板过会、近40家组成IPO预备梯队——二级市场打通退出，但'能不能交付'才是真考"
+        ],
+        "axis": "大家都写'机器人融资创新高/赛道火热'，本篇换到'钱的结构与分配'轴：谁拿到了钱、谁没拿到、估值和商业验证哪个跑在前面",
+        "counter_intuitive": "表面是行业一片繁荣雨露均沾，实际是高度集中的精英俱乐部游戏——热钱涌入的同时，72.8%还停在A轮之前，估值远跑在交付能力前面",
+        "why_worth": "读者读完能看穿融资数字背后的结构裂缝：为什么'融资创新高'不等于'行业健康'，以及当退出渠道(IPO)先于商业闭环打通时，风险被转嫁给了谁"
+      },
+      "dedup": "全新数据报道(6/23)；机器人母题虽与候选#2同批，但本篇是'资本结构/社会分配'角度(非技术路线)，与过去一周任何机器人篇事件/角度均不同，低重复",
+      "urgency": "high",
+      "slug_hint": "embodied-ai-48b-financing-elite-club-bubble"
+    },
+    {
+      "topic": "豆包2.1 Pro连续干了18小时活、9轮迭代做完一颗芯片：AI的考核标尺，正从『答得对不对』换成『扛不扛得住一个项目』",
+      "category": "科技",
+      "score": 84,
+      "sources": [
+        "https://finance.sina.com.cn/jjxw/2026-06-23/doc-iniekeev9816325.shtml",
+        "http://www.news.cn/tech/20260623/acd6f2f27fc34459a7d1684c03278431/c.html",
+        "https://wallstreetcn.com/articles/3775312"
+      ],
+      "hook": "6月23日火山引擎Force大会，字节发布豆包2.1 Pro。最抓人的不是跑分接近GPT-5.5，而是一个细节：它连续运行近18小时、自己迭代9轮，把一颗芯片的RTL设计从仿真、测试做到综合检查全跑完；另一个demo里500多个智能体同步协作、上千轮工具调用、生成上百栋楼。这已经不是'答一道题'，是'扛一个项目'。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "豆包2.1 Pro真正的信号不是又一次跑分追平前沿，而是衡量AI能力的标尺正在换刻度——从'单轮问答准不准'换成'能不能独立扛完一个有交付物的真实项目'。当一个模型能连续18小时、9轮迭代独立做完芯片RTL，能调度500个智能体协作建城，它第一次以'可交付工程的数字劳动力'姿态出现；而字节把成本砍掉近80%、推MaaS,本质是要把这种'数字工时'做成按量批发的水电，谁先标准化谁吃下企业市场",
+        "dots": [
+          "豆包2.1 Pro连续运行近18小时、自主9轮迭代完成芯片RTL设计全流程(仿真/测试/综合检查)",
+          "另一demo:500多个智能体同步协作、上千轮工具调用、生成上百栋建筑",
+          "编程能力与Claude Opus 4.6基本持平,谭待称达到'生产级质变点'",
+          "百万tokens输入6元输出30元,缓存命中仅1.2元,综合成本较前沿模型降近80%;另出Turbo版再砍一半",
+          "梁汝波强调聚焦AI战略、坚定投入MaaS(模型即服务)"
+        ],
+        "axis": "跳出'国产模型又追平跑分'的模型对比轴(06-23 GLM-5.2已写过这个角度),换到'AI的交付单位正在从对话轮次变成工程项目/工时'的劳动力与组织视角:不看它多聪明,看它能独立交付多大一块活、按什么计价",
+        "counter_intuitive": "大家盯着'豆包跑分追上没有',真正变了的是考核维度本身——能答对题的模型一抓一把,能独立扛完18小时工程项目的才稀缺;字节卖的不是'更聪明的模型',是'更便宜稳定的数字劳动力'",
+        "why_worth": "读者读完能换一把尺子看AI进展:别再只问'谁家分高',改问'它能独立交付多大一块活、按工时还是按对话计价'——把模型竞赛还原成'数字劳动力的单位经济学',自己判断哪家在真正吃企业市场"
+      },
+      "dedup": "豆包2.1 Pro为6/23全新发布事件。虽与06-23 GLM-5.2同属'国产模型对标前沿'母题,但本篇彻底换轴:不写跑分追平,而写'考核标尺从问答转向项目交付+数字劳动力单位经济学',事件、角度、结论均不同;与06-24 Anthropic编程采用、06-23 Nadella商品化也不撞(那两篇是企业采用率/价值层转移,本篇是交付单位变化)。低重复",
+      "urgency": "high",
+      "slug_hint": "doubao-21-pro-agent-project-delivery-labor",
+      "review_score": 70,
+      "review_verdict": "keep"
+    }
+  ],
+  "swap_candidates": [
+    "字节跳动豆包大模型2.1 Pro发布(6/23 Force大会，编程/Agent跻身全球前列)",
+    "SpaceX启动200亿美元债券置换600亿收购Cursor过桥贷款(6/22)",
+    "华为openPangu 2.0倒计时：6/30起陆续开源7大组件(预训练/后训练/算子)"
+  ]
+}

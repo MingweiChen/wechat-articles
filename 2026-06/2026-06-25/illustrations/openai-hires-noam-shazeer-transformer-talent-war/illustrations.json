@@ -1,0 +1,53 @@
+{
+  "slug": "openai-hires-noam-shazeer-transformer-talent-war",
+  "date": "2026-06-25",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/openai-hires-noam-shazeer-transformer-talent-war",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-noam-shazeer-portrait.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/openai-hires-noam-shazeer-transformer-talent-war/01-noam-shazeer-portrait.jpg",
+      "caption": "Noam Shazeer——Transformer 论文八位作者之一，谷歌 27 亿美元请回 Gemini 的那个人",
+      "anchor": "## 这个人到底贵在哪",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://www.youtube.com/watch?v=emCoG-hA7AE",
+      "type": "A",
+      "width": "260px"
+    },
+    {
+      "seq": "02",
+      "file": "02-shazeer-google-timeline.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/openai-hires-noam-shazeer-transformer-talent-war/02-shazeer-google-timeline.jpg",
+      "caption": "一个人，谷歌「两进两出」：2000 入职、2021 离开创办 Character.AI、2024 被 27 亿买回、2026 转投 OpenAI",
+      "anchor": "## 27 亿买回来的，是人，不是忠诚",
+      "position": "after_heading",
+      "source": "generated_diagram",
+      "type": "B",
+      "width": "380px"
+    },
+    {
+      "seq": "03",
+      "file": "03-openai-poach-table.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/openai-hires-noam-shazeer-transformer-talent-war/03-openai-poach-table.jpg",
+      "caption": "不是随机挖人：架构 + 渠道 + 销售 + 工程，OpenAI 今年从谷歌、Slack 等按岗位补齐一支队伍",
+      "anchor": "## 不是一次招聘，是一串挖角",
+      "position": "after_heading",
+      "source": "generated_diagram",
+      "type": "B",
+      "width": "380px"
+    },
+    {
+      "seq": "04",
+      "file": "04-google-talent-deals.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/openai-hires-noam-shazeer-transformer-talent-war/04-google-talent-deals.jpg",
+      "caption": "天价买的是「人」：谷歌为顶级 AI 人才付出的两笔交易——Shazeer 27 亿、Windsurf 24 亿美元",
+      "anchor": "## 人走和反扑，发生在同一周",
+      "position": "after_heading",
+      "source": "generated_diagram",
+      "type": "B",
+      "width": "380px"
+    }
+  ]
+}

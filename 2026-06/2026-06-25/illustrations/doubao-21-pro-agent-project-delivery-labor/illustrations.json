@@ -1,0 +1,56 @@
+{
+  "slug": "doubao-21-pro-agent-project-delivery-labor",
+  "date": "2026-06-25",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/doubao-21-pro-agent-project-delivery-labor",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-force-conference-180trillion-tokens.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/doubao-21-pro-agent-project-delivery-labor/01-force-conference-180trillion-tokens.jpg",
+      "caption": "6 月 23 日火山引擎 2026 FORCE 原动力大会现场，谭待披露豆包日均 Token 调用量已破 180 万亿（图源：证券时报 王小伟/供图）",
+      "anchor": "## 旧考卷考反应，新考卷考交付",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://news.qq.com/rain/a/20260623A05ABO00",
+      "type": "A-news-photo",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-coding-benchmark-delivery.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/doubao-21-pro-agent-project-delivery-labor/03-coding-benchmark-delivery.png",
+      "caption": "新考卷考的是「交付」：豆包 2.1 Pro 工程级代码评测——Terminal Bench 2.1 拿到 71.0，基本追平 Claude Opus 4.7（71.7）；SciCode 59.8、SWE-Pro 57.5、NL2Repo-Bench 47.0（数据：火山引擎 2026 FORCE 大会公开评测）",
+      "anchor": "## 旧考卷考反应，新考卷考交付",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "https://news.qq.com/rain/a/20260623A04X5J00",
+      "type": "B-data-chart",
+      "width": "400px"
+    },
+    {
+      "seq": "02",
+      "file": "02-cost-comparison-chart.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/doubao-21-pro-agent-project-delivery-labor/02-cost-comparison-chart.png",
+      "caption": "把「数字工时」单价摊开看：豆包 2.1 Pro 综合成本约为前沿模型的两成，Turbo 版再砍一半",
+      "anchor": "## 把模型还原成「数字劳动力」，账才算得清",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "type": "B-data-chart",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-maas-share-token-growth.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-25/illustrations/doubao-21-pro-agent-project-delivery-labor/04-maas-share-token-growth.png",
+      "caption": "管子铺得最粗：火山引擎拿下中国公有云 MaaS 约 49.5% 份额，日均 Token 两年涨 1500 倍",
+      "anchor": "## 谁先把「数字工时」标准化，谁吃企业市场",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "type": "B-data-chart",
+      "width": "400px"
+    }
+  ]
+}
