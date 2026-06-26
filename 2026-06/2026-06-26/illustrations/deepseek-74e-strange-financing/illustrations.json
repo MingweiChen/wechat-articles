@@ -1,0 +1,49 @@
+{
+  "slug": "deepseek-74e-strange-financing",
+  "date": "2026-06-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/deepseek-74e-strange-financing",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-deepseek-financing-card.png",
+      "type": "C_concept_card",
+      "anchor": "# 给钱，但什么权利都没有：这笔融资里，到底谁在求谁",
+      "position": "after_heading",
+      "caption": "据外媒报道，DeepSeek 首轮外部融资约 74 亿元（数字未经官方证实）",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/deepseek-74e-strange-financing/01-deepseek-financing-card.png"
+    },
+    {
+      "seq": "02",
+      "file": "02-rights-ledger.png",
+      "type": "B_infographic",
+      "anchor": "## 别盯着金额，去看那张「权利清单」",
+      "position": "after_heading",
+      "caption": "投资人拿到了什么、没拿到什么（据外媒报道，未经 DeepSeek 证实）",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/deepseek-74e-strange-financing/02-rights-ledger.png"
+    },
+    {
+      "seq": "03",
+      "file": "03-financing-structure.png",
+      "type": "B_infographic",
+      "anchor": "## 一年前还是另一个剧本",
+      "position": "after_heading",
+      "caption": "这笔融资的特殊结构：份额而非股权、零投票权、5 年锁定（据外媒报道）",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/deepseek-74e-strange-financing/03-financing-structure.png"
+    },
+    {
+      "seq": "04",
+      "file": "04-bargaining-power-reversal.png",
+      "type": "B_infographic",
+      "anchor": "## 表面是「缺钱对外融资」，里子是一场卖方市场展演",
+      "position": "after_heading",
+      "caption": "议价权倒转示意：稀缺的不是资本，而是「能打的中国模型」这种资产本身",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/deepseek-74e-strange-financing/04-bargaining-power-reversal.png"
+    }
+  ],
+  "types": {
+    "A_news_real": 0,
+    "B_infographic": 3,
+    "C_ai_concept": 1
+  }
+}
