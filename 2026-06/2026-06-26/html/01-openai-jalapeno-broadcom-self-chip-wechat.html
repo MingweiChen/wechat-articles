@@ -1,0 +1,106 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1565c0 0%,#0d47a1 50%,#002171 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#90caf9; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">产 业 · 算 力 闭 环</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">OpenAI第一次自己造芯片<br>九个月跑通，比行业快了一倍</p>
+  <p style="width:46px; height:3px; background:#90caf9; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">OpenAI和博通造出首颗自研推理芯片「辣椒」，从设计到流片只用九个月，行业常态是18到24个月。比「反英伟达」更值得说的，是AI设计AI芯片的回路第一次被跑通了。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">九个月。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">从一张白纸的设计，到送进工厂流片（tape-out），OpenAI和博通联手搞出的第一颗自研芯片，整个周期只花了九个月。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这颗芯片叫 <strong style="color:#e74c3c;">Jalapeño</strong>（辣椒），定位是专门跑大模型推理的“智能处理器”。九个月这个数字本身不起眼，可一旦你知道行业里同等复杂度的定制芯片，正常节奏是 <strong style="color:#e74c3c;">十八到二十四个月</strong>，这条新闻的味道就变了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更要命的是省下来的那一半时间是怎么省的。OpenAI给出的解释是：他们用自己的模型，去加速了这颗芯片的设计和优化。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">换句话说，这不是“OpenAI又造了一颗芯片”。这是<strong style="color:#e74c3c;">AI第一次像样地参与造出了给AI自己用的硬件</strong>。新闻的焦点，本该从这里开始，而不是停在“它要挑战谁”。</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/openai-jalapeno-broadcom-self-chip/01-jalapeno-wafer-handoff.jpg" style="width:420px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">官方发布照：OpenAI CEO 奥尔特曼（左）与博通总裁兼 CEO 陈福阳（右）举起首颗自研芯片 Jalapeño 的晶圆——这就是新闻里那颗“辣椒”的真身</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先看清楚这颗“辣椒”咬的是哪块肉</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/openai-jalapeno-broadcom-self-chip/03-inference-vs-training-split.png" style="width:420px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">训练 vs 推理：Jalapeño 没碰一次性烧钱的训练，只精准切进每次调用都要算、对手最赚钱的推理环节</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">Jalapeño没有去碰训练（training），它只干一件事：<strong style="color:#e74c3c;">推理（inference）</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这个选择，比很多人第一眼以为的更狠。训练是一次性的重投入，烧钱但有数；推理是你每用一次ChatGPT、它都要算一遍的那个环节——用户越多、调用越频繁，这块成本就越往上滚，永远停不下来。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">训练决定模型有多聪明，推理决定你为这份聪明每天要交多少电费。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">而推理，恰恰是目前那家最强GPU厂商利润最肥、出货量最大的地盘。OpenAI这一刀，没去捅别人防守最严的训练阵地，而是<strong style="color:#e74c3c;">精准切在对方最赚钱、自己花钱也最多的那个环节</strong>。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">从技术路线上也看得出针对性。这是一颗“掩膜尺寸”（reticle-sized）的大型ASIC，即专用集成电路。通用GPU什么都能干，代价是为了通用而留的冗余；ASIC认死一种活，把架构按大模型推理的脾气量身定做，砍掉数据搬运、把算力、内存、网络重新配平。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一句话：通用芯片像瑞士军刀，Jalapeño像一把只为切这块肉磨出来的刀。刀更专，单位功耗下的产出就更高。OpenAI给的说法是，每瓦性能“显著优于当前最强水平”——具体跑分要等后面几个月才放，但方向已经摆明。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">真正让人后背发凉的，是那个“九个月”</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/openai-jalapeno-broadcom-self-chip/02-nine-month-vs-industry-cycle.png" style="width:420px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">周期对比：行业同等复杂度定制芯片要 18–24 个月，Jalapeño 端到端只用 9 个月，约砍掉一半</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">把视线拉回最反常的地方。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">设计一颗这种复杂度的芯片，难点从来不在画图，而在验证、调优、反复推倒重来——这套流程吃的是顶级工程师的时间，按年算。OpenAI把它压到九个月，靠的不是加班，是让模型介入了设计回路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">OpenAI总裁布罗克曼（Greg Brockman）说，他们的模型在这个过程里的加速程度，连他们自己都吃了一惊。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这句话值得多咂摸两秒。它的潜台词是：<strong style="color:#e74c3c;">AI设计AI芯片，这个闭环，已经从概念变成了能跑出真实产物的工程现实。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">顺着这条线往下推，事情就大了一圈。过去我们理解的算力军备竞赛，比的是谁砸的钱多、谁囤的卡多、谁的数据中心电力足。这些比的都是资源。可一旦“芯片设计速度”本身能被AI加速，竞赛就多了一个新变量——迭代速度。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">资源是线性的，多少钱办多少事；而迭代速度一旦被AI接管，是会自己加速的。今天九个月，下一代可能更短。这不是又一家公司自研芯片的常规新闻，这是 <strong style="color:#e74c3c;">AI开始反过来给自己造硬件底座</strong> 的一个范式信号。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">实验室里其实已经有实物在跑了：工程样片正在处理机器学习任务，其中就包括它自家的 GPT-5.3-Codex-Spark。模型设计芯片、芯片再去跑模型，这个回路是闭上的。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">它根本没打算只靠这一颗</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-26/illustrations/openai-jalapeno-broadcom-self-chip/04-openai-multi-supplier-layout.png" style="width:440px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">四条腿走路：自研 Jalapeño、AMD、AWS Trainium、Cerebras——OpenAI 把对单一 GPU 供应商的依赖一点点拆掉</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">很多人把Jalapeño读成“OpenAI要去英伟达化”。这个读法对，但太小了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更准确的说法是：OpenAI正在<strong style="color:#e74c3c;">同时从好几个方向，把自己对单一供应商的依赖一点点拆掉</strong>。这颗自研芯片只是其中最新、也最具象征意义的一块拼图。把它最近的算力布局摊开看：</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">方向</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">在做什么</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">性质</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">自研 Jalapeño</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">联手博通做专用推理芯片，端到端九个月</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">自己掌握硬件栈</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">AMD</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">采购 Instinct MI450 系列 GPU 建下一代基础设施</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">多一个GPU来源</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">AWS Trainium</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">承诺消化云端的自研加速器算力</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">借云厂自研芯片</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">Cerebras</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">晶圆级方案合作，主打超快推理</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">押注非主流架构</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">四条腿，没有一条把全部身家压在那家最强GPU厂商身上。关键也在这儿：不是哪一颗芯片要替掉英伟达，而是OpenAI从产品形态、采购、云、自研四个维度，给自己同时铺了好几条退路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">护城河最怕的不是被人正面强攻，而是被它最大的客户从内部，用对方卖不动的方式（专用ASIC推理），凿开一道缝。Jalapeño凿的就是这道缝。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">卖铲子的那个，比谁都清楚需求有多疯</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这件事还有另一面，藏在博通身上。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">替OpenAI把这颗芯片真正做出来、做进板卡和机柜、配上高速网络、再放大到量产的，是博通。它做的就是这种“定制AI加速器（XPU/ASIC）+ 网络”的生意，典型的卖铲子角色。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">博通CEO陈福阳（Hock Tan）反复说一个词来形容当下几家头部客户的算力胃口：<strong style="color:#e74c3c;">“贪得无厌”（insatiable）</strong>。在他嘴里，这股需求不是短期冲动，而是看得见的长趋势——博通的AI相关收入被指向一条直奔千亿美元的路。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个微妙的点。当连卖铲子的人都用“贪得无厌”来形容买家，说明这轮算力扩张的底层燃料，短期内根本看不到熄火的迹象。OpenAI自己下场造芯片，不是嫌弃现有供应，恰恰相反——是<strong style="color:#e74c3c;">需求大到任何单一供应都喂不饱、贵到必须把最贵的环节攥回自己手里</strong>。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">当买方开始自己造工具，往往不是因为工具不够好，而是因为它用得太多、太贵，多到自己造更划算。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">把这几条新闻叠在一起看</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把这几件事串到一起：Jalapeño只打推理、专挑对手利润最肥处下手；九个月的周期证明AI设计AI芯片的回路跑通了；自研之外还同时握着AMD、AWS、Cerebras四条线；而卖铲子的人说需求“贪得无厌”。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">单看每一条，都是行业里一天能刷到三条的常规新闻。可一旦穿成一条线，那个浮出来的结论就不太一样了——</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">自研芯片本身不稀奇，谁有钱都能干。真正被悄悄改写的，是<strong style="color:#e74c3c;">算力竞赛的迭代速度本身，开始被AI接管</strong>。过去比的是谁囤的资源多，现在多了一层：谁能让AI更快地替自己造出下一代硬件。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">那颗“辣椒”年底才开始部署，千兆瓦级的铺开还在后头。它跑得快不快、每瓦省多少电，跑分出来才算数。但有一件事，从布罗克曼那句“连我们自己都吃惊”开始，就已经不可逆了：<strong style="color:#e74c3c;">这一回，是机器在帮人，造给机器自己用的东西。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这个口子一旦开了，就很难再合上。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#90caf9; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #90caf9; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 算力竞赛的迭代速度开始被AI接管，你怎么看？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

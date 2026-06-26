@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-26",
+  "dedup_basis": [
+    "06-25 已写: 豆包2.1Pro长任务交付/AI考核标尺、大晓Kairos世界模型、Anthropic Claude进Slack当同事、489亿机器人融资、OpenAI抢回Shazeer人才战",
+    "06-24 已写: 灵晟CPU登顶TOP500、Anthropic企业反超OpenAI(编程)、Meta把Facebook当搜索入口、司法部救Grok、Oracle SEC裁员",
+    "06-23 已写: 谷歌一周走两科学家蒸发2500亿、国产开源逼平GPT5.5、AI教父警告泡沫、纳德拉别迷信最强模型、GitHub热榜变天",
+    "06-22 已写: 核聚变电荒、马斯克造芯片单挑英伟达Terafab、Alphabet发800亿股泡沫信号、Copilot四模型混战、GitHub驯化AI",
+    "06-21 已写: 苹果Siri外包Gemini、AI推翻Erdős猜想、65行txt登顶GitHub规则层、AI视频单位经济学、AI巨头喊刹车却抢IPO",
+    "06-20 已写: GLM-5.2华为芯片零英伟达、AI裁员借口、英伟达Isaac GROOT机器人安卓、AI问责时代诉讼、Genesis无脸人形机器人"
+  ],
+  "kill_log": [
+    "谷歌连失Shazeer+Jumper诺奖得主人才流失 → 06-23/06-25 已写两次同主题，高重复，KILL",
+    "Anthropic反超OpenAI/Claude编程 → 06-24/06-25 连写，高重复，KILL",
+    "SpaceX 60亿收购Cursor → 已是6-16旧闻且此前批次写过，stale，KILL",
+    "机器人/具身智能融资 → 06-25 已写489亿同题，KILL",
+    "Alphabet发股/AI泡沫担忧(纳德拉/教父) → 06-22/06-23 已写，泡沫叙事高重复(本批Jensen篇换'反方反击'角度规避)"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "slug": "openai-jalapeno-broadcom-self-chip",
+      "topic": "OpenAI 第一次自己造芯片：用自家AI把芯片设计周期压到9个月，'辣椒'要把英伟达从最贵的环节请出去",
+      "category": "产品",
+      "score": 0,
+      "sources": [
+        "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+        "https://money.usnews.com/investing/news/articles/2026-06-24/openai-unveils-custom-chip-it-designed-with-broadcom-to-boost-its-ai-infrastructure",
+        "https://techxplore.com/news/2026-06-openai-unveils-ai-chip-jalapeno.html"
+      ],
+      "hook": "OpenAI联手博通造出首颗自研推理芯片Jalapeño，9个月设计完成、每瓦性能号称超现有最强，年底部署",
+      "angle": "OpenAI从'最大买芯片的'变成'自己造芯片的'，去英伟达化的转折点",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "OpenAI造芯片真正的信号不是'又一家自研芯片'，而是'AI开始造自己的硬件底座'——9个月周期(行业常态18-24个月)证明AI设计AI芯片的闭环已经跑通，英伟达的护城河第一次被它最大的客户从内部凿了一道缝",
+        "dots": [
+          "Jalapeño专攻推理(inference)，不碰训练——精准打在英伟达利润最肥、用量最大的环节",
+          "Brockman说9个月端到端设计，'我们的模型加速程度连我们自己都吃惊'——AI造芯片",
+          "OpenAI已同时签AWS Trainium、AMD、Cerebras、博通——多线去英伟达化",
+          "博通CEO Hock Tan: 6个客户算力需求'贪得无厌'，28年都不够"
+        ],
+        "axis": "大家都写'OpenAI又一个自研芯片/挑战英伟达'，本篇换轴切'9个月周期=AI设计AI的闭环跑通'，把焦点从'反英伟达'移到'AI自我迭代硬件'这件更狠的事",
+        "counter_intuitive": "表面是OpenAI补算力短板，实际是英伟达最大客户开始用英伟达卖不动的方式(ASIC专用推理)绕开它，且是靠AI自己造的",
+        "why_worth": "读者读完get到：自研芯片不稀奇，但'AI把芯片设计从两年压到9个月'是范式信号，意味着算力军备竞赛的迭代速度本身在被AI改写"
+      },
+      "urgency": "high"
+    },
+    {
+      "rank": 2,
+      "slug": "deepseek-74e-strange-financing",
+      "topic": "DeepSeek 拿了74亿首轮融资，投资人却什么都没拿到：没股权、没投票权、锁5年——梁文锋开出的'不平等条约'，谁还抢着签",
+      "category": "商业",
+      "score": 0,
+      "sources": [
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+      ],
+      "hook": "据The Information，DeepSeek首次外部融资约74亿美元，但投资人买的是梁文锋控制的LLC份额、无DeepSeek股权、无投票权、5年锁定",
+      "angle": "当稀缺性彻底倒转，明星AI公司可以反过来给投资人开'霸王条款'",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "DeepSeek这笔诡异融资的真正看点不是钱，而是'议价权倒转'——一年前是创业公司求着VC，现在是顶级AI资产敢让投资人接受'给钱但什么权利都没有'，这说明市场上真正稀缺的不是资本而是'能打的中国模型'这种资产本身",
+        "dots": [
+          "投资人拿的是梁文锋个人控制的LLC份额，不是DeepSeek股权",
+          "5年锁定期 + 零投票权 = 纯财务暴露、零控制",
+          "DeepSeek一直号称不缺钱、靠幻方自给，这次'首次'外部融资本身就反常"
+        ],
+        "axis": "大家都写'DeepSeek融了多少钱/估值多高'，本篇换轴切'融资条款里的权力关系'——条款比金额更能说明谁在求谁",
+        "counter_intuitive": "表面是DeepSeek终于'缺钱了'对外融资，实际是它把融资做成了一场'投资人没有任何权利还抢着进'的卖方市场展演",
+        "why_worth": "读者get到：判断一家公司有多硬，看的不是它融了多少，而是它能让出资方接受多苛刻的条件——这是看AI泡沫真假的另一把尺子"
+      },
+      "review_note": "单一信源(Crunchbase转述The Information)，撰写阶段须明确标注'据报道/未经DeepSeek证实'，不可做实；若坐实困难可降权或换备选",
+      "urgency": "medium"
+    },
+    {
+      "rank": 3,
+      "slug": "qualcomm-modular-lattner-cuda-moat",
+      "topic": "高通39亿买下的不是公司，是绕开英伟达CUDA的那把钥匙：编译器之神Chris Lattner带着Modular改投高通",
+      "category": "商业",
+      "score": 0,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/qualcomm-acquires-ai-software-startup-131042959.html"
+      ],
+      "hook": "高通39.2亿美元全股收购Chris Lattner创办的Modular，押注'让AI模型跨任意芯片运行、不用为每颗芯片重写代码'的软件层，直插英伟达CUDA腹地",
+      "angle": "芯片战争打到最后，真正的护城河不是硅片是软件锁",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "所有人盯着谁的芯片更快，但英伟达真正锁死市场的是CUDA这套软件生态；高通买Modular买的就是'拆锁的钥匙'——这一单说明硬件厂商终于明白，不先解决软件可移植性，造再快的芯片也卖不进开发者的工作流",
+        "dots": [
+          "Modular做的是跨CPU/GPU/NPU/自研芯片的统一软件层，开发者不必为每颗芯片重写代码",
+          "创始人Chris Lattner = LLVM/Swift/MLIR之父，编译器领域顶级招牌",
+          "高通主业还是手机芯片，急于进数据中心/边缘AI，缺的正是软件吸引力",
+          "直接对标英伟达CUDA十几年攒下的开发者忠诚"
+        ],
+        "axis": "大家都写'高通又一笔AI收购/进军数据中心'，本篇换轴切'CUDA软件锁才是英伟达真护城河，这单是冲着锁去的'",
+        "counter_intuitive": "表面是高通补数据中心短板，实际是整个行业承认：打败英伟达的第一步不是更快的芯片，而是先把'只能用英伟达软件'这件事破掉",
+        "why_worth": "读者get到：评估AI芯片竞争别只看TFLOPS，要看谁能撬动CUDA的软件垄断——Modular这类'中立软件层'才是变量"
+      },
+      "urgency": "medium"
+    },
+    {
+      "rank": 4,
+      "slug": "garfield-ai-wins-uk-court-access-justice",
+      "topic": "AI 第一次独立打赢了一场官司：受监管的 AI 律所 Garfield 帮人花 400 块追回 7000 镑，被改写的不是律师饭碗，是'请不起律师只能认栽'这条几百年的门槛",
+      "category": "AI应用",
+      "score": 0,
+      "sources": [
+        "https://www.theguardian.com/technology/2026/jun/22/artificial-intelligence-law-firm-wins-court-case-in-england-for-first-time",
+        "https://www.lawyersweekly.com.au/biglaw/44535-ai-law-firm-wins-court-case-in-legal-profession-first",
+        "https://www.computerweekly.com/news/366644941/Artificial-intelligence-based-law-firm-wins-in-court"
+      ],
+      "hook": "英国 AI 律所 Garfield(受 SRA 监管的首个持牌 AI 律所)5月14日在 Wandsworth 郡法院帮自由职业者 Taquidir 打赢一桩 7000 镑欠款案,当事人只花约 400 镑,AI 完成全部庭前工作(4 份证人陈述+文件包+应对反诉),庭审仍由真人大律师出庭;同期 Pinsent Masons 等大所却因 AI 幻觉两次误导法庭自首",
+      "angle": "别人写'AI 会不会取代律师/AI 幻觉翻车',本篇换'access to justice 普惠'轴——AI 在法律界真正的突破不在顶端律所,而在把够不着法律的小人物接进来",
+      "writing_approach": {
+        "increment_path": "换轴+串点",
+        "thesis": "AI 第一次独立把一个普通人'打不起的官司'打赢了——这不是又一个聊天机器人 demo,而是 AI 把'司法服务'这种最贵、最依赖专业垄断的服务第一次压到几百块能用得起;真正被改写的不是律师会不会失业,而是'请不起律师就只能认栽'这条几百年的门槛",
+        "dots": [
+          "Garfield 是受 SRA 监管的首个持牌 AI 律所,£30–£10000 小额可用",
+          "£400 对 £7000:成本结构被打穿,过去这类债大多因诉讼费高于本金被直接放弃",
+          "AI 做完所有庭前工作,但庭审仍需真人大律师——人机边界清晰",
+          "同一周大律所因 AI 幻觉翻车自首:AI 在法律界顶端出丑、底层却破冰"
+        ],
+        "axis": "跳出'AI 取代律师/AI 翻车'的主流叙事,换法律经济学+普惠视角:贵和垄断才是司法的真问题,AI 先松动的是这块",
+        "counter_intuitive": "同一周,大律所因用 AI 出丑被监管,小人物却靠 AI 第一次打赢官司——AI 在法律界的真正突破不在精英端而在长尾端",
+        "why_worth": "读者 get 到:AI 落地最该看的不是'能不能取代专家',而是'能不能让原来用不起这个服务的人用上'——这才是 AI 普惠的真实样子"
+      },
+      "urgency": "high",
+      "review_score": 79,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 5,
+      "slug": "mira-ai-agent-doctor-beats-physicians-nature",
+      "topic": "AI 第一次不是'答题'而是'端到端看病':Nature 上的急诊智能体 MIRA 在仿真诊疗环境里拿到处方权、开检查下医嘱定住院,整体表现赢过人类医生——但仍是实验设定,未进真实临床",
+      "category": "医疗AI",
+      "score": 0,
+      "sources": [
+        "https://www.nature.com/articles/s41586-026-10675-5",
+        "https://news.qq.com/rain/a/20260622A069R800",
+        "https://edu.people.com.cn/n1/2026/0622/c1006-40744526.html"
+      ],
+      "hook": "最新一期《自然》:海德堡/德累斯顿团队的急诊智能体 MIRA 与谷歌 AMIE 两套自主医疗 AI,能在【仿真 EHR 环境+模拟病人】里完成问诊→开检查→解读→开药/安排手术/决定住院全流程,遵循 FHIR/ICD/LOINC 等标准、可调 8.5 万+工具;MIRA 在 8 种疾病整体诊断准确率 87.8%,高于委员会认证医生组 78.1%。作者强调仍是研究阶段、未进真实临床、需人类医师监督",
+      "angle": "别人写'AI 又在某医学测试拿高分'或'AI 取代医生',本篇换'从答题到授权闭环动手/红线怎么设'轴:真正的跨越不是分数,是研究者第一次把'开药/下医嘱'这类有后果动作交给智能体端到端执行(哪怕仍是仿真)",
+      "writing_approach": {
+        "increment_path": "换轴+串点",
+        "thesis": "过去所有'AI 通过医师考试'都是纸上谈兵——只输出文字、不碰系统。MIRA 的不同在于:研究者第一次把'开检查、下医嘱、决定住院'这类有后果的动作交给智能体在仿真环境里端到端闭环执行,并从用药安全、入院决策等多维度评估。真正被改写的不是'AI 会不会比医生聪明'(它考试早就赢了),而是评估范式从'答得准不准'变成'敢不敢授权它闭环动手、安全红线怎么设'——而现实临床仍要求持证医师签字,这道红线还在",
+        "dots": [
+          "MIRA/AMIE 在仿真 EHR 环境执行允许操作,遵循 FHIR/ICD/LOINC 等六套医疗编码、可调 8.5 万+工具(强调:仿真,非真实临床)",
+          "87.8% vs 78.1%:不是单点诊断,而是诊断+检查合理性+用药安全+入院决策的全流程评估都赢",
+          "评测特意加入性别/焦虑/语言障碍等干扰,测的是'稳健性'而非考试分",
+          "论文与中方媒体都强调:落地不是取代医生,而是接走核对用药/组合化验/草拟会诊这些'指尖上的重复负担',且仍需医师监督签字"
+        ],
+        "axis": "跳出'AI 比医生强不强/会不会取代医生'的口水轴,换'从答题到授权执行、安全红线在哪'的角度:医疗 AI 的拐点是被允许闭环动手(哪怕先在仿真里),不是分数更高;而真实临床的签字红线仍未松动",
+        "counter_intuitive": "AI 在医学考试早就赢了很多年,真正的新闻不是它更准,而是研究者第一次敢把开药下医嘱交给它端到端跑通——门槛从'够不够聪明'变成'敢不敢、在什么边界内让它动手'",
+        "why_worth": "读者 get 到:判断医疗 AI 到没到拐点,别看它考试考多少分,看它被授权在什么范围内执行有后果的操作、红线设在哪——这才是从 demo 到落地的真正分界线。同时学会对'AI 全面超越医生'这类标题保持警惕:仿真≠临床",
+        "honesty_note": "撰写铁律:①全文凡提'全流程/开药/下医嘱'必须紧跟'仿真环境/未进真实临床/需医师监督'限定,不得宣称已在真实诊疗独立执行;②MIRA 锁定海德堡/德累斯顿急诊智能体,勿引微软亚研院同名时间序列模型;③把'诚实克制'做成调性卖点,对标 Garfield 篇"
+      },
+      "urgency": "high",
+      "review_score": 82,
+      "review_verdict": "keep"
+    }
+  ],
+  "swap_log": [
+    {
+      "swapped_at": "2026-06-26",
+      "reason": "topic-review needs_swap: rank4 京东捐赠(爆点弱+开源母题重复 score65), rank5 黄仁勋泡沫(本周泡沫母题第4次 dedup5)",
+      "rank4_old": "jingdong-oxygen-xllm-opensource-infra",
+      "rank4_new": "garfield-ai-wins-uk-court-access-justice",
+      "rank5_old": "jensen-useful-ai-profitable-counter-bubble",
+      "rank5_new": "agility-robotics-spac-real-orders-vs-bubble"
+    },
+    {
+      "swapped_at": "2026-06-26",
+      "reason": "rank5 二次替换:Agility 人形机器人 review 仅64(具身+泡沫母题本周饱和,换轴也压不住),换完全不同领域的医疗AI",
+      "rank5_old": "agility-robotics-spac-real-orders-vs-bubble",
+      "rank5_new": "mira-ai-agent-doctor-beats-physicians-nature"
+    }
+  ]
+}
