@@ -1,0 +1,60 @@
+{
+  "slug": "nyt-narrows-ai-suit-targets-microsoft",
+  "date": "2026-06-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/nyt-narrows-ai-suit-targets-microsoft",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-nyt-building.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/nyt-narrows-ai-suit-targets-microsoft/01-nyt-building.jpg",
+      "caption": "曼哈顿的纽约时报总部——这场AI版权官司的原告，正悄悄换靶子",
+      "anchor": "## 被撤掉的那条，恰恰是最难打的一条",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+      "type": "A",
+      "reader_gain": "让读者看清主角是谁——这是一家百年报社在起诉，画面把抽象官司落到具体机构",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "02-verbatim-comparison.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/nyt-narrows-ai-suit-targets-microsoft/02-verbatim-comparison.jpg",
+      "caption": "诉状证据：左栏GPT-4输出，右栏纽约时报原文，几乎逐字一致",
+      "anchor": "## 被撤掉的那条，恰恰是最难打的一条",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+      "type": "A",
+      "reader_gain": "让读者亲眼看到「近乎逐字复现」长什么样——这是时报没删、改作直接复制佐证的核心弹药",
+      "width": "360px"
+    },
+    {
+      "seq": "03",
+      "file": "03-litigation-pivot.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/nyt-narrows-ai-suit-targets-microsoft/03-litigation-pivot.jpg",
+      "caption": "一张图看懂换轴：从告「造模型的」OpenAI，转向告「供算力的」微软",
+      "anchor": "## 真正的换轴：把「递铲子的人」拉上被告席",
+      "position": "after_heading",
+      "source": "self_made_diagram",
+      "source_url": "",
+      "type": "B",
+      "reader_gain": "把文章最核心的「旧打法vs新打法」逻辑可视化——主攻对象、核心主张、证明难度三项一栏对照",
+      "width": "380px"
+    },
+    {
+      "seq": "04",
+      "file": "04-paywall-skirting.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/nyt-narrows-ai-suit-targets-microsoft/04-paywall-skirting.jpg",
+      "caption": "诉状证据：用户称被付费墙挡住，ChatGPT照样吐出整段原文",
+      "anchor": "## 这盘官司有多贵，去年已经有人替大家试过水",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+      "type": "A",
+      "reader_gain": "让读者看到时报主张的「市场替代」实锤——模型直接替代订阅，这正是它敢硬打的底气",
+      "width": "320px"
+    }
+  ]
+}

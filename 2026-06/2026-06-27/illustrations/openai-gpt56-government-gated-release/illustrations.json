@@ -1,0 +1,56 @@
+{
+  "slug": "openai-gpt56-government-gated-release",
+  "date": "2026-06-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/openai-gpt56-government-gated-release",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-sam-altman.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/openai-gpt56-government-gated-release/01-sam-altman.jpg",
+      "caption": "OpenAI CEO 山姆·奥特曼——这次「照做但公开喊冤」的当事人",
+      "anchor": "## 先把事实摆齐，别急着站队",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED.jpg",
+      "license": "CC BY 2.0 (Steve Jurvetson / Wikimedia Commons)",
+      "width": "300px"
+    },
+    {
+      "seq": "03",
+      "file": "03-approval-flow.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/openai-gpt56-government-gated-release/03-approval-flow.jpg",
+      "caption": "GPT-5.6 的「逐客户审批」放行流程：申请→OpenAI 转交→白宫逐个点头，首批仅 20 家获批",
+      "anchor": "## 先把事实摆齐，别急着站队",
+      "position": "after_heading",
+      "source": "generated_chart",
+      "source_url": "matplotlib (self-made)",
+      "license": "self-made, no copyright",
+      "width": "330px"
+    },
+    {
+      "seq": "02",
+      "file": "02-white-house.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/openai-gpt56-government-gated-release/02-white-house.jpg",
+      "caption": "白宫两个办公室（国家网络总监办、科技政策办）出面，把「自愿送审」变成了实质许可制",
+      "anchor": "## 「自愿」两个字，已经名存实亡",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_White_House,_Northside,_Washington_DC_(8594800247).jpg",
+      "license": "CC BY 2.0 (Glyn Lowe Photoworks / Wikimedia Commons)，水印已裁除",
+      "width": "360px"
+    },
+    {
+      "seq": "04",
+      "file": "04-product-to-strategic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/openai-gpt56-government-gated-release/04-product-to-strategic.jpg",
+      "caption": "核心转折：前沿 AI 正从「开放访问的互联网产品」被重新归类为「受管制的战略物资」",
+      "anchor": "## 这是一次「重新归类」，比延期严重得多",
+      "position": "after_heading",
+      "source": "generated_chart",
+      "source_url": "matplotlib (self-made)",
+      "license": "self-made, no copyright",
+      "width": "360px"
+    }
+  ]
+}

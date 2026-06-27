@@ -1,0 +1,52 @@
+{
+  "slug": "tokenmaxxing-retreat-ai-spend-crunch",
+  "date": "2026-06-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/tokenmaxxing-retreat-ai-spend-crunch",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-cost-curve-floor.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/tokenmaxxing-retreat-ai-spend-crunch/01-cost-curve-floor.jpg",
+      "caption": "把 100% 流量从头部前沿模型整体迁到便宜开源模型后，每月账单约掉九成——Lindy CEO 形容“像砸到地板上一样”（示意图）",
+      "anchor": "## 主流都在看“谁还在加码烧钱”，我想看另一边",
+      "position": "before_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    },
+    {
+      "seq": "02",
+      "file": "02-95-percent-frontier-waste.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/tokenmaxxing-retreat-ai-spend-crunch/02-95-percent-frontier-waste.jpg",
+      "caption": "据 Glean CEO 估算，企业约 95% 的 AI 用量仍跑在最顶级的前沿模型上，哪怕干的只是简单活——相当于顿顿用米其林大厨切土豆丝（示意图）",
+      "anchor": "## 一个反直觉的事实：95%的算力，都在用最贵的刀切最简单的菜",
+      "position": "after_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    },
+    {
+      "seq": "04",
+      "file": "04-poker-table-reshuffle.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/tokenmaxxing-retreat-ai-spend-crunch/04-poker-table-reshuffle.jpg",
+      "caption": "“算账”重排牌桌：纯前沿模型厂结构性承压、握全栈的巨头顺势捡漏、便宜开源模型趁机接盘——胜负手从“谁模型最强”换成“谁能用最便宜的方式把活干完”",
+      "anchor": "## 谁在边上等着捡漏",
+      "position": "after_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    },
+    {
+      "seq": "03",
+      "file": "03-lightweight-pricing.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/tokenmaxxing-retreat-ai-spend-crunch/03-lightweight-pricing.jpg",
+      "caption": "全栈巨头的“实惠路线”：新出的轻量模型价格只有同级前沿模型的一半，某些场景甚至压到三分之一（示意图）",
+      "anchor": "## 写在最后",
+      "position": "before_heading",
+      "source": "generated_matplotlib",
+      "type": "B-infographic",
+      "width": "100%"
+    }
+  ]
+}

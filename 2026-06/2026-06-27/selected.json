@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-27",
+  "dedup_basis": [
+    "06-26 已写: OpenAI辣椒自研芯片、DeepSeek74亿霸王融资、高通买Modular绕CUDA、Garfield AI律所打赢官司、MIRA急诊AI医生",
+    "06-25 已写: 豆包2.1Pro长任务、大晓Kairos世界模型、Claude进Slack当同事、489亿机器人融资、OpenAI抢回Shazeer",
+    "06-24 已写: 灵晟CPU登顶TOP500、Anthropic企业反超OpenAI、Meta把Facebook当搜索入口、司法部救Grok、Oracle SEC裁员",
+    "06-23 已写: 谷歌一周走两科学家、国产开源逼平GPT5.5、AI教父警告泡沫、纳德拉别迷信最强模型、GitHub热榜变天拍片流水线",
+    "06-22 已写: 核聚变电荒、马斯克Terafab造芯、Alphabet发800亿股泡沫、Copilot四模型混战、GitHub驯化AI",
+    "06-21 已写: 苹果Siri外包Gemini、AI推翻Erdős猜想、txt规则层、AI视频单位经济学、AI巨头喊刹车抢IPO",
+    "06-20 已写: GLM-5.2零英伟达、AI裁员借口、英伟达Isaac GROOT机器人安卓、AI问责诉讼、Genesis无脸人形机器人"
+  ],
+  "kill_log": [
+    "SpaceX 600亿收购Cursor → 06-26已标记stale且此前批次写过，KILL",
+    "GLM-5.2震动硅谷 → 06-20/06-23已连写国产开源同题，KILL",
+    "英伟达Isaac GR00T机器人安卓 → 06-20已写，KILL",
+    "Genesis Eno无脸人形机器人 → 06-20已写，KILL",
+    "OpenMontage开源视频流水线 → 06-23已写'教AI拍片流水线'同题，KILL",
+    "微软考虑用DeepSeek V4当Copilot引擎 → 涉及'中国国家情报法/中国AI国安风险'叙事，易被读成配合抹华，政治敏感规避，KILL",
+    "谷歌FARO监管中间道路 → 与本批第1篇政府卡发布题材过近，避免双政策同质，KILL"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "slug": "openai-gpt56-government-gated-release",
+      "topic": "最强模型造出来了，却第一次'不准随便给人用'：OpenAI GPT-5.6被政府逐个客户审批放行，AI模型正式进入'军火管制'时代",
+      "category": "政策",
+      "score": 0,
+      "sources": [
+        "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+        "https://money.usnews.com/investing/news/articles/2026-06-26/openai-defers-public-rollout-of-gpt-5-6-as-us-seeks-early-access-to-frontier-ai-models",
+        "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+      ],
+      "hook": "OpenAI最新GPT-5.6(旗舰Sol/均衡Terra/低价Luna)被美政府要求只发给'一小撮可信伙伴'、逐个客户审批，Altman公开说'不喜欢政府挑客户'",
+      "angle": "AI模型第一次被当军火管制——发布权从公司手里转到政府审批黑箱",
+      "writing_approach": {
+        "increment_path": "串点+拉高",
+        "thesis": "GPT-5.6被卡的真正信号不是'OpenAI受委屈'，而是'开放访问'这个默认规则结束了：发个前沿模型要先过政府30天评估+逐客户放行，而政府既没专业测试能力、也没说清要防什么——这种没标准没流程的'先卡再说'，把整个行业拖进一个谁都说不清规则的灰区",
+        "dots": [
+          "Trump行政令: 覆盖性前沿模型发布前最多交政府30天'自愿'评估→Dean Ball称已成事实上的强制许可制",
+          "前车之鉴: Anthropic Fable5/Mythos5被90分钟内拔掉，连自家员工和外国国民都不能用",
+          "OpenAI这次照做但公开不满: '不该成为长期默认，它把最好的工具挡在开发者/企业/网络防御者门外'",
+          "TechCrunch点破: 这不再是Anthropic vs OpenAI，两家第一次被绑在同一条船上，共同面对同一个灾难"
+        ],
+        "axis": "大家都在站队'谁害了谁'(说Anthropic搞监管捕获/说OpenAI抱Trump大腿挤对手)，本篇换轴: 跳出站队，看'国家第一次拿到AI模型的发布否决权'这件更大的结构性变化",
+        "counter_intuitive": "造得出最强模型，却第一次不能决定给谁用——AI公司的核心权力(发布权)正在被悄悄收走，且是它们自己喊监管喊出来的",
+        "why_worth": "读者get到: 这不是一次普通的延期，而是AI从'互联网产品'被重新归类成'受管制战略物资'的拐点，影响所有靠它吃饭的人"
+      },
+      "urgency": "high"
+    },
+    {
+      "rank": 2,
+      "slug": "tokenmaxxing-retreat-ai-spend-crunch",
+      "topic": "一年前比谁烧token多，现在CFO被账单吓到喊停：AI的'无脑烧钱'蜜月期结束，前沿大厂要撞上'效率墙'",
+      "category": "商业",
+      "score": 0,
+      "sources": [
+        "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+      ],
+      "hook": "企业从'tokenmaxxing'(无脑堆token)转向抠成本，CFO收到天价AI账单傻眼；95%企业用量仍跑在最贵的frontier模型上，被指'长期撑不住'",
+      "angle": "AI需求侧第一次集体勒紧裤腰带，按token收费的OpenAI/Anthropic增长引擎受压",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "这轮'省钱'的真正看点不是企业抠门，而是AI竞争的胜负手正在从'谁模型最强'换成'谁能用最便宜的方式把活干完'——这对靠token按量计费的两大前沿厂是结构性利空，而握着全栈+低价模型的微软谷歌和开源正在边上等着捡漏",
+        "dots": [
+          "Ramp CEO: CFO们既没给AI做预算、也没工具管这第三根支出柱子(token智能支出)",
+          "Glean CEO: 约95%企业AI用量还跑在frontier模型上干简单活，AISquared CEO称'长期untenable'→model routing(按任务派便宜模型)兴起",
+          "微软低价模型套件stiff-arm、谷歌Gemini 3.5 Flash半价甚至1/3价",
+          "分析师Luria: 大客户可能开始限制'失控的token开支'，定价还停在'不成熟'阶段"
+        ],
+        "axis": "主流都写'AI还在狂飙/巨头继续烧钱'，本篇切需求侧的反向信号: 买单方第一次开始算账，把焦点从'供给军备竞赛'移到'谁先被成本反噬'",
+        "counter_intuitive": "AI最大的风险这次不来自技术或监管，而来自'用户开始嫌它贵'——增长故事第一次遇到买单方的财务纪律",
+        "why_worth": "读者get到: 模型越来越强不等于厂商越来越赚，效率墙一来，'按token吃饭'的商业模式要被重新定价"
+      },
+      "urgency": "high"
+    },
+    {
+      "rank": 3,
+      "slug": "bezos-prometheus-general-engineer",
+      "topic": "贝佐斯离开亚马逊后第一次当CEO，不造火箭造'通用工程师'：要用AI把喷气发动机从十年压到几个月，还备了1000亿去买工厂",
+      "category": "前沿",
+      "score": 0,
+      "sources": [
+        "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/",
+        "https://www.techtimes.com/articles/318330/20260613/prometheus-ai-startup-bezos-raises-12-billion-41-billion-valuation.htm"
+      ],
+      "hook": "贝佐斯的物理AI公司Prometheus融资120亿美元、估值约410亿，他亲自当co-CEO造'人工通用工程师'(从设计到制造造喷气发动机/芯片/桥梁)，还传要搞千亿基金买制造企业",
+      "angle": "当所有人都赌'AI下一站是数字超级app'，贝佐斯反着赌'物理AI'",
+      "writing_approach": {
+        "increment_path": "换轴+拉高",
+        "thesis": "Prometheus的真正看点不是贝佐斯又一个豪赌，而是一条与主流相反的押注: 当OpenAI们冲向'数字超级app'，贝佐斯把钱砸向'物理世界'——因为喷气发动机怎么造的数据不存在于网上，谁先把物理仿真+制造闭环喂给模型，谁就拿到代码抄不走的护城河",
+        "dots": [
+          "Bajaj用喷气发动机举例: 一支团队设计-原型-制造要十年，'现在第一次能把它整条formulate成端到端AI问题'",
+          "钱主要烧在两处: 算力 + '不存在于网上的专业训练数据'(物理仿真/流体力学/材料/制造公差)",
+          "贝佐斯还在张罗最高1000亿的关联基金，去买能用上这套技术的制造公司、直接改造工厂",
+          "约150人、总部旧金山+伦敦+苏黎世，'这是grind，但是好的grind'——他卸任亚马逊后首个CEO角色"
+        ],
+        "axis": "别人都写'又一个AI独角兽/贝佐斯有钱任性'，本篇换轴: 把它当成对'AI=聊天/写代码'主流叙事的正面反对，焦点放在'数字AI vs 物理AI'的路线分叉",
+        "counter_intuitive": "最该懂电商和云的贝佐斯，押的却是最重、最慢、最难数字化的'造实物'——反直觉地认为物理世界才是AI更深的护城河",
+        "why_worth": "读者get到: AI的下一个万亿战场可能不在屏幕里而在工厂里，而判断谁对，要看'物理数据'这道墙能不能被攻破"
+      },
+      "urgency": "medium"
+    },
+    {
+      "rank": 4,
+      "slug": "nyt-narrows-ai-suit-targets-microsoft",
+      "topic": "告模型不如告'递铲子的人'：纽约时报悄悄撤回对OpenAI的一项指控，把版权大战的炮口转向提供算力的微软",
+      "category": "法律",
+      "score": 0,
+      "sources": [
+        "https://hoodline.com/2026/06/times-slashes-ai-lawsuit-leaves-microsoft-in-the-hot-seat/"
+      ],
+      "hook": "6月25日纽约时报修改起诉书，撤回'OpenAI对用户诱导生成侵权内容负次要责任'的指控，转而把火力对准为生成式AI提供云算力的微软",
+      "angle": "AI版权战打法升级——从'告造模型的'转向'告提供基础设施的'",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "纽时改诉的真正信号不是'退一步'，而是打法换轴: 与其纠缠'模型输出算不算侵权'这种难证的理论，不如咬住'谁提供了算力/存储让侵权成为可能'——把基础设施本身变成被告，这可能给整个云厂商埋下一颗版权炸弹",
+        "dots": [
+          "撤回的是2023年那条'OpenAI对用户prompt产生的侵权负次要责任'，保留近乎逐字复现的证据但改作'直接复制'佐证",
+          "新矛头: 指控微软的算力/存储/服务'enabled'了模型的训练与运行——基础设施成为侵权链条的一环",
+          "背景: 去年Anthropic向作者群体赔约15亿美元，提醒这类诉讼能贵到什么程度",
+          "案子归曼哈顿联邦法院Stein法官，2023年12月立案，是AI版权最高规格的试金石之一"
+        ],
+        "axis": "大家盯着'AI公司会不会赔钱'，本篇换轴: 看版权方如何重新选靶子，把'递铲子的云厂商'拉上被告席这一策略转向",
+        "counter_intuitive": "原告主动撤掉一条指控看似示弱，实则是把更难缠、口袋更深的微软推到台前——以退为进",
+        "why_worth": "读者get到: AI版权战的真正赌注正在从'模型公司'扩散到'云基础设施'，这决定了未来谁为训练数据买单"
+      },
+      "urgency": "medium"
+    },
+    {
+      "rank": 5,
+      "slug": "foxconn-physical-ai-full-stack-europe",
+      "topic": "代工之王悄悄换皮：富士康在巴黎让人形机器人现场装配，把自己重写成'造算力+造身体+训机器人'的物理AI全栈平台",
+      "category": "机器人",
+      "score": 0,
+      "sources": [
+        "https://www.techtimes.com/articles/318548/20260617/foxconn-debuts-humanoid-robots-europe-revealing-closed-loop-physical-ai-stack.htm"
+      ],
+      "hook": "富士康在巴黎VivaTech让工业人形机器人现场精密装配，并联合Bull/Nvidia把Vera Rubin NVL72 AI机架搬到欧洲制造——亮出'造AI算力→训机器人→进工厂'的闭环",
+      "angle": "全球最大代工厂不再只'组装别人的产品'，而是垂直整合成物理AI平台",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "富士康欧洲首秀的真正看点不是'又一个人形机器人demo'，而是它把'造训练模型的算力、造机器人身体、训练机器人、再放进自己工厂'拼成一条闭环——谁掌握'仿真→工厂'这条回路，谁就拿到人形机器人量产的入场券，而代工之王正闷声卡这个位",
+        "dots": [
+          "现场: 轮式人形机器人在欧洲工业买家面前做精密装配，是富士康工业人形首登欧洲",
+          "硬件公告: 联合法国Bull与Nvidia，把Vera Rubin NVL72 AI机架在捷克+法国制造，挂Bull品牌卖——欧洲首台本土造的Nvidia最先进AI服务器",
+          "闭环钥匙: 用Nvidia Isaac Sim先仿真，把机器人训练从几个月压到几小时，再投产",
+          "身份升级: 从CDMS代工模式延伸到'造AI机架+造人形机器人'，同一套'让最复杂硬件可量产'的能力"
+        ],
+        "axis": "主流写人形机器人都盯着Tesla/Figure/Unitree这些'造机器人的'，本篇换轴: 看'造机器人的工厂'本身——把焦点放在制造与仿真闭环这条没人注意的护城河",
+        "counter_intuitive": "最不性感的'代工厂'，可能比明星机器人公司更早拿到量产话语权——因为它同时握着算力、身体和工厂",
+        "why_worth": "读者get到: 人形机器人能不能真正落地，瓶颈不在炫酷demo，而在'谁能把训练-制造闭环跑通量产'，富士康正卡这个位"
+      },
+      "urgency": "medium"
+    }
+  ]
+}

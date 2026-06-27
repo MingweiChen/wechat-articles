@@ -1,0 +1,64 @@
+{
+  "slug": "bezos-prometheus-general-engineer",
+  "date": "2026-06-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/bezos-prometheus-general-engineer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-bezos-bajaj-prometheus.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/bezos-prometheus-general-engineer/01-bezos-bajaj-prometheus.jpg",
+      "caption": "贝佐斯（右）与联合CEO Vik Bajaj 接受 CNBC 采访，谈 Prometheus——他卸任亚马逊后首次重新当 CEO，押注物理世界",
+      "anchor": "## 别人都在抢的数据，恰恰是他要绕开的",
+      "position": "before_heading",
+      "type": "A",
+      "source": "search",
+      "source_url": "https://arstechnica.com/ai/2026/06/heres-what-jeff-bezos-new-startup-prometheus-will-do/",
+      "credit": "CNBC / via Ars Technica",
+      "width": "400px",
+      "reader_gain": "让读者看到贝佐斯与搭档真人、确认这是真实发生的采访与公司，而非概念炒作"
+    },
+    {
+      "seq": "02",
+      "file": "02-digital-vs-physical-ai.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/bezos-prometheus-general-engineer/02-digital-vs-physical-ai.png",
+      "caption": "一张图看懂两条路：主流数字AI 抢网上现成数据，贝佐斯的物理AI 烧的是网上根本不存在的工程数据",
+      "anchor": "## 别人都在抢的数据，恰恰是他要绕开的",
+      "position": "after_heading",
+      "type": "B",
+      "source": "matplotlib",
+      "source_url": "",
+      "credit": "本文制图",
+      "width": "400px",
+      "reader_gain": "把正文对比表格可视化，让读者一眼抓住「护城河逻辑反过来：别家拼数据多，他拼数据少到只有自己造得出」"
+    },
+    {
+      "seq": "03",
+      "file": "03-jet-engine-blades.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/bezos-prometheus-general-engineer/03-jet-engine-blades.jpg",
+      "caption": "涡扇发动机的风扇叶片实物特写——「流体在这种叶片上到底怎么流」这类工程数据不在维基、不在GitHub，正是 Prometheus 要自己造的训练料",
+      "anchor": "## “整条formulate成端到端AI问题”",
+      "position": "after_heading",
+      "type": "A",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fan_blades_and_inlet_guide_vanes_of_GEnx-2B.jpg",
+      "credit": "Wikimedia Commons",
+      "width": "400px",
+      "reader_gain": "把抽象的「物理工程数据」具象成真实的喷气发动机风扇叶片，读者直观理解贝佐斯要把整条制造流程 formulate 成的「AI 题」打的是什么样的实物"
+    },
+    {
+      "seq": "04",
+      "file": "04-physical-data-flywheel.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/bezos-prometheus-general-engineer/04-physical-data-flywheel.png",
+      "caption": "贝佐斯的物理数据飞轮：自己造数据→训练模型→买工厂验证→跑出新数据，轮子转得越久，墙就越高",
+      "anchor": "## 1000亿不是用来烧的，是用来买工厂的",
+      "position": "after_heading",
+      "type": "B",
+      "source": "matplotlib",
+      "source_url": "",
+      "credit": "本文制图",
+      "width": "400px",
+      "reader_gain": "把正文「自己造数据→训练→买工厂验证→喂回模型」的完整回路画成闭环飞轮，读者秒懂这套笨重打法为何越跑壁垒越高"
+    }
+  ]
+}

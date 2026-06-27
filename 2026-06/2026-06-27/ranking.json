@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-27",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 84,
+      "title": "贝佐斯重新当CEO，1000亿不投屏幕投工厂赌物理世界！",
+      "slug": "bezos-prometheus-general-engineer",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-27/html/01-bezos-prometheus-general-engineer-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-27/html/01-bezos-prometheus-general-engineer-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 82,
+      "title": "OpenAI最强模型造好了，却要政府逐个客户点头才准卖！",
+      "slug": "openai-gpt56-government-gated-release",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-27/html/02-openai-gpt56-government-gated-release-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-27/html/02-openai-gpt56-government-gated-release-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 8
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 82,
+      "title": "25人公司AI账单超过全员工资：烧token的蜜月期被叫停！",
+      "slug": "tokenmaxxing-retreat-ai-spend-crunch",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-27/html/03-tokenmaxxing-retreat-ai-spend-crunch-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-27/html/03-tokenmaxxing-retreat-ai-spend-crunch-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 8
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 82,
+      "title": "富士康巴黎亮底牌：要造能造机器人的整条流水线！",
+      "slug": "foxconn-physical-ai-full-stack-europe",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-27/html/04-foxconn-physical-ai-full-stack-europe-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-27/html/04-foxconn-physical-ai-full-stack-europe-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 7,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 82,
+      "title": "纽约时报撤掉对OpenAI一条指控，矛头转向递铲子的微软！",
+      "slug": "nyt-narrows-ai-suit-targets-microsoft",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-27/html/05-nyt-narrows-ai-suit-targets-microsoft-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-27/html/05-nyt-narrows-ai-suit-targets-microsoft-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 7,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    }
+  ]
+}

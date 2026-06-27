@@ -1,0 +1,56 @@
+{
+  "slug": "foxconn-physical-ai-full-stack-europe",
+  "date": "2026-06-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/foxconn-physical-ai-full-stack-europe",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-foxconn-humanoid-factory.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/foxconn-physical-ai-full-stack-europe/01-foxconn-humanoid-factory.jpg",
+      "caption": "工业人形机器人在真实工厂里搬运、上料——富士康们正把这类机器人投回自己的产线（图为富士康合作方 UBTech 的工业人形机器人现场作业）",
+      "anchor": "## 一台机器人不稀奇，稀奇的是它训练的方式",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://interestingengineering.com/innovation/humanoid-robots-to-assemble-iphones-in-china",
+      "type": "A",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-sim-to-factory-loop.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/foxconn-physical-ai-full-stack-europe/03-sim-to-factory-loop.png",
+      "caption": "「仿真→工厂」两段式回路：先在 Isaac Sim 里以最高 1000 倍速训练（11 小时跑出 78 万条轨迹，人工采集要 3 个月），再到真实产线微调，真实数据反过来又喂回仿真",
+      "anchor": "## 把四件事拼成一个圈",
+      "position": "after_heading",
+      "source": "generated_mermaid",
+      "source_url": "",
+      "type": "B",
+      "width": "380px"
+    },
+    {
+      "seq": "02",
+      "file": "02-physical-ai-loop.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/foxconn-physical-ai-full-stack-europe/02-physical-ai-loop.png",
+      "caption": "富士康的物理 AI 闭环：造算力 → 训机器人 → 造身体 → 进工厂，再用真实场景数据反哺下一轮训练。四件事不是平行业务，而是一个自我增强的圈",
+      "anchor": "## 把四件事拼成一个圈",
+      "position": "after_first_paragraph",
+      "source": "generated_mermaid",
+      "source_url": "",
+      "type": "B",
+      "width": "360px"
+    },
+    {
+      "seq": "04",
+      "file": "04-vera-rubin-nvl72-rack.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-27/illustrations/foxconn-physical-ai-full-stack-europe/04-vera-rubin-nvl72-rack.jpg",
+      "caption": "高密度液冷 AI 服务器机架（厂商展台实拍）——富士康要做的，就是把这种最难造的服务器，变成欧洲本土能下线的产品",
+      "anchor": "## 「代工之王」这层皮，其实一直没变",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-and-more-in-the-pegatron-booth-at-gtc-2026/",
+      "type": "A",
+      "width": "300px"
+    }
+  ]
+}
