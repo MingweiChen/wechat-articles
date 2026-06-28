@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-28",
+  "total_selected": 5,
+  "source": "topic-discovery 2026-06-28 + 独立 review needs_swap 已解决（GI 并入 Mirendil；补 Baseten/推理层）",
+  "review_resolution": "topic-review.json batch_verdict=needs_swap：第5篇 General Intuition 与第4篇 Mirendil 共享 dot 且 thesis 同源 → 把 GI 收编为 Mirendil 的一个论据；空出名额补独立硬新闻：VC 资金从训练转向推理层（Baseten 15亿等），避开与第2篇微软定价权篇的 thesis 撞车（故未选 GLM-5.2）。",
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "英伟达「合法掏空」Groq：not-acqui-hire 绕反垄断",
+      "slug": "nvidia-legal-gut-groq-not-acquihire",
+      "category": "商业/反垄断",
+      "score": 80,
+      "review_score": 80,
+      "review_verdict": "keep",
+      "angle": "串点：Groq + Scale AI 同一套剧本",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "巨头发明了一套反垄断管不着的『合法掏空术』(not-acqui-hire)：不直接收购触发审查，而是付天价 license 费 + 挖走创始人和核心团队，把对手的大脑和 IP 搬空，留个空壳让它继续融资苟活——英伟达之于 Groq、Meta 之于 Scale AI，是同一套剧本的两个样本",
+        "dots": ["英伟达天价 license + 挖走 Groq 创始人/核心团队，Groq 反而又融 6.5 亿", "Meta 掏空 Scale AI 创始人团队的对照案例", "传统反垄断只盯『收购』，对『付费搬空大脑』束手无策"],
+        "axis": "跳出『又一笔大额融资/收购』，从『一种新的、反垄断够不着的竞争手段如何成型』切入",
+        "why_worth": "把两起看似独立的人才/IP 转移，识别成同一种制度套利模式，并指出监管真空"
+      },
+      "sources": [],
+      "data_points": ["Groq 6.5 亿融资", "not-acqui-hire", "Scale AI 对照"],
+      "compliance_hint": "无政治、无个股推荐；外国公司客观叙事可"
+    },
+    {
+      "rank": 2,
+      "topic": "微软把 DeepSeek 塞进 Copilot，打掉单一模型定价权",
+      "slug": "microsoft-deepseek-routing-pricing-power",
+      "category": "商业/AI",
+      "score": 76,
+      "review_score": 76,
+      "review_verdict": "keep",
+      "angle": "换轴：多模型路由的真正杀伤力是定价权",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "微软在玩一手『既要又要』：一边给 OpenAI(130亿)、Anthropic(50亿) 砸钱，一边把中国开源模型 DeepSeek V4 微调后塞进 Copilot Cowork 当低价引擎——多模型路由的真正杀伤力，是让任何单一模型（包括它自己投的）都失去定价权",
+        "dots": ["微软给 OpenAI/Anthropic 的巨额投资", "把 DeepSeek 微调塞进 Copilot 当低价引擎", "多模型路由 = 谁贵换谁，模型沦为可替换零件"],
+        "axis": "跳出『中国开源追上美国』的性能叙事，从『微软怎么用中国开源当筹码，把自己投的明星模型定价权一起打没』切入",
+        "why_worth": "揭示平台层用路由架构系统性消解模型层定价权这条草蛇灰线，区别于 06-26 DeepSeek 那篇（本篇写微软自残式定价博弈，非不平等条约）"
+      },
+      "sources": [],
+      "data_points": ["DeepSeek V4", "Copilot Cowork", "OpenAI 130亿/Anthropic 50亿"],
+      "compliance_hint": "中美隐晦包装：写『平台路由/开源压价』，不直接点中美对抗；无个股推荐"
+    },
+    {
+      "rank": 3,
+      "topic": "Agility 借壳上市，成人形机器人「估值温度计」",
+      "slug": "agility-ipo-humanoid-valuation-thermometer",
+      "category": "机器人/资本",
+      "score": 72,
+      "review_score": 72,
+      "review_verdict": "keep",
+      "angle": "换轴：第一个被迫交财报的人形公司",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Agility 上市的真正意义不是它多强，而是人形机器人赛道第一次有了『公开市场温度计』——一个只值 25 亿的公司，会用财报和股价给 Figure(390亿)、宇树、1X 这些天价独角兽重新定价，泡沫与否不再由私募一厢情愿说了算",
+        "dots": ["Agility 25 亿估值借壳上市", "Figure 等私募估值高达 390 亿", "公开市场强制披露 vs 私募一级市场自说自话"],
+        "axis": "跳出『机器人融了多少钱/技术多炫』，从『第一个被迫交财报的人形公司会戳破还是坐实整个赛道泡沫』切入",
+        "why_worth": "把一次普通借壳上市，重构成给整条赛道定价的标尺事件",
+        "_warn": "避免堆技术参数，主轴锁『公开市场温度计』"
+      },
+      "sources": [],
+      "data_points": ["Agility 25亿", "Figure 390亿", "借壳上市"],
+      "compliance_hint": "无个股推荐：不写代码、不写『可关注/受益标的』；只做赛道定价逻辑观察"
+    },
+    {
+      "rank": 4,
+      "topic": "a16z 2亿种子赌「让 AI 研究 AI」",
+      "slug": "a16z-seed-ai-researching-ai",
+      "category": "AI/资本",
+      "score": 70,
+      "review_score": 70,
+      "review_verdict": "keep",
+      "angle": "串点：Mirendil + David Silver + General Intuition 同一个赌注",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "2026 年中最贵的早期融资风向变了——钱不再投『更大的模型』，而是投『让 AI 自己做 AI 研究 / 自己产生数据』：Mirendil(2亿种子)、David Silver、General Intuition 三笔钱押的是同一个赌注，即把人类研究员和人类数据从 AI 进化链条里拿掉，这是通往超级智能最短也最危险的路",
+        "dots": ["Mirendil 没产品就拿 a16z 2 亿种子，做『AI 研究 AI』", "David Silver(强化学习)方向的下注", "General Intuition 3.2 亿用游戏录像造合成训练数据——作为『去人类数据』的一个旁证 dot，不展开成独立篇"],
+        "axis": "跳出『谁又融了大钱』，从『资本开始系统性为「自我迭代、去人类化的 AI」下注』切入",
+        "why_worth": "把三笔看似无关的早期投资，串成『把人类移出 AI 进化链』这一条隐线，并点出其风险",
+        "_note": "GI 仅作旁证 dot，不展开（原第5篇已并入此篇）"
+      },
+      "sources": [],
+      "data_points": ["Mirendil 2亿种子", "General Intuition 3.2亿", "a16z"],
+      "compliance_hint": "无政治、无个股推荐；AI 安全风险可点到为止，不渲染末日"
+    },
+    {
+      "rank": 5,
+      "topic": "VC 的钱从「训练」转向「推理层」",
+      "slug": "vc-capital-shift-training-to-inference",
+      "category": "AI/资本",
+      "score": 68,
+      "review_score": 68,
+      "review_verdict": "swap-in",
+      "angle": "换轴：训练见顶，掘金点转移到『让模型便宜跑起来』",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "VC 的钱正从『训练』转向『推理基础设施』——Baseten 一周融 15 亿估 130 亿、Groq 6.5 亿、Upscale 1.9 亿，资本不再砸『把模型训得更大』，而是砸『让模型便宜、快地跑起来』：这意味着行业共识从『谁的模型更强』悄悄变成了『谁能把推理成本打到地板』",
+        "dots": ["Baseten 一周融 15 亿，估值 130 亿", "Groq 6.5 亿、Upscale 1.9 亿同期涌入推理层", "训练侧边际收益见顶 → 价值链下移到推理/部署"],
+        "axis": "跳出『又一家 AI 公司融了大钱』，从『一周内多笔钱同时砸向推理层，标志 AI 掘金点从训练转移』切入",
+        "why_worth": "把同一周几笔分散融资，读成一个资本风向的拐点信号；与第2篇定价权篇区分（本篇讲资金流向，非平台路由博弈）"
+      },
+      "sources": [],
+      "data_points": ["Baseten 15亿/估130亿", "Groq 6.5亿", "Upscale 1.9亿"],
+      "compliance_hint": "无个股推荐：不写上市公司代码、不写受益标的；只做资本流向观察"
+    }
+  ]
+}

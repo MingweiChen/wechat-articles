@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-28",
+  "dedup_basis": [
+    "06-27: GPT-5.6军火管制/政府逐客户审批; AI烧钱效率墙CFO喊停; 贝佐斯造通用工程师; NYT撤OpenAI指控转炮口微软; 富士康人形物理AI全栈",
+    "06-26: OpenAI自造芯片辣椒; DeepSeek74亿不平等条约; 高通39亿买Modular/Chris Lattner; AI律所Garfield打赢官司; 急诊智能体MIRA",
+    "06-25: Claude进Slack当同事; 大晓Kairos世界模型登顶; Transformer八作者Shazeer回OpenAI; 489亿机器人融资无普通人; 豆包2.1Pro干18小时做芯片",
+    "06-24: 中国超算灵晟登顶TOP500; 企业先选Claude/Anthropic反超; 扎克伯格押Facebook当搜索入口; 司法部救马斯克Grok; Oracle裁2.1万AI写进SEC",
+    "06-23: 谷歌科学家出走蒸发2500亿; 中国开源模型让硅谷CEO改口; AI教父开炮xAI失败/泡沫; 微软CEO不能让AI巨头吃掉经济; GitHub热榜变天",
+    "06-22: 核聚变电荒; Alphabet 800亿新股泡沫信号; 四模型编辑器肉搏微软自研进Copilot; 马斯克单挑英伟达造芯片; GitHub驯化AI立规矩",
+    "06-21: 苹果Siri外包Gemini; AI推翻Erdos猜想; 65行txt登顶GitHub规则层; OpenAI关Sora单位经济学; 巨头喊AI失控求踩刹车"
+  ],
+  "candidates": [
+    {
+      "topic": "全球第一个'纯人形机器人'要上市了：Agility顶着25亿估值借壳，成了给Figure们(390亿)估值的那把尺子",
+      "category": "商业",
+      "score": 86,
+      "sources": ["https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/", "https://www.techtimes.com/articles/319099/20260625/humanoid-robot-ipo-agility-robotics-signs-spac-deal-us-nasdaq-debut.htm"],
+      "hook": "估值只有Figure 1/15的公司先上市，反而成了整个赛道的'体温计'",
+      "dedup": "低：06-25写机器人融资额、06-27写富士康物理AI全栈，均无'公开市场定价锚'这一角度",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Agility上市的真正意义不是它多强，而是人形机器人赛道第一次有了'公开市场温度计'——一个只值25亿的公司，会用财报和股价给Figure(390亿)、宇树、1X这些天价独角兽重新定价，泡沫与否不再由私募一厢情愿说了算",
+        "dots": ["Agility 25亿借壳Churchill XI上市代码AGLT", "Digit已在丰田/GXO跑了6.5万小时真实工时", "Figure私募估值390亿是Agility的15倍但没公开数据", "Nvidia刚把Agility选为首个安全架构合作伙伴"],
+        "axis": "大家都写'机器人融了多少钱/技术多炫'，本篇写'第一个被迫交财报的人形公司会把整个赛道的估值泡沫戳破还是坐实'",
+        "counter_intuitive": "表面看Agility是赛道里最不值钱的玩家，实际它成了给最贵玩家定价的人",
+        "why_worth": "读者读完明白：以后看人形机器人估值，盯AGLT这只票就行——它是行业第一个客观标尺"
+      },
+      "urgency": "high"
+    },
+    {
+      "topic": "被英伟达'掏空'创始人和专利后，Groq反而又融了6.5亿：硅谷发明了一种反垄断管不着的'合法掏空术'",
+      "category": "商业",
+      "score": 85,
+      "sources": ["https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/", "https://siliconangle.com/2026/06/22/inference-chip-startup-groq-raises-650m-grow-cloud-platform/"],
+      "hook": "付钱买走你的大脑和专利，留个壳让你继续活——这种'不算收购的收购'正在成标准操作",
+      "dedup": "低：本周无收购套路/反垄断绕道这一角度",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "巨头们发明了一套'合法掏空术'(not-acqui-hire)：不直接收购(触发反垄断)，而是付天价license费+挖走创始人和核心团队，把对手的大脑和IP搬空，留个空壳让它继续融资苟活——Groq和Scale AI是同一套剧本的两个样本",
+        "dots": ["英伟达200亿license走Groq的LPU技术+挖走创始人Ross", "被掏空后Groq反而融6.5亿、转型neocloud", "Meta 143亿'not-acqui-hire' Scale AI后者营收反弹到10亿", "这种结构刻意绕开正式收购的反垄断审查"],
+        "axis": "",
+        "counter_intuitive": "表面看被掏空的公司是输家，实际投资人赚翻、公司还能再融资——真正被规避的是反垄断监管",
+        "why_worth": "读者读完看懂2026年硅谷最流行的资本游戏：怎么合法买走一家公司的灵魂还不算收购"
+      },
+      "urgency": "high"
+    },
+    {
+      "topic": "最贵的种子轮在赌'让AI去研究AI'：a16z给一个没产品的公司砸2亿，资本开始为'自我迭代的AI'下注",
+      "category": "技术",
+      "score": 84,
+      "sources": ["https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/", "https://www.forbes.com/sites/jodiecook/2026/05/22/anthropic-and-microsoft-just-put-200-million-into-ai-for-good-whats-new-in-ai/"],
+      "hook": "三笔大钱押的是同一件事：让AI摆脱人类研究员、自己迭代自己",
+      "dedup": "低：本周无'自我迭代AI/递归自我改进'融资主题",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "2026年中最贵的早期融资风向变了——钱不再投'更大的模型'，而是投'让AI自己做AI研究/自己产生数据'：Mirendil、David Silver、General Intuition三笔钱押的是同一个赌注，即把人类研究员和人类数据从AI进化链条里拿掉，这是通往超级智能最短也最危险的路",
+        "dots": ["Mirendil 2亿种子轮(a16z+Kleiner+Nvidia)专做'擅长AI研发的AI'", "DeepMind老将Silver 11亿造'不靠人类数据自学'的AI", "General Intuition 3.2亿用游戏录像训通用智能(Bezos参投)", "共同点:都在削减'人类'在AI迭代里的角色"],
+        "axis": "",
+        "counter_intuitive": "表面是又一波AI融资热，实际是人类在掏钱给'替代人类研究员'这件事加速",
+        "why_worth": "读者读完抓住一个拐点信号:资本已从'造工具'转向'造能造工具的AI',递归自我改进从论文走进了募资PPT"
+      },
+      "urgency": "high"
+    },
+    {
+      "topic": "最大金主反手给亲儿子找平替：投了130亿的微软，把中国开源模型DeepSeek塞进自家Copilot来压OpenAI的价",
+      "category": "商业",
+      "score": 85,
+      "sources": ["https://siliconangle.com/2026/06/16/chinas-deepseek-reportedly-raises-7-4b-funding-50b-valuation/", "https://www.techtimes.com/articles/318725/20260619/deepseek-v4-architecture-how-sparse-attention-cuts-inference-costs-what-nist-found.htm", "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"],
+      "hook": "一边给OpenAI/Anthropic砸几百亿，一边用DeepSeek给它们的账单'砍一刀'",
+      "dedup": "中：06-22写过微软自研模型进Copilot；本篇换成'微软用中国开源模型压自己投的OpenAI'这一背刺/定价权角度",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "微软在玩一手'既要又要':一边给OpenAI(130亿)、Anthropic(50亿)砸钱，一边把中国开源模型DeepSeek V4微调后塞进Copilot Cowork当低价引擎——多模型路由的真正杀伤力是让任何单一模型(包括它自己投的)都失去定价权",
+        "dots": ["微软Copilot Cowork评估用DeepSeek V4做低价引擎", "微软给OpenAI 130亿+Anthropic 50亿", "DeepSeek V4稀疏注意力把长上下文推理成本砍到极低", "CNBC:95%企业还在用前沿模型跑简单任务,model routing成省钱新解"],
+        "axis": "大家都写'中国开源追上美国',本篇写'微软怎么用中国开源当筹码,把自己投的明星模型的定价权也一起打没'",
+        "counter_intuitive": "表面看微软是OpenAI最铁的盟友,实际它正亲手给OpenAI培养价格杀手",
+        "why_worth": "读者读完看懂巨头的真实算盘:投资不等于忠诚,多模型时代谁都别想躺着收溢价"
+      },
+      "urgency": "high"
+    },
+    {
+      "topic": "Bezos押了3.2亿的公司不靠现实数据：它让AI看游戏录像学'空间智能'，可能是机器人最缺的那块拼图",
+      "category": "技术",
+      "score": 82,
+      "sources": ["https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"],
+      "hook": "别人抢真实世界数据，这家反其道用游戏视频造'世界模型',估值23亿",
+      "dedup": "低：06-25大晓Kairos是中国世界模型benchmark,本篇是'游戏数据训练范式+Bezos'完全不同角度",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "当所有人都在抢稀缺的真实世界数据(驾驶/机器人工时)来训空间智能时,General Intuition反向押注:游戏录像才是无限、带因果、可控的物理交互数据金矿——下一代'世界模型'的训练场可能不是现实而是游戏",
+        "dots": ["General Intuition 3.2亿A轮估值23亿,Bezos+Khosla参投", "模型基于gameplay录像造通用空间推理能力", "对比机器人公司高价抢真实工时数据(Agility 6.5万小时)", "游戏数据天然提供无限可重复的物理交互"],
+        "axis": "大家都写'机器人/驾驶抢真实数据',本篇写'有人发现游戏录像才是空间智能最便宜的训练场'",
+        "counter_intuitive": "表面看游戏数据是'假的'比不上现实,实际它的可控性和规模反而是现实数据给不了的",
+        "why_worth": "读者读完get一个反直觉的技术押注:训练物理AI不一定要去现实里采数据,虚拟世界可能更高效"
+      },
+      "urgency": "medium"
+    },
+    {
+      "topic": "[swap候选] GLM-5.2炸场:中国开源第一次直接给美国闭源'标价',Coding Plan只要Claude的1/10",
+      "category": "开源",
+      "score": 78,
+      "sources": ["https://americanbazaaronline.com/2026/06/22/deepseek-2-0-new-chinese-ai-model-glm-5-2-generates-buzz-483257/"],
+      "hook": "开源真正的杀伤力不是免费,是把闭源的定价权打没了",
+      "dedup": "中高:06-23已写'中国开源模型让硅谷CEO改口',重复度偏高,仅作swap备选",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "GLM-5.2的意义不是'又一个追平的中国模型',而是它用1/10的价格当daily driver,第一次把美国闭源模型的'溢价'逼到需要解释",
+        "dots": ["Vercel CEO/Meta前VP称GLM-5.2可当daily driver", "GLM Coding Plan定价=Claude Code的1/10", "MIT开源", "Zhipu股价大涨"],
+        "axis": "不写性能追平,写'开源把闭源的定价权打没了'",
+        "why_worth": "AI价格锚从硅谷转向中国"
+      },
+      "urgency": "medium"
+    },
+    {
+      "topic": "[swap候选] 训练军备赛见顶,钱涌向'推理层':Baseten一周融15亿估130亿,AI掘金点正在转移",
+      "category": "商业",
+      "score": 77,
+      "sources": ["https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"],
+      "hook": "训得更大不再是钱的方向,'跑得更便宜'才是",
+      "dedup": "中:与06-27效率墙有成本主题重叠,仅作swap备选",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "VC的钱正从'训练'转向'推理基础设施'——Baseten 15亿、Groq 6.5亿、Upscale 1.9亿,一周砸向'让模型便宜跑起来'的公司",
+        "dots": ["Baseten 15亿F轮估130亿", "Groq 6.5亿转neocloud", "Upscale AI 1.9亿AI网络", "企业要的是ROI不是更大模型"],
+        "axis": "训练见顶,推理掘金",
+        "why_worth": "看懂2026下半年AI基础设施投资主线转移"
+      },
+      "urgency": "medium"
+    }
+  ]
+}

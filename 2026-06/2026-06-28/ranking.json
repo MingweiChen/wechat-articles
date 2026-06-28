@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-28",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 85,
+      "title": "一周之内三笔大钱砸向同一个地方，而那里不是训练！",
+      "slug": "vc-capital-shift-training-to-inference",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-28/html/01-vc-capital-shift-training-to-inference-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-28/html/01-vc-capital-shift-training-to-inference-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 84,
+      "title": "微软给两家明星模型砸180亿，转头把开源货塞进自家产品当引擎！",
+      "slug": "microsoft-deepseek-routing-pricing-power",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-28/html/02-microsoft-deepseek-routing-pricing-power-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-28/html/02-microsoft-deepseek-routing-pricing-power-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 84,
+      "title": "最贵的种子轮开始赌一件可怕的事：让AI把人类研究员开掉！",
+      "slug": "a16z-seed-ai-researching-ai",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-28/html/03-a16z-seed-ai-researching-ai-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-28/html/03-a16z-seed-ai-researching-ai-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 8,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 82,
+      "title": "创始人被挖走、IP被买断，Groq转头又融6.5亿美元！",
+      "slug": "nvidia-legal-gut-groq-not-acquihire",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-28/html/04-nvidia-legal-gut-groq-not-acquihire-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-28/html/04-nvidia-legal-gut-groq-not-acquihire-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 7,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 82,
+      "title": "25亿的机器人公司要上市，作用是给390亿的同行量体温！",
+      "slug": "agility-ipo-humanoid-valuation-thermometer",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-28/html/05-agility-ipo-humanoid-valuation-thermometer-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-28/html/05-agility-ipo-humanoid-valuation-thermometer-wechat.html",
+      "dimensions": {
+        "hook": 8,
+        "punch": 8,
+        "density": 7,
+        "structure": 8,
+        "compliance": 9,
+        "aigc": 9
+      },
+      "iterations": 1
+    }
+  ]
+}

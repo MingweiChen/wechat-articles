@@ -1,0 +1,52 @@
+{
+  "slug": "microsoft-deepseek-routing-pricing-power",
+  "date": "2026-06-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/microsoft-deepseek-routing-pricing-power",
+  "images": [
+    {
+      "seq": "03",
+      "file": "03-nadella.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/microsoft-deepseek-routing-pricing-power/03-nadella.jpg",
+      "caption": "微软 CEO 萨提亚·纳德拉——一边给两家明星模型砸下百亿，一边推动把模型「商品化」",
+      "anchor": "## 先看清楚微软到底在两头下什么注",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Satya_Nadella.jpg",
+      "width": "300px"
+    },
+    {
+      "seq": "04",
+      "file": "04-deepseek-logo.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/microsoft-deepseek-routing-pricing-power/04-deepseek-logo.jpg",
+      "caption": "被塞进 Copilot 当低价引擎的，是这款中国开源模型 DeepSeek——微调后顶上一线模型的活",
+      "anchor": "## 为什么开源货是这把刀最锋利的那一面",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/Category:DeepSeek_logos",
+      "width": "240px"
+    },
+    {
+      "seq": "01",
+      "file": "01-multimodel-routing.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/microsoft-deepseek-routing-pricing-power/01-multimodel-routing.png",
+      "caption": "多模型路由架构：每次请求都是一场实时竞价，模型降格成可随时替换的零件",
+      "anchor": "## 多模型路由，名字平平无奇，杀伤力在底层",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "",
+      "width": "380px"
+    },
+    {
+      "seq": "02",
+      "file": "02-pricing-power.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/microsoft-deepseek-routing-pricing-power/02-pricing-power.png",
+      "caption": "同样的活价格差几十倍——开源标尺把闭源模型的报价天花板结结实实摁了下来",
+      "anchor": "## 谁的护城河被悄悄抽水",
+      "position": "after_heading",
+      "source": "generated",
+      "source_url": "",
+      "width": "380px"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "nvidia-legal-gut-groq-not-acquihire",
+  "date": "2026-06-28",
+  "count": 5,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire",
+  "images": [
+    {
+      "seq": "04",
+      "file": "04-jonathan-ross.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire/04-jonathan-ross.jpg",
+      "caption": "Groq 创始人 Jonathan Ross——前谷歌 TPU 设计者，2025 年底随英伟达交易离开 Groq（图：世界经济论坛 2025）",
+      "anchor": "## 一、传统的吞并，会触发警报",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jonathan_Ross_at_World_Economic_Forum_Annual_Meeting_2025.png",
+      "width": "300px"
+    },
+    {
+      "seq": "01",
+      "file": "01-jensen-huang.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire/01-jensen-huang.jpg",
+      "caption": "英伟达创始人兼 CEO 黄仁勋——这单对 Groq 的「合法掏空」由英伟达操盘（图：Wikimedia Commons, 2024）",
+      "anchor": "## 二、Groq这一单，拆开看是三步",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_(cropped)_(2024).jpg",
+      "width": "300px"
+    },
+    {
+      "seq": "02",
+      "file": "02-legal-gut-flow.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire/02-legal-gut-flow.png",
+      "caption": "「合法掏空」三步走：每一步单独看都合法，加在一起把人和技术全搬空，只留一个空壳",
+      "anchor": "## 二、Groq这一单，拆开看是三步",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "400px"
+    },
+    {
+      "seq": "03",
+      "file": "03-alexandr-wang.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire/03-alexandr-wang.jpg",
+      "caption": "Scale AI 创始人 Alexandr Wang——被 Meta「请」进麾下任首席 AI 官，同一套剧本的另一个样本（图：Meta 官方）",
+      "anchor": "## 三、这不是孤例：同一个剧本，Meta也演过",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alexandr_Wang,_Chief_A.I._Officer,_Meta.jpg",
+      "width": "300px"
+    },
+    {
+      "seq": "05",
+      "file": "05-two-giants-compare.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/nvidia-legal-gut-groq-not-acquihire/05-two-giants-compare.png",
+      "caption": "同一个剧本的两个巨头：英伟达之于 Groq、Meta 之于 Scale AI——不同赛道，同构的「非收购式收编」",
+      "anchor": "## 四、为什么监管对它几乎无能为力",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "400px"
+    }
+  ]
+}

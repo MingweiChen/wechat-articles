@@ -1,0 +1,70 @@
+{
+  "date": "2026-06-28",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "needs_swap",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "英伟达合法掏空Groq(not-acqui-hire)",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 80.0,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": ["主轴锁'合法掏空术'绕反垄断,把Meta掏Scale做对照案例强化模式感"]
+    },
+    {
+      "rank": 2,
+      "topic": "微软多模型路由用DeepSeek打掉定价权",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 7,
+      "score": 76.0,
+      "verdict": "keep",
+      "issues": ["DeepSeek 06-26已出现一次,需明确区隔(本篇写微软Copilot塞中国引擎,非不平等条约)"],
+      "suggestions": ["标题突出'微软用中国开源打自己投的OpenAI'反转点"]
+    },
+    {
+      "rank": 3,
+      "topic": "Agility人形借壳上市25亿成定价标尺",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 72.5,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": ["写成'公开市场温度计'对Figure 390亿重新定价,避免堆技术参数"]
+    },
+    {
+      "rank": 4,
+      "topic": "Mirendil 2亿种子赌让AI研究AI",
+      "virality": 7,
+      "dedup": 6,
+      "originality": 8,
+      "title_pool": 7,
+      "score": 70.0,
+      "verdict": "keep",
+      "issues": ["与第5篇共享General Intuition这个dot,需把GI仅作为旁证不展开"],
+      "suggestions": ["作为'资本为自我迭代AI下注'主篇,吸收第5篇的GI论据收编为一个dot"]
+    },
+    {
+      "rank": 5,
+      "topic": "General Intuition 3.2亿游戏录像训空间智能",
+      "virality": 6,
+      "dedup": 5,
+      "originality": 6,
+      "title_pool": 6,
+      "score": 57.5,
+      "verdict": "swap",
+      "issues": ["本批内部重复:本篇即第3篇dots之一的展开,thesis与第3篇'削减人类角色'高度同源", "单独成篇增量不足,Bezos押注角度已在第3篇覆盖"],
+      "suggestions": ["并入第3篇作为一个dot,腾出名额换新选题"]
+    }
+  ],
+  "swap_candidates": [
+    "第5篇并入第3篇,空出的1个名额建议补一条独立硬新闻(如英伟达/OpenAI/谷歌当周新动作),避免本批资本叙事过度集中(3篇都讲a16z/Bezos押注AI迭代)"
+  ]
+}

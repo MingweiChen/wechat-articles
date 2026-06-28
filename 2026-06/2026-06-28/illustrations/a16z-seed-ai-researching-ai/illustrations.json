@@ -1,0 +1,52 @@
+{
+  "slug": "a16z-seed-ai-researching-ai",
+  "date": "2026-06-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/a16z-seed-ai-researching-ai",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-marc-andreessen.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/a16z-seed-ai-researching-ai/01-marc-andreessen.jpg",
+      "caption": "a16z 创始人 Marc Andreessen——这家公司领投了 Mirendil 2 亿美元种子轮",
+      "anchor": "## 钱不再投「更大的模型」，开始投「不需要人的模型」",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marc_Andreessen-9_(cropped).jpg",
+      "width": "240px"
+    },
+    {
+      "seq": "02",
+      "file": "02-seed-leap.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/a16z-seed-ai-researching-ai/02-seed-leap.jpg",
+      "caption": "没产品、没收入、成立不到半年，种子轮估值直接拉到 10 亿、51 亿——和普通早期项目完全不在一个量级",
+      "anchor": "## 钱不再投「更大的模型」，开始投「不需要人的模型」",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "300px"
+    },
+    {
+      "seq": "03",
+      "file": "03-human-out-of-chain.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/a16z-seed-ai-researching-ai/03-human-out-of-chain.png",
+      "caption": "传统范式（人类研究员→数据→AI）vs 新范式（AI 自产数据、自做研究的自迭代闭环），人被请出链条",
+      "anchor": "## 这条链条上，人原本卡在哪两个位置",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "400px"
+    },
+    {
+      "seq": "04",
+      "file": "04-three-funding-rounds.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/a16z-seed-ai-researching-ai/04-three-funding-rounds.png",
+      "caption": "三笔最贵早期融资对照：Mirendil 拆「研究员」、Silver 与 General Intuition 拆「数据」",
+      "anchor": "## 为什么这是「最短」的路，也是「最危险」的路",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "400px"
+    }
+  ]
+}

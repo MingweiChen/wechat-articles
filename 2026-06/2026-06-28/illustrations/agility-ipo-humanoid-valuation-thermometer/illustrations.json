@@ -1,0 +1,52 @@
+{
+  "slug": "agility-ipo-humanoid-valuation-thermometer",
+  "date": "2026-06-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/agility-ipo-humanoid-valuation-thermometer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-digit-product.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/agility-ipo-humanoid-valuation-thermometer/01-digit-product.jpg",
+      "caption": "Agility Robotics 的人形机器人 Digit——这次借壳上市、估值25亿美元的主角",
+      "anchor": "## 过去这个赛道的价格，是一场没有裁判的喊价",
+      "position": "before_heading",
+      "source": "search",
+      "source_url": "https://robotsguide.com/robots/digit/",
+      "width": "320px"
+    },
+    {
+      "seq": "02",
+      "file": "02-digit-warehouse.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/agility-ipo-humanoid-valuation-thermometer/02-digit-warehouse.jpg",
+      "caption": "Digit 在仓库搬运料箱——它是目前少数真正“上岗领工资”的人形机器人，账本相对拿得出手",
+      "anchor": "## 为什么是现在，为什么是它",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://interestingengineering.com/photo-story/agility-robotics-digit-humanoid-robot",
+      "width": "360px"
+    },
+    {
+      "seq": "03",
+      "file": "03-valuation-compare.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/agility-ipo-humanoid-valuation-thermometer/03-valuation-compare.png",
+      "caption": "人形机器人估值对比（示意量级）：Agility 25亿，Figure 390亿，差出整整15倍",
+      "anchor": "## 25亿这支「温度计」，怎么去量390亿的体温",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "360px"
+    },
+    {
+      "seq": "04",
+      "file": "04-market-compare.png",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/agility-ipo-humanoid-valuation-thermometer/04-market-compare.png",
+      "caption": "公开市场 vs 私募定价：从“一句承诺”到“一个可被证伪的报价”",
+      "anchor": "## 一旦交财报，故事就要开始对账",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "380px"
+    }
+  ]
+}

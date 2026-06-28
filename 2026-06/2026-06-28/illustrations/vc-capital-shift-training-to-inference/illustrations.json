@@ -1,0 +1,52 @@
+{
+  "slug": "vc-capital-shift-training-to-inference",
+  "date": "2026-06-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/vc-capital-shift-training-to-inference",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-funding-bar.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/vc-capital-shift-training-to-inference/01-funding-bar.jpg",
+      "caption": "一周之内，三笔大钱排着队砸向推理层（单位：亿美元）",
+      "anchor": "## 先看清这三笔钱各自买的是什么",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "380px"
+    },
+    {
+      "seq": "02",
+      "file": "02-valuechain.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/vc-capital-shift-training-to-inference/02-valuechain.jpg",
+      "caption": "AI 价值重心，正从「造模型」整体下移到「用模型」",
+      "anchor": "## 训练这头，故事正在讲不动",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "390px"
+    },
+    {
+      "seq": "03",
+      "file": "03-nvidia-overlap.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/vc-capital-shift-training-to-inference/03-nvidia-overlap.jpg",
+      "caption": "把三家公司的股东翻一遍，会撞见同一个身影——英伟达：Baseten 的投资方、Upscale 的新进股东，而 Groq 是被它一纸天价授权搬走芯片 IP 和团队后才掉头重做推理云的",
+      "anchor": "## 一个被忽略的细节：同一个名字，出现在三张投资人名单上",
+      "position": "after_heading",
+      "source": "matplotlib",
+      "source_url": "",
+      "width": "390px"
+    },
+    {
+      "seq": "04",
+      "file": "04-inference-chip.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-28/illustrations/vc-capital-shift-training-to-inference/04-inference-chip.jpg",
+      "caption": "把模型便宜地跑起来，靠的是这一类 AI 加速芯片（图：Google TPU / Wikimedia Commons）",
+      "anchor": "## 这股风向，普通从业者怎么读",
+      "position": "after_heading",
+      "source": "search",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tensor_Processing_Unit_3.0.jpg",
+      "width": "360px"
+    }
+  ]
+}
