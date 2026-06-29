@@ -1,0 +1,100 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">科 技 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">教AI少写代码的仓库9天数万星：<br>会拒绝比会写更值钱</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">所有人都在卷「让AI写得更多」，今年榜单第一名却教AI学会闭嘴——最缺的不是会写代码的AI，是会拒绝写代码的AI。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">一个仓库，九天冲上数万星，登顶 GitHub。它没造出更强的模型，没发明新框架，干的事只有一件：教 AI 别写那么多代码。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这听起来像段子。过去两年所有人都在卷“让 AI 写得更多、更快、更全”，结果今年榜单第一名教 AI 学会闭嘴。它叫 ponytail，名字来自每个公司都有的那个老兵：扎马尾、戴圆眼镜，工龄比版本管理系统还长。你给他看五十行代码，他一句话不说，删到只剩一行。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">爆点不在它多巧，在它戳破了一件大家假装没看见的事：现在最缺的不是会写代码的 AI，是会拒绝写代码的 AI。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一个 input 标签干掉四百行</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-lazy-coder-github/01-github-card.jpg" style="width:320px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">项目一周登顶 GitHub Trending</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">先看那个让所有人秒懂的例子。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">你让 AI 加一个日期选择器。它的标准操作：装一个 flatpickr 库，包一层组件，配一套样式，再顺手讨论一下时区，四百多行下去，齐活。装 ponytail 之后，它给你一行：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;"><code style="background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:14px;"><input type=“date”></code></blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">浏览器十几年前就内置了这玩意。<strong style="color:#e74c3c;">404 行变 23 行</strong>，颜色选择器从 287 行压到 23 行。AI 不是不会偷懒，是没人教它该偷懒。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">它的训练数据里全是“完整方案”，奖励机制偏爱长输出，所以一接到活就本能地装库、搭抽象、写配置、给没人要的代码补文档。看起来很勤快，实际是把简单事做复杂。ponytail 的办法很土：开局往上下文里塞一段“懒老兵”守则，逼它动手前先爬一道梯子。</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">梯子台阶</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">老兵的反应</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">这功能到底要不要</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">不要就跳过（YAGNI）</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">代码库里有没有现成的</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">有就复用，别重写</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">标准库能不能干</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">能就用</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">系统/浏览器原生支持吗</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">支持就用</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">已装的依赖解决得了吗</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">行就别再装</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">一行能写完吗</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">那就一行</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">实在不行</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">才写够用的最少代码</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">七级台阶，前六级都在劝你别写。爬不过去才准动键盘。一句话概括它的哲学：<strong style="color:#e74c3c;">对方案可以懒，对读代码绝不能懒。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">“少写”凭什么比“多写”值钱</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-lazy-coder-github/02-loc.jpg" style="width:320px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">核心思路：能不写的代码就不写</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这才是榜单变天的真正信号。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把它放进真实项目跑——FastAPI 加 React 的成熟模板，12 个任务——代码量降 54%，token 省 22%，成本降 20%，耗时降 27%，四项全降，安全测试零失分。在那种本来就该堆库的活上，省得最狠；后端那种已经很精简的增删改查，几乎没差。它不是无脑砍，是把刀架在过度设计上。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">省的这些，恰恰是过去两年大家拼命堆出来的负债。AI 一天能写一万行没用，写得越多，审查越累、bug 越多、账单越贵。你为它的“勤快”付了三遍钱：<strong style="color:#e74c3c;">生成时算力一遍、上线后维护一遍、出事了删掉重来一遍</strong>。一个本该一行解决的日期框，背后是一个库的供应链风险、一套自定义组件的长期维护、外加一份没人会看的文档，这些成本都摊在三年后那个接手的人头上。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">真正贵的从来不是写代码，是判断什么不该写。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这条线串起来就清楚了：算力在涨价，agent 越来越能跑，代码生成快到没人审得过来——堵点早就不在“能不能写出来”，全在“该不该让它写”。能力过剩的时候，判断力反而成了稀缺品。ponytail 火，不是因为它技术多深，是它替所有人喊出了那句憋很久的话：刹车，比油门金贵。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这也是为什么它能在 Claude Code、Codex、Cursor、Copilot 十几个工具上通用：它压根不挑模型，挑的是脑子。同一套守则塞进哪个 agent，逻辑都一样：先问该不该写，再问能不能省。<strong style="color:#e74c3c;">它卖的不是能力，是克制。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一个为“极简”准备的巨型仓库</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-lazy-coder-github/03-metrics.jpg" style="width:320px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">一周涨 2 万星的增长曲线</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">最妙的反转在这儿，得说说，不然就成软广了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">核心守则一共约一百行 Markdown，剩下全是给十几种 AI 工具做适配的脚手架。Hacker News 上有人毒舌：<strong style="color:#e74c3c;">这是新的 leftpad 吗</strong>——为一段提示词搞这么大个仓库，本身就够讽刺。更扎心的是有人实测，只甩七个词“遵循 YAGNI、优先一行解决”，分数几乎追平。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这话听着泄气，其实是另一半的真相：道理人人都懂，难在每次都执行。老兵的本事从不是知道该删，是看一眼就敢删、删完不出事。把这份“敢”固化成开局自动加载的规则，让 AI 每次都过一遍——这才是它真正的价值，也是七个词替代不了的地方。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">差距就在安全上。那个七词版图省事砍掉了一道路径校验，ponytail 死死守住“信任边界的输入校验绝不简化”。<strong style="color:#e74c3c;">会偷懒和敢乱删，是两回事。</strong> 懒得对，是手艺；懒错了，是事故。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">该删的不只是代码</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">往下推一步，越想越冷。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果一个开源 skill 一周登顶，只因为它教 AI 少干活，那真正稀缺的早不是“能写”，是“会拒绝”。模型再强，也得有人告诉它哪行别写、哪个库别装、哪个需求该当场怼回去。这恰恰是 AI 最不擅长、人最该补位的地方。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">往前两年大家追更猛的引擎，现在风向掉头去追装刹车的本事——这不是退步。当写代码白菜价，删代码就成了硬通货；少写一行没用的，比多写十行炫技的金贵。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更进一步说，会偷懒是分门槛的。它在前沿模型上效果显著，换成本地跑的小模型，结果就成了噪声——原因很实在：<strong style="color:#e74c3c;">听不懂“克制”的模型，给它装刹车也踩不准</strong>。判断力这东西，越聪明的脑子才接得住。这反过来又印证了那句话：值钱的不是写，是知道什么时候不写。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">那个扎马尾的老兵，本事从来不在指尖飞快，在他知道什么不必做。代码白菜价的时代，删的勇气才是手艺。这一回，我们终于开始教机器这件事，只是别忘了，按刹车的那只手，最好还是人的。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得「会删」比「会写」更稀缺吗？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

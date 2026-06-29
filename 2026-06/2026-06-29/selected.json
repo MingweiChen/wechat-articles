@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-29",
+  "dedup_basis": [
+    "OpenAI vs Anthropic估值/反超(6-24/6-27)",
+    "GPT-5.6军火管制(6-27)",
+    "效率墙CFO喊停(6-27)",
+    "贝佐斯当CEO(6-27)",
+    "OpenAI造芯/DeepSeek融资(6-26)",
+    "高通买Modular/Lattner(6-26)",
+    "VC转推理层(6-28)",
+    "英伟达掏空Groq(6-28)",
+    "谷歌科学家出走(6-22/6-23)",
+    "GitHub驯化AI(6-22)"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI 把万亿IPO推到2027：增长最猛的公司反而最不敢上市",
+      "category": "商业",
+      "score": 85,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/openai-eyes-2027-ipo-delay-041209949.html",
+        "https://www.cnbc.com/2026/06/26"
+      ],
+      "hook": "估值1万亿、收入冲25亿美元，OpenAI却临阵把上市推迟两年",
+      "angle": "推迟上市背后是泡沫见顶的自保",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "OpenAI推迟IPO不是没准备好，是怕在泡沫见顶时定不出1万亿；越拖越被亚马逊350亿对赌、卖广告凑数押着走",
+        "dots": [
+          "SpaceX IPO遇冷+科技股转软",
+          "亚马逊350亿要等IPO/AGI才解锁",
+          "ChatGPT广告已破1亿年化、奔100亿",
+          "Anthropic估值反超抢着先上"
+        ],
+        "axis": "大家都写谁估值高，本篇写谁先怂",
+        "why_worth": "把'推迟'读成对赌时钟和泡沫信号"
+      },
+      "dedup": "低-反超是旧事，推迟2027是6-28新动作",
+      "review_score": 84,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 2,
+      "topic": "教AI当'最懒资深程序员'：一个仓库一周涨2万星登顶GitHub",
+      "category": "开源",
+      "score": 82,
+      "sources": [
+        "https://findarepo.com/categories/ai-agents/"
+      ],
+      "hook": "最好的代码是你永远不写的代码——这句话让它一周冲到热榜第一",
+      "angle": "热榜从造能力转向教AI少干活",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI编码的下一个共识不是更能写，是更会拒绝写；ponytail爆红说明开发者最缺的是给AI装刹车",
+        "axis": "大家都追更强的agent，本篇追教AI偷懒的skill",
+        "why_worth": "解释为什么'少写'比'多写'更值钱"
+      },
+      "dedup": "中-6-22写过驯化AI，本篇换具体爆款+反内卷角度",
+      "review_score": 78,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 3,
+      "topic": "AI第二战场开打：诺奖得主带AlphaFold投奔，Anthropic要让AI做科学",
+      "category": "人物",
+      "score": 80,
+      "sources": [
+        "https://www.searchenginejournal.com/google-loses-two-top-ai-researchers-to-openai-anthropic/580201/"
+      ],
+      "hook": "6月30日Anthropic办科学发布会，谷歌诺奖得主刚到岗",
+      "angle": "竞争从写代码转向做科学",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "顶级实验室抢人焦点从'会写代码'换成'会出成果'，AI的下一个GDP在实验室不在编辑器",
+        "dots": [
+          "Jumper带AlphaFold投Anthropic",
+          "6-30科学专场",
+          "Gates基金2亿砸AI做疫苗"
+        ],
+        "axis": "大家写人才战，本篇写战场迁移",
+        "why_worth": "圈定AI下一波钱往科研走"
+      },
+      "dedup": "低-人物碰过但本次是科学战场新事件",
+      "review_score": 79,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 4,
+      "topic": "AI下半场是抠记忆：mem0/cognee集体霸榜，token账单逼出记忆赛道",
+      "category": "技术",
+      "score": 78,
+      "sources": [
+        "https://github.com/topics/ai-agent"
+      ],
+      "hook": "给AI装长期记忆的开源项目一周集体冲榜，背后是CFO被账单吓到",
+      "angle": "算力竞赛转记忆竞赛",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "记忆不是炫技是省钱：记得住=少喂token=账单降，效率墙逼火了记忆层",
+        "dots": [
+          "cognee/mem0/claude-mem齐霸榜",
+          "效率墙token涨价",
+          "多模型栈要共享记忆"
+        ],
+        "axis": "大家写记忆=拟人，本篇写记忆=成本",
+        "why_worth": "把记忆赛道和账单挂钩"
+      },
+      "dedup": "低-记忆作成本视角新",
+      "review_score": 76,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 5,
+      "topic": "英伟达加注、估值2300亿：xAI不卖模型改卖算力，投人不投技术",
+      "category": "商业",
+      "score": 77,
+      "sources": [
+        "https://news.qq.com/rain/a/20260618A093CG00"
+      ],
+      "hook": "200亿融资超募，连最大对手都来租它的GPU",
+      "angle": "卖水人逻辑全链垂直整合",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "xAI最值钱的不是Grok是Colossus和数据，马斯克把模型降级成产品、把算力升级成现金牛",
+        "axis": "大家写模型谁强，本篇写谁掌算力管道",
+        "why_worth": "解释为啥投人不投技术也敢加注"
+      },
+      "dedup": "中-VC话题碰过，本篇聚焦xAI单笔与卖水逻辑",
+      "review_score": 75,
+      "review_verdict": "keep"
+    }
+  ],
+  "top_picks": [
+    {
+      "rank": 1,
+      "topic": "OpenAI 把万亿IPO推到2027：增长最猛的公司反而最不敢上市",
+      "category": "商业",
+      "score": 85,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/openai-eyes-2027-ipo-delay-041209949.html",
+        "https://www.cnbc.com/2026/06/26"
+      ],
+      "hook": "估值1万亿、收入冲25亿美元，OpenAI却临阵把上市推迟两年",
+      "angle": "推迟上市背后是泡沫见顶的自保",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "OpenAI推迟IPO不是没准备好，是怕在泡沫见顶时定不出1万亿；越拖越被亚马逊350亿对赌、卖广告凑数押着走",
+        "dots": [
+          "SpaceX IPO遇冷+科技股转软",
+          "亚马逊350亿要等IPO/AGI才解锁",
+          "ChatGPT广告已破1亿年化、奔100亿",
+          "Anthropic估值反超抢着先上"
+        ],
+        "axis": "大家都写谁估值高，本篇写谁先怂",
+        "why_worth": "把'推迟'读成对赌时钟和泡沫信号"
+      },
+      "dedup": "低-反超是旧事，推迟2027是6-28新动作",
+      "review_score": 84,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 2,
+      "topic": "教AI当'最懒资深程序员'：一个仓库一周涨2万星登顶GitHub",
+      "category": "开源",
+      "score": 82,
+      "sources": [
+        "https://findarepo.com/categories/ai-agents/"
+      ],
+      "hook": "最好的代码是你永远不写的代码——这句话让它一周冲到热榜第一",
+      "angle": "热榜从造能力转向教AI少干活",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "AI编码的下一个共识不是更能写，是更会拒绝写；ponytail爆红说明开发者最缺的是给AI装刹车",
+        "axis": "大家都追更强的agent，本篇追教AI偷懒的skill",
+        "why_worth": "解释为什么'少写'比'多写'更值钱"
+      },
+      "dedup": "中-6-22写过驯化AI，本篇换具体爆款+反内卷角度",
+      "review_score": 78,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 3,
+      "topic": "AI第二战场开打：诺奖得主带AlphaFold投奔，Anthropic要让AI做科学",
+      "category": "人物",
+      "score": 80,
+      "sources": [
+        "https://www.searchenginejournal.com/google-loses-two-top-ai-researchers-to-openai-anthropic/580201/"
+      ],
+      "hook": "6月30日Anthropic办科学发布会，谷歌诺奖得主刚到岗",
+      "angle": "竞争从写代码转向做科学",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "顶级实验室抢人焦点从'会写代码'换成'会出成果'，AI的下一个GDP在实验室不在编辑器",
+        "dots": [
+          "Jumper带AlphaFold投Anthropic",
+          "6-30科学专场",
+          "Gates基金2亿砸AI做疫苗"
+        ],
+        "axis": "大家写人才战，本篇写战场迁移",
+        "why_worth": "圈定AI下一波钱往科研走"
+      },
+      "dedup": "低-人物碰过但本次是科学战场新事件",
+      "review_score": 79,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 4,
+      "topic": "AI下半场是抠记忆：mem0/cognee集体霸榜，token账单逼出记忆赛道",
+      "category": "技术",
+      "score": 78,
+      "sources": [
+        "https://github.com/topics/ai-agent"
+      ],
+      "hook": "给AI装长期记忆的开源项目一周集体冲榜，背后是CFO被账单吓到",
+      "angle": "算力竞赛转记忆竞赛",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "记忆不是炫技是省钱：记得住=少喂token=账单降，效率墙逼火了记忆层",
+        "dots": [
+          "cognee/mem0/claude-mem齐霸榜",
+          "效率墙token涨价",
+          "多模型栈要共享记忆"
+        ],
+        "axis": "大家写记忆=拟人，本篇写记忆=成本",
+        "why_worth": "把记忆赛道和账单挂钩"
+      },
+      "dedup": "低-记忆作成本视角新",
+      "review_score": 76,
+      "review_verdict": "keep"
+    },
+    {
+      "rank": 5,
+      "topic": "英伟达加注、估值2300亿：xAI不卖模型改卖算力，投人不投技术",
+      "category": "商业",
+      "score": 77,
+      "sources": [
+        "https://news.qq.com/rain/a/20260618A093CG00"
+      ],
+      "hook": "200亿融资超募，连最大对手都来租它的GPU",
+      "angle": "卖水人逻辑全链垂直整合",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "xAI最值钱的不是Grok是Colossus和数据，马斯克把模型降级成产品、把算力升级成现金牛",
+        "axis": "大家写模型谁强，本篇写谁掌算力管道",
+        "why_worth": "解释为啥投人不投技术也敢加注"
+      },
+      "dedup": "中-VC话题碰过，本篇聚焦xAI单笔与卖水逻辑",
+      "review_score": 75,
+      "review_verdict": "keep"
+    }
+  ]
+}

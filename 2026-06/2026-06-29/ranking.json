@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-29",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 88,
+      "title": "教AI少写代码的仓库9天数万星：会拒绝比会写更值钱",
+      "slug": "ai-lazy-coder-github",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-29/html/01-ai-lazy-coder-github-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-29/html/01-ai-lazy-coder-github-wechat.html"
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 86,
+      "title": "诺奖得主带AlphaFold投奔Anthropic：抢人改抢出成果",
+      "slug": "ai-science-second-battle",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-29/html/02-ai-science-second-battle-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-29/html/02-ai-science-second-battle-wechat.html"
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 84,
+      "title": "OpenAI估值8520亿却推迟上市：最猛的反而最不敢敲钟",
+      "slug": "openai-ipo-delay-2027",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-29/html/03-openai-ipo-delay-2027-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-29/html/03-openai-ipo-delay-2027-wechat.html"
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 84,
+      "title": "去年比谁烧token多今年抢着少记：记忆成AI省钱术",
+      "slug": "ai-memory-track",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-29/html/04-ai-memory-track-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-29/html/04-ai-memory-track-wechat.html"
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 84,
+      "title": "英伟达加注xAI估值2300亿：不看模型也照样翻倍下注",
+      "slug": "xai-compute-not-model",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-06/2026-06-29/html/05-xai-compute-not-model-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-06/2026-06-29/html/05-xai-compute-not-model-wechat.html"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1565c0 0%,#0d47a1 50%,#002171 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#90caf9; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">产 业 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">去年比谁烧token多，今年抢着少记：<br>记忆成了AI最便宜的省钱术</p>
+  <p style="width:46px; height:3px; background:#90caf9; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">CFO刚被token账单吓得喊停，研发主管转头就去给开源记忆库点星——少记一点，正成为AI最不性感却最赚钱的赛道。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">GitHub上有个赛道悄悄变天了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">mem0、cognee、claude-mem，过去半年这几个项目轮流挤进ai-agent话题榜前排。它们做的不是更大的模型，不是更快的推理，而是同一件听起来不性感的事：给AI装一个能长期记事的本子。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">奇怪的是，没人喊这是下一个风口。但你把它和另一条新闻并排放，就能看出门道：CFO们刚被token账单吓得喊停，研发主管转头就去开源记忆库的仓库点了星。这两件事不是巧合，是同一根因果链的两头。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">记忆值钱，是因为遗忘很贵</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-memory-track/01-mem0-github.png" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">mem0：把AI该记的抽出来存外面的开源记忆层，超6万星</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先把一个被讲烂的说法掀翻：大家谈AI记忆，总往「拟人」「越来越像人」「能记住你喜好」那个方向写。听着温情，其实跑偏了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#e74c3c;">记忆在工程上的本质，是省钱。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">大模型每次对话不带记性。你今天告诉它的偏好、上周敲定的项目背景、昨天那份报告的结论，下次对话全得重喂一遍。怎么喂？塞进上下文。上下文按token计费，喂得越多账单越长。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">没有记忆的Agent，每天上班第一件事就是把昨天干了什么重学一遍——按字数收费的那种重学。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">mem0这类库干的活，就是把该记的抽出来存外面，下次只挑相关的几条塞回去，而不是把整段历史原样倒进去。<strong style="color:#e74c3c;">少喂的那部分token，就是省下的钱。</strong> 记得越准，喂得越少，账单越短。所谓记忆赛道，底层是一道成本题。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">算一笔糙账就懂了。一个客服Agent，把过往工单全塞回去，每轮可能吞掉几万token；只挑最相关的几条记忆，几百token就够。<strong style="color:#e74c3c;">一万倍变百倍，月底就是两张差出量级的账单。</strong>规模一上来，省下的不是零头，是能不能继续跑的生死线。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一道被效率墙逼出来的题</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-memory-track/02-token-cost.png" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">每轮token账单：全塞历史 vs 只取相关几条——差出量级</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">去年的玩法是反的。那时比的是谁敢烧、谁的窗口大、谁敢把一整本说明书甩进上下文。token用量是身份象征，越费越显得阔。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">今年风向掉头。算力和单价不再无脑跌，调用量却涨上来了，账单第一次让管钱的人皱眉。能砸钱堆窗口的红利期过去，撞上了效率墙——同样的活，得用更少的token办完。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">记忆库正好卡在这道墙的缺口上。它不是把窗口撑更大，而是反过来，让每次只带最该带的进去：</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">没有记忆层</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">有记忆层</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">每轮重灌全部历史</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">只取相关几条</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">token随对话线性膨胀</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">token压在低位</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">记得越多越烧钱</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">记得越准越省钱</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">省钱从来比炫技好卖。这就是为什么一堆人闷头去给记忆项目点星，却没人当它是风口——真省钱的东西，往往长得不性感。<strong style="color:#e74c3c;">风口都在抢窗口大小，缺口却在喂得多少。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">第二根线：模型在换，记忆得留下</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-memory-track/03-cognee-github.png" style="width:360px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">cognee：定位为给Agent用的开源记忆平台，谁的模型都能接</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">还有一层，单看任何一个项目都看不出，并排看就跳出来了。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">现在没人锁死一个模型。便宜活路由给开源货，硬活留给旗舰，明年换更省的就再换。<strong style="color:#e74c3c;">模型成了随时替换的耗材。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">可被换掉的模型，把记忆一并带走了。换一次，用户那点积累就从头来过。于是矛盾摆上桌：栈下面随便换，记忆得在上面单独留住、谁来都能接。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">记忆于是被从模型里拆出来，做成独立一层。这正是cognee、mem0们抢的位子——不押注哪家模型赢，只做那个谁都拔不走的本子。模型越像耗材，这层越像底座。三件事一串：账单催着省、效率墙顶着、模型当耗材换，记忆从配角熬成了刚需。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">它会决定谁能把Agent跑到第二年</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-06/2026-06-29/illustrations/ai-memory-track/04-memory-stack.png" style="width:330px; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">模型当耗材随便换，记忆被拆成独立一层单独留住</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">顺这条线推下去，明年Agent比的不再是脑子多大，是记账本谁记得省。</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 没记忆的Agent账单随用量飞涨，第一年烧得起，第二年CFO先砍；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 有记忆的把成本压平，活到第二年的概率高一截。</p>
+</section>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">跑通ROI靠的从来不是更聪明的脑子，是更省的开销。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">谁记得更准、喂得更少、账单更平，谁就活得久。眼下还少有人把记忆当头等仓位，但牌已掀在桌上：这一轮的胜负手不在模型多大，在记账本谁记得省。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#90caf9; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #90caf9; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你的AI该多记还是少记？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
