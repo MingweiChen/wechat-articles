@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "slug": "nyt-narrows-ai-suit-targets-microsoft",
+  "content_path": "drafts/2026-06-27_0900/nyt-narrows-ai-suit-targets-microsoft/content.md",
+  "word_count": 1957,
+  "iteration": 1,
+  "self_check": {
+    "compliance_score": 10,
+    "aigc_score": 9,
+    "needs_rewrite": false
+  },
+  "finished_at": "2026-06-27T01:10:00Z"
+}

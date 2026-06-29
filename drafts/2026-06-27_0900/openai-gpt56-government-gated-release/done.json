@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "slug": "openai-gpt56-government-gated-release",
+  "content_path": "drafts/2026-06-27_0900/openai-gpt56-government-gated-release/content.md",
+  "word_count": 1953,
+  "iteration": 1,
+  "self_check": {
+    "compliance_score": 9,
+    "aigc_score": 9,
+    "needs_rewrite": false
+  },
+  "finished_at": "2026-06-27T01:10:00Z"
+}

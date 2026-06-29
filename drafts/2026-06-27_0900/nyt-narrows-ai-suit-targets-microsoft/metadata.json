@@ -1,0 +1,11 @@
+{
+  "topic": "告模型不如告递铲子的人：纽约时报撤回对OpenAI一项指控，把版权大战炮口转向提供算力的微软",
+  "slug": "nyt-narrows-ai-suit-targets-microsoft",
+  "word_count": 1957,
+  "created_at": "2026-06-27T01:10:00Z",
+  "iteration": 1,
+  "sources": ["https://hoodline.com/2026/06/times-slashes-ai-lawsuit-leaves-microsoft-in-the-hot-seat/"],
+  "topic_source": "topics.json#4",
+  "data_points": ["6月25日修改起诉书", "案号1:23-cv-11195", "曼哈顿联邦法院Stein法官", "2023年12月立案", "Anthropic约15亿美元和解", "数百万篇文章"],
+  "compliance_hint": "无政治、无金融、无个股推荐"
+}

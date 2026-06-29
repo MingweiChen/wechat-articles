@@ -1,0 +1,14 @@
+{
+  "title": "英伟达把人形机器人做成了安卓，3万美元一台，真正的钱不在机器人",
+  "slug": "nvidia-isaac-groot-android-of-robots",
+  "char_count": 31,
+  "formula_type": "权威人物型",
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": false,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 90
+  }
+}

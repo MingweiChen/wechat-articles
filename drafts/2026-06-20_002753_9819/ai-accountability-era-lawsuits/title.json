@@ -1,0 +1,14 @@
+{
+  "title": "佛州起诉OpenAI、股东告微软，AI的问责时代用83页诉状开场",
+  "slug": "ai-accountability-era-lawsuits",
+  "char_count": 29,
+  "formula_type": "权威人物型",
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": false,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 89
+  }
+}

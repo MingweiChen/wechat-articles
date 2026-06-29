@@ -1,0 +1,24 @@
+{
+  "topic": "英伟达把人形机器人做成了「安卓」：黄仁勋送出参考设计，真正的钱在应用层",
+  "slug": "nvidia-isaac-groot-android-of-robots",
+  "word_count": 1716,
+  "created_at": "2026-06-20T00:35:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.inc.com/connor-jewiss/how-nvidias-new-humanoid-machine-solves-the-robot-industrys-biggest-problem/91361759",
+    "https://www.engadget.com/2184658/nvidia-isaac-gr00t-humanoid-robotic-platform/",
+    "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+  ],
+  "topic_source": "topics.json#rank3",
+  "data_points": [
+    "宇树 H2 Plus 近 6 英尺/150 磅/31 自由度",
+    "Sharpa 五指手 22 自由度/120 牛·米",
+    "Jetson AGX Thor Blackwell GPU/128GB/约 3 小时续航",
+    "H2 标价 $29,900",
+    "Ai2/ETH Zurich/Stanford/UCSD 采用",
+    "H2 Plus 10 月上市",
+    "宇树 2025 出货 5500+ 台，目标 2026 达 2 万台",
+    "Counterpoint 计 2025 全球约 1.6 万台装机，80%+ 在中国"
+  ],
+  "compliance_hint": "纯技术/商业平台分析；不引申地缘政治；不暗示买卖股票"
+}

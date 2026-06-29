@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-26",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "needs_swap",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI首颗自研推理芯片Jalapeño(联手博通,9个月设计,去英伟达化)",
+      "virality": 9,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 81,
+      "verdict": "keep",
+      "issues": ["去英伟达化母题本周(06-22马斯克Terafab)已碰过,需靠'最大客户从内部凿缝'差异化"],
+      "suggestions": ["主轴打'9个月=AI设计AI芯片闭环',弱化泛泛去英伟达化"]
+    },
+    {
+      "rank": 2,
+      "topic": "DeepSeek 74亿首轮融资但投资人无股权/无投票权/锁5年",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 6,
+      "title_pool": 8,
+      "score": 73,
+      "verdict": "keep",
+      "issues": ["单一信源(Crunchbase转The Information),未经DeepSeek证实,thesis建在未核实数据上有翻车风险"],
+      "suggestions": ["全文标注'据外媒未经证实',议价权倒转可作观点但数字要留口子;若有二手信源佐证再上"]
+    },
+    {
+      "rank": 3,
+      "topic": "高通39亿全股收购Modular(Lattner创办)直插CUDA",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 7,
+      "score": 79,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": ["人名Chris Lattner(LLVM/Swift之父)是进池抓手,标题带人物身份提冲突感"]
+    },
+    {
+      "rank": 4,
+      "topic": "京东把推理引擎Oxygen xLLM捐赠开放原子(Apache2.0,适配国产芯片)",
+      "virality": 6,
+      "dedup": 7,
+      "originality": 7,
+      "title_pool": 6,
+      "score": 65,
+      "verdict": "swap",
+      "issues": ["爆点偏弱,'捐赠开源'缺冲突/反转,转发动机不足", "开源母题本周(06-23国产开源逼平GPT5.5、06-20 GLM-5.2)已多次,易稀释", "score<70且virality仅6"],
+      "suggestions": ["若保留需重做thesis:不写'又一个开源',改写'京东为何把核心引擎白送'的反常识动机;或换更硬爆点选题"]
+    },
+    {
+      "rank": 5,
+      "topic": "黄仁勋股东大会2160亿营收回怼AI泡沫(token经济学)",
+      "virality": 7,
+      "dedup": 5,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 65,
+      "verdict": "swap",
+      "issues": ["泡沫母题本周高频重复(06-22 Alphabet泡沫、06-23 AI教父警告泡沫、06-21巨头喊刹车),dedup=5触发swap", "读者对'泡沫之争'已疲劳"],
+      "suggestions": ["若保留必须死守'token=利润单位'的可算经济学新角度,标题完全避开'泡沫'字眼改打'2160亿'数字;否则换题"]
+    }
+  ],
+  "swap_candidates": [
+    {"rank": 4, "reason": "爆点弱+开源母题重复,score65", "replace_direction": "找更硬冲突的国产AI工程/芯片新闻"},
+    {"rank": 5, "reason": "泡沫母题本周第4次,dedup仅5", "replace_direction": "若无新角度则换非泡沫题"}
+  ]
+}

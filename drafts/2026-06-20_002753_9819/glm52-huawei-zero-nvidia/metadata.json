@@ -1,0 +1,15 @@
+{
+  "topic": "用华为芯片、零英伟达，反超 GPT-5.5：GLM-5.2 把「算力封锁」变成了开源东风",
+  "slug": "glm52-huawei-zero-nvidia",
+  "word_count": 1613,
+  "created_at": "2026-06-20T00:45:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+    "https://decrypt.co/371613/china-z-ai-glm-5-2-model-rivals-claude-opus",
+    "https://news.qq.com/rain/a/20260617A048NU00"
+  ],
+  "topic_source": "topics/2026-06-20/selected.json#1",
+  "data_points": ["753B MoE", "1M context", "MIT", "FrontierSWE 74.4 vs GPT-5.5 72.6", "训练约$2500万", "价格约1/6", "零英伟达/华为昇腾"],
+  "compliance_hint": "只写技术与商业事实；不对任一国政府做价值判断；股价仅客观提及不暗示买卖"
+}

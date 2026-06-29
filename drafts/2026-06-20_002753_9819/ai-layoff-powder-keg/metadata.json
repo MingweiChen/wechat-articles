@@ -1,0 +1,15 @@
+{
+  "topic": "一边裁掉 15 万人，一边造出 4400 个百万富翁：AI 成了裁员最好的「借口」",
+  "slug": "ai-layoff-powder-keg",
+  "word_count": 1708,
+  "created_at": "2026-06-20T00:35:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+    "https://www.dqindia.com/news/meta-layoffs-2026-ai-restructuring-zuckerberg-mistakes-12038953",
+    "https://www.ndtvprofit.com/business/ai-paradox-salesforce-cuts-agentforce-jobs-weeks-after-touting-1-billion-plus-ai-revenue-11617154"
+  ],
+  "topic_source": "topics.json#2",
+  "data_points": ["974人/天", "近15万人", "363起", "快44%", "近4万创两年新高", "超配25-75%", "Cerebras涨68%", "SpaceX约2.1万亿", "约4400个百万富翁", "约400 centimillionaire", "Meta裁8000转岗7000", "Salesforce Agentforce破10亿ARR"],
+  "compliance_hint": "中立观察，不煽动对立，只陈述公开事实与公开人物言论"
+}

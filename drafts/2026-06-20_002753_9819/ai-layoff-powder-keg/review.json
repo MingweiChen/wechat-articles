@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "score": 88,
+  "iteration": 1,
+  "dimensions": {
+    "hook": 8,
+    "punch": 8,
+    "density": 9,
+    "structure": 8,
+    "compliance": 9,
+    "aigc": 9
+  },
+  "originality": {
+    "has_unique_judgment": true,
+    "author_voice_strength": 8,
+    "counter_intuitive_score": 8,
+    "value_after_80pct_cut": 7,
+    "connects_dots": true,
+    "deeper_conclusion": "串『利润创纪录+裁员+IPO造富+股价奖励裁员』推出『AI 在这轮里是叙事/分配工具而非元凶，真问题是过度招聘与分配撕裂』",
+    "score": 8
+  },
+  "aigc_violations": [],
+  "issues": [],
+  "suggestions": [
+    "可在结尾再补一个具体当事人短引以增强可信，但非必须"
+  ],
+  "highlights": [
+    "开头『每天送走 974 个人』数据直给，钩子强",
+    "换轴成功：跳出『AI 抢工作』旧辩论，写 AI 作为叙事/分配工具",
+    "草蛇灰线串点清晰：账本对不上→股价奖励裁员→两张名单→分配撕裂",
+    "中立克制，无阶级动员式煽动，合规干净",
+    "排版地板达标：加粗6/引用2/表格1/小节4，标点全角"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "slug": "genesis-eno-faceless-humanoid",
+  "content_path": "drafts/2026-06-20_002753_9819/genesis-eno-faceless-humanoid/content.md",
+  "word_count": 2111,
+  "iteration": 1,
+  "review_score": 82,
+  "review_passed": true,
+  "self_check": {
+    "compliance_score": 10,
+    "aigc_score": 9
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "score": 82,
+  "iteration": 1,
+  "dimensions": {
+    "hook": 8,
+    "punch": 7,
+    "density": 8,
+    "structure": 8,
+    "compliance": 9,
+    "aigc": 9
+  },
+  "originality": {
+    "has_unique_judgment": true,
+    "author_voice_strength": 7,
+    "counter_intuitive_score": 8,
+    "value_after_80pct_cut": 7,
+    "connects_dots": true,
+    "deeper_conclusion": "把无头无脸设计+恐怖谷+iPhone去键盘串成一条线，推出'绕开恐怖谷比翻越更可能让机器人进客厅'的形态哲学判断",
+    "score": 8
+  },
+  "aigc_violations": [],
+  "issues": [],
+  "suggestions": [
+    "结尾可再收紧一句，避免略长",
+    "可补一句对'去拟人'缺乏情感连接的潜在反驳，增强思辨平衡"
+  ],
+  "highlights": [
+    "开头用现场+CEO反问切入，非戏剧化套路",
+    "把恐怖谷/设计哲学/iPhone类比换轴串成原创论点，信息增量L3",
+    "全程标注pre-launch demo与未量产，冷静不吹捧",
+    "排版达标：6小节、表格、列表、引用块、加粗12、全角标点"
+  ]
+}

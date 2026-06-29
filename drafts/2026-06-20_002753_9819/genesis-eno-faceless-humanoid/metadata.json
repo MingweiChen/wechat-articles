@@ -1,0 +1,11 @@
+{
+  "topic": "没有头，也没有脸：这台人形机器人想终结「终结者美学」",
+  "slug": "genesis-eno-faceless-humanoid",
+  "word_count": 2111,
+  "created_at": "2026-06-20T00:35:00Z",
+  "iteration": 1,
+  "sources": ["https://www.forbes.com/sites/johnkoetsier/2026/06/16/is-eno-from-genesis-ai-the-iphone-moment-for-humanoid-robots/"],
+  "topic_source": "topics.json#rank4",
+  "data_points": ["20自由度灵巧手", "3-5kg/臂负载", "4-6h电池", "400+厂商1000+机型", "$105M种子轮", "late 2026先工业后家用"],
+  "compliance_hint": "单一信源，标注pre-launch demo；无政治、无个股；中文标点全角"
+}

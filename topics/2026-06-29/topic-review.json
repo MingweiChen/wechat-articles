@@ -1,0 +1,66 @@
+{
+  "batch_verdict": "pass",
+  "weights": {"virality": 0.35, "dedup": 0.25, "originality": 0.25, "title_pool": 0.15},
+  "topics": [
+    {
+      "id": 1,
+      "title": "OpenAI把万亿IPO推到2027——增长最猛反而最不敢上市",
+      "thesis": "推迟=泡沫见顶自保,亚马逊350亿对赌",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 77.5,
+      "verdict": "keep",
+      "note": "反直觉钩子强,与上周估值反超有理论关联但角度新(IPO时机=泡沫信号),亚马逊对赌细节加分"
+    },
+    {
+      "id": 2,
+      "title": "教AI当最懒资深程序员,一仓库一周涨2万星登顶GitHub",
+      "thesis": "下一共识不是更能写是更会拒绝写",
+      "virality": 8,
+      "dedup": 6,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 75.0,
+      "verdict": "keep",
+      "note": "数据硬,thesis反转有记忆点;与上周GitHub驯化AI主题相邻,dedup压到6但切口(拒绝写)足够区分"
+    },
+    {
+      "id": 3,
+      "title": "AI第二战场:诺奖得主带AlphaFold投Anthropic,要让AI做科学",
+      "thesis": "AI做科学,6-30科学发布会",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 72.5,
+      "verdict": "keep",
+      "note": "全新赛道,无重叠,踩6-30发布会时效;诺奖+AlphaFold名头硬"
+    },
+    {
+      "id": 4,
+      "title": "AI下半场抠记忆:mem0/cognee霸榜,token账单逼出记忆赛道",
+      "thesis": "token账单逼出记忆赛道",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 7,
+      "title_pool": 6,
+      "score": 71.0,
+      "verdict": "keep",
+      "note": "新赛道无重叠,成本逻辑扎实;标题略平,可再炼一版钩子"
+    },
+    {
+      "id": 5,
+      "title": "英伟达加注估值2300亿:xAI不卖模型改卖算力,投人不投技术",
+      "thesis": "投人不投技术",
+      "virality": 7,
+      "dedup": 6,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 67.5,
+      "verdict": "swap",
+      "note": "与上周英伟达掏空Groq同主题,virality6+dedup6拉低,score<70;若换更独立英伟达切口或备稿可补位"
+    }
+  ]
+}

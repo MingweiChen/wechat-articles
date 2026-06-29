@@ -1,0 +1,15 @@
+{
+  "topic": "最强模型造出来了，却第一次'不准随便给人用'：OpenAI GPT-5.6被政府逐个客户审批放行，AI模型正式进入'军火管制'时代",
+  "slug": "openai-gpt56-government-gated-release",
+  "word_count": 1953,
+  "created_at": "2026-06-27T01:07:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "https://money.usnews.com/investing/news/articles/2026-06-26/openai-defers-public-rollout-of-gpt-5-6-as-us-seeks-early-access-to-frontier-ai-models",
+    "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+  ],
+  "topic_source": "topics.json#1",
+  "data_points": [],
+  "compliance_hint": "无政治、无金融、无个股推荐"
+}

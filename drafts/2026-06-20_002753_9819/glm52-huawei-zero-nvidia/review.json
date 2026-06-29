@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "score": 87,
+  "iteration": 1,
+  "dimensions": {
+    "hook": 9,
+    "punch": 8,
+    "density": 8,
+    "structure": 8,
+    "compliance": 9,
+    "aigc": 9
+  },
+  "originality": {
+    "has_unique_judgment": true,
+    "author_voice_strength": 8,
+    "counter_intuitive_score": 8,
+    "value_after_80pct_cut": 7,
+    "connects_dots": true,
+    "deeper_conclusion": "实体清单→被迫转国产算力→链路零英伟达跑通→成本1/6→MIT开源，串出『下一个AI竞赛指标不是参数，而是谁不依赖管制硬件还能打第一梯队；开源从追赶策略变成对冲地缘风险的护城河』",
+    "score": 8
+  },
+  "aigc_violations": [],
+  "issues": [],
+  "suggestions": [
+    "结尾『隧道』隐喻已点题，可保留；若追求更强转发率可在金句块再压一句反差句",
+    "Day0适配厂商列表略长，已用列表承载，无需进一步精简"
+  ],
+  "highlights": [
+    "开头『一条训练-推理链路，从头到尾没碰过一张英伟达卡』一句话点出全文换轴坐标系，无禁用套路",
+    "把实体清单→国产算力→成本→开源四点串成因果链（含列表化呈现），信息增量达L3",
+    "合规处理到位：地缘只写客观事实，股价仅作客观注脚明确声明不延伸，零个股推荐暗示",
+    "反直觉点清晰：『约束没变成天花板，变成被迫挖通的隧道』『管得住芯片这种物，管不住权重这种比特』",
+    "排版地板全部达标：加粗9、引用块2、列表1、小节3、标点全角、破折号已降至≤8"
+  ],
+  "needs_rewrite": false,
+  "needs_topic_change": false
+}

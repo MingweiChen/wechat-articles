@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "score": 88,
+  "iteration": 1,
+  "dimensions": {
+    "hook": 8,
+    "punch": 8,
+    "density": 9,
+    "structure": 8,
+    "compliance": 9,
+    "aigc": 9
+  },
+  "originality": {
+    "has_unique_judgment": true,
+    "author_voice_strength": 8,
+    "counter_intuitive_score": 8,
+    "value_after_80pct_cut": 7,
+    "connects_dots": true,
+    "deeper_conclusion": "把『GR00T 参考设计』+『CUDA 绑定史』+『安卓平台模式』串起来，推出『硬件被商品化、胜负移到应用层、钱永远往上走一层』的趋势判断",
+    "score": 8,
+    "violations": []
+  },
+  "aigc_violations": [],
+  "issues": [],
+  "suggestions": [
+    "破折号 4 处（含），已控制在合规范围，无需调整"
+  ],
+  "highlights": [
+    "开头用具体规格直给后立刻反转『别把它当炫技机器人』，钩子强",
+    "L3 信息增量：CUDA + 安卓双历史横向类比，串成『平台战争/应用层』结论",
+    "反直觉点清晰：硬件不是难点，难点被悄悄挪到应用层",
+    "排版地板全部达标（4 小节 / 8 加粗 / 2 引用块 / 表格+列表）",
+    "合规干净，未涉地缘政治评判、无个股暗示，标点已全角化"
+  ],
+  "needs_rewrite": false,
+  "needs_topic_change": false
+}

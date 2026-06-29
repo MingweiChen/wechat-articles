@@ -1,0 +1,17 @@
+{
+  "topic": "AI 的「问责时代」来了：佛州起诉 OpenAI、股东起诉微软，风险从技术变成法律",
+  "slug": "ai-accountability-era-lawsuits",
+  "word_count": 1935,
+  "created_at": "2026-06-20T00:40:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.inc.com/soren-kaplan/florida-just-sued-openai-over-chatgpt-heres-what-this-means-for-all-companies-involved-in-ai/91355777",
+    "https://www.neowin.net/news/microsoft-faces-shareholder-lawsuit-over-masking-ai-costs-and-slowing-azure-growth/",
+    "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
+    "https://www.durbin.senate.gov/newsroom/press-releases/durbin-hawley-introduce-bill-allowing-victims-to-sue-ai-companies",
+    "https://www.theguardian.com/technology/2026/mar/24/meta-new-mexico-jury"
+  ],
+  "topic_source": "topics.json#5",
+  "data_points": ["83页诉状", "佛州首例州主导诉OpenAI", "新墨西哥判Meta $3.75亿", "微软单季$375亿capex", "Azure 39%→37-38%", "股价跌10%蒸发$3570亿"],
+  "compliance_hint": "诉讼写成指控/未决不预判；未成年人安全谨慎措辞不渲染细节；中立；不暗示买卖股票；全角弯引号"
+}

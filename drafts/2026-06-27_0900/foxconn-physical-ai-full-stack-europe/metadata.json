@@ -1,0 +1,19 @@
+{
+  "topic": "代工之王悄悄换皮：富士康在巴黎让人形机器人现场装配，把自己重写成'造算力+造身体+训机器人'的物理AI全栈平台",
+  "slug": "foxconn-physical-ai-full-stack-europe",
+  "word_count": 1850,
+  "created_at": "2026-06-27T01:10:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.techtimes.com/articles/318548/20260617/foxconn-debuts-humanoid-robots-europe-revealing-closed-loop-physical-ai-stack.htm"
+  ],
+  "topic_source": "topics.json#5",
+  "data_points": [
+    "Vera Rubin NVL72",
+    "Isaac Sim 1000倍实时仿真",
+    "11小时生成78万条轨迹",
+    "捷克生产+法国昂热总装",
+    "VivaTech 2026 展台2B41"
+  ],
+  "compliance_hint": "无政治、无金融、无个股推荐；富士康仅作全球制造商产业行为，不涉两岸政治"
+}

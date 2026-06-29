@@ -1,0 +1,49 @@
+{
+  "content_path": "content.md",
+  "compliance": {
+    "content.md": {
+      "political_hard_lines": [],
+      "stock_recommendations": [],
+      "high_risk_topics": [],
+      "punctuation_issues": [],
+      "summary": {
+        "passed": true,
+        "needs_topic_change": false,
+        "needs_rewrite": false,
+        "needs_packaging": false
+      }
+    }
+  },
+  "aigc": {
+    "single_scans": [
+      {
+        "path": "content.md",
+        "title": "AI 的「问责时代」开场：佛州把 OpenAI 告了，但真正的杀招藏在三个字里",
+        "violations": [],
+        "warnings": [],
+        "metrics": {
+          "section_count": 5,
+          "bold_count": 8,
+          "blockquote_count": 3,
+          "short_para_ratio": 0.08
+        },
+        "aigc_score": 9,
+        "needs_rewrite": false
+      }
+    ],
+    "cross_scan": null,
+    "summary": {
+      "total_articles": 1,
+      "needs_rewrite": 0,
+      "has_violations": 0,
+      "cross_violations": 0
+    }
+  },
+  "decisions": {
+    "needs_topic_change": false,
+    "needs_rewrite": false,
+    "compliance_score_hint": 10,
+    "aigc_score_hint": 9,
+    "fast_fail_reason": null
+  }
+}

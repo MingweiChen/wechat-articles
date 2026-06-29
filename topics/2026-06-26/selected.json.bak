@@ -1,0 +1,155 @@
+{
+  "date": "2026-06-26",
+  "dedup_basis": [
+    "06-25 已写: 豆包2.1Pro长任务交付/AI考核标尺、大晓Kairos世界模型、Anthropic Claude进Slack当同事、489亿机器人融资、OpenAI抢回Shazeer人才战",
+    "06-24 已写: 灵晟CPU登顶TOP500、Anthropic企业反超OpenAI(编程)、Meta把Facebook当搜索入口、司法部救Grok、Oracle SEC裁员",
+    "06-23 已写: 谷歌一周走两科学家蒸发2500亿、国产开源逼平GPT5.5、AI教父警告泡沫、纳德拉别迷信最强模型、GitHub热榜变天",
+    "06-22 已写: 核聚变电荒、马斯克造芯片单挑英伟达Terafab、Alphabet发800亿股泡沫信号、Copilot四模型混战、GitHub驯化AI",
+    "06-21 已写: 苹果Siri外包Gemini、AI推翻Erdős猜想、65行txt登顶GitHub规则层、AI视频单位经济学、AI巨头喊刹车却抢IPO",
+    "06-20 已写: GLM-5.2华为芯片零英伟达、AI裁员借口、英伟达Isaac GROOT机器人安卓、AI问责时代诉讼、Genesis无脸人形机器人"
+  ],
+  "kill_log": [
+    "谷歌连失Shazeer+Jumper诺奖得主人才流失 → 06-23/06-25 已写两次同主题，高重复，KILL",
+    "Anthropic反超OpenAI/Claude编程 → 06-24/06-25 连写，高重复，KILL",
+    "SpaceX 60亿收购Cursor → 已是6-16旧闻且此前批次写过，stale，KILL",
+    "机器人/具身智能融资 → 06-25 已写489亿同题，KILL",
+    "Alphabet发股/AI泡沫担忧(纳德拉/教父) → 06-22/06-23 已写，泡沫叙事高重复(本批Jensen篇换'反方反击'角度规避)"
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "slug": "openai-jalapeno-broadcom-self-chip",
+      "topic": "OpenAI 第一次自己造芯片：用自家AI把芯片设计周期压到9个月，'辣椒'要把英伟达从最贵的环节请出去",
+      "category": "产品",
+      "score": 0,
+      "sources": [
+        "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+        "https://money.usnews.com/investing/news/articles/2026-06-24/openai-unveils-custom-chip-it-designed-with-broadcom-to-boost-its-ai-infrastructure",
+        "https://techxplore.com/news/2026-06-openai-unveils-ai-chip-jalapeno.html"
+      ],
+      "hook": "OpenAI联手博通造出首颗自研推理芯片Jalapeño，9个月设计完成、每瓦性能号称超现有最强，年底部署",
+      "angle": "OpenAI从'最大买芯片的'变成'自己造芯片的'，去英伟达化的转折点",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "OpenAI造芯片真正的信号不是'又一家自研芯片'，而是'AI开始造自己的硬件底座'——9个月周期(行业常态18-24个月)证明AI设计AI芯片的闭环已经跑通，英伟达的护城河第一次被它最大的客户从内部凿了一道缝",
+        "dots": [
+          "Jalapeño专攻推理(inference)，不碰训练——精准打在英伟达利润最肥、用量最大的环节",
+          "Brockman说9个月端到端设计，'我们的模型加速程度连我们自己都吃惊'——AI造芯片",
+          "OpenAI已同时签AWS Trainium、AMD、Cerebras、博通——多线去英伟达化",
+          "博通CEO Hock Tan: 6个客户算力需求'贪得无厌'，28年都不够"
+        ],
+        "axis": "大家都写'OpenAI又一个自研芯片/挑战英伟达'，本篇换轴切'9个月周期=AI设计AI的闭环跑通'，把焦点从'反英伟达'移到'AI自我迭代硬件'这件更狠的事",
+        "counter_intuitive": "表面是OpenAI补算力短板，实际是英伟达最大客户开始用英伟达卖不动的方式(ASIC专用推理)绕开它，且是靠AI自己造的",
+        "why_worth": "读者读完get到：自研芯片不稀奇，但'AI把芯片设计从两年压到9个月'是范式信号，意味着算力军备竞赛的迭代速度本身在被AI改写"
+      },
+      "urgency": "high"
+    },
+    {
+      "rank": 2,
+      "slug": "deepseek-74e-strange-financing",
+      "topic": "DeepSeek 拿了74亿首轮融资，投资人却什么都没拿到：没股权、没投票权、锁5年——梁文锋开出的'不平等条约'，谁还抢着签",
+      "category": "商业",
+      "score": 0,
+      "sources": [
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
+      ],
+      "hook": "据The Information，DeepSeek首次外部融资约74亿美元，但投资人买的是梁文锋控制的LLC份额、无DeepSeek股权、无投票权、5年锁定",
+      "angle": "当稀缺性彻底倒转，明星AI公司可以反过来给投资人开'霸王条款'",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "DeepSeek这笔诡异融资的真正看点不是钱，而是'议价权倒转'——一年前是创业公司求着VC，现在是顶级AI资产敢让投资人接受'给钱但什么权利都没有'，这说明市场上真正稀缺的不是资本而是'能打的中国模型'这种资产本身",
+        "dots": [
+          "投资人拿的是梁文锋个人控制的LLC份额，不是DeepSeek股权",
+          "5年锁定期 + 零投票权 = 纯财务暴露、零控制",
+          "DeepSeek一直号称不缺钱、靠幻方自给，这次'首次'外部融资本身就反常"
+        ],
+        "axis": "大家都写'DeepSeek融了多少钱/估值多高'，本篇换轴切'融资条款里的权力关系'——条款比金额更能说明谁在求谁",
+        "counter_intuitive": "表面是DeepSeek终于'缺钱了'对外融资，实际是它把融资做成了一场'投资人没有任何权利还抢着进'的卖方市场展演",
+        "why_worth": "读者get到：判断一家公司有多硬，看的不是它融了多少，而是它能让出资方接受多苛刻的条件——这是看AI泡沫真假的另一把尺子"
+      },
+      "review_note": "单一信源(Crunchbase转述The Information)，撰写阶段须明确标注'据报道/未经DeepSeek证实'，不可做实；若坐实困难可降权或换备选",
+      "urgency": "medium"
+    },
+    {
+      "rank": 3,
+      "slug": "qualcomm-modular-lattner-cuda-moat",
+      "topic": "高通39亿买下的不是公司，是绕开英伟达CUDA的那把钥匙：编译器之神Chris Lattner带着Modular改投高通",
+      "category": "商业",
+      "score": 0,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/qualcomm-acquires-ai-software-startup-131042959.html"
+      ],
+      "hook": "高通39.2亿美元全股收购Chris Lattner创办的Modular，押注'让AI模型跨任意芯片运行、不用为每颗芯片重写代码'的软件层，直插英伟达CUDA腹地",
+      "angle": "芯片战争打到最后，真正的护城河不是硅片是软件锁",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "所有人盯着谁的芯片更快，但英伟达真正锁死市场的是CUDA这套软件生态；高通买Modular买的就是'拆锁的钥匙'——这一单说明硬件厂商终于明白，不先解决软件可移植性，造再快的芯片也卖不进开发者的工作流",
+        "dots": [
+          "Modular做的是跨CPU/GPU/NPU/自研芯片的统一软件层，开发者不必为每颗芯片重写代码",
+          "创始人Chris Lattner = LLVM/Swift/MLIR之父，编译器领域顶级招牌",
+          "高通主业还是手机芯片，急于进数据中心/边缘AI，缺的正是软件吸引力",
+          "直接对标英伟达CUDA十几年攒下的开发者忠诚"
+        ],
+        "axis": "大家都写'高通又一笔AI收购/进军数据中心'，本篇换轴切'CUDA软件锁才是英伟达真护城河，这单是冲着锁去的'",
+        "counter_intuitive": "表面是高通补数据中心短板，实际是整个行业承认：打败英伟达的第一步不是更快的芯片，而是先把'只能用英伟达软件'这件事破掉",
+        "why_worth": "读者get到：评估AI芯片竞争别只看TFLOPS，要看谁能撬动CUDA的软件垄断——Modular这类'中立软件层'才是变量"
+      },
+      "urgency": "medium"
+    },
+    {
+      "rank": 4,
+      "slug": "jingdong-oxygen-xllm-opensource-infra",
+      "topic": "京东把自研推理引擎整个送人了：Oxygen xLLM 捐给开放原子、Apache 2.0，国产AI Infra开始抱团'去英伟达软件'",
+      "category": "开源",
+      "score": 0,
+      "sources": [
+        "https://stock.10jqka.com.cn/20260625/c677723362.shtml",
+        "https://www.sohu.com/a/1040371182_115128"
+      ],
+      "hook": "6月25日京东把大模型推理引擎Oxygen xLLM著作权、专利、商标整体捐给开放原子开源基金会，Apache 2.0开放，原生适配国产芯片，目标2027成国产推理事实标准",
+      "angle": "中国AI不靠堆算力，靠'工程降本+开源抱团'走另一条路",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "京东这次'整体捐赠'看着是做公益，串起DeepSeek/小米/腾讯云集体降价、华为盘古6月30开源、开放原子接盘几条线就会发现：中国AI正在系统性地用'开源+工程降本+适配国产芯片'对冲美国'砸钱砸电砸算力'的路线，推理引擎是这套打法里最关键的一块基建",
+        "dots": [
+          "京东把著作权/专利/商标整体转让，不是开源代码而是'连公司资产一起送'",
+          "同期DeepSeek、小米、腾讯云密集永久下调API价格",
+          "华为盘古2.0/昇腾亲和大模型6月30开源、原生适配昇腾",
+          "Oxygen xLLM'服务-引擎解耦'架构、原生支持多种国产芯片"
+        ],
+        "axis": "(辅助)大家都写单个开源新闻，本篇把多条降价/开源/捐赠串成'中国AI路线'一条链",
+        "why_worth": "读者get到：别把这些当孤立的厂商公关，连起来看是一条'用开放和工程效率绕开算力封锁'的国家级技术路线，推理引擎开源是其中的承重墙"
+      },
+      "urgency": "medium"
+    },
+    {
+      "rank": 5,
+      "slug": "jensen-useful-ai-profitable-counter-bubble",
+      "topic": "全场都在喊AI泡沫，黄仁勋甩出2160亿营收正面回怼：'有用的AI已经到来，而且已经在赚钱'",
+      "category": "人物",
+      "score": 0,
+      "sources": [
+        "https://news.qq.com/rain/a/20260625A036Y800",
+        "https://m.21jingji.com/article/20260625/herald/ae65921dc59a2f6cebffd40c5d699da9.html",
+        "https://finance.sina.com.cn/tech/roll/2026-06-25/doc-inieqnay1032830.shtml"
+      ],
+      "hook": "6月24日英伟达股东大会，黄仁勋用全年营收2160亿(+65%)、数据中心1940亿、向股东返还410亿，正面回击'AI投资回报率'质疑：每个token都是利润单位",
+      "angle": "当纳德拉、华尔街、图灵奖得主集体喊泡沫，最大受益者用财报+'token工厂'经济学正面接招",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "黄仁勋这场演讲的关键不是'又一次画饼'，而是他把'AI到底赚不赚钱'这个最要命的争论，从估值/叙事拉回到一个可计算的单位——token：数据中心是token工厂，每个token=代码/答案/行动=利润单位。这是把泡沫之争转成'每瓦能产出多少可变现token'的工程账，谁也别空谈",
+        "dots": [
+          "近期纳德拉警告'别让AI巨头吃掉经济'、图灵奖得主警告泡沫爆炸(本周已发酵)",
+          "黄仁勋反手甩财报: 营收2160亿+65%、数据中心1940亿+68%、返还股东410亿",
+          "他把ROI重新定义成'每瓦性能→最低成本token→最高收入'的可算账",
+          "Vera Rubin全面量产、近40国建AI工厂——把'需求真实'量化"
+        ],
+        "axis": "大家都写'黄仁勋说物理AI是下一波'(罗列金句)，本篇换轴切'他在用token经济学把泡沫争论从叙事降维成工程账'这个真正的交锋点",
+        "counter_intuitive": "表面是CEO例行打气，实际是他主动把战场选在'可量化的token单位经济学'上——因为这是空头最难反驳的地方",
+        "why_worth": "读者get到：判断AI是不是泡沫，别听谁喊得响，去算'每瓦能产出多少能卖钱的token'——黄仁勋这次给了一个可以套用的尺子"
+      },
+      "review_note": "泡沫主题本周已多次出现，本篇必须严格守在'Jensen用token经济学反击'这个新角度，不得退回泛泛的泡沫复述；不出现个股推荐(英伟达财报数据仅作事实陈述)",
+      "urgency": "high"
+    }
+  ]
+}

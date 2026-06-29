@@ -1,0 +1,14 @@
+{
+  "title": "没有头也没有脸，这台20自由度的机器人想终结终结者美学",
+  "slug": "genesis-eno-faceless-humanoid",
+  "char_count": 26,
+  "formula_type": "反转验证型",
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": false,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 88
+  }
+}

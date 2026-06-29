@@ -1,0 +1,14 @@
+{
+  "title": "一边裁掉15万人，一边造出4400个百万富翁，AI成了最体面的理由",
+  "slug": "ai-layoff-powder-keg",
+  "char_count": 30,
+  "formula_type": "数字对决型",
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": false,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

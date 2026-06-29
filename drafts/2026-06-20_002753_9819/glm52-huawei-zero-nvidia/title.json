@@ -1,0 +1,14 @@
+{
+  "title": "零英伟达、用华为芯片，GLM-5.2反超GPT-5.5，价格只要六分之一",
+  "slug": "glm52-huawei-zero-nvidia",
+  "char_count": 30,
+  "formula_type": "数字震撼型",
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": false,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 90
+  }
+}

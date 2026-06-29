@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "score": 87,
+  "iteration": 1,
+  "dimensions": {
+    "hook": 8,
+    "punch": 7,
+    "density": 9,
+    "structure": 8,
+    "compliance": 9,
+    "aigc": 9
+  },
+  "originality": {
+    "has_unique_judgment": true,
+    "author_voice_strength": 7,
+    "counter_intuitive_score": 7,
+    "value_after_80pct_cut": 7,
+    "connects_dots": true,
+    "deeper_conclusion": "把佛州诉OpenAI(产品设计缺陷)+新墨西哥判Meta+AI LEAD法案+社媒第230条先例串起来,推出'法律正在给AI重新归类:从会说话的内容改判为会出事的产品',问责从产品端扩到财报端再扩到部署方,合规窗口正在关闭",
+    "score": 8,
+    "violations": []
+  },
+  "aigc_violations": [],
+  "issues": [],
+  "suggestions": [
+    "结尾'两种命运'稍显口号化,但属可接受范围"
+  ],
+  "highlights": [
+    "开头'不是某个受害者家庭,是一个州'冲突感强",
+    "抓住'产品设计缺陷'绕开第230条这个法律核心,信息增量L3",
+    "四件事串成范式转移,有清晰的草蛇灰线",
+    "诉讼全部写成指控/未决,未成年人话题谨慎未渲染细节,合规扎实",
+    "排版地板全部达标:5小节/表格/列表/3引用块/8加粗,全角标点干净"
+  ]
+}

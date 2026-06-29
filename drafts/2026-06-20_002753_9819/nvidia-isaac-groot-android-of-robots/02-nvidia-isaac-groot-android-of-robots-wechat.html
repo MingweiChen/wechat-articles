@@ -1,0 +1,92 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1565c0 0%,#0d47a1 50%,#002171 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#90caf9; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">产 业 · 深 度 观 察</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">英伟达把人形机器人<br>做成了一台「安卓」</p>
+  <p style="width:46px; height:3px; background:#90caf9; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">黄仁勋根本不在乎这台机器长得多像人，他在做的是机器人版的 CUDA 和安卓。</p>
+</section>
+
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">一台近 6 英尺、150 磅、浑身 31 个自由度的人形机器人，加一双能捏起鸡蛋的 22 自由度灵巧手，再塞进一颗 128GB 显存的车规级大脑，标价不到 3 万美元，谁都能买。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这是英伟达在台北抛出的 Isaac GR00T。但如果你把它当成「又一台炫技的人形机器人」，那就完全看错了戏。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">黄仁勋根本不在乎这台机器长得多像人。他在做的，是把机器人这件事，做成一台「安卓手机」。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">一份「参考设计」，藏着整个剧本</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">先看英伟达到底打包了什么。这套 GR00T 不是英伟达自己造的机器人，而是一份<strong style="color:#e74c3c;">「参考设计」</strong>——把市面上现成的最强零件拼成一个标准件：</p>
+<section style="margin:1.3em 0; overflow-x:auto; -webkit-overflow-scrolling:touch;">
+<table style="border-collapse:collapse; width:100%; min-width:100%; border-radius:10px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+<thead><tr>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">部位</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; border-right:1px solid rgba(255,255,255,0.15);">供应商</th>
+<th style="padding:10px 12px; font-size:14px; font-weight:bold; color:#ffffff; background:#1a1a2e; text-align:left; line-height:1.6; ">规格</th>
+</tr></thead>
+<tbody>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">身体</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">宇树 H2 Plus</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">近 6 英尺 / 150 磅 / 全身 31 自由度</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">手</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">新加坡 Sharpa</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">五指触觉手，单手 22 自由度，臂力扭矩 120 牛·米</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">大脑</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">英伟达 Jetson AGX Thor</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">Blackwell GPU + 128GB 统一内存，约 3 小时续航</td>
+</tr>
+<tr style="background:#f7f8fa;">
+<td style="padding:9px 12px; font-size:14px; color:#1a1a2e; font-weight:600; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">灵魂</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; border-right:1px solid #ececec; vertical-align:top; word-break:break-word;">GR00T 模型 + 仿真训练栈</td>
+<td style="padding:9px 12px; font-size:14px; color:#444; line-height:1.6; border-top:1px solid #ececec; vertical-align:top; word-break:break-word;">开放软件，含数据生成与仿真到实机</td>
+</tr>
+</tbody>
+</table>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">「参考设计」这四个字，才是真正的信号。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">在芯片行业，「参考设计」是个有特定含义的词：上游厂商把一套标准方案连软带硬交给你，你照着抄、改个外壳就能出货。手机当年就是这么爆发的：高通给一套参考设计，深圳华强北一夜冒出几百个品牌。</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">英伟达不是在卖一台机器人。它是在告诉全世界的实验室和创业公司：身体、手、大脑、训练工具我都给你备齐了，你别再为「怎么造出一台能动的机器人」发愁，<strong style="color:#e74c3c;">直接来我这层上面盖楼</strong>。</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">负责物理 AI 仿真的英伟达副总裁 Rev Lebaredian 说得很直白：这是把「只有全球最大科技公司和 AI 独角兽才玩得起的前沿人形研究，送进每一间实验室」。Ai2、苏黎世联邦理工、斯坦福机器人中心、加州大学圣地亚哥分校已经排队要用。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这一幕，英伟达演过两次了</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">熟悉英伟达的人，看到「参考设计 + 开放软件栈」这套组合，会有种强烈的既视感。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">因为这正是它过去二十年<strong style="color:#e74c3c;">从底层吃掉一个又一个市场</strong>的标准打法。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">第一次是 CUDA。显卡本来只是打游戏的零件，英伟达却在 2007 年硬是给它配了一套编程平台，把全世界做科学计算、后来做深度学习的人，全都绑在了自己的芯片上。等 AI 浪潮真正来临，所有人发现——模型可以换、框架可以换，<strong style="color:#e74c3c;">唯独底下那层 CUDA 换不掉</strong>。这就是定价权。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">第二次，其实是它在偷师安卓。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">谷歌当年没有自己造手机，而是把安卓系统免费送出去，让三星、小米、华强北去造硬件、拼价格、打到见血。系统层站稳之后，谷歌从下往上，通过应用商店、服务和广告，把整个手机生态的利润悄悄收进了自己口袋。<strong style="color:#e74c3c;">硬件厂商打得头破血流，平台方躺着分钱。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">现在把这两段历史叠在一起，你再看 GR00T:</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 宇树这样的厂商负责把硬件成本打下来（就像当年的安卓手机厂）；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Jetson Thor 是那颗换不掉的「CUDA 芯」；</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• GR00T 模型和仿真栈，就是机器人的「安卓系统」。</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这里有个容易被忽略的点：这套设计还顺手支持更便宜的宇树 G1。一旦标准件铺开，造一台能跑的人形机器人，会变得像组装一台安卓手机一样不稀奇。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;"><strong style="color:#e74c3c;">当造机器人不再是难点，难点就被悄悄挪走了。</strong></p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">难点挪到哪去了？应用层</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">这才是这件事最反直觉的地方。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所有人都在比谁的机器人更像人、关节更多、手更灵活。但顺着英伟达这套剧本推下去，硬件恰恰是最先被商品化、利润被压到最薄的那一层。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">就像今天没人靠「能造出一台安卓手机」赚钱了——真正的财富，长在它上面那层：微信、抖音、美团、游戏。手机只是底座，<strong style="color:#e74c3c;">最大的钱永远诞生在底座再往上一层。</strong></p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">机器人会重走这条路。当一台标准人形机器人随手可得，胜负手就不再是「我能不能造出来」，而是这一句：</p>
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">你的机器人，到底要去干哪一件具体的活？</blockquote>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">是去仓库分拣，是去养老院陪护，是去工厂拧螺丝，还是去实验室做枯燥的重复实验？谁能把某一个具体场景的活儿干到又稳又便宜，谁就握住了机器人时代的「美团」。英伟达很清楚自己吃下的是操作系统层，于是大方地把应用层的空位，全部留给了别人。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">黄仁勋给「物理 AI」画的饼是几十万亿美元。但这张饼里，机器人本体可能只是其中很薄的一片，大头是跑在它上面的那些活。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">值得提一句的现实是：这仍是个很早期的市场。Counterpoint 估算 2025 年全球人形机器人装机也就一万六千台上下，八成以上在中国；宇树自己 2025 年出货五千多台，目标 2026 年冲到两万台。眼下绝大多数所谓「落地」，还困在仓库这种封闭场景里，真正进家庭还隔着安全和隐私的厚墙。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">换句话说，操作系统的地基刚浇上，楼还没盖。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">看这场仗，别盯着机器人的脸</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">回到最初那个画面。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当媒体都在讨论这台机器人有没有头、像不像终结者、手指多灵活时，英伟达在意的根本不是这些。它在意的是：全世界做机器人的人，从今天起，默认会站在它的芯片和它的系统之上。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这就是平台战争的精髓——<strong style="color:#e74c3c;">它不跟你比谁的产品更性感，它比谁站在更下面那一层。</strong> 站得越底，越不显眼，越是收过路费的位置。手机时代如此，AI 时代如此，机器人时代，大概率还是如此。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">所以下次再看到一台炫酷的人形机器人，先别急着惊叹它多像人。问三个问题就够了：它跑谁的大脑？它装谁的系统？以及，上面那层最肥的应用，最后会落进谁的口袋。</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">身体会越来越便宜，系统会越来越隐形，而钱，永远往上走一层。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#90caf9; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #90caf9; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 机器人最肥的应用层，会落进谁口袋</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

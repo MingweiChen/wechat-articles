@@ -1,0 +1,13 @@
+{
+  "topic": "一年前比谁烧token多，现在CFO被账单吓到喊停：AI的'无脑烧钱'蜜月期结束，前沿大厂要撞上'效率墙'",
+  "slug": "tokenmaxxing-retreat-ai-spend-crunch",
+  "word_count": 2689,
+  "created_at": "2026-06-27T01:10:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+  ],
+  "topic_source": "topics.json#2",
+  "data_points": ["95%企业用量跑frontier", "Anthropic 470亿年化", "OpenAI 250亿年化", "Uber 4个月烧光年度AI预算", "每人每月1500美元起", "Gemini 3.5 Flash 半价至1/3"],
+  "compliance_hint": "无政治、无金融个股推荐；商业分析视角，不引导买卖"
+}
