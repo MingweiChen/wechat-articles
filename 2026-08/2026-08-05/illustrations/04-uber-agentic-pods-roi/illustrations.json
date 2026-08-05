@@ -1,0 +1,42 @@
+{
+  "slug": "04-uber-agentic-pods-roi",
+  "date": "2026-08-05",
+  "images": [
+    {
+      "file": "01-uber-agentic-pods-roi-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/04-uber-agentic-pods-roi/01-uber-agentic-pods-roi-info.jpg",
+      "caption": "这不是一个“AI省钱”的开头：企业AI的ROI，不在让每个人多写几行代码，而在把真实业务流程从头拆开。",
+      "anchor": "这不是一个“AI省钱”的开头",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "02-uber-agentic-pods-roi-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/04-uber-agentic-pods-roi/02-uber-agentic-pods-roi-info.jpg",
+      "caption": "Agentic Pod的关键，是先看人怎么工作：企业AI的ROI，不在让每个人多写几行代码，而在把真实业务流程从头拆开。",
+      "anchor": "Agentic Pod的关键，是先看人怎么工作",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "03-uber-agentic-pods-roi-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/04-uber-agentic-pods-roi/03-uber-agentic-pods-roi-info.jpg",
+      "caption": "ROI来自流程，不来自单点任务：企业AI的ROI，不在让每个人多写几行代码，而在把真实业务流程从头拆开。",
+      "anchor": "ROI来自流程，不来自单点任务",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "04-uber-agentic-pods-roi-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/04-uber-agentic-pods-roi/04-uber-agentic-pods-roi-info.jpg",
+      "caption": "最难复制的是“懂AI又懂业务现场”的人：企业AI的ROI，不在让每个人多写几行代码，而在把真实业务流程从头拆开。",
+      "anchor": "最难复制的是“懂AI又懂业务现场”的人",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    }
+  ]
+}

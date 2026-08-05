@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-05",
+  "auto_mode": true,
+  "dedup_basis": [
+    "过去一周已写主题：OpenAI失控/首席科学家求监管、Claude聊天被谷歌搜出、Cursor涨价、Kimi K3、GPT-5.6降价、微软Project Perception、开源网关/自托管工作台、AI黑客工具等；本批改选Astra数学证明、Black Hat Agent安全基础设施、MindMemOS记忆、Uber Agentic Pods、微软Zero Trust for AI。"
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "OpenAI的Astra花2000美元攻下10道数学难题，科研成本表第一次被改写了",
+      "category": "技术",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/",
+        "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups"
+      ],
+      "hook": "10个开放十年以上的问题、249页手稿、Lean 4机器证明、总token成本约2000美元。",
+      "angle": "从“科研发现变成可预算工作负载”切入，避免玄学AGI，强调可验证证明和研究生产方式变化。",
+      "writing_approach": {
+        "thesis": "Astra的关键不是又刷了一个数学榜，而是把“发现—证明—验证”拆成可购买、可复跑、可审计的计算流程。",
+        "dots": [
+          "OpenAI称内部Astra在十个数学/理论计算机问题上给出新结果",
+          "结果附带Lean 4证书，外部可用编译器核验逻辑链",
+          "总推理成本约等于GPT-5.6 Sol API 2000美元",
+          "社区仍需确认形式化命题是否对应原问题、以及学术贡献如何署名"
+        ],
+        "counter_intuitive": "表面是单条新闻，实质是AI从“生成内容”迈向“科研、执行、记忆、治理”的基础设施变化。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Black Hat把AI Agent安全抬上主舞台：最危险的不是模型胡说，而是它已经有权限动手",
+      "category": "安全",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://forkast.news/from-lab-curiosity-to-mainstream-threat-black-hat-usa-2026-and-the-rise-of-ai-agent-security/",
+        "https://forkast.news/black-hat-usa-2026-signals-agent-exploitation-has-become-its-own-infrastructure-discipline/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+      ],
+      "hook": "Black Hat USA 2026议程里，35/121场直接覆盖AI安全，多个专题瞄准Agent框架、云平台和自传播基础设施。",
+      "angle": "把AI安全从“提示词防注入”换轴到“Agent基础设施攻击面”：框架、权限、记忆、云运行时。",
+      "writing_approach": {
+        "thesis": "Agent安全正在从研究室议题变成企业主战场，因为Agent不是回答问题的工具，而是会调用系统的非人身份。",
+        "dots": [
+          "Black Hat 2026集中出现Agent框架、云平台、AI基础设施攻击议题",
+          "研究方向覆盖LangChain/CrewAI/AutoGen等框架内核、Cloudflare Workers式Agent云平台、Ray集群自传播攻击",
+          "微软同步推进Zero Trust for AI评估和DevSecOps控制项",
+          "企业核心风险从输出质量转向身份、权限、工具调用和审计链"
+        ],
+        "counter_intuitive": "表面是单条新闻，实质是AI从“生成内容”迈向“科研、执行、记忆、治理”的基础设施变化。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "华为诺亚开源MindMemOS：Agent下一场竞争，不是谁更聪明，而是谁记得住、带得走",
+      "category": "开源",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://news.qq.com/rain/a/20260803A02WFF00",
+        "https://github.com/mindscale-noah/MindMemOS",
+        "https://mindmemos.cn"
+      ],
+      "hook": "MindMemOS把记忆从单个Agent里解耦，按实体-属性-时间建模，还让Skill随执行轨迹持续演进。",
+      "angle": "从“每次换Agent都要重新解释”这个痛点切入，把记忆讲成跨应用资产，而非更大上下文。",
+      "writing_approach": {
+        "thesis": "Agent记忆的核心不是多塞历史，而是把事实、偏好、项目状态和方法沉淀成可治理、可迁移、可演进的资产。",
+        "dots": [
+          "MindMemOS提出实体-属性-时间三维记忆结构",
+          "支持MindSchema规则化提取、Feedback纠错、Dreaming离线整理",
+          "在LoCoMo、PersonaMem、MemoryAgentBench等测试中展示提升",
+          "把Skill也纳入版本、轨迹和演进体系"
+        ],
+        "counter_intuitive": "表面是单条新闻，实质是AI从“生成内容”迈向“科研、执行、记忆、治理”的基础设施变化。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Uber四个月烧完整年AI预算后，反而找到了正确用法：别买Copilot，重做整条流程",
+      "category": "商业",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.webpronews.com/ubers-agentic-pods-how-embedding-top-ai-talent-in-finance-and-hr-is-reshaping-enterprise-productivity/",
+        "https://www.businessinsider.com/uber-agentic-pods-ai-productivity-budget-overruns-2026-8"
+      ],
+      "hook": "Uber全年AI预算四个月烧完，后来把30名AI工程师嵌入财务、法务、HR、营销等团队，两周交付生产Agent。",
+      "angle": "从“预算烧穿”反转到“工作流重构”，写企业AI从个人提效到组织改造的分水岭。",
+      "writing_approach": {
+        "thesis": "Uber的经验说明，企业AI的价值不在工具普发，而在把懂AI的人嵌进业务现场，观察真实点击和审批链，再重构整个流程。",
+        "dots": [
+          "Uber AI工具使用迅猛，全年预算四个月耗尽",
+          "CTO挑选约30名AI高手组成Agentic Pods，进入16个业务函数",
+          "财务节奏报告从两天缩到10分钟，150城资本分配从15小时缩到30分钟",
+          "每个Pod两周，先观察真实工作，再交付生产Agent"
+        ],
+        "counter_intuitive": "表面是单条新闻，实质是AI从“生成内容”迈向“科研、执行、记忆、治理”的基础设施变化。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "微软给AI Agent做了一张体检表：91项DevSecOps任务背后，是企业AI从试点走向审计",
+      "category": "商业",
+      "score": 84,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+        "https://securityboulevard.com/2026/08/ai-agent-governance-how-enterprises-can-approach-it-kovrr/",
+        "https://finance.yahoo.com/technology/ai/articles/drata-extends-trust-management-platform-130000397.html"
+      ],
+      "hook": "微软8月4日扩展Zero Trust for AI，新增AI评估、SecOps、基础设施检查，以及含15个控制组、91项任务的DevSecOps支柱。",
+      "angle": "从“微软把AI治理拆成检查项”切入，讲企业AI从PoC时代进入审计时代。",
+      "writing_approach": {
+        "thesis": "当Agent成为开发和业务流程里的执行者，安全治理必须覆盖身份、设备、网络、数据、记忆、代码供应链和运行时控制。",
+        "dots": [
+          "Zero Trust Assessment新增AI、SecOps、Infrastructure检查",
+          "Zero Trust Workshop新增DevSecOps支柱，包含15个控制组、91项任务",
+          "微软强调AI Memory需要被当成安全边界治理",
+          "Drata等厂商同步推出AI Agent Governance，说明市场正在形成治理层"
+        ],
+        "counter_intuitive": "表面是单条新闻，实质是AI从“生成内容”迈向“科研、执行、记忆、治理”的基础设施变化。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐。"
+    }
+  ]
+}

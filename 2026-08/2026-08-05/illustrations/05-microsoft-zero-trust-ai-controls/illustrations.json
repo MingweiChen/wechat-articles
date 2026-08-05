@@ -1,0 +1,42 @@
+{
+  "slug": "05-microsoft-zero-trust-ai-controls",
+  "date": "2026-08-05",
+  "images": [
+    {
+      "file": "01-microsoft-zero-trust-ai-controls-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/05-microsoft-zero-trust-ai-controls/01-microsoft-zero-trust-ai-controls-info.jpg",
+      "caption": "AI治理终于不只是PPT了：当Agent进入开发、部署和安全运营，治理终于从口号变成了一条条可检查任务。",
+      "anchor": "AI治理终于不只是PPT了",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "02-microsoft-zero-trust-ai-controls-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/05-microsoft-zero-trust-ai-controls/02-microsoft-zero-trust-ai-controls-info.jpg",
+      "caption": "Agent把开发链路也变成安全边界：当Agent进入开发、部署和安全运营，治理终于从口号变成了一条条可检查任务。",
+      "anchor": "Agent把开发链路也变成安全边界",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "03-microsoft-zero-trust-ai-controls-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/05-microsoft-zero-trust-ai-controls/03-microsoft-zero-trust-ai-controls-info.jpg",
+      "caption": "记忆也成了安全问题：当Agent进入开发、部署和安全运营，治理终于从口号变成了一条条可检查任务。",
+      "anchor": "记忆也成了安全问题",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "04-microsoft-zero-trust-ai-controls-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/05-microsoft-zero-trust-ai-controls/04-microsoft-zero-trust-ai-controls-info.jpg",
+      "caption": "从试点到生产，差的就是这层控制面：当Agent进入开发、部署和安全运营，治理终于从口号变成了一条条可检查任务。",
+      "anchor": "从试点到生产，差的就是这层控制面",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    }
+  ]
+}

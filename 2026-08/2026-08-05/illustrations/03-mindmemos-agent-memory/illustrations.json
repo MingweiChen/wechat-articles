@@ -1,0 +1,42 @@
+{
+  "slug": "03-mindmemos-agent-memory",
+  "date": "2026-08-05",
+  "images": [
+    {
+      "file": "01-mindmemos-agent-memory-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/03-mindmemos-agent-memory/01-mindmemos-agent-memory-info.jpg",
+      "caption": "Agent最烦人的地方，不是不聪明：当每个Agent都像新员工一样从零开始，记忆就从附属功能变成了生产力底座。",
+      "anchor": "Agent最烦人的地方，不是不聪明",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "02-mindmemos-agent-memory-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/03-mindmemos-agent-memory/02-mindmemos-agent-memory-info.jpg",
+      "caption": "MindMemOS抓住了“带得走”这件事：当每个Agent都像新员工一样从零开始，记忆就从附属功能变成了生产力底座。",
+      "anchor": "MindMemOS抓住了“带得走”这件事",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "03-mindmemos-agent-memory-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/03-mindmemos-agent-memory/03-mindmemos-agent-memory-info.jpg",
+      "caption": "Dreaming和Feedback：让记忆自己变干净：当每个Agent都像新员工一样从零开始，记忆就从附属功能变成了生产力底座。",
+      "anchor": "Dreaming和Feedback：让记忆自己变干净",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "04-mindmemos-agent-memory-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/03-mindmemos-agent-memory/04-mindmemos-agent-memory-info.jpg",
+      "caption": "Skill也应该随着经验进化：当每个Agent都像新员工一样从零开始，记忆就从附属功能变成了生产力底座。",
+      "anchor": "Skill也应该随着经验进化",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    }
+  ]
+}

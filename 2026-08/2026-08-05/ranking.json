@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-05",
+  "run_id": "2026-08-05_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 92,
+      "title": "OpenAI的Astra花2000美元攻下10道数学难题，科研成本表第一次被改写了",
+      "slug": "astra-math-2000-dollar-proof",
+      "article_dir": "01-astra-math-2000-dollar-proof",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-05/html/01-astra-math-2000-dollar-proof-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-05/html/01-astra-math-2000-dollar-proof-wechat.html",
+      "dimensions": {
+        "hook": 10,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "illustrations_count": 4,
+      "files": [
+        "01-astra-math-2000-dollar-proof-wechat.html",
+        "01-astra-math-2000-dollar-proof-azure-cover-wide.jpg"
+      ],
+      "cover_source": "Azure gpt-image-2, low quality editorial cover; local resized for WeChat layout"
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 90,
+      "title": "Black Hat把AI Agent安全抬上主舞台：最危险的不是模型胡说，而是它已经有权限动手",
+      "slug": "blackhat-agent-security-infra",
+      "article_dir": "02-blackhat-agent-security-infra",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-05/html/02-blackhat-agent-security-infra-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-05/html/02-blackhat-agent-security-infra-wechat.html",
+      "dimensions": {
+        "hook": 10,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "illustrations_count": 4,
+      "files": [
+        "02-blackhat-agent-security-infra-wechat.html",
+        "02-blackhat-agent-security-infra-azure-cover-square.jpg"
+      ],
+      "cover_source": "Azure gpt-image-2, low quality editorial cover; local resized for WeChat layout"
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 87,
+      "title": "华为诺亚开源MindMemOS：Agent下一场竞争，不是谁更聪明，而是谁记得住、带得走",
+      "slug": "mindmemos-agent-memory",
+      "article_dir": "03-mindmemos-agent-memory",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-05/html/03-mindmemos-agent-memory-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-05/html/03-mindmemos-agent-memory-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "illustrations_count": 4,
+      "files": [
+        "03-mindmemos-agent-memory-wechat.html",
+        "03-mindmemos-agent-memory-azure-cover-square.jpg"
+      ],
+      "cover_source": "Azure gpt-image-2, low quality editorial cover; local resized for WeChat layout"
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 86,
+      "title": "Uber四个月烧完整年AI预算后，反而找到了正确用法：别买Copilot，重做整条流程",
+      "slug": "uber-agentic-pods-roi",
+      "article_dir": "04-uber-agentic-pods-roi",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-05/html/04-uber-agentic-pods-roi-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-05/html/04-uber-agentic-pods-roi-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "illustrations_count": 4,
+      "files": [
+        "04-uber-agentic-pods-roi-wechat.html",
+        "04-uber-agentic-pods-roi-azure-cover-square.jpg"
+      ],
+      "cover_source": "Azure gpt-image-2, low quality editorial cover; local resized for WeChat layout"
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 84,
+      "title": "微软给AI Agent做了一张体检表：91项DevSecOps任务背后，是企业AI从试点走向审计",
+      "slug": "microsoft-zero-trust-ai-controls",
+      "article_dir": "05-microsoft-zero-trust-ai-controls",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-05/html/05-microsoft-zero-trust-ai-controls-wechat.html",
+      "html_raw_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-05/html/05-microsoft-zero-trust-ai-controls-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10
+      },
+      "iterations": 1,
+      "illustrations_count": 4,
+      "files": [
+        "05-microsoft-zero-trust-ai-controls-wechat.html",
+        "05-microsoft-zero-trust-ai-controls-azure-cover-square.jpg"
+      ],
+      "cover_source": "Azure gpt-image-2, low quality editorial cover; local resized for WeChat layout"
+    }
+  ],
+  "compliance_notes": [
+    "选题阶段剔除政治红线；正文未包含个股推荐。"
+  ],
+  "illustrations_verified": true
+}

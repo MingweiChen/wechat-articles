@@ -1,0 +1,42 @@
+{
+  "slug": "02-blackhat-agent-security-infra",
+  "date": "2026-08-05",
+  "images": [
+    {
+      "file": "01-blackhat-agent-security-infra-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/02-blackhat-agent-security-infra/01-blackhat-agent-security-infra-info.jpg",
+      "caption": "过去的AI安全，主要怕它说错：当Agent开始连API、拿凭证、跑工作流，安全问题就从内容审核变成基础设施治理。",
+      "anchor": "过去的AI安全，主要怕它说错",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "02-blackhat-agent-security-infra-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/02-blackhat-agent-security-infra/02-blackhat-agent-security-infra-info.jpg",
+      "caption": "攻击面从工具，钻进了框架本身：当Agent开始连API、拿凭证、跑工作流，安全问题就从内容审核变成基础设施治理。",
+      "anchor": "攻击面从工具，钻进了框架本身",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "03-blackhat-agent-security-infra-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/02-blackhat-agent-security-infra/03-blackhat-agent-security-infra-info.jpg",
+      "caption": "企业真正缺的是非人身份治理：当Agent开始连API、拿凭证、跑工作流，安全问题就从内容审核变成基础设施治理。",
+      "anchor": "企业真正缺的是非人身份治理",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    },
+    {
+      "file": "04-blackhat-agent-security-infra-info.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-05/illustrations/02-blackhat-agent-security-infra/04-blackhat-agent-security-infra-info.jpg",
+      "caption": "安全会变成Agent落地的硬门槛：当Agent开始连API、拿凭证、跑工作流，安全问题就从内容审核变成基础设施治理。",
+      "anchor": "安全会变成Agent落地的硬门槛",
+      "position": "after_heading",
+      "width": "380px",
+      "source": "generated infographic (local editorial illustration)"
+    }
+  ]
+}
