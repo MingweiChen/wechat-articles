@@ -1,0 +1,47 @@
+{
+  "slug": "01-agent-safety-preflight-tests",
+  "count": 4,
+  "images": [
+    {
+      "id": "01-agent-safety-preflight-tests-01",
+      "file": "illustrations/01-agent-safety-preflight-tests/01-01-agent-safety-preflight-tests-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/01-agent-safety-preflight-tests/01-01-agent-safety-preflight-tests-info.jpg",
+      "caption": "OpenAI、Anthropic近期",
+      "anchor": "不是模型又吵了一架，而是发布流程变了",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "01-agent-safety-preflight-tests-02",
+      "file": "illustrations/01-agent-safety-preflight-tests/02-01-agent-safety-preflight-tests-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/01-agent-safety-preflight-tests/02-01-agent-safety-preflight-tests-info.jpg",
+      "caption": "闭源模型的能力、部署节奏和商业客户集",
+      "anchor": "为什么闭源模型先被盯上",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "01-agent-safety-preflight-tests-03",
+      "file": "illustrations/01-agent-safety-preflight-tests/03-01-agent-safety-preflight-tests-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/01-agent-safety-preflight-tests/03-01-agent-safety-preflight-tests-info.jpg",
+      "caption": "过去一年",
+      "anchor": "企业部署Agent，真正要补的是刹车系统",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "01-agent-safety-preflight-tests-04",
+      "file": "illustrations/01-agent-safety-preflight-tests/04-01-agent-safety-preflight-tests-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/01-agent-safety-preflight-tests/04-01-agent-safety-preflight-tests-info.jpg",
+      "caption": "汽车有碰撞测试",
+      "anchor": "真正的拐点：AI开始被当成基础设施验收",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    }
+  ],
+  "policy": "No political figures, no stocks, no national flags; generated local editorial infographics for deterministic auto mode."
+}

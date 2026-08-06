@@ -1,0 +1,47 @@
+{
+  "slug": "04-github-agent-computer-workbench",
+  "count": 4,
+  "images": [
+    {
+      "id": "04-github-agent-computer-workbench-01",
+      "file": "illustrations/04-github-agent-computer-workbench/01-04-github-agent-computer-workbench-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/04-github-agent-computer-workbench/01-04-github-agent-computer-workbench-info.jpg",
+      "caption": "GitHub今日趋势里",
+      "anchor": "热榜的关键词变了",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "04-github-agent-computer-workbench-02",
+      "file": "illustrations/04-github-agent-computer-workbench/02-04-github-agent-computer-workbench-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/04-github-agent-computer-workbench/02-04-github-agent-computer-workbench-info.jpg",
+      "caption": "过去的AI产品",
+      "anchor": "聊天框是入口，不是终点",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "04-github-agent-computer-workbench-03",
+      "file": "illustrations/04-github-agent-computer-workbench/03-04-github-agent-computer-workbench-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/04-github-agent-computer-workbench/03-04-github-agent-computer-workbench-info.jpg",
+      "caption": "当大家都能调用强模型",
+      "anchor": "基础设施会比单点应用更先爆发",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "04-github-agent-computer-workbench-04",
+      "file": "illustrations/04-github-agent-computer-workbench/04-04-github-agent-computer-workbench-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/04-github-agent-computer-workbench/04-04-github-agent-computer-workbench-info.jpg",
+      "caption": "如果AI只是一问一答",
+      "anchor": "开发者正在押注一件事：Agent会常驻",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    }
+  ],
+  "policy": "No political figures, no stocks, no national flags; generated local editorial infographics for deterministic auto mode."
+}

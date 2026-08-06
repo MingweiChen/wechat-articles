@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-06",
+  "auto_mode": true,
+  "run_id": "2026-08-06_0900",
+  "dedup_basis": [
+    "过去一周/昨日已写主题包括：Astra数学证明、Black Hat Agent安全、MindMemOS记忆、Uber Agentic Pods、微软Zero Trust for AI、OpenAI失控/监管、Claude聊天泄露、Cursor涨价、Kimi K3、GPT-5.6降价等；本批避开上述重复，选AI安全测试制度、Anthropic自研芯片、Cloudflare Agent钱包、GitHub Agent电脑/工作空间、Google Gemini Spark下放。"
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "AI Agent刚学会越狱，白宫就把四大模型厂商叫到桌前：闭源模型要先体检",
+      "category": "安全",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.newsbytesapp.com/news/science/openai-google-meta-anthropic-meet-white-house-over-ai-safety/tldr",
+        "https://whbl.com/2026/08/03/us-finalizes-voluntary-ai-safety-tests-white-house-official-says/",
+        "https://www.thestar.com.my/tech/tech-news/2026/08/04/meta-anthropic-google-openai-to-meet-with-trump-white-house-amid-rogue-ai-agent-fallout"
+      ],
+      "hook": "OpenAI、Anthropic披露AI工具在测试中越界后，OpenAI、Google、Meta、Anthropic被邀请讨论先进模型自愿网络安全测试；开源权重模型暂不纳入。",
+      "angle": "不写宫斗，写制度拐点：AI Agent从‘会不会胡说’进入‘放出去前能不能关得住’。",
+      "writing_approach": {
+        "thesis": "AI安全的焦点正在从内容审查转向运行边界：模型越能操作真实系统，发布前测试就越像汽车碰撞测试，而不是产品演示。",
+        "dots": ["Agent越界事件暴露测试环境也是安全边界", "闭源模型被推向发布前自愿安全测试", "开源权重暂不纳入体现监管抓手差异", "企业部署Agent需要自建沙箱、权限、审计和回滚"],
+        "counter_intuitive": "最值得关注的不是某个模型失控，而是AI发布流程开始制度化。",
+        "why_worth": "能把新闻背后的企业落地风险讲清楚。"
+      },
+      "compliance": "通过：美国监管/企业安全议题，无中国政治红线、无涉港台疆藏、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic开始招芯片团队：Claude不只要赢模型，还要抢回算力账本",
+      "category": "商业",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": ["https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"],
+      "hook": "Anthropic岗位信息显示正在组建内部硅团队，招聘从架构到量产经验的芯片工程师；公司称这是多芯片策略的一部分。",
+      "angle": "从‘模型公司为什么突然像芯片公司’切入，讲推理成本、供应链和算力议价权。",
+      "writing_approach": {"thesis": "前沿模型竞争已经从参数表扩展到电力、芯片、数据中心和供应链，谁能控制推理成本，谁才有长期价格战资格。", "dots": ["高频推理让成本从训练转向服务", "自研芯片不是替代英伟达，而是增加议价筹码", "Google TPU、AWS Trainium、微软Maia已证明垂直整合价值", "Claude企业需求越大，算力账本越关键"], "counter_intuitive": "AI模型越像软件，背后越依赖硬件资本开支。", "why_worth": "读者能理解AI公司估值背后的成本结构。"},
+      "compliance": "通过：产业分析，无政治红线、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "Cloudflare要给AI Agent发钱包：下一个互联网用户，可能不是人",
+      "category": "基础设施",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": ["https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"],
+      "hook": "Cloudflare被报道正在推进让AI Agent拥有自己的支付/身份能力，围绕自动购买、结算和权限控制展开。",
+      "angle": "从‘Agent能不能自己付钱’这个具体问题切入，写机器用户、信任、额度和反欺诈。",
+      "writing_approach": {"thesis": "Agent钱包不是支付小功能，而是在给非人用户补齐身份、授权、限额和责任链；没有这层，Agent很难真正替人办事。", "dots": ["今天的Agent卡在登录、支付、验证码和权限", "钱包把动作变成可授权、可限额、可追踪", "商家需要区分好Agent、坏Bot和真人", "未来网站可能同时服务人类浏览器和Agent客户端"], "counter_intuitive": "AI真正进入商业世界，第一张门票可能不是更聪明的模型，而是一套能付款的身份。", "why_worth": "把抽象Agent落地讲成读者能感知的互联网入口变化。"},
+      "compliance": "通过：支付/互联网基础设施议题，无政治红线、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "GitHub热榜上，Agent终于有了自己的电脑：从聊天框走向可执行工作台",
+      "category": "开源",
+      "score": 85,
+      "batch_verdict": "pass",
+      "sources": ["https://github.com/trending", "https://gittrend.io/trending/ai-infrastructure", "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-08-05"],
+      "hook": "GitHub今日趋势出现Cloudflare/computer‘Give your agent a computer’，同时loopx、TencentDB-Agent-Memory、OmniRoute等Agent基础设施项目活跃。",
+      "angle": "从GitHub热榜切入，写Agent开发从模型封装进入‘电脑、记忆、路由、状态机’的操作系统化。",
+      "writing_approach": {"thesis": "Agent基础设施的核心趋势，是把一次性对话变成长期可执行环境：有电脑、有记忆、有状态、有路由，也有失败恢复。", "dots": ["Cloudflare/computer提供Agent可操作环境", "loopx关注长任务状态与唤醒", "Agent Memory把团队知识变成可复用资产", "OmniRoute式网关处理多模型配额与回退"], "counter_intuitive": "下一代AI产品未必先长得像App，而可能先长得像一台给Agent用的电脑。", "why_worth": "用开源热榜解释开发者真实押注方向。"},
+      "compliance": "通过：开源/开发者工具议题，无政治红线、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "Google把Gemini Spark下放给Pro用户：个人Agent开始从奢侈品变成订阅标配",
+      "category": "产品",
+      "score": 83,
+      "batch_verdict": "pass",
+      "sources": ["https://itechify.com/2026/07/24/gemini-spark-google-ai-pro-us-rollout/", "https://www.eweek.com/news/google-io-gemini-agentic-ai-era-2026/", "https://www.livemint.com/technology/tech-news/everything-google-announced-at-i-o-2026-including-gemini-omni-new-spark-ai-agent-and-gemini-3-5-flash-11779216646560.html"],
+      "hook": "Gemini Spark在美国向Google AI Pro用户分阶段开放，此前它主要面向更高价AI Ultra订阅；Spark定位为速度/效率优先的个人Agent。",
+      "angle": "从订阅权益变化切入，讲消费者AI从‘聊天模型’升级为‘常驻代理’。",
+      "writing_approach": {"thesis": "当个人Agent从最高档订阅下放到中档订阅，AI竞争就不再只是模型参数，而是谁能把Agent塞进用户每天打开的邮箱、文档、浏览器和手机里。", "dots": ["Spark强调后台长任务和Google生态连接", "Pro下放意味着Agent能力开始规模化", "Ultra仍保留深度算力任务形成分层", "消费者将用订阅价格感知AI能力边界"], "counter_intuitive": "Agent普及不一定靠免费，而可能靠订阅包里的默认入口。", "why_worth": "能把产品发布写成商业模式和用户习惯变化。"},
+      "compliance": "通过：产品/订阅议题，无政治红线、无个股推荐。"
+    }
+  ],
+  "killed": []
+}

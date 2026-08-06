@@ -1,0 +1,47 @@
+{
+  "slug": "03-cloudflare-agent-wallets",
+  "count": 4,
+  "images": [
+    {
+      "id": "03-cloudflare-agent-wallets-01",
+      "file": "illustrations/03-cloudflare-agent-wallets/01-03-cloudflare-agent-wallets-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/03-cloudflare-agent-wallets/01-03-cloudflare-agent-wallets-info.jpg",
+      "caption": "今天的AI Agent已经能写计划、",
+      "anchor": "Agent卡住的地方，往往不是智商",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "03-cloudflare-agent-wallets-02",
+      "file": "illustrations/03-cloudflare-agent-wallets/02-03-cloudflare-agent-wallets-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/03-cloudflare-agent-wallets/02-03-cloudflare-agent-wallets-info.jpg",
+      "caption": "对人类用户来说",
+      "anchor": "钱包不是钱，是边界",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "03-cloudflare-agent-wallets-03",
+      "file": "illustrations/03-cloudflare-agent-wallets/03-03-cloudflare-agent-wallets-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/03-cloudflare-agent-wallets/03-03-cloudflare-agent-wallets-info.jpg",
+      "caption": "过去二十年",
+      "anchor": "网站将同时服务人和机器",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "03-cloudflare-agent-wallets-04",
+      "file": "illustrations/03-cloudflare-agent-wallets/04-03-cloudflare-agent-wallets-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/03-cloudflare-agent-wallets/04-03-cloudflare-agent-wallets-info.jpg",
+      "caption": "AI行业喜欢讲AGI和超级智能",
+      "anchor": "真正的互联网变局，可能很朴素",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    }
+  ],
+  "policy": "No political figures, no stocks, no national flags; generated local editorial infographics for deterministic auto mode."
+}

@@ -1,0 +1,52 @@
+{
+  "01-agent-safety-preflight-tests": {
+    "category": "AI 安全 · 运行边界",
+    "main_title": "AI Agent刚学会越狱，白宫就把四大模型厂商叫到桌前：闭源模型要先体检",
+    "sub_title": "",
+    "subtitle_brief": "先进模型发布前，开始像汽车一样做碰撞测试。",
+    "theme": "policy",
+    "kicker": "AI 安全 · 运行边界",
+    "punch": "当AI Agent开始拥有真实系统权限，安全问题就不再是“它会不会说错”，而是“它越界时有没有刹车”。",
+    "comment_cta": "你觉得Agent会先接管哪类任务？评论区聊聊"
+  },
+  "02-anthropic-chip-cost-ledger": {
+    "category": "AI 商业 · 算力账本",
+    "main_title": "Anthropic开始招芯片团队：Claude不只要赢模型，还要抢回算力账本",
+    "sub_title": "",
+    "subtitle_brief": "前沿模型的下半场，写在GPU、电力和推理成本里。",
+    "theme": "business",
+    "kicker": "AI 商业 · 算力账本",
+    "punch": "模型公司越想像软件公司一样扩张，就越必须像硬件公司一样控制成本。",
+    "comment_cta": "你觉得Agent会先接管哪类任务？评论区聊聊"
+  },
+  "03-cloudflare-agent-wallets": {
+    "category": "Agent 经济 · 机器用户",
+    "main_title": "Cloudflare要给AI Agent发钱包：下一个互联网用户，可能不是人",
+    "sub_title": "",
+    "subtitle_brief": "能付款、能限额、能追责，Agent才真正能替人办事。",
+    "theme": "tech",
+    "kicker": "Agent 经济 · 机器用户",
+    "punch": "Agent钱包的本质不是支付，而是给非人用户补一套身份、授权和责任链。",
+    "comment_cta": "你觉得Agent会先接管哪类任务？评论区聊聊"
+  },
+  "04-github-agent-computer-workbench": {
+    "category": "开源趋势 · Agent 工作台",
+    "main_title": "GitHub热榜上，Agent终于有了自己的电脑：从聊天框走向可执行工作台",
+    "sub_title": "",
+    "subtitle_brief": "电脑、记忆、路由、状态机，正在拼成Agent操作系统。",
+    "theme": "frontier",
+    "kicker": "开源趋势 · Agent 工作台",
+    "punch": "下一代AI产品未必先长得像App，它可能先长得像一台给Agent用的电脑。",
+    "comment_cta": "你觉得Agent会先接管哪类任务？评论区聊聊"
+  },
+  "05-gemini-spark-subscription-agent": {
+    "category": "AI 产品 · 订阅分层",
+    "main_title": "Google把Gemini Spark下放给Pro用户：个人Agent开始从奢侈品变成订阅标配",
+    "sub_title": "",
+    "subtitle_brief": "个人Agent的普及，可能先从订阅权益表开始。",
+    "theme": "warm",
+    "kicker": "AI 产品 · 订阅分层",
+    "punch": "当Agent从最高档订阅下放到中档订阅，竞争重点就从模型参数变成日常入口。",
+    "comment_cta": "你觉得Agent会先接管哪类任务？评论区聊聊"
+  }
+}

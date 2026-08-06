@@ -1,0 +1,47 @@
+{
+  "slug": "02-anthropic-chip-cost-ledger",
+  "count": 4,
+  "images": [
+    {
+      "id": "02-anthropic-chip-cost-ledger-01",
+      "file": "illustrations/02-anthropic-chip-cost-ledger/01-02-anthropic-chip-cost-ledger-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/02-anthropic-chip-cost-ledger/01-02-anthropic-chip-cost-ledger-info.jpg",
+      "caption": "Anthropic被报道正在组建内部",
+      "anchor": "为什么一家模型公司突然关心芯片",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "02-anthropic-chip-cost-ledger-02",
+      "file": "illustrations/02-anthropic-chip-cost-ledger/02-02-anthropic-chip-cost-ledger-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/02-anthropic-chip-cost-ledger/02-02-anthropic-chip-cost-ledger-info.jpg",
+      "caption": "AI模型的能力差距越来越小",
+      "anchor": "算力账本，决定AI价格战资格",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "02-anthropic-chip-cost-ledger-03",
+      "file": "illustrations/02-anthropic-chip-cost-ledger/03-02-anthropic-chip-cost-ledger-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/02-anthropic-chip-cost-ledger/03-02-anthropic-chip-cost-ledger-info.jpg",
+      "caption": "Claude的强项一直是长文档、代码",
+      "anchor": "Claude的企业路线，需要硬件配合",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    },
+    {
+      "id": "02-anthropic-chip-cost-ledger-04",
+      "file": "illustrations/02-anthropic-chip-cost-ledger/04-02-anthropic-chip-cost-ledger-info.jpg",
+      "cdn_url": "https://raw.githubusercontent.com/MingweiChen/wechat-articles/main/2026-08/2026-08-06/illustrations/02-anthropic-chip-cost-ledger/04-02-anthropic-chip-cost-ledger-info.jpg",
+      "caption": "公众看到的是模型名、排行榜和发布会",
+      "anchor": "AI竞争的真实边界在数据中心里",
+      "position": "after_heading",
+      "width": "92%",
+      "source": "local infographic fallback after news/source review; no political figures, stocks, flags, or portraits"
+    }
+  ],
+  "policy": "No political figures, no stocks, no national flags; generated local editorial infographics for deterministic auto mode."
+}
