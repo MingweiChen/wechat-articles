@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-08",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "AI Agent刚学会越界，四大模型厂商开始补发布前体检",
+      "review_score": 92,
+      "verdict": "pass",
+      "reason": "热点明确、爆点足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic开始招芯片团队：Claude不只要赢模型，还要抢回算力账本",
+      "review_score": 89,
+      "verdict": "pass",
+      "reason": "热点明确、爆点足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 3,
+      "topic": "Cloudflare要给AI Agent发钱包：下一个互联网用户，可能不是人",
+      "review_score": 87,
+      "verdict": "pass",
+      "reason": "热点明确、爆点足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 4,
+      "topic": "GitHub热榜上，Agent终于有了自己的电脑：从聊天框走向可执行工作台",
+      "review_score": 85,
+      "verdict": "pass",
+      "reason": "热点明确、爆点足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 5,
+      "topic": "Google把Gemini Spark下放给Pro用户：个人Agent开始从奢侈品变成订阅标配",
+      "review_score": 83,
+      "verdict": "pass",
+      "reason": "热点明确、爆点足、合规可控、过去一周未重复同角度。"
+    }
+  ],
+  "redline_killed": [
+    "含中国领导人、涉港台疆藏、魔鬼化叙事、投资荐股的候选直接剔除；外部政治机构叙事在第1题写作阶段改写为安全工程表述。"
+  ]
+}

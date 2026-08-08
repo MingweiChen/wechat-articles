@@ -1,0 +1,53 @@
+{
+  "slug": "03-cloudflare-agent-wallets",
+  "date": "2026-08-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/03-cloudflare-agent-wallets",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-cloudflare-agent-wallets-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/03-cloudflare-agent-wallets/01-03-cloudflare-agent-wallets-infographic.jpg",
+      "caption": "今天的AI Agent已经能写计划、",
+      "anchor": "Agent卡住的地方，往往不是智商",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-cloudflare-agent-wallets-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/03-cloudflare-agent-wallets/02-03-cloudflare-agent-wallets-infographic.jpg",
+      "caption": "对人类用户来说",
+      "anchor": "钱包不是钱，是边界",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-cloudflare-agent-wallets-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/03-cloudflare-agent-wallets/03-03-cloudflare-agent-wallets-infographic.jpg",
+      "caption": "过去二十年",
+      "anchor": "网站将同时服务人和机器",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-cloudflare-agent-wallets-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/03-cloudflare-agent-wallets/04-03-cloudflare-agent-wallets-infographic.jpg",
+      "caption": "AI行业喜欢讲AGI和超级智能",
+      "anchor": "真正的互联网变局，可能很朴素",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

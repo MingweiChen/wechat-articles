@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-08",
+  "auto_mode": true,
+  "dedup_basis": [
+    "过去一周已写主题包含Astra数学证明、Black Hat Agent安全、MindMemOS、Uber Agentic Pods、微软Zero Trust等；本批避开重复，聚焦Agent运行边界、算力账本、机器支付、开源工作台、订阅入口。"
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "AI Agent刚学会越界，四大模型厂商开始补发布前体检",
+      "category": "安全",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
+        "https://sg.finance.yahoo.com/news/meta-anthropic-google-openai-meet-143841029.html"
+      ],
+      "hook": "前沿Agent的风险从“回答不当”升级为“具备网络和工具权限后如何发布前验收”。",
+      "angle": "从模型发布流程工程化切入，弱化外部政治机构，只写安全测试、沙箱、权限和企业部署。",
+      "writing_approach": {
+        "thesis": "当AI Agent开始拥有真实系统权限，安全问题就不再是“它会不会说错”，而是“它越界时有没有刹车”。",
+        "dots": [
+          "不是模型又吵了一架，而是发布流程变了",
+          "为什么“闭源模型体检”会先发生",
+          "企业部署Agent，真正要补的是刹车系统",
+          "真正的拐点：AI开始被当成基础设施验收"
+        ],
+        "counter_intuitive": "表面是单条产品/基础设施新闻，实质是AI从聊天框走向可执行系统。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；第1题已改写为安全工程叙事。"
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic开始招芯片团队：Claude不只要赢模型，还要抢回算力账本",
+      "category": "商业",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.reuters.com/technology/anthropic-launches-opus-5-efficiency-upgrade-2026-07-24/",
+        "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html"
+      ],
+      "hook": "模型能力越来越接近，推理成本、供给稳定和硬件路线图开始决定企业AI价格战资格。",
+      "angle": "从“为什么模型公司突然关心芯片”切入，写算力账本而非股价或个股。",
+      "writing_approach": {
+        "thesis": "模型公司越想像软件公司一样扩张，就越必须像硬件公司一样控制成本。",
+        "dots": [
+          "为什么一家模型公司突然关心芯片",
+          "算力账本，决定AI价格战资格",
+          "Claude的企业路线，需要硬件配合",
+          "AI竞争的真实边界在数据中心里"
+        ],
+        "counter_intuitive": "表面是单条产品/基础设施新闻，实质是AI从聊天框走向可执行系统。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；第1题已改写为安全工程叙事。"
+    },
+    {
+      "rank": 3,
+      "topic": "Cloudflare要给AI Agent发钱包：下一个互联网用户，可能不是人",
+      "category": "技术",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.cloudflare.com/",
+        "https://github.com/trending"
+      ],
+      "hook": "浏览器、支付、身份和额度正在成为Agent进入真实互联网的基础设施。",
+      "angle": "把“Agent支付”写成机器用户的身份、额度、授权和责任链。",
+      "writing_approach": {
+        "thesis": "Agent钱包的本质不是支付，而是给非人用户补一套身份、授权和责任链。",
+        "dots": [
+          "Agent卡住的地方，往往不是智商",
+          "钱包不是钱，是边界",
+          "网站将同时服务人和机器",
+          "真正的互联网变局，可能很朴素"
+        ],
+        "counter_intuitive": "表面是单条产品/基础设施新闻，实质是AI从聊天框走向可执行系统。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "review_score": 87,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；第1题已改写为安全工程叙事。"
+    },
+    {
+      "rank": 4,
+      "topic": "GitHub热榜上，Agent终于有了自己的电脑：从聊天框走向可执行工作台",
+      "category": "开源",
+      "score": 85,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://startupcorners.com/digest/devtools-digest-2026-08-07",
+        "https://orangebot.ai/github-trending-today"
+      ],
+      "hook": "Cloudflare/computer、agent memory、模型路由和长任务状态机同时上榜，说明开发者正在给Agent补工作环境。",
+      "angle": "用GitHub趋势串联Agent从聊天框走向工作台的底层变化。",
+      "writing_approach": {
+        "thesis": "下一代AI产品未必先长得像App，它可能先长得像一台给Agent用的电脑。",
+        "dots": [
+          "热榜的关键词变了",
+          "聊天框是入口，不是终点",
+          "基础设施会比单点应用更先爆发",
+          "开发者正在押注一件事：Agent会常驻"
+        ],
+        "counter_intuitive": "表面是单条产品/基础设施新闻，实质是AI从聊天框走向可执行系统。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "review_score": 85,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；第1题已改写为安全工程叙事。"
+    },
+    {
+      "rank": 5,
+      "topic": "Google把Gemini Spark下放给Pro用户：个人Agent开始从奢侈品变成订阅标配",
+      "category": "产品",
+      "score": 83,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.eweek.com/news/google-io-2026-ai-agents-gemini-search/",
+        "https://www.livemint.com/technology/tech-news/everything-google-announced-at-i-o-2026-including-gemini-omni-new-spark-ai-agent-and-gemini-3-5-flash-11779216646560.html"
+      ],
+      "hook": "Google把个人Agent能力向更低订阅层扩散，说明Agent正在从演示功能变成日常权益。",
+      "angle": "从订阅分层下放写个人Agent的入口战争和普及路径。",
+      "writing_approach": {
+        "thesis": "当Agent从最高档订阅下放到中档订阅，竞争重点就从模型参数变成日常入口。",
+        "dots": [
+          "订阅权益表里，藏着AI普及路线",
+          "聊天模型和常驻Agent，不是同一种产品",
+          "Ultra保留深水区，Pro获得日常Agent",
+          "个人Agent的战争，会发生在默认入口里"
+        ],
+        "counter_intuitive": "表面是单条产品/基础设施新闻，实质是AI从聊天框走向可执行系统。",
+        "why_worth": "读者能看到事件背后的结构变化，而不是只知道又发布了一个新模型或新工具。"
+      },
+      "review_score": 83,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；第1题已改写为安全工程叙事。"
+    }
+  ]
+}

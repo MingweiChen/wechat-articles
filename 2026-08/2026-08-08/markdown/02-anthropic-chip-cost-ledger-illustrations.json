@@ -1,0 +1,53 @@
+{
+  "slug": "02-anthropic-chip-cost-ledger",
+  "date": "2026-08-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/02-anthropic-chip-cost-ledger",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/02-anthropic-chip-cost-ledger/01-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "caption": "Anthropic近期围绕更高效模型",
+      "anchor": "为什么一家模型公司突然关心芯片",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/02-anthropic-chip-cost-ledger/02-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "caption": "当模型差距缩小",
+      "anchor": "算力账本，决定AI价格战资格",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/02-anthropic-chip-cost-ledger/03-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "caption": "Claude的强项一直是长文档、代码",
+      "anchor": "Claude的企业路线，需要硬件配合",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/02-anthropic-chip-cost-ledger/04-02-anthropic-chip-cost-ledger-infographic.jpg",
+      "caption": "公众看到的是模型名、排行榜和发布会",
+      "anchor": "AI竞争的真实边界在数据中心里",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

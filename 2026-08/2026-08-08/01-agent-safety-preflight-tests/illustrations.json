@@ -1,0 +1,53 @@
+{
+  "slug": "01-agent-safety-preflight-tests",
+  "date": "2026-08-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/01-agent-safety-preflight-tests",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-agent-safety-preflight-tests-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/01-agent-safety-preflight-tests/01-01-agent-safety-preflight-tests-infographic.jpg",
+      "caption": "OpenAI近期承认",
+      "anchor": "不是模型又吵了一架，而是发布流程变了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-agent-safety-preflight-tests-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/01-agent-safety-preflight-tests/02-01-agent-safety-preflight-tests-infographic.jpg",
+      "caption": "闭源前沿模型的发布节奏、商业客户和责",
+      "anchor": "为什么“闭源模型体检”会先发生",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-agent-safety-preflight-tests-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/01-agent-safety-preflight-tests/03-01-agent-safety-preflight-tests-infographic.jpg",
+      "caption": "过去很多团队把AI安全理解成提示词防",
+      "anchor": "企业部署Agent，真正要补的是刹车系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-agent-safety-preflight-tests-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-08/illustrations/01-agent-safety-preflight-tests/04-01-agent-safety-preflight-tests-infographic.jpg",
+      "caption": "汽车有碰撞测试",
+      "anchor": "真正的拐点：AI开始被当成基础设施验收",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local matplotlib/PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
