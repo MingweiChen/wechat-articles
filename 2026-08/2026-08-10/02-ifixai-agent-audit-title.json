@@ -1,0 +1,18 @@
+{
+  "title": "iFixAi两分钟审计：Agent先补安全员！",
+  "slug": "iFixAi两分钟审计Agent先补安全员",
+  "char_count": 23,
+  "formula_type": "痛点解决型",
+  "elements": {
+    "brand_or_person": "iFixAi两分钟审计",
+    "impact": "D：Agent真正商业化之前，会先长出一层验收与审计市场；以后每个自动化流程旁边，可能都要配一个专门盯它的安全Agent。"
+  },
+  "pool_check": {
+    "has_number": false,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

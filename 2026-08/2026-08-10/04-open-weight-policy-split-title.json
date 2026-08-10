@@ -1,0 +1,18 @@
+{
+  "title": "开放权重信四巨头同签：Anthropic缺席！",
+  "slug": "开放权重信四巨头同签Anthropic缺席",
+  "char_count": 23,
+  "formula_type": "品牌对决型",
+  "elements": {
+    "brand_or_person": "开放权重信四巨头同签",
+    "impact": "D：开放权重之争本质不是开源对闭源，而是谁承担失控风险、谁获得生态规模、谁掌握客户关系；同一阵营里的公司，利益也并不完全一样。"
+  },
+  "pool_check": {
+    "has_number": false,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

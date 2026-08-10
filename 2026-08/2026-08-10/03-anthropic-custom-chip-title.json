@@ -1,0 +1,18 @@
+{
+  "title": "Anthropic造芯：900万美元机柜逼出新路线！",
+  "slug": "Anthropic造芯900万美元机柜逼出新路线",
+  "char_count": 26,
+  "formula_type": "数字震撼型",
+  "elements": {
+    "brand_or_person": "Anthropic造芯",
+    "impact": "D：前沿AI公司自研芯片不是GPU需求见顶，而是算力需求大到任何单一供应商都不够用；AI基础设施进入多芯片、多云、多合同的风险对冲阶段。"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

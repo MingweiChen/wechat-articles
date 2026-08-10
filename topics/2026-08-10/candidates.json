@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-10",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare computer冲上AI Agent榜首：浏览器不再是人的工具，而是Agent的新工位",
+      "category": "开源",
+      "score": 92,
+      "sources": [
+        "https://gittrend.io/trending/ai-agent",
+        "https://github.com/cloudflare/computer"
+      ],
+      "hook": "GitTrend AI Agent榜单显示，cloudflare/computer单日新增约848星，项目一句话是“Give your agent a computer”。",
+      "angle": "从“让Agent会聊天”切到“给Agent一个可控工作环境”：浏览器自动化、权限、审计和云端运行环境正在成为Agent落地的基础设施。",
+      "slug": "01-cloudflare-computer-agent",
+      "batch_verdict": "pass",
+      "conclusion_D": "D：Agent竞争的焦点正在从模型智商转向执行环境，谁能把浏览器、权限、日志和回滚做成标准件，谁就更接近企业真正愿意交任务的入口。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "thesis": "D：Agent竞争的焦点正在从模型智商转向执行环境，谁能把浏览器、权限、日志和回滚做成标准件，谁就更接近企业真正愿意交任务的入口。",
+        "dots": [
+          "GitTrend AI Agent #1",
+          "单日约+848星",
+          "Cloudflare：Give your agent a computer"
+        ],
+        "axis": "从“让Agent会聊天”切到“给Agent一个可控工作环境”：浏览器自动化、权限、审计和云端运行环境正在成为Agent落地的基础设施。",
+        "why_worth": "有明确新增事实和读者可用判断，避开政治与投资建议。"
+      },
+      "compliance_hint": "无中国政治红线；无个股推荐；涉及公司仅做产业分析。"
+    },
+    {
+      "rank": 2,
+      "topic": "iFixAi登上AI Agent热榜：120秒审计Agent，说明自动化经济开始需要验收员",
+      "category": "安全",
+      "score": 89,
+      "sources": [
+        "https://gittrend.io/trending/ai-agent",
+        "https://github.com/ifixai-ai/iFixAi"
+      ],
+      "hook": "GitTrend显示ifixai-ai/iFixAi单日新增约702星，定位是“Independent Auditing of AI Agents”，目标是在120秒内回答Agent有没有按要求做事。",
+      "angle": "从Agent安全写：当企业开始让Agent执行任务，评价标准不能只看“有没有完成”，还要看“有没有越权、绕路、幻觉、被注入”。",
+      "slug": "02-ifixai-agent-audit",
+      "batch_verdict": "pass",
+      "conclusion_D": "D：Agent真正商业化之前，会先长出一层验收与审计市场；以后每个自动化流程旁边，可能都要配一个专门盯它的安全Agent。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "thesis": "D：Agent真正商业化之前，会先长出一层验收与审计市场；以后每个自动化流程旁边，可能都要配一个专门盯它的安全Agent。",
+        "dots": [
+          "单日约+702星",
+          "120秒审计Agent",
+          "关键词：hallucination detection / prompt injection"
+        ],
+        "axis": "从Agent安全写：当企业开始让Agent执行任务，评价标准不能只看“有没有完成”，还要看“有没有越权、绕路、幻觉、被注入”。",
+        "why_worth": "有明确新增事实和读者可用判断，避开政治与投资建议。"
+      },
+      "compliance_hint": "无中国政治红线；无个股推荐；涉及公司仅做产业分析。"
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic组建自研芯片团队：不是要抛弃英伟达，而是AI算力荒逼出多芯片时代",
+      "category": "商业",
+      "score": 88,
+      "sources": [
+        "https://247wallst.com/investing/2026/08/05/anthropic-is-the-latest-company-that-wants-to-be-an-ai-chipmaker/"
+      ],
+      "hook": "24/7 Wall St 8月5日报道，Anthropic正在建立内部芯片设计团队，同时继续与Nvidia、AMD、AWS、Google Cloud保持合作；报道称Vera Rubin NVL72整柜成本约780万到910万美元。",
+      "angle": "从算力供给写：自研芯片不是单纯替代GPU，而是前沿模型公司为了速度、成本和供应稳定性做的多供应商保险。",
+      "slug": "03-anthropic-custom-chip",
+      "batch_verdict": "pass",
+      "conclusion_D": "D：前沿AI公司自研芯片不是GPU需求见顶，而是算力需求大到任何单一供应商都不够用；AI基础设施进入多芯片、多云、多合同的风险对冲阶段。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "thesis": "D：前沿AI公司自研芯片不是GPU需求见顶，而是算力需求大到任何单一供应商都不够用；AI基础设施进入多芯片、多云、多合同的风险对冲阶段。",
+        "dots": [
+          "8月5日报道",
+          "NVL72机柜约780万-910万美元",
+          "设计先进AI芯片前期成本可达约5亿美元"
+        ],
+        "axis": "从算力供给写：自研芯片不是单纯替代GPU，而是前沿模型公司为了速度、成本和供应稳定性做的多供应商保险。",
+        "why_worth": "有明确新增事实和读者可用判断，避开政治与投资建议。"
+      },
+      "compliance_hint": "无中国政治红线；无个股推荐；涉及公司仅做产业分析。"
+    },
+    {
+      "rank": 4,
+      "topic": "英伟达、Meta、OpenAI、Google同签开放权重信：Anthropic缺席，AI模型路线分裂公开化",
+      "category": "产业",
+      "score": 86,
+      "sources": [
+        "https://www.insidermonkey.com/blog/nvidia-nvda-and-meta-meta-back-open-models-openai-and-anthropics-model-moats-are-at-stake-1805081/"
+      ],
+      "hook": "Insider Monkey 7月28日报道，Nvidia、Meta、OpenAI、Google等支持开放权重政策信，Anthropic未加入。",
+      "angle": "从路线分裂写：开放权重不只是开源情怀，而是硬件需求、生态扩张、客户锁定和安全责任之间的利益再分配。",
+      "slug": "04-open-weight-policy-split",
+      "batch_verdict": "pass",
+      "conclusion_D": "D：开放权重之争本质不是开源对闭源，而是谁承担失控风险、谁获得生态规模、谁掌握客户关系；同一阵营里的公司，利益也并不完全一样。",
+      "explosive_score": 86,
+      "writing_approach": {
+        "thesis": "D：开放权重之争本质不是开源对闭源，而是谁承担失控风险、谁获得生态规模、谁掌握客户关系；同一阵营里的公司，利益也并不完全一样。",
+        "dots": [
+          "7月24日政策信",
+          "7月27日报道OpenAI和Google加入",
+          "Anthropic未加入"
+        ],
+        "axis": "从路线分裂写：开放权重不只是开源情怀，而是硬件需求、生态扩张、客户锁定和安全责任之间的利益再分配。",
+        "why_worth": "有明确新增事实和读者可用判断，避开政治与投资建议。"
+      },
+      "compliance_hint": "无中国政治红线；无个股推荐；涉及公司仅做产业分析。"
+    },
+    {
+      "rank": 5,
+      "topic": "Claude Science上线：Anthropic不造科研模型，而是把60个数据库和实验流程接进工作台",
+      "category": "产品",
+      "score": 84,
+      "sources": [
+        "https://memeburn.com/claude-science-launches-as-anthropic-takes-on-openai-and-google-in-ai-for-science/"
+      ],
+      "hook": "Memeburn报道，Claude Science是面向研究者的AI workbench，整合60多个科学数据库和计算工具，强调可复现、事实检查和本地基础设施。",
+      "angle": "从科研AI竞争写：OpenAI押专用模型，Google押AlphaFold等专有科学资产，Anthropic押工作流和工具连接。",
+      "slug": "05-claude-science-workbench",
+      "batch_verdict": "pass",
+      "conclusion_D": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+      "explosive_score": 84,
+      "writing_approach": {
+        "thesis": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+        "dots": [
+          "60+科学数据库",
+          "面向Claude Pro/Max/Team/Enterprise beta",
+          "药物发现AI市场2026约40亿美元、2035或超250亿美元"
+        ],
+        "axis": "从科研AI竞争写：OpenAI押专用模型，Google押AlphaFold等专有科学资产，Anthropic押工作流和工具连接。",
+        "why_worth": "有明确新增事实和读者可用判断，避开政治与投资建议。"
+      },
+      "compliance_hint": "无中国政治红线；无个股推荐；涉及公司仅做产业分析。"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "任何涉中国领导人/港台疆藏/魔鬼化外政叙事",
+      "reason": "政治绝对红线，选题阶段kill"
+    },
+    {
+      "topic": "个股买卖/目标价/收益预测类AI芯片选题",
+      "reason": "个股推荐风险，选题阶段kill"
+    }
+  ]
+}

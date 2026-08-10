@@ -1,0 +1,47 @@
+{
+  "01-cloudflare-computer-agent": {
+    "category": "开源",
+    "main_title": "Agent电脑848星冲榜",
+    "sub_title": "浏览器成新工位",
+    "subtitle_brief": "Agent要真正干活，第一步不是更会聊天，而是拥有一台可审计、可撤销、可限制权限的“电脑”。",
+    "theme": "frontier",
+    "comment_cta": "你愿意把浏览器操作交给Agent吗？评论区聊聊",
+    "kicker": "开 源 · 技 术 观 察"
+  },
+  "02-ifixai-agent-audit": {
+    "category": "安全",
+    "main_title": "iFixAi两分钟审计",
+    "sub_title": "Agent先补安全员",
+    "subtitle_brief": "Agent越能干，越需要被检查；自动化经济的第一批刚需，可能是验收员而不是老板。",
+    "theme": "policy",
+    "comment_cta": "你觉得Agent审计应该由谁负责？评论区聊聊",
+    "kicker": "安 全 · 风 险 观 察"
+  },
+  "03-anthropic-custom-chip": {
+    "category": "商业",
+    "main_title": "Anthropic造芯",
+    "sub_title": "900万美元机柜逼出新路线",
+    "subtitle_brief": "当一个机柜就接近千万美元，模型公司开始自己画芯片图纸，就不只是技术路线问题了。",
+    "theme": "business",
+    "comment_cta": "AI公司自研芯片会改变算力格局吗？评论区聊聊",
+    "kicker": "商 业 · 算 力 观 察"
+  },
+  "04-open-weight-policy-split": {
+    "category": "产业",
+    "main_title": "开放权重信四巨头同签",
+    "sub_title": "Anthropic缺席",
+    "subtitle_brief": "当OpenAI和Google站到开放权重一边，Anthropic缺席，这场路线之争就不再是口号。",
+    "theme": "industry",
+    "comment_cta": "开放权重和安全边界应该怎么平衡？评论区聊聊",
+    "kicker": "产 业 · 路 线 观 察"
+  },
+  "05-claude-science-workbench": {
+    "category": "产品",
+    "main_title": "Claude科研台接60库",
+    "sub_title": "先抢科学家工作流",
+    "subtitle_brief": "Anthropic没有先发布一个“更懂生物”的新模型，而是把科研流程搬进Claude。",
+    "theme": "tech",
+    "comment_cta": "科研AI更需要专用模型还是工作台？评论区聊聊",
+    "kicker": "科 研 · 产 品 观 察"
+  }
+}

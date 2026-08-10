@@ -1,0 +1,18 @@
+{
+  "title": "Claude科研台接60库：先抢科学家工作流！",
+  "slug": "Claude科研台接60库先抢科学家工作流",
+  "char_count": 23,
+  "formula_type": "数字震撼型",
+  "elements": {
+    "brand_or_person": "Claude科研台接60库",
+    "impact": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

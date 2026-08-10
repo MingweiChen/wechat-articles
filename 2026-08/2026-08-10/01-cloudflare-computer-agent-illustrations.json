@@ -1,0 +1,37 @@
+{
+  "slug": "01-cloudflare-computer-agent",
+  "topic": "Cloudflare computer冲上AI Agent榜首：浏览器不再是人的工具，而是Agent的新工位",
+  "images": [
+    {
+      "file": "01-key-facts.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/01-key-facts.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/01-key-facts.jpg",
+      "caption": "关键信号速览：把热度、落地和风险拆开看",
+      "anchor": "01 这不是浏览器插件，是Agent的工位",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "02-workflow.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/02-workflow.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/02-workflow.jpg",
+      "caption": "从事件到结论D：事实不是终点，换轴才是增量",
+      "anchor": "02 为什么Cloudflare这类基础设施会突然受欢迎",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "03-takeaways.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/03-takeaways.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/01-cloudflare-computer-agent/03-takeaways.jpg",
+      "caption": "读者可以带走什么：三条判断压缩成一张图",
+      "anchor": "03 企业真正怕的不是慢，而是失控",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    }
+  ],
+  "policy": "A/B类信息图；无政治人物、无个股推荐、无国旗；C类AI概念图0张。"
+}

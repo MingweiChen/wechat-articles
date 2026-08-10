@@ -1,0 +1,37 @@
+{
+  "slug": "03-anthropic-custom-chip",
+  "topic": "Anthropic组建自研芯片团队：不是要抛弃英伟达，而是AI算力荒逼出多芯片时代",
+  "images": [
+    {
+      "file": "01-key-facts.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/01-key-facts.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/01-key-facts.jpg",
+      "caption": "关键信号速览：把热度、落地和风险拆开看",
+      "anchor": "01 自研芯片不是背叛供应商",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "02-workflow.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/02-workflow.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/02-workflow.jpg",
+      "caption": "从事件到结论D：事实不是终点，换轴才是增量",
+      "anchor": "02 算力荒把买方逼成了设计方",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "03-takeaways.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/03-takeaways.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/03-anthropic-custom-chip/03-takeaways.jpg",
+      "caption": "读者可以带走什么：三条判断压缩成一张图",
+      "anchor": "03 真正的竞争在软硬件一起优化",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    }
+  ],
+  "policy": "A/B类信息图；无政治人物、无个股推荐、无国旗；C类AI概念图0张。"
+}

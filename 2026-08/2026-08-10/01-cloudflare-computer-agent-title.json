@@ -1,0 +1,18 @@
+{
+  "title": "Agent电脑848星冲榜：浏览器成新工位！",
+  "slug": "Agent电脑848星冲榜浏览器成新工位",
+  "char_count": 22,
+  "formula_type": "权威品牌型",
+  "elements": {
+    "brand_or_person": "Agent电脑848星冲榜",
+    "impact": "D：Agent竞争的焦点正在从模型智商转向执行环境，谁能把浏览器、权限、日志和回滚做成标准件，谁就更接近企业真正愿意交任务的入口。"
+  },
+  "pool_check": {
+    "has_number": true,
+    "has_person_or_brand": true,
+    "ends_with_exclamation": true,
+    "no_question_mark": true,
+    "no_blacklist_words": true,
+    "score": 92
+  }
+}

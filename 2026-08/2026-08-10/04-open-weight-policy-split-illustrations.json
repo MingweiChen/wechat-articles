@@ -1,0 +1,37 @@
+{
+  "slug": "04-open-weight-policy-split",
+  "topic": "英伟达、Meta、OpenAI、Google同签开放权重信：Anthropic缺席，AI模型路线分裂公开化",
+  "images": [
+    {
+      "file": "01-key-facts.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/01-key-facts.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/01-key-facts.jpg",
+      "caption": "关键信号速览：把热度、落地和风险拆开看",
+      "anchor": "01 这封信把分歧摆到了桌面上",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "02-workflow.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/02-workflow.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/02-workflow.jpg",
+      "caption": "从事件到结论D：事实不是终点，换轴才是增量",
+      "anchor": "02 为什么硬件公司天然欢迎开放模型",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    },
+    {
+      "file": "03-takeaways.jpg",
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/03-takeaways.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-10/illustrations/04-open-weight-policy-split/03-takeaways.jpg",
+      "caption": "读者可以带走什么：三条判断压缩成一张图",
+      "anchor": "03 Anthropic为什么更谨慎",
+      "position": "after_heading",
+      "type": "B-infographic",
+      "width": "92%"
+    }
+  ],
+  "policy": "A/B类信息图；无政治人物、无个股推荐、无国旗；C类AI概念图0张。"
+}

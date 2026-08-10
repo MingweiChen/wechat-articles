@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-10",
+  "generated_at_utc": "2026-08-10T01:50:00Z",
+  "items": [
+    {
+      "rank": 1,
+      "score": 92,
+      "title": "Agent电脑848星冲榜：浏览器成新工位！",
+      "slug": "01-cloudflare-computer-agent",
+      "category": "开源",
+      "reason": "D：Agent竞争的焦点正在从模型智商转向执行环境，谁能把浏览器、权限、日志和回滚做成标准件，谁就更接近企业真正愿意交任务的入口。",
+      "illustrations_count": 3
+    },
+    {
+      "rank": 2,
+      "score": 89,
+      "title": "iFixAi两分钟审计：Agent先补安全员！",
+      "slug": "02-ifixai-agent-audit",
+      "category": "安全",
+      "reason": "D：Agent真正商业化之前，会先长出一层验收与审计市场；以后每个自动化流程旁边，可能都要配一个专门盯它的安全Agent。",
+      "illustrations_count": 3
+    },
+    {
+      "rank": 3,
+      "score": 88,
+      "title": "Anthropic造芯：900万美元机柜逼出新路线！",
+      "slug": "03-anthropic-custom-chip",
+      "category": "商业",
+      "reason": "D：前沿AI公司自研芯片不是GPU需求见顶，而是算力需求大到任何单一供应商都不够用；AI基础设施进入多芯片、多云、多合同的风险对冲阶段。",
+      "illustrations_count": 3
+    },
+    {
+      "rank": 4,
+      "score": 86,
+      "title": "开放权重信四巨头同签：Anthropic缺席！",
+      "slug": "04-open-weight-policy-split",
+      "category": "产业",
+      "reason": "D：开放权重之争本质不是开源对闭源，而是谁承担失控风险、谁获得生态规模、谁掌握客户关系；同一阵营里的公司，利益也并不完全一样。",
+      "illustrations_count": 3
+    },
+    {
+      "rank": 5,
+      "score": 84,
+      "title": "Claude科研台接60库：先抢科学家工作流！",
+      "slug": "05-claude-science-workbench",
+      "category": "产品",
+      "reason": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+      "illustrations_count": 3
+    }
+  ]
+}
