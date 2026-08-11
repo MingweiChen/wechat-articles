@@ -1,0 +1,52 @@
+{
+  "01-meta-muse-local-agent": {
+    "category": "模型",
+    "main_title": "Meta开源Muse Glimmer：小模型跑本地Agent，开放权重战火重燃",
+    "sub_title": "",
+    "subtitle_brief": "一块显卡能跑的Agent，正在重新改写企业AI账本。",
+    "theme": "frontier",
+    "kicker": "开放权重 · 本地Agent",
+    "punch": "开放权重真正的价值不是免费，而是把一部分Agent任务从云端账单和数据外流焦虑里解放出来。",
+    "comment_cta": "你觉得这条变化会先影响哪类公司或工作？评论区聊聊"
+  },
+  "02-ai-funding-capital-concentration": {
+    "category": "商业",
+    "main_title": "AI融资4070亿美元却被两家公司吃掉一半：垂直应用正在被资本挤压",
+    "sub_title": "",
+    "subtitle_brief": "钱还在涌入AI，但不是平均流向每一家创业公司。",
+    "theme": "business",
+    "kicker": "AI融资 · 资本集中",
+    "punch": "AI应用公司的窗口不是自然变大，而是在模型巨头和部署公司夹击下变得更窄。",
+    "comment_cta": "你觉得这条变化会先影响哪类公司或工作？评论区聊聊"
+  },
+  "03-orca-coding-agent-fleet": {
+    "category": "开源",
+    "main_title": "GitHub热榜Orca：一台电脑同时跑一队Coding Agent，开发者开始管理“Agent车队”",
+    "sub_title": "",
+    "subtitle_brief": "从一个AI程序员，到一组可调度的开发代理。",
+    "theme": "tech",
+    "kicker": "AI编程 · Agent车队",
+    "punch": "AI编程竞争下一步不是谁会补全代码，而是谁能调度一组Agent稳定交付。",
+    "comment_cta": "你觉得这条变化会先影响哪类公司或工作？评论区聊聊"
+  },
+  "04-claude-science-workbench": {
+    "category": "产品",
+    "main_title": "Claude Science工作台：科研AI第一战不是模型，而是把60个数据库接进流程",
+    "sub_title": "",
+    "subtitle_brief": "科学家缺的不是又一个聊天框，而是能串起数据库、代码和复现实验的桌面。",
+    "theme": "science",
+    "kicker": "科研AI · 工作台",
+    "punch": "科研AI会先在工作流里落地，而不是只靠更强的生物模型赢下全部市场。",
+    "comment_cta": "你觉得这条变化会先影响哪类公司或工作？评论区聊聊"
+  },
+  "05-ai-services-deployment-layer": {
+    "category": "产业",
+    "main_title": "AI价值从模型上移到服务业实施：OpenAI/Anthropic开始派工程师进企业",
+    "sub_title": "",
+    "subtitle_brief": "最难改造的不是软件公司，而是还在纸面流程里的真实经济。",
+    "theme": "warm",
+    "kicker": "AI落地 · 服务业实施",
+    "punch": "AI最先吃掉的不是软件公司，而是把纸面流程直接跳到AI流程的服务业运营层。",
+    "comment_cta": "你觉得这条变化会先影响哪类公司或工作？评论区聊聊"
+  }
+}

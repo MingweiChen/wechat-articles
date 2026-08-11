@@ -1,0 +1,53 @@
+{
+  "slug": "02-ai-funding-capital-concentration",
+  "date": "2026-08-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/02-ai-funding-capital-concentration",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-ai-funding-capital-concentration-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/02-ai-funding-capital-concentration/01-02-ai-funding-capital-concentration-infographic.jpg",
+      "caption": "PitchBook的Q2 2026 AI",
+      "anchor": "AI的钱没有减少，只是越来越偏心",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-ai-funding-capital-concentration-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/02-ai-funding-capital-concentration/02-02-ai-funding-capital-concentration-infographic.jpg",
+      "caption": "报告里更值得注意的是另一组对比",
+      "anchor": "垂直应用交易多，拿到的钱却少",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-ai-funding-capital-concentration-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/02-ai-funding-capital-concentration/03-02-ai-funding-capital-concentration-infographic.jpg",
+      "caption": "更微妙的是",
+      "anchor": "部署公司正在挤压传统SaaS的空间",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-ai-funding-capital-concentration-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/02-ai-funding-capital-concentration/04-02-ai-funding-capital-concentration-infographic.jpg",
+      "caption": "这并不等于应用层没有机会",
+      "anchor": "应用层还怎么活：从产品变成交付系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无旗帜；无抽象发光科幻图。"
+}

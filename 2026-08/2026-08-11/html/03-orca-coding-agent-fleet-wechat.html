@@ -1,0 +1,52 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">AI编程 · Agent车队</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">GitHub热榜Orca：一台电脑同时跑一队Coding Agent，开发者开始管理“Agent车队”</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">从一个AI程序员，到一组可调度的开发代理。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">从一个AI程序员，到一组可调度的开发代理。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">热榜透露的不是一个项目，而是一种新工作法</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/01-03-orca-coding-agent-fleet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去AI编程工具的核心体验很简单</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去AI编程工具的核心体验很简单：你把需求告诉它，它给你补代码、改文件、跑测试。现在开源热榜里的关键词变了：多Agent、工作区隔离、任务调度、CI修复、代码审查、长任务恢复。 这说明开发者已经不满足于“一个AI程序员陪我写代码”。更先进的形态，是一台机器里同时跑多个Agent：一个读需求，一个改后端，一个修前端，一个写测试，一个盯CI。 开发者的角色也变了：不只是写代码的人，而是规划任务、分配工作、审核产物、处理异常的调度员。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">为什么单个Agent不够用了</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/02-03-orca-coding-agent-fleet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">真实软件项目很少是单线程任务</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">真实软件项目很少是单线程任务。一个需求可能牵涉数据库迁移、API改动、前端状态、测试、文档和部署脚本。单个Agent虽然能做，但容易在长上下文里丢线索，或者把不同子任务混在一起。 多Agent编排的意义，是把复杂工作拆成可隔离、可复盘、可回滚的小任务。每个Agent在自己的分支、目录或上下文里行动，最后由人或更高层调度器合并。 这并不是为了炫技，而是为了降低长任务失败成本。一个Agent跑偏，不应该拖垮整条开发链。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">AI编程的护城河，从模型切到工程系统</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/03-03-orca-coding-agent-fleet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">模型能力当然重要</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">模型能力当然重要，但当Claude、Codex、Gemini、Kimi等工具都能写不错的代码，差距就会转向工程系统。 谁能更好地管理worktree，谁能记录每个Agent做了什么，谁能自动重跑测试，谁能在CI失败后定位责任，谁能把改动拆成更容易审查的PR，谁就更接近团队生产环境。 这也是为什么很多开发者关注开源工具：他们不是只想要一个答案，而是想把Agent嵌进自己的仓库、CI和权限体系。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">开发者会从“提示词高手”变成“Agent经理”</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/04-03-orca-coding-agent-fleet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去学AI编程</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去学AI编程，很多人钻研怎么写prompt。接下来更重要的能力可能是怎么拆任务、设边界、验收结果、设计回滚路径。 一个好开发者会知道哪些任务适合交给Agent，哪些必须自己把关；哪些可以并行，哪些必须串行；哪些测试必须先跑，哪些文件绝不能让Agent随便改。 这不是削弱工程师，而是把工程师从局部打字推进到系统设计和质量控制。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">真正的拐点：AI编程从工具变组织形态</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当一个人能调度一队Agent，软件团队的最小单位就会变化。以前是一个工程师配一套IDE，现在可能是一个工程师配一组可复用的开发代理。 这会带来新的问题：代码责任怎么归属？审查标准怎么写？Agent权限怎么控制？团队如何防止自动化把技术债放大？ 但方向已经很清楚：AI编程的下一阶段，不是更会聊天，而是更会协作。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">AI编程竞争下一步不是谁会补全代码，而是谁能调度一组Agent稳定交付。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这条变化会先影响哪类公司或工作？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

@@ -1,0 +1,315 @@
+{
+  "date": "2026-08-11",
+  "generated_at_utc": "2026-08-11T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段排除中国领导人/涉港台疆藏/魔鬼化叙事；未选择外政评论、战争叙事、民族主义动员或个股推荐题材。",
+  "dedup_step_3_5": {
+    "lookback": "2026-08-04..2026-08-10",
+    "result": "与08-08和08-10已写Agent安全、Cloudflare computer、Anthropic芯片、开放权重政策、Claude Science等题材查重；保留同新闻不同角度或更新事实，避免重复标题和论证轴。"
+  },
+  "step_3_6_writing_design": "每篇采用“事实A+事实B→换轴→结论D”结构，优先写基础设施、账本、工作流和运营层，不写股票建议。",
+  "step_3_7_independent_review": {
+    "reviewer": "auto-independent-review",
+    "verdict": "pass",
+    "notes": "5题均有明确来源和产业判断；无政治红线；无个股推荐。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Meta开源Muse Glimmer：小模型跑本地Agent，开放权重战火重燃",
+      "category": "模型",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://money.usnews.com/investing/news/articles/2026-08-10/meta-launches-new-ai-model-as-zuckerberg-champions-open-weight-push",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "Reuters 8月10日报道，Meta发布Muse Glimmer，目标是在单张显卡的Mac或PC上运行Agent任务，并继续押注开放权重路线。",
+      "angle": "从“开源情怀”转成“本地Agent经济学”：成本、隐私、可定制和企业可控性。",
+      "conclusion_D": "D：开放权重之争不是谁更慷慨，而是谁能把Agent从昂贵云推理、供应商锁定和数据外流焦虑中解放出一部分。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "thesis": "D：开放权重之争不是谁更慷慨，而是谁能把Agent从昂贵云推理、供应商锁定和数据外流焦虑中解放出一部分。",
+        "dots": [
+          "这次Meta押的不是最大模型，而是能落地的模型",
+          "开放权重的卖点，开始从“理念”变成“账本”",
+          "真正被改变的，是Agent部署方式",
+          "开放和闭源的路线，会变成分工而不是二选一"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 2,
+      "topic": "AI融资4070亿美元却被两家公司吃掉一半：垂直应用正在被资本挤压",
+      "category": "商业",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/half-ais-record-407b-went-213446785.html"
+      ],
+      "hook": "PitchBook Q2 2026 AI Report显示，2026年上半年AI创业公司融资超过4070亿美元，其中OpenAI和Anthropic合计拿走约2170亿美元。",
+      "angle": "用资金流向解释：模型层越来越集中，应用层交易数多但拿钱少，垂直AI创业需要新护城河。",
+      "conclusion_D": "D：AI应用层不是没机会，而是不能只做“套壳前端”；真正能活下来的，是掌握场景数据、交付能力和工作流入口的团队。",
+      "explosive_score": 90,
+      "writing_approach": {
+        "thesis": "D：AI应用层不是没机会，而是不能只做“套壳前端”；真正能活下来的，是掌握场景数据、交付能力和工作流入口的团队。",
+        "dots": [
+          "AI的钱没有减少，只是越来越偏心",
+          "垂直应用交易多，拿到的钱却少",
+          "部署公司正在挤压传统SaaS的空间",
+          "应用层还怎么活：从产品变成交付系统",
+          "这轮AI融资，给创业者的提醒很冷静"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 3,
+      "topic": "GitHub热榜Orca：一台电脑同时跑一队Coding Agent，开发者开始管理“Agent车队”",
+      "category": "开源",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/mb-mal/awesome-ai-agents-frameworks",
+        "https://github.com/PurpleHaze2320/coding-agent-heat-index",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "近期GitHub AI Agent榜单里，多Agent、coding CLI、agent framework和工作流编排项目持续高频出现，说明开发者开始从单Agent转向Agent车队管理。",
+      "angle": "用开源趋势写AI编程从“聊天式结对”进入“多Agent调度、隔离工作区、CI修复、审查闭环”。",
+      "conclusion_D": "D：未来的AI开发工具会更像一个调度台，而不是一个聊天框；开发者管理的对象从代码片段变成一队可并行执行的Agent。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "thesis": "D：未来的AI开发工具会更像一个调度台，而不是一个聊天框；开发者管理的对象从代码片段变成一队可并行执行的Agent。",
+        "dots": [
+          "热榜透露的不是一个项目，而是一种新工作法",
+          "为什么单个Agent不够用了",
+          "AI编程的护城河，从模型切到工程系统",
+          "开发者会从“提示词高手”变成“Agent经理”",
+          "真正的拐点：AI编程从工具变组织形态"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 4,
+      "topic": "Claude Science工作台：科研AI第一战不是模型，而是把60个数据库接进流程",
+      "category": "产品",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://memeburn.com/claude-science-launches-as-anthropic-takes-on-openai-and-google-in-ai-for-science/"
+      ],
+      "hook": "Claude Science整合60多个科学数据库、计算工具和研究流程，强调可复现、事实检查和本地基础设施。",
+      "angle": "对比三条路线：OpenAI押专用模型，Google押AlphaFold等专有科学资产，Anthropic押工作流连接。",
+      "conclusion_D": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+      "explosive_score": 86,
+      "writing_approach": {
+        "thesis": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+        "dots": [
+          "Claude Science不是新模型，而是新桌面",
+          "科研AI有三条完全不同的路线",
+          "为什么工作流比单次问答更重要",
+          "企业科研客户买的是流程确定性",
+          "科研AI不会只有一个赢家"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 5,
+      "topic": "AI价值从模型上移到服务业实施：OpenAI/Anthropic开始派工程师进企业",
+      "category": "产业",
+      "score": 84,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.forbes.com/sites/gelilabekele/2026/08/05/ai-value-creation-moves-to-services/"
+      ],
+      "hook": "Forbes 8月5日文章指出，Anthropic和OpenAI都在通过部署公司/前线工程师，把AI系统嵌入中型企业和服务业流程。",
+      "angle": "从API产品走向forward-deployed工程师：AI真正创造价值的位置，可能在排班、报价、客服、维修、质检等运营层。",
+      "conclusion_D": "D：下一轮AI回报不只属于模型API，而属于能把AI塞进服务业运营细节的人；谁能把纸质记录和经验规则变成可执行流程，谁就拿到真实价值。",
+      "explosive_score": 84,
+      "writing_approach": {
+        "thesis": "D：下一轮AI回报不只属于模型API，而属于能把AI塞进服务业运营细节的人；谁能把纸质记录和经验规则变成可执行流程，谁就拿到真实价值。",
+        "dots": [
+          "AI巨头开始做一件不那么“软件”的事",
+          "服务业的“模拟折扣”，正在被AI压缩",
+          "真正的AI价值，藏在运营层",
+          "为什么“派工程师进企业”会重新流行",
+          "模型公司的终局，可能更像“AI施工队”"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 84,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "Meta开源Muse Glimmer：小模型跑本地Agent，开放权重战火重燃",
+      "category": "模型",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://money.usnews.com/investing/news/articles/2026-08-10/meta-launches-new-ai-model-as-zuckerberg-champions-open-weight-push",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "Reuters 8月10日报道，Meta发布Muse Glimmer，目标是在单张显卡的Mac或PC上运行Agent任务，并继续押注开放权重路线。",
+      "angle": "从“开源情怀”转成“本地Agent经济学”：成本、隐私、可定制和企业可控性。",
+      "conclusion_D": "D：开放权重之争不是谁更慷慨，而是谁能把Agent从昂贵云推理、供应商锁定和数据外流焦虑中解放出一部分。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "thesis": "D：开放权重之争不是谁更慷慨，而是谁能把Agent从昂贵云推理、供应商锁定和数据外流焦虑中解放出一部分。",
+        "dots": [
+          "这次Meta押的不是最大模型，而是能落地的模型",
+          "开放权重的卖点，开始从“理念”变成“账本”",
+          "真正被改变的，是Agent部署方式",
+          "开放和闭源的路线，会变成分工而不是二选一"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 2,
+      "topic": "AI融资4070亿美元却被两家公司吃掉一半：垂直应用正在被资本挤压",
+      "category": "商业",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/half-ais-record-407b-went-213446785.html"
+      ],
+      "hook": "PitchBook Q2 2026 AI Report显示，2026年上半年AI创业公司融资超过4070亿美元，其中OpenAI和Anthropic合计拿走约2170亿美元。",
+      "angle": "用资金流向解释：模型层越来越集中，应用层交易数多但拿钱少，垂直AI创业需要新护城河。",
+      "conclusion_D": "D：AI应用层不是没机会，而是不能只做“套壳前端”；真正能活下来的，是掌握场景数据、交付能力和工作流入口的团队。",
+      "explosive_score": 90,
+      "writing_approach": {
+        "thesis": "D：AI应用层不是没机会，而是不能只做“套壳前端”；真正能活下来的，是掌握场景数据、交付能力和工作流入口的团队。",
+        "dots": [
+          "AI的钱没有减少，只是越来越偏心",
+          "垂直应用交易多，拿到的钱却少",
+          "部署公司正在挤压传统SaaS的空间",
+          "应用层还怎么活：从产品变成交付系统",
+          "这轮AI融资，给创业者的提醒很冷静"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 3,
+      "topic": "GitHub热榜Orca：一台电脑同时跑一队Coding Agent，开发者开始管理“Agent车队”",
+      "category": "开源",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/mb-mal/awesome-ai-agents-frameworks",
+        "https://github.com/PurpleHaze2320/coding-agent-heat-index",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "近期GitHub AI Agent榜单里，多Agent、coding CLI、agent framework和工作流编排项目持续高频出现，说明开发者开始从单Agent转向Agent车队管理。",
+      "angle": "用开源趋势写AI编程从“聊天式结对”进入“多Agent调度、隔离工作区、CI修复、审查闭环”。",
+      "conclusion_D": "D：未来的AI开发工具会更像一个调度台，而不是一个聊天框；开发者管理的对象从代码片段变成一队可并行执行的Agent。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "thesis": "D：未来的AI开发工具会更像一个调度台，而不是一个聊天框；开发者管理的对象从代码片段变成一队可并行执行的Agent。",
+        "dots": [
+          "热榜透露的不是一个项目，而是一种新工作法",
+          "为什么单个Agent不够用了",
+          "AI编程的护城河，从模型切到工程系统",
+          "开发者会从“提示词高手”变成“Agent经理”",
+          "真正的拐点：AI编程从工具变组织形态"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 4,
+      "topic": "Claude Science工作台：科研AI第一战不是模型，而是把60个数据库接进流程",
+      "category": "产品",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://memeburn.com/claude-science-launches-as-anthropic-takes-on-openai-and-google-in-ai-for-science/"
+      ],
+      "hook": "Claude Science整合60多个科学数据库、计算工具和研究流程，强调可复现、事实检查和本地基础设施。",
+      "angle": "对比三条路线：OpenAI押专用模型，Google押AlphaFold等专有科学资产，Anthropic押工作流连接。",
+      "conclusion_D": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+      "explosive_score": 86,
+      "writing_approach": {
+        "thesis": "D：科研AI的第一战不一定是“谁的生物模型更强”，而是谁能进入科学家的日常流程，把数据库、代码、集群、引用和复现实验串成一个工作台。",
+        "dots": [
+          "Claude Science不是新模型，而是新桌面",
+          "科研AI有三条完全不同的路线",
+          "为什么工作流比单次问答更重要",
+          "企业科研客户买的是流程确定性",
+          "科研AI不会只有一个赢家"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    },
+    {
+      "rank": 5,
+      "topic": "AI价值从模型上移到服务业实施：OpenAI/Anthropic开始派工程师进企业",
+      "category": "产业",
+      "score": 84,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.forbes.com/sites/gelilabekele/2026/08/05/ai-value-creation-moves-to-services/"
+      ],
+      "hook": "Forbes 8月5日文章指出，Anthropic和OpenAI都在通过部署公司/前线工程师，把AI系统嵌入中型企业和服务业流程。",
+      "angle": "从API产品走向forward-deployed工程师：AI真正创造价值的位置，可能在排班、报价、客服、维修、质检等运营层。",
+      "conclusion_D": "D：下一轮AI回报不只属于模型API，而属于能把AI塞进服务业运营细节的人；谁能把纸质记录和经验规则变成可执行流程，谁就拿到真实价值。",
+      "explosive_score": 84,
+      "writing_approach": {
+        "thesis": "D：下一轮AI回报不只属于模型API，而属于能把AI塞进服务业运营细节的人；谁能把纸质记录和经验规则变成可执行流程，谁就拿到真实价值。",
+        "dots": [
+          "AI巨头开始做一件不那么“软件”的事",
+          "服务业的“模拟折扣”，正在被AI压缩",
+          "真正的AI价值，藏在运营层",
+          "为什么“派工程师进企业”会重新流行",
+          "模型公司的终局，可能更像“AI施工队”"
+        ],
+        "counter_intuitive": "表面是单条公司/开源/产品新闻，实质是AI从模型竞争转向部署、账本、工作流和运营层。",
+        "why_worth": "读者能看到事件背后的结构变化，不只是知道某家公司又发了一个功能。"
+      },
+      "review_score": 84,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；公司与资本话题仅作产业分析。"
+    }
+  ]
+}

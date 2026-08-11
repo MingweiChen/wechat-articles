@@ -1,0 +1,53 @@
+{
+  "slug": "05-ai-services-deployment-layer",
+  "date": "2026-08-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/05-ai-services-deployment-layer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-ai-services-deployment-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/05-ai-services-deployment-layer/01-05-ai-services-deployment-layer-infographic.jpg",
+      "caption": "过去大家理解AI公司",
+      "anchor": "AI巨头开始做一件不那么“软件”的事",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-ai-services-deployment-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/05-ai-services-deployment-layer/02-05-ai-services-deployment-layer-infographic.jpg",
+      "caption": "许多服务业公司长期存在一种隐形折扣",
+      "anchor": "服务业的“模拟折扣”，正在被AI压缩",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-ai-services-deployment-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/05-ai-services-deployment-layer/03-05-ai-services-deployment-layer-infographic.jpg",
+      "caption": "很多人讨论AI时盯着写文章、写代码、画图",
+      "anchor": "真正的AI价值，藏在运营层",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-ai-services-deployment-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/05-ai-services-deployment-layer/04-05-ai-services-deployment-layer-infographic.jpg",
+      "caption": "纯SaaS喜欢标准化",
+      "anchor": "为什么“派工程师进企业”会重新流行",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无旗帜；无抽象发光科幻图。"
+}

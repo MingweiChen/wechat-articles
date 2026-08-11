@@ -1,0 +1,53 @@
+{
+  "slug": "04-claude-science-workbench",
+  "date": "2026-08-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/04-claude-science-workbench",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-claude-science-workbench-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/04-claude-science-workbench/01-04-claude-science-workbench-infographic.jpg",
+      "caption": "Claude Science的定位很有意",
+      "anchor": "Claude Science不是新模型，而是新桌面",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-claude-science-workbench-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/04-claude-science-workbench/02-04-claude-science-workbench-infographic.jpg",
+      "caption": "OpenAI更像在押专用模型",
+      "anchor": "科研AI有三条完全不同的路线",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-claude-science-workbench-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/04-claude-science-workbench/03-04-claude-science-workbench-infographic.jpg",
+      "caption": "科研最怕的是不可复现和引用错误",
+      "anchor": "为什么工作流比单次问答更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-claude-science-workbench-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/04-claude-science-workbench/04-04-claude-science-workbench-infographic.jpg",
+      "caption": "药企、材料公司、实验室和高校不会只因为一",
+      "anchor": "企业科研客户买的是流程确定性",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无旗帜；无抽象发光科幻图。"
+}

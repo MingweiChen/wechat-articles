@@ -1,0 +1,53 @@
+{
+  "slug": "01-meta-muse-local-agent",
+  "date": "2026-08-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/01-meta-muse-local-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-meta-muse-local-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/01-meta-muse-local-agent/01-01-meta-muse-local-agent-infographic.jpg",
+      "caption": "8月10日",
+      "anchor": "这次Meta押的不是最大模型，而是能落地的模型",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-meta-muse-local-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/01-meta-muse-local-agent/02-01-meta-muse-local-agent-infographic.jpg",
+      "caption": "开放权重过去常被讲成技术社区的价值观",
+      "anchor": "开放权重的卖点，开始从“理念”变成“账本”",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-meta-muse-local-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/01-meta-muse-local-agent/03-01-meta-muse-local-agent-infographic.jpg",
+      "caption": "Agent不是聊天机器人",
+      "anchor": "真正被改变的，是Agent部署方式",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-meta-muse-local-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/01-meta-muse-local-agent/04-01-meta-muse-local-agent-infographic.jpg",
+      "caption": "未来企业AI栈大概率不是单一模型吃天下",
+      "anchor": "开放和闭源的路线，会变成分工而不是二选一",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无旗帜；无抽象发光科幻图。"
+}

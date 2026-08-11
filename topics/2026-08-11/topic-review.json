@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-11",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Meta开源Muse Glimmer：小模型跑本地Agent，开放权重战火重燃",
+      "review_score": 92,
+      "verdict": "pass",
+      "reason": "热点明确、事实来源可查、爆点数字充足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 2,
+      "topic": "AI融资4070亿美元却被两家公司吃掉一半：垂直应用正在被资本挤压",
+      "review_score": 90,
+      "verdict": "pass",
+      "reason": "热点明确、事实来源可查、爆点数字充足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 3,
+      "topic": "GitHub热榜Orca：一台电脑同时跑一队Coding Agent，开发者开始管理“Agent车队”",
+      "review_score": 88,
+      "verdict": "pass",
+      "reason": "热点明确、事实来源可查、爆点数字充足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 4,
+      "topic": "Claude Science工作台：科研AI第一战不是模型，而是把60个数据库接进流程",
+      "review_score": 86,
+      "verdict": "pass",
+      "reason": "热点明确、事实来源可查、爆点数字充足、合规可控、过去一周未重复同角度。"
+    },
+    {
+      "rank": 5,
+      "topic": "AI价值从模型上移到服务业实施：OpenAI/Anthropic开始派工程师进企业",
+      "review_score": 84,
+      "verdict": "pass",
+      "reason": "热点明确、事实来源可查、爆点数字充足、合规可控、过去一周未重复同角度。"
+    }
+  ],
+  "redline_killed": [
+    "政治绝对红线候选、外政魔鬼化叙事、个股推荐类候选已直接剔除；本批无重写前红线命中。"
+  ]
+}

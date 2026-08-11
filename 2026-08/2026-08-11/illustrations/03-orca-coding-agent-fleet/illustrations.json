@@ -1,0 +1,53 @@
+{
+  "slug": "03-orca-coding-agent-fleet",
+  "date": "2026-08-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-orca-coding-agent-fleet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/01-03-orca-coding-agent-fleet-infographic.jpg",
+      "caption": "过去AI编程工具的核心体验很简单",
+      "anchor": "热榜透露的不是一个项目，而是一种新工作法",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-orca-coding-agent-fleet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/02-03-orca-coding-agent-fleet-infographic.jpg",
+      "caption": "真实软件项目很少是单线程任务",
+      "anchor": "为什么单个Agent不够用了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-orca-coding-agent-fleet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/03-03-orca-coding-agent-fleet-infographic.jpg",
+      "caption": "模型能力当然重要",
+      "anchor": "AI编程的护城河，从模型切到工程系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-orca-coding-agent-fleet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-11/illustrations/03-orca-coding-agent-fleet/04-03-orca-coding-agent-fleet-infographic.jpg",
+      "caption": "过去学AI编程",
+      "anchor": "开发者会从“提示词高手”变成“Agent经理”",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无旗帜；无抽象发光科幻图。"
+}
