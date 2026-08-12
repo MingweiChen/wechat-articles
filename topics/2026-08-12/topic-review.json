@@ -26,12 +26,12 @@
     },
     {
       "rank": 3,
-      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
-      "virality": 8.8,
+      "topic": "agent-skills冲上热榜：Agent能力开始从提示词，变成可版本化技能包",
+      "virality": 8.7,
       "dedup": 9,
       "originality": 9,
       "title_pool": 9,
-      "score": 88,
+      "score": 87,
       "verdict": "pass",
       "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
     },
@@ -48,12 +48,12 @@
     },
     {
       "rank": 5,
-      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
-      "virality": 8.4,
+      "topic": "DeepTutor登上AI Agent热榜：AI教育从答题助手，走向长期私人导师",
+      "virality": 8.5,
       "dedup": 9,
       "originality": 8.5,
       "title_pool": 9,
-      "score": 84,
+      "score": 85,
       "verdict": "pass",
       "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
     }

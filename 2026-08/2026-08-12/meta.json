@@ -19,14 +19,14 @@
     "punch": "Agent角色的价值不在名字多酷，而在它把企业里的分工、交接和验收写成了可运行脚本。",
     "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
   },
-  "03-paperclip-agent-management-console": {
-    "category": "产品",
-    "main_title": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
+  "03-agent-skills-versioned-workflows": {
+    "category": "开源",
+    "main_title": "agent-skills冲上热榜：Agent能力开始从提示词，变成可版本化技能包",
     "sub_title": "",
-    "subtitle_brief": "问题不再是有没有Agent，而是谁来管这一群Agent。",
+    "subtitle_brief": "未来团队复用的不是一段神奇提示词，而是一套能安装、能审查、能升级的技能。",
     "theme": "frontier",
-    "kicker": "Agent管理台 · 工作入口",
-    "punch": "Agent数量一多，真正的入口就不是聊天框，而是任务、权限、日志和结果验收的管理台。",
+    "kicker": "Agent Skills · 能力工程",
+    "punch": "当Agent能力被打包成技能，AI工具的竞争就从谁会聊天，转向谁能沉淀可复用的工作方法。",
     "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
   },
   "04-openmontage-agentic-video-pipeline": {
@@ -39,14 +39,14 @@
     "punch": "AI视频商业化的关键，不是某个模型会动，而是脚本、分镜、素材、配音、剪辑和返工能不能串成生产线。",
     "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
   },
-  "05-semantica-accountable-context": {
-    "category": "基础设施",
-    "main_title": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
+  "05-deeptutor-personalized-learning": {
+    "category": "教育",
+    "main_title": "DeepTutor登上AI Agent热榜：AI教育从答题助手，走向长期私人导师",
     "sub_title": "",
-    "subtitle_brief": "企业不缺把资料塞进模型的办法，缺的是知道模型为什么这样答。",
+    "subtitle_brief": "教育AI最难的不是答对一道题，而是记住一个学生怎么学会。",
     "theme": "science",
-    "kicker": "上下文工程 · 可追责AI",
-    "punch": "RAG解决的是“找得到资料”，可追责上下文解决的是“答错时能不能查清责任链”。",
+    "kicker": "AI教育 · 个性化导师",
+    "punch": "真正的AI导师不是答案机器，而是能长期跟踪薄弱点、节奏和反馈的学习系统。",
     "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
   }
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "05-deeptutor-personalized-learning",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-deeptutor-personalized-learning",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-deeptutor-personalized-learning-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-deeptutor-personalized-learning/01-05-deeptutor-personalized-learning-infographic.jpg",
+      "caption": "很多人第一次接触教育AI",
+      "anchor": "教育AI最容易做成答案机器",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-deeptutor-personalized-learning-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-deeptutor-personalized-learning/02-05-deeptutor-personalized-learning-infographic.jpg",
+      "caption": "一个真正有用的导师",
+      "anchor": "长期画像比单次能力更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-deeptutor-personalized-learning-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-deeptutor-personalized-learning/03-05-deeptutor-personalized-learning-infographic.jpg",
+      "caption": "学习不是越快越好",
+      "anchor": "个性化教育的难点，是节奏",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-deeptutor-personalized-learning-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-deeptutor-personalized-learning/04-05-deeptutor-personalized-learning-infographic.jpg",
+      "caption": "未来的AI教育产品如果只会答题",
+      "anchor": "教育Agent的价值，会在反馈闭环里显现",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

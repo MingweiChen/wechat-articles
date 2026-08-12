@@ -87,33 +87,32 @@
     },
     {
       "rank": 3,
-      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
-      "category": "产品",
-      "score": 88,
+      "topic": "agent-skills冲上热榜：Agent能力开始从提示词，变成可版本化技能包",
+      "category": "开源",
+      "score": 87,
       "batch_verdict": "pass",
       "sources": [
         "https://github.com/trending",
-        "https://trendingrepo.com/categories/ai-agents",
         "https://gittrend.io/weekly/2026-W33"
       ],
-      "hook": "GitHub Trending里paperclipai/paperclip定位为“manage agents at work”的开源应用，说明Agent生态开始从单工具竞争转向管理层竞争。",
-      "angle": "从“Agent工具”换轴到“Agent操作系统”：任务队列、权限、日志、审计、交付物。",
-      "conclusion_D": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
-      "explosive_score": 88,
+      "hook": "GitHub Trending显示，addyosmani/agent-skills以production-grade engineering skills for AI coding agents进入热榜，技能包正在成为Agent生态的新接口。",
+      "angle": "从prompt工程换轴到skill工程：能力被版本化、文件化、可审查、可迁移。",
+      "conclusion_D": "D：Agent真正进入生产后，团队不会只分享提示词，而会分享可版本化的技能包；这会把个人经验变成组织资产。",
+      "explosive_score": 87,
       "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
       "writing_approach": {
         "increment_path": "换轴",
-        "thesis": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+        "thesis": "D：Agent真正进入生产后，团队不会只分享提示词，而会分享可版本化的技能包；这会把个人经验变成组织资产。",
         "dots": [
-          "当你有十个Agent，聊天框就不够用了",
-          "Agent管理台解决的是信任问题",
-          "浏览器曾经管理网页，Agent台会管理工作"
+          "提示词正在变成不够用的交付形态",
+          "技能包的价值，是把经验变成资产",
+          "Agent生态需要一个共同的能力层"
         ],
         "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
         "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
         "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
       },
-      "review_score": 88,
+      "review_score": 87,
       "review_verdict": "pass",
       "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
     },
@@ -150,32 +149,32 @@
     },
     {
       "rank": 5,
-      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
-      "category": "基础设施",
-      "score": 84,
+      "topic": "DeepTutor登上AI Agent热榜：AI教育从答题助手，走向长期私人导师",
+      "category": "教育",
+      "score": 85,
       "batch_verdict": "pass",
       "sources": [
-        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent",
         "https://github.com/trending"
       ],
-      "hook": "GitTrend Week 33中semantica-agi/semantica以Graph-Native Infrastructure for Context and Accountable AI Systems进入前列。",
-      "angle": "从RAG热潮换轴到企业治理：上下文来源、关系、版本、责任链、审计。",
-      "conclusion_D": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
-      "explosive_score": 84,
+      "hook": "GitHub与GitTrend AI Agent榜单中DeepTutor持续出现，定位为lifelong personalized tutoring，说明教育Agent正在从单次问答转向长期学习陪伴。",
+      "angle": "从“帮你解题”换轴到“长期学习模型”：记忆、诊断、反馈、复习节奏。",
+      "conclusion_D": "D：AI教育的关键不是更快给答案，而是能不能围绕一个学生建立长期学习画像，把错误、节奏和复习路径持续闭环。",
+      "explosive_score": 85,
       "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
       "writing_approach": {
         "increment_path": "换轴",
-        "thesis": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+        "thesis": "D：AI教育的关键不是更快给答案，而是能不能围绕一个学生建立长期学习画像，把错误、节奏和复习路径持续闭环。",
         "dots": [
-          "RAG热了一年，企业开始问更难的问题",
-          "向量相似不等于业务正确",
-          "可追责，比准确率更接近企业采购语言"
+          "教育AI最容易做成答案机器",
+          "长期画像比单次能力更重要",
+          "个性化教育的难点，是节奏"
         ],
         "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
         "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
         "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
       },
-      "review_score": 84,
+      "review_score": 85,
       "review_verdict": "pass",
       "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
     }
@@ -247,33 +246,32 @@
     },
     {
       "rank": 3,
-      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
-      "category": "产品",
-      "score": 88,
+      "topic": "agent-skills冲上热榜：Agent能力开始从提示词，变成可版本化技能包",
+      "category": "开源",
+      "score": 87,
       "batch_verdict": "pass",
       "sources": [
         "https://github.com/trending",
-        "https://trendingrepo.com/categories/ai-agents",
         "https://gittrend.io/weekly/2026-W33"
       ],
-      "hook": "GitHub Trending里paperclipai/paperclip定位为“manage agents at work”的开源应用，说明Agent生态开始从单工具竞争转向管理层竞争。",
-      "angle": "从“Agent工具”换轴到“Agent操作系统”：任务队列、权限、日志、审计、交付物。",
-      "conclusion_D": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
-      "explosive_score": 88,
+      "hook": "GitHub Trending显示，addyosmani/agent-skills以production-grade engineering skills for AI coding agents进入热榜，技能包正在成为Agent生态的新接口。",
+      "angle": "从prompt工程换轴到skill工程：能力被版本化、文件化、可审查、可迁移。",
+      "conclusion_D": "D：Agent真正进入生产后，团队不会只分享提示词，而会分享可版本化的技能包；这会把个人经验变成组织资产。",
+      "explosive_score": 87,
       "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
       "writing_approach": {
         "increment_path": "换轴",
-        "thesis": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+        "thesis": "D：Agent真正进入生产后，团队不会只分享提示词，而会分享可版本化的技能包；这会把个人经验变成组织资产。",
         "dots": [
-          "当你有十个Agent，聊天框就不够用了",
-          "Agent管理台解决的是信任问题",
-          "浏览器曾经管理网页，Agent台会管理工作"
+          "提示词正在变成不够用的交付形态",
+          "技能包的价值，是把经验变成资产",
+          "Agent生态需要一个共同的能力层"
         ],
         "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
         "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
         "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
       },
-      "review_score": 88,
+      "review_score": 87,
       "review_verdict": "pass",
       "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
     },
@@ -310,32 +308,32 @@
     },
     {
       "rank": 5,
-      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
-      "category": "基础设施",
-      "score": 84,
+      "topic": "DeepTutor登上AI Agent热榜：AI教育从答题助手，走向长期私人导师",
+      "category": "教育",
+      "score": 85,
       "batch_verdict": "pass",
       "sources": [
-        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent",
         "https://github.com/trending"
       ],
-      "hook": "GitTrend Week 33中semantica-agi/semantica以Graph-Native Infrastructure for Context and Accountable AI Systems进入前列。",
-      "angle": "从RAG热潮换轴到企业治理：上下文来源、关系、版本、责任链、审计。",
-      "conclusion_D": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
-      "explosive_score": 84,
+      "hook": "GitHub与GitTrend AI Agent榜单中DeepTutor持续出现，定位为lifelong personalized tutoring，说明教育Agent正在从单次问答转向长期学习陪伴。",
+      "angle": "从“帮你解题”换轴到“长期学习模型”：记忆、诊断、反馈、复习节奏。",
+      "conclusion_D": "D：AI教育的关键不是更快给答案，而是能不能围绕一个学生建立长期学习画像，把错误、节奏和复习路径持续闭环。",
+      "explosive_score": 85,
       "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
       "writing_approach": {
         "increment_path": "换轴",
-        "thesis": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+        "thesis": "D：AI教育的关键不是更快给答案，而是能不能围绕一个学生建立长期学习画像，把错误、节奏和复习路径持续闭环。",
         "dots": [
-          "RAG热了一年，企业开始问更难的问题",
-          "向量相似不等于业务正确",
-          "可追责，比准确率更接近企业采购语言"
+          "教育AI最容易做成答案机器",
+          "长期画像比单次能力更重要",
+          "个性化教育的难点，是节奏"
         ],
         "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
         "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
         "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
       },
-      "review_score": 84,
+      "review_score": 85,
       "review_verdict": "pass",
       "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
     }

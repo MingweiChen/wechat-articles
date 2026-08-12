@@ -1,0 +1,53 @@
+{
+  "slug": "03-agent-skills-versioned-workflows",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-agent-skills-versioned-workflows",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-agent-skills-versioned-workflows-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-agent-skills-versioned-workflows/01-03-agent-skills-versioned-workflows-infographic.jpg",
+      "caption": "过去使用Agent",
+      "anchor": "提示词正在变成不够用的交付形态",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-agent-skills-versioned-workflows-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-agent-skills-versioned-workflows/02-03-agent-skills-versioned-workflows-infographic.jpg",
+      "caption": "一个好的技能包不只是几句指令",
+      "anchor": "技能包的价值，是把经验变成资产",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-agent-skills-versioned-workflows-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-agent-skills-versioned-workflows/03-03-agent-skills-versioned-workflows-infographic.jpg",
+      "caption": "不同Agent工具之间",
+      "anchor": "Agent生态需要一个共同的能力层",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-agent-skills-versioned-workflows-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-agent-skills-versioned-workflows/04-03-agent-skills-versioned-workflows-infographic.jpg",
+      "caption": "模型厂商当然还会继续卷能力",
+      "anchor": "下一步竞争，是谁拥有更好的技能库",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
