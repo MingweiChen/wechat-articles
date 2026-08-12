@@ -1,0 +1,53 @@
+{
+  "slug": "02-agency-agents-org-chart",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/02-agency-agents-org-chart",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-agency-agents-org-chart-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/02-agency-agents-org-chart/01-02-agency-agents-org-chart-infographic.jpg",
+      "caption": "agency-agents之所以容易刷屏",
+      "anchor": "这不是角色扮演，而是组织结构被代码化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-agency-agents-org-chart-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/02-agency-agents-org-chart/02-02-agency-agents-org-chart-infographic.jpg",
+      "caption": "过去很多AI产品都喜欢宣传“一个Agent什",
+      "anchor": "一个Agent太万能，反而不好管理",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-agency-agents-org-chart-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/02-agency-agents-org-chart/03-02-agency-agents-org-chart-infographic.jpg",
+      "caption": "很多公司真正值钱的东西",
+      "anchor": "开源项目在模拟企业的隐性流程",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-agency-agents-org-chart-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/02-agency-agents-org-chart/04-02-agency-agents-org-chart-infographic.jpg",
+      "caption": "这类项目也有泡沫",
+      "anchor": "真正的护城河，是流程而不是人格",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

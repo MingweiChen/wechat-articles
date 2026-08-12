@@ -1,0 +1,53 @@
+{
+  "slug": "05-semantica-accountable-context",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-semantica-accountable-context",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-semantica-accountable-context/01-05-semantica-accountable-context-infographic.jpg",
+      "caption": "过去做企业AI",
+      "anchor": "RAG热了一年，企业开始问更难的问题",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-semantica-accountable-context/02-05-semantica-accountable-context-infographic.jpg",
+      "caption": "向量检索擅长找到语义相近的文本",
+      "anchor": "向量相似不等于业务正确",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-semantica-accountable-context/03-05-semantica-accountable-context-infographic.jpg",
+      "caption": "个人用户可以容忍AI偶尔答错",
+      "anchor": "可追责，比准确率更接近企业采购语言",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/05-semantica-accountable-context/04-05-semantica-accountable-context-infographic.jpg",
+      "caption": "早期知识库像仓库",
+      "anchor": "下一代AI基础设施，会从知识库变成责任网",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

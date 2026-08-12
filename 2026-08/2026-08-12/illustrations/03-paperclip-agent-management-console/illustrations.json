@@ -1,0 +1,53 @@
+{
+  "slug": "03-paperclip-agent-management-console",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-paperclip-agent-management-console",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-paperclip-agent-management-console-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-paperclip-agent-management-console/01-03-paperclip-agent-management-console-infographic.jpg",
+      "caption": "一个Agent很好理解",
+      "anchor": "当你有十个Agent，聊天框就不够用了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-paperclip-agent-management-console-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-paperclip-agent-management-console/02-03-paperclip-agent-management-console-infographic.jpg",
+      "caption": "企业不是不想用Agent",
+      "anchor": "Agent管理台解决的是信任问题",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-paperclip-agent-management-console-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-paperclip-agent-management-console/03-03-paperclip-agent-management-console-infographic.jpg",
+      "caption": "过去二十年",
+      "anchor": "浏览器曾经管理网页，Agent台会管理工作",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-paperclip-agent-management-console-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/03-paperclip-agent-management-console/04-03-paperclip-agent-management-console-infographic.jpg",
+      "caption": "早期Agent产品拼模型、拼速度、拼工具数量",
+      "anchor": "下一轮竞争，会发生在审计和交付物上",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

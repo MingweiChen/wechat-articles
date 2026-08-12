@@ -1,0 +1,53 @@
+{
+  "slug": "04-openmontage-agentic-video-pipeline",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/04-openmontage-agentic-video-pipeline",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/04-openmontage-agentic-video-pipeline/01-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "caption": "过去一年",
+      "anchor": "AI视频最容易被误解成一个按钮",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/04-openmontage-agentic-video-pipeline/02-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "caption": "单个模型负责生成画面",
+      "anchor": "流水线比模型更接近商业化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/04-openmontage-agentic-video-pipeline/03-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "caption": "如果视频流水线开源",
+      "anchor": "开源视频流水线，会改变创作者分工",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/04-openmontage-agentic-video-pipeline/04-04-openmontage-agentic-video-pipeline-infographic.jpg",
+      "caption": "很多AI视频Demo最大的问题",
+      "anchor": "AI视频的护城河，是可返工",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

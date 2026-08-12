@@ -1,0 +1,53 @@
+{
+  "slug": "01-prime-agent-self-improving-coding",
+  "date": "2026-08-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/01-prime-agent-self-improving-coding",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-prime-agent-self-improving-coding-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/01-prime-agent-self-improving-coding/01-01-prime-agent-self-improving-coding-infographic.jpg",
+      "caption": "这两天GitHub AI Agent榜单里最",
+      "anchor": "热榜第一的关键词，不是coding，而是self-improving",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-prime-agent-self-improving-coding-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/01-prime-agent-self-improving-coding/02-01-prime-agent-self-improving-coding-infographic.jpg",
+      "caption": "软件开发天然适合做闭环",
+      "anchor": "失败日志会变成新的燃料",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-prime-agent-self-improving-coding-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/01-prime-agent-self-improving-coding/03-01-prime-agent-self-improving-coding-infographic.jpg",
+      "caption": "长任务和短补全完全不是一回事",
+      "anchor": "长任务自动化最怕没有记忆",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-prime-agent-self-improving-coding-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-12/illustrations/01-prime-agent-self-improving-coding/04-01-prime-agent-self-improving-coding-infographic.jpg",
+      "caption": "这会改变工程师的角色",
+      "anchor": "开发者的新工作，是设计反馈回路",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

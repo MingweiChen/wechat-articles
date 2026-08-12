@@ -1,0 +1,343 @@
+{
+  "date": "2026-08-12",
+  "generated_at_utc": "2026-08-12T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段排除中国领导人/涉港台疆藏/魔鬼化叙事；未选择外政评论、战争叙事、民族主义动员或个股推荐题材。",
+  "dedup_basis": [
+    "2026-08-11: Meta Muse、AI融资集中、Orca Agent车队、Claude Science、AI服务实施",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science",
+    "2026-08-08: Agent安全体检、Anthropic芯片、Cloudflare钱包、Agent工作台、Gemini Spark",
+    "2026-08-05: Astra数学、Black Hat安全、MindMemOS、Uber流程、微软DevSecOps"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-08-05..2026-08-11",
+    "result": "剔除与Meta Muse、Orca、Claude Science、Agent安全、Cloudflare Agent、Anthropic芯片等同事件同角度题；保留5个新开源/基础设施主题。"
+  },
+  "step_3_6_writing_design": "每篇均设计具体结论D，至少4篇采用换轴：从热榜项目切到组织流程、管理入口、生产线、可追责上下文。",
+  "step_3_7_independent_review": {
+    "reviewer": "subagent topic-review-20260812 + deterministic review snapshot",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自GitHub热榜和Agent生态结构变化。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Prime-agent冲上GitHub周榜第一：Coding Agent开始学会从失败里训练自己",
+      "category": "开源",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent",
+        "https://github.com/trending"
+      ],
+      "hook": "GitTrend Week 33显示，PrimeIntellect-ai/prime-agent位列周榜第1，定位是用于coding workflow和长任务自动化的self-improving RLM agent。",
+      "angle": "从“会写代码”换轴到“会把失败变成训练数据”：Agent工程化的核心不再只是模型调用，而是闭环。",
+      "conclusion_D": "D：AI编程真正的拐点不是Agent一次写对多少代码，而是它能不能把失败、测试和人工修正沉淀为下一次更稳的行为。",
+      "explosive_score": 93,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI编程真正的拐点不是Agent一次写对多少代码，而是它能不能把失败、测试和人工修正沉淀为下一次更稳的行为。",
+        "dots": [
+          "热榜第一的关键词，不是coding，而是self-improving",
+          "失败日志会变成新的燃料",
+          "长任务自动化最怕没有记忆"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 2,
+      "topic": "agency-agents刷屏：开源世界开始把一家公司拆成一组Agent角色",
+      "category": "开源",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "GitHub Trending显示，msitarzewski/agency-agents近期高位增长，项目把前端、社区、现实检查等角色包装成一整套AI agency。",
+      "angle": "不要写成“又一堆人格化Agent”，而是写组织流程被产品化：岗位、交接、审核、现实约束。",
+      "conclusion_D": "D：企业买Agent的终局不是买一个超级员工，而是把一套可拆分、可交接、可验收的组织流程复制到机器里。",
+      "explosive_score": 90,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业买Agent的终局不是买一个超级员工，而是把一套可拆分、可交接、可验收的组织流程复制到机器里。",
+        "dots": [
+          "这不是角色扮演，而是组织结构被代码化",
+          "一个Agent太万能，反而不好管理",
+          "开源项目在模拟企业的隐性流程"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 3,
+      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
+      "category": "产品",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://trendingrepo.com/categories/ai-agents",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitHub Trending里paperclipai/paperclip定位为“manage agents at work”的开源应用，说明Agent生态开始从单工具竞争转向管理层竞争。",
+      "angle": "从“Agent工具”换轴到“Agent操作系统”：任务队列、权限、日志、审计、交付物。",
+      "conclusion_D": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+      "explosive_score": 88,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+        "dots": [
+          "当你有十个Agent，聊天框就不够用了",
+          "Agent管理台解决的是信任问题",
+          "浏览器曾经管理网页，Agent台会管理工作"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 4,
+      "topic": "OpenMontage登上热榜：AI视频从单次生成，进入流水线生产",
+      "category": "创作",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitHub Trending中OpenMontage被描述为open-source agentic video production system，包含多条生产pipeline、工具和制作知识文件。",
+      "angle": "从“文生视频模型”换轴到“视频生产系统”：分镜、素材、旁白、剪辑、审核、重做。",
+      "conclusion_D": "D：AI视频下一阶段的胜负不在单个炫酷镜头，而在谁能把创意、分镜、素材、配音、剪辑和迭代做成可复用流水线。",
+      "explosive_score": 86,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI视频下一阶段的胜负不在单个炫酷镜头，而在谁能把创意、分镜、素材、配音、剪辑和迭代做成可复用流水线。",
+        "dots": [
+          "AI视频最容易被误解成一个按钮",
+          "流水线比模型更接近商业化",
+          "开源视频流水线，会改变创作者分工"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 5,
+      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
+      "category": "基础设施",
+      "score": 84,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://github.com/trending"
+      ],
+      "hook": "GitTrend Week 33中semantica-agi/semantica以Graph-Native Infrastructure for Context and Accountable AI Systems进入前列。",
+      "angle": "从RAG热潮换轴到企业治理：上下文来源、关系、版本、责任链、审计。",
+      "conclusion_D": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+      "explosive_score": 84,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+        "dots": [
+          "RAG热了一年，企业开始问更难的问题",
+          "向量相似不等于业务正确",
+          "可追责，比准确率更接近企业采购语言"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 84,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "Prime-agent冲上GitHub周榜第一：Coding Agent开始学会从失败里训练自己",
+      "category": "开源",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent",
+        "https://github.com/trending"
+      ],
+      "hook": "GitTrend Week 33显示，PrimeIntellect-ai/prime-agent位列周榜第1，定位是用于coding workflow和长任务自动化的self-improving RLM agent。",
+      "angle": "从“会写代码”换轴到“会把失败变成训练数据”：Agent工程化的核心不再只是模型调用，而是闭环。",
+      "conclusion_D": "D：AI编程真正的拐点不是Agent一次写对多少代码，而是它能不能把失败、测试和人工修正沉淀为下一次更稳的行为。",
+      "explosive_score": 93,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI编程真正的拐点不是Agent一次写对多少代码，而是它能不能把失败、测试和人工修正沉淀为下一次更稳的行为。",
+        "dots": [
+          "热榜第一的关键词，不是coding，而是self-improving",
+          "失败日志会变成新的燃料",
+          "长任务自动化最怕没有记忆"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 2,
+      "topic": "agency-agents刷屏：开源世界开始把一家公司拆成一组Agent角色",
+      "category": "开源",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/trending/ai-agent"
+      ],
+      "hook": "GitHub Trending显示，msitarzewski/agency-agents近期高位增长，项目把前端、社区、现实检查等角色包装成一整套AI agency。",
+      "angle": "不要写成“又一堆人格化Agent”，而是写组织流程被产品化：岗位、交接、审核、现实约束。",
+      "conclusion_D": "D：企业买Agent的终局不是买一个超级员工，而是把一套可拆分、可交接、可验收的组织流程复制到机器里。",
+      "explosive_score": 90,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业买Agent的终局不是买一个超级员工，而是把一套可拆分、可交接、可验收的组织流程复制到机器里。",
+        "dots": [
+          "这不是角色扮演，而是组织结构被代码化",
+          "一个Agent太万能，反而不好管理",
+          "开源项目在模拟企业的隐性流程"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 3,
+      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
+      "category": "产品",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://trendingrepo.com/categories/ai-agents",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitHub Trending里paperclipai/paperclip定位为“manage agents at work”的开源应用，说明Agent生态开始从单工具竞争转向管理层竞争。",
+      "angle": "从“Agent工具”换轴到“Agent操作系统”：任务队列、权限、日志、审计、交付物。",
+      "conclusion_D": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+      "explosive_score": 88,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent泛滥后，最值钱的不是第N个会干活的Agent，而是能让人放心调度、授权、追责和验收的管理入口。",
+        "dots": [
+          "当你有十个Agent，聊天框就不够用了",
+          "Agent管理台解决的是信任问题",
+          "浏览器曾经管理网页，Agent台会管理工作"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 4,
+      "topic": "OpenMontage登上热榜：AI视频从单次生成，进入流水线生产",
+      "category": "创作",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://github.com/trending",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitHub Trending中OpenMontage被描述为open-source agentic video production system，包含多条生产pipeline、工具和制作知识文件。",
+      "angle": "从“文生视频模型”换轴到“视频生产系统”：分镜、素材、旁白、剪辑、审核、重做。",
+      "conclusion_D": "D：AI视频下一阶段的胜负不在单个炫酷镜头，而在谁能把创意、分镜、素材、配音、剪辑和迭代做成可复用流水线。",
+      "explosive_score": 86,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI视频下一阶段的胜负不在单个炫酷镜头，而在谁能把创意、分镜、素材、配音、剪辑和迭代做成可复用流水线。",
+        "dots": [
+          "AI视频最容易被误解成一个按钮",
+          "流水线比模型更接近商业化",
+          "开源视频流水线，会改变创作者分工"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    },
+    {
+      "rank": 5,
+      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
+      "category": "基础设施",
+      "score": 84,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://github.com/trending"
+      ],
+      "hook": "GitTrend Week 33中semantica-agi/semantica以Graph-Native Infrastructure for Context and Accountable AI Systems进入前列。",
+      "angle": "从RAG热潮换轴到企业治理：上下文来源、关系、版本、责任链、审计。",
+      "conclusion_D": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+      "explosive_score": 84,
+      "dedup": "低重复：与过去7天AI Agent安全、芯片、Meta Muse、Orca、Claude Science等已发题不同；本篇聚焦新项目/新基础设施层。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业AI下一层基础设施不是再堆一个向量库，而是把上下文的来源、关系、版本和责任链做成可审计系统。",
+        "dots": [
+          "RAG热了一年，企业开始问更难的问题",
+          "向量相似不等于业务正确",
+          "可追责，比准确率更接近企业采购语言"
+        ],
+        "axis": "大家容易写成“某项目上热榜”，本篇从它暴露的AI工作流结构变化切入。",
+        "counter_intuitive": "表面是开源项目热度，实际是AI从模型能力转向流程、管理、审计和生产线。",
+        "why_worth": "读者读完不只知道项目名，还能看懂Agent生态下一层基础设施机会。"
+      },
+      "review_score": 84,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无个股推荐；仅做技术与产业趋势分析。"
+    }
+  ]
+}

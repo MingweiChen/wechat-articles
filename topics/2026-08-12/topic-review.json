@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-12",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Prime-agent冲上GitHub周榜第一：Coding Agent开始学会从失败里训练自己",
+      "virality": 9.3,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 93,
+      "verdict": "pass",
+      "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 2,
+      "topic": "agency-agents刷屏：开源世界开始把一家公司拆成一组Agent角色",
+      "virality": 9.0,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 90,
+      "verdict": "pass",
+      "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 3,
+      "topic": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
+      "virality": 8.8,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 88,
+      "verdict": "pass",
+      "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 4,
+      "topic": "OpenMontage登上热榜：AI视频从单次生成，进入流水线生产",
+      "virality": 8.6,
+      "dedup": 9,
+      "originality": 8.5,
+      "title_pool": 9,
+      "score": 86,
+      "verdict": "pass",
+      "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 5,
+      "topic": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
+      "virality": 8.4,
+      "dedup": 9,
+      "originality": 8.5,
+      "title_pool": 9,
+      "score": 84,
+      "verdict": "pass",
+      "reason": "热榜信号明确，重复度低，结论D具体，适合标题池。"
+    }
+  ],
+  "redline_killed": [
+    "kill: 政治绝对红线/涉港台疆藏/外政魔鬼化叙事候选未进入候选池。",
+    "kill: 个股推荐、股票分析热榜项目未入选。"
+  ]
+}

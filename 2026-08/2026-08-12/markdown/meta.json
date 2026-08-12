@@ -1,0 +1,52 @@
+{
+  "01-prime-agent-self-improving-coding": {
+    "category": "开源",
+    "main_title": "Prime-agent冲上GitHub周榜第一：Coding Agent开始学会从失败里训练自己",
+    "sub_title": "",
+    "subtitle_brief": "AI编程下一步不是更会聊天，而是把失败记录变成训练燃料。",
+    "theme": "tech",
+    "kicker": "GitHub热榜 · 自我改进Agent",
+    "punch": "当Coding Agent能把失败任务、测试日志和人工修正反喂回自己，开发工具就开始从助手变成会进化的工程系统。",
+    "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
+  },
+  "02-agency-agents-org-chart": {
+    "category": "开源",
+    "main_title": "agency-agents刷屏：开源世界开始把一家公司拆成一组Agent角色",
+    "sub_title": "",
+    "subtitle_brief": "真正被开源的不是员工，而是一套可复制的工作流程。",
+    "theme": "business",
+    "kicker": "Agent组织 · 角色化流程",
+    "punch": "Agent角色的价值不在名字多酷，而在它把企业里的分工、交接和验收写成了可运行脚本。",
+    "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
+  },
+  "03-paperclip-agent-management-console": {
+    "category": "产品",
+    "main_title": "Paperclip冲上热榜：当Agent越来越多，管理台会成为新的浏览器",
+    "sub_title": "",
+    "subtitle_brief": "问题不再是有没有Agent，而是谁来管这一群Agent。",
+    "theme": "frontier",
+    "kicker": "Agent管理台 · 工作入口",
+    "punch": "Agent数量一多，真正的入口就不是聊天框，而是任务、权限、日志和结果验收的管理台。",
+    "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
+  },
+  "04-openmontage-agentic-video-pipeline": {
+    "category": "创作",
+    "main_title": "OpenMontage登上热榜：AI视频从单次生成，进入流水线生产",
+    "sub_title": "",
+    "subtitle_brief": "真正难的不是生成一个镜头，而是把十几个镜头稳定做成一条片子。",
+    "theme": "warm",
+    "kicker": "AI视频 · 生产流水线",
+    "punch": "AI视频商业化的关键，不是某个模型会动，而是脚本、分镜、素材、配音、剪辑和返工能不能串成生产线。",
+    "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
+  },
+  "05-semantica-accountable-context": {
+    "category": "基础设施",
+    "main_title": "Semantica冲进GitHub周榜：RAG之后，企业AI开始补“可追责上下文”",
+    "sub_title": "",
+    "subtitle_brief": "企业不缺把资料塞进模型的办法，缺的是知道模型为什么这样答。",
+    "theme": "science",
+    "kicker": "上下文工程 · 可追责AI",
+    "punch": "RAG解决的是“找得到资料”，可追责上下文解决的是“答错时能不能查清责任链”。",
+    "comment_cta": "你觉得这类Agent基础设施，最先会改变哪种工作？评论区聊聊"
+  }
+}
