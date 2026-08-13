@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Graph Context · 可追溯AI</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Semantica冲上热榜：Agent上下文开始有来源和责任链</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">企业不只想让Agent记住事实，还想知道每个判断从哪来、为什么成立、谁改过。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">企业不只想让Agent记住事实，还想知道每个判断从哪来、为什么成立、谁改过。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">企业怕的不是AI忘事，而是AI说不清</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/01-02-semantica-accountable-context-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多Agent产品都在讲记忆</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">很多Agent产品都在讲记忆：记住用户偏好，记住项目历史，记住上次做到哪一步。但在企业场景里，记住只是最低要求，更难的是说清楚。 当一个Agent给出建议，老板会问：这个事实来自哪份文档？这个结论引用了哪条规则？中间谁改过？如果以后出问题，能不能还原当时的判断链？ Semantica这类图原生上下文基础设施上热榜，说明开发者已经开始补这块短板。Agent不能永远靠一团压缩上下文，它需要可追溯的知识结构。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">向量数据库解决相似，图结构解决关系</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/02-02-semantica-accountable-context-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去RAG最常见的做法</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去RAG最常见的做法，是把文档切块、向量化，再按相似度召回。这对找资料很有用，但它不擅长表达关系：谁依赖谁，哪条规则覆盖哪种情况，哪个决策基于哪组证据。 图结构的价值就在这里。它把事实、文档、人物、流程、决策和来源连成关系网，让Agent不只是“想起一段话”，还可以沿着关系追问：这个判断的上游是什么，下游影响是什么，是否违反某个约束。 对金融、医疗、法务、政企系统来说，这种可解释性不是锦上添花，而是准入门槛。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Accountable AI不是口号，是数据结构</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/03-02-semantica-accountable-context-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多公司把“负责任AI”写成原则清单</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多公司把“负责任AI”写成原则清单：要透明、要安全、要可审计。但如果底层没有记录事实来源、决策路径和权限边界，这些原则很容易停留在PPT上。 Accountable AI要落地，必须变成数据结构。每条事实有来源，每次修改有时间，每个结论有证据，每次调用有权限，每个输出能回放。 这也是Semantica这类项目的爆点：它不是在前台包装一个更会说话的Agent，而是在后台给Agent的判断装上责任链。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">未来的企业知识库，会更像审计系统</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/04-02-semantica-accountable-context-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">企业知识库过去像仓库</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">企业知识库过去像仓库：把文档放进去，方便搜索。Agent时代，知识库会更像审计系统：不仅保存内容，还保存内容之间的关系、决策的上下文、规则的版本和执行痕迹。 这会改变AI落地的采购标准。企业不会只问模型多强，还会问上下文能不能治理，证据能不能导出，规则能不能验证，错误能不能追责。 所以Semantica的意义不只是又一个开源热榜项目，而是提醒大家：Agent要进入核心业务，先得让自己的记忆经得起追问。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a78bfa; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">当上下文变成可查询、可验证、可审计的图结构，Agent才有机会进入高风险业务流程。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

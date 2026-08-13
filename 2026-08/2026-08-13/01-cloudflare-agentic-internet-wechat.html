@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Agentic Cloud · 云底座</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Cloudflare Agents Week刷屏：Agentic Internet的地基铺好了</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">Agent不是普通脚本，它需要能长期运行、能拿权限、能记住状态、还能被随时接管。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">Agent不是普通脚本，它需要能长期运行、能拿权限、能记住状态、还能被随时接管。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Cloudflare这次讲的不是模型，而是地基</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/01-01-cloudflare-agentic-internet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">最近Cloudflare Agents We</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">最近Cloudflare Agents Week最值得注意的地方，不是它发布了某个更聪明的模型，而是它把一整套Agent基础设施摊开了：沙箱、版本化存储、私有网络、身份控制、AI搜索、长期记忆、浏览器运行环境。 这组关键词很朴素，却很关键。因为Agent一旦离开演示场景，就不再是一个聊天框里的回答器，而是要长期跑在真实系统里的软件劳动力。它会读文件、访问网页、调用接口、保存中间状态，还可能在夜里继续完成任务。 普通云应用关心请求、响应和扩缩容；Agent应用还关心状态、权限、轨迹、恢复和人类接管。Cloudflare押注的，正是这个新工作负载。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent需要一间能上锁的办公室</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/02-01-cloudflare-agentic-internet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">一个Agent如果要替你做事</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一个Agent如果要替你做事，第一步不是给它更大模型，而是给它一个安全空间。沙箱的意义，就是让它可以写代码、跑命令、存文件、开浏览器，但不会随便碰到不该碰的东西。 过去很多Agent事故，本质上不是模型不聪明，而是运行环境太粗糙：权限给大了、密钥裸露了、网络出口没管住、任务失败后没人知道它到底做过什么。 Agentic Cloud要解决的，就是把这些问题系统化。它要像管理员工工牌一样管理Agent身份，像管理生产环境一样管理Agent权限，像管理审计日志一样保存Agent行动轨迹。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">记忆、搜索和浏览器，是Agent的三件生产工具</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/03-01-cloudflare-agentic-internet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">真正能工作的Agent</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">真正能工作的Agent，不能只靠上下文窗口。它需要记忆保存长期项目状态，需要搜索找到外部信息，需要浏览器处理那些没有API的网页。 Cloudflare把AI Search、Agent Memory和Browser Run放进同一套叙事里，说明云厂商已经意识到：Agent不是单点能力，而是一组工具链。只给模型是不够的，还要给它可控的信息入口和行动出口。 这也解释了为什么浏览器自动化、网页抓取、文档解析这些“脏活”最近一起升温。AI要进入真实世界，第一步往往不是推理，而是把网页、文件和内部系统接起来。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">云厂商的新战场，是谁先成为Agent宿舍</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/04-01-cloudflare-agentic-internet-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去云厂商争的是谁跑应用更稳、谁数据库更便宜</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去云厂商争的是谁跑应用更稳、谁数据库更便宜、谁边缘网络更快。接下来会多一个问题：谁能让Agent住得更安全、更持久、更便宜。 这不是小功能。企业一旦把客服、运营、研发、数据分析流程交给Agent，它就会要求统一身份、统一权限、统一日志、统一成本控制。谁先把这些变成默认能力，谁就更容易成为Agent时代的底层平台。 所以Cloudflare Agents Week的爆点不在单个产品，而在方向：互联网正在为“自主软件”重新铺路。模型负责脑子，云平台负责身体和边界。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">当云平台开始为Agent重做沙箱、记忆、浏览器、搜索和网络权限，AI就从聊天窗口变成新的互联网工作负载。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

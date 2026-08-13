@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Document Gateway · 数据入口</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Firecrawl anydoc爆火：Agent终于开始啃真实世界的脏文档</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">AI Demo里材料都很干净，企业现场却是PDF、Word、PPT、扫描件和表格混在一起。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">AI Demo里材料都很干净，企业现场却是PDF、Word、PPT、扫描件和表格混在一起。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent最先撞上的墙，往往是一份PDF</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/01-03-firecrawl-anydoc-document-gateway-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">AI演示里</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">AI演示里，数据通常很干净：几段文本、一个API、一张结构化表格。但企业真实现场完全不同。合同在PDF里，方案在PPT里，报价在Excel里，流程在Word里，历史记录可能还是扫描件。 这就是为什么文档解析项目最近频繁上热榜。Firecrawl anydoc、pdf-inspector这类工具看起来不性感，却正好卡在Agent落地最关键的入口：把脏文档变成可读、可检索、可引用的材料。 没有这一层，Agent再会推理，也只能站在门外。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">转换成Markdown，不只是格式问题</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/02-03-firecrawl-anydoc-document-gateway-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">把文档转成Markdown</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把文档转成Markdown，表面是格式转换，实际是把人类办公软件里的视觉结构，翻译成机器能处理的语义结构。标题、表格、列表、页码、脚注、图片说明、章节层级，这些东西一旦丢失，后面的RAG和Agent都会误判。 一个合同条款如果被切错，一张表格如果列名错位，一个PDF如果把页眉页脚混进正文，模型就会在错误材料上认真分析。 所以文档入口层的价值，不是让AI“读到文字”，而是让AI读到正确结构。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">旧世界文档，是企业最大的隐形数据湖</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/03-03-firecrawl-anydoc-document-gateway-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多企业说自己缺数据</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多企业说自己缺数据，其实不是缺，而是数据被锁在旧格式里。过去这些材料只有人能读，检索靠文件名，复用靠老员工记忆。 Agent如果能稳定处理这些文档，就相当于打开了一个巨大的隐形数据湖：项目复盘、客户需求、技术手册、合规制度、培训材料、报价模板，都可以变成可调用的工作记忆。 这比单纯接一个数据库更现实。因为大量知识根本没有进入数据库，只停留在办公文档里。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">文档解析会成为Agent平台的基础能力</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/04-03-firecrawl-anydoc-document-gateway-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">接下来</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">接下来，企业评估Agent平台时会越来越关注输入能力：支持哪些格式，表格保真度如何，扫描件怎么处理，能否保留引用位置，能否输出干净结构。 这听起来像基础设施，但基础设施正是门槛。谁能把文档入口做稳，谁就能让Agent更快接入真实业务；谁在这里做得粗糙，后面再强的模型也会被垃圾输入拖垮。 anydoc的热度提醒我们：AI落地不是从高大上的推理开始，而是从把一堆乱七八糟的文件读明白开始。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">谁能把旧世界文档稳定变成机器可读材料，谁就掌握了Agent进入企业流程的第一道入口。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

@@ -1,0 +1,348 @@
+{
+  "date": "2026-08-13",
+  "generated_at_utc": "2026-08-13T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段排除中国领导人/涉港台疆藏/外政魔鬼化叙事；未选择政治会面、战争叙事、民族主义动员或个股推荐题材。",
+  "dedup_basis": [
+    "2026-08-12: Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor",
+    "2026-08-11: Meta Muse、AI融资集中、Orca Agent车队、Claude Science、AI服务实施",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science",
+    "2026-08-08: Agent安全体检、Anthropic芯片、Cloudflare钱包、Agent工作台、Gemini Spark",
+    "2026-08-05: Astra数学、Black Hat安全、MindMemOS、Uber流程、微软DevSecOps"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-08-06..2026-08-12",
+    "result": "剔除与Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor、Meta Muse、Orca等同事件同角度题；保留5个新基础设施/表达层主题。"
+  },
+  "step_3_6_writing_design": "每篇均设计具体结论D，均采用换轴：从热榜项目切到云底座、审计上下文、文档入口、Agent运行时、表达标准。",
+  "step_3_7_independent_review": {
+    "reviewer": "deterministic independent topic review snapshot based on Bing/GitTrend/news signals",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自GitTrend/新闻多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare Agents Week刷屏：Agentic Internet的地基铺好了",
+      "category": "基础设施",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://techgenyz.com/cloudflare-agents-week-2026/",
+        "https://gittrend.top/blogs/weekly-ai-agents-and-developer-tooling-dominate-github-trends-week-of-august-10-2026",
+        "https://gittrend.io/"
+      ],
+      "hook": "Cloudflare Agents Week 2026连续发布沙箱、Artifacts、Agent SDK、Mesh、AI Search、Agent Memory、Browser Run等组件，把重点放在Agent运行环境，而不是单一模型。",
+      "angle": "从“又发一堆开发者工具”换轴到“Agent成为云上的新工作负载”：需要沙箱、身份、记忆、浏览器、搜索和人类接管。",
+      "conclusion_D": "D：Agent时代真正稀缺的不是会聊天的模型，而是能让代理安全、持久、可观察地工作的云底座。",
+      "explosive_score": 94,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent时代真正稀缺的不是会聊天的模型，而是能让代理安全、持久、可观察地工作的云底座。",
+        "dots": [
+          "Cloudflare这次讲的不是模型，而是地基",
+          "Agent需要一间能上锁的办公室",
+          "记忆、搜索和浏览器，是Agent的三件生产工具"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Semantica冲上热榜：Agent上下文开始有来源和责任链",
+      "category": "开源",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://www.kyleyu.dev/posts/2026-08-12-github-trending-daily/",
+        "https://refft.com/en/trending-2026-08-11-weekly.html"
+      ],
+      "hook": "GitTrend Week 33显示semantica-agi/semantica快速上升，定位为Graph-Native Infrastructure for Context and Accountable AI Systems。",
+      "angle": "从“Agent记忆/RAG”换轴到“可稽核上下文层”：事实、来源、决策、因果和规则都要进入图结构。",
+      "conclusion_D": "D：企业Agent的下一道门槛不是记住更多，而是每个判断都能说明来自哪里、为何成立、谁改过。",
+      "explosive_score": 91,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业Agent的下一道门槛不是记住更多，而是每个判断都能说明来自哪里、为何成立、谁改过。",
+        "dots": [
+          "企业怕的不是AI忘事，而是AI说不清",
+          "向量数据库解决相似，图结构解决关系",
+          "Accountable AI不是口号，是数据结构"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "Firecrawl anydoc爆火：Agent终于开始啃真实世界的脏文档",
+      "category": "工具",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/",
+        "https://gittrend.top/blogs/weekly-ai-agents-and-developer-tooling-dominate-github-trends-week-of-august-10-2026"
+      ],
+      "hook": "GitTrend Week 33中firecrawl/anydoc和pdf-inspector等文档解析项目进入热榜，anydoc定位为把Word、PowerPoint、Excel、PDF等转换为干净Markdown。",
+      "angle": "从“文档转换工具”换轴到“Agent数据入口层”：真实企业知识不在漂亮API里，而在旧文档和报表里。",
+      "conclusion_D": "D：Agent能不能进入企业，不取决于演示会不会推理，而取决于它能不能稳定读懂PDF、Word、表格这些旧世界材料。",
+      "explosive_score": 89,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent能不能进入企业，不取决于演示会不会推理，而取决于它能不能稳定读懂PDF、Word、表格这些旧世界材料。",
+        "dots": [
+          "Agent最先撞上的墙，往往是一份PDF",
+          "转换成Markdown，不只是格式问题",
+          "旧世界文档，是企业最大的隐形数据湖"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Herdr上热榜：Coding Agent需要一个能长期居住的运行时",
+      "category": "开发",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/trending/ai-agent",
+        "https://gittrend.io/trending/ai-workflow",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitTrend AI Agent榜单显示herdrdev/herdr以“the runtime your coding agents live on”进入前列，Rust实现，聚焦coding agent运行时。",
+      "angle": "从“又一个终端工具”换轴到“Agent需要长期居住的运行时”：任务状态、并行隔离、重新连接、失败恢复。",
+      "conclusion_D": "D：长任务Agent的关键不是一次生成多聪明，而是中断后能接上、并行时能隔离、失败后能复盘。",
+      "explosive_score": 87,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：长任务Agent的关键不是一次生成多聪明，而是中断后能接上、并行时能隔离、失败后能复盘。",
+        "dots": [
+          "Coding Agent不能一直住在聊天框里",
+          "长任务需要状态，而不是记忆错觉",
+          "并行Agent需要隔离和调度"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 87,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "diagram-design爆火：AI生成内容进入反垃圾审美阶段",
+      "category": "创作",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/",
+        "https://github.com/jalliance/github-trending-snapshot-2026-08-12",
+        "https://www.kyleyu.dev/posts/2026-08-12-github-trending-daily/"
+      ],
+      "hook": "GitTrend首页与8月12日GitHub Trending快照显示cathrynlavery/diagram-design登上前列，定位为29种editorial diagram types for Claude Code，强调HTML+SVG和反Mermaid模板味。",
+      "angle": "从“AI会画图”换轴到“AI需要编辑表达系统”：图表类型、排版、信息层级和审美标准被封装成可复用技能。",
+      "conclusion_D": "D：AI工作流的下一层竞争，不只是自动生成，而是把表达、排版和审美标准做成可复用资产。",
+      "explosive_score": 86,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI工作流的下一层竞争，不只是自动生成，而是把表达、排版和审美标准做成可复用资产。",
+        "dots": [
+          "大家开始嫌弃AI味了",
+          "图不是装饰，是压缩理解的工具",
+          "反垃圾审美会变成刚需"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare Agents Week刷屏：Agentic Internet的地基铺好了",
+      "category": "基础设施",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://techgenyz.com/cloudflare-agents-week-2026/",
+        "https://gittrend.top/blogs/weekly-ai-agents-and-developer-tooling-dominate-github-trends-week-of-august-10-2026",
+        "https://gittrend.io/"
+      ],
+      "hook": "Cloudflare Agents Week 2026连续发布沙箱、Artifacts、Agent SDK、Mesh、AI Search、Agent Memory、Browser Run等组件，把重点放在Agent运行环境，而不是单一模型。",
+      "angle": "从“又发一堆开发者工具”换轴到“Agent成为云上的新工作负载”：需要沙箱、身份、记忆、浏览器、搜索和人类接管。",
+      "conclusion_D": "D：Agent时代真正稀缺的不是会聊天的模型，而是能让代理安全、持久、可观察地工作的云底座。",
+      "explosive_score": 94,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent时代真正稀缺的不是会聊天的模型，而是能让代理安全、持久、可观察地工作的云底座。",
+        "dots": [
+          "Cloudflare这次讲的不是模型，而是地基",
+          "Agent需要一间能上锁的办公室",
+          "记忆、搜索和浏览器，是Agent的三件生产工具"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Semantica冲上热榜：Agent上下文开始有来源和责任链",
+      "category": "开源",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://www.kyleyu.dev/posts/2026-08-12-github-trending-daily/",
+        "https://refft.com/en/trending-2026-08-11-weekly.html"
+      ],
+      "hook": "GitTrend Week 33显示semantica-agi/semantica快速上升，定位为Graph-Native Infrastructure for Context and Accountable AI Systems。",
+      "angle": "从“Agent记忆/RAG”换轴到“可稽核上下文层”：事实、来源、决策、因果和规则都要进入图结构。",
+      "conclusion_D": "D：企业Agent的下一道门槛不是记住更多，而是每个判断都能说明来自哪里、为何成立、谁改过。",
+      "explosive_score": 91,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业Agent的下一道门槛不是记住更多，而是每个判断都能说明来自哪里、为何成立、谁改过。",
+        "dots": [
+          "企业怕的不是AI忘事，而是AI说不清",
+          "向量数据库解决相似，图结构解决关系",
+          "Accountable AI不是口号，是数据结构"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "Firecrawl anydoc爆火：Agent终于开始啃真实世界的脏文档",
+      "category": "工具",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/weekly/2026-W33",
+        "https://gittrend.io/",
+        "https://gittrend.top/blogs/weekly-ai-agents-and-developer-tooling-dominate-github-trends-week-of-august-10-2026"
+      ],
+      "hook": "GitTrend Week 33中firecrawl/anydoc和pdf-inspector等文档解析项目进入热榜，anydoc定位为把Word、PowerPoint、Excel、PDF等转换为干净Markdown。",
+      "angle": "从“文档转换工具”换轴到“Agent数据入口层”：真实企业知识不在漂亮API里，而在旧文档和报表里。",
+      "conclusion_D": "D：Agent能不能进入企业，不取决于演示会不会推理，而取决于它能不能稳定读懂PDF、Word、表格这些旧世界材料。",
+      "explosive_score": 89,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent能不能进入企业，不取决于演示会不会推理，而取决于它能不能稳定读懂PDF、Word、表格这些旧世界材料。",
+        "dots": [
+          "Agent最先撞上的墙，往往是一份PDF",
+          "转换成Markdown，不只是格式问题",
+          "旧世界文档，是企业最大的隐形数据湖"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Herdr上热榜：Coding Agent需要一个能长期居住的运行时",
+      "category": "开发",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/trending/ai-agent",
+        "https://gittrend.io/trending/ai-workflow",
+        "https://gittrend.io/weekly/2026-W33"
+      ],
+      "hook": "GitTrend AI Agent榜单显示herdrdev/herdr以“the runtime your coding agents live on”进入前列，Rust实现，聚焦coding agent运行时。",
+      "angle": "从“又一个终端工具”换轴到“Agent需要长期居住的运行时”：任务状态、并行隔离、重新连接、失败恢复。",
+      "conclusion_D": "D：长任务Agent的关键不是一次生成多聪明，而是中断后能接上、并行时能隔离、失败后能复盘。",
+      "explosive_score": 87,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：长任务Agent的关键不是一次生成多聪明，而是中断后能接上、并行时能隔离、失败后能复盘。",
+        "dots": [
+          "Coding Agent不能一直住在聊天框里",
+          "长任务需要状态，而不是记忆错觉",
+          "并行Agent需要隔离和调度"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 87,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "diagram-design爆火：AI生成内容进入反垃圾审美阶段",
+      "category": "创作",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://gittrend.io/",
+        "https://github.com/jalliance/github-trending-snapshot-2026-08-12",
+        "https://www.kyleyu.dev/posts/2026-08-12-github-trending-daily/"
+      ],
+      "hook": "GitTrend首页与8月12日GitHub Trending快照显示cathrynlavery/diagram-design登上前列，定位为29种editorial diagram types for Claude Code，强调HTML+SVG和反Mermaid模板味。",
+      "angle": "从“AI会画图”换轴到“AI需要编辑表达系统”：图表类型、排版、信息层级和审美标准被封装成可复用技能。",
+      "conclusion_D": "D：AI工作流的下一层竞争，不只是自动生成，而是把表达、排版和审美标准做成可复用资产。",
+      "explosive_score": 86,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Cloudflare避开8/10的computer单点，改写Agents Week平台化全局；Semantica/anydoc/herdr/diagram-design均为新切口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI工作流的下一层竞争，不只是自动生成，而是把表达、排版和审美标准做成可复用资产。",
+        "dots": [
+          "大家开始嫌弃AI味了",
+          "图不是装饰，是压缩理解的工具",
+          "反垃圾审美会变成刚需"
+        ],
+        "axis": "不写成项目介绍，而从它暴露的Agent基础设施/表达系统变化切入。",
+        "counter_intuitive": "表面是开源工具热榜，实际是AI从模型能力转向运行环境、数据入口、审计上下文和表达标准。",
+        "why_worth": "读者读完能抓住AI Agent下一层基础设施机会，而不是只记住项目名。"
+      },
+      "review_score": 86,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ]
+}

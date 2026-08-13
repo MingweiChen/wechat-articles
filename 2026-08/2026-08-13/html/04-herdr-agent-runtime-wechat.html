@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Agent Runtime · 长任务</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Herdr上热榜：Coding Agent需要一个能长期居住的运行时</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">一次回答很聪明不难，难的是任务跑两小时、中间断线、并行改代码后还能接得住。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">一次回答很聪明不难，难的是任务跑两小时、中间断线、并行改代码后还能接得住。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Coding Agent不能一直住在聊天框里</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/01-04-herdr-agent-runtime-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">今天的Coding Agent已经能改文件、</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">今天的Coding Agent已经能改文件、跑测试、读仓库、开PR。但只要任务变长，一个问题就暴露出来：它到底住在哪里？ 聊天框适合短问答，不适合长任务。终端窗口关了怎么办？网络断了怎么办？两个Agent同时改同一个仓库怎么办？测试失败后哪些假设已经被推翻？这些都不是模型本身能单独解决的。 Herdr这类“Agent runtime”项目上热榜，说明开发者正在把注意力从模型提示词，转向Agent运行环境。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">长任务需要状态，而不是记忆错觉</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/02-04-herdr-agent-runtime-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多工具把上下文压缩叫记忆</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多工具把上下文压缩叫记忆，但长任务真正需要的是状态。状态包括当前目标、执行到哪一步、哪些命令跑过、哪些文件改过、哪些错误已经确认、下一步谁负责。 如果这些状态只藏在对话历史里，Agent很容易重复劳动。它会再次搜索同一段代码，再次尝试已经失败的方案，再次问已经回答过的问题。 运行时的价值，就是把这些状态变成可管理对象，让Agent不是靠“想起来”，而是能明确读取任务进度。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">并行Agent需要隔离和调度</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/03-04-herdr-agent-runtime-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">越来越多开发者开始同时开多个Agent</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">越来越多开发者开始同时开多个Agent：一个修bug，一个写测试，一个重构，一个查资料。并行能提速，也会带来混乱。 没有隔离，多个Agent可能互相覆盖文件；没有队列，任务优先级会乱；没有审计，人类很难知道哪个Agent做了什么；没有恢复机制，跑到一半失败就只能重来。 所以Agent runtime听起来底层，却直接决定多Agent开发能不能规模化。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">未来IDE会更像任务控制台</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/04-04-herdr-agent-runtime-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">传统IDE围绕人设计</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统IDE围绕人设计：文件树、编辑器、终端、调试器。Agent时代，IDE会多出一层任务控制台：哪些Agent在跑，成本多少，权限多大，当前证据是什么，是否需要人类批准。 这意味着开发工具竞争会发生位移。谁能让Agent长期稳定工作，谁就比单纯接入更强模型更有价值。 Herdr的热度告诉我们：Coding Agent的下一步不是“更会聊天”，而是拥有能长期居住、可恢复、可观察的工程环境。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">长任务Agent的核心竞争力，正在从模型能力转向运行时能力：状态、队列、隔离、恢复和复盘。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

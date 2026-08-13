@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-13",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare Agents Week刷屏：Agentic Internet的地基铺好了",
+      "virality": 9.4,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "pass",
+      "reason": "多源信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 2,
+      "topic": "Semantica冲上热榜：Agent上下文开始有来源和责任链",
+      "virality": 9.1,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 91,
+      "verdict": "pass",
+      "reason": "多源信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 3,
+      "topic": "Firecrawl anydoc爆火：Agent终于开始啃真实世界的脏文档",
+      "virality": 8.9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 89,
+      "verdict": "pass",
+      "reason": "多源信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 4,
+      "topic": "Herdr上热榜：Coding Agent需要一个能长期居住的运行时",
+      "virality": 8.7,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 87,
+      "verdict": "pass",
+      "reason": "多源信号明确，重复度低，结论D具体，适合标题池。"
+    },
+    {
+      "rank": 5,
+      "topic": "diagram-design爆火：AI生成内容进入反垃圾审美阶段",
+      "virality": 8.6,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 86,
+      "verdict": "pass",
+      "reason": "多源信号明确，重复度低，结论D具体，适合标题池。"
+    }
+  ],
+  "redline_killed": [
+    "kill: 政治绝对红线/涉港台疆藏/外政魔鬼化叙事候选未进入候选池。",
+    "kill: 个股推荐、股票分析、股价交易类候选未入选。"
+  ]
+}

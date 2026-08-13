@@ -1,0 +1,53 @@
+{
+  "slug": "04-herdr-agent-runtime",
+  "date": "2026-08-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-herdr-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/01-04-herdr-agent-runtime-infographic.jpg",
+      "caption": "今天的Coding Agent已经能改文件、",
+      "anchor": "Coding Agent不能一直住在聊天框里",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-herdr-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/02-04-herdr-agent-runtime-infographic.jpg",
+      "caption": "很多工具把上下文压缩叫记忆",
+      "anchor": "长任务需要状态，而不是记忆错觉",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-herdr-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/03-04-herdr-agent-runtime-infographic.jpg",
+      "caption": "越来越多开发者开始同时开多个Agent",
+      "anchor": "并行Agent需要隔离和调度",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-herdr-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/04-herdr-agent-runtime/04-04-herdr-agent-runtime-infographic.jpg",
+      "caption": "传统IDE围绕人设计",
+      "anchor": "未来IDE会更像任务控制台",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "01-cloudflare-agentic-internet",
+  "date": "2026-08-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-cloudflare-agentic-internet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/01-01-cloudflare-agentic-internet-infographic.jpg",
+      "caption": "最近Cloudflare Agents We",
+      "anchor": "Cloudflare这次讲的不是模型，而是地基",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-cloudflare-agentic-internet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/02-01-cloudflare-agentic-internet-infographic.jpg",
+      "caption": "一个Agent如果要替你做事",
+      "anchor": "Agent需要一间能上锁的办公室",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-cloudflare-agentic-internet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/03-01-cloudflare-agentic-internet-infographic.jpg",
+      "caption": "真正能工作的Agent",
+      "anchor": "记忆、搜索和浏览器，是Agent的三件生产工具",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-cloudflare-agentic-internet-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/01-cloudflare-agentic-internet/04-01-cloudflare-agentic-internet-infographic.jpg",
+      "caption": "过去云厂商争的是谁跑应用更稳、谁数据库更便宜",
+      "anchor": "云厂商的新战场，是谁先成为Agent宿舍",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

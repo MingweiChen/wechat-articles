@@ -1,0 +1,52 @@
+{
+  "01-cloudflare-agentic-internet": {
+    "category": "基础设施",
+    "main_title": "Cloudflare Agents Week刷屏：Agentic Internet的地基铺好了",
+    "sub_title": "",
+    "subtitle_brief": "Agent不是普通脚本，它需要能长期运行、能拿权限、能记住状态、还能被随时接管。",
+    "theme": "tech",
+    "kicker": "Agentic Cloud · 云底座",
+    "punch": "当云平台开始为Agent重做沙箱、记忆、浏览器、搜索和网络权限，AI就从聊天窗口变成新的互联网工作负载。",
+    "comment_cta": "你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊"
+  },
+  "02-semantica-accountable-context": {
+    "category": "开源",
+    "main_title": "Semantica冲上热榜：Agent上下文开始有来源和责任链",
+    "sub_title": "",
+    "subtitle_brief": "企业不只想让Agent记住事实，还想知道每个判断从哪来、为什么成立、谁改过。",
+    "theme": "frontier",
+    "kicker": "Graph Context · 可追溯AI",
+    "punch": "当上下文变成可查询、可验证、可审计的图结构，Agent才有机会进入高风险业务流程。",
+    "comment_cta": "你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊"
+  },
+  "03-firecrawl-anydoc-document-gateway": {
+    "category": "工具",
+    "main_title": "Firecrawl anydoc爆火：Agent终于开始啃真实世界的脏文档",
+    "sub_title": "",
+    "subtitle_brief": "AI Demo里材料都很干净，企业现场却是PDF、Word、PPT、扫描件和表格混在一起。",
+    "theme": "business",
+    "kicker": "Document Gateway · 数据入口",
+    "punch": "谁能把旧世界文档稳定变成机器可读材料，谁就掌握了Agent进入企业流程的第一道入口。",
+    "comment_cta": "你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊"
+  },
+  "04-herdr-agent-runtime": {
+    "category": "开发",
+    "main_title": "Herdr上热榜：Coding Agent需要一个能长期居住的运行时",
+    "sub_title": "",
+    "subtitle_brief": "一次回答很聪明不难，难的是任务跑两小时、中间断线、并行改代码后还能接得住。",
+    "theme": "tech",
+    "kicker": "Agent Runtime · 长任务",
+    "punch": "长任务Agent的核心竞争力，正在从模型能力转向运行时能力：状态、队列、隔离、恢复和复盘。",
+    "comment_cta": "你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊"
+  },
+  "05-diagram-design-anti-slop-expression": {
+    "category": "创作",
+    "main_title": "diagram-design爆火：AI生成内容进入反垃圾审美阶段",
+    "sub_title": "",
+    "subtitle_brief": "AI已经不缺生成能力，缺的是把复杂信息讲清楚、排好看、少一点模板味。",
+    "theme": "warm",
+    "kicker": "AI表达 · 反垃圾审美",
+    "punch": "当图表、版式和表达标准被做成技能，AI工作流就从“能产出”升级到“有编辑判断”。",
+    "comment_cta": "你觉得Agent基础设施最先会在哪个环节改变工作？评论区聊聊"
+  }
+}

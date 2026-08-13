@@ -1,0 +1,53 @@
+{
+  "slug": "03-firecrawl-anydoc-document-gateway",
+  "date": "2026-08-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/01-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "caption": "AI演示里",
+      "anchor": "Agent最先撞上的墙，往往是一份PDF",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/02-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "caption": "把文档转成Markdown",
+      "anchor": "转换成Markdown，不只是格式问题",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/03-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "caption": "很多企业说自己缺数据",
+      "anchor": "旧世界文档，是企业最大的隐形数据湖",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/03-firecrawl-anydoc-document-gateway/04-03-firecrawl-anydoc-document-gateway-infographic.jpg",
+      "caption": "接下来",
+      "anchor": "文档解析会成为Agent平台的基础能力",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

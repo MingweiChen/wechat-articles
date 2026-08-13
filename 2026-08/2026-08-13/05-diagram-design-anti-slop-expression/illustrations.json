@@ -1,0 +1,53 @@
+{
+  "slug": "05-diagram-design-anti-slop-expression",
+  "date": "2026-08-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/05-diagram-design-anti-slop-expression",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/05-diagram-design-anti-slop-expression/01-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "caption": "AI生成内容的问题",
+      "anchor": "大家开始嫌弃AI味了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/05-diagram-design-anti-slop-expression/02-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "caption": "一张好图的价值",
+      "anchor": "图不是装饰，是压缩理解的工具",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/05-diagram-design-anti-slop-expression/03-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "caption": "AI内容越多",
+      "anchor": "反垃圾审美会变成刚需",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/05-diagram-design-anti-slop-expression/04-05-diagram-design-anti-slop-expression-infographic.jpg",
+      "caption": "很多人以为AI会让内容生产完全同质化",
+      "anchor": "AI创作的护城河，是品味工程化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "02-semantica-accountable-context",
+  "date": "2026-08-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/01-02-semantica-accountable-context-infographic.jpg",
+      "caption": "很多Agent产品都在讲记忆",
+      "anchor": "企业怕的不是AI忘事，而是AI说不清",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/02-02-semantica-accountable-context-infographic.jpg",
+      "caption": "过去RAG最常见的做法",
+      "anchor": "向量数据库解决相似，图结构解决关系",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/03-02-semantica-accountable-context-infographic.jpg",
+      "caption": "很多公司把“负责任AI”写成原则清单",
+      "anchor": "Accountable AI不是口号，是数据结构",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-semantica-accountable-context-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-13/illustrations/02-semantica-accountable-context/04-02-semantica-accountable-context-infographic.jpg",
+      "caption": "企业知识库过去像仓库",
+      "anchor": "未来的企业知识库，会更像审计系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
