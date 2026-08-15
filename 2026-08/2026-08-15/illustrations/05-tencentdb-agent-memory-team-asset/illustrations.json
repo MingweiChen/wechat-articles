@@ -1,0 +1,53 @@
+{
+  "slug": "05-tencentdb-agent-memory-team-asset",
+  "date": "2026-08-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/05-tencentdb-agent-memory-team-asset",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/05-tencentdb-agent-memory-team-asset/01-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "caption": "很多Agent都说自己有记忆",
+      "anchor": "企业不缺聊天记录，缺可复用记忆",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/05-tencentdb-agent-memory-team-asset/02-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "caption": "把对话、文档和代码整理成Chat Memory、",
+      "anchor": "四类资产，比一团上下文更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/05-tencentdb-agent-memory-team-asset/03-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "caption": "企业记忆层还有一个个人助手没有的问题",
+      "anchor": "团队记忆必须能治理",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/05-tencentdb-agent-memory-team-asset/04-05-tencentdb-agent-memory-team-asset-infographic.jpg",
+      "caption": "一旦记忆变成团队资产",
+      "anchor": "Agent平台会长出知识运维岗位",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

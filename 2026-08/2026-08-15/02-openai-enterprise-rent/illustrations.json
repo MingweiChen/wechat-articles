@@ -1,0 +1,53 @@
+{
+  "slug": "02-openai-enterprise-rent",
+  "date": "2026-08-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/02-openai-enterprise-rent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-openai-enterprise-rent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/02-openai-enterprise-rent/01-02-openai-enterprise-rent-infographic.jpg",
+      "caption": "ChatGPT订阅让OpenAI走进大众视野",
+      "anchor": "个人订阅是广告牌，企业用量是发动机",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-openai-enterprise-rent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/02-openai-enterprise-rent/02-02-openai-enterprise-rent-infographic.jpg",
+      "caption": "模型降价看起来会压低单次收入",
+      "anchor": "降价不是让利，是换用量",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-openai-enterprise-rent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/02-openai-enterprise-rent/03-02-openai-enterprise-rent-infographic.jpg",
+      "caption": "企业不会只为“能回答问题”长期付大钱",
+      "anchor": "企业买的不是聊天，而是流程改造",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-openai-enterprise-rent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/02-openai-enterprise-rent/04-02-openai-enterprise-rent-infographic.jpg",
+      "caption": "当收入来自个人订阅",
+      "anchor": "AI公司的估值会越来越看留存",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

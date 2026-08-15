@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-15",
+  "count": 5,
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Grok 4.6接入Copilot：Coding Agent进入多模型调度时代",
+      "category": "开发",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.unite.ai/grok-4-6-arrives-in-github-copilot-across-eight-development-surfaces/",
+        "https://github.blog/changelog/",
+        "https://docs.github.com/copilot"
+      ],
+      "hook": "搜索信号显示xAI Grok 4.6开始进入GitHub Copilot，多开发界面同步覆盖，定位长任务、终端编码和多步工具调用。",
+      "angle": "不写成“又多了一个模型”，而从IDE变成多模型调度层切入：不同任务、不同成本、不同风险，分配不同代理脑子。",
+      "conclusion_D": "D：IDE的竞争不再是谁接了一个默认模型，而是谁能在不同任务里动态分配最合适的代理脑子。",
+      "explosive_score": 94,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Anthropic避开芯片/Claude Science，Google避开Gemini Spark订阅，TencentDB避开Semantica审计上下文，改写团队记忆资产。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：IDE的竞争不再是谁接了一个默认模型，而是谁能在不同任务里动态分配最合适的代理脑子。",
+        "dots": [
+          "Copilot这次卖的不是一个新按钮",
+          "长任务会把模型差异放大",
+          "IDE正在变成调度层"
+        ],
+        "axis": "不写单条新闻复述，而从AI商业化/Agent工程化/模型发布机制的结构变化切入。",
+        "counter_intuitive": "表面是模型或开源项目新闻，实际是AI进入工程化运营后的调度、收入、刹车、成本和组织记忆问题。",
+        "why_worth": "读者能看到新闻背后的产业迁移，而不是只记住一串产品名。"
+      },
+      "review_score": 94,
+      "review_verdict": "keep",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "OpenAI企业收入反超ChatGPT：AI商业化从订阅转向流程租金",
+      "category": "商业",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar",
+        "https://www.businessinsider.com/openai-slashed-ai-prices-usage-soared-revenue-jumped-2026-8",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/openais-revenue-run-rate-tops-40-billion-as-ipo-nears/"
+      ],
+      "hook": "多家报道提到OpenAI企业收入超过ChatGPT订阅收入，年化收入继续上行，降价后企业使用量显著增加。",
+      "angle": "从“OpenAI又赚钱了”换轴到“商业化位置迁移”：个人订阅是入口，企业流程里的调用量才是长期租金。",
+      "conclusion_D": "D：OpenAI真正的现金引擎正在从消费者聊天窗口，迁移到企业流程里的长期使用量。",
+      "explosive_score": 92,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Anthropic避开芯片/Claude Science，Google避开Gemini Spark订阅，TencentDB避开Semantica审计上下文，改写团队记忆资产。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：OpenAI真正的现金引擎正在从消费者聊天窗口，迁移到企业流程里的长期使用量。",
+        "dots": [
+          "个人订阅是广告牌，企业用量是发动机",
+          "降价不是让利，是换用量",
+          "企业买的不是聊天，而是流程改造"
+        ],
+        "axis": "不写单条新闻复述，而从AI商业化/Agent工程化/模型发布机制的结构变化切入。",
+        "counter_intuitive": "表面是模型或开源项目新闻，实际是AI进入工程化运营后的调度、收入、刹车、成本和组织记忆问题。",
+        "why_worth": "读者能看到新闻背后的产业迁移，而不是只记住一串产品名。"
+      },
+      "review_score": 92,
+      "review_verdict": "keep",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic搁置Model 2：AI竞赛第一次把“不上线”变成产品信号",
+      "category": "安全",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://www.unite.ai/anthropic-raises-misalignment-risk-to-low-and-shelves-internal-model-2/",
+        "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+        "https://www.benzinga.com/markets/private-markets/26/08/61225656/anthropic-raises-ai-risk-concerns-as-claude-models-show-early-signs-of-rd-acceleration"
+      ],
+      "hook": "报道显示Anthropic发布风险报告、上调部分误校准风险，并搁置一个未发布内部模型Model 2，原因是安全评估尚未完成。",
+      "angle": "不写成“AI危险论”，而从产品节奏切入：前沿公司开始把安全评估变成发布门槛，甚至把刹车本身公开化。",
+      "conclusion_D": "D：前沿模型竞争不只是发更强模型，也开始比谁敢为安全评估踩刹车。",
+      "explosive_score": 90,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Anthropic避开芯片/Claude Science，Google避开Gemini Spark订阅，TencentDB避开Semantica审计上下文，改写团队记忆资产。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：前沿模型竞争不只是发更强模型，也开始比谁敢为安全评估踩刹车。",
+        "dots": [
+          "AI公司很少炫耀自己没发什么",
+          "安全评估正在从原则变成门禁",
+          "“踩刹车”也会变成品牌资产"
+        ],
+        "axis": "不写单条新闻复述，而从AI商业化/Agent工程化/模型发布机制的结构变化切入。",
+        "counter_intuitive": "表面是模型或开源项目新闻，实际是AI进入工程化运营后的调度、收入、刹车、成本和组织记忆问题。",
+        "why_worth": "读者能看到新闻背后的产业迁移，而不是只记住一串产品名。"
+      },
+      "review_score": 90,
+      "review_verdict": "keep",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Gemini 3.7 Flash低价发布：工作马模型开始打价格战",
+      "category": "产品",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://northeasttimes.com/2026/08/14/google-launches-gemini-3-7-flash-amid-ai-leadership-shakeup/",
+        "https://aibusiness.com/generative-ai/lower-intro-price-for-gemini-3-7-flash-attract-developers",
+        "https://ai.google.dev/"
+      ],
+      "hook": "搜索信号显示Google推出Gemini 3.7 Flash，主打编码和Agent工作马模型，并用较低引入价吸引开发者。",
+      "angle": "从“Google又发模型”换轴到“工作马模型价格战”：大多数企业调用不需要最强模型，需要便宜、快、稳定、能大量跑。",
+      "conclusion_D": "D：编码和Agent场景的胜负点，正在从最强大模型转向便宜、快、能大量调用的工作马模型。",
+      "explosive_score": 88,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Anthropic避开芯片/Claude Science，Google避开Gemini Spark订阅，TencentDB避开Semantica审计上下文，改写团队记忆资产。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：编码和Agent场景的胜负点，正在从最强大模型转向便宜、快、能大量调用的工作马模型。",
+        "dots": [
+          "AI竞赛不只看旗舰机",
+          "Agent最烧钱的是中间步骤",
+          "价格会改变产品设计"
+        ],
+        "axis": "不写单条新闻复述，而从AI商业化/Agent工程化/模型发布机制的结构变化切入。",
+        "counter_intuitive": "表面是模型或开源项目新闻，实际是AI进入工程化运营后的调度、收入、刹车、成本和组织记忆问题。",
+        "why_worth": "读者能看到新闻背后的产业迁移，而不是只记住一串产品名。"
+      },
+      "review_score": 88,
+      "review_verdict": "keep",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "TencentDB Agent Memory上热榜：Agent记忆开始变成团队资产",
+      "category": "开源",
+      "score": 86,
+      "batch_verdict": "pass",
+      "sources": [
+        "https://youraiproject.com/github-trending-history/2026/33",
+        "https://trendshift.io/monthly",
+        "https://github.com/"
+      ],
+      "hook": "GitHub趋势信号显示TencentDB Agent Memory提供团队级记忆中枢，把对话、文档和代码转成Chat Memory、Skill、LLM-Wiki、Code-Graph等资产。",
+      "angle": "从“又一个Agent记忆项目”换轴到“组织上下文治理”：记忆不再是个人上下文窗口，而是团队可共享、可更新、可权限管理的资产层。",
+      "conclusion_D": "D：企业不会满足于单个Agent记住对话，而会把聊天、技能、代码图和Wiki沉淀成可治理的团队记忆层。",
+      "explosive_score": 86,
+      "dedup": "低重复：与过去7天已发题避开同事件同角度；如Anthropic避开芯片/Claude Science，Google避开Gemini Spark订阅，TencentDB避开Semantica审计上下文，改写团队记忆资产。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业不会满足于单个Agent记住对话，而会把聊天、技能、代码图和Wiki沉淀成可治理的团队记忆层。",
+        "dots": [
+          "企业不缺聊天记录，缺可复用记忆",
+          "四类资产，比一团上下文更重要",
+          "团队记忆必须能治理"
+        ],
+        "axis": "不写单条新闻复述，而从AI商业化/Agent工程化/模型发布机制的结构变化切入。",
+        "counter_intuitive": "表面是模型或开源项目新闻，实际是AI进入工程化运营后的调度、收入、刹车、成本和组织记忆问题。",
+        "why_worth": "读者能看到新闻背后的产业迁移，而不是只记住一串产品名。"
+      },
+      "review_score": 86,
+      "review_verdict": "keep",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ]
+}

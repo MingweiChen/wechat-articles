@@ -1,0 +1,52 @@
+{
+  "01-grok-copilot-multimodel-agent": {
+    "category": "开发",
+    "main_title": "Grok 4.6接入Copilot：Coding Agent进入多模型调度时代",
+    "sub_title": "",
+    "subtitle_brief": "当同一个IDE里可以切换不同代理模型，开发工具卖的就不只是“一个AI助手”。",
+    "theme": "tech",
+    "kicker": "Copilot · 多模型代理",
+    "punch": "Coding Agent的新竞争点，是谁能把模型、终端、仓库、测试和长任务调度成一个稳定生产系统。",
+    "comment_cta": "你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊"
+  },
+  "02-openai-enterprise-rent": {
+    "category": "商业",
+    "main_title": "OpenAI企业收入反超ChatGPT：AI商业化从订阅转向流程租金",
+    "sub_title": "",
+    "subtitle_brief": "个人订阅决定声量，企业用量决定现金流。OpenAI的重心正在从聊天窗口迁移到工作流。",
+    "theme": "business",
+    "kicker": "Enterprise AI · 流程租金",
+    "punch": "AI公司最稳的收入，不是每人每月二十美元，而是企业把模型嵌进客服、销售、研发和数据流程后的持续消耗。",
+    "comment_cta": "你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊"
+  },
+  "03-anthropic-model2-safety-brake": {
+    "category": "安全",
+    "main_title": "Anthropic搁置Model 2：AI竞赛第一次把不发布变成产品信号",
+    "sub_title": "",
+    "subtitle_brief": "前沿模型竞争一直在比谁更快更强，现在开始出现另一种信号：谁敢在评估没完成时停下来。",
+    "theme": "frontier",
+    "kicker": "AI Safety · 踩刹车",
+    "punch": "当“不上线”也成为对外叙事，安全不再只是论文和原则，而是会影响产品节奏的硬约束。",
+    "comment_cta": "你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊"
+  },
+  "04-gemini37-flash-workhorse-pricewar": {
+    "category": "产品",
+    "main_title": "Gemini 3.7 Flash低价发布：工作马模型开始打价格战",
+    "sub_title": "",
+    "subtitle_brief": "最强模型负责展示天花板，工作马模型负责每天跑账单。AI竞争正在从能力榜单打到单位成本。",
+    "theme": "tech",
+    "kicker": "Workhorse Model · 性价比",
+    "punch": "Agent和编码场景真正消耗的是海量中等难度任务，谁能把足够聪明做到足够便宜，谁就拿到生产流量。",
+    "comment_cta": "你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊"
+  },
+  "05-tencentdb-agent-memory-team-asset": {
+    "category": "开源",
+    "main_title": "TencentDB Agent Memory上热榜：Agent记忆开始变成团队资产",
+    "sub_title": "",
+    "subtitle_brief": "个人Agent记住偏好只是第一步，企业真正想要的是团队知识、代码图谱和技能沉淀能被所有Agent复用。",
+    "theme": "business",
+    "kicker": "Team Memory · 组织上下文",
+    "punch": "当记忆从聊天记录升级为可治理资产，Agent才可能从个人助手变成组织生产力。",
+    "comment_cta": "你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊"
+  }
+}

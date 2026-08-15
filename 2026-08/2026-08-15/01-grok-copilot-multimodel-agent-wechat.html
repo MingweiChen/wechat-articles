@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Copilot · 多模型代理</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Grok 4.6接入Copilot：Coding Agent进入多模型调度时代</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">当同一个IDE里可以切换不同代理模型，开发工具卖的就不只是“一个AI助手”。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">当同一个IDE里可以切换不同代理模型，开发工具卖的就不只是“一个AI助手”。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Copilot这次卖的不是一个新按钮</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/01-01-grok-copilot-multimodel-agent-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Grok 4.6进入Copilot</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">Grok 4.6进入Copilot，表面看只是开发者又多了一个可选模型。但真正值得写的是，IDE正在从“接入一个AI助手”，变成“调度一组代理脑子”。 过去我们把Copilot理解成代码补全，后来理解成聊天和改文件。现在它更像一个工作台：同一个仓库、同一个终端、同一套权限下，模型可以按任务被替换。 这意味着开发工具的护城河不只在模型本身，而在模型如何被放进真实研发流程。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">长任务会把模型差异放大</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/02-01-grok-copilot-multimodel-agent-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">短问答里</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">短问答里，很多模型的差距没那么明显。但一旦任务变成“读完整仓库、改三处代码、跑测试、修失败、再解释PR”，模型之间的耐心、工具使用和恢复能力会迅速拉开。 Grok 4.6如果主打长任务和终端编码，它争的不是一句代码谁写得漂亮，而是两小时后任务还在不在轨道上。 这也是为什么Copilot愿意引入更多模型：开发者需要的不是单一冠军，而是一组可调用的专长。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">IDE正在变成调度层</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/03-01-grok-copilot-multimodel-agent-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">未来的IDE可能会像云平台一样调度模型</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">未来的IDE可能会像云平台一样调度模型：小修改用便宜快模型，复杂重构用强推理模型，安全审查用保守模型，文档整理用长上下文模型。 这背后的价值是上下文复用。仓库索引、终端历史、测试日志、权限边界都在IDE里，模型只是被接进同一个生产现场。 谁能把这些上下文治理好，谁就能让多模型不是菜单，而是生产力。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">开发者买的是确定性</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/04-01-grok-copilot-multimodel-agent-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">开发者最后关心的不是模型名</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">开发者最后关心的不是模型名，而是任务能不能完成、失败能不能追踪、成本会不会失控。多模型调度如果只停留在“选择困难”，反而会增加负担。 真正的产品形态应该是：工具理解任务类型，自动选择模型，必要时解释为什么切换，人类只在关键权限和高风险修改上介入。 所以这条新闻的爆点是，Coding Agent正在进入平台化阶段。模型越多，调度层越值钱。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">Coding Agent的新竞争点，是谁能把模型、终端、仓库、测试和长任务调度成一个稳定生产系统。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这一轮AI变化最先会改造哪个工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

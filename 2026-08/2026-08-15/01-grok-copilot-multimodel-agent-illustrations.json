@@ -1,0 +1,53 @@
+{
+  "slug": "01-grok-copilot-multimodel-agent",
+  "date": "2026-08-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/01-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "caption": "Grok 4.6进入Copilot",
+      "anchor": "Copilot这次卖的不是一个新按钮",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/02-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "caption": "短问答里",
+      "anchor": "长任务会把模型差异放大",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/03-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "caption": "未来的IDE可能会像云平台一样调度模型",
+      "anchor": "IDE正在变成调度层",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/01-grok-copilot-multimodel-agent/04-01-grok-copilot-multimodel-agent-infographic.jpg",
+      "caption": "开发者最后关心的不是模型名",
+      "anchor": "开发者买的是确定性",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

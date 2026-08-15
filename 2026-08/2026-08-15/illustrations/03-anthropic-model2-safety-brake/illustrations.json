@@ -1,0 +1,53 @@
+{
+  "slug": "03-anthropic-model2-safety-brake",
+  "date": "2026-08-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/03-anthropic-model2-safety-brake",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-anthropic-model2-safety-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/03-anthropic-model2-safety-brake/01-03-anthropic-model2-safety-brake-infographic.jpg",
+      "caption": "科技行业通常喜欢发布",
+      "anchor": "AI公司很少炫耀自己没发什么",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-anthropic-model2-safety-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/03-anthropic-model2-safety-brake/02-03-anthropic-model2-safety-brake-infographic.jpg",
+      "caption": "过去谈AI安全",
+      "anchor": "安全评估正在从原则变成门禁",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-anthropic-model2-safety-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/03-anthropic-model2-safety-brake/03-03-anthropic-model2-safety-brake-infographic.jpg",
+      "caption": "对企业客户来说",
+      "anchor": "“踩刹车”也会变成品牌资产",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-anthropic-model2-safety-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-15/illustrations/03-anthropic-model2-safety-brake/04-03-anthropic-model2-safety-brake-infographic.jpg",
+      "caption": "不要误解",
+      "anchor": "竞赛没有慢下来，只是规则变复杂了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local PIL editorial infographic",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
