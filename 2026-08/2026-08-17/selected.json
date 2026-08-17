@@ -1,0 +1,317 @@
+{
+  "date": "2026-08-17",
+  "generated_at_utc": "2026-08-17T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "dedup_basis": [
+    "2026-08-15: Grok 4.6/Copilot多模型调度、OpenAI企业收入、Anthropic Model2安全刹车、Gemini 3.7 Flash、TencentDB Agent Memory",
+    "2026-08-13: Cloudflare Agents Week、Semantica、Firecrawl anydoc、Herdr runtime、diagram-design",
+    "2026-08-12: Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor",
+    "2026-08-11: Meta Muse local agent、AI融资集中、Orca Agent车队、Claude Science、AI服务实施层",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science"
+  ],
+  "political_redline_policy": "选题阶段直接排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "step_3_6_writing_design": "5篇均已写入writing_approach，覆盖端侧AI、本地训练、Agent原生接口、时空组合框架、企业应用生成。",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Needle冲上热榜：14MB基础模型把AI塞进手表和机器人",
+      "category": "端侧AI",
+      "score": 92,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/cactus-compute/needle",
+        "https://github.com/trending?since=daily"
+      ],
+      "hook": "GitHub Python日榜显示，cactus-compute/needle以“14MB foundation model for tiny devices”冲上趋势榜，面向手机、穿戴、智能家居和机器人。",
+      "angle": "不写“大模型越来越强”，而是换轴写“小到能常驻”的价值：端侧AI真正缺的不是炫技，而是低功耗、低延迟、可部署。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：端侧AI的关键突破可能不是更聪明，而是小到能长期常驻。",
+        "dots": [
+          "14MB foundation model",
+          "tiny devices",
+          "phones/wearables/smart home/robots"
+        ],
+        "axis": "大家都写模型能力榜，本篇从部署物理约束切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把端侧AI从口号拉回内存、功耗、延迟和隐私四个硬约束。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 92,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Unsloth本地训练界面刷屏：开源模型工厂搬到个人电脑",
+      "category": "开源模型",
+      "score": 89,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/unslothai/unsloth",
+        "https://github.com/trending?since=daily"
+      ],
+      "hook": "GitHub日榜显示，unsloth以“Local UI to run and train LLMs and diffusion models”继续高热，覆盖Qwen、Kimi、MiniMax、Gemma、DeepSeek、FLUX等模型。",
+      "angle": "从“又一个开源模型工具”换轴到“个人电脑上的模型工厂”：本地训练UI正在把微调从少数工程团队手里拿出来。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：模型能力竞争正在从云端参数战，下沉到个人电脑上的微调生产力。",
+        "dots": [
+          "Local UI",
+          "多模型覆盖",
+          "本地训练/运行"
+        ],
+        "axis": "大家都写开源模型更新，本篇从生产线民主化切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "解释为什么界面和流程工具会改变小团队模型迭代速度。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
+      "category": "Agent基建",
+      "score": 86,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/HKUDS/CLI-Anything",
+        "https://clianything.cc/"
+      ],
+      "hook": "GitHub Python日榜出现HKUDS/CLI-Anything，项目口号是“Making ALL Software Agent-Native”，并提供CLI-Hub入口。",
+      "angle": "不写命令行工具本身，而写软件入口权迁移：当Agent成为高频用户，软件必须提供稳定、可脚本化、可验证的接口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：未来软件的第一用户可能不是人，而是需要稳定接口的Agent。",
+        "dots": [
+          "CLI-Anything",
+          "ALL Software Agent-Native",
+          "CLI-Hub"
+        ],
+        "axis": "大家都看工具调用，本篇看软件入口权从GUI迁移到Agent接口。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把一个开源项目扩展为软件形态变化：可调用性成为新用户体验。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
+      "category": "框架",
+      "score": 84,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/cordiverse/cordis"
+      ],
+      "hook": "GitHub日榜显示cordiverse/cordis以720 stars today冲上趋势，项目定位为“Meta-Framework of Spatiotemporal Composability”。",
+      "angle": "不写术语堆砌，而写Agent工程化的下一层问题：当工具、状态、时间和上下文变多，系统需要组合规则，而不是继续堆调用。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：Agent基建的下一站不是更多工具，而是把工具、时间、上下文组合成可维护系统。",
+        "dots": [
+          "720 stars today",
+          "spatiotemporal composability",
+          "Agent上下文和状态复杂化"
+        ],
+        "axis": "大家看框架名字，本篇从长期系统维护切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "解释为何Agent系统需要时间/状态/上下文组合，而非单次工具链。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 84,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+      "category": "企业软件",
+      "score": 81,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/ToolJet/ToolJet",
+        "https://www.tooljet.com/"
+      ],
+      "hook": "GitHub日榜显示ToolJet/ToolJet以452 stars today升温，项目定位是ToolJet AI的开源基础，用于构建内部工具、仪表盘、业务应用、工作流和AI Agents。",
+      "angle": "不写低代码老故事，而写企业流程的“现场生成”：AI把临时需求到可运行内部应用的距离压短。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI生成内部工具的价值不在替代SaaS，而在把临时流程变成可运行应用。",
+        "dots": [
+          "ToolJet AI",
+          "enterprise app generation",
+          "internal tools/workflows/agents"
+        ],
+        "axis": "大家写低代码平台，本篇从企业临时流程治理切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把开源热度和企业软件需求连接起来，解释AI生成应用的真实落点。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 81,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "Needle冲上热榜：14MB基础模型把AI塞进手表和机器人",
+      "category": "端侧AI",
+      "score": 92,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/cactus-compute/needle",
+        "https://github.com/trending?since=daily"
+      ],
+      "hook": "GitHub Python日榜显示，cactus-compute/needle以“14MB foundation model for tiny devices”冲上趋势榜，面向手机、穿戴、智能家居和机器人。",
+      "angle": "不写“大模型越来越强”，而是换轴写“小到能常驻”的价值：端侧AI真正缺的不是炫技，而是低功耗、低延迟、可部署。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：端侧AI的关键突破可能不是更聪明，而是小到能长期常驻。",
+        "dots": [
+          "14MB foundation model",
+          "tiny devices",
+          "phones/wearables/smart home/robots"
+        ],
+        "axis": "大家都写模型能力榜，本篇从部署物理约束切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把端侧AI从口号拉回内存、功耗、延迟和隐私四个硬约束。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 92,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Unsloth本地训练界面刷屏：开源模型工厂搬到个人电脑",
+      "category": "开源模型",
+      "score": 89,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/unslothai/unsloth",
+        "https://github.com/trending?since=daily"
+      ],
+      "hook": "GitHub日榜显示，unsloth以“Local UI to run and train LLMs and diffusion models”继续高热，覆盖Qwen、Kimi、MiniMax、Gemma、DeepSeek、FLUX等模型。",
+      "angle": "从“又一个开源模型工具”换轴到“个人电脑上的模型工厂”：本地训练UI正在把微调从少数工程团队手里拿出来。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：模型能力竞争正在从云端参数战，下沉到个人电脑上的微调生产力。",
+        "dots": [
+          "Local UI",
+          "多模型覆盖",
+          "本地训练/运行"
+        ],
+        "axis": "大家都写开源模型更新，本篇从生产线民主化切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "解释为什么界面和流程工具会改变小团队模型迭代速度。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
+      "category": "Agent基建",
+      "score": 86,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/HKUDS/CLI-Anything",
+        "https://clianything.cc/"
+      ],
+      "hook": "GitHub Python日榜出现HKUDS/CLI-Anything，项目口号是“Making ALL Software Agent-Native”，并提供CLI-Hub入口。",
+      "angle": "不写命令行工具本身，而写软件入口权迁移：当Agent成为高频用户，软件必须提供稳定、可脚本化、可验证的接口。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：未来软件的第一用户可能不是人，而是需要稳定接口的Agent。",
+        "dots": [
+          "CLI-Anything",
+          "ALL Software Agent-Native",
+          "CLI-Hub"
+        ],
+        "axis": "大家都看工具调用，本篇看软件入口权从GUI迁移到Agent接口。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把一个开源项目扩展为软件形态变化：可调用性成为新用户体验。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
+      "category": "框架",
+      "score": 84,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/cordiverse/cordis"
+      ],
+      "hook": "GitHub日榜显示cordiverse/cordis以720 stars today冲上趋势，项目定位为“Meta-Framework of Spatiotemporal Composability”。",
+      "angle": "不写术语堆砌，而写Agent工程化的下一层问题：当工具、状态、时间和上下文变多，系统需要组合规则，而不是继续堆调用。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：Agent基建的下一站不是更多工具，而是把工具、时间、上下文组合成可维护系统。",
+        "dots": [
+          "720 stars today",
+          "spatiotemporal composability",
+          "Agent上下文和状态复杂化"
+        ],
+        "axis": "大家看框架名字，本篇从长期系统维护切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "解释为何Agent系统需要时间/状态/上下文组合，而非单次工具链。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 84,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+      "category": "企业软件",
+      "score": 81,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/ToolJet/ToolJet",
+        "https://www.tooljet.com/"
+      ],
+      "hook": "GitHub日榜显示ToolJet/ToolJet以452 stars today升温，项目定位是ToolJet AI的开源基础，用于构建内部工具、仪表盘、业务应用、工作流和AI Agents。",
+      "angle": "不写低代码老故事，而写企业流程的“现场生成”：AI把临时需求到可运行内部应用的距离压短。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI生成内部工具的价值不在替代SaaS，而在把临时流程变成可运行应用。",
+        "dots": [
+          "ToolJet AI",
+          "enterprise app generation",
+          "internal tools/workflows/agents"
+        ],
+        "axis": "大家写低代码平台，本篇从企业临时流程治理切入。",
+        "counter_intuitive": "表面看是单个开源项目上热榜，实际是AI工程化进入部署、训练、接口、组合和企业流程五个基础环节。",
+        "why_worth": "把开源热度和企业软件需求连接起来，解释AI生成应用的真实落点。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：避开过去一周Cloudflare/Claude/Gemini/OpenAI/Copilot/Agent记忆等同事件同角度；本篇切口为新的GitHub热榜项目与工程化层级。",
+      "review_score": 81,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ]
+}

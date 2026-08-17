@@ -1,0 +1,53 @@
+{
+  "slug": "04-cordis-spatiotemporal-composability",
+  "date": "2026-08-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/01-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "caption": "过去一年",
+      "anchor": "工具链只是Agent工程的第一层",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/02-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "caption": "人类做项目天然有时间感",
+      "anchor": "时间维度会让上下文变难",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/03-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "caption": "空间不是物理空间",
+      "anchor": "空间维度，是多组件协作的边界",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/04-04-cordis-spatiotemporal-composability-diagram.jpg",
+      "caption": "如果把每个工具看成应用",
+      "anchor": "Agent平台会越来越像操作系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

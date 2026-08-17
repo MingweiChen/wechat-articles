@@ -1,0 +1,53 @@
+{
+  "slug": "03-cli-anything-agent-native-software",
+  "date": "2026-08-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/03-cli-anything-agent-native-software",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-cli-anything-agent-native-software-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/03-cli-anything-agent-native-software/01-03-cli-anything-agent-native-software-diagram.jpg",
+      "caption": "传统软件默认第一用户是人",
+      "anchor": "软件的第一用户正在变化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-cli-anything-agent-native-software-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/03-cli-anything-agent-native-software/02-03-cli-anything-agent-native-software-diagram.jpg",
+      "caption": "人类可以看页面、理解提示、纠正误点",
+      "anchor": "GUI适合人，接口适合Agent",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-cli-anything-agent-native-software-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/03-cli-anything-agent-native-software/03-03-cli-anything-agent-native-software-diagram.jpg",
+      "caption": "过去产品设计强调“让用户少思考”",
+      "anchor": "Agent原生会改变产品设计优先级",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-cli-anything-agent-native-software-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/03-cli-anything-agent-native-software/04-03-cli-anything-agent-native-software-diagram.jpg",
+      "caption": "未来企业采购软件",
+      "anchor": "软件竞争从功能表转向可编排性",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

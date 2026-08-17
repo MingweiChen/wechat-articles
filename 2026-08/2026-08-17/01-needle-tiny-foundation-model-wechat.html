@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Tiny Model · 端侧智能</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Needle冲上热榜：14MB基础模型把AI塞进手表和机器人</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">大模型把AI推上云端，14MB模型则提醒行业：真正的下一批设备，可能根本等不起云端响应。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">大模型把AI推上云端，14MB模型则提醒行业：真正的下一批设备，可能根本等不起云端响应。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">大模型负责想象力，小模型负责进设备</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/01-01-needle-tiny-foundation-model-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去两年</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去两年，AI行业最容易被记住的是参数、上下文、推理能力和多模态演示。它们证明了上限，但也制造了一个错觉：只要模型越大，AI就越接近无处不在。 Needle这类14MB基础模型提醒我们，真实设备的世界不是发布会舞台。手表、摄像头、家居传感器、低成本机器人，没有无限显存，也没有随时稳定的云端连接。 所以端侧AI的第一性原理不是“最聪明”，而是“足够聪明，并且能一直运行”。这一步很朴素，却决定AI能不能从手机App进入日常物理空间。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">14MB背后，是四个硬约束</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/02-01-needle-tiny-foundation-model-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">第一个约束是内存</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">第一个约束是内存。很多边缘设备根本放不下传统大模型，更别说同时跑系统、传感器和控制逻辑。模型足够小，才有资格成为常驻能力，而不是偶尔唤醒的重负载。 第二个约束是延迟。机器人避障、门锁识别、耳机降噪、智能摄像头判断，都不能每次先把数据传到云端再等回答。端侧推理越轻，体验越接近本能反应。 第三个是能耗，第四个是隐私。越多数据能在本地处理，越少原始信息需要上传，设备越省电，也越容易被用户接受。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">端侧模型不是缩小版聊天机器人</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/03-01-needle-tiny-foundation-model-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多人谈小模型</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多人谈小模型，习惯把它理解成“大模型的弱化版”。但端侧模型真正的机会，不是复刻聊天窗口，而是做专门的环境判断和即时控制。 比如一个家用机器人不一定需要写长文，但它需要判断物体、理解简单指令、记住房间状态、处理传感器异常。一个智能摄像头不需要诗意回答，却需要在本地完成分类、过滤和提醒。 这意味着端侧AI的产品形态会更碎片化：不是一个万能助手，而是一组嵌进设备里的小能力。小，反而让它们更容易无处不在。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">云端和端侧会重新分工</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/04-01-needle-tiny-foundation-model-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">未来不会是小模型取代大模型</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">未来不会是小模型取代大模型，而是分工变清楚。云端负责复杂推理、长文本、多工具协作和重任务；端侧负责常驻感知、低延迟判断、隐私敏感处理和离线兜底。 一旦这种分工成熟，设备厂商就会有新的护城河。谁能把小模型和传感器、系统、控制芯片调在一起，谁就不只是卖硬件，而是在卖带智能层的硬件。 Needle冲上热榜的爆点正在这里：它不是又一个模型仓库，而是给行业抛出一个反直觉判断——AI要进入真实世界，先得变小。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">对创业团队的启发：先找设备，不先找参数</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果你在做端侧AI产品，最该先问的不是“能不能接入最强模型”，而是设备真实场景是什么：有没有网络、能耗预算多少、响应必须多快、用户愿不愿意上传原始数据。答案一变，模型选择就会完全不同。 很多产品失败，不是算法不够先进，而是部署假设太理想。云端演示可以慢几秒，家居设备不行；实验室有稳定网络，仓库和户外不一定有；开发板能跑，量产设备可能跑不起。 小模型热起来，给创业团队提供了另一条路线：不要和大厂拼通用智商，而是在一个物理场景里把小模型、传感器、交互和控制做成闭环。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">真正的竞争会落在系统调校</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">14MB模型本身只是起点。要让它进入手表、机器人和家居设备，还要解决唤醒、缓存、误判、升级、数据回流和异常处理。端侧AI不是下载一个模型就结束，而是一整套系统工程。 这也会让硬件厂商重新获得主动权。过去AI能力常常被云平台定义，端侧模型成熟后，设备厂商可以把AI能力和自家硬件深度绑定，形成更难复制的体验。 所以Needle的热度可以看作一个早期信号：行业开始重新认真对待“小”。小不是退步，小是AI进入真实世界必须付的门票。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">当模型小到能进手表、摄像头和机器人，AI才会从“打开一个应用”变成“设备本身的一层能力”。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

@@ -1,0 +1,53 @@
+{
+  "slug": "02-unsloth-local-model-factory",
+  "date": "2026-08-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/02-unsloth-local-model-factory",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-unsloth-local-model-factory-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/02-unsloth-local-model-factory/01-02-unsloth-local-model-factory-diagram.jpg",
+      "caption": "今天的开源模型生态已经不缺名字",
+      "anchor": "开源模型不缺权重，缺生产线",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-unsloth-local-model-factory-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/02-unsloth-local-model-factory/02-02-unsloth-local-model-factory-diagram.jpg",
+      "caption": "云端API适合快速验证想法",
+      "anchor": "本地训练改变试错节奏",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-unsloth-local-model-factory-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/02-unsloth-local-model-factory/03-02-unsloth-local-model-factory-diagram.jpg",
+      "caption": "大平台追求通用能力",
+      "anchor": "“个人电脑模型工厂”会催生小众模型",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-unsloth-local-model-factory-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/02-unsloth-local-model-factory/04-02-unsloth-local-model-factory-diagram.jpg",
+      "caption": "本地训练不会让云消失",
+      "anchor": "云厂商卖算力，工具链卖自由度",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

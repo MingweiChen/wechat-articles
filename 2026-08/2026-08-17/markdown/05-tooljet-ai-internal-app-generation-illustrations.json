@@ -1,0 +1,53 @@
+{
+  "slug": "05-tooljet-ai-internal-app-generation",
+  "date": "2026-08-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/05-tooljet-ai-internal-app-generation",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/05-tooljet-ai-internal-app-generation/01-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "caption": "一提企业软件",
+      "anchor": "企业真正多的是小流程",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/05-tooljet-ai-internal-app-generation/02-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "caption": "传统低代码强调拖拽组件和连接数据源",
+      "anchor": "AI让低代码从搭积木变成对话生成",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/05-tooljet-ai-internal-app-generation/03-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "caption": "生成一个页面不难",
+      "anchor": "内部工具最难的是治理，不是生成",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/05-tooljet-ai-internal-app-generation/04-05-tooljet-ai-internal-app-generation-diagram.jpg",
+      "caption": "过去企业买软件",
+      "anchor": "企业软件会从购买功能变成生成流程",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

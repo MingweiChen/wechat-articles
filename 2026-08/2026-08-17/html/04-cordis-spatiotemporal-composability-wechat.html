@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Composable System · 上下文工程</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">Agent早期拼的是能调用多少工具，后面拼的是这些工具、状态和上下文能不能长期稳定地组合在一起。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">Agent早期拼的是能调用多少工具，后面拼的是这些工具、状态和上下文能不能长期稳定地组合在一起。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">工具链只是Agent工程的第一层</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/01-04-cordis-spatiotemporal-composability-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去一年</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去一年，很多Agent框架都在解决同一个问题：怎么让模型调用搜索、代码、浏览器、数据库和文件系统。这一步很重要，但它仍然偏向“单次任务”。 当Agent开始处理长期项目，问题会迅速变复杂。它不只要知道能用什么工具，还要知道什么时候用、基于哪段历史、在什么权限边界内用、失败后怎么恢复。 Cordis这类“时空组合”概念之所以值得看，是因为它把焦点从工具列表转向系统结构。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">时间维度会让上下文变难</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/02-04-cordis-spatiotemporal-composability-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">人类做项目天然有时间感</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">人类做项目天然有时间感：昨天决定了什么，今天改了什么，下周要交付什么，哪条假设已经过期。Agent如果只看当前上下文窗口，很容易把这些时间关系弄混。 长期任务需要状态演化。一个计划不是静态文本，而是在执行中不断被证据更新、被失败修正、被外部输入打断。 所以Agent框架要管理的不只是消息，还包括事件、版本、记忆、依赖和回滚路径。时间一进入系统，简单工具调用就不够了。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">空间维度，是多组件协作的边界</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/03-04-cordis-spatiotemporal-composability-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">空间不是物理空间</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">空间不是物理空间，而是系统里不同角色、模块、权限和资源的边界。一个Agent可能负责写代码，另一个负责审查，第三个负责跑测试，第四个负责发消息。它们共享什么，不共享什么，谁能覆盖谁的决定，都需要规则。 没有边界，Agent协作会变成一锅粥：重复劳动、互相覆盖、权限泄露、错误记忆扩散。 可组合框架的价值，就是把这些关系显式化，让复杂系统能被维护，而不是靠提示词临场发挥。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent平台会越来越像操作系统</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/04-cordis-spatiotemporal-composability/04-04-cordis-spatiotemporal-composability-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">如果把每个工具看成应用</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果把每个工具看成应用，把记忆看成文件系统，把权限看成账户，把任务调度看成进程管理，Agent平台确实越来越像操作系统。 它要决定资源怎么分配，状态怎么保存，失败怎么恢复，组件怎么通信，日志怎么审计。模型只是其中的决策引擎，不是全部系统。 Cordis冲上热榜的意义在于，它提醒开发者：Agent下一阶段不是继续堆魔法，而是补工程底座。能组合、能治理、能恢复，才是长期可用的开始。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">上下文工程会从技巧变成架构</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">现在很多团队解决Agent上下文问题，还停留在提示词技巧：多塞一点背景、加一段规则、让模型自己总结。短任务这样可以，但长期系统会迅速失控。 真正的上下文工程需要架构：哪些内容进入短期上下文，哪些沉淀为长期记忆，哪些作为任务状态，哪些只能按权限临时读取，哪些必须在完成后清理。 这就是时空组合值得讨论的原因。它让我们把“上下文”从一段文本，升级成随时间变化、在不同模块间流动的系统资源。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">可维护性会成为Agent平台分水岭</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">早期Agent项目很容易做出惊艳Demo，因为一次任务只要跑通就行。但企业真正关心的是下周还能不能跑、换一个人维护能不能看懂、失败后能不能恢复、日志能不能追责。 可维护性不是模型能力问题，而是框架设计问题。任务状态、组件边界、事件记录、权限隔离、版本管理，这些工程能力会决定Agent系统能走多远。 Cordis的热度说明开发者已经开始意识到：Agent不是一个聪明脚本，而是一种会长期运行的软件系统。既然是系统，就必须认真对待架构。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a78bfa; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">真正的Agent工程难点，不是“会不会调用工具”，而是调用发生在什么时间、什么状态、什么边界里。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

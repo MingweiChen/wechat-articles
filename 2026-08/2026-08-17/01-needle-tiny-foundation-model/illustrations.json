@@ -1,0 +1,53 @@
+{
+  "slug": "01-needle-tiny-foundation-model",
+  "date": "2026-08-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-needle-tiny-foundation-model-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/01-01-needle-tiny-foundation-model-diagram.jpg",
+      "caption": "过去两年",
+      "anchor": "大模型负责想象力，小模型负责进设备",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-needle-tiny-foundation-model-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/02-01-needle-tiny-foundation-model-diagram.jpg",
+      "caption": "第一个约束是内存",
+      "anchor": "14MB背后，是四个硬约束",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-needle-tiny-foundation-model-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/03-01-needle-tiny-foundation-model-diagram.jpg",
+      "caption": "很多人谈小模型",
+      "anchor": "端侧模型不是缩小版聊天机器人",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-needle-tiny-foundation-model-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-17/illustrations/01-needle-tiny-foundation-model/04-01-needle-tiny-foundation-model-diagram.jpg",
+      "caption": "未来不会是小模型取代大模型",
+      "anchor": "云端和端侧会重新分工",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,52 @@
+{
+  "01-needle-tiny-foundation-model": {
+    "category": "端侧AI",
+    "main_title": "Needle冲上热榜：14MB基础模型把AI塞进手表和机器人",
+    "sub_title": "",
+    "subtitle_brief": "大模型把AI推上云端，14MB模型则提醒行业：真正的下一批设备，可能根本等不起云端响应。",
+    "theme": "tech",
+    "kicker": "Tiny Model · 端侧智能",
+    "punch": "当模型小到能进手表、摄像头和机器人，AI才会从“打开一个应用”变成“设备本身的一层能力”。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊"
+  },
+  "02-unsloth-local-model-factory": {
+    "category": "开源模型",
+    "main_title": "Unsloth本地训练界面刷屏：开源模型工厂搬到个人电脑",
+    "sub_title": "",
+    "subtitle_brief": "当模型训练和扩散模型都能在本地UI里跑，小团队获得的不是玩具，而是更快的试错闭环。",
+    "theme": "frontier",
+    "kicker": "Local Training · 开源工厂",
+    "punch": "开源模型的下一轮扩散，不只靠模型权重开放，也靠训练、评估、复用这条生产线变得足够简单。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊"
+  },
+  "03-cli-anything-agent-native-software": {
+    "category": "Agent基建",
+    "main_title": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
+    "sub_title": "",
+    "subtitle_brief": "过去软件先给人设计界面，现在越来越多软件必须先回答一个问题：Agent能不能稳定调用它。",
+    "theme": "business",
+    "kicker": "Agent Native · 软件入口",
+    "punch": "Agent原生不是把按钮画得更漂亮，而是让软件的能力能被机器可靠发现、组合和验收。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊"
+  },
+  "04-cordis-spatiotemporal-composability": {
+    "category": "框架",
+    "main_title": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
+    "sub_title": "",
+    "subtitle_brief": "Agent早期拼的是能调用多少工具，后面拼的是这些工具、状态和上下文能不能长期稳定地组合在一起。",
+    "theme": "frontier",
+    "kicker": "Composable System · 上下文工程",
+    "punch": "真正的Agent工程难点，不是“会不会调用工具”，而是调用发生在什么时间、什么状态、什么边界里。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊"
+  },
+  "05-tooljet-ai-internal-app-generation": {
+    "category": "企业软件",
+    "main_title": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+    "sub_title": "",
+    "subtitle_brief": "企业里最多的不是宏大系统，而是无数“这个表能不能自动跑一下”的临时流程。AI应用生成正在啃这块灰色地带。",
+    "theme": "industry",
+    "kicker": "Enterprise App · 流程生成",
+    "punch": "内部工具的未来不是每个需求都立项，而是更多流程能在现场被生成、验证、修改和下线。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向最先影响普通工作流？评论区聊聊"
+  }
+}

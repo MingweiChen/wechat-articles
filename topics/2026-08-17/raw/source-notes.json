@@ -1,0 +1,11 @@
+{
+  "github_trending_daily": "cordiverse/cordis 720 stars today; unslothai/unsloth; ToolJet/ToolJet 452 stars today; cactus-compute/needle 443 stars today; OpenCut; public-apis.",
+  "github_trending_python": "unsloth; cactus-compute/needle; HKUDS/CLI-Anything; MakazhanAlpamys/Soup; THUDM/slime; newton-physics/newton; usestrix/strix.",
+  "week_dedup_basis": [
+    "2026-08-15: Grok 4.6/Copilot多模型调度、OpenAI企业收入、Anthropic Model2安全刹车、Gemini 3.7 Flash、TencentDB Agent Memory",
+    "2026-08-13: Cloudflare Agents Week、Semantica、Firecrawl anydoc、Herdr runtime、diagram-design",
+    "2026-08-12: Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor",
+    "2026-08-11: Meta Muse local agent、AI融资集中、Orca Agent车队、Claude Science、AI服务实施层",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science"
+  ]
+}

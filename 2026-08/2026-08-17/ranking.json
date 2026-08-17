@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-17",
+  "run_id": "2026-08-17_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 92,
+      "title": "Needle冲上热榜：14MB基础模型把AI塞进手表和机器人",
+      "slug": "needle-tiny-foundation-model",
+      "article_dir": "01-needle-tiny-foundation-model",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "01-needle-tiny-foundation-model-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-17/html/01-needle-tiny-foundation-model-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 89,
+      "title": "Unsloth本地训练界面刷屏：开源模型工厂搬到个人电脑",
+      "slug": "unsloth-local-model-factory",
+      "article_dir": "02-unsloth-local-model-factory",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "02-unsloth-local-model-factory-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-17/html/02-unsloth-local-model-factory-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 86,
+      "title": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
+      "slug": "cli-anything-agent-native-software",
+      "article_dir": "03-cli-anything-agent-native-software",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "03-cli-anything-agent-native-software-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-17/html/03-cli-anything-agent-native-software-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 84,
+      "title": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
+      "slug": "cordis-spatiotemporal-composability",
+      "article_dir": "04-cordis-spatiotemporal-composability",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "04-cordis-spatiotemporal-composability-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-17/html/04-cordis-spatiotemporal-composability-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 81,
+      "title": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+      "slug": "tooljet-ai-internal-app-generation",
+      "article_dir": "05-tooljet-ai-internal-app-generation",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "05-tooljet-ai-internal-app-generation-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-17/html/05-tooljet-ai-internal-app-generation-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    }
+  ],
+  "compliance": "pass：无中国政治红线、无涉港台疆藏、无投资荐股；正文插图无政治人物、无具体股票、无国旗；HTML逐篇确认img数量等于illustrations count且不为0；中文标点规范化。",
+  "killed_or_rewritten": [
+    "kill: 选题阶段剔除政治红线/外政魔鬼化/个股推荐候选；本批5篇撰写后未触发红线重写。"
+  ]
+}
