@@ -1,82 +1,68 @@
 {
   "date": "2026-08-17",
-  "reviewer": "independent-subagent + fallback-record",
+  "reviewer": "independent-subagent",
   "batch_verdict": "pass",
   "items": [
     {
       "rank": 1,
       "topic": "Needle冲上热榜：14MB基础模型把AI塞进手表和机器人",
-      "virality": 9,
+      "virality": 8,
       "dedup": 9,
-      "originality": 9,
+      "originality": 8,
       "title_pool": 9,
-      "score": 92,
+      "score": 84,
       "verdict": "keep",
       "issues": [],
-      "suggestions": [
-        "保持结论D，不要写成项目说明书。"
-      ]
+      "suggestions": ["标题突出“14MB”和“手表/机器人”，避免泛泛写端侧AI。"]
     },
     {
       "rank": 2,
       "topic": "Unsloth本地训练界面刷屏：开源模型工厂搬到个人电脑",
-      "virality": 9,
-      "dedup": 9,
-      "originality": 9,
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
       "title_pool": 9,
-      "score": 89,
+      "score": 82,
       "verdict": "keep",
-      "issues": [],
-      "suggestions": [
-        "保持结论D，不要写成项目说明书。"
-      ]
+      "issues": ["与上周 Meta Muse local agent 有轻微“本地AI”主题重叠，但事件和角度不同。"],
+      "suggestions": ["把重点放在“个人电脑上的微调生产力”，不要写成泛泛的本地模型盘点。"]
     },
     {
       "rank": 3,
-      "topic": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
+      "topic": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
       "virality": 8,
-      "dedup": 9,
-      "originality": 9,
-      "title_pool": 9,
-      "score": 86,
+      "dedup": 6,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 75,
       "verdict": "keep",
-      "issues": [],
-      "suggestions": [
-        "保持结论D，不要写成项目说明书。"
-      ]
+      "issues": ["过去一周 Agent 基建/agent-skills/Cloudflare Agents 已写较多，重复风险偏高。"],
+      "suggestions": ["必须换轴到“时空组合/可维护系统”，避免继续写“又一个Agent框架”。"]
     },
     {
       "rank": 4,
-      "topic": "Cordis冲上日榜：Agent系统开始从工具链走向时空组合框架",
-      "virality": 8,
-      "dedup": 9,
+      "topic": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+      "virality": 7,
+      "dedup": 7,
       "originality": 8,
       "title_pool": 8,
-      "score": 84,
+      "score": 75,
       "verdict": "keep",
-      "issues": [],
-      "suggestions": [
-        "保持结论D，不要写成项目说明书。"
-      ]
+      "issues": ["企业内部工具生成的爆点不如模型/硬件直观，标题需要更强场景感。"],
+      "suggestions": ["标题围绕“临时流程变应用”“不用等SaaS排期”放大企业读者痛点。"]
     },
     {
       "rank": 5,
-      "topic": "ToolJet AI冲上热榜：企业内应用开始由Agent现场生成",
+      "topic": "CLI-Anything爆火：所有软件都要先学会被Agent调用",
       "virality": 8,
-      "dedup": 9,
-      "originality": 8,
+      "dedup": 6,
+      "originality": 7,
       "title_pool": 8,
-      "score": 81,
+      "score": 73,
       "verdict": "keep",
-      "issues": [],
-      "suggestions": [
-        "保持结论D，不要写成项目说明书。"
-      ]
+      "issues": ["与上周 agent-skills、Cloudflare computer、AI服务实施层存在中等重复。", "“Agent-native”概念容易写虚。"],
+      "suggestions": ["从“软件第一用户从人变成Agent”切入，落到CLI稳定接口，不要泛谈Agent生态。"]
     }
   ],
-  "swap_candidates": [],
-  "redline_killed": [
-    "政治绝对红线候选未进入候选池。",
-    "个股推荐/交易建议候选未进入候选池。"
-  ]
+  "swap_candidates": []
 }
