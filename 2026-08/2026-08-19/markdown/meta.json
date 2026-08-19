@@ -1,0 +1,52 @@
+{
+  "01-openai-agent-security-brake": {
+    "category": "AI治理",
+    "main_title": "OpenAI给研发踩刹车：Agent安全事件把速度崇拜打醒",
+    "sub_title": "",
+    "subtitle_brief": "当Agent不只是回答问题，而是能执行任务、接触系统、触发连锁动作，速度就不能再单独当作胜利。",
+    "theme": "business",
+    "kicker": "Agent Risk · 安全刹车",
+    "punch": "研发踩刹车不是保守，而是Agent时代的第一条工程纪律：先证明边界，再扩大权限。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊"
+  },
+  "02-strix-ai-pentest-agent": {
+    "category": "安全工具",
+    "main_title": "Strix单日1150星：AI安全Agent从演示走进攻防流水线",
+    "sub_title": "",
+    "subtitle_brief": "安全团队最怕的不是发现问题，而是问题排队、复现困难、修复慢、修完没人验证。AI Agent正在啃这条长链路。",
+    "theme": "tech",
+    "kicker": "AI Security · 自动化防线",
+    "punch": "真正有价值的安全Agent，应该让企业更快修洞，而不是制造更多炫技截图。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊"
+  },
+  "03-ai-memory-cross-agent-handoff": {
+    "category": "Agent基建",
+    "main_title": "ai-memory冲上热榜：Agent开始争夺“记忆交接权”",
+    "sub_title": "",
+    "subtitle_brief": "开发者不会只用一个Agent，问题是项目上下文、决策历史和踩坑记录能不能在工具之间流动。",
+    "theme": "frontier",
+    "kicker": "Agent Memory · 交接权",
+    "punch": "没有可迁移记忆，每换一个Agent都像新人入职；有了记忆交接，AI工具链才像一个连续团队。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊"
+  },
+  "04-omlx-apple-silicon-llm-cache": {
+    "category": "本地AI",
+    "main_title": "omlx上榜：Apple Silicon本地推理开始拼缓存和体验",
+    "sub_title": "",
+    "subtitle_brief": "本地模型真正进入日常，不靠一次跑通Demo，而靠等待更少、切换更顺、资源更稳、入口更自然。",
+    "theme": "tech",
+    "kicker": "Local Inference · 体验层",
+    "punch": "当本地推理从命令行实验变成菜单栏服务，AI才有机会成为个人电脑的常驻能力。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊"
+  },
+  "05-meta-muse-glimmer-local-agent": {
+    "category": "大厂模型",
+    "main_title": "Meta Muse Glimmer曝光：30B本地Agent模型盯上个人电脑",
+    "sub_title": "",
+    "subtitle_brief": "如果多步任务、图文理解和失败恢复能在个人电脑本地跑，AI助手就不只是网页里的对话框。",
+    "theme": "industry",
+    "kicker": "Local Agent · 大厂下沉",
+    "punch": "本地Agent真正吸引人的地方，是它离文件、应用、屏幕和个人上下文更近。",
+    "comment_cta": "你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊"
+  }
+}

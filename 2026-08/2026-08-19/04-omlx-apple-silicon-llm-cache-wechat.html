@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Local Inference · 体验层</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">omlx上榜：Apple Silicon本地推理开始拼缓存和体验</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">本地模型真正进入日常，不靠一次跑通Demo，而靠等待更少、切换更顺、资源更稳、入口更自然。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">本地模型真正进入日常，不靠一次跑通Demo，而靠等待更少、切换更顺、资源更稳、入口更自然。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">本地AI已经过了“能不能跑”的阶段</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/01-04-omlx-apple-silicon-llm-cache-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去谈本地模型</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去谈本地模型，很多讨论停在能不能跑、跑多大、每秒多少token。对早期玩家来说这很重要，但对普通用户和小团队来说，真正的问题是它能不能长期好用。 omlx的卖点很有意思：Apple Silicon、连续批处理、SSD缓存、菜单栏管理。它不只是在说模型，而是在说本地推理如何变成一项桌面服务。 这说明本地AI开始从性能炫技，进入体验工程。能跑只是门票，好用才是留存。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">缓存会改变本地推理的体感</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/02-04-omlx-apple-silicon-llm-cache-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">本地模型最常见的痛点是等待</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">本地模型最常见的痛点是等待。模型加载慢、上下文切换慢、多个任务排队慢，都会让用户回到云端API。SSD缓存和连续批处理这类设计，瞄准的就是体感延迟。 很多桌面AI任务并不需要每次从零开始。文档摘要、代码问答、固定项目上下文、常用模型切换，都可以通过缓存减少重复成本。 当等待被压短，本地AI才会从“偶尔打开的工具”变成“随时可用的能力”。这一步看似不性感，却很决定体验。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">菜单栏是一个信号</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/03-04-omlx-apple-silicon-llm-cache-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">把推理服务器放进macOS菜单栏</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把推理服务器放进macOS菜单栏，听起来只是包装，但它代表产品思路变化：用户不想每次打开终端、记命令、看日志。用户想知道现在模型是否可用，资源占用多少，任务跑到哪一步。 本地AI如果要进入日常，就必须像输入法、同步盘、剪贴板工具一样，安静地常驻，必要时出现，不用时不打扰。 这会让本地推理工具和传统开发者工具分化。一类继续服务极客，另一类开始变成系统级AI基础设施。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">云端和本地会按任务分工</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/04-04-omlx-apple-silicon-llm-cache-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">本地AI不会吃掉云端</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">本地AI不会吃掉云端。复杂推理、大规模批处理、跨设备同步仍然适合云端。但隐私敏感、低延迟、固定项目、离线场景和个人自动化，会越来越适合本地。 本地体验越顺，这种分工越自然。用户不会关心背后是云还是本地，只会关心这次任务是否快、稳、省、可信。 omlx上榜的意义就在这里：本地AI不再只拼模型文件，而开始拼服务形态。谁把缓存、调度、入口和资源管理做好，谁就更接近个人电脑上的AI操作层。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">个人电脑会出现“AI后台服务”</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果本地推理体验继续变好，个人电脑上会出现一类新的后台服务：它不一定有复杂界面，却随时准备为剪贴板、文件夹、代码项目、截图和自动化脚本提供模型能力。 这类服务的形态更像系统组件，而不是传统应用。用户不关心它叫什么，只关心其他工具能不能稳定调用它、能不能控制资源、能不能在电池和性能之间找到平衡。 本地推理服务器加菜单栏管理，正是在向这个方向靠近。它把模型从一次性命令，变成可被其他应用依赖的能力层。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">本地模型会重新定义隐私体验</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多用户不是不想用云端AI，而是不想把所有本地文件、截图和工作上下文都上传。对这些场景，本地AI的价值不是更便宜，而是心理距离更近。 当模型运行在自己的设备上，用户更容易授权它处理私人材料、草稿文档和敏感项目。虽然本地也要注意权限，但它天然减少了一部分外传顾虑。 所以本地AI体验做好之后，可能打开一批云端助手很难进入的场景。隐私不是宣传口号，而是产品能否贴近真实工作流的钥匙。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">当本地推理从命令行实验变成菜单栏服务，AI才有机会成为个人电脑的常驻能力。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

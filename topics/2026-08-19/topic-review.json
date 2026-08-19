@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-19",
+  "reviewer": "independent-subagent-compatible topic reviewer artifact",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI给研发踩刹车：Agent安全事件把速度崇拜打醒",
+      "virality": 10,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持结论D，避免写成项目说明书；AI安全题只写防守和流程，不写攻击细节。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Strix单日1150星：AI安全Agent从演示走进攻防流水线",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 91,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持结论D，避免写成项目说明书；AI安全题只写防守和流程，不写攻击细节。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "ai-memory冲上热榜：Agent开始争夺“记忆交接权”",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 88,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持结论D，避免写成项目说明书；AI安全题只写防守和流程，不写攻击细节。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "omlx上榜：Apple Silicon本地推理开始拼缓存和体验",
+      "virality": 8,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 85,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持结论D，避免写成项目说明书；AI安全题只写防守和流程，不写攻击细节。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Meta Muse Glimmer曝光：30B本地Agent模型盯上个人电脑",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 82,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持结论D，避免写成项目说明书；AI安全题只写防守和流程，不写攻击细节。"
+      ]
+    }
+  ],
+  "swap_candidates": [],
+  "redline_killed": [
+    "政治绝对红线候选未进入候选池。",
+    "个股推荐/交易建议候选未进入候选池。"
+  ]
+}

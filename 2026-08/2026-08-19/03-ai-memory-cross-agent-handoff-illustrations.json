@@ -1,0 +1,53 @@
+{
+  "slug": "03-ai-memory-cross-agent-handoff",
+  "date": "2026-08-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/01-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "caption": "开发者现在面对的不是“用不用AI”",
+      "anchor": "Agent越来越多，项目只有一个",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/02-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "caption": "很多人把AI记忆理解成保存对话",
+      "anchor": "记忆不是聊天记录，而是工作资产",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/03-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "caption": "如果记忆只绑定某一家工具",
+      "anchor": "跨供应商交接会变成新标准",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/04-03-ai-memory-cross-agent-handoff-diagram.jpg",
+      "caption": "AI工具的入口竞争",
+      "anchor": "谁掌握记忆，谁接近工作流入口",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

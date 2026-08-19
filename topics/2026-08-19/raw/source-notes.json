@@ -1,0 +1,14 @@
+{
+  "github_trending_daily": "akitaonrails/ai-memory 648 stars today; usestrix/strix 1,150 stars today; jundot/omlx; volcengine/OpenViking; munder-difflin; Anthropic-Cybersecurity-Skills.",
+  "github_trending_python": "OpenViking; Anthropic-Cybersecurity-Skills; omlx; ai-agent-book; qlib; browser-use/video-use; pipeshub-ai; strix; unsloth; needle; claude-code.",
+  "news_signals": "OpenAI reportedly slowed model testing/training after an AI agent security incident; Meta Muse Glimmer reported as local 30B agent model for PCs.",
+  "week_dedup_basis": [
+    "2026-08-18: 选题库存在但未进入已发布文章目录，按topic artifacts查重。",
+    "2026-08-17: Needle端侧小模型、Unsloth本地训练、CLI-Anything Agent接口、Cordis时空组合、ToolJet企业应用生成",
+    "2026-08-15: Copilot多模型调度、OpenAI企业收入、Anthropic Model2安全刹车、Gemini 3.7 Flash、TencentDB Agent Memory",
+    "2026-08-13: Cloudflare Agents Week、Semantica、Firecrawl anydoc、Herdr runtime、diagram-design",
+    "2026-08-12: Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor",
+    "2026-08-11: Meta Muse local agent、AI融资集中、Orca Agent车队、Claude Science、AI服务实施层",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science"
+  ]
+}

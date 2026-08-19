@@ -1,0 +1,53 @@
+{
+  "slug": "04-omlx-apple-silicon-llm-cache",
+  "date": "2026-08-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/01-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "caption": "过去谈本地模型",
+      "anchor": "本地AI已经过了“能不能跑”的阶段",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/02-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "caption": "本地模型最常见的痛点是等待",
+      "anchor": "缓存会改变本地推理的体感",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/03-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "caption": "把推理服务器放进macOS菜单栏",
+      "anchor": "菜单栏是一个信号",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/04-omlx-apple-silicon-llm-cache/04-04-omlx-apple-silicon-llm-cache-diagram.jpg",
+      "caption": "本地AI不会吃掉云端",
+      "anchor": "云端和本地会按任务分工",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a78bfa; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Agent Memory · 交接权</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">ai-memory冲上热榜：Agent开始争夺“记忆交接权”</p>
+  <p style="width:46px; height:3px; background:#a78bfa; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">开发者不会只用一个Agent，问题是项目上下文、决策历史和踩坑记录能不能在工具之间流动。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">开发者不会只用一个Agent，问题是项目上下文、决策历史和踩坑记录能不能在工具之间流动。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent越来越多，项目只有一个</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/01-03-ai-memory-cross-agent-handoff-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">开发者现在面对的不是“用不用AI”</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">开发者现在面对的不是“用不用AI”，而是用哪个AI：终端里有Claude Code，IDE里有Copilot，代码审查可能接Codex，搜索和文档又接别的工具。每个工具都聪明，但项目上下文只有一份。 问题随之出现：昨天A工具做过的决定，今天B工具不知道；某个坑已经踩过一次，换个Agent还会再踩；团队约定写在聊天里，工具切换后又消失。 ai-memory这类项目抓住的正是这个痛点。它不是让Agent多背几句话，而是让项目记忆能跨工具交接。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">记忆不是聊天记录，而是工作资产</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/02-03-ai-memory-cross-agent-handoff-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多人把AI记忆理解成保存对话</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多人把AI记忆理解成保存对话。真正有价值的记忆应该更像工程资产：项目结构、技术取舍、失败原因、命名约定、测试命令、部署限制、用户偏好。 这些信息不一定每天都用，但一旦缺失，Agent就会反复问同样的问题，或者做出看似合理、实际违背项目历史的改动。 长期记忆的关键，不是存得越多越好，而是把可复用决策沉淀下来，把过期信息及时淘汰，让Agent在下一次任务里少走弯路。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">跨供应商交接会变成新标准</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/03-03-ai-memory-cross-agent-handoff-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">如果记忆只绑定某一家工具</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果记忆只绑定某一家工具，它就会变成新的锁定。开发者换模型、换IDE、换终端Agent时，历史上下文也被迫丢掉。 因此“handoff between different agent vendors”这个卖点很关键。它暗示记忆层可能独立于具体模型，成为项目自己的基础设施。模型可以换，工具可以换，但项目记忆应该跟着项目走。 这会催生新的格式、索引和权限规则。哪些记忆共享给所有Agent，哪些只给某个角色，哪些涉及敏感信息不能外传，都需要明确设计。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">谁掌握记忆，谁接近工作流入口</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/03-ai-memory-cross-agent-handoff/04-03-ai-memory-cross-agent-handoff-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">AI工具的入口竞争</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">AI工具的入口竞争，表面看是聊天窗口、IDE插件、命令行界面。更深一层，是谁掌握长期上下文。没有上下文的工具再强，也要先花时间理解现场；掌握上下文的工具，启动就更快。 这就是记忆层的战略价值。它像团队里的老员工，知道历史包袱，也知道哪些路走不通。 ai-memory冲上热榜说明，开发者已经从“让Agent做一次任务”，走向“让Agent持续参与项目”。持续参与的前提，就是记得住，也交接得出去。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">记忆层会倒逼团队写清规则</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当项目记忆可以被多个Agent读取，团队就不能再把规则散落在某个人脑子里。代码风格、发布流程、禁用库、测试命令、历史事故，都应该被整理成可读、可更新、可审计的知识。 这件事本身就会提高团队工程质量。过去给新人看的文档，现在也给Agent看；过去靠口头提醒的坑，现在要写进记忆层。 所以Agent记忆不是单纯为了AI更聪明，也是在逼团队把隐性经验显性化。经验一旦结构化，人和AI都受益。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">记忆也必须会遗忘</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">长期记忆最容易被忽视的问题是过期。项目架构会变，依赖会换，测试命令会改，过去正确的经验可能变成今天的误导。 因此好的记忆系统不仅要会存，还要会标注时间、来源、置信度和失效条件。它应该能提醒“这条规则来自三个月前”，而不是把所有历史都当成永恒真理。 跨Agent交接如果只解决保存，不解决遗忘，最终会变成上下文垃圾场。真正有价值的记忆，是能帮助下一次任务更快接近事实。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a78bfa; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">没有可迁移记忆，每换一个Agent都像新人入职；有了记忆交接，AI工具链才像一个连续团队。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a78bfa; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a78bfa; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

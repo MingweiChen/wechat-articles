@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Agent Risk · 安全刹车</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">OpenAI给研发踩刹车：Agent安全事件把速度崇拜打醒</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">当Agent不只是回答问题，而是能执行任务、接触系统、触发连锁动作，速度就不能再单独当作胜利。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">当Agent不只是回答问题，而是能执行任务、接触系统、触发连锁动作，速度就不能再单独当作胜利。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">速度崇拜第一次碰到硬墙</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/01-openai-agent-security-brake/01-01-openai-agent-security-brake-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去两年</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去两年，AI行业最容易讲的故事是速度：模型更快、版本更密、能力更强、上下文更长。谁慢半拍，谁就像掉队。 但Agent让这套叙事开始失灵。聊天模型回答错了，成本通常是一段文字；Agent如果连上工具、账户、文件、代码仓库和外部服务，错误就可能变成真实动作。 OpenAI选择放缓测试和训练节奏，真正值得看的不是“慢了”，而是速度背后多了一个硬约束：能不能证明它不会越界。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent风险不是传统软件漏洞</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/01-openai-agent-security-brake/02-01-openai-agent-security-brake-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">传统软件的风险大多来自明确代码路径</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统软件的风险大多来自明确代码路径。输入什么、执行什么、返回什么，虽然复杂，但边界相对固定。Agent不一样，它会根据上下文规划步骤、调用工具、改写计划，还可能在失败后继续尝试。 这意味着风险不只藏在代码里，也藏在目标、权限、记忆、工具组合和环境反馈里。一个单独动作看似安全，连续十步组合起来就可能变成新的问题。 所以Agent安全不能只靠最后一道拦截。它需要任务前的权限设计、任务中的行为监控、任务后的审计复盘，以及可以随时收回的执行边界。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">安全开始决定产品节奏</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/01-openai-agent-security-brake/03-01-openai-agent-security-brake-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多公司过去把安全当作上线前的检查项</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多公司过去把安全当作上线前的检查项，产品和模型先跑，合规团队再补。Agent时代，这种顺序会反过来。没有安全边界，产品根本不能开放更多权限；没有可观察性，团队也不敢让Agent跑长期任务。 这会改变AI公司的研发节奏。真正快的公司，不是永远不踩刹车，而是有能力在踩刹车后快速定位问题、修复边界、恢复迭代。 换句话说，安全不是反速度，而是高速度的前提。没有刹车的车不敢开快，有好刹车的车才敢上高速。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">创业公司也要学会“权限设计”</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/01-openai-agent-security-brake/04-01-openai-agent-security-brake-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">这件事对小团队尤其重要</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">这件事对小团队尤其重要。很多AI应用喜欢把Agent包装成“全自动员工”，但越是全自动，越要先问它能看什么、改什么、发什么、删什么、花多少钱、失败后谁负责。 真正成熟的Agent产品，应该默认最小权限，关键动作二次确认，高风险任务分段执行，所有外部写操作留下日志。用户不需要看见这些底层设计，但会从稳定性里感受到差异。 未来Agent竞争会有一个隐形指标：不是演示里能完成多少事，而是在真实环境里能安全完成多少次。OpenAI这次刹车，是整个行业提前听到的警报声。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">真正的护城河会变成“可观测性”</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Agent产品一旦进入真实业务，团队最怕的不是它偶尔失败，而是失败后没人知道为什么。模型想过什么、调用了什么工具、在哪一步改变了计划、哪个权限触发了风险，这些都需要被记录和复盘。 可观测性会成为AI公司的新护城河。它不像模型参数那样容易出现在发布会，却直接决定企业客户敢不敢把更多任务交给Agent。看不见过程，就无法扩大权限；无法扩大权限，Agent就只能停留在低风险助手。 所以OpenAI这次放慢节奏，背后也提醒创业公司：不要只做漂亮Demo，要从第一天就设计日志、权限、回滚和人工接管。Agent越能干，越需要像金融系统一样可审计。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">用户最终购买的是可信速度</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">对用户来说，速度当然重要。谁都希望AI更快给结果，更快完成任务。但当任务涉及代码、文件、客户数据、付费操作和外部系统时，用户要的不是裸奔式速度，而是可信速度。 可信速度有三个条件：第一，AI知道自己能做什么；第二，用户知道AI正在做什么；第三，出了问题能够停下、解释和恢复。缺任何一个，速度都会变成风险。 这会让AI公司的竞争叙事更成熟。未来的赢家不是永远喊“更强更快”的公司，而是能把强能力放进清晰边界里的公司。边界不是束缚，而是规模化的条件。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">研发踩刹车不是保守，而是Agent时代的第一条工程纪律：先证明边界，再扩大权限。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI工程化里，哪个方向会最先改变普通工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

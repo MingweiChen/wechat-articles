@@ -1,0 +1,317 @@
+{
+  "date": "2026-08-19",
+  "generated_at_utc": "2026-08-19T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "dedup_basis": [
+    "2026-08-18: 选题库存在但未进入已发布文章目录，按topic artifacts查重。",
+    "2026-08-17: Needle端侧小模型、Unsloth本地训练、CLI-Anything Agent接口、Cordis时空组合、ToolJet企业应用生成",
+    "2026-08-15: Copilot多模型调度、OpenAI企业收入、Anthropic Model2安全刹车、Gemini 3.7 Flash、TencentDB Agent Memory",
+    "2026-08-13: Cloudflare Agents Week、Semantica、Firecrawl anydoc、Herdr runtime、diagram-design",
+    "2026-08-12: Prime-agent、agency-agents、agent-skills、OpenMontage、DeepTutor",
+    "2026-08-11: Meta Muse local agent、AI融资集中、Orca Agent车队、Claude Science、AI服务实施层",
+    "2026-08-10: Cloudflare computer、iFixAi、Anthropic芯片、开放权重信、Claude Science"
+  ],
+  "political_redline_policy": "选题阶段直接排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "step_3_6_writing_design": "5篇均已写入writing_approach，覆盖Agent安全刹车、AI安全流水线、跨Agent记忆交接、本地推理体验、大厂本地Agent。",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI给研发踩刹车：Agent安全事件把速度崇拜打醒",
+      "category": "AI治理",
+      "score": 94,
+      "sources": [
+        "https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack",
+        "https://time.com/article/2026/08/18/openai-slowing-training/",
+        "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/"
+      ],
+      "hook": "多家媒体报道，OpenAI因测试中的AI Agent安全事件放缓模型训练和测试节奏，转向强化监控与安全防线。",
+      "angle": "不写“OpenAI又出事”，而是写Agent商业化的拐点：能力越接近自主行动，安全就从合规成本变成产品速度的闸门。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI公司真正的竞争不再只是模型更快，而是谁能在可控边界内更快。",
+        "dots": [
+          "Agent测试安全事件",
+          "模型训练节奏放缓",
+          "监控与防线投入上升"
+        ],
+        "axis": "大家写事故和暂停，本篇从AI公司速度治理切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "把单条新闻串成行业判断：安全能力会直接决定迭代速度。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Strix单日1150星：AI安全Agent从演示走进攻防流水线",
+      "category": "安全工具",
+      "score": 91,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/usestrix/strix"
+      ],
+      "hook": "GitHub Python日榜显示，usestrix/strix以开源AI渗透测试工具定位升温，项目描述强调“find and fix your app’s vulnerabilities”。",
+      "angle": "不写攻击技巧，而写安全工作的流水线变化：AI把漏洞发现、复现、修复建议和回归验证串成更短闭环。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI安全工具的价值不在“更会攻击”，而在把防守团队的验证周期压短。",
+        "dots": [
+          "Strix日榜高热",
+          "AI penetration testing",
+          "find and fix vulnerabilities"
+        ],
+        "axis": "大家容易写黑客工具，本篇从防守团队工作流切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "避免技术细节和危险内容，解释AI如何改变安全验证闭环。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "ai-memory冲上热榜：Agent开始争夺“记忆交接权”",
+      "category": "Agent基建",
+      "score": 88,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/akitaonrails/ai-memory"
+      ],
+      "hook": "GitHub日榜显示，akitaonrails/ai-memory以“long term memory for agent coding CLIs”和“handoff between different agent vendors”为卖点，单日648星。",
+      "angle": "不写又一个记忆库，而写跨Agent交接：当Claude Code、Copilot、Codex、Cursor、Gemini等并存，记忆会变成多工具协作的底层资产。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：Agent生态的下一场入口战，不只是模型调用，而是谁掌握长期记忆和交接格式。",
+        "dots": [
+          "long term memory",
+          "agent coding CLIs",
+          "handoff between vendors"
+        ],
+        "axis": "大家写记忆功能，本篇从跨供应商交接权切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "解释为什么记忆不是附属功能，而是多Agent工作流的粘合层。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：过去一周写过Agent Memory方向，但本篇聚焦跨供应商记忆交接权，主角和结论D不同。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "omlx上榜：Apple Silicon本地推理开始拼缓存和体验",
+      "category": "本地AI",
+      "score": 85,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/jundot/omlx"
+      ],
+      "hook": "GitHub日榜显示，jundot/omlx定位为Apple Silicon上的LLM推理服务器，强调continuous batching、SSD caching和macOS菜单栏管理。",
+      "angle": "不写“本地模型又来了”，而写本地AI从能跑走向好用：连续批处理、SSD缓存、菜单栏管理说明体验层开始被重视。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：本地AI的下一步不是证明能跑，而是把推理体验做得像系统服务一样顺滑。",
+        "dots": [
+          "Apple Silicon",
+          "continuous batching",
+          "SSD caching",
+          "menu bar"
+        ],
+        "axis": "大家写本地模型性能，本篇从桌面体验和缓存系统切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "把一个工具项目扩展为本地AI产品化趋势。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "Meta Muse Glimmer曝光：30B本地Agent模型盯上个人电脑",
+      "category": "大厂模型",
+      "score": 82,
+      "sources": [
+        "https://mashable.com/tech/meta-muse-glimmer-ai-model-laptop",
+        "https://ai.meta.com/"
+      ],
+      "hook": "媒体报道，Meta Muse Glimmer是一款约30B参数、面向个人电脑本地运行的Agent模型，能处理图像和文本、多步任务并从失败中恢复。",
+      "angle": "不写大厂又发模型，而写“本地Agent化”：云端助手和本地电脑之间的边界正在重画，个人设备可能重新成为AI执行现场。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：大厂把Agent模型推向本地电脑，争夺的不是聊天入口，而是个人工作流的执行现场。",
+        "dots": [
+          "30B local model",
+          "images and text",
+          "multi-step tasks",
+          "recovering from failures"
+        ],
+        "axis": "大家写Meta模型参数，本篇从个人电脑工作流入口切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "解释为什么大厂下沉本地，会改变AI助手与个人设备的关系。"
+      },
+      "urgency": "medium",
+      "dedup": "中低重复：过去一周写过Meta本地Agent信号，本篇换轴到个人电脑执行现场与权限边界，避免复述同角度。",
+      "review_score": 82,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "OpenAI给研发踩刹车：Agent安全事件把速度崇拜打醒",
+      "category": "AI治理",
+      "score": 94,
+      "sources": [
+        "https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack",
+        "https://time.com/article/2026/08/18/openai-slowing-training/",
+        "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/"
+      ],
+      "hook": "多家媒体报道，OpenAI因测试中的AI Agent安全事件放缓模型训练和测试节奏，转向强化监控与安全防线。",
+      "angle": "不写“OpenAI又出事”，而是写Agent商业化的拐点：能力越接近自主行动，安全就从合规成本变成产品速度的闸门。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI公司真正的竞争不再只是模型更快，而是谁能在可控边界内更快。",
+        "dots": [
+          "Agent测试安全事件",
+          "模型训练节奏放缓",
+          "监控与防线投入上升"
+        ],
+        "axis": "大家写事故和暂停，本篇从AI公司速度治理切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "把单条新闻串成行业判断：安全能力会直接决定迭代速度。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Strix单日1150星：AI安全Agent从演示走进攻防流水线",
+      "category": "安全工具",
+      "score": 91,
+      "sources": [
+        "https://github.com/trending/python?since=daily",
+        "https://github.com/usestrix/strix"
+      ],
+      "hook": "GitHub Python日榜显示，usestrix/strix以开源AI渗透测试工具定位升温，项目描述强调“find and fix your app’s vulnerabilities”。",
+      "angle": "不写攻击技巧，而写安全工作的流水线变化：AI把漏洞发现、复现、修复建议和回归验证串成更短闭环。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI安全工具的价值不在“更会攻击”，而在把防守团队的验证周期压短。",
+        "dots": [
+          "Strix日榜高热",
+          "AI penetration testing",
+          "find and fix vulnerabilities"
+        ],
+        "axis": "大家容易写黑客工具，本篇从防守团队工作流切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "避免技术细节和危险内容，解释AI如何改变安全验证闭环。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "ai-memory冲上热榜：Agent开始争夺“记忆交接权”",
+      "category": "Agent基建",
+      "score": 88,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/akitaonrails/ai-memory"
+      ],
+      "hook": "GitHub日榜显示，akitaonrails/ai-memory以“long term memory for agent coding CLIs”和“handoff between different agent vendors”为卖点，单日648星。",
+      "angle": "不写又一个记忆库，而写跨Agent交接：当Claude Code、Copilot、Codex、Cursor、Gemini等并存，记忆会变成多工具协作的底层资产。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：Agent生态的下一场入口战，不只是模型调用，而是谁掌握长期记忆和交接格式。",
+        "dots": [
+          "long term memory",
+          "agent coding CLIs",
+          "handoff between vendors"
+        ],
+        "axis": "大家写记忆功能，本篇从跨供应商交接权切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "解释为什么记忆不是附属功能，而是多Agent工作流的粘合层。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：过去一周写过Agent Memory方向，但本篇聚焦跨供应商记忆交接权，主角和结论D不同。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "omlx上榜：Apple Silicon本地推理开始拼缓存和体验",
+      "category": "本地AI",
+      "score": 85,
+      "sources": [
+        "https://github.com/trending?since=daily",
+        "https://github.com/jundot/omlx"
+      ],
+      "hook": "GitHub日榜显示，jundot/omlx定位为Apple Silicon上的LLM推理服务器，强调continuous batching、SSD caching和macOS菜单栏管理。",
+      "angle": "不写“本地模型又来了”，而写本地AI从能跑走向好用：连续批处理、SSD缓存、菜单栏管理说明体验层开始被重视。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：本地AI的下一步不是证明能跑，而是把推理体验做得像系统服务一样顺滑。",
+        "dots": [
+          "Apple Silicon",
+          "continuous batching",
+          "SSD caching",
+          "menu bar"
+        ],
+        "axis": "大家写本地模型性能，本篇从桌面体验和缓存系统切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "把一个工具项目扩展为本地AI产品化趋势。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：与过去一周已写主题同属AI工程化，但主事件/主角/角度不同；避开8月17日端侧小模型、本地训练、Agent接口、组合框架、企业生成应用等同题。",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "Meta Muse Glimmer曝光：30B本地Agent模型盯上个人电脑",
+      "category": "大厂模型",
+      "score": 82,
+      "sources": [
+        "https://mashable.com/tech/meta-muse-glimmer-ai-model-laptop",
+        "https://ai.meta.com/"
+      ],
+      "hook": "媒体报道，Meta Muse Glimmer是一款约30B参数、面向个人电脑本地运行的Agent模型，能处理图像和文本、多步任务并从失败中恢复。",
+      "angle": "不写大厂又发模型，而写“本地Agent化”：云端助手和本地电脑之间的边界正在重画，个人设备可能重新成为AI执行现场。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：大厂把Agent模型推向本地电脑，争夺的不是聊天入口，而是个人工作流的执行现场。",
+        "dots": [
+          "30B local model",
+          "images and text",
+          "multi-step tasks",
+          "recovering from failures"
+        ],
+        "axis": "大家写Meta模型参数，本篇从个人电脑工作流入口切入。",
+        "counter_intuitive": "表面看是单条新闻或单个开源项目上榜，实际是Agent安全、工具链、记忆、本地推理和个人电脑执行权进入工程化竞争。",
+        "why_worth": "解释为什么大厂下沉本地，会改变AI助手与个人设备的关系。"
+      },
+      "urgency": "medium",
+      "dedup": "中低重复：过去一周写过Meta本地Agent信号，本篇换轴到个人电脑执行现场与权限边界，避免复述同角度。",
+      "review_score": 82,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ]
+}

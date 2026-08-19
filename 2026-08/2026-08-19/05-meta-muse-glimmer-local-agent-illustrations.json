@@ -1,0 +1,53 @@
+{
+  "slug": "05-meta-muse-glimmer-local-agent",
+  "date": "2026-08-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/05-meta-muse-glimmer-local-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/05-meta-muse-glimmer-local-agent/01-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "caption": "过去几年的AI助手",
+      "anchor": "AI助手正在从云端回到电脑",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/05-meta-muse-glimmer-local-agent/02-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "caption": "个人电脑里有大量云端助手看不到或不方便看的信息",
+      "anchor": "本地Agent离上下文更近",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/05-meta-muse-glimmer-local-agent/03-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "caption": "报道里提到多步任务和失败恢复",
+      "anchor": "失败恢复比一次成功更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-19/illustrations/05-meta-muse-glimmer-local-agent/04-05-meta-muse-glimmer-local-agent-diagram.jpg",
+      "caption": "Meta如果把本地Agent做起来",
+      "anchor": "大厂争夺的是个人工作流入口",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
