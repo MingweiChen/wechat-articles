@@ -1,0 +1,171 @@
+{
+  "date": "2026-08-24",
+  "count": 5,
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI前沿模型零数据保留：企业AI真正的门票变成隐私架构",
+      "category": "企业AI",
+      "score": 94,
+      "sources": [
+        "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+        "https://techstrong.ai/articles/openai-unveils-zero-data-retention-for-frontier-models-previews-privacy-preserving-safety-system/",
+        "https://gbhackers.com/openai-frontier-models-get-zero-data-retention/amp/"
+      ],
+      "hook": "OpenAI把零数据保留扩展到前沿模型，并预告Private Safety Processing，让企业在隐私和安全之间少做二选一。",
+      "angle": "不写“OpenAI又发政策”，而写企业AI采购的真正门槛从模型能力转向数据边界、审计和可托付架构。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：企业AI下一轮竞争，不是模型谁更会说，而是谁能在不吃掉客户数据的前提下进入核心流程。",
+        "dots": [
+          "零数据保留扩到前沿模型",
+          "企业内容默认不训练",
+          "Private Safety Processing识别跨会话滥用"
+        ],
+        "axis": "大家写隐私政策，本篇从企业AI采购门槛切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把单条政策新闻拆成企业AI商业化判断：越靠近核心业务，隐私架构越是产品能力。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：8月19日写过OpenAI Agent安全刹车，本篇换轴到企业数据保留与隐私架构，不写研发放缓。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Claude浏览器使用开放：AI开始点网页，产品胜负落到权限边界",
+      "category": "Agent安全",
+      "score": 91,
+      "sources": [
+        "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely",
+        "https://www.channelinsider.com/ai/news-anthropic-claude-computer-use-skills-files-api/",
+        "https://platform.claude.com/docs/en/docs/agents-and-tools/tool-use/overview"
+      ],
+      "hook": "Claude的computer use走向可用，browser use同步扩大，AI从生成答案进入真实网页操作场景。",
+      "angle": "不写酷炫自动化，而写浏览器Agent真正卡点：权限、站点黑名单、确认机制和提示注入。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：浏览器Agent的壁垒不是“会点鼠标”，而是能把可做和不可做分得足够清楚。",
+        "dots": [
+          "computer use开放",
+          "browser use",
+          "提示注入风险",
+          "权限确认和站点限制"
+        ],
+        "axis": "大家写Claude能控制电脑，本篇从权限治理和浏览器安全边界切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "同样是Agent能力，本篇避开攻击细节，解释产品化必须先解决边界。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "Meta AI登陆Mac：桌面入口战从聊天框打到窗口和键盘",
+      "category": "桌面入口",
+      "score": 88,
+      "sources": [
+        "https://www.macrumors.com/2026/08/19/meta-ai-mac-app/",
+        "https://www.techrepublic.com/article/news-meta-ai-mac-app-business-integrations/",
+        "https://www.socialmediatoday.com/news/meta-ai-launches-for-mac/828347/"
+      ],
+      "hook": "Meta AI Mac beta带来窗口共享、全局听写和Workspace连接，把AI助手从社交App拉到电脑工作台。",
+      "angle": "不写Meta追赶ChatGPT，而写桌面入口：AI谁能看见当前窗口、接住键盘输入、连接工作资料，谁更接近默认助手。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI助手的下一块入口，不在单独App里，而在用户每天盯着的窗口和键盘之间。",
+        "dots": [
+          "Mac beta",
+          "窗口共享",
+          "全局听写",
+          "Google Workspace连接"
+        ],
+        "axis": "大家写Meta发布Mac应用，本篇从桌面操作入口和工作上下文争夺切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把普通App发布升级为平台入口判断，避开8月19日Meta本地模型重复。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：8月19日写过Meta Muse Glimmer本地模型，本篇是Mac桌面入口与工作流，不重复。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "OmniRoute冲上热榜：一个端点接1200个模型，AI应用开始需要调度层",
+      "category": "开发者工具",
+      "score": 86,
+      "sources": [
+        "https://startupcorners.com/digest/devtools-digest-2026-08-22",
+        "https://github.com/diegosouzapw/OmniRoute"
+      ],
+      "hook": "GitHub热榜摘要显示，OmniRoute作为MIT免费AI网关，主打一端点接340家供应商、1200+模型、配额感知fallback和token压缩。",
+      "angle": "不写“又一个API代理”，而写模型爆炸之后，应用真正缺的是路由、降级、成本和上下文控制。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：模型越多，开发者越不想直接面对模型；LLM网关正在变成AI应用的操作系统层。",
+        "dots": [
+          "340 providers",
+          "1200 plus models",
+          "quota-aware fallback",
+          "15-95 percent token compression"
+        ],
+        "axis": "大家写免费网关，本篇从AI应用调度层和成本治理切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把开源工具上榜扩展为基础设施趋势，区别于前日NVIDIA Switchyard的模型切换硬件/策略角度。"
+      },
+      "urgency": "medium",
+      "dedup": "中低重复：8月21日写过NVIDIA Switchyard模型切换，本篇从开源LLM网关与成本/配额治理切入。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "Agent融资8月单笔翻倍：资本先给“控制层”单独定价",
+      "category": "商业趋势",
+      "score": 84,
+      "sources": [
+        "https://gravity.fast/blog/ai-agent-funding-tracker-q3-2026/",
+        "https://siliconangle.com/2026/08/12/coderabbit-bags-143m-help-companies-get-grip-explosion-ai-generated-code/",
+        "https://zenity.io/company-overview/newsroom/company-news/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents",
+        "https://www.obsidiansecurity.com/news/unlocking-ai-potential-securely"
+      ],
+      "hook": "Q3 Agent融资跟踪显示，8月前半月7笔披露交易约6.815亿美元，平均支票接近9700万美元，治理、安全和代码控制层成为高热方向。",
+      "angle": "不写投资清单，也不做股票建议，而写资本为什么先押Agent控制层：谁管理权限、代码、风险和执行边界，谁离预算更近。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：Agent商业化最先被定价的，不是最会干活的Agent，而是能管住Agent的控制层。",
+        "dots": [
+          "Q3二十笔Agent融资约13.2亿美元",
+          "8月前半月平均支票接近9700万美元",
+          "Zenity和Obsidian等治理安全公司获大额融资",
+          "CodeRabbit处理AI生成代码爆炸"
+        ],
+        "axis": "大家写融资数字，本篇从控制层先被定价切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把融资数据串成产业判断，不推荐任何个股，不落到交易标的。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：近7天未写Agent融资控制层，且不涉及个股推荐。",
+      "review_score": 84,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ],
+  "raw": {
+    "search_status": "Bing Grounding API returned 401, so web_search fallback was used. Sources include OpenAI official, Anthropic support/docs, Meta AI Mac coverage, StartupCorners GitHub trending recap, and Q3 agent funding tracker.",
+    "github_trending": "Aug 22 trending recap: OmniRoute, AI-Infra-Guard, PostHog, agent harnesses, Langfuse, n8n, etc. Previously used items (AI-Infra-Guard/PostHog/OpenViking/Cursor Plugins) avoided or not selected due dedup.",
+    "ai_news": "OpenAI ZDR/frontier models and Private Safety Processing; Claude browser/computer use; Meta AI Mac beta; Google Gemini 3.7 Flash skipped because 8/23 selected Gemini default-entry topic.",
+    "dedup_basis": [
+      "2026-08-23: Anthropic IPO/Gemini 10亿/Tencent AI-Infra-Guard/PostHog/Graphify",
+      "2026-08-21: GPT-5.6 Sol Ultrafast/ChatGPT Ads欧洲/NVIDIA Switchyard/Cursor Plugins/OpenViking",
+      "2026-08-19: OpenAI Agent安全刹车/Strix安全Agent/ai-memory/omlx/Meta Muse Glimmer",
+      "2026-08-17: Needle/Unsloth/CLI-Anything/Cordis/ToolJet AI"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Claude · 浏览器边界</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Claude浏览器使用开放：AI开始点网页，产品胜负落到权限边界</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">AI能看屏幕、点按钮、读网页之后，真正的产品能力从聪明变成克制。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">AI能看屏幕、点按钮、读网页之后，真正的产品能力从聪明变成克制。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">AI终于走进浏览器</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/01-02-claude-browser-use-permission-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">聊天框里的AI很安全</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">聊天框里的AI很安全，因为它大多数时候只输出文字。浏览器里的AI不一样，它看见网页、理解按钮、填写表单，还可能触发真实操作。 这一步会让AI从“建议你怎么做”走向“替你做一部分”。看起来只是多了一个工具，实际上是AI产品边界的一次迁移。 Claude把电脑使用和浏览器使用推向更广场景，说明大模型厂商已经不满足于回答问题，它们想进入用户工作的现场。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最难的不是点按钮</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/02-02-claude-browser-use-permission-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">让模型学会点按钮并不是最难的</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">让模型学会点按钮并不是最难的。真正难的是：哪些按钮可以点，哪些页面只能看，哪些动作必须暂停等人确认，哪些外部内容不能被信任。 网页天然复杂。页面里有广告、评论、隐藏文本、第三方脚本、钓鱼链接，也可能有专门写给AI看的恶意指令。 所以浏览器Agent的核心能力，不是自动化脚本，而是权限系统。没有边界的Agent，只是一个更危险的鼠标。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">提示注入把网页变成指令战场</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/03-02-claude-browser-use-permission-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">传统软件把网页当内容</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统软件把网页当内容，AI Agent会把网页也当上下文。这就带来一个新问题：网页内容可能不只是信息，还可能试图命令AI。 一段隐藏文字、一个看似普通的说明、一个伪装成系统提示的段落，都可能诱导Agent把用户本来没授权的事情做掉。 这就是提示注入在浏览器场景里变危险的原因。它不再只是让模型说错话，而是可能影响模型做动作。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">确认机制会变成用户体验的一部分</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/04-02-claude-browser-use-permission-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">安全做得太松</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">安全做得太松，用户不敢用；安全做得太紧，Agent每一步都弹窗，用户也不会用。浏览器Agent最难的产品设计，是在这两者之间找到节奏。 低风险动作可以自动完成，高风险动作必须确认；普通页面可以读取，敏感站点需要限制；可逆操作可以放宽，不可逆操作必须收紧。 这套分层能力会成为未来Agent产品的基本功。谁把边界设计得自然，谁就更容易被用户长期打开。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent时代的浏览器会更像安全舱</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">未来浏览器可能不只是展示网页，而会成为Agent行动的安全舱。它记录模型看到什么、准备做什么、为什么做、用户在哪里授权。 这会让浏览器从信息入口变成执行入口，也让权限、审计和回滚成为默认组件。 Claude这一步的真正信号是：AI Agent已经开始离开聊天框。但它能走多远，不取决于它有多主动，而取决于它能不能被可靠地管住。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 浏览器Agent的壁垒不是“会点鼠标”，而是能把可做和不可做分得足够清楚。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 所以这篇真正想留下的不是某家公司今天赢了，而是一个更长期的观察法。AI越成熟，越会从“谁发布了新能力”，走向“谁把能力变成可交付、可治理、可复用的工作系统”。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">会操作只是起点，知道什么时候不能操作才是护城河。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

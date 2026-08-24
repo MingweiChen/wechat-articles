@@ -1,0 +1,53 @@
+{
+  "slug": "05-agent-funding-governance-layer",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-agent-funding-governance-layer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-agent-funding-governance-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-agent-funding-governance-layer/01-05-agent-funding-governance-layer-diagram.jpg",
+      "caption": "Agent赛道融资热",
+      "anchor": "钱先流向会管Agent的人",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-agent-funding-governance-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-agent-funding-governance-layer/02-05-agent-funding-governance-layer-diagram.jpg",
+      "caption": "很多Agent产品会把自己包装成数字员工",
+      "anchor": "万能员工不好卖，安全边界好进预算",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-agent-funding-governance-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-agent-funding-governance-layer/03-05-agent-funding-governance-layer-diagram.jpg",
+      "caption": "CodeRabbit这类围绕AI生成代码审查和治理的公司受到关注",
+      "anchor": "AI生成代码越多，审查越值钱",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-agent-funding-governance-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-agent-funding-governance-layer/04-05-agent-funding-governance-layer-diagram.jpg",
+      "caption": "Zenity、Obsidian这类安全和治理方向的融资",
+      "anchor": "权限治理会成为Agent基础设施",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

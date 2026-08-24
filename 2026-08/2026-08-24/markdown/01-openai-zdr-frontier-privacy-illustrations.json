@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-zdr-frontier-privacy",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/01-openai-zdr-frontier-privacy",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/01-openai-zdr-frontier-privacy/01-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "caption": "现在的前沿模型已经足够强",
+      "anchor": "企业最怕的不是AI不聪明",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/01-openai-zdr-frontier-privacy/02-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "caption": "过去企业采购AI",
+      "anchor": "零数据保留把采购逻辑改了",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/01-openai-zdr-frontier-privacy/03-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "caption": "有意思的是",
+      "anchor": "安全系统也要学会少看数据",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/01-openai-zdr-frontier-privacy/04-01-openai-zdr-frontier-privacy-diagram.jpg",
+      "caption": "很多人会把隐私声明当成公关话术",
+      "anchor": "这不是道德包装，是商业能力",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

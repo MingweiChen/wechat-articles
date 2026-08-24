@@ -1,0 +1,53 @@
+{
+  "slug": "04-omniroute-llm-gateway-layer",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-omniroute-llm-gateway-layer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-omniroute-llm-gateway-layer/01-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "caption": "两年前",
+      "anchor": "模型多到需要红绿灯",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-omniroute-llm-gateway-layer/02-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "caption": "一个端点接多家供应商",
+      "anchor": "一个端点背后是复杂度外包",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-omniroute-llm-gateway-layer/03-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "caption": "AI应用最怕的故障",
+      "anchor": "配额感知会决定服务稳定性",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-omniroute-llm-gateway-layer/04-04-omniroute-llm-gateway-layer-diagram.jpg",
+      "caption": "15-95%的token压缩听起来像技术细节",
+      "anchor": "token压缩是另一种利润空间",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "03-meta-ai-mac-desktop-entry",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-meta-ai-mac-desktop-entry",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-meta-ai-mac-desktop-entry/01-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "caption": "手机有碎片时间",
+      "anchor": "桌面是AI最想贴近的现场",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-meta-ai-mac-desktop-entry/02-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "caption": "聊天框里的上下文",
+      "anchor": "窗口共享比聊天记录更有价值",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-meta-ai-mac-desktop-entry/03-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "caption": "系统级听写看起来像小功能",
+      "anchor": "全局听写抢的是键盘位置",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-meta-ai-mac-desktop-entry/04-03-meta-ai-mac-desktop-entry-diagram.jpg",
+      "caption": "Google Workspace连接让Meta AI有机会读到文档、",
+      "anchor": "Workspace连接意味着资料不再孤立",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

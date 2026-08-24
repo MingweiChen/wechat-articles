@@ -1,0 +1,53 @@
+{
+  "slug": "02-claude-browser-use-permission",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-claude-browser-use-permission-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/01-02-claude-browser-use-permission-diagram.jpg",
+      "caption": "聊天框里的AI很安全",
+      "anchor": "AI终于走进浏览器",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-claude-browser-use-permission-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/02-02-claude-browser-use-permission-diagram.jpg",
+      "caption": "让模型学会点按钮并不是最难的",
+      "anchor": "最难的不是点按钮",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-claude-browser-use-permission-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/03-02-claude-browser-use-permission-diagram.jpg",
+      "caption": "传统软件把网页当内容",
+      "anchor": "提示注入把网页变成指令战场",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-claude-browser-use-permission-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/02-claude-browser-use-permission/04-02-claude-browser-use-permission-diagram.jpg",
+      "caption": "安全做得太松",
+      "anchor": "确认机制会变成用户体验的一部分",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

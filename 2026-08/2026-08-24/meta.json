@@ -1,0 +1,52 @@
+{
+  "01-openai-zdr-frontier-privacy": {
+    "category": "企业AI",
+    "main_title": "OpenAI前沿模型零数据保留：企业AI真正的门票变成隐私架构",
+    "sub_title": "",
+    "subtitle_brief": "当模型足够强之后，客户最关心的问题变成：我的数据进去之后，还能不能出来得干净。",
+    "theme": "security",
+    "kicker": "OpenAI · 隐私门票",
+    "punch": "隐私不是合规附录，而是前沿模型进企业心脏区的门禁卡。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-claude-browser-use-permission": {
+    "category": "Agent安全",
+    "main_title": "Claude浏览器使用开放：AI开始点网页，产品胜负落到权限边界",
+    "sub_title": "",
+    "subtitle_brief": "AI能看屏幕、点按钮、读网页之后，真正的产品能力从聪明变成克制。",
+    "theme": "agent",
+    "kicker": "Claude · 浏览器边界",
+    "punch": "会操作只是起点，知道什么时候不能操作才是护城河。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-meta-ai-mac-desktop-entry": {
+    "category": "桌面入口",
+    "main_title": "Meta AI登陆Mac：桌面入口战从聊天框打到窗口和键盘",
+    "sub_title": "",
+    "subtitle_brief": "当AI能看你正在看的窗口、听你正在说的话，它抢的就不是聊天市场，而是桌面操作权。",
+    "theme": "product",
+    "kicker": "Meta AI · 桌面入口战",
+    "punch": "AI入口战正在从“打开哪个App”变成“谁贴在你的工作现场”。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-omniroute-llm-gateway-layer": {
+    "category": "开发者工具",
+    "main_title": "OmniRoute冲上热榜：一个端点接1200个模型，AI应用开始需要调度层",
+    "sub_title": "",
+    "subtitle_brief": "当一个应用同时接十几个模型，最痛的不是调用API，而是决定每一步该用谁、花多少钱、失败后怎么降级。",
+    "theme": "developer",
+    "kicker": "LLM Gateway · 调度层",
+    "punch": "多模型时代，真正稀缺的是调度权。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-agent-funding-governance-layer": {
+    "category": "商业趋势",
+    "main_title": "Agent融资8月单笔翻倍：资本先给控制层单独定价",
+    "sub_title": "",
+    "subtitle_brief": "当所有公司都想部署Agent，第一批大钱未必流向“万能员工”，而是流向刹车、审计和治理系统。",
+    "theme": "business",
+    "kicker": "Agent Funding · 控制层",
+    "punch": "AI Agent真正进公司前，先要有人回答一句话：它能碰什么，不能碰什么。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

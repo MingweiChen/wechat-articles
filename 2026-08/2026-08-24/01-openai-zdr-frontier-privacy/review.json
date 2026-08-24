@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "score": 94,
+  "iterations": 1,
+  "reviewer": "independent content-reviewer artifact",
+  "dimensions": {
+    "hook": 9,
+    "punch": 9,
+    "density": 9,
+    "structure": 9,
+    "compliance": 10,
+    "aigc": 8,
+    "originality": 9
+  },
+  "notes": "围绕选题阶段结论D展开；无政治红线、无个股推荐；结构非模板化。"
+}
