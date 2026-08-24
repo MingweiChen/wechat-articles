@@ -1,0 +1,53 @@
+{
+  "slug": "05-moneyprinterturbo-ai-video-pipeline",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-moneyprinterturbo-ai-video-pipeline",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-moneyprinterturbo-ai-video-pipeline/01-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "caption": "AI视频工具过去最容易展示的是效果",
+      "anchor": "短视频AI开始拼流水线",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-moneyprinterturbo-ai-video-pipeline/02-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "caption": "“从关键词生成短视频”听起来像魔法",
+      "anchor": "一键生成背后其实是多段流程",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-moneyprinterturbo-ai-video-pipeline/03-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "caption": "这类工具很容易被误解成低质内容机器",
+      "anchor": "低质搬运会被淘汰，流程能力留下来",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/05-moneyprinterturbo-ai-video-pipeline/04-05-moneyprinterturbo-ai-video-pipeline-diagram.jpg",
+      "caption": "以前个人创作者像手艺人",
+      "anchor": "创作者会像运营工厂一样工作",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

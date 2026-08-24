@@ -1,0 +1,53 @@
+{
+  "slug": "04-chatgpt-for-teens-safety-product",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-chatgpt-for-teens-safety-product",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-chatgpt-for-teens-safety-product/01-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "caption": "过去很多AI产品默认所有用户共用一套体验",
+      "anchor": "AI终于要承认用户不是同一种人",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-chatgpt-for-teens-safety-product/02-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "caption": "Study Mode最值得看的地方",
+      "anchor": "Study Mode不是功能，是态度变化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-chatgpt-for-teens-safety-product/03-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "caption": "如果平台允许未成年人使用AI",
+      "anchor": "年龄识别会变成平台责任",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/04-chatgpt-for-teens-safety-product/04-04-chatgpt-for-teens-safety-product-diagram.jpg",
+      "caption": "青少年版AI容易被误解成“功能更少”",
+      "anchor": "更严格边界不是把AI阉割掉",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

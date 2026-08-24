@@ -1,0 +1,53 @@
+{
+  "slug": "03-apache-maka-agent-audit-log",
+  "date": "2026-08-24",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-apache-maka-agent-audit-log",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-apache-maka-agent-audit-log-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-apache-maka-agent-audit-log/01-03-apache-maka-agent-audit-log-diagram.jpg",
+      "caption": "很多Agent工具在演示里都很顺",
+      "anchor": "Agent工作台开始像审计系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-apache-maka-agent-audit-log-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-apache-maka-agent-audit-log/02-03-apache-maka-agent-audit-log-diagram.jpg",
+      "caption": "团队协作里",
+      "anchor": "不可篡改日志解决的是信任问题",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-apache-maka-agent-audit-log-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-apache-maka-agent-audit-log/03-03-apache-maka-agent-audit-log-diagram.jpg",
+      "caption": "本地优先听起来像开发者情怀",
+      "anchor": "本地优先不是怀旧，是风险控制",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-apache-maka-agent-audit-log-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-24/illustrations/03-apache-maka-agent-audit-log/04-03-apache-maka-agent-audit-log-diagram.jpg",
+      "caption": "今天很多AI工具的权限设计还很粗",
+      "anchor": "权限决策会成为团队资产",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -19,34 +19,34 @@
     "punch": "会操作只是起点，知道什么时候不能操作才是护城河。",
     "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
   },
-  "03-meta-ai-mac-desktop-entry": {
-    "category": "桌面入口",
-    "main_title": "Meta AI登陆Mac：桌面入口战从聊天框打到窗口和键盘",
+  "03-apache-maka-agent-audit-log": {
+    "category": "Agent治理",
+    "main_title": "Apache Maka热榜：Agent工作台开始把权限决策写进不可篡改日志",
     "sub_title": "",
-    "subtitle_brief": "当AI能看你正在看的窗口、听你正在说的话，它抢的就不是聊天市场，而是桌面操作权。",
-    "theme": "product",
-    "kicker": "Meta AI · 桌面入口战",
-    "punch": "AI入口战正在从“打开哪个App”变成“谁贴在你的工作现场”。",
+    "subtitle_brief": "当Agent开始改文件、调工具、跑流程，团队最怕的不是它不够聪明，而是出事后没人说得清它做过什么。",
+    "theme": "agent",
+    "kicker": "Agent Audit · 可追责工作台",
+    "punch": "Agent工作台的下一层壁垒，是把“我以为它会这样做”变成“日志证明它确实这样做”。",
     "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
   },
-  "04-omniroute-llm-gateway-layer": {
-    "category": "开发者工具",
-    "main_title": "OmniRoute冲上热榜：一个端点接1200个模型，AI应用开始需要调度层",
+  "04-chatgpt-for-teens-safety-product": {
+    "category": "AI安全产品",
+    "main_title": "ChatGPT for Teens上线：青少年AI安全开始从提示语变成独立产品",
     "sub_title": "",
-    "subtitle_brief": "当一个应用同时接十几个模型，最痛的不是调用API，而是决定每一步该用谁、花多少钱、失败后怎么降级。",
-    "theme": "developer",
-    "kicker": "LLM Gateway · 调度层",
-    "punch": "多模型时代，真正稀缺的是调度权。",
+    "subtitle_brief": "当学生把AI当作学习工具，平台不能只问模型能回答什么，还要问它该怎样陪未成年人使用。",
+    "theme": "consumer",
+    "kicker": "ChatGPT · 青少年安全",
+    "punch": "青少年AI安全的关键，不是把模型变笨，而是把边界做得更像产品。",
     "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
   },
-  "05-agent-funding-governance-layer": {
-    "category": "商业趋势",
-    "main_title": "Agent融资8月单笔翻倍：资本先给控制层单独定价",
+  "05-moneyprinterturbo-ai-video-pipeline": {
+    "category": "内容生产",
+    "main_title": "MoneyPrinterTurbo热榜：AI短视频从单点生成进入自动流水线",
     "sub_title": "",
-    "subtitle_brief": "当所有公司都想部署Agent，第一批大钱未必流向“万能员工”，而是流向刹车、审计和治理系统。",
-    "theme": "business",
-    "kicker": "Agent Funding · 控制层",
-    "punch": "AI Agent真正进公司前，先要有人回答一句话：它能碰什么，不能碰什么。",
+    "subtitle_brief": "短视频行业最痛的不是没有灵感，而是每天都要把选题、脚本、素材、配音、字幕、剪辑重复做一遍。",
+    "theme": "creator",
+    "kicker": "AI Video · 内容流水线",
+    "punch": "AI视频工具下一步拼的不是单张画面惊艳，而是一整条流水线少掉多少人工。",
     "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
   }
 }

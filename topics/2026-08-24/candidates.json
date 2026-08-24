@@ -65,93 +65,93 @@
     },
     {
       "rank": 3,
-      "topic": "Meta AI登陆Mac：桌面入口战从聊天框打到窗口和键盘",
-      "category": "桌面入口",
+      "topic": "Apache Maka热榜：Agent工作台开始把权限决策写进不可篡改日志",
+      "category": "Agent治理",
       "score": 88,
       "sources": [
-        "https://www.macrumors.com/2026/08/19/meta-ai-mac-app/",
-        "https://www.techrepublic.com/article/news-meta-ai-mac-app-business-integrations/",
-        "https://www.socialmediatoday.com/news/meta-ai-launches-for-mac/828347/"
+        "https://startupcorners.com/digest/devtools-digest-2026-08-22",
+        "https://github.com/apache/maka"
       ],
-      "hook": "Meta AI Mac beta带来窗口共享、全局听写和Workspace连接，把AI助手从社交App拉到电脑工作台。",
-      "angle": "不写Meta追赶ChatGPT，而写桌面入口：AI谁能看见当前窗口、接住键盘输入、连接工作资料，谁更接近默认助手。",
+      "hook": "GitHub热榜摘要显示，apache/maka定位为本地优先AI Agent workspace，把模型消息、工具调用和权限决策记录为append-only log。",
+      "angle": "不写又一个Agent工作台，而写Agent真正进入团队协作之前，需要像审计系统一样记录每一次权限和工具决策。",
       "writing_approach": {
-        "increment_path": "串点+换轴",
-        "thesis": "D：AI助手的下一块入口，不在单独App里，而在用户每天盯着的窗口和键盘之间。",
+        "increment_path": "换轴",
+        "thesis": "D：Agent越能自动做事，越需要一条人和机器都赖不掉的行动日志。",
         "dots": [
-          "Mac beta",
-          "窗口共享",
-          "全局听写",
-          "Google Workspace连接"
+          "local-first workspace",
+          "model messages",
+          "tool calls",
+          "permission decisions",
+          "append-only log"
         ],
-        "axis": "大家写Meta发布Mac应用，本篇从桌面操作入口和工作上下文争夺切入。",
+        "axis": "大家写Agent工具，本篇从审计日志和权限可追责切入。",
         "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
-        "why_worth": "把普通App发布升级为平台入口判断，避开8月19日Meta本地模型重复。"
+        "why_worth": "延续Agent热度但避开泛融资，给出更强的工程治理增量。"
       },
       "urgency": "high",
-      "dedup": "中低重复：8月19日写过Meta Muse Glimmer本地模型，本篇是Mac桌面入口与工作流，不重复。",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
       "review_score": 88,
       "review_verdict": "keep",
       "batch_verdict": "pass"
     },
     {
       "rank": 4,
-      "topic": "OmniRoute冲上热榜：一个端点接1200个模型，AI应用开始需要调度层",
-      "category": "开发者工具",
+      "topic": "ChatGPT for Teens上线：青少年AI安全开始从提示语变成独立产品",
+      "category": "AI安全产品",
       "score": 86,
       "sources": [
-        "https://startupcorners.com/digest/devtools-digest-2026-08-22",
-        "https://github.com/diegosouzapw/OmniRoute"
+        "https://vancouver.citynews.ca/2026/08/18/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/",
+        "https://thenextweb.com/news/chatgpt-for-teens-openai-age-prediction-study-mode",
+        "https://www.latimes.com/business/story/2026-08-18/openai-introduces-chatgpt-for-teens-as-ai-safety-concerns-mount"
       ],
-      "hook": "GitHub热榜摘要显示，OmniRoute作为MIT免费AI网关，主打一端点接340家供应商、1200+模型、配额感知fallback和token压缩。",
-      "angle": "不写“又一个API代理”，而写模型爆炸之后，应用真正缺的是路由、降级、成本和上下文控制。",
+      "hook": "OpenAI推出ChatGPT for Teens，面向13到17岁用户提供更严格内容边界、Study Mode、年龄识别和家长控制。",
+      "angle": "不写“儿童版ChatGPT”，而写AI安全从统一规则走向分人群产品：青少年使用AI，需要独立入口、独立边界和独立责任。",
       "writing_approach": {
         "increment_path": "换轴",
-        "thesis": "D：模型越多，开发者越不想直接面对模型；LLM网关正在变成AI应用的操作系统层。",
+        "thesis": "D：AI产品越大众化，安全就越不能只靠一套通用提示词，而要按人群重新设计体验。",
         "dots": [
-          "340 providers",
-          "1200 plus models",
-          "quota-aware fallback",
-          "15-95 percent token compression"
+          "13-17岁体验",
+          "Study Mode",
+          "自动年龄识别",
+          "家长控制",
+          "更严格内容边界"
         ],
-        "axis": "大家写免费网关，本篇从AI应用调度层和成本治理切入。",
+        "axis": "大家写OpenAI推出青少年版，本篇从分人群安全产品化切入。",
         "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
-        "why_worth": "把开源工具上榜扩展为基础设施趋势，区别于前日NVIDIA Switchyard的模型切换硬件/策略角度。"
+        "why_worth": "补充消费级AI安全方向，避开路由/基础设施重复，也不涉及政治或个股。"
       },
       "urgency": "medium",
-      "dedup": "中低重复：8月21日写过NVIDIA Switchyard模型切换，本篇从开源LLM网关与成本/配额治理切入。",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
       "review_score": 86,
       "review_verdict": "keep",
       "batch_verdict": "pass"
     },
     {
       "rank": 5,
-      "topic": "Agent融资8月单笔翻倍：资本先给“控制层”单独定价",
-      "category": "商业趋势",
+      "topic": "MoneyPrinterTurbo热榜：AI短视频从单点生成进入自动流水线",
+      "category": "内容生产",
       "score": 84,
       "sources": [
-        "https://gravity.fast/blog/ai-agent-funding-tracker-q3-2026/",
-        "https://siliconangle.com/2026/08/12/coderabbit-bags-143m-help-companies-get-grip-explosion-ai-generated-code/",
-        "https://zenity.io/company-overview/newsroom/company-news/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents",
-        "https://www.obsidiansecurity.com/news/unlocking-ai-potential-securely"
+        "https://startupcorners.com/digest/devtools-digest-2026-08-22",
+        "https://github.com/harry0703/MoneyPrinterTurbo"
       ],
-      "hook": "Q3 Agent融资跟踪显示，8月前半月7笔披露交易约6.815亿美元，平均支票接近9700万美元，治理、安全和代码控制层成为高热方向。",
-      "angle": "不写投资清单，也不做股票建议，而写资本为什么先押Agent控制层：谁管理权限、代码、风险和执行边界，谁离预算更近。",
+      "hook": "GitHub热榜摘要里，MoneyPrinterTurbo以“从主题或关键词自动生成HD短视频”的工作流获得高增长，创作者工具开始流水线化。",
+      "angle": "不写一键暴富，也不写低质搬运，而写AI内容生产从文案、配音、画面、剪辑到导出的流水线整合。",
       "writing_approach": {
-        "increment_path": "串点",
-        "thesis": "D：Agent商业化最先被定价的，不是最会干活的Agent，而是能管住Agent的控制层。",
+        "increment_path": "换轴",
+        "thesis": "D：AI视频的真正门槛，不是能生成一段画面，而是能把重复生产流程稳定跑完。",
         "dots": [
-          "Q3二十笔Agent融资约13.2亿美元",
-          "8月前半月平均支票接近9700万美元",
-          "Zenity和Obsidian等治理安全公司获大额融资",
-          "CodeRabbit处理AI生成代码爆炸"
+          "topic/keyword to video",
+          "HD short videos",
+          "workflow automation",
+          "GitHub high growth"
         ],
-        "axis": "大家写融资数字，本篇从控制层先被定价切入。",
+        "axis": "大家写AI生成视频效果，本篇从内容工业化流程切入。",
         "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
-        "why_worth": "把融资数据串成产业判断，不推荐任何个股，不落到交易标的。"
+        "why_worth": "补充创作者方向，避开近期Agent治理与大模型入口重复。"
       },
       "urgency": "medium",
-      "dedup": "低重复：近7天未写Agent融资控制层，且不涉及个股推荐。",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
       "review_score": 84,
       "review_verdict": "keep",
       "batch_verdict": "pass"
