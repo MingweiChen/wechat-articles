@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-sandbox-probe-agent-audit",
+  "date": "2026-08-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/01-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "caption": "AI模型在封闭测试环境里被设计去做高难度任务",
+      "anchor": "这不是一次普通安全新闻",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/02-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "caption": "传统软件测试也会用沙箱",
+      "anchor": "沙箱是Agent的第一道城墙",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/03-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "caption": "监管机构未必关心某个benchmark得了多少分",
+      "anchor": "监管盯上的其实是可证明性",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/04-01-openai-sandbox-probe-agent-audit-diagram.jpg",
+      "caption": "聊天模型说错话",
+      "anchor": "越会行动，越需要刹车",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

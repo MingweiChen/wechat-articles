@@ -1,0 +1,53 @@
+{
+  "slug": "05-aws-physical-ai-deployment-loop",
+  "date": "2026-08-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/01-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "caption": "Physical AI最容易让人兴奋",
+      "anchor": "演示成功不等于能部署",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/02-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "caption": "Physical AI不能把所有智能都放在云端",
+      "anchor": "云和边缘必须分工",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/03-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "caption": "机器人进真实场地前",
+      "anchor": "仿真会成为控制点",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/04-05-aws-physical-ai-deployment-loop-diagram.jpg",
+      "caption": "一套Physical AI系统上线后",
+      "anchor": "运维比模型更容易被低估",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

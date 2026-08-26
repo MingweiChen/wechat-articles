@@ -1,0 +1,53 @@
+{
+  "slug": "03-google-ai-overviews-search-layer",
+  "date": "2026-08-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/03-google-ai-overviews-search-layer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-google-ai-overviews-search-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/03-google-ai-overviews-search-layer/01-03-google-ai-overviews-search-layer-diagram.jpg",
+      "caption": "AI搜索最开始像一个实验按钮",
+      "anchor": "AI总结成了默认入口",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-google-ai-overviews-search-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/03-google-ai-overviews-search-layer/02-03-google-ai-overviews-search-layer-diagram.jpg",
+      "caption": "传统搜索里",
+      "anchor": "链接排名变成答案材料",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-google-ai-overviews-search-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/03-google-ai-overviews-search-layer/03-03-google-ai-overviews-search-layer-diagram.jpg",
+      "caption": "有人以为AI回答会消灭广告",
+      "anchor": "商业意图不会消失，只会换形态",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-google-ai-overviews-search-layer-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/03-google-ai-overviews-search-layer/04-03-google-ai-overviews-search-layer-diagram.jpg",
+      "caption": "AI Mode和信息代理的意义",
+      "anchor": "AI Mode把搜索推向连续任务",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

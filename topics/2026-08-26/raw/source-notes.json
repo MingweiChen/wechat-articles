@@ -1,0 +1,11 @@
+{
+  "search_status": "Bing Grounding API returned 401, so web_search fallback was used. Sources include OpenAI official, Anthropic support/docs, Meta AI Mac coverage, StartupCorners GitHub trending recap, and Q3 agent funding tracker.",
+  "github_trending": "Aug 22 trending recap: OmniRoute, AI-Infra-Guard, PostHog, agent harnesses, Langfuse, n8n, etc. Previously used items (AI-Infra-Guard/PostHog/OpenViking/Cursor Plugins) avoided or not selected due dedup.",
+  "ai_news": "OpenAI ZDR/frontier models and Private Safety Processing; Claude browser/computer use; Meta AI Mac beta; Google Gemini 3.7 Flash skipped because 8/23 selected Gemini default-entry topic.",
+  "dedup_basis": [
+    "2026-08-25: Anthropic隐形水印/Google-Verizon企业AI/Meta Hatch/Natural Agent支付/Perplexity Bumblebee",
+    "2026-08-24: OpenAI零数据保留/Claude浏览器/Meta AI Mac/OmniRoute/Agent融资控制层",
+    "2026-08-23: Anthropic IPO/Gemini 10亿/Tencent AI-Infra-Guard/PostHog/Graphify",
+    "2026-08-21: GPT-5.6 Sol Ultrafast/ChatGPT Ads欧洲/NVIDIA Switchyard/Cursor Plugins/OpenViking"
+  ]
+}

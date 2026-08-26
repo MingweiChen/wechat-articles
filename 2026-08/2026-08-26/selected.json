@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-26",
+  "generated_at_utc": "2026-08-24T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "dedup_basis": [
+    "2026-08-25: Anthropic隐形水印/Google-Verizon企业AI/Meta Hatch/Natural Agent支付/Perplexity Bumblebee",
+    "2026-08-24: OpenAI零数据保留/Claude浏览器/Meta AI Mac/OmniRoute/Agent融资控制层",
+    "2026-08-23: Anthropic IPO/Gemini 10亿/Tencent AI-Infra-Guard/PostHog/Graphify",
+    "2026-08-21: GPT-5.6 Sol Ultrafast/ChatGPT Ads欧洲/NVIDIA Switchyard/Cursor Plugins/OpenViking"
+  ],
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、魔鬼化叙事；本批无政治题、无个股推荐。",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛",
+      "category": "Agent安全",
+      "score": 94,
+      "sources": [
+        "https://www.theweek.in/news/biz-tech/2026/08/25/will-security-breach-probe-delay-openais-ipo-plans.html",
+        "https://www.bloomberg.com/news/videos/2026-08-25/securing-ai-as-openai-anthropic-models-advance-video",
+        "https://wskg.org/npr-news/2026-08-01/why-did-openais-and-anthropics-ai-models-hack-other-companies"
+      ],
+      "hook": "OpenAI模型测试沙箱事件引发多州调查，AI Agent的安全边界第一次直接撞上上市、监管和公众信任。",
+      "angle": "不写“AI失控恐慌”，而写测试沙箱、审计、监管问责正在变成前沿模型商业化门槛。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent越能自主执行，最值钱的不是动作能力，而是证明它被关在正确边界里的能力。",
+        "dots": [
+          "OpenAI沙箱事件",
+          "多州调查",
+          "Hugging Face相关访问",
+          "安全公司融资与红队需求"
+        ],
+        "axis": "大家容易写成AI失控故事，本篇从沙箱、审计、上市门槛和企业采购信任切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把单点安全事故拆成行业判断：自主Agent越强，越需要可证明的控制层。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：8月19日写过OpenAI Agent安全刹车，本篇换轴到企业数据保留与隐私架构，不写研发放缓。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Apple M6/M5 Ultra上桌面：本地AI算力开始抢回隐私和延迟",
+      "category": "本地AI",
+      "score": 91,
+      "sources": [
+        "https://macdailynews.com/2026/08/25/apple-unveils-new-mac-mini-featuring-m6-and-m5-pro-delivers-a-massive-leap-in-ai-performance/",
+        "https://www.theapplepost.com/2026/08/25/71207/apple-debuts-m6-and-m5-ultra-with-major-boost-for-ai-performance/",
+        "https://www.theapplepost.com/2026/08/25/71210/everything-apple-announced-today-new-mac-mini-and-mac-studio-with-major-ai-upgrades/"
+      ],
+      "hook": "Apple发布M6 Mac mini和M5 Ultra Mac Studio，把本地AI、桌边Agent、超大统一内存和低延迟工作流推到桌面。",
+      "angle": "从新Mac硬件切到“本地大模型工作站/桌边Agent”趋势，不做消费电子参数复述。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI PC真正的卖点不是跑分，而是把隐私、低延迟和离线可用变成个人算力边界。",
+        "dots": [
+          "M6 Mac mini",
+          "M5 Ultra Mac Studio",
+          "统一内存",
+          "桌边Agent和本地模型"
+        ],
+        "axis": "大家写新品参数，本篇写本地AI工作站和隐私边界。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把硬件发布转成AI基础设施判断：一部分推理会从云端回流到端侧和桌面。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "Google AI Overviews 25亿月活：搜索入口被AI重新计价",
+      "category": "搜索入口",
+      "score": 89,
+      "sources": [
+        "https://www.fool.com/investing/2026/08/25/sundar-pichai-says-alphabets-ai-products-now-reach/",
+        "https://www.eweek.com/news/google-io-gemini-agentic-ai-era-2026/",
+        "https://www.timesnownews.com/technology-science/5-biggest-ai-announcements-sundar-pichai-made-at-google-i/o-2026-article-154356544"
+      ],
+      "hook": "Google称AI Overviews月活超过25亿，AI Mode月活超过10亿，搜索正在从链接入口变成带代理和个人上下文的回答层。",
+      "angle": "避开股票投资角度，写搜索分发从链接列表变成AI层之后，内容、广告和入口权的重排。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI搜索的胜负不在答案是否更像聊天，而在谁能把用户问题、商业意图和网页生态重新接起来。",
+        "dots": [
+          "AI Overviews 25亿月活",
+          "AI Mode 10亿月活",
+          "Search代理化",
+          "广告与网页流量再分配"
+        ],
+        "axis": "大家写Google流量和广告，本篇从AI回答层如何重排网页生态切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把用户规模数字转成入口权判断，不做证券建议。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "DeepSeek Harness冲上GitHub：Agent生态进入万物皆插件阶段",
+      "category": "开源Agent",
+      "score": 87,
+      "sources": [
+        "https://gittrend.io/monthly/2026-08",
+        "https://findarepo.com/categories/ai-agents/",
+        "https://gittrend.io/trending/ai-infrastructure"
+      ],
+      "hook": "GitHub 8月趋势里DeepSeek Harness以“Everything is a Plugin”冲到AI项目前列，插件化Agent运行时成为开发者新焦点。",
+      "angle": "从GitHub热榜切入，写开发者为什么需要插件化Agent底座，而不是又一个聊天框。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：Agent框架的下一层竞争，是谁能把工具、记忆、技能和运行时做成可插拔操作系统。",
+        "dots": [
+          "DeepSeek Harness月度热榜",
+          "Everything is a Plugin",
+          "插件目录和桌面端生态",
+          "多Agent工具链爆发"
+        ],
+        "axis": "大家写明星项目和star数，本篇从Agent运行时模块化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把开源热榜转成开发范式变化，不与OmniRoute网关题重复。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 87,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程",
+      "category": "Physical AI",
+      "score": 85,
+      "sources": [
+        "https://siliconangle.com/2026/08/24/physical-ais-moment-has-arrived-but-moving-from-demo-to-deployment-is-the-hard-part-aws-wants-to-fix-that/",
+        "https://www.financialexpress.com/artificial-intelligence/hexawaretakesaibeyond-chatbots-to-software-machines/4324961/",
+        "https://telecomlead.com/smart-phone/google-unveils-pixel-11-series-with-tensor-g6-gemini-ai-pixel-watch-5-and-pixel-tag-127263"
+      ],
+      "hook": "AWS讨论Physical AI生产栈：仿真、云端训练、边缘推理、设备反馈和持续更新，说明机器人难点从demo转向部署闭环。",
+      "angle": "不写机器人炫技，写真实世界数据、仿真、边缘推理、云端训练和回滚监控的生产闭环。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Physical AI不会被单个大模型拿下，而会被能打通数据、仿真、边缘和运维闭环的栈拿下。",
+        "dots": [
+          "云端训练",
+          "仿真环境",
+          "边缘低延迟推理",
+          "设备数据回传和模型更新"
+        ],
+        "axis": "大家写机器人和边缘AI，本篇写从演示到生产的闭环工程。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把Physical AI热度落到企业可部署的基础设施，不碰军事政治叙事。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛",
+      "category": "Agent安全",
+      "score": 94,
+      "sources": [
+        "https://www.theweek.in/news/biz-tech/2026/08/25/will-security-breach-probe-delay-openais-ipo-plans.html",
+        "https://www.bloomberg.com/news/videos/2026-08-25/securing-ai-as-openai-anthropic-models-advance-video",
+        "https://wskg.org/npr-news/2026-08-01/why-did-openais-and-anthropics-ai-models-hack-other-companies"
+      ],
+      "hook": "OpenAI模型测试沙箱事件引发多州调查，AI Agent的安全边界第一次直接撞上上市、监管和公众信任。",
+      "angle": "不写“AI失控恐慌”，而写测试沙箱、审计、监管问责正在变成前沿模型商业化门槛。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent越能自主执行，最值钱的不是动作能力，而是证明它被关在正确边界里的能力。",
+        "dots": [
+          "OpenAI沙箱事件",
+          "多州调查",
+          "Hugging Face相关访问",
+          "安全公司融资与红队需求"
+        ],
+        "axis": "大家容易写成AI失控故事，本篇从沙箱、审计、上市门槛和企业采购信任切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把单点安全事故拆成行业判断：自主Agent越强，越需要可证明的控制层。"
+      },
+      "urgency": "high",
+      "dedup": "中低重复：8月19日写过OpenAI Agent安全刹车，本篇换轴到企业数据保留与隐私架构，不写研发放缓。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "Apple M6/M5 Ultra上桌面：本地AI算力开始抢回隐私和延迟",
+      "category": "本地AI",
+      "score": 91,
+      "sources": [
+        "https://macdailynews.com/2026/08/25/apple-unveils-new-mac-mini-featuring-m6-and-m5-pro-delivers-a-massive-leap-in-ai-performance/",
+        "https://www.theapplepost.com/2026/08/25/71207/apple-debuts-m6-and-m5-ultra-with-major-boost-for-ai-performance/",
+        "https://www.theapplepost.com/2026/08/25/71210/everything-apple-announced-today-new-mac-mini-and-mac-studio-with-major-ai-upgrades/"
+      ],
+      "hook": "Apple发布M6 Mac mini和M5 Ultra Mac Studio，把本地AI、桌边Agent、超大统一内存和低延迟工作流推到桌面。",
+      "angle": "从新Mac硬件切到“本地大模型工作站/桌边Agent”趋势，不做消费电子参数复述。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI PC真正的卖点不是跑分，而是把隐私、低延迟和离线可用变成个人算力边界。",
+        "dots": [
+          "M6 Mac mini",
+          "M5 Ultra Mac Studio",
+          "统一内存",
+          "桌边Agent和本地模型"
+        ],
+        "axis": "大家写新品参数，本篇写本地AI工作站和隐私边界。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把硬件发布转成AI基础设施判断：一部分推理会从云端回流到端侧和桌面。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "Google AI Overviews 25亿月活：搜索入口被AI重新计价",
+      "category": "搜索入口",
+      "score": 89,
+      "sources": [
+        "https://www.fool.com/investing/2026/08/25/sundar-pichai-says-alphabets-ai-products-now-reach/",
+        "https://www.eweek.com/news/google-io-gemini-agentic-ai-era-2026/",
+        "https://www.timesnownews.com/technology-science/5-biggest-ai-announcements-sundar-pichai-made-at-google-i/o-2026-article-154356544"
+      ],
+      "hook": "Google称AI Overviews月活超过25亿，AI Mode月活超过10亿，搜索正在从链接入口变成带代理和个人上下文的回答层。",
+      "angle": "避开股票投资角度，写搜索分发从链接列表变成AI层之后，内容、广告和入口权的重排。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "D：AI搜索的胜负不在答案是否更像聊天，而在谁能把用户问题、商业意图和网页生态重新接起来。",
+        "dots": [
+          "AI Overviews 25亿月活",
+          "AI Mode 10亿月活",
+          "Search代理化",
+          "广告与网页流量再分配"
+        ],
+        "axis": "大家写Google流量和广告，本篇从AI回答层如何重排网页生态切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把用户规模数字转成入口权判断，不做证券建议。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "DeepSeek Harness冲上GitHub：Agent生态进入万物皆插件阶段",
+      "category": "开源Agent",
+      "score": 87,
+      "sources": [
+        "https://gittrend.io/monthly/2026-08",
+        "https://findarepo.com/categories/ai-agents/",
+        "https://gittrend.io/trending/ai-infrastructure"
+      ],
+      "hook": "GitHub 8月趋势里DeepSeek Harness以“Everything is a Plugin”冲到AI项目前列，插件化Agent运行时成为开发者新焦点。",
+      "angle": "从GitHub热榜切入，写开发者为什么需要插件化Agent底座，而不是又一个聊天框。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "D：Agent框架的下一层竞争，是谁能把工具、记忆、技能和运行时做成可插拔操作系统。",
+        "dots": [
+          "DeepSeek Harness月度热榜",
+          "Everything is a Plugin",
+          "插件目录和桌面端生态",
+          "多Agent工具链爆发"
+        ],
+        "axis": "大家写明星项目和star数，本篇从Agent运行时模块化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把开源热榜转成开发范式变化，不与OmniRoute网关题重复。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 87,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程",
+      "category": "Physical AI",
+      "score": 85,
+      "sources": [
+        "https://siliconangle.com/2026/08/24/physical-ais-moment-has-arrived-but-moving-from-demo-to-deployment-is-the-hard-part-aws-wants-to-fix-that/",
+        "https://www.financialexpress.com/artificial-intelligence/hexawaretakesaibeyond-chatbots-to-software-machines/4324961/",
+        "https://telecomlead.com/smart-phone/google-unveils-pixel-11-series-with-tensor-g6-gemini-ai-pixel-watch-5-and-pixel-tag-127263"
+      ],
+      "hook": "AWS讨论Physical AI生产栈：仿真、云端训练、边缘推理、设备反馈和持续更新，说明机器人难点从demo转向部署闭环。",
+      "angle": "不写机器人炫技，写真实世界数据、仿真、边缘推理、云端训练和回滚监控的生产闭环。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Physical AI不会被单个大模型拿下，而会被能打通数据、仿真、边缘和运维闭环的栈拿下。",
+        "dots": [
+          "云端训练",
+          "仿真环境",
+          "边缘低延迟推理",
+          "设备数据回传和模型更新"
+        ],
+        "axis": "大家写机器人和边缘AI，本篇写从演示到生产的闭环工程。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把Physical AI热度落到企业可部署的基础设施，不碰军事政治叙事。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 85,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "04-deepseek-harness-plugin-os",
+  "date": "2026-08-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/04-deepseek-harness-plugin-os",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-deepseek-harness-plugin-os-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/04-deepseek-harness-plugin-os/01-04-deepseek-harness-plugin-os-diagram.jpg",
+      "caption": "第一代AI应用大多围绕一个聊天窗口展开",
+      "anchor": "开发者已经不满足于聊天框",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-deepseek-harness-plugin-os-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/04-deepseek-harness-plugin-os/02-04-deepseek-harness-plugin-os-diagram.jpg",
+      "caption": "插件化最直接的价值",
+      "anchor": "万物皆插件是降低试错成本",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-deepseek-harness-plugin-os-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/04-deepseek-harness-plugin-os/03-04-deepseek-harness-plugin-os-diagram.jpg",
+      "caption": "一个成熟Agent框架不只是调模型",
+      "anchor": "运行时正在成为控制面",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-deepseek-harness-plugin-os-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/04-deepseek-harness-plugin-os/04-04-deepseek-harness-plugin-os-diagram.jpg",
+      "caption": "框架本身再漂亮",
+      "anchor": "技能生态会决定框架生命力",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

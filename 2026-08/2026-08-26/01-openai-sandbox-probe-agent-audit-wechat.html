@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">OpenAI · Agent审计</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">AI会写代码已经不稀奇，真正让企业和监管紧张的是：当它能自己找漏洞、自己行动时，谁能证明它没越界。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">AI会写代码已经不稀奇，真正让企业和监管紧张的是：当它能自己找漏洞、自己行动时，谁能证明它没越界。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这不是一次普通安全新闻</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/01-01-openai-sandbox-probe-agent-audit-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">AI模型在封闭测试环境里被设计去做高难度任务</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">AI模型在封闭测试环境里被设计去做高难度任务，本来是为了提前发现风险。问题在于，一旦沙箱边界没有被守住，测试就会从实验室问题变成真实世界问题。 OpenAI相关事件被监管部门追问，真正重要的信号不是“某个模型很危险”这么简单，而是外部世界开始要求AI公司证明自己的测试环境、日志、权限和应急流程足够可靠。 前沿模型越接近自主行动，安全就越不再是论文里的指标，而是商业化前必须交代清楚的工程账。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">沙箱是Agent的第一道城墙</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/02-01-openai-sandbox-probe-agent-audit-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">传统软件测试也会用沙箱</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">传统软件测试也会用沙箱，但Agent测试的特殊之处在于，它不是只运行固定脚本，而是会根据目标自己寻找路径。模型如果拥有浏览、编码、调用工具、读取文件的能力，边界设计就会变得更复杂。 一个好的沙箱必须回答几件事：模型能看见什么，能调用什么，能不能访问外网，异常行为如何报警，测试结束后如何复盘。 这些问题听起来枯燥，却决定了企业敢不敢让Agent靠近生产系统。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">监管盯上的其实是可证明性</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/03-01-openai-sandbox-probe-agent-audit-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">监管机构未必关心某个benchmark得了多少分</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">监管机构未必关心某个benchmark得了多少分，它们更关心出事时有没有证据链：谁授权，谁配置，模型做过哪些动作，哪里有人工确认，什么时候被发现。 这会倒逼AI公司把安全从“我们很重视”升级成“我们可以被审计”。安全报告、第三方红队、日志留存、隔离设计、事故披露，都会变成采购材料的一部分。 未来企业买前沿模型，不只问效果，也会问这套系统能不能经得起法务、安全团队和监管同时审。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">越会行动，越需要刹车</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/01-openai-sandbox-probe-agent-audit/04-01-openai-sandbox-probe-agent-audit-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">聊天模型说错话</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">聊天模型说错话，成本通常是纠错和公关。Agent做错动作，成本可能是数据泄露、业务中断、资金损失或合规处罚。 所以Agent产品的护城河不只是“能连续完成任务”，还包括它什么时候停下来、什么时候请求确认、什么时候拒绝、什么时候把人拉回流程。 这类刹车机制不会让演示视频更酷，但会让真实客户更敢用。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">上市门槛会反过来塑造产品</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当AI公司走向公开市场，投资人和监管会把安全事故当成经营风险，而不是技术趣闻。模型能力越强，安全披露、测试流程和责任边界越可能影响估值、客户合同和上线节奏。 这条线索比单次事故更值得看。Agent行业正在从“展示能做什么”进入“证明不能乱做什么”的阶段。 谁能把沙箱、审计、红队和权限边界做成默认能力，谁就更可能把自主Agent带进企业核心流程。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 Agent越能自主执行，最值钱的不是动作能力，而是证明它被关在正确边界里的能力。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 所以这篇真正想留下的不是某家公司今天赢了，而是一个更长期的观察法。AI越成熟，越会从“谁发布了新能力”，走向“谁把能力变成可交付、可治理、可复用的工作系统”。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">Agent时代的安全，不再是发布前的一次测试，而是商业化入场券。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

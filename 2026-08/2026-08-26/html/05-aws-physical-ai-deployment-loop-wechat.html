@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">AWS · Physical AI</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">机器人会走路、会抓取、会看懂环境只是开始。真正难的是让它在仓库、工厂、医院里每天稳定工作。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">机器人会走路、会抓取、会看懂环境只是开始。真正难的是让它在仓库、工厂、医院里每天稳定工作。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">演示成功不等于能部署</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/01-05-aws-physical-ai-deployment-loop-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Physical AI最容易让人兴奋</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">Physical AI最容易让人兴奋，因为它能被看见：机器人搬东西，机械臂抓取，摄像头理解现场。但演示里的环境通常被控制得很好，真实世界不会这么客气。 仓库有反光地面、遮挡物、弱光、网络抖动、旧设备和临时变化。模型在仿真里跑通，不代表上线后不会频繁掉链子。 所以行业现在真正要解决的，不是让机器人演示一次，而是让它在复杂环境里持续可靠。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">云和边缘必须分工</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/02-05-aws-physical-ai-deployment-loop-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Physical AI不能把所有智能都放在云端</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Physical AI不能把所有智能都放在云端。机器人在现场避障、识别、抓取时，需要低延迟和断网可用；但训练大模型、汇总数据、仿真测试，又离不开云端算力。 这会形成分层架构：云端做训练和调度，边缘服务器做现场理解，设备端跑更小的模型执行即时动作。 好的系统不是选云或选端，而是知道每一层该承担什么。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">仿真会成为控制点</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/03-05-aws-physical-ai-deployment-loop-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">机器人进真实场地前</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">机器人进真实场地前，必须在大量虚拟环境里试错。仿真可以模拟光线、材质、布局、异常情况和任务变化，把昂贵危险的现实试错提前消化掉。 但仿真也不能自嗨。它要不断吸收真实设备回传的数据，修正虚拟环境和模型假设。 这就是闭环的价值：真实世界教会仿真，仿真再训练下一版模型。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">运维比模型更容易被低估</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/05-aws-physical-ai-deployment-loop/04-05-aws-physical-ai-deployment-loop-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">一套Physical AI系统上线后</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一套Physical AI系统上线后，问题才刚开始。设备坏了怎么办，模型更新失败怎么办，新版本效果变差怎么回滚，多个站点的数据怎么比较，异常动作谁来审核。 这些问题听起来不像AI，却决定企业愿不愿意规模化部署。没有监控、版本管理、权限、告警和回滚，机器人越多，风险越大。 所以Physical AI最终会很像云原生系统：不是一个模型，而是一整套部署和运维能力。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">机器人公司会需要基础设施伙伴</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">AWS这类云厂商盯上Physical AI，逻辑很清楚。它们不一定造机器人，但可以提供训练、存储、仿真、边缘、监控和数据管道。 未来成功的Physical AI项目，大概率不是单点硬件胜利，而是模型、数据、场景和基础设施一起成熟。 真正应该观察的信号，是谁能把从数据采集到模型更新、从仿真验证到现场回滚的链条跑顺。因为机器人走进现实世界后，闭环工程才是护城河。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 Physical AI不会被单个大模型拿下，而会被能打通数据、仿真、边缘和运维闭环的栈拿下。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 所以这篇真正想留下的不是某家公司今天赢了，而是一个更长期的观察法。AI越成熟，越会从“谁发布了新能力”，走向“谁把能力变成可交付、可治理、可复用的工作系统”。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">Physical AI的主战场，不在发布会舞台上，而在部署后的反馈循环里。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

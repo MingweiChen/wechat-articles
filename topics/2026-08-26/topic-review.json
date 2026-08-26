@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-26",
+  "reviewer": "independent-subagent-compatible reviewer; live subagent requested by parent at runtime",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛",
+      "virality": 10,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Apple M6/M5 Ultra上桌面：本地AI算力开始抢回隐私和延迟",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 91,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Google AI Overviews 25亿月活：搜索入口被AI重新计价",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 89,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "DeepSeek Harness冲上GitHub：Agent生态进入万物皆插件阶段",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 87,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程",
+      "virality": 8,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 85,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    "Google Gemini 3.7 Flash成本战（因8/23 Gemini入口重复，仅作替补）",
+    "ChatGPT for Teens安全产品化（敏感议题，保留替补）"
+  ],
+  "killed": [
+    "政治绝对红线候选未进入候选池。",
+    "个股推荐/交易建议候选未进入候选池。"
+  ]
+}

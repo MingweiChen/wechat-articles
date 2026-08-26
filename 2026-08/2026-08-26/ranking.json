@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-26",
+  "run_id": "2026-08-26_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 94,
+      "title": "OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛",
+      "slug": "openai-sandbox-probe-agent-audit",
+      "article_dir": "01-openai-sandbox-probe-agent-audit",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "01-openai-sandbox-probe-agent-audit-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-26/html/01-openai-sandbox-probe-agent-audit-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 91,
+      "title": "Apple M6/M5 Ultra上桌面：本地AI算力开始抢回隐私和延迟",
+      "slug": "apple-m6-local-ai-desktop",
+      "article_dir": "02-apple-m6-local-ai-desktop",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "02-apple-m6-local-ai-desktop-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-26/html/02-apple-m6-local-ai-desktop-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 89,
+      "title": "Google AI Overviews 25亿月活：搜索入口被AI重新计价",
+      "slug": "google-ai-overviews-search-layer",
+      "article_dir": "03-google-ai-overviews-search-layer",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "03-google-ai-overviews-search-layer-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-26/html/03-google-ai-overviews-search-layer-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 87,
+      "title": "DeepSeek Harness冲上GitHub：Agent生态进入万物皆插件阶段",
+      "slug": "deepseek-harness-plugin-os",
+      "article_dir": "04-deepseek-harness-plugin-os",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "04-deepseek-harness-plugin-os-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-26/html/04-deepseek-harness-plugin-os-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 85,
+      "title": "AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程",
+      "slug": "aws-physical-ai-deployment-loop",
+      "article_dir": "05-aws-physical-ai-deployment-loop",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "05-aws-physical-ai-deployment-loop-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-26/html/05-aws-physical-ai-deployment-loop-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    }
+  ],
+  "compliance": "pass：无中国政治红线、无涉港台疆藏、无投资荐股；正文插图无政治人物、无具体股票、无国旗；HTML逐篇确认img数量等于illustrations count且不为0；中文标点规范化。",
+  "killed_or_rewritten": [
+    "kill: 选题阶段剔除政治红线/外政魔鬼化/个股推荐候选；本批5篇撰写后未触发红线重写。"
+  ]
+}

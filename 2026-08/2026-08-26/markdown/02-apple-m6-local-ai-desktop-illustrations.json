@@ -1,0 +1,53 @@
+{
+  "slug": "02-apple-m6-local-ai-desktop",
+  "date": "2026-08-26",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/02-apple-m6-local-ai-desktop",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/02-apple-m6-local-ai-desktop/01-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "caption": "过去几年",
+      "anchor": "桌面电脑又有了新角色",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/02-apple-m6-local-ai-desktop/02-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "caption": "第一是隐私",
+      "anchor": "本地算力先解决三个痛点",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/02-apple-m6-local-ai-desktop/03-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "caption": "大模型本地运行最吃紧的不是一句“AI性能提升”",
+      "anchor": "统一内存让大模型更像桌面应用",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-26/illustrations/02-apple-m6-local-ai-desktop/04-02-apple-m6-local-ai-desktop-diagram.jpg",
+      "caption": "本地AI不是要取代云端大模型",
+      "anchor": "端侧和云端不是二选一",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,52 @@
+{
+  "01-openai-sandbox-probe-agent-audit": {
+    "category": "Agent安全",
+    "main_title": "OpenAI沙箱事件被调查：Agent安全从技术问题变上市门槛",
+    "sub_title": "",
+    "subtitle_brief": "AI会写代码已经不稀奇，真正让企业和监管紧张的是：当它能自己找漏洞、自己行动时，谁能证明它没越界。",
+    "theme": "security",
+    "kicker": "OpenAI · Agent审计",
+    "punch": "Agent时代的安全，不再是发布前的一次测试，而是商业化入场券。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-apple-m6-local-ai-desktop": {
+    "category": "本地AI",
+    "main_title": "Apple M6/M5 Ultra上桌面：本地AI算力开始抢回隐私和延迟",
+    "sub_title": "",
+    "subtitle_brief": "云端模型很强，但每个人的桌面也开始变成一个小型AI机房。真正的变化，是算力重新回到用户手边。",
+    "theme": "hardware",
+    "kicker": "Apple · 本地算力",
+    "punch": "本地AI的竞争，不只是芯片快一点，而是谁能把私人上下文留在本机。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-google-ai-overviews-search-layer": {
+    "category": "搜索入口",
+    "main_title": "Google AI Overviews 25亿月活：搜索入口被AI重新计价",
+    "sub_title": "",
+    "subtitle_brief": "当几十亿人第一次看到的不是蓝色链接，而是一段AI总结，整个互联网的分发逻辑都会被重新定价。",
+    "theme": "product",
+    "kicker": "Google Search · AI入口",
+    "punch": "搜索框没有消失，但它后面那层商业机器正在换零件。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-deepseek-harness-plugin-os": {
+    "category": "开源Agent",
+    "main_title": "DeepSeek Harness冲上GitHub：Agent生态进入万物皆插件阶段",
+    "sub_title": "",
+    "subtitle_brief": "当Agent不再只会聊天，而要调用工具、记住上下文、协作执行，框架就必须从脚本变成操作系统。",
+    "theme": "developer",
+    "kicker": "GitHub Trending · Agent插件",
+    "punch": "Agent越复杂，越需要一个能装插件、换组件、控权限的底座。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-aws-physical-ai-deployment-loop": {
+    "category": "Physical AI",
+    "main_title": "AWS物理AI栈：机器人从演示走向部署，难点变成闭环工程",
+    "sub_title": "",
+    "subtitle_brief": "机器人会走路、会抓取、会看懂环境只是开始。真正难的是让它在仓库、工厂、医院里每天稳定工作。",
+    "theme": "robotics",
+    "kicker": "AWS · Physical AI",
+    "punch": "Physical AI的主战场，不在发布会舞台上，而在部署后的反馈循环里。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}
