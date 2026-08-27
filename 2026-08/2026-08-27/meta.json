@@ -1,0 +1,52 @@
+{
+  "01-salesforce-claudeforce-enterprise-agent": {
+    "category": "企业AI",
+    "main_title": "Salesforce扩大Anthropic合作：Claudeforce把企业AI从插件推到业务层",
+    "sub_title": "",
+    "subtitle_brief": "AI模型想进入公司，最短的路不是让员工每天打开一个新网页，而是住进他们已经离不开的工作系统。",
+    "theme": "business",
+    "kicker": "Salesforce · ClaudeForce",
+    "punch": "企业AI的下一场仗，不是模型秀肌肉，而是入口贴进业务流程。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-openai-price-cut-token-economics": {
+    "category": "模型经济",
+    "main_title": "OpenAI下调GPT-5.6 Sol价格：AI竞争开始从能力榜打到成本曲线",
+    "sub_title": "",
+    "subtitle_brief": "模型便宜一点，看似只是价格表变化，实际可能决定AI能不能从演示走进高频工作。",
+    "theme": "cost",
+    "kicker": "OpenAI · 成本曲线",
+    "punch": "AI行业最狠的竞争，开始发生在每一次调用的成本里。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-anthropic-nscale-compute-rent": {
+    "category": "AI基建",
+    "main_title": "Anthropic 450亿美元租算力：AI公司护城河越来越像电力和机房",
+    "sub_title": "",
+    "subtitle_brief": "AI公司看起来是在卖软件，但最深的战场越来越像能源、地产、芯片和长期租约的组合。",
+    "theme": "compute",
+    "kicker": "Anthropic · 算力军备",
+    "punch": "大模型竞争，正在把数据中心变成新型战略库存。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-stripe-openrouter-model-routing": {
+    "category": "AI支付与网关",
+    "main_title": "Stripe收购OpenRouter传闻：模型路由开始和支付层合流",
+    "sub_title": "",
+    "subtitle_brief": "当每个AI应用背后都要调用多个模型，谁能同时管好路由和账单，谁就站在商业化的咽喉位置。",
+    "theme": "developer",
+    "kicker": "Stripe · OpenRouter",
+    "punch": "AI应用不只需要模型网关，也需要一套能算清每次智能消耗的收银台。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-github-archify-claude-plugins": {
+    "category": "开源生态",
+    "main_title": "GitHub热榜被Agent Skills刷屏：AI开发开始从提示词走向可验证交付",
+    "sub_title": "",
+    "subtitle_brief": "当热榜上同时出现架构图、图像提示词、Claude插件和科学Agent技能，开发者其实在投票：只聊天不够了。",
+    "theme": "developer",
+    "kicker": "GitHub Trending · Skills",
+    "punch": "提示词正在变成工程资产，Agent Skills就是新的交付格式。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

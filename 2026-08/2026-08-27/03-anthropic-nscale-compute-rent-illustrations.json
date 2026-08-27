@@ -1,0 +1,53 @@
+{
+  "slug": "03-anthropic-nscale-compute-rent",
+  "date": "2026-08-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/03-anthropic-nscale-compute-rent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/03-anthropic-nscale-compute-rent/01-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "caption": "大模型公司表面上卖的是API、聊天助手和企业服务",
+      "anchor": "AI公司越来越不像纯软件公司",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/03-anthropic-nscale-compute-rent/02-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "caption": "报道里最值得看的数字",
+      "anchor": "460MW说明问题进入物理层",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/03-anthropic-nscale-compute-rent/03-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "caption": "过去软件公司最重要的资源是人才和用户",
+      "anchor": "算力租约正在变成竞争筹码",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/03-anthropic-nscale-compute-rent/04-03-anthropic-nscale-compute-rent-diagram.jpg",
+      "caption": "报道提到的新一代Nvidia Vera Rubin芯片",
+      "anchor": "芯片路线也会被绑定",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

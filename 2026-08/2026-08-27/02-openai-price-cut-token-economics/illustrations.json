@@ -1,0 +1,53 @@
+{
+  "slug": "02-openai-price-cut-token-economics",
+  "date": "2026-08-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/02-openai-price-cut-token-economics",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-openai-price-cut-token-economics-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/02-openai-price-cut-token-economics/01-02-openai-price-cut-token-economics-diagram.jpg",
+      "caption": "AI行业最爱看排行榜",
+      "anchor": "降价比发榜更接近真实世界",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-openai-price-cut-token-economics-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/02-openai-price-cut-token-economics/02-02-openai-price-cut-token-economics-diagram.jpg",
+      "caption": "Agent和聊天机器人最大的不同",
+      "anchor": "成本决定Agent能不能连续工作",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-openai-price-cut-token-economics-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/02-openai-price-cut-token-economics/03-02-openai-price-cut-token-economics-diagram.jpg",
+      "caption": "Codex达到高周活",
+      "anchor": "Codex周活说明开发者先感受到变化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-openai-price-cut-token-economics-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/02-openai-price-cut-token-economics/04-02-openai-price-cut-token-economics-diagram.jpg",
+      "caption": "当模型很贵时",
+      "anchor": "便宜模型会重塑产品设计",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

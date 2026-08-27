@@ -1,0 +1,53 @@
+{
+  "slug": "05-github-archify-claude-plugins",
+  "date": "2026-08-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/05-github-archify-claude-plugins",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-github-archify-claude-plugins-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/05-github-archify-claude-plugins/01-05-github-archify-claude-plugins-diagram.jpg",
+      "caption": "GitHub今日热榜里",
+      "anchor": "热榜在讲同一个变化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-github-archify-claude-plugins-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/05-github-archify-claude-plugins/02-05-github-archify-claude-plugins-diagram.jpg",
+      "caption": "一段好Prompt当然有价值",
+      "anchor": "Prompt太像手艺，Skill更像资产",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-github-archify-claude-plugins-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/05-github-archify-claude-plugins/03-05-github-archify-claude-plugins-diagram.jpg",
+      "caption": "archify这种项目能上榜",
+      "anchor": "可验证交付比花哨输出更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-github-archify-claude-plugins-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/05-github-archify-claude-plugins/04-05-github-archify-claude-plugins-diagram.jpg",
+      "caption": "Claude官方插件和社区插件同时出现",
+      "anchor": "官方插件目录会改变生态信任",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

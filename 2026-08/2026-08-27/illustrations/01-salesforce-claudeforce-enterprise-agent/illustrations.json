@@ -1,0 +1,53 @@
+{
+  "slug": "01-salesforce-claudeforce-enterprise-agent",
+  "date": "2026-08-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/01-salesforce-claudeforce-enterprise-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/01-salesforce-claudeforce-enterprise-agent/01-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "caption": "很多企业员工已经有太多工具",
+      "anchor": "AI最想进的地方不是浏览器",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/01-salesforce-claudeforce-enterprise-agent/02-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "caption": "Salesforce的强项不是训练模型",
+      "anchor": "Claudeforce抢的是业务系统分发权",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/01-salesforce-claudeforce-enterprise-agent/03-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "caption": "很多AI产品的误区",
+      "anchor": "企业不会为了AI重建全部流程",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/01-salesforce-claudeforce-enterprise-agent/04-01-salesforce-claudeforce-enterprise-agent-diagram.jpg",
+      "caption": "Anthropic需要更多企业分发场景",
+      "anchor": "模型公司也需要软件公司的外壳",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

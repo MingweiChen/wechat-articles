@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-27",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Salesforce扩大Anthropic合作：Claudeforce把企业AI从插件推到业务层",
+      "virality": 9,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 81,
+      "verdict": "keep",
+      "issues": [
+        "内部与Anthropic算力题共享同一头部公司，需写作时明显区分为企业软件入口而非模型公司叙事。"
+      ],
+      "suggestions": [
+        "标题强化Salesforce/Slack/CRM入口，不要泛化成Anthropic合作新闻。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "OpenAI下调GPT-5.6 Sol价格：AI竞争开始从能力榜打到成本曲线",
+      "virality": 8,
+      "dedup": 6,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 75,
+      "verdict": "keep",
+      "issues": [
+        "过去一周已多次出现OpenAI/GPT-5.6相关题，重复风险接近阈值。"
+      ],
+      "suggestions": [
+        "必须避开8月21日实时业务现场和8月24/26安全隐私角度，聚焦单位任务成本、应用频率和企业预算。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic 450亿美元租算力：AI公司护城河越来越像电力和机房",
+      "virality": 9,
+      "dedup": 6,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 83,
+      "verdict": "keep",
+      "issues": [
+        "8月23日写过Anthropic IPO，本批又有Salesforce-Anthropic题，主角重复但事件和角度不同。"
+      ],
+      "suggestions": [
+        "落笔避开估值/融资扩写，主线放在算力租约、电力容量和基础设施锁仓。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Stripe收购OpenRouter传闻：模型路由开始和支付层合流",
+      "virality": 8,
+      "dedup": 6,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 75,
+      "verdict": "keep",
+      "issues": [
+        "来源带传闻属性，且过去一周有Natural Agent支付、Cursor Plugins、网关/插件相邻话题，重复和确定性风险都偏高。"
+      ],
+      "suggestions": [
+        "标题和正文标明“传闻/若属实”，重点写路由、计费、利润闭环，避免写成并购定论。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub今日热榜被Agent Skills刷屏：AI开发开始从提示词走向可验证交付",
+      "virality": 7,
+      "dedup": 7,
+      "originality": 7,
+      "title_pool": 7,
+      "score": 70,
+      "verdict": "keep",
+      "issues": [
+        "Agent/插件/工作流主题在8月21、24、26均出现过，爆点不如前四篇强。"
+      ],
+      "suggestions": [
+        "保留但标题要拉出“热榜刷屏/提示词过时/可验证交付”冲突感，正文只写Skill范式，不复述DeepSeek Harness或Cursor Plugins。"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    "Google Gemini 3.7 Flash成本战（仅替补：8月23日Gemini入口题有中重复）",
+    "ChatGPT for Teens安全产品化（仅替补：题材有敏感度，适合撰写阶段严控）"
+  ],
+  "killed": []
+}

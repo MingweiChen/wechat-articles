@@ -1,0 +1,53 @@
+{
+  "slug": "04-stripe-openrouter-model-routing",
+  "date": "2026-08-27",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/04-stripe-openrouter-model-routing",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-stripe-openrouter-model-routing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/04-stripe-openrouter-model-routing/01-04-stripe-openrouter-model-routing-diagram.jpg",
+      "caption": "做AI产品的人都知道",
+      "anchor": "AI应用最难算清一笔账",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-stripe-openrouter-model-routing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/04-stripe-openrouter-model-routing/02-04-stripe-openrouter-model-routing-diagram.jpg",
+      "caption": "OpenRouter这类平台的价值",
+      "anchor": "模型路由本来就是成本系统",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-stripe-openrouter-model-routing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/04-stripe-openrouter-model-routing/03-04-stripe-openrouter-model-routing-diagram.jpg",
+      "caption": "Stripe擅长的是让软件公司收钱、订阅、计费、分账和处理企业付款",
+      "anchor": "支付层想拿到AI用量入口",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-stripe-openrouter-model-routing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-27/illustrations/04-stripe-openrouter-model-routing/04-04-stripe-openrouter-model-routing-diagram.jpg",
+      "caption": "如果一个AI应用只用一个模型",
+      "anchor": "多模型让定价更难也更重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}
