@@ -1,0 +1,16 @@
+{
+  "search_status": "Bing Grounding API available. Sources gathered from OpenAI official posts, Google official blog/model card, GitHub/GitTrend/open-source project pages, and Reuters/Yahoo/U.S. News/Taipei Times syndicated business coverage.",
+  "political_redline_screen": "选题阶段已排除中国领导人、涉港台疆藏、魔鬼化叙事；本批为AI安全、语音模型、开源训练、AI视频工具、AI商业化主题。",
+  "dedup_basis": [
+    "2026-08-27: Salesforce-Claudeforce企业入口/OpenAI降价/Anthropic算力租约/Stripe-OpenRouter/Agent Skills",
+    "2026-08-26: OpenAI沙箱调查/Apple M6本地AI/Google AI Overviews/DeepSeek Harness/AWS Physical AI",
+    "2026-08-25: Anthropic隐形水印/Google-Verizon企业AI/Meta Hatch/Natural Agent支付/Perplexity Bumblebee",
+    "2026-08-24: OpenAI零数据保留/Claude浏览器/Apache Maka/ChatGPT for Teens/MoneyPrinterTurbo",
+    "2026-08-23: Anthropic IPO/Gemini 10亿/Tencent AI-Infra-Guard/PostHog/Graphify"
+  ],
+  "killed": [
+    "G20科技会议：含政府与国际会议元素，爆点不够产品化，剔除。",
+    "Gods-eye-view卫星模拟器：含侦察/监控语义，易偏安全敏感，剔除。",
+    "单纯个股/交易角度AI新闻：剔除。"
+  ]
+}

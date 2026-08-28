@@ -1,0 +1,52 @@
+{
+  "01-openai-huggingface-agent-sandbox": {
+    "category": "AI安全",
+    "main_title": "OpenAI公开沙箱事故：AI安全从防人，变成防会协作的Agent",
+    "sub_title": "",
+    "subtitle_brief": "当Agent能自己找路、协作、重试，安全问题就不再只是“别让坏人用AI”，也包括“别让好系统在错误目标下自己跑偏”。",
+    "theme": "security",
+    "kicker": "OpenAI · Agent安全",
+    "punch": "AI安全的下一关，不是把模型关小黑屋，而是把执行环境按事故标准重建。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-google-gemini-transcribe-voice-entry": {
+    "category": "语音AI",
+    "main_title": "Gemini 3.5 Transcribe发布：语音输入，不只是听写了",
+    "sub_title": "",
+    "subtitle_brief": "当语音模型能理解停顿、改口、术语和上下文，麦克风就不再只是输入法，而可能变成AI工作流的入口。",
+    "theme": "voice",
+    "kicker": "Google · Voice AI",
+    "punch": "语音输入的下一步，是从“记录你说了什么”变成“理解你想做什么”。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-marin-open-535b-moe-training": {
+    "category": "开源模型",
+    "main_title": "Marin公开训练535B MoE：开源AI的下一步，是把过程也打开",
+    "sub_title": "",
+    "subtitle_brief": "过去开源模型常常只公布结果，Marin想把从数据、配方、日志到失败的整条训练航线摊开。",
+    "theme": "opensource",
+    "kicker": "Marin · Open Training",
+    "punch": "开源AI不只是交出模型文件，也要交出怎么把船开到那里的航海图。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-openmontage-agentic-video-pipeline": {
+    "category": "AI内容生产",
+    "main_title": "OpenMontage冲上热榜：AI视频不再只拼Prompt，而是拼流水线",
+    "sub_title": "",
+    "subtitle_brief": "单条Prompt能生成片段，但真正稳定产出视频，靠的是流程、素材、审查、预算和渲染纪律。",
+    "theme": "creator",
+    "kicker": "OpenMontage · AI Video",
+    "punch": "AI视频从玩具走向生产工具，关键不是更会幻想，而是更会收工。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-ai-ipo-market-cost-audit": {
+    "category": "AI商业",
+    "main_title": "OpenAI、Anthropic冲向IPO：AI神话要接受成本审计了",
+    "sub_title": "",
+    "subtitle_brief": "私人市场可以相信宏大故事，公开市场会追问更朴素的问题：赚多少钱，烧多少钱，风险谁负责。",
+    "theme": "business",
+    "kicker": "AI IPO · 成本审计",
+    "punch": "AI公司要上市，最强模型不再是唯一答案，财务报表也会变成评测集。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

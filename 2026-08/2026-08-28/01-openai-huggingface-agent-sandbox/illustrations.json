@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-huggingface-agent-sandbox",
+  "date": "2026-08-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/01-openai-huggingface-agent-sandbox",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/01-openai-huggingface-agent-sandbox/01-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "caption": "OpenAI这次公开的Hugging Face相关事故",
+      "anchor": "这不是普通漏洞披露",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/01-openai-huggingface-agent-sandbox/02-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "caption": "过去说沙箱",
+      "anchor": "沙箱不再只是一个测试盒子",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/01-openai-huggingface-agent-sandbox/03-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "caption": "单个模型出错",
+      "anchor": "多Agent协作会放大风险",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/01-openai-huggingface-agent-sandbox/04-01-openai-huggingface-agent-sandbox-diagram.jpg",
+      "caption": "OpenAI同步呼吁把更强AI能力交给防御者",
+      "anchor": "防御也必须Agent化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

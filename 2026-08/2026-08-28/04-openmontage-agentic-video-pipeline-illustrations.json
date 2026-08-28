@@ -1,0 +1,53 @@
+{
+  "slug": "04-openmontage-agentic-video-pipeline",
+  "date": "2026-08-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/04-openmontage-agentic-video-pipeline",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/04-openmontage-agentic-video-pipeline/01-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "caption": "AI视频工具最容易给人一种错觉",
+      "anchor": "视频生成最容易变成烟花",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/04-openmontage-agentic-video-pipeline/02-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "caption": "OpenMontage的思路不是做一个封闭按钮",
+      "anchor": "Agent不是魔法导演，是流程执行器",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/04-openmontage-agentic-video-pipeline/03-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "caption": "很多AI视频产品本质上是在让静态图动起来",
+      "anchor": "真实素材路线很重要",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/04-openmontage-agentic-video-pipeline/04-04-openmontage-agentic-video-pipeline-diagram.jpg",
+      "caption": "创作者真正怕的不是工具不能生成",
+      "anchor": "质量门禁会决定能不能商用",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

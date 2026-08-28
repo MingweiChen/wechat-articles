@@ -1,0 +1,53 @@
+{
+  "slug": "03-marin-open-535b-moe-training",
+  "date": "2026-08-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-marin-open-535b-moe-training-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/01-03-marin-open-535b-moe-training-diagram.jpg",
+      "caption": "过去很多人理解开源模型",
+      "anchor": "大模型开源不该只剩下载链接",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-marin-open-535b-moe-training-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/02-03-marin-open-535b-moe-training-diagram.jpg",
+      "caption": "真正训练过模型的人都知道",
+      "anchor": "训练过程才是最贵的知识",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-marin-open-535b-moe-training-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/03-03-marin-open-535b-moe-training-diagram.jpg",
+      "caption": "前沿训练最怕一拍脑袋开大跑",
+      "anchor": "缩放梯子是一种反冲动机制",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-marin-open-535b-moe-training-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/04-03-marin-open-535b-moe-training-diagram.jpg",
+      "caption": "当代码、日志、问题单和追踪面板公开",
+      "anchor": "透明不是为了好看，是为了协作",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

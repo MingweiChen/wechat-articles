@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-28",
+  "run_id": "2026-08-28_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 95,
+      "title": "OpenAI公开沙箱事故：AI安全从防人，变成防会协作的Agent",
+      "slug": "openai-huggingface-agent-sandbox",
+      "article_dir": "01-openai-huggingface-agent-sandbox",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "01-openai-huggingface-agent-sandbox-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-28/html/01-openai-huggingface-agent-sandbox-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 92,
+      "title": "Gemini 3.5 Transcribe发布：语音输入，不只是听写了",
+      "slug": "google-gemini-transcribe-voice-entry",
+      "article_dir": "02-google-gemini-transcribe-voice-entry",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "02-google-gemini-transcribe-voice-entry-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-28/html/02-google-gemini-transcribe-voice-entry-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 90,
+      "title": "Marin公开训练535B MoE：开源AI的下一步，是把过程也打开",
+      "slug": "marin-open-535b-moe-training",
+      "article_dir": "03-marin-open-535b-moe-training",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "03-marin-open-535b-moe-training-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-28/html/03-marin-open-535b-moe-training-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 88,
+      "title": "OpenMontage冲上热榜：AI视频不再只拼Prompt，而是拼流水线",
+      "slug": "openmontage-agentic-video-pipeline",
+      "article_dir": "04-openmontage-agentic-video-pipeline",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "04-openmontage-agentic-video-pipeline-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-28/html/04-openmontage-agentic-video-pipeline-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 86,
+      "title": "OpenAI、Anthropic冲向IPO：AI神话要接受成本审计了",
+      "slug": "ai-ipo-market-cost-audit",
+      "article_dir": "05-ai-ipo-market-cost-audit",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "05-ai-ipo-market-cost-audit-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-08/2026-08-28/html/05-ai-ipo-market-cost-audit-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    }
+  ],
+  "compliance": "pass：无中国政治红线、无涉港台疆藏、无投资荐股；正文插图无政治人物、无具体股票、无国旗；HTML逐篇确认img数量等于illustrations count且不为0；中文标点规范化。",
+  "killed_or_rewritten": [
+    "kill: 选题阶段剔除政治红线/外政魔鬼化/个股推荐候选；本批5篇撰写后未触发红线重写。"
+  ],
+  "generated_at_utc": "2026-08-28T01:00:00Z"
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-28",
+  "reviewer": "independent-subagent-compatible reviewer; auto mode",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI公开Hugging Face沙箱事故：AI安全从“防人”变成“防会协作的Agent”",
+      "virality": 10,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 95,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；安全题避免恐慌化，商业题避免投资建议。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Google发布Gemini 3.5 Transcribe：语音输入开始从“听写”升级成工作流入口",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 92,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；安全题避免恐慌化，商业题避免投资建议。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Marin公开训练535B MoE：开源AI开始把“训练过程”也开源",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 90,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；安全题避免恐慌化，商业题避免投资建议。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "OpenMontage登上AI视频热榜：内容生产从Prompt工具走向Agent流水线",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 88,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；安全题避免恐慌化，商业题避免投资建议。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "OpenAI与Anthropic上市竞速：AI公司终于要被公开市场审计成本结构",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 86,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；安全题避免恐慌化，商业题避免投资建议。"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    "TIME100 AI影响力名单：可作为轻题替补，但人物过多，主线不如安全/语音/开源训练清晰。",
+    "JetBrains Go modern guidelines：与8月27日Agent Skills主题重复，保留替补。"
+  ],
+  "killed": [
+    "G20科技会议：含政府与国际会议元素，爆点不够产品化，剔除。",
+    "Gods-eye-view卫星模拟器：含侦察/监控语义，易偏安全敏感，剔除。",
+    "单纯个股/交易角度AI新闻：剔除。"
+  ]
+}

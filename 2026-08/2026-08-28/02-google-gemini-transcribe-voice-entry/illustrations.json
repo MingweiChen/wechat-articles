@@ -1,0 +1,53 @@
+{
+  "slug": "02-google-gemini-transcribe-voice-entry",
+  "date": "2026-08-28",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/02-google-gemini-transcribe-voice-entry",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/02-google-gemini-transcribe-voice-entry/01-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "caption": "很多人不是不想用语音",
+      "anchor": "语音输入过去太像备胎",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/02-google-gemini-transcribe-voice-entry/02-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "caption": "人说话并不像打字",
+      "anchor": "真正的新点是理解改口和上下文",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/02-google-gemini-transcribe-voice-entry/03-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "caption": "实时语音应用最怕的不是慢一点",
+      "anchor": "低延迟决定它能不能进工作流",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/02-google-gemini-transcribe-voice-entry/04-02-google-gemini-transcribe-voice-entry-diagram.jpg",
+      "caption": "模型指标当然重要",
+      "anchor": "Chrome和Gboard才是关键分发",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Marin · Open Training</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Marin公开训练535B MoE：开源AI的下一步，是把过程也打开</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">过去开源模型常常只公布结果，Marin想把从数据、配方、日志到失败的整条训练航线摊开。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">过去开源模型常常只公布结果，Marin想把从数据、配方、日志到失败的整条训练航线摊开。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">大模型开源不该只剩下载链接</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/01-03-marin-open-535b-moe-training-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去很多人理解开源模型</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去很多人理解开源模型，第一反应是能不能下载权重、能不能本地跑、许可证宽不宽。 Marin这次更有意思的地方，不只是参数规模，而是它把训练计划、工程风险、缩放预测和过程记录一起公开。 这相当于把“结果开源”向前推进到“过程开源”。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">训练过程才是最贵的知识</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/02-03-marin-open-535b-moe-training-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">真正训练过模型的人都知道</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">真正训练过模型的人都知道，模型文件只是终点。更稀缺的是中间那些判断：数据怎么混、优化器怎么调、什么时候报警、梯度异常怎么救、上下文扩展什么时候上。 Marin强调失败实验也要被记录，因为失败往往比成功截图更能帮助后来者少踩坑。 如果这些过程知识不公开，社区即使拿到权重，也很难学会如何复现下一代模型。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">缩放梯子是一种反冲动机制</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/03-03-marin-open-535b-moe-training-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">前沿训练最怕一拍脑袋开大跑</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">前沿训练最怕一拍脑袋开大跑。算力一旦烧起来，发现配方错了，代价就非常高。 Marin用小规模到大规模的缩放梯子先做预测，再把主训练和预测对照，目的就是降低“豪赌式训练”的比例。 这对开源社区很重要。因为开源项目没有无限预算，更需要把每一次大训练变成可学习的科学实验。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">透明不是为了好看，是为了协作</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-28/illustrations/03-marin-open-535b-moe-training/04-03-marin-open-535b-moe-training-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">当代码、日志、问题单和追踪面板公开</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">当代码、日志、问题单和追踪面板公开，外部研究者就能指出风险、复盘选择，甚至贡献补丁。 这种模式把开源从“发布后围观”，变成“训练中协作”。社区不再只是模型消费者，也可能成为训练过程的一部分。 这比单纯公布一个榜单分数更有长期价值。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">开源AI的竞争标准会变</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">未来判断一个开源模型，不能只问它跑分第几，还要问它的训练故事是否可信。 数据来源是否清楚，实验是否可复现，失败是否被记录，安全和偏差是否有过程证据，这些都会影响社区信任。 Marin的信号在这里：开源AI正在从成品展示，走向工程过程、科研方法和社区治理的综合竞争。 更现实地说，很多团队未必有能力照着Marin训练同等规模模型，但可以学习它如何拆解风险、如何做小规模预测、如何把实验结果写成可讨论的公共记录。 这种“看得见的训练过程”会降低后来者进入门槛，也会逼迫更多开源项目说明自己的配方来源和工程假设。开源如果只是交付一个神秘成品，信任很容易停在口号；如果连错误和修正都能追踪，社区才真的能在它上面继续建造。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 开源AI下一步的含金量，不只看模型能不能下载，还要看训练决策、数据管线、风险控制和失败经验能不能被社区复现。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 所以这篇真正想留下的不是某家公司今天赢了，而是一个更长期的观察法。AI越成熟，越会从“谁发布了新能力”，走向“谁把能力变成可交付、可治理、可复用的工作系统”。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">开源AI不只是交出模型文件，也要交出怎么把船开到那里的航海图。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
