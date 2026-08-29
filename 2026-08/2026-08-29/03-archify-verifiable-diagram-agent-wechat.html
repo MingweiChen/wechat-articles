@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">Archify · 文档工程</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">架构图最常见的问题不是丑，而是过期、随意、没人知道它还对不对。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">架构图最常见的问题不是丑，而是过期、随意、没人知道它还对不对。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">架构图最大的敌人是失真</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/01-03-archify-verifiable-diagram-agent-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多团队并不缺架构图</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">很多团队并不缺架构图，缺的是可信的架构图。白板图画完很快过期，Mermaid图常常不够表达，PPT图好看但很难和代码事实绑定。 Archify这类工具受关注，不是因为它能把图画得更炫，而是它试图让图有结构、有规则、有校验。 AI参与之后，这个问题更尖锐。模型很擅长把模糊描述变成漂亮图，但如果没有验证，漂亮就可能变成更危险的幻觉。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">typed JSON IR是关键细节</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/02-03-archify-verifiable-diagram-agent-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Archify让Agent先生成类型化JSON中间表示</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Archify让Agent先生成类型化JSON中间表示，再由确定性渲染器编译成HTML/SVG。这个设计比直接让模型吐一段图形代码更靠谱。 中间表示意味着每个节点、连接、角色和路径都有结构，校验器可以检查错误，修复建议可以指向具体对象，而不是让模型整张图重画。 这其实是AI工程化的通用思路：别让模型直接交最终答案，而是让它交一个可验证的中间产物。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">可交互不是装饰，是理解成本优化</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/03-03-archify-verifiable-diagram-agent-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">单文件HTML、深浅主题、路径追踪、上下游关系、导出卡片和有限动画</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">单文件HTML、深浅主题、路径追踪、上下游关系、导出卡片和有限动画，看起来像展示功能，但它们解决的是团队沟通的真实问题。 复杂系统不是一张静态图能讲清的。新人要看入口，架构师要看依赖，安全同学要看边界，业务同学要看流程。可交互图能让不同角色沿着自己的问题理解系统。 这类功能如果和验证机制结合，文档就不再是会后附件，而可以成为评审、交接和变更讨论的一部分。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">AI文档要进入CI，而不是停在聊天框</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/04-03-archify-verifiable-diagram-agent-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Archify强调验证、诊断码、last-good预览和交付门槛</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Archify强调验证、诊断码、last-good预览和交付门槛，这说明AI生成文档正在接近CI思维。不是“模型画完就算”，而是“通过检查才能替换正式产物”。 这对软件团队很重要。代码可以有测试，配置可以有schema，文档如果长期没有检查，就会变成最容易腐烂的资产。 未来更成熟的路线，是架构变化触发图更新，图更新触发审查，审查失败就不合并。AI负责生成候选，工程系统负责把关。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">好看的终点是可信，不是审美</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">技术图当然需要美观，因为没人愿意看一团乱线。但AI文档工具的最终价值，不是让每张图像发布会素材，而是让团队愿意相信它。 信任来自三个地方：结构化输入、确定性输出、可追踪证据。Archify的热度，恰好说明开发者正在寻找这三件事。 所以这条新闻真正的结论是：AI生成内容要进入专业工作流，第一课不是更会写，而是更可验证。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 AI文档的下一步不是更会美化，而是让图、代码和事实之间的关系可以被校验。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 所以这篇真正想留下的不是某家公司今天赢了，而是一个更长期的观察法。AI越成熟，越会从“谁发布了新能力”，走向“谁把能力变成可交付、可治理、可复用的工作系统”。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">真正有用的AI画图，不该只是好看，而要能证明自己没乱画。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

@@ -1,0 +1,53 @@
+{
+  "slug": "03-archify-verifiable-diagram-agent",
+  "date": "2026-08-29",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/01-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "caption": "很多团队并不缺架构图",
+      "anchor": "架构图最大的敌人是失真",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/02-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "caption": "Archify让Agent先生成类型化JSON中间表示",
+      "anchor": "typed JSON IR是关键细节",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/03-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "caption": "单文件HTML、深浅主题、路径追踪、上下游关系、导出卡片和有限动画",
+      "anchor": "可交互不是装饰，是理解成本优化",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/03-archify-verifiable-diagram-agent/04-03-archify-verifiable-diagram-agent-diagram.jpg",
+      "caption": "Archify强调验证、诊断码、last-good预览和交付门槛",
+      "anchor": "AI文档要进入CI，而不是停在聊天框",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

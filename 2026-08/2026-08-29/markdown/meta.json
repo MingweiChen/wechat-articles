@@ -1,0 +1,52 @@
+{
+  "01-claude-plugin-directory-ecosystem": {
+    "category": "开发者生态",
+    "main_title": "Anthropic官方Claude插件目录：AI编程开始从模型战打到生态战",
+    "sub_title": "",
+    "subtitle_brief": "当所有模型都会写代码，开发者真正需要的是一套能放心安装、能持续更新、能跨项目复用的工具生态。",
+    "theme": "agent",
+    "kicker": "Claude · 插件生态",
+    "punch": "模型负责聪明，插件目录负责把聪明变成可复制的生产力。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-scientific-agent-skills-ai-scientist": {
+    "category": "AI for Science",
+    "main_title": "K-Dense科学Agent技能库爆火：AI科学家不是一个模型，而是一箱可验证工具",
+    "sub_title": "",
+    "subtitle_brief": "科研不是问答游戏，它需要数据库、工具链、实验约束、报告和审计记录一起工作。",
+    "theme": "science",
+    "kicker": "AI Science · 技能库",
+    "punch": "AI科学家如果没有工具箱，只是一个会背论文的聊天窗口。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-archify-verifiable-diagram-agent": {
+    "category": "开发者工具",
+    "main_title": "Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”",
+    "sub_title": "",
+    "subtitle_brief": "架构图最常见的问题不是丑，而是过期、随意、没人知道它还对不对。",
+    "theme": "docs",
+    "kicker": "Archify · 文档工程",
+    "punch": "真正有用的AI画图，不该只是好看，而要能证明自己没乱画。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-keenable-agent-search-infrastructure": {
+    "category": "AI基础设施",
+    "main_title": "Keenable拿下2600万美元：AI Agent需要的不是搜索框，而是可引用的信息地基",
+    "sub_title": "",
+    "subtitle_brief": "当AI开始替人查资料、写报告、跑任务，搜索结果页不再是终点，源文档和证据链才是燃料。",
+    "theme": "search",
+    "kicker": "Agent Search · 信息地基",
+    "punch": "给Agent用的搜索，不是十条蓝链，而是一条可验证的信息供应链。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-chipagents-semiconductor-agentic-eda": {
+    "category": "产业AI",
+    "main_title": "ChipAgents融资扩至1.34亿美元：芯片设计Agent正在进入EDA最硬的流程",
+    "sub_title": "",
+    "subtitle_brief": "芯片设计里最贵的不是灵感，而是每一次返工、验证和流片风险。",
+    "theme": "chip",
+    "kicker": "ChipAgents · 半导体Agent",
+    "punch": "半导体Agent的爆点，是AI开始碰最不能“差不多”的工程环节。",
+    "comment_cta": "你觉得这波AI基础设施化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "01-claude-plugin-directory-ecosystem",
+  "date": "2026-08-29",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/01-claude-plugin-directory-ecosystem",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/01-claude-plugin-directory-ecosystem/01-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "caption": "Claude Code的官方插件目录看起来像一个开发者工具仓库",
+      "anchor": "插件目录不是小功能，是入口之争",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/01-claude-plugin-directory-ecosystem/02-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "caption": "开发者最怕的不是插件不够多",
+      "anchor": "官方目录解决的是信任成本",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/01-claude-plugin-directory-ecosystem/03-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "caption": "最值得留意的不是某个插件",
+      "anchor": "技能包让AI能力变得可携带",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/01-claude-plugin-directory-ecosystem/04-01-claude-plugin-directory-ecosystem-diagram.jpg",
+      "caption": "当插件目录成熟之后",
+      "anchor": "生态战会改变模型竞争方式",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "02-scientific-agent-skills-ai-scientist",
+  "date": "2026-08-29",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/02-scientific-agent-skills-ai-scientist",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/02-scientific-agent-skills-ai-scientist/01-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "caption": "很多AI for Science叙事喜欢把焦点放在“模型懂科学”",
+      "anchor": "科研Agent不能只靠会说",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/02-scientific-agent-skills-ai-scientist/02-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "caption": "它值得留意的一个细节",
+      "anchor": "开放标准比单一产品更有想象力",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/02-scientific-agent-skills-ai-scientist/03-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "caption": "科研场景最怕“看起来很合理”",
+      "anchor": "可复现才是科研Agent的门槛",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/02-scientific-agent-skills-ai-scientist/04-02-scientific-agent-skills-ai-scientist-diagram.jpg",
+      "caption": "K-Dense BYOK强调本地运行、用户自带API key、数据留",
+      "anchor": "本地BYOK击中实验室真实顾虑",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

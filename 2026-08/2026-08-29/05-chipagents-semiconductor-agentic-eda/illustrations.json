@@ -1,0 +1,53 @@
+{
+  "slug": "05-chipagents-semiconductor-agentic-eda",
+  "date": "2026-08-29",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/05-chipagents-semiconductor-agentic-eda",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/05-chipagents-semiconductor-agentic-eda/01-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "caption": "半导体设计当然包含代码",
+      "anchor": "芯片设计不是普通写代码",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/05-chipagents-semiconductor-agentic-eda/02-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "caption": "通用Agent做演示很容易",
+      "anchor": "高约束场景才检验Agent含金量",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/05-chipagents-semiconductor-agentic-eda/03-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "caption": "融资数字很醒目",
+      "anchor": "120家客户比估值更应看",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/05-chipagents-semiconductor-agentic-eda/04-05-chipagents-semiconductor-agentic-eda-diagram.jpg",
+      "caption": "EDA本来就是高度工具化、流程化和自动化的行业",
+      "anchor": "EDA会成为Agent最重要的试验场之一",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

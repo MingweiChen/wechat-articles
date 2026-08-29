@@ -1,0 +1,332 @@
+{
+  "date": "2026-08-29",
+  "generated_at_utc": "2026-08-29T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "dedup_basis": [
+    "2026-08-28: OpenAI模型发布沙箱失控/Anthropic 1.5万亿财务神话审计/MIT生成式AI投资95%失败/Meta超级智能部门重组/GitHub热门图像评测工具",
+    "2026-08-27: 企业Agent入口/AI搜索/模型成本治理/开源Agent框架/AI安全",
+    "2026-08-24: OpenAI零数据保留/Claude浏览器使用/Meta AI Mac/OmniRoute/Agent融资控制层",
+    "2026-08-23: Anthropic IPO/Gemini入口/Tencent AI-Infra-Guard/PostHog/Graphify",
+    "2026-08-21: GPT-5.6 Sol Ultrafast/ChatGPT Ads欧洲/NVIDIA Switchyard/Cursor Plugins/OpenViking"
+  ],
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、魔鬼化叙事；本批无政治题、无个股推荐。",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Anthropic官方Claude插件目录：AI编程开始从模型战打到生态战",
+      "category": "开发者生态",
+      "score": 95,
+      "sources": [
+        "https://github.com/anthropics/claude-plugins-official",
+        "https://aitoolly.com/ai-news/article/2026-08-29-anthropic-launches-official-claude-code-plugins-directory-on-github-to-enhance-developer-ecosystem",
+        "https://github.com/anthropics/claude-plugins-official/tree/main/plugins"
+      ],
+      "hook": "Anthropic把Claude Code插件目录放到GitHub，内部插件、外部插件、技能包和MCP配置开始有了官方分发入口。",
+      "angle": "不写“又一个插件库”，而写AI编程工具从单点模型能力转向生态入口、质量审核和供应链信任。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI编程下一阶段的壁垒，不只是模型谁更强，而是谁能把插件、技能、MCP和安全审核组织成可信市场。",
+        "dots": [
+          "官方GitHub目录",
+          "内部插件与外部插件分区",
+          "插件可包含skills、agents、MCP配置",
+          "提交和命名规则强化治理"
+        ],
+        "axis": "大家会写Claude插件上新，本篇从AI编程生态平台化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把开源仓库热度拆成平台化信号：AI编程不再只拼对话窗口，而是拼生态分发、质量门槛和安全边界。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 95,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "K-Dense科学Agent技能库爆火：AI科学家不是一个模型，而是一箱可验证工具",
+      "category": "AI for Science",
+      "score": 92,
+      "sources": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/refs/heads/main/README.md",
+        "https://orangebot.ai/github-trending-today"
+      ],
+      "hook": "K-Dense Scientific Agent Skills在GitHub热榜靠前，主打163个科研技能、100多个科学数据库，以及跨Cursor、Claude Code、Codex等Agent宿主的兼容。",
+      "angle": "不写“AI科学家来了”的口号，而写科研Agent落地的关键从大模型变成技能、数据库、CI和可复现流程。",
+      "writing_approach": {
+        "increment_path": "换轴+串点",
+        "thesis": "D：AI for Science真正要规模化，靠的不是一个全知模型，而是把科研流程拆成可调用、可检查、可复现的技能网络。",
+        "dots": [
+          "163个科学技能",
+          "100+数据库",
+          "BYOK本地工作台",
+          "CI测试和结构扫描",
+          "跨Agent宿主兼容"
+        ],
+        "axis": "大家写开源技能库上热榜，本篇从科研流程工程化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把GitHub热度翻译成行业判断：科研Agent的价值在于把模型接进真实工具链，而不是只写一段漂亮推理。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 92,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”",
+      "category": "开发者工具",
+      "score": 89,
+      "sources": [
+        "https://github.com/tt-a1i/archify",
+        "https://orangebot.ai/github-trending-today",
+        "https://aitoolly.com/ai-news/article/2026-08-29-archify-a-new-ai-agent-skill-for-creating-verifiable-architecture-diagrams-and-animated-workflow-vis"
+      ],
+      "hook": "Archify成为8月29日GitHub Trending榜首，主打用AI Agent生成架构、流程、时序和数据流图，并通过typed JSON IR、校验和单文件HTML输出保证可分享。",
+      "angle": "不写画图工具，而写AI文档从“好看截图”进入“可验证工程产物”的变化。",
+      "writing_approach": {
+        "increment_path": "反常识",
+        "thesis": "D：AI文档的下一步不是更会美化，而是让图、代码和事实之间的关系可以被校验。",
+        "dots": [
+          "GitHub Trending榜首",
+          "typed JSON IR",
+          "验证器和诊断码",
+          "自包含HTML/SVG导出",
+          "源代码证据可选绑定"
+        ],
+        "axis": "大家写GitHub热榜工具，本篇从文档可信度切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把一个画图工具拆成软件工程信号：AI生成物要进入团队流程，必须从视觉输出变成可验证制品。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "Keenable拿下2600万美元：AI Agent需要的不是搜索框，而是可引用的信息地基",
+      "category": "AI基础设施",
+      "score": 88,
+      "sources": [
+        "https://theaiinsider.tech/2026/08/27/startup-keenable-announces-26m-in-funding-to-build-web-search-infrastructure-built-for-ai-agents/",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+        "https://www.forbes.com/sites/josipamajic/2026/08/18/vcs-fund-ai-agents-second-order-fallout-before-it-hits/"
+      ],
+      "hook": "Keenable从隐身状态发布并获得2600万美元种子轮，目标是为AI聊天机器人和Agent构建面向机器使用的Web搜索基础设施。",
+      "angle": "不写搜索创业融资，而写Agent时代的信息检索需求从“人点蓝链”变成“机器批量读源、引用、验证”。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent越会干活，越需要一个不为人类浏览器优化、而为机器推理和引用优化的搜索层。",
+        "dots": [
+          "2600万美元种子轮",
+          "1000亿级文档索引",
+          "API已进入AI实验室和推理服务商生产环境",
+          "Agent对源文档依赖上升"
+        ],
+        "axis": "大家写融资和搜索，本篇从Agent的信息供应链切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把搜索基础设施融资解释为Agent落地瓶颈：没有稳定、可引用、可批量处理的信息层，Agent只能在幻觉和过期知识之间摇摆。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "ChipAgents融资扩至1.34亿美元：芯片设计Agent正在进入EDA最硬的流程",
+      "category": "产业AI",
+      "score": 86,
+      "sources": [
+        "https://theaiinsider.tech/2026/08/25/chipagents-expands-series-a-funding-to-134m-as-demand-grows-for-agentic-ai-in-semiconductor-design/",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+        "https://www.analyticsinsight.net/startups/weekly-startup-funding-roundup-gatik-stability-ai-runable-secure-major-investment"
+      ],
+      "hook": "ChipAgents把Series A扩至1.34亿美元，称上半年ARR增长6倍，并服务超过120家半导体公司，方向是让专业Agent执行芯片设计和验证流程。",
+      "angle": "不写半导体AI融资，而写AI从通用代码助手进入高约束工程流程：EDA、验证、时序和交付风险。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：真正值钱的产业Agent，不是替工程师写几行代码，而是能在高约束流程里承担可审查的专业步骤。",
+        "dots": [
+          "Series A扩至1.34亿美元",
+          "上半年ARR增长6倍",
+          "部署到120多家半导体公司",
+          "专用Agent规划并执行设计验证工作流"
+        ],
+        "axis": "大家写大额融资，本篇从高约束产业流程的Agent化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把融资拆成产业趋势：通用AI助手的边际价值有限，真正高价值场景在复杂、昂贵、错误代价极高的工程流程。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "topic": "Anthropic官方Claude插件目录：AI编程开始从模型战打到生态战",
+      "category": "开发者生态",
+      "score": 95,
+      "sources": [
+        "https://github.com/anthropics/claude-plugins-official",
+        "https://aitoolly.com/ai-news/article/2026-08-29-anthropic-launches-official-claude-code-plugins-directory-on-github-to-enhance-developer-ecosystem",
+        "https://github.com/anthropics/claude-plugins-official/tree/main/plugins"
+      ],
+      "hook": "Anthropic把Claude Code插件目录放到GitHub，内部插件、外部插件、技能包和MCP配置开始有了官方分发入口。",
+      "angle": "不写“又一个插件库”，而写AI编程工具从单点模型能力转向生态入口、质量审核和供应链信任。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：AI编程下一阶段的壁垒，不只是模型谁更强，而是谁能把插件、技能、MCP和安全审核组织成可信市场。",
+        "dots": [
+          "官方GitHub目录",
+          "内部插件与外部插件分区",
+          "插件可包含skills、agents、MCP配置",
+          "提交和命名规则强化治理"
+        ],
+        "axis": "大家会写Claude插件上新，本篇从AI编程生态平台化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把开源仓库热度拆成平台化信号：AI编程不再只拼对话窗口，而是拼生态分发、质量门槛和安全边界。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 95,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 2,
+      "topic": "K-Dense科学Agent技能库爆火：AI科学家不是一个模型，而是一箱可验证工具",
+      "category": "AI for Science",
+      "score": 92,
+      "sources": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/refs/heads/main/README.md",
+        "https://orangebot.ai/github-trending-today"
+      ],
+      "hook": "K-Dense Scientific Agent Skills在GitHub热榜靠前，主打163个科研技能、100多个科学数据库，以及跨Cursor、Claude Code、Codex等Agent宿主的兼容。",
+      "angle": "不写“AI科学家来了”的口号，而写科研Agent落地的关键从大模型变成技能、数据库、CI和可复现流程。",
+      "writing_approach": {
+        "increment_path": "换轴+串点",
+        "thesis": "D：AI for Science真正要规模化，靠的不是一个全知模型，而是把科研流程拆成可调用、可检查、可复现的技能网络。",
+        "dots": [
+          "163个科学技能",
+          "100+数据库",
+          "BYOK本地工作台",
+          "CI测试和结构扫描",
+          "跨Agent宿主兼容"
+        ],
+        "axis": "大家写开源技能库上热榜，本篇从科研流程工程化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把GitHub热度翻译成行业判断：科研Agent的价值在于把模型接进真实工具链，而不是只写一段漂亮推理。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 92,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 3,
+      "topic": "Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”",
+      "category": "开发者工具",
+      "score": 89,
+      "sources": [
+        "https://github.com/tt-a1i/archify",
+        "https://orangebot.ai/github-trending-today",
+        "https://aitoolly.com/ai-news/article/2026-08-29-archify-a-new-ai-agent-skill-for-creating-verifiable-architecture-diagrams-and-animated-workflow-vis"
+      ],
+      "hook": "Archify成为8月29日GitHub Trending榜首，主打用AI Agent生成架构、流程、时序和数据流图，并通过typed JSON IR、校验和单文件HTML输出保证可分享。",
+      "angle": "不写画图工具，而写AI文档从“好看截图”进入“可验证工程产物”的变化。",
+      "writing_approach": {
+        "increment_path": "反常识",
+        "thesis": "D：AI文档的下一步不是更会美化，而是让图、代码和事实之间的关系可以被校验。",
+        "dots": [
+          "GitHub Trending榜首",
+          "typed JSON IR",
+          "验证器和诊断码",
+          "自包含HTML/SVG导出",
+          "源代码证据可选绑定"
+        ],
+        "axis": "大家写GitHub热榜工具，本篇从文档可信度切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把一个画图工具拆成软件工程信号：AI生成物要进入团队流程，必须从视觉输出变成可验证制品。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 4,
+      "topic": "Keenable拿下2600万美元：AI Agent需要的不是搜索框，而是可引用的信息地基",
+      "category": "AI基础设施",
+      "score": 88,
+      "sources": [
+        "https://theaiinsider.tech/2026/08/27/startup-keenable-announces-26m-in-funding-to-build-web-search-infrastructure-built-for-ai-agents/",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+        "https://www.forbes.com/sites/josipamajic/2026/08/18/vcs-fund-ai-agents-second-order-fallout-before-it-hits/"
+      ],
+      "hook": "Keenable从隐身状态发布并获得2600万美元种子轮，目标是为AI聊天机器人和Agent构建面向机器使用的Web搜索基础设施。",
+      "angle": "不写搜索创业融资，而写Agent时代的信息检索需求从“人点蓝链”变成“机器批量读源、引用、验证”。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent越会干活，越需要一个不为人类浏览器优化、而为机器推理和引用优化的搜索层。",
+        "dots": [
+          "2600万美元种子轮",
+          "1000亿级文档索引",
+          "API已进入AI实验室和推理服务商生产环境",
+          "Agent对源文档依赖上升"
+        ],
+        "axis": "大家写融资和搜索，本篇从Agent的信息供应链切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把搜索基础设施融资解释为Agent落地瓶颈：没有稳定、可引用、可批量处理的信息层，Agent只能在幻觉和过期知识之间摇摆。"
+      },
+      "urgency": "high",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    },
+    {
+      "rank": 5,
+      "topic": "ChipAgents融资扩至1.34亿美元：芯片设计Agent正在进入EDA最硬的流程",
+      "category": "产业AI",
+      "score": 86,
+      "sources": [
+        "https://theaiinsider.tech/2026/08/25/chipagents-expands-series-a-funding-to-134m-as-demand-grows-for-agentic-ai-in-semiconductor-design/",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
+        "https://www.analyticsinsight.net/startups/weekly-startup-funding-roundup-gatik-stability-ai-runable-secure-major-investment"
+      ],
+      "hook": "ChipAgents把Series A扩至1.34亿美元，称上半年ARR增长6倍，并服务超过120家半导体公司，方向是让专业Agent执行芯片设计和验证流程。",
+      "angle": "不写半导体AI融资，而写AI从通用代码助手进入高约束工程流程：EDA、验证、时序和交付风险。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：真正值钱的产业Agent，不是替工程师写几行代码，而是能在高约束流程里承担可审查的专业步骤。",
+        "dots": [
+          "Series A扩至1.34亿美元",
+          "上半年ARR增长6倍",
+          "部署到120多家半导体公司",
+          "专用Agent规划并执行设计验证工作流"
+        ],
+        "axis": "大家写大额融资，本篇从高约束产业流程的Agent化切入。",
+        "counter_intuitive": "表面看是产品/融资/工具新闻，实际是AI从能力炫耀转向隐私、权限、入口、调度和治理的基础设施竞争。",
+        "why_worth": "把融资拆成产业趋势：通用AI助手的边际价值有限，真正高价值场景在复杂、昂贵、错误代价极高的工程流程。"
+      },
+      "urgency": "medium",
+      "dedup": "低重复：过去一周未写同一事件、同一主角+同一角度。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass"
+    }
+  ]
+}

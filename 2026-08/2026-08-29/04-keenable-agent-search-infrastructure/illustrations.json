@@ -1,0 +1,53 @@
+{
+  "slug": "04-keenable-agent-search-infrastructure",
+  "date": "2026-08-29",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/04-keenable-agent-search-infrastructure",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/04-keenable-agent-search-infrastructure/01-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "caption": "传统搜索引擎默认用户会看标题、点链接、辨别来源、比较网页",
+      "anchor": "传统搜索是给人看的",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/04-keenable-agent-search-infrastructure/02-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "caption": "Keenable强调聊天机器人在有源文档支撑时表现更好",
+      "anchor": "源文档正在变成AI燃料",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/04-keenable-agent-search-infrastructure/03-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "caption": "构建大规模Web索引听起来像老生意",
+      "anchor": "1000亿文档索引说明门槛不低",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-08/2026-08-29/illustrations/04-keenable-agent-search-infrastructure/04-04-keenable-agent-search-infrastructure-diagram.jpg",
+      "caption": "很多人会直觉认为搜索已经被巨头锁死",
+      "anchor": "AI搜索不会只剩一个赢家",
+      "position": "after_heading",
+      "source": "code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "B类信息示意图为主；每篇4张；无政治人物、无个股、无国旗；无抽象发光科幻图。"
+}

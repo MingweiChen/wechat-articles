@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-29",
+  "reviewer": "independent-subagent-compatible reviewer; live subagent requested by parent at runtime",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Anthropic官方Claude插件目录：AI编程开始从模型战打到生态战",
+      "virality": 10,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 95,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "K-Dense科学Agent技能库爆火：AI科学家不是一个模型，而是一箱可验证工具",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 92,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 89,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Keenable拿下2600万美元：AI Agent需要的不是搜索框，而是可引用的信息地基",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 88,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "ChipAgents融资扩至1.34亿美元：芯片设计Agent正在进入EDA最硬的流程",
+      "virality": 8,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 86,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保留结论D；隐私/安全/融资题避免写成恐慌或投资建议。"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    "Google Gemini 3.7 Flash成本战（因8/23 Gemini入口重复，仅作替补）",
+    "ChatGPT for Teens安全产品化（敏感议题，保留替补）"
+  ],
+  "killed": [
+    "政治绝对红线候选未进入候选池。",
+    "个股推荐/交易建议候选未进入候选池。"
+  ]
+}
