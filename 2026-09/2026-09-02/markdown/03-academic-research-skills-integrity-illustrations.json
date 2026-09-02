@@ -1,0 +1,53 @@
+{
+  "slug": "03-academic-research-skills-integrity",
+  "date": "2026-09-02",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/03-academic-research-skills-integrity",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-academic-research-skills-integrity-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/03-academic-research-skills-integrity/01-03-academic-research-skills-integrity-diagram.jpg",
+      "caption": "学术场景里",
+      "anchor": "学术AI最怕“流畅地错”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-academic-research-skills-integrity-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/03-academic-research-skills-integrity/02-03-academic-research-skills-integrity-diagram.jpg",
+      "caption": "很多AI产品喜欢强调全自动",
+      "anchor": "Human-in-the-loop不是落后，而是保险丝",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-academic-research-skills-integrity-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/03-academic-research-skills-integrity/03-03-academic-research-skills-integrity-diagram.jpg",
+      "caption": "一篇AI辅助论文",
+      "anchor": "引用检查比写作技巧更重要",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-academic-research-skills-integrity-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/03-academic-research-skills-integrity/04-03-academic-research-skills-integrity-diagram.jpg",
+      "caption": "研究写作不是一条直线",
+      "anchor": "多Agent评审解决的是单一视角问题",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；信息图/流程图风格；无政治人物、无个股、无敏感旗帜；非抽象发光科幻图。"
+}

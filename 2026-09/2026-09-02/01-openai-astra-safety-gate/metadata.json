@@ -1,0 +1,20 @@
+{
+  "topic": "OpenAI Astra要来了：前沿模型开始先过安全闸门再发布",
+  "slug": "01-openai-astra-safety-gate",
+  "word_count": 1310,
+  "created_at": "2026-09-02T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://tech.yahoo.com/ai/articles/openai-soon-launch-competitor-anthropic-205346261.html",
+    "https://www.nextbigfuture.com/2026/09/openai-astra-releasing-in-a-few-days-grok-4-7-and-fable-5-2-also-in-september.html",
+    "https://www.geeky-gadgets.com/chatgpt-6-astra-preview/"
+  ],
+  "topic_source": "topics/2026-09-02/selected.json#1",
+  "data_points": [
+    "Astra接近发布",
+    "高风险能力分级开放",
+    "Preparedness/安全框架成为发布条件",
+    "Anthropic Mythos类能力形成参照"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

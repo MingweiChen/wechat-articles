@@ -1,0 +1,21 @@
+{
+  "topic": "academic-research-skills爆火：AI学术流水线开始反内卷",
+  "slug": "03-academic-research-skills-integrity",
+  "word_count": 1387,
+  "created_at": "2026-09-02T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://github.com/trending",
+    "https://githot.dev/en/archive/daily/2026-09-01",
+    "https://startupcorners.com/digest/devtools-digest-2026-09-01"
+  ],
+  "topic_source": "topics/2026-09-02/selected.json#3",
+  "data_points": [
+    "研究到定稿流水线",
+    "human-in-the-loop",
+    "引用完整性检查",
+    "统计错误阻断",
+    "多Agent评审"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

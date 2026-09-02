@@ -1,0 +1,21 @@
+{
+  "topic": "Natural拿下1亿美元授信：Agent付款不是API问题，而是金融基础设施问题",
+  "slug": "05-natural-agent-payments-credit",
+  "word_count": 1344,
+  "created_at": "2026-09-02T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/natural-secures-100m-credit-facility-155800380.html",
+    "https://www.forbes.com/sites/josipamajic/2026/08/18/vcs-fund-ai-agents-second-order-fallout-before-it-hits/",
+    "https://finance.yahoo.com/news/crafting-announces-general-availability-crafting-151000860.html"
+  ],
+  "topic_source": "topics/2026-09-02/selected.json#5",
+  "data_points": [
+    "1亿美元授信",
+    "Agent支付栈",
+    "信用额度",
+    "结算前资金垫付",
+    "机器行为责任边界"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

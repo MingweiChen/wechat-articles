@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-02",
+  "sources_used": [
+    "Bing Grounding News/Web Search",
+    "GitHub Trending",
+    "OrangeBot GitHub Trending",
+    "Githot Sep 1 archive",
+    "Yahoo/TechRadar/HPCwire/Yahoo Finance syndicated coverage"
+  ],
+  "political_redline": "中国领导人、涉港台疆藏、魔鬼化叙事、敏感旗帜等候选直接kill；本批无相关候选入选。",
+  "dedup_basis": [
+    "2026-08-26: OpenAI沙箱安全/Apple本地AI/Google AI搜索/DeepSeek Harness/AWS物理AI",
+    "2026-08-27: Salesforce+Anthropic/模型降价/Anthropic算力/模型路由支付/GitHub Agent Skills",
+    "2026-08-28: OpenAI Hugging Face沙箱事故/Gemini Transcribe/Marin开源训练/OpenMontage/AI IPO",
+    "2026-08-29: Claude插件目录/K-Dense科学Agent/Archify/Keenable/ChipAgents",
+    "2026-09-01 topic-review: OpenAI-Cursor-SpaceX/OpenMAIC/Microsoft AI roadmap/LG AI Home/ODS本地AI服务器"
+  ],
+  "killed": [
+    "OpenMAIC：9月1日review已过但与近一周Agent技能/教育工具相邻，今天不放主位。",
+    "Archify/K-Dense/OpenMontage：8月29日前后已写，重复剔除。",
+    "外政魔鬼化/审查规避类工具：选题阶段kill。"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "05-natural-agent-payments-credit",
+  "date": "2026-09-02",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/05-natural-agent-payments-credit",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-natural-agent-payments-credit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/05-natural-agent-payments-credit/01-05-natural-agent-payments-credit-diagram.jpg",
+      "caption": "AI Agent如果只是帮你写文档",
+      "anchor": "Agent会花钱，问题就变复杂了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-natural-agent-payments-credit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/05-natural-agent-payments-credit/02-05-natural-agent-payments-credit-diagram.jpg",
+      "caption": "如果一家公司只说自己有Agent payment API",
+      "anchor": "为什么授信比API更有信号",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-natural-agent-payments-credit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/05-natural-agent-payments-credit/03-05-natural-agent-payments-credit-diagram.jpg",
+      "caption": "人付款时",
+      "anchor": "机器行为需要新的责任边界",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-natural-agent-payments-credit-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/05-natural-agent-payments-credit/04-05-natural-agent-payments-credit-diagram.jpg",
+      "caption": "传统支付多半是一次点击一次授权",
+      "anchor": "Agent经济的难点在“连续动作”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；信息图/流程图风格；无政治人物、无个股、无敏感旗帜；非抽象发光科幻图。"
+}

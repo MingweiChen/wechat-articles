@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#c9b8f0; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">OpenClaude · 多模型入口</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI</p>
+  <p style="width:46px; height:3px; background:#c9b8f0; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">开发者不想每天迁移工作流，他们想要一个能换模型、接工具、跑本地的稳定入口。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">开发者不想每天迁移工作流，他们想要一个能换模型、接工具、跑本地的稳定入口。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">开发者真正讨厌的不是换模型，而是换习惯</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/02-openclaude-multi-model-cli/01-02-openclaude-multi-model-cli-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">OpenClaude上热榜</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">OpenClaude上热榜，表面看是又一个coding-agent CLI。真正有意思的是它击中了一个更深的痛点：开发者愿意试新模型，但不愿意为了每个模型重建一遍工作流。 今天用Claude，明天试GPT，后天接本地模型。每次都要换命令、换配置、换工具权限，这种迁移成本会慢慢吃掉模型升级带来的兴奋。 所以统一入口开始有价值。它不是替模型公司造轮子，而是在模型层越来越拥挤之后，替开发者把复杂度藏起来。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">多后端不是炫技，是风险管理</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/02-openclaude-multi-model-cli/02-02-openclaude-multi-model-cli-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">很多人看到多模型支持</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多人看到多模型支持，会理解成“选择更多”。但对真实开发团队来说，这更像风险管理。一个模型限流、涨价、降质、区域不可用，整个自动化流程不能跟着停摆。 OpenAI兼容接口、本地Ollama、云端模型、GitHub Models、Gemini这类后端如果能被同一套CLI抽象，团队就能把模型当成可替换资源，而不是单点依赖。 这会改变AI编程采购逻辑：买的不只是某个模型套餐，而是一条可迁移的开发生产线。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">终端仍然是开发者的主战场</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/02-openclaude-multi-model-cli/03-02-openclaude-multi-model-cli-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">过去一年</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">过去一年，AI编程入口常常围绕编辑器展开。但终端没有消失，反而在Agent时代变得更重要。因为真正的开发任务不是补全一行代码，而是读文件、跑测试、查日志、改配置、提交变更。 终端CLI天然接近这些动作。它不需要把所有事情都塞进一个图形界面，而是直接站在开发者已经熟悉的命令行链路上。 这也是为什么OpenClaude这类项目容易传播：它没有要求开发者改变身份，只是给原来的工作台接上可替换的AI执行层。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">MCP把工具从插件变成协议</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/02-openclaude-multi-model-cli/04-02-openclaude-multi-model-cli-diagram.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">AI编程工具如果只支持聊天</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">AI编程工具如果只支持聊天，就很快会碰到天花板。真正进入项目之后，它要连接文件系统、数据库、浏览器、CI、工单、云服务，甚至内部平台。 MCP这类协议的意义，就是让这些连接不再完全依赖每个应用单独适配。模型可以换，工具接口尽量复用，团队经验才能沉淀。 未来AI编程入口的强弱，很大程度取决于它能组织多少稳定工具，而不是内置多少花哨按钮。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">开源CLI正在抢默认工作流</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">OpenClaude的热度提醒我们：AI编程还没有形成最终入口。编辑器、浏览器、终端、云端沙箱、本地服务器都在抢这个位置。 谁能胜出，不一定看谁第一个发布，也不一定看谁绑定最强模型，而看谁能让开发者少迁移、少配置、少担心中断。 如果AI编程是一条生产线，模型只是发动机。CLI、协议和工作流，才决定这台发动机能不能每天稳定开工。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">普通读者不需要把这类新闻理解成单点胜负。更值得盯的是它背后的迁移方向：哪些能力开始从演示走向默认流程，哪些风险开始被产品化处理，哪些成本开始被基础设施吸收。 AI编程工具的下一层竞争，是谁能把多模型、MCP、文件工具和本地工作流统一成一个可迁移入口。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 接下来判断同类新闻，可以少看发布会上最亮的词，多看三件事：是否贴近真实任务，是否降低团队迁移成本，是否把风险控制做进默认路径。满足这三点，才可能从热闹功能变成长期入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #c9b8f0; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">AI编程的默认入口，未必属于最强模型，而会属于最会组织模型和工具的人。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#c9b8f0; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #c9b8f0; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

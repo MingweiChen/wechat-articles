@@ -1,0 +1,52 @@
+{
+  "01-openai-astra-safety-gate": {
+    "category": "AI安全",
+    "main_title": "OpenAI Astra要来了：前沿模型开始先过安全闸门再发布",
+    "sub_title": "",
+    "subtitle_brief": "当模型开始具备更强的网络安全能力，发布速度本身反而不再是唯一优势。",
+    "theme": "frontier",
+    "kicker": "OpenAI · 安全闸门",
+    "punch": "越强的模型越像高压电，真正的壁垒不是先放出来，而是把可用性和风险控制一起产品化。",
+    "comment_cta": "你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-openclaude-multi-model-cli": {
+    "category": "开发者工具",
+    "main_title": "OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI",
+    "sub_title": "",
+    "subtitle_brief": "开发者不想每天迁移工作流，他们想要一个能换模型、接工具、跑本地的稳定入口。",
+    "theme": "tech",
+    "kicker": "OpenClaude · 多模型入口",
+    "punch": "AI编程的默认入口，未必属于最强模型，而会属于最会组织模型和工具的人。",
+    "comment_cta": "你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-academic-research-skills-integrity": {
+    "category": "AI for Science",
+    "main_title": "academic-research-skills爆火：AI学术流水线开始反内卷",
+    "sub_title": "",
+    "subtitle_brief": "AI写论文最危险的不是写得慢，而是把不存在的引用和未经验证的结论写得太顺。",
+    "theme": "industry",
+    "kicker": "Research Skills · 学术流水线",
+    "punch": "科研AI的长期价值不在替人省掉判断，而在把最容易造假的环节变成可检查的流程。",
+    "comment_cta": "你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-google-gemini-enterprise-plumbing": {
+    "category": "企业AI",
+    "main_title": "Google Gemini行业版：企业AI从通用助手进入权限与数据血管",
+    "sub_title": "",
+    "subtitle_brief": "法律和金融行业要的不是更会聊天的AI，而是能继承权限、连接数据、留下证据的AI系统。",
+    "theme": "business",
+    "kicker": "Gemini Enterprise · 行业AI",
+    "punch": "企业AI规模化的关键不是聊天框更聪明，而是能否安全接进企业原有系统。",
+    "comment_cta": "你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-natural-agent-payments-credit": {
+    "category": "Agent经济",
+    "main_title": "Natural拿下1亿美元授信：Agent付款不是API问题，而是金融基础设施问题",
+    "sub_title": "",
+    "subtitle_brief": "当AI代理开始替人购买、订阅、结算，真正复杂的不是按钮，而是信用、风控和责任边界。",
+    "theme": "warm",
+    "kicker": "Agent Payments · 金融底座",
+    "punch": "Agent经济如果成立，最先被重写的不是购物按钮，而是谁能给机器行为建立信用、结算和责任边界。",
+    "comment_cta": "你觉得这类AI基础设施，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI",
+  "slug": "02-openclaude-multi-model-cli",
+  "word_count": 1366,
+  "created_at": "2026-09-02T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://github.com/trending",
+    "https://orangebot.ai/github-trending-today",
+    "https://githot.dev/en/archive/daily/2026-09-01"
+  ],
+  "topic_source": "topics/2026-09-02/selected.json#2",
+  "data_points": [
+    "GitHub Trending前列",
+    "终端优先",
+    "多后端模型",
+    "MCP与文件工具",
+    "本地/云端切换"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

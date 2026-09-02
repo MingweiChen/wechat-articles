@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-astra-safety-gate",
+  "date": "2026-09-02",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/01-openai-astra-safety-gate",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-astra-safety-gate-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/01-openai-astra-safety-gate/01-01-openai-astra-safety-gate-diagram.jpg",
+      "caption": "Astra的看点不只在能力升级",
+      "anchor": "这次爆点不是“更聪明”，而是“先上锁”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-astra-safety-gate-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/01-openai-astra-safety-gate/02-01-openai-astra-safety-gate-diagram.jpg",
+      "caption": "大模型早期像一个统一聊天框",
+      "anchor": "前沿能力开始被拆成不同权限层",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-astra-safety-gate-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/01-openai-astra-safety-gate/03-01-openai-astra-safety-gate-diagram.jpg",
+      "caption": "以前模型发布会最重要的是参数、跑分、上下文窗口和价格",
+      "anchor": "安全框架会变成发布会的一部分",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-astra-safety-gate-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/01-openai-astra-safety-gate/04-01-openai-astra-safety-gate-diagram.jpg",
+      "caption": "如果你是开发者",
+      "anchor": "开发者要学会看“可控性指标”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；信息图/流程图风格；无政治人物、无个股、无敏感旗帜；非抽象发光科幻图。"
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "Google Gemini行业版：企业AI从通用助手进入权限与数据血管",
+  "slug": "04-google-gemini-enterprise-plumbing",
+  "word_count": 1303,
+  "created_at": "2026-09-02T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://tech.yahoo.com/ai/gemini/articles/google-unveils-gemini-ai-plans-232500753.html",
+    "https://www.hpcwire.com/aiwire/2026/08/25/google-cloud-launches-gemini-enterprise-for-financial-services/",
+    "https://www.moneycontrol.com/technology/google-announces-gemini-3-5-update-with-agentic-ai-features-coding-upgrades-and-faster-performance-article-13924397.html"
+  ],
+  "topic_source": "topics/2026-09-02/selected.json#4",
+  "data_points": [
+    "法律/金融行业版",
+    "50多个行业技能",
+    "13类连接器",
+    "权限继承",
+    "数据来源可追踪"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

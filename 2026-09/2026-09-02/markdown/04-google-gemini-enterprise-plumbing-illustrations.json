@@ -1,0 +1,53 @@
+{
+  "slug": "04-google-gemini-enterprise-plumbing",
+  "date": "2026-09-02",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/04-google-gemini-enterprise-plumbing",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/04-google-gemini-enterprise-plumbing/01-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "caption": "Google给Gemini Enterprise做法律和金融行业版本",
+      "anchor": "行业版AI卖的不是“更懂行”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/04-google-gemini-enterprise-plumbing/02-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "caption": "通用聊天框解决不了企业工作",
+      "anchor": "连接器是企业AI的血管",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/04-google-gemini-enterprise-plumbing/03-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "caption": "法律团队和金融机构最关心的不是AI是否会说专业术语",
+      "anchor": "权限继承决定能不能上线",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-02/illustrations/04-google-gemini-enterprise-plumbing/04-04-google-gemini-enterprise-plumbing-diagram.jpg",
+      "caption": "在消费级AI里",
+      "anchor": "可审计输出会成为新标配",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；信息图/流程图风格；无政治人物、无个股、无敏感旗帜；非抽象发光科幻图。"
+}

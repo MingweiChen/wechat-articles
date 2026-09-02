@@ -1,0 +1,188 @@
+{
+  "date": "2026-09-02",
+  "count": 5,
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI Astra要来了：前沿模型开始先过安全闸门再发布",
+      "category": "AI安全",
+      "score": 94,
+      "sources": [
+        "https://tech.yahoo.com/ai/articles/openai-soon-launch-competitor-anthropic-205346261.html",
+        "https://www.nextbigfuture.com/2026/09/openai-astra-releasing-in-a-few-days-grok-4-7-and-fable-5-2-also-in-september.html",
+        "https://www.geeky-gadgets.com/chatgpt-6-astra-preview/"
+      ],
+      "hook": "OpenAI称Astra会“很快”上线，但最高风险的网络安全能力会先限制给小范围测试者，并在发布前加上更强保护。",
+      "angle": "不写“又一个新模型”，写前沿能力发布从速度竞争变成安全闸门竞争。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：前沿模型越接近真实世界执行能力，发布竞争就越会从“谁更快”转向“谁能把能力、边界和审计一起交付”。",
+        "dots": [
+          "Astra接近发布",
+          "高风险能力分级开放",
+          "Preparedness/安全框架成为发布条件",
+          "Anthropic Mythos类能力形成参照"
+        ],
+        "axis": "大家会写Astra快发布，本篇从安全闸门和产品化治理切入。",
+        "why_worth": "把模型发布写成行业制度变化：越强的能力越需要默认治理。"
+      },
+      "urgency": "high",
+      "dedup": "过去一周未写同一事件+同一角度；如主题相邻，已换轴处理并在review中保留约束。",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "compliance_hint": "无政治绝对红线；无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI",
+      "category": "开发者工具",
+      "score": 91,
+      "sources": [
+        "https://github.com/trending",
+        "https://orangebot.ai/github-trending-today",
+        "https://githot.dev/en/archive/daily/2026-09-01"
+      ],
+      "hook": "GitHub今日热榜里OpenClaude排在前列，主打终端优先的coding-agent CLI，把云端、本地、OpenAI兼容接口、工具调用和MCP放到同一套工作流里。",
+      "angle": "从GitHub热榜切入，写开发者不想被单一模型或编辑器锁死。",
+      "writing_approach": {
+        "increment_path": "换轴+反常识",
+        "thesis": "D：AI编程工具的下一层竞争，是谁能把多模型、MCP、文件工具和本地工作流统一成一个可迁移入口。",
+        "dots": [
+          "GitHub Trending前列",
+          "终端优先",
+          "多后端模型",
+          "MCP与文件工具",
+          "本地/云端切换"
+        ],
+        "axis": "大家会写开源CLI爆火，本篇写开发者入口反锁定。",
+        "why_worth": "把单个开源项目解释为开发者对模型锁定和入口碎片化的反弹。"
+      },
+      "urgency": "high",
+      "dedup": "过去一周未写同一事件+同一角度；如主题相邻，已换轴处理并在review中保留约束。",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "compliance_hint": "无政治绝对红线；无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "academic-research-skills爆火：AI学术流水线开始反内卷",
+      "category": "AI for Science",
+      "score": 89,
+      "sources": [
+        "https://github.com/trending",
+        "https://githot.dev/en/archive/daily/2026-09-01",
+        "https://startupcorners.com/digest/devtools-digest-2026-09-01"
+      ],
+      "hook": "academic-research-skills登上GitHub热榜，主打研究、写作、审稿、修订到定稿的Claude Code技能流水线，并设置引用、统计和事实完整性检查。",
+      "angle": "不写“AI帮你写论文”，写完整研究流程里的真实性、引用和人工把关。",
+      "writing_approach": {
+        "increment_path": "反常识",
+        "thesis": "D：科研AI的长期价值不在替人省掉判断，而在把最容易造假的环节变成可检查的流程。",
+        "dots": [
+          "研究到定稿流水线",
+          "human-in-the-loop",
+          "引用完整性检查",
+          "统计错误阻断",
+          "多Agent评审"
+        ],
+        "axis": "大家会写AI学术提效，本篇写反幻觉和诚信工程。",
+        "why_worth": "把热榜项目写成科研AI从代写工具回到可验证流程的信号。"
+      },
+      "urgency": "high",
+      "dedup": "过去一周未写同一事件+同一角度；如主题相邻，已换轴处理并在review中保留约束。",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "compliance_hint": "无政治绝对红线；无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Google Gemini行业版：企业AI从通用助手进入权限与数据血管",
+      "category": "企业AI",
+      "score": 88,
+      "sources": [
+        "https://tech.yahoo.com/ai/gemini/articles/google-unveils-gemini-ai-plans-232500753.html",
+        "https://www.hpcwire.com/aiwire/2026/08/25/google-cloud-launches-gemini-enterprise-for-financial-services/",
+        "https://www.moneycontrol.com/technology/google-announces-gemini-3-5-update-with-agentic-ai-features-coding-upgrades-and-faster-performance-article-13924397.html"
+      ],
+      "hook": "Google Cloud推出面向法律和金融服务的Gemini Enterprise预览版，重点不是单个模型，而是行业技能、企业连接器、权限继承和可审计输出。",
+      "angle": "从法律/金融行业版切入，写受监管行业真正买的是连接器、权限继承和可审计输出。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：企业AI进入规模化阶段后，真正的分水岭不是模型能不能回答，而是系统能不能带着权限、数据来源和责任边界完成工作。",
+        "dots": [
+          "法律/金融行业版",
+          "50多个行业技能",
+          "13类连接器",
+          "权限继承",
+          "数据来源可追踪"
+        ],
+        "axis": "大家会写Google发布行业版，本篇写企业AI的管道层。",
+        "why_worth": "把产品发布解释为企业AI从模型能力转向组织系统接入。"
+      },
+      "urgency": "high",
+      "dedup": "过去一周未写同一事件+同一角度；如主题相邻，已换轴处理并在review中保留约束。",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "compliance_hint": "无政治绝对红线；无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "Natural拿下1亿美元授信：Agent付款不是API问题，而是金融基础设施问题",
+      "category": "Agent经济",
+      "score": 86,
+      "sources": [
+        "https://finance.yahoo.com/technology/ai/articles/natural-secures-100m-credit-facility-155800380.html",
+        "https://www.forbes.com/sites/josipamajic/2026/08/18/vcs-fund-ai-agents-second-order-fallout-before-it-hits/",
+        "https://finance.yahoo.com/news/crafting-announces-general-availability-crafting-151000860.html"
+      ],
+      "hook": "Natural宣布获得最高1亿美元授信，定位是给AI Agent建立支付和信用基础设施，而不是只做一个调用付款接口的开发工具。",
+      "angle": "从agent payments切入，写当AI代理开始交易，支付、信用、风控会成为新底座。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "D：Agent经济如果成立，最先被重写的不是购物按钮，而是谁能给机器行为建立信用、结算和责任边界。",
+        "dots": [
+          "1亿美元授信",
+          "Agent支付栈",
+          "信用额度",
+          "结算前资金垫付",
+          "机器行为责任边界"
+        ],
+        "axis": "大家会写融资，本篇写Agent支付的资本和风控底座。",
+        "why_worth": "把融资新闻从钱数转成基础设施判断：Agent真正跑起来后，支付不是简单API。"
+      },
+      "urgency": "medium",
+      "dedup": "过去一周未写同一事件+同一角度；如主题相邻，已换轴处理并在review中保留约束。",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "compliance_hint": "无政治绝对红线；无个股推荐。"
+    }
+  ],
+  "raw": {
+    "date": "2026-09-02",
+    "sources_used": [
+      "Bing Grounding News/Web Search",
+      "GitHub Trending",
+      "OrangeBot GitHub Trending",
+      "Githot Sep 1 archive",
+      "Yahoo/TechRadar/HPCwire/Yahoo Finance syndicated coverage"
+    ],
+    "political_redline": "中国领导人、涉港台疆藏、魔鬼化叙事、敏感旗帜等候选直接kill；本批无相关候选入选。",
+    "dedup_basis": [
+      "2026-08-26: OpenAI沙箱安全/Apple本地AI/Google AI搜索/DeepSeek Harness/AWS物理AI",
+      "2026-08-27: Salesforce+Anthropic/模型降价/Anthropic算力/模型路由支付/GitHub Agent Skills",
+      "2026-08-28: OpenAI Hugging Face沙箱事故/Gemini Transcribe/Marin开源训练/OpenMontage/AI IPO",
+      "2026-08-29: Claude插件目录/K-Dense科学Agent/Archify/Keenable/ChipAgents",
+      "2026-09-01 topic-review: OpenAI-Cursor-SpaceX/OpenMAIC/Microsoft AI roadmap/LG AI Home/ODS本地AI服务器"
+    ],
+    "killed": [
+      "OpenMAIC：9月1日review已过但与近一周Agent技能/教育工具相邻，今天不放主位。",
+      "Archify/K-Dense/OpenMontage：8月29日前后已写，重复剔除。",
+      "外政魔鬼化/审查规避类工具：选题阶段kill。"
+    ]
+  }
+}

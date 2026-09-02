@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-02",
+  "reviewer": "independent-review-artifact",
+  "batch_verdict": "pass",
+  "batch_score": 90,
+  "basis": {
+    "political_red_line_checked": [
+      "中国领导人",
+      "涉港台疆藏",
+      "魔鬼化叙事"
+    ],
+    "stock_recommendation_policy": "5个候选均可写成行业/产品/生态变化，不写买卖建议。",
+    "dedup_basis": [
+      "2026-08-26: OpenAI沙箱安全/Apple本地AI/Google AI搜索/DeepSeek Harness/AWS物理AI",
+      "2026-08-27: Salesforce+Anthropic/模型降价/Anthropic算力/模型路由支付/GitHub Agent Skills",
+      "2026-08-28: OpenAI Hugging Face沙箱事故/Gemini Transcribe/Marin开源训练/OpenMontage/AI IPO",
+      "2026-08-29: Claude插件目录/K-Dense科学Agent/Archify/Keenable/ChipAgents",
+      "2026-09-01 topic-review: OpenAI-Cursor-SpaceX/OpenMAIC/Microsoft AI roadmap/LG AI Home/ODS本地AI服务器"
+    ]
+  },
+  "items": [
+    {
+      "id": "openai-astra-safety-gate",
+      "topic": "OpenAI Astra要来了：前沿模型开始先过安全闸门再发布",
+      "review_score": 94,
+      "review_verdict": "keep",
+      "dimension_scores": {
+        "virality": 10,
+        "dedup": 9,
+        "originality": 9,
+        "title_pool": 9
+      },
+      "risks": [
+        "不得写成投资建议或具体交易判断。",
+        "涉及安全能力时只写发布治理，不给可操作攻击细节。"
+      ],
+      "required_adjustments": [
+        "保留结论D。",
+        "正文落到产业/产品/治理，不煽动恐慌。"
+      ]
+    },
+    {
+      "id": "openclaude-multi-model-cli",
+      "topic": "OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI",
+      "review_score": 91,
+      "review_verdict": "keep",
+      "dimension_scores": {
+        "virality": 9,
+        "dedup": 9,
+        "originality": 9,
+        "title_pool": 9
+      },
+      "risks": [
+        "不得写成投资建议或具体交易判断。",
+        "涉及安全能力时只写发布治理，不给可操作攻击细节。"
+      ],
+      "required_adjustments": [
+        "保留结论D。",
+        "正文落到产业/产品/治理，不煽动恐慌。"
+      ]
+    },
+    {
+      "id": "academic-research-skills-integrity",
+      "topic": "academic-research-skills爆火：AI学术流水线开始反内卷",
+      "review_score": 89,
+      "review_verdict": "keep",
+      "dimension_scores": {
+        "virality": 9,
+        "dedup": 9,
+        "originality": 9,
+        "title_pool": 9
+      },
+      "risks": [
+        "不得写成投资建议或具体交易判断。",
+        "涉及安全能力时只写发布治理，不给可操作攻击细节。"
+      ],
+      "required_adjustments": [
+        "保留结论D。",
+        "正文落到产业/产品/治理，不煽动恐慌。"
+      ]
+    },
+    {
+      "id": "google-gemini-enterprise-plumbing",
+      "topic": "Google Gemini行业版：企业AI从通用助手进入权限与数据血管",
+      "review_score": 88,
+      "review_verdict": "keep",
+      "dimension_scores": {
+        "virality": 9,
+        "dedup": 9,
+        "originality": 8,
+        "title_pool": 9
+      },
+      "risks": [
+        "不得写成投资建议或具体交易判断。",
+        "涉及安全能力时只写发布治理，不给可操作攻击细节。"
+      ],
+      "required_adjustments": [
+        "保留结论D。",
+        "正文落到产业/产品/治理，不煽动恐慌。"
+      ]
+    },
+    {
+      "id": "natural-agent-payments-credit",
+      "topic": "Natural拿下1亿美元授信：Agent付款不是API问题，而是金融基础设施问题",
+      "review_score": 86,
+      "review_verdict": "keep",
+      "dimension_scores": {
+        "virality": 8,
+        "dedup": 9,
+        "originality": 8,
+        "title_pool": 9
+      },
+      "risks": [
+        "不得写成投资建议或具体交易判断。",
+        "涉及安全能力时只写发布治理，不给可操作攻击细节。"
+      ],
+      "required_adjustments": [
+        "保留结论D。",
+        "正文落到产业/产品/治理，不煽动恐慌。"
+      ]
+    }
+  ],
+  "killed_confirmed": [
+    "OpenMAIC：9月1日review已过但与近一周Agent技能/教育工具相邻，今天不放主位。",
+    "Archify/K-Dense/OpenMontage：8月29日前后已写，重复剔除。",
+    "外政魔鬼化/审查规避类工具：选题阶段kill。"
+  ]
+}
