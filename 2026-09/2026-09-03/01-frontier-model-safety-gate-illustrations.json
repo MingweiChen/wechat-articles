@@ -1,0 +1,53 @@
+{
+  "slug": "01-frontier-model-safety-gate",
+  "date": "2026-09-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/01-frontier-model-safety-gate",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-frontier-model-safety-gate-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/01-frontier-model-safety-gate/01-01-frontier-model-safety-gate-infographic.jpg",
+      "caption": "9月2日这一波AI新闻很热闹",
+      "anchor": "这次不是模型大战，是闸门大战",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-frontier-model-safety-gate-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/01-frontier-model-safety-gate/02-01-frontier-model-safety-gate-infographic.jpg",
+      "caption": "过去的大模型像一个统一聊天框",
+      "anchor": "高风险能力开始被拆成权限层",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-frontier-model-safety-gate-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/01-frontier-model-safety-gate/03-01-frontier-model-safety-gate-infographic.jpg",
+      "caption": "Astra引发争议的一点",
+      "anchor": "可监控性会成为新卖点",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-frontier-model-safety-gate-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/01-frontier-model-safety-gate/04-01-frontier-model-safety-gate-infographic.jpg",
+      "caption": "消费级用户喜欢惊艳功能",
+      "anchor": "企业客户买的是“敢上线”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格为主；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

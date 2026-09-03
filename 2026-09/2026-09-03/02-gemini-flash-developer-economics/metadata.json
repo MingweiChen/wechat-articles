@@ -1,0 +1,21 @@
+{
+  "topic": "Google Gemini 3.8 Flash：迟到的旗舰没来，便宜编码模型先抢开发者",
+  "slug": "02-gemini-flash-developer-economics",
+  "word_count": 1428,
+  "created_at": "2026-09-03T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/",
+    "https://finance.yahoo.com/technology/ai/articles/sundar-pichai-credibility-crisis-ai-141540669.html",
+    "https://www.rediff.com/business/report/new-ai-models-launched-safety-concerns-spark-debate/20260902.htm"
+  ],
+  "topic_source": "topics/2026-09-03/selected.json#2",
+  "data_points": [
+    "3.8 Flash Coding",
+    "内部工程师偏好",
+    "旗舰模型延迟",
+    "Gemini API高频调用",
+    "Google Cloud收入增长"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "Salesforce把Claude塞进Agentforce：SaaS没有被AI干掉，开始把AI变成加价层",
+  "slug": "04-salesforce-claude-saas-upsell",
+  "word_count": 1358,
+  "created_at": "2026-09-03T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.fool.com/investing/2026/09/02/salesforce-its-biggest-ai-threat-just-became-its-p/",
+    "https://economictimes.indiatimes.com/topic/ai-news-openai-anthropic-google-announcement",
+    "https://www.rediff.com/business/report/new-ai-models-launched-safety-concerns-spark-debate/20260902.htm"
+  ],
+  "topic_source": "topics/2026-09-03/selected.json#4",
+  "data_points": [
+    "Claude进入Agentforce",
+    "Slack集成",
+    "高级套餐加价",
+    "现有客户权限与数据",
+    "Benioff反驳SaaSpocalypse"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

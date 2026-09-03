@@ -1,0 +1,21 @@
+{
+  "topic": "OpenAI/Anthropic/Google同日上新：前沿模型发布进入安全闸门时代",
+  "slug": "01-frontier-model-safety-gate",
+  "word_count": 1450,
+  "created_at": "2026-09-03T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://www.rediff.com/business/report/new-ai-models-launched-safety-concerns-spark-debate/20260902.htm",
+    "https://www.geeky-gadgets.com/chatgpt-6-astra-preview/",
+    "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733"
+  ],
+  "topic_source": "topics/2026-09-03/selected.json#1",
+  "data_points": [
+    "Astra Critical能力",
+    "Daybreak Blue限量开放",
+    "Claude Mythos敏感场景限制",
+    "Gemini Flash Cyber Fairwind准入",
+    "reasoning可监控性争议"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

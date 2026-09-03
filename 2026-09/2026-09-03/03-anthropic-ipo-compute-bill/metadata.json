@@ -1,0 +1,21 @@
+{
+  "topic": "Anthropic IPO招股书在即：AI基建狂奔第一次要交 audited answer",
+  "slug": "03-anthropic-ipo-compute-bill",
+  "word_count": 1403,
+  "created_at": "2026-09-03T01:00:00Z",
+  "iteration": 1,
+  "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-prospectus-test-assumptions-151903229.html",
+    "https://247wallst.com/investing/2026/09/02/anthropic-just-committed-35-billion-to-compute-it-has-not-raised-the-money-for/",
+    "https://www.fool.com/investing/2026/08/31/sundar-pichai-says-alphabet-can-t-build-ai-capacity-fast-enough-and-anthropic-has-secured-5-gigawatts-of-it/"
+  ],
+  "topic_source": "topics/2026-09-03/selected.json#3",
+  "data_points": [
+    "IPO prospectus",
+    "annualized revenue披露",
+    "Nscale/Lambda算力承诺",
+    "Google/AWS/Azure关系",
+    "云厂商与模型公司互相绑定"
+  ],
+  "compliance_hint": "无政治绝对红线；无个股推荐。"
+}

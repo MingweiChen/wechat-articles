@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-03",
+  "sources_used": [
+    "Bing Grounding News/Web Search",
+    "GitHub Trending",
+    "OrangeBot GitHub Trending",
+    "GitTrend AI Agent/Infrastructure",
+    "Yahoo Finance/Rediff/Forbes syndicated coverage"
+  ],
+  "political_redline": "中国领导人、涉港台疆藏、魔鬼化叙事、敏感旗帜等候选直接kill；本批无相关候选入选。",
+  "dedup_basis": [
+    "2026-08-27: Salesforce+Anthropic/模型降价/Anthropic算力/模型路由支付/GitHub Agent Skills",
+    "2026-08-28: OpenAI Hugging Face沙箱事故/Gemini Transcribe/Marin开源训练/OpenMontage/AI IPO",
+    "2026-08-29: Claude插件目录/K-Dense科学Agent/Archify/Keenable/ChipAgents",
+    "2026-09-01: OpenAI-Cursor-SpaceX/OpenMAIC/Microsoft AI roadmap/LG AI Home/ODS本地AI服务器",
+    "2026-09-02: OpenAI Astra安全闸门/OpenClaude/academic research skills/Gemini企业版/Natural Agent Payments"
+  ],
+  "killed": [
+    "外政人物站台/政府信任叙事：涉及外国政治人物和G20政治场景，选题阶段kill。",
+    "Musk在G20谈全球经济：人物和政治会议元素过强，选题阶段kill。",
+    "OpenAI-Cursor-SpaceX续写：9月1日已入选，重复剔除。",
+    "OpenMAIC单项目专题：9月1日已入选，今天只作为多Agent基础设施串点之一。"
+  ]
+}

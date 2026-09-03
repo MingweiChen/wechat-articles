@@ -1,0 +1,53 @@
+{
+  "slug": "05-agent-infra-teams-sandbox",
+  "date": "2026-09-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-agent-infra-teams-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/01-05-agent-infra-teams-sandbox-infographic.jpg",
+      "caption": "GitHub热榜有时候比发布会更诚实",
+      "anchor": "热榜在提醒一件事",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-agent-infra-teams-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/02-05-agent-infra-teams-sandbox-infographic.jpg",
+      "caption": "一个Agent可以写代码、查资料、改文件",
+      "anchor": "单助手解决不了长任务",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-agent-infra-teams-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/03-05-agent-infra-teams-sandbox-infographic.jpg",
+      "caption": "Agent能调用工具之后",
+      "anchor": "沙箱会成为Agent的安全地板",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-agent-infra-teams-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/04-05-agent-infra-teams-sandbox-infographic.jpg",
+      "caption": "DeepSeek Harness、skills目录、MCP工具生态都",
+      "anchor": "插件和技能让能力可沉淀",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格为主；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

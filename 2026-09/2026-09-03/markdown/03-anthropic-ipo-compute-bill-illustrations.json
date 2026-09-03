@@ -1,0 +1,53 @@
+{
+  "slug": "03-anthropic-ipo-compute-bill",
+  "date": "2026-09-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/03-anthropic-ipo-compute-bill",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/03-anthropic-ipo-compute-bill/01-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "caption": "Anthropic的招股书如果按计划露面",
+      "anchor": "AI故事终于要进报表",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/03-anthropic-ipo-compute-bill/02-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "caption": "很多人看到“算力合同”会误以为这是按需使用",
+      "anchor": "算力承诺像租房，不像水电费",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/03-anthropic-ipo-compute-bill/03-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "caption": "这场狂奔不是模型公司单方面的故事",
+      "anchor": "云厂商也在赌模型公司",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/03-anthropic-ipo-compute-bill/04-03-anthropic-ipo-compute-bill-infographic.jpg",
+      "caption": "私营公司可以用漂亮口径讲增长",
+      "anchor": "透明会比故事更稀缺",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格为主；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

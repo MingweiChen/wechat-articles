@@ -1,0 +1,53 @@
+{
+  "slug": "02-gemini-flash-developer-economics",
+  "date": "2026-09-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/02-gemini-flash-developer-economics",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-gemini-flash-developer-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/02-gemini-flash-developer-economics/01-02-gemini-flash-developer-economics-infographic.jpg",
+      "caption": "Google这次最尴尬的地方",
+      "anchor": "没来的旗舰，来了的Flash",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-gemini-flash-developer-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/02-gemini-flash-developer-economics/02-02-gemini-flash-developer-economics-infographic.jpg",
+      "caption": "写代码不是每一步都需要核弹级模型",
+      "anchor": "开发者不总是需要最强模型",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-gemini-flash-developer-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/02-gemini-flash-developer-economics/03-02-gemini-flash-developer-economics-infographic.jpg",
+      "caption": "Google做AI不是只做一个聊天产品",
+      "anchor": "Cloud才是这盘棋的底层",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-gemini-flash-developer-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/02-gemini-flash-developer-economics/04-02-gemini-flash-developer-economics-infographic.jpg",
+      "caption": "当然",
+      "anchor": "迟到也会伤信任",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格为主；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

@@ -1,0 +1,52 @@
+{
+  "01-frontier-model-safety-gate": {
+    "category": "前沿模型",
+    "main_title": "三大AI巨头同日上新：最强模型先被关进安全闸门！",
+    "sub_title": "",
+    "subtitle_brief": "这轮发布最重要的信号，不是谁又刷了榜，而是高风险能力开始默认分级、限量、可审计。",
+    "theme": "frontier",
+    "kicker": "OpenAI · Anthropic · Google",
+    "punch": "前沿模型越强，真正的护城河越不是“放出来”，而是“可控地放出来”。",
+    "comment_cta": "你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "02-gemini-flash-developer-economics": {
+    "category": "开发者工具",
+    "main_title": "Google没等来旗舰模型，却先甩出一张开发者王牌！",
+    "sub_title": "",
+    "subtitle_brief": "便宜、快速、高频调用的编码模型，可能比一次旗舰跑分更接近云厂商的真实现金流。",
+    "theme": "tech",
+    "kicker": "Gemini 3.8 Flash · Coding",
+    "punch": "AI云战争最硬的战场，不在发布会海报上，而在开发者每天调用几亿次的小模型里。",
+    "comment_cta": "你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "03-anthropic-ipo-compute-bill": {
+    "category": "AI基建",
+    "main_title": "Anthropic招股书在即：AI算力狂奔要第一次交账了！",
+    "sub_title": "",
+    "subtitle_brief": "这不是一篇买卖分析，而是整个AI基建叙事第一次被迫把营收、云合同和算力账单放在同一张表里。",
+    "theme": "business",
+    "kicker": "Anthropic · Compute Bill",
+    "punch": "AI资本故事最刺激的一刻，不是签下巨额算力，而是证明自己真的付得起。",
+    "comment_cta": "你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "04-salesforce-claude-saas-upsell": {
+    "category": "企业AI",
+    "main_title": "Salesforce把Claude塞进核心产品：SaaS没有死，只是开始加价！",
+    "sub_title": "",
+    "subtitle_brief": "老软件公司没有等着被AI替代，而是把前沿模型接进自己的客户、权限、数据和套餐体系。",
+    "theme": "enterprise",
+    "kicker": "Salesforce · Claude",
+    "punch": "企业AI最现实的入口，往往不是新聊天框，而是老系统里那个已经有权限、有数据、有预算的位置。",
+    "comment_cta": "你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊"
+  },
+  "05-agent-infra-teams-sandbox": {
+    "category": "Agent基础设施",
+    "main_title": "GitHub热榜变了：AI Agent开始从单助手走向团队作战！",
+    "sub_title": "",
+    "subtitle_brief": "开发者不再只要一个会聊天的助手，而是要能编排、隔离、恢复、观察多个代理的工作台。",
+    "theme": "developer",
+    "kicker": "OpenMAIC · Orca · Arcbox",
+    "punch": "Agent时代真正稀缺的不是“多一个助手”，而是把一群助手安全放进同一条生产线。",
+    "comment_cta": "你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊"
+  }
+}

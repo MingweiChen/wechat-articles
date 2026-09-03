@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-03",
+  "run_id": "2026-09-03_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 95,
+      "title": "三大AI巨头同日上新：最强模型先被关进安全闸门！",
+      "slug": "frontier-model-safety-gate",
+      "article_dir": "01-frontier-model-safety-gate",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "01-frontier-model-safety-gate-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-03/html/01-frontier-model-safety-gate-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 92,
+      "title": "Google没等来旗舰模型，却先甩出一张开发者王牌！",
+      "slug": "gemini-flash-developer-economics",
+      "article_dir": "02-gemini-flash-developer-economics",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "02-gemini-flash-developer-economics-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-03/html/02-gemini-flash-developer-economics-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 91,
+      "title": "Anthropic招股书在即：AI算力狂奔要第一次交账了！",
+      "slug": "anthropic-ipo-compute-bill",
+      "article_dir": "03-anthropic-ipo-compute-bill",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "03-anthropic-ipo-compute-bill-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-03/html/03-anthropic-ipo-compute-bill-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 88,
+      "title": "Salesforce把Claude塞进核心产品：SaaS没有死，只是开始加价！",
+      "slug": "salesforce-claude-saas-upsell",
+      "article_dir": "04-salesforce-claude-saas-upsell",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "04-salesforce-claude-saas-upsell-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-03/html/04-salesforce-claude-saas-upsell-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 87,
+      "title": "GitHub热榜变了：AI Agent开始从单助手走向团队作战！",
+      "slug": "agent-infra-teams-sandbox",
+      "article_dir": "05-agent-infra-teams-sandbox",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "05-agent-infra-teams-sandbox-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-03/html/05-agent-infra-teams-sandbox-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    }
+  ],
+  "compliance": "pass：无中国政治红线、无涉港台疆藏、无投资荐股；正文插图无政治人物、无具体股票、无敏感旗帜；HTML逐篇确认img数量等于illustrations count且不为0；中文标点规范化。",
+  "killed_or_rewritten": [
+    "kill：选题阶段剔除外政政治场景、重复题、政治红线/个股推荐候选。",
+    "rewrite：本批5篇撰写后未触发红线重写。"
+  ]
+}

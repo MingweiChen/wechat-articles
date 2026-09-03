@@ -1,0 +1,54 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">OpenMAIC · Orca · Arcbox</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">GitHub热榜变了：AI Agent开始从单助手走向团队作战！</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">开发者不再只要一个会聊天的助手，而是要能编排、隔离、恢复、观察多个代理的工作台。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">开发者不再只要一个会聊天的助手，而是要能编排、隔离、恢复、观察多个代理的工作台。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">热榜在提醒一件事</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/01-05-agent-infra-teams-sandbox-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">GitHub热榜有时候比发布会更诚实</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">GitHub热榜有时候比发布会更诚实。发布会告诉你大公司想卖什么，热榜告诉你开发者正在缺什么。9月3日这一批AI项目里，OpenMAIC、Orca、Arcbox、DeepSeek Harness、各种skills生态同时冒头，方向很一致：Agent不再只是单个聊天助手。 开发者要的是一套能组织多个代理、分配任务、隔离环境、保存状态、查看进度的工作台。换句话说，Agent正在从“一个聪明人”变成“一支小团队”。 这才是今天最该盯住的变化。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">单助手解决不了长任务</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/02-05-agent-infra-teams-sandbox-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">一个Agent可以写代码、查资料、改文件</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一个Agent可以写代码、查资料、改文件，但真实工作经常不是线性的。你可能需要一个代理做调研，一个代理写代码，一个代理跑测试，一个代理做审查，还要有人在中间协调冲突。 如果所有事情都塞进一个聊天窗口，过程很快会失控：上下文混乱，权限不清，状态丢失，失败后难恢复。 所以Orca这类并行代理工作台、OpenMAIC这类多Agent交互场景会受到关注，本质上是在补“团队组织能力”。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">沙箱会成为Agent的安全地板</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/03-05-agent-infra-teams-sandbox-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Agent能调用工具之后</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Agent能调用工具之后，隔离环境就不是加分项，而是安全地板。Arcbox这类项目强调在真实又隔离的机器上运行代理，说明开发者已经意识到：让AI直接碰本机和生产环境，风险太大。 一个可用的Agent平台，必须能限制文件、网络、权限和资源，还要能在出错时回滚。否则Agent越能干，事故半径越大。 未来评价Agent工具，不能只看它会不会完成任务，还要看它有没有把任务关进合适的盒子里。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">插件和技能让能力可沉淀</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/05-agent-infra-teams-sandbox/04-05-agent-infra-teams-sandbox-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">DeepSeek Harness、skills目录、MCP工具生态都</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">DeepSeek Harness、skills目录、MCP工具生态都指向同一个趋势：Agent能力不能每次靠临场提示词重新发明。团队需要把经验写成插件、技能、流程和检查表，让不同代理复用。 这会让AI开发从“会用模型”转向“会管理能力资产”。一个好的技能，可能比一次漂亮prompt更值钱，因为它能被复制、审查、版本管理和持续改进。 Agent团队化之后，知识沉淀会变成生产力基础设施。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">下一代入口是Agent操作系统</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">把这些热榜项目放在一起看，轮廓很清楚：多Agent编排、隔离运行、技能复用、长任务状态、可视化管理，正在拼成下一代Agent操作系统。 这并不意味着聊天框会消失。聊天框仍然是入口，但真正的价值会在背后：谁能把多个代理安全、稳定、可恢复地组织起来。 Agent时代真正稀缺的不是“多一个助手”，而是把一群助手安全放进同一条生产线。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后看一个更实用的信号</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Agent下一阶段的基础设施不是更会聊天，而是能把多个代理放进可控空间里协作、隔离、恢复和交接。 这不是一句口号，而是接下来判断AI公司和AI工具的筛子：看它有没有进入真实流程，看它有没有明确边界，看它能不能让用户少承担复杂度。 普通读者不需要追每一个参数名，但可以追三个变化：入口在哪里，成本怎么摊，风险谁负责。能回答这三个问题的AI新闻，才不是一阵热闹。 更重要的是，类似变化通常不会以戏剧化方式发生。它先藏在开发者工具、企业套餐、云合同、权限系统和工作台里，等这些小环节连成线，行业格局才会突然显得不一样。 所以今天这篇文章不做情绪判断，只看一个实际问题：谁把复杂度从用户手里拿走，谁把风险边界说清楚，谁就更可能成为下一阶段的默认入口。</p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="background:#f7f7fb; border-left:4px solid #a8c7e8; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">Agent时代真正稀缺的不是“多一个助手”，而是把一群助手安全放进同一条生产线。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这类AI变化，哪个方向会最先改变真实工作流？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

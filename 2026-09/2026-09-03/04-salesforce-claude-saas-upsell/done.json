@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "slug": "04-salesforce-claude-saas-upsell",
+  "content_path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-03/04-salesforce-claude-saas-upsell/content.md",
+  "word_count": 1358,
+  "iteration": 1,
+  "self_check": {
+    "compliance_score": 10,
+    "aigc_score": 8,
+    "needs_rewrite": false
+  },
+  "finished_at": "2026-09-03T01:00:00Z"
+}

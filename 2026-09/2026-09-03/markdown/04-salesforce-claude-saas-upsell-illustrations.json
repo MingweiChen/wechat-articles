@@ -1,0 +1,53 @@
+{
+  "slug": "04-salesforce-claude-saas-upsell",
+  "date": "2026-09-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/04-salesforce-claude-saas-upsell",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/04-salesforce-claude-saas-upsell/01-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "caption": "过去一年",
+      "anchor": "SaaS没有坐着等死",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/04-salesforce-claude-saas-upsell/02-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "caption": "企业真正部署AI时",
+      "anchor": "企业客户不想从零开始",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/04-salesforce-claude-saas-upsell/03-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "caption": "企业软件最会做的一件事",
+      "anchor": "AI成了套餐升级理由",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-03/illustrations/04-salesforce-claude-saas-upsell/04-04-salesforce-claude-saas-upsell-infographic.jpg",
+      "caption": "从Anthropic角度看",
+      "anchor": "模型公司也需要分发渠道",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格为主；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}
