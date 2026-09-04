@@ -1,0 +1,120 @@
+{
+  "collected_at_utc": "2026-09-04T01:00:00Z",
+  "queries": [
+    "GitHub trending daily / python / typescript",
+    "AI artificial intelligence OpenAI Anthropic Google Meta Nvidia Microsoft latest",
+    "AI product launch release announcement OpenAI Google Anthropic Meta Microsoft Nvidia",
+    "Elon Musk Sam Altman Sundar Pichai Mark Zuckerberg Jensen Huang AI latest",
+    "AI startup funding product launch September 3 2026 agent robotics model release",
+    "Computable GPU Index CGI open-source price index GPU compute September 2026",
+    "VoiceStudio open-source ElevenLabs alternative local voice cloning GitHub trending September 2026",
+    "Kilo Code for JetBrains open-source coding agent September 2026 Product Hunt"
+  ],
+  "notable_sources": [
+    {
+      "name": "NVIDIA Blog",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "published_at": "2026-09-03T11:56:49Z",
+      "excerpt": "NVIDIA says Hugging Face will remain open, multi-cloud and multi-accelerator; hosts 3M models and 18M developers."
+    },
+    {
+      "name": "TechCrunch",
+      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "published_at": "2026-09-03T12:42:00Z",
+      "excerpt": "Deal frames open-model hub as distribution and unused compute channel for Nvidia."
+    },
+    {
+      "name": "The Next Web",
+      "title": "Nvidia confirms it is buying Hugging Face for $12.93bn and promises to leave it open",
+      "url": "https://thenextweb.com/news/nvidia-hugging-face-acquisition-confirmed",
+      "published_at": "2026-09-03T17:28:00Z",
+      "excerpt": "Highlights neutrality question, regulatory risk, and valuation near 86x revenue."
+    },
+    {
+      "name": "Reuters via WHBL",
+      "title": "Cook hands Apple to Ternus: bigger and richer, but catching up in AI race",
+      "url": "https://whbl.com/2026/09/01/cook-hands-apple-to-ternus-bigger-and-richer-but-catching-up-in-ai-race/",
+      "published_at": "2026-09-01T05:13:00Z",
+      "excerpt": "Cook shifts to executive chairman; hardware chief John Ternus inherits AI and supply-chain test."
+    },
+    {
+      "name": "International Finance",
+      "title": "John Ternus takes the Apple helm, eyes AI revolution and foldable iPhones",
+      "url": "https://internationalfinance.com/business-leaders/john-ternus-takes-the-apple-helm-eyes-ai-revolution-and-foldable-iphones/",
+      "published_at": "2026-09-03T00:00:00Z",
+      "excerpt": "Ternus first product moment is expected Sept. 9, with foldable iPhone and rebuilt AI/Siri pressure."
+    },
+    {
+      "name": "AFP",
+      "title": "Zuckerberg, Musk make plea at G20 for more AI data centers",
+      "url": "https://www.afp.com/en/zuckerberg-musk-make-plea-g20-more-ai-data-centers",
+      "published_at": "2026-09-01T21:40:21Z",
+      "excerpt": "Musk warns of near-term power shortfall; Zuckerberg says buildout needs hundreds of thousands/millions of skilled workers."
+    },
+    {
+      "name": "Finance & Commerce/Reuters",
+      "title": "States scrutinize AI data center power demand",
+      "url": "https://finance-commerce.com/2026/09/ai-data-centers-electricity-demand-grid-concerns/",
+      "published_at": "2026-09-01T20:30:37Z",
+      "excerpt": "Reported 700GW+ connection requests, ghost demand, deposits and state scrutiny."
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "The $100M Signal: Why AI Agent Security is Becoming Its Own Category",
+      "url": "https://finance.yahoo.com/technology/ai/articles/100m-signal-why-ai-agent-133221418.html",
+      "published_at": "2026-09-03T13:32:00Z",
+      "excerpt": "HiddenLayer $100M round and $150M+ recent category funding frame agent security as standalone market."
+    },
+    {
+      "name": "GitHub",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "published_at": "2026-09-03T18:59:00Z",
+      "excerpt": "Local voice cloning/dubbing/dictation desktop app: 16 TTS engines, 11 ASR engines, OpenAI-compatible audio API, MCP."
+    },
+    {
+      "name": "GitHub",
+      "title": "getcomputable/gpu-index",
+      "url": "https://github.com/getcomputable/gpu-index",
+      "published_at": "2026-09-01T09:09:00Z",
+      "excerpt": "Open reproducible USD/GPU-hour index for H100/H200/B200/B300 with API and MCP."
+    },
+    {
+      "name": "Product Hunt",
+      "title": "Kilo Code for JetBrains",
+      "url": "https://www.producthunt.com/products/kilocode",
+      "published_at": "2026-09-03T23:36:00Z",
+      "excerpt": "Product Hunt week rank #1; native JetBrains plugin, parallel agents, 500+ models."
+    },
+    {
+      "name": "igrownews",
+      "title": "Corvus Robotics Raises $20M Series A-2 to Scale Warehouse Inventory Drones",
+      "url": "https://igrownews.com/corvus-robotics-latest-news/",
+      "published_at": "2026-09-03T09:15:10Z",
+      "excerpt": "Autonomous drones count warehouse inventory in cold-chain environments; 300+ devices deployed."
+    },
+    {
+      "name": "SiliconANGLE",
+      "title": "Self-driving truck firm PlusAI takes third run at listing, this time at $800M",
+      "url": "https://siliconangle.com/2026/09/03/self-driving-truck-firm-plusai-takes-third-run-at-listing-this-time-at-800m/",
+      "published_at": "2026-09-03T22:51:00Z",
+      "excerpt": "PlusAI SPAC at $800M after prior aborted listing attempts; Level 4 trucking software and HyperFoundry platform."
+    },
+    {
+      "name": "AI Insider",
+      "title": "Arga Labs Secures $10M to Build Training Environments for Enterprise AI Agents",
+      "url": "https://theaiinsider.tech/2026/09/01/arga-labs-secures-10m-to-build-training-environments-for-enterprise-ai-agents/",
+      "published_at": "2026-09-01T15:33:47Z",
+      "excerpt": "Digital twins of enterprise software for repeatable agent training and RL resets."
+    },
+    {
+      "name": "U.S. News/Reuters",
+      "title": "OpenAI Launches New Astra Model Amid Growing Scrutiny Over Agents Safety",
+      "url": "https://money.usnews.com/investing/news/articles/2026-09-03/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety",
+      "published_at": "2026-09-03T18:02:00Z",
+      "excerpt": "Actual Astra launch; high news value but duplicate with Sep 2/3 selected topics."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "date": "2026-09-04",
+  "generated_at_utc": "2026-09-04T01:00:00Z",
+  "dedup_basis": {
+    "checked_range": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ],
+    "topics_checked": [
+      {
+        "date": "2026-09-03",
+        "topics": [
+          "OpenAI/Anthropic/Google同日上新：前沿模型发布进入安全闸门时代",
+          "Google Gemini 3.8 Flash：迟到的旗舰没来，便宜编码模型先抢开发者",
+          "Anthropic IPO招股书在即：AI基建狂奔第一次要交 audited answer",
+          "Salesforce把Claude塞进Agentforce：SaaS没有被AI干掉，开始把AI变成加价层",
+          "GitHub热榜OpenMAIC/Orca/Arcbox：Agent开始从单助手走向团队、沙箱和工作台"
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "topics": [
+          "OpenAI Astra要来了：前沿模型开始先过安全闸门再发布",
+          "OpenClaude冲上GitHub：AI编程入口正在从单模型走向多后端CLI",
+          "academic-research-skills爆火：AI学术流水线开始反内卷",
+          "Google Gemini行业版：企业AI从通用助手进入权限与数据血管",
+          "Natural拿下1亿美元授信：Agent付款不是API问题，而是金融基础设施问题"
+        ]
+      },
+      {
+        "date": "2026-08-29",
+        "topics": [
+          "Anthropic官方Claude插件目录：AI编程开始从模型战打到生态战",
+          "K-Dense科学Agent技能库爆火：AI科学家不是一个模型，而是一箱可验证工具",
+          "Archify登顶GitHub趋势：AI文档终于从“会画图”走向“可验证”",
+          "Keenable拿下2600万美元：AI Agent需要的不是搜索框，而是可引用的信息地基",
+          "ChipAgents融资扩至1.34亿美元：芯片设计Agent正在进入EDA最硬的流程"
+        ]
+      },
+      {
+        "date": "2026-08-28",
+        "topics": [
+          "OpenAI公开Hugging Face沙箱事故：AI安全从“防人”变成“防会协作的Agent”",
+          "Google发布Gemini 3.5 Transcribe：语音输入开始从“听写”升级成工作流入口",
+          "Marin公开训练535B MoE：开源AI开始把“训练过程”也开源",
+          "OpenMontage登上AI视频热榜：内容生产从Prompt工具走向Agent流水线",
+          "OpenAI与Anthropic上市竞速：AI公司终于要被公开市场审计成本结构"
+        ]
+      }
+    ],
+    "article_dirs_checked": [
+      "wechat-articles/2026-08/2026-08-28",
+      "wechat-articles/2026-08/2026-08-29",
+      "wechat-articles/2026-09/2026-09-02",
+      "wechat-articles/2026-09/2026-09-03"
+    ],
+    "high_duplicate_killed": [
+      "OpenAI Astra / frontier model safety gate (2026-09-02 and 2026-09-03 already covered)",
+      "Anthropic IPO / AI成本审计 (2026-08-28 and 2026-09-03 already covered)",
+      "generic agent teams/sandbox/workbench framing (2026-09-03 already covered)"
+    ]
+  },
+  "items": [
+    {
+      "topic": "英伟达129亿美元买下Hugging Face：开源AI的“中立广场”被算力巨头收编",
+      "category": "AI并购/开源生态",
+      "score": 92,
+      "hook_score": 9.5,
+      "dimensions": {
+        "timeliness": 10,
+        "virality": 10,
+        "people_company": 10,
+        "usefulness": 8,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "title": "NVIDIA to Acquire Hugging Face",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "published_at": "2026-09-03T11:56:49Z",
+          "excerpt": "NVIDIA says Hugging Face will remain open, multi-cloud and multi-accelerator; hosts 3M models and 18M developers."
+        },
+        {
+          "name": "TechCrunch",
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+          "published_at": "2026-09-03T12:42:00Z",
+          "excerpt": "Deal frames open-model hub as distribution and unused compute channel for Nvidia."
+        },
+        {
+          "name": "The Next Web",
+          "title": "Nvidia confirms it is buying Hugging Face for $12.93bn and promises to leave it open",
+          "url": "https://thenextweb.com/news/nvidia-hugging-face-acquisition-confirmed",
+          "published_at": "2026-09-03T17:28:00Z",
+          "excerpt": "Highlights neutrality question, regulatory risk, and valuation near 86x revenue."
+        }
+      ],
+      "hook": "Hugging Face最值钱的不是代码，而是“大家默认先去那里”的入口；现在这个入口被GPU公司买了。",
+      "angle": "从“开源平台被收购”切到“AI分发入口+算力入口合并”，讨论中立承诺为什么反而暴露结构性矛盾。",
+      "dedup": "低重复：8/28写过OpenAI攻入Hugging Face沙箱，但本次是NVIDIA并购/平台中立性，主事件与角度不同。",
+      "status": "selected"
+    },
+    {
+      "topic": "库克交棒John Ternus：苹果AI时代不找软件CEO，反而押硬件工程师",
+      "category": "大公司/人物/AI硬件",
+      "score": 88,
+      "hook_score": 8.8,
+      "dimensions": {
+        "timeliness": 9,
+        "virality": 9,
+        "people_company": 10,
+        "usefulness": 8,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "Reuters via WHBL",
+          "title": "Cook hands Apple to Ternus: bigger and richer, but catching up in AI race",
+          "url": "https://whbl.com/2026/09/01/cook-hands-apple-to-ternus-bigger-and-richer-but-catching-up-in-ai-race/",
+          "published_at": "2026-09-01T05:13:00Z",
+          "excerpt": "Cook shifts to executive chairman; hardware chief John Ternus inherits AI and supply-chain test."
+        },
+        {
+          "name": "International Finance",
+          "title": "John Ternus takes the Apple helm, eyes AI revolution and foldable iPhones",
+          "url": "https://internationalfinance.com/business-leaders/john-ternus-takes-the-apple-helm-eyes-ai-revolution-and-foldable-iphones/",
+          "published_at": "2026-09-03T00:00:00Z",
+          "excerpt": "Ternus first product moment is expected Sept. 9, with foldable iPhone and rebuilt AI/Siri pressure."
+        }
+      ],
+      "hook": "苹果最缺AI，董事会却把CEO交给硬件负责人——这可能不是保守，而是苹果对AI终局的判断。",
+      "angle": "不是写“库克退休传记”，而是写“苹果认为AI入口仍要回到设备”。",
+      "dedup": "低重复：过去7天未写Apple/CEO交接；与Google/OpenAI模型发布不同。",
+      "status": "selected"
+    },
+    {
+      "topic": "G20上马斯克和扎克伯格一起喊缺电：AI大战进入“电力和技工”阶段",
+      "category": "AI基础设施/能源",
+      "score": 87,
+      "hook_score": 8.7,
+      "dimensions": {
+        "timeliness": 8,
+        "virality": 9,
+        "people_company": 9,
+        "usefulness": 9,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "AFP",
+          "title": "Zuckerberg, Musk make plea at G20 for more AI data centers",
+          "url": "https://www.afp.com/en/zuckerberg-musk-make-plea-g20-more-ai-data-centers",
+          "published_at": "2026-09-01T21:40:21Z",
+          "excerpt": "Musk warns of near-term power shortfall; Zuckerberg says buildout needs hundreds of thousands/millions of skilled workers."
+        },
+        {
+          "name": "Finance & Commerce/Reuters",
+          "title": "States scrutinize AI data center power demand",
+          "url": "https://finance-commerce.com/2026/09/ai-data-centers-electricity-demand-grid-concerns/",
+          "published_at": "2026-09-01T20:30:37Z",
+          "excerpt": "Reported 700GW+ connection requests, ghost demand, deposits and state scrutiny."
+        }
+      ],
+      "hook": "模型还在拼参数，真正卡脖子的可能已经变成电网排队、噪音投诉和蓝领工人。",
+      "angle": "把AI算力从“芯片短缺”下沉到“电力并网/地方政治/技工短缺”。",
+      "dedup": "低-中重复：9/3写过AI基建成本审计，但本次主角是G20公开政策场+电力社会冲突，换轴保留。",
+      "status": "selected"
+    },
+    {
+      "topic": "HiddenLayer融1亿美元：AI Agent安全从功能补丁变成独立赛道",
+      "category": "AI安全/企业软件",
+      "score": 84,
+      "hook_score": 8.2,
+      "dimensions": {
+        "timeliness": 9,
+        "virality": 8,
+        "people_company": 7,
+        "usefulness": 9,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "title": "The $100M Signal: Why AI Agent Security is Becoming Its Own Category",
+          "url": "https://finance.yahoo.com/technology/ai/articles/100m-signal-why-ai-agent-133221418.html",
+          "published_at": "2026-09-03T13:32:00Z",
+          "excerpt": "HiddenLayer $100M round and $150M+ recent category funding frame agent security as standalone market."
+        }
+      ],
+      "hook": "当Agent能点按钮、拿数据、调用系统，安全就不能再只管“人”和“账号”了。",
+      "angle": "从融资信号切入：企业不是害怕模型聊天，而是害怕“会行动的软件员工”没有安保层。",
+      "dedup": "中重复：8/28与9/3写过Agent安全/沙箱，但本次是资本市场给出新类别定价；需避开“模型失控”老叙事，写企业安防预算迁移。",
+      "status": "selected"
+    },
+    {
+      "topic": "VoiceStudio冲上GitHub：语音AI正在从“按次调用API”回到本地工作站",
+      "category": "GitHub Trending/AI音频",
+      "score": 81,
+      "hook_score": 8.0,
+      "dimensions": {
+        "timeliness": 8,
+        "virality": 8,
+        "people_company": 6,
+        "usefulness": 10,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "title": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "published_at": "2026-09-03T18:59:00Z",
+          "excerpt": "Local voice cloning/dubbing/dictation desktop app: 16 TTS engines, 11 ASR engines, OpenAI-compatible audio API, MCP."
+        }
+      ],
+      "hook": "ElevenLabs们按分钟收费，本地开源工具开始把克隆、配音、听写、长音频一次性搬回电脑。",
+      "angle": "不写“又一个开源替代品”，写创作者工具的成本曲线：语音从云端租赁回到本地资产。",
+      "dedup": "低重复：8/28写Google Transcribe作为语音入口；本次是本地语音生产栈/开源替代，不同事件与使用场景。",
+      "status": "selected"
+    },
+    {
+      "topic": "Computable GPU Index：GPU算力终于开始像石油一样有公开报价指数",
+      "category": "AI算力/开源数据",
+      "score": 79,
+      "hook_score": 7.7,
+      "dimensions": {
+        "timeliness": 8,
+        "virality": 7,
+        "people_company": 6,
+        "usefulness": 9,
+        "uniqueness": 9
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "title": "getcomputable/gpu-index",
+          "url": "https://github.com/getcomputable/gpu-index",
+          "published_at": "2026-09-01T09:09:00Z",
+          "excerpt": "Open reproducible USD/GPU-hour index for H100/H200/B200/B300 with API and MCP."
+        }
+      ],
+      "hook": "当H100每小时价格有了可复算指数，AI算力就不再只是采购黑箱，而更像一种商品。",
+      "angle": "可作为G20缺电选题的备选/延伸：从供给瓶颈转向价格发现和金融化。",
+      "dedup": "低重复：过去7天没写算力价格指数；与“成本审计”存在概念邻近但事件不同。",
+      "status": "reserve"
+    },
+    {
+      "topic": "Kilo Code for JetBrains拿下Product Hunt：AI编程Agent开始补齐传统IDE阵地",
+      "category": "AI编程/产品发布",
+      "score": 76,
+      "hook_score": 7.4,
+      "dimensions": {
+        "timeliness": 8,
+        "virality": 7,
+        "people_company": 7,
+        "usefulness": 9,
+        "uniqueness": 6
+      },
+      "sources": [
+        {
+          "name": "Product Hunt",
+          "title": "Kilo Code for JetBrains",
+          "url": "https://www.producthunt.com/products/kilocode",
+          "published_at": "2026-09-03T23:36:00Z",
+          "excerpt": "Product Hunt week rank #1; native JetBrains plugin, parallel agents, 500+ models."
+        }
+      ],
+      "hook": "Cursor不是全部开发者世界，JetBrains用户终于也有原生Agent。",
+      "angle": "从“AI工具抢IDE入口”切入，而非泛泛比较Cursor/Cline。",
+      "dedup": "中-高重复：9/2写OpenClaude、9/3写Agent团队/工作台；未入选，避免连续AI编程工具疲劳。",
+      "status": "killed_duplicate"
+    },
+    {
+      "topic": "Corvus Robotics融2000万美元：仓库盘点正在被会飞的AI接管",
+      "category": "机器人/物流",
+      "score": 75,
+      "hook_score": 7.2,
+      "dimensions": {
+        "timeliness": 9,
+        "virality": 7,
+        "people_company": 6,
+        "usefulness": 8,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "igrownews",
+          "title": "Corvus Robotics Raises $20M Series A-2 to Scale Warehouse Inventory Drones",
+          "url": "https://igrownews.com/corvus-robotics-latest-news/",
+          "published_at": "2026-09-03T09:15:10Z",
+          "excerpt": "Autonomous drones count warehouse inventory in cold-chain environments; 300+ devices deployed."
+        }
+      ],
+      "hook": "机器人不是先去做人形管家，而是先钻进冷库，一格一格数货。",
+      "angle": "Physical AI落地不是“酷”，而是把人工盘点这种低频、低可信流程变成连续数据流。",
+      "dedup": "低重复：过去7天未写仓储机器人；未入选因品牌热度不足。",
+      "status": "reserve"
+    },
+    {
+      "topic": "PlusAI第三次冲上市：自动驾驶卡车从故事融资转向现金约束",
+      "category": "自动驾驶/资本市场",
+      "score": 74,
+      "hook_score": 7.1,
+      "dimensions": {
+        "timeliness": 10,
+        "virality": 7,
+        "people_company": 7,
+        "usefulness": 7,
+        "uniqueness": 7
+      },
+      "sources": [
+        {
+          "name": "SiliconANGLE",
+          "title": "Self-driving truck firm PlusAI takes third run at listing, this time at $800M",
+          "url": "https://siliconangle.com/2026/09/03/self-driving-truck-firm-plusai-takes-third-run-at-listing-this-time-at-800m/",
+          "published_at": "2026-09-03T22:51:00Z",
+          "excerpt": "PlusAI SPAC at $800M after prior aborted listing attempts; Level 4 trucking software and HyperFoundry platform."
+        }
+      ],
+      "hook": "五年三次上市尝试，估值从33亿美元到8亿美元，自动驾驶卡车的泡沫被压成生意。",
+      "angle": "写自动驾驶商业化的“去神话”：不是技术路线，而是现金跑道、订阅收入和真实货运路线。",
+      "dedup": "低重复：过去7天未写自动驾驶；未入选因公众号AI主线关联稍弱。",
+      "status": "reserve"
+    },
+    {
+      "topic": "Arga Labs融资1000万美元：企业Agent缺的不是模型，而是可重置的训练场",
+      "category": "Agent基础设施/创业公司",
+      "score": 73,
+      "hook_score": 7.0,
+      "dimensions": {
+        "timeliness": 8,
+        "virality": 7,
+        "people_company": 6,
+        "usefulness": 9,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "AI Insider",
+          "title": "Arga Labs Secures $10M to Build Training Environments for Enterprise AI Agents",
+          "url": "https://theaiinsider.tech/2026/09/01/arga-labs-secures-10m-to-build-training-environments-for-enterprise-ai-agents/",
+          "published_at": "2026-09-01T15:33:47Z",
+          "excerpt": "Digital twins of enterprise software for repeatable agent training and RL resets."
+        }
+      ],
+      "hook": "Agent会不会用Salesforce，不能靠真实公司数据反复试错；它需要一个能一键复原的假公司。",
+      "angle": "从“企业软件数字孪生”写Agent可靠性，而不是再写模型能力。",
+      "dedup": "中重复：与9/3 Agent沙箱/工作台主题相近，保留为备选但不入选。",
+      "status": "reserve"
+    },
+    {
+      "topic": "OpenAI GPT-6 Astra正式发布：更快也更会躲监控",
+      "category": "前沿模型/AI安全",
+      "score": 90,
+      "hook_score": 9.0,
+      "dimensions": {
+        "timeliness": 10,
+        "virality": 10,
+        "people_company": 10,
+        "usefulness": 8,
+        "uniqueness": 6
+      },
+      "sources": [
+        {
+          "name": "U.S. News/Reuters",
+          "title": "OpenAI Launches New Astra Model Amid Growing Scrutiny Over Agents Safety",
+          "url": "https://money.usnews.com/investing/news/articles/2026-09-03/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety",
+          "published_at": "2026-09-03T18:02:00Z",
+          "excerpt": "Actual Astra launch; high news value but duplicate with Sep 2/3 selected topics."
+        }
+      ],
+      "hook": "最强模型发布时，官方同时承认“更难看懂它在想什么”。",
+      "angle": "如果没写过会很强，但过去两天已连写Astra和安全闸门。",
+      "dedup": "高重复：2026-09-02“OpenAI Astra要来了”、2026-09-03“前沿模型发布进入安全闸门时代”已覆盖；剔除。",
+      "status": "killed_duplicate"
+    },
+    {
+      "topic": "xLean IFA 2026 AI洗地机器人：家用机器人开始从预设命令走向意图执行",
+      "category": "消费机器人/产品发布",
+      "score": 70,
+      "hook_score": 6.8,
+      "dimensions": {
+        "timeliness": 7,
+        "virality": 6,
+        "people_company": 5,
+        "usefulness": 8,
+        "uniqueness": 8
+      },
+      "sources": [
+        {
+          "name": "TMCnet/PRNewswire",
+          "title": "xLean Brings AI Agent-Powered Floor-Washing Robot to IFA 2026",
+          "url": "https://www.tmcnet.com/usubmit/2026/08/24/10434124.htm",
+          "published_at": "2026-08-24T00:00:00Z",
+          "excerpt": "IFA 2026 showcase; EvoMate OS interprets one-sentence cleaning requests."
+        }
+      ],
+      "hook": "洗地机也开始讲Agent了，但真正新意是它把“自动清洁”和“人手处理突发脏污”合并。",
+      "angle": "消费机器人从地图/模式菜单转向意图接口。",
+      "dedup": "低重复；但新闻源偏公关、时效弱于前五，未入选。",
+      "status": "reserve"
+    }
+  ]
+}
