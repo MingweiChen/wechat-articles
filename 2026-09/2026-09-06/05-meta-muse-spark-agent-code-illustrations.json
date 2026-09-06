@@ -1,0 +1,53 @@
+{
+  "slug": "05-meta-muse-spark-agent-code",
+  "date": "2026-09-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/05-meta-muse-spark-agent-code",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-meta-muse-spark-agent-code-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/05-meta-muse-spark-agent-code/01-05-meta-muse-spark-agent-code-infographic.jpg",
+      "caption": "Meta没有只追聊天框",
+      "anchor": "Meta没有只追聊天框",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-meta-muse-spark-agent-code-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/05-meta-muse-spark-agent-code/02-05-meta-muse-spark-agent-code-infographic.jpg",
+      "caption": "少调用工具，是很硬的能力",
+      "anchor": "少调用工具，是很硬的能力",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-meta-muse-spark-agent-code-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/05-meta-muse-spark-agent-code/03-05-meta-muse-spark-agent-code-infographic.jpg",
+      "caption": "长任务最怕丢约束",
+      "anchor": "长任务最怕丢约束",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-meta-muse-spark-agent-code-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/05-meta-muse-spark-agent-code/04-05-meta-muse-spark-agent-code-infographic.jpg",
+      "caption": "多任务线程是个人Agent的真实形态",
+      "anchor": "多任务线程是个人Agent的真实形态",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

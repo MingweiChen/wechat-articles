@@ -1,0 +1,53 @@
+{
+  "slug": "04-google-lyria-35-gemini-music",
+  "date": "2026-09-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/04-google-lyria-35-gemini-music",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-google-lyria-35-gemini-music-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/04-google-lyria-35-gemini-music/01-04-google-lyria-35-gemini-music-infographic.jpg",
+      "caption": "音乐生成终于进了日常入口",
+      "anchor": "音乐生成终于进了日常入口",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-google-lyria-35-gemini-music-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/04-google-lyria-35-gemini-music/02-04-google-lyria-35-gemini-music-infographic.jpg",
+      "caption": "从好听到可控，才是商业化关键",
+      "anchor": "从好听到可控，才是商业化关键",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-google-lyria-35-gemini-music-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/04-google-lyria-35-gemini-music/03-04-google-lyria-35-gemini-music-infographic.jpg",
+      "caption": "API会把音乐变成产品能力",
+      "anchor": "API会把音乐变成产品能力",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-google-lyria-35-gemini-music-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/04-google-lyria-35-gemini-music/04-04-google-lyria-35-gemini-music-infographic.jpg",
+      "caption": "版权问题不会消失，只会前置",
+      "anchor": "版权问题不会消失，只会前置",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

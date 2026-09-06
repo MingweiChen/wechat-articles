@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-06",
+  "run_id": "2026-09-06_0900",
+  "total": 5,
+  "articles": [
+    {
+      "rank": 1,
+      "prefix": "01",
+      "score": 93,
+      "title": "OpenAI没说透的细节：长Agent的成本结构被改写了！",
+      "slug": "astra-api-agent-cost",
+      "article_dir": "01-astra-api-agent-cost",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "01-astra-api-agent-cost-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-06/html/01-astra-api-agent-cost-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 2,
+      "prefix": "02",
+      "score": 91,
+      "title": "英伟达PAIR来了：你的闲置电脑，要被AI Agent征用了！",
+      "slug": "nvidia-pair-local-ai-router",
+      "article_dir": "02-nvidia-pair-local-ai-router",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "02-nvidia-pair-local-ai-router-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-06/html/02-nvidia-pair-local-ai-router-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 3,
+      "prefix": "03",
+      "score": 90,
+      "title": "AI Agent也要装防火墙了：5000万美元押注一个新入口！",
+      "slug": "air-agent-firewall",
+      "article_dir": "03-air-agent-firewall",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "03-air-agent-firewall-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-06/html/03-air-agent-firewall-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 4,
+      "prefix": "04",
+      "score": 88,
+      "title": "Google把AI作曲塞进Gemini：音乐生成要从玩具变入口了！",
+      "slug": "google-lyria-35-gemini-music",
+      "article_dir": "04-google-lyria-35-gemini-music",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "04-google-lyria-35-gemini-music-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-06/html/04-google-lyria-35-gemini-music-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    },
+    {
+      "rank": 5,
+      "prefix": "05",
+      "score": 87,
+      "title": "Meta新模型盯上代码Agent：个人AI战争先从“少调用工具”打起！",
+      "slug": "meta-muse-spark-agent-code",
+      "article_dir": "05-meta-muse-spark-agent-code",
+      "illustrations_count": 4,
+      "iterations": 1,
+      "html_file": "05-meta-muse-spark-agent-code-wechat.html",
+      "html_github_url": "https://github.com/MingweiChen/wechat-articles/blob/main/2026-09/2026-09-06/html/05-meta-muse-spark-agent-code-wechat.html",
+      "dimensions": {
+        "hook": 9,
+        "punch": 9,
+        "density": 9,
+        "structure": 9,
+        "compliance": 10,
+        "aigc": 8,
+        "originality": 9
+      }
+    }
+  ],
+  "compliance": "pass：无中国政治红线、无涉港台疆藏、无投资荐股；正文插图无政治人物、无具体股票、无敏感旗帜；HTML逐篇确认img数量等于illustrations count且不为0；中文标点规范化。",
+  "killed_or_rewritten": [
+    "kill：选题阶段剔除政治红线、外政魔鬼化叙事、重复题、个股推荐候选。",
+    "rewrite：本批5篇撰写后未触发红线重写。"
+  ]
+}

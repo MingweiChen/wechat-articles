@@ -1,0 +1,53 @@
+{
+  "slug": "03-air-agent-firewall",
+  "date": "2026-09-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/03-air-agent-firewall",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-air-agent-firewall-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/03-air-agent-firewall/01-03-air-agent-firewall-infographic.jpg",
+      "caption": "Agent越能干，入口越危险",
+      "anchor": "Agent越能干，入口越危险",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-air-agent-firewall-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/03-air-agent-firewall/02-03-air-agent-firewall-infographic.jpg",
+      "caption": "插件供应链变成新战场",
+      "anchor": "插件供应链变成新战场",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-air-agent-firewall-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/03-air-agent-firewall/03-03-air-agent-firewall-infographic.jpg",
+      "caption": "上下文污染比传统攻击更隐蔽",
+      "anchor": "上下文污染比传统攻击更隐蔽",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-air-agent-firewall-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/03-air-agent-firewall/04-03-air-agent-firewall-infographic.jpg",
+      "caption": "为什么投资人会急",
+      "anchor": "为什么投资人会急",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

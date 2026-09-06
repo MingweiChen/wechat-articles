@@ -1,0 +1,53 @@
+{
+  "slug": "02-nvidia-pair-local-ai-router",
+  "date": "2026-09-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/01-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "caption": "本地AI的瓶颈换了",
+      "anchor": "本地AI的瓶颈换了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/02-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "caption": "它更像本地版负载均衡",
+      "anchor": "它更像本地版负载均衡",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/03-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "caption": "多Agent让路由突然变重要",
+      "anchor": "多Agent让路由突然变重要",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/04-02-nvidia-pair-local-ai-router-infographic.jpg",
+      "caption": "隐私是它的第二张牌",
+      "anchor": "隐私是它的第二张牌",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-06",
+  "slug": "nvidia-pair-local-ai-router",
+  "title": "英伟达PAIR来了：你的闲置电脑，要被AI Agent征用了！",
+  "sources": [
+    "https://www.nvidia.com/en-in/ai-on-rtx/personal-ai-router/",
+    "https://build.nvidia.com/spark/pair/overview",
+    "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "01-astra-api-agent-cost",
+  "date": "2026-09-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/01-astra-api-agent-cost",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-astra-api-agent-cost-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/01-astra-api-agent-cost/01-01-astra-api-agent-cost-infographic.jpg",
+      "caption": "这次不只是一颗更强的模型",
+      "anchor": "这次不只是一颗更强的模型",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-astra-api-agent-cost-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/01-astra-api-agent-cost/02-01-astra-api-agent-cost-infographic.jpg",
+      "caption": "长Agent贵，不只贵在token",
+      "anchor": "长Agent贵，不只贵在token",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-astra-api-agent-cost-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/01-astra-api-agent-cost/03-01-astra-api-agent-cost-infographic.jpg",
+      "caption": "中途转向比“更聪明”更现实",
+      "anchor": "中途转向比“更聪明”更现实",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-astra-api-agent-cost-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/01-astra-api-agent-cost/04-01-astra-api-agent-cost-infographic.jpg",
+      "caption": "异步工具调用解决的是等待经济学",
+      "anchor": "异步工具调用解决的是等待经济学",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

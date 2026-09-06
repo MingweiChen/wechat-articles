@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-06",
+  "slug": "astra-api-agent-cost",
+  "title": "OpenAI没说透的细节：长Agent的成本结构被改写了！",
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/latest-model.md",
+    "https://openai.com/products/release-notes/",
+    "https://aitoolsrecap.com/Blog/gpt6-astra-api-primitives-2026"
+  ]
+}

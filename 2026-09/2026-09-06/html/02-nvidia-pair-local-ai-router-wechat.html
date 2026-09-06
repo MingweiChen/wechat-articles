@@ -1,0 +1,50 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+<section style="background:linear-gradient(135deg,#0f172a 0%,#1e293b 52%,#0f172a 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#76b900; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">NVIDIA PAIR · Local Inference</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">英伟达PAIR来了：你的闲置电脑，要被AI Agent征用了！</p>
+  <p style="width:46px; height:3px; background:#76b900; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">PAIR不合并显存，也不发明新模型；它把多Agent请求路由到家里或工作室的空闲RTX、DGX Spark和Mac，解决本地推理排队。</p>
+</section>
+<blockquote style="background:#f5f5f5; border-left:4px solid #76b900; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">PAIR不合并显存，也不发明新模型；它把多Agent请求路由到家里或工作室的空闲RTX、DGX Spark和Mac，解决本地推理排队。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">本地AI的瓶颈换了</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/01-02-nvidia-pair-local-ai-router-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">本地AI的瓶颈换了</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:0;">过去讲本地AI，大家第一反应是显卡够不够大、模型能不能塞进显存。NVIDIA这次推PAIR，关注点反而换了：模型已经能在Ollama或LM Studio里跑，问题是多个Agent同时工作时，所有请求都挤到一台机器上排队，而旁边的游戏电脑、工作站、Mac可能正闲着。PAIR做的事很朴素：在本地网络里发现可用设备，把独立推理请求路由过去。它不是把几张显卡拼成一张巨卡，也不是让单个请求跨机器分片，而是把“很多小任务”分派给“很多空闲节点”。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">它更像本地版负载均衡</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/02-02-nvidia-pair-local-ai-router-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">它更像本地版负载均衡</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">PAIR最聪明的产品选择，是不逼开发者重写Agent。它代理Ollama、LM Studio等常见接口，还提供类似OpenAI的代理端点。对上层应用来说，请求还是发给熟悉的本地地址；对底层机器来说，PAIR负责判断哪个节点在线、哪个引擎可用、哪个模型已经在本机、当前负载怎样。这个设计很现实。AI工具生态已经很碎，如果一个“本地集群”方案还要求所有Agent改接口，它会先死在迁移成本上。PAIR把自己放在路由层，降低了尝试门槛。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">多Agent让路由突然变重要</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/03-02-nvidia-pair-local-ai-router-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">多Agent让路由突然变重要</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">单人聊天时，路由价值不明显；多Agent一来，情况马上变了。一个主Agent拆出五个子任务：查资料、读代码、写摘要、跑测试、做表格。每个子任务都可以独立调用模型，如果全压在一台机器上，就是长长的队列。NVIDIA展示的方向正是这种场景：多子任务工作负载在三台设备上跑，平均时间明显短于单机。我们不需要把示例数字当作通用基准，关键是思路变了：本地AI不再只优化“单次请求有多快”，而是优化“一个工作流里几十次请求怎么排队”。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">隐私是它的第二张牌</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-06/illustrations/02-nvidia-pair-local-ai-router/04-02-nvidia-pair-local-ai-router-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">隐私是它的第二张牌</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">很多人跑本地模型，不是因为云模型不好，而是因为资料不想出门。合同、源代码、客户笔记、内部知识库，哪怕模型能力弱一点，也有人愿意换取本地可控。PAIR把这个诉求进一步放大：如果应用、模型、引擎和参与机器都在本地网络，提示词、文件和Agent上下文就不必送到云端。对小团队、工作室、研究者来说，这很有吸引力。它不是企业级私有云，却提供了一种更轻的中间形态：不用搭机房，也能让几台身边设备一起干活。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">别误会：它不是万能集群</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">PAIR也有清楚边界。它不会把显存合并，所以一台机器跑不下的大模型，不会因为PAIR就突然能跑。它也不会把一个长请求切碎分给多台机器，只会把独立请求分派到某个合格节点。性能还会受模型是否已加载、网络、硬件差异、设备是否被占用影响。换句话说，它更适合多Agent、多请求、可并行的工作流，不适合指望一夜之间把消费级设备变成超级计算机。这个边界反而让产品可信，因为它没有把路由层包装成算力魔法。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #76b900;">本地AI开始有“基础设施味”</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">PAIR的意义不在一个beta工具本身，而在它代表的方向：本地AI正在从“我在电脑上跑一个模型”变成“我有一个可调度的私有推理环境”。等Agent越来越常态化，工作流会自然产生并发请求，本地设备也会自然需要路由、排队、监控、权限和安全。云端早就有这些基础设施，本地端现在开始补课。谁能把复杂的多设备、多模型、多任务管理藏在一个简单入口后面，谁就更可能拿到本地AI的默认位置。</p>
+
+<section style="background:#f7f7fb; border-left:4px solid #76b900; padding:18px 22px; margin:2em 0 1.6em; border-radius:0 10px 10px 0;">
+  <p style="color:#333; font-size:16px; line-height:1.9; margin:0; font-weight:500;">本地AI的下一步不一定是人人买服务器，而是把身边闲置算力变成一个私有、可路由、可扩展的推理层。</p>
+</section>
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#76b900; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #76b900; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 如果本地AI能自动调用你家里的几台设备，你会更想跑私有Agent吗？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
