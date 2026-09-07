@@ -1,0 +1,53 @@
+{
+  "slug": "05-voicestudio-local-ai-voice",
+  "date": "2026-09-07",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/05-voicestudio-local-ai-voice",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-voicestudio-local-ai-voice-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/05-voicestudio-local-ai-voice/01-05-voicestudio-local-ai-voice-infographic.jpg",
+      "caption": "文本AI卷完，语音AI开始接棒",
+      "anchor": "文本AI卷完，语音AI开始接棒",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-voicestudio-local-ai-voice-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/05-voicestudio-local-ai-voice/02-05-voicestudio-local-ai-voice-infographic.jpg",
+      "caption": "为什么本地语音很有吸引力",
+      "anchor": "为什么本地语音很有吸引力",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-voicestudio-local-ai-voice-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/05-voicestudio-local-ai-voice/03-05-voicestudio-local-ai-voice-infographic.jpg",
+      "caption": "它卷的不是音色，而是工作流",
+      "anchor": "它卷的不是音色，而是工作流",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-voicestudio-local-ai-voice-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/05-voicestudio-local-ai-voice/04-05-voicestudio-local-ai-voice-infographic.jpg",
+      "caption": "云服务不会消失，但会被重新定位",
+      "anchor": "云服务不会消失，但会被重新定位",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "02-ai-pricing-war-dual-track",
+  "date": "2026-09-07",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/02-ai-pricing-war-dual-track",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-ai-pricing-war-dual-track-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/02-ai-pricing-war-dual-track/01-02-ai-pricing-war-dual-track-infographic.jpg",
+      "caption": "AI突然变便宜了吗",
+      "anchor": "AI突然变便宜了吗",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-ai-pricing-war-dual-track-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/02-ai-pricing-war-dual-track/02-02-ai-pricing-war-dual-track-infographic.jpg",
+      "caption": "但真正的好东西没一起降价",
+      "anchor": "但真正的好东西没一起降价",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-ai-pricing-war-dual-track-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/02-ai-pricing-war-dual-track/03-02-ai-pricing-war-dual-track-infographic.jpg",
+      "caption": "为什么厂商要这么做",
+      "anchor": "为什么厂商要这么做",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-ai-pricing-war-dual-track-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/02-ai-pricing-war-dual-track/04-02-ai-pricing-war-dual-track-infographic.jpg",
+      "caption": "用户该怎么用这场价格战",
+      "anchor": "用户该怎么用这场价格战",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

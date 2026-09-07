@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-07",
+  "mode": "auto",
+  "selected": [
+    {
+      "title": "英伟达买下Hugging Face：开源AI的水电煤，被芯片巨头接管了",
+      "final_title": "英伟达130亿美元买下Hugging Face：开源AI的水电煤，被接管了！",
+      "slug": "nvidia-huggingface-open-ai-infra",
+      "score": 94,
+      "hot_score": 9.4,
+      "batch_verdict": "pass",
+      "thinking": "不是普通并购，而是GPU、模型分发、数据集、应用和企业部署入口合流。读者关心：开源AI还自由吗？中小团队会不会被平台规则重塑？",
+      "conclusion_d": "开源AI没有消失，但它最关键的基础设施正在被更少的巨头掌控。",
+      "source_urls": ["https://finance.yahoo.com/technology/ai/articles/nvidia-acquires-hugging-face-push-135749250.html", "https://www.benzinga.com/m-a/26/09/61608988/nvidia-buys-hugging-face-the-heart-of-open-source-ai", "https://www.swisherpost.com/technology/nvidia-hugging-face-acquisition-open-models/"],
+      "political_redline": "pass",
+      "duplicate_check": "pass: 过去一周已写NVIDIA PAIR本地路由，但本题主体为Hugging Face并购与开源生态入口控制，角度不重复。"
+    },
+    {
+      "title": "AI价格战打到1美元以下：大模型公司开始分层收割",
+      "final_title": "AI价格战打到1美元以下：大模型公司真正赚钱的地方藏起来了！",
+      "slug": "ai-pricing-war-dual-track",
+      "score": 92,
+      "hot_score": 9.2,
+      "batch_verdict": "pass",
+      "thinking": "三家实验室72小时内降价，日常智能商品化；同时高价值能力进入受控访问项目。爆点在于：AI不是越来越便宜，而是被拆成便宜入口+昂贵权限。",
+      "conclusion_d": "AI不会简单变成白菜价，真正贵的是可托付、可合规、可自动执行的能力。",
+      "source_urls": ["https://infotechlead.com/artificial-intelligence/ai-pricing-war-2026-openai-vs-google-gemini-vs-anthropic-claude-vs-deepseek-who-offers-the-best-ai-value-98193", "https://finance.yahoo.com/technology/ai/articles/three-labs-cut-frontier-prices-003439551.html", "https://startupfortune.com/corporate-america-is-swapping-claude-and-gpt-for-cheaper-deepseek-models/"],
+      "political_redline": "pass",
+      "duplicate_check": "pass: 与9月6日Astra API成本一文相比，本题从行业价格结构与双轨商业模式切入，不重复单模型成本角度。"
+    },
+    {
+      "title": "700GW幽灵需求：AI数据中心把电网规划逼到验真时刻",
+      "final_title": "700GW幽灵需求炸锅：AI数据中心把美国电网逼到验真时刻！",
+      "slug": "ai-datacenter-ghost-power-demand",
+      "score": 91,
+      "hot_score": 9.1,
+      "batch_verdict": "pass",
+      "thinking": "数据中心申请电力远超现实消耗，州政府通过暂停接入、押金、审计来过滤泡沫。读者可理解为AI基建从PPT抢地盘进入现金验真。",
+      "conclusion_d": "AI基建竞争下一阶段不是谁会喊需求，而是谁能证明自己真的用得起电。",
+      "source_urls": ["https://finance-commerce.com/2026/09/ai-data-centers-electricity-demand-grid-concerns/", "https://www.benzinga.com/markets/prediction-markets/26/09/61578412/blackrock-ai-boom-phase-1-big-tech", "https://www.datacenterknowledge.com/ai-data-centers/meeting-ai-demand-alternate-power-design-and-site-strategy"],
+      "political_redline": "pass",
+      "duplicate_check": "pass: 过去一周未写AI数据中心电力验真/幽灵需求主题。"
+    },
+    {
+      "title": "Archify爆火：AI Agent开始把画图变成可验证工程件",
+      "final_title": "GitHub热榜第一的Archify：AI画图，终于不只是好看了！",
+      "slug": "archify-verifiable-agent-diagrams",
+      "score": 88,
+      "hot_score": 8.8,
+      "batch_verdict": "pass",
+      "thinking": "Archify的看点不是又一个画图工具，而是JSON IR、校验、交互、证据链接，把架构图变成可验证交付件。",
+      "conclusion_d": "企业要的不是更漂亮的图，而是能被检查、能复现、能和代码对齐的图。",
+      "source_urls": ["https://tt-a1i.github.io/archify/", "https://raw.githubusercontent.com/tt-a1i/archify/main/README.md", "https://www.oflight.co.jp/en/columns/archify-agent-skill-architecture-diagram-2026"],
+      "political_redline": "pass",
+      "duplicate_check": "pass: 过去一周未写AI Agent图形化/架构图可验证主题。"
+    },
+    {
+      "title": "VoiceStudio走红：AI语音也在从云订阅退回本地桌面",
+      "final_title": "AI语音开始退回本地：VoiceStudio让ElevenLabs也被卷到桌面端！",
+      "slug": "voicestudio-local-ai-voice",
+      "score": 86,
+      "hot_score": 8.6,
+      "batch_verdict": "pass",
+      "thinking": "本地语音克隆、配音、转写、长音频，把隐私、成本和可控性重新放到桌面端。适合讲AI应用从文本卷到多媒体生产。",
+      "conclusion_d": "当文本模型卷完价格，语音AI的下一轮竞争会落在本地化、隐私和长内容生产。",
+      "source_urls": ["https://github.com/debpalash/VoiceStudio/blob/main/", "https://github.com/ibabekov/voicestudio", "https://github.com/msrbuilds/voice-studio"],
+      "political_redline": "pass",
+      "duplicate_check": "pass: 过去一周未写本地AI语音工作室/语音克隆桌面端主题。"
+    }
+  ],
+  "batch_verdict": "pass",
+  "notes": "自动模式：多源热点搜集、过去一周查重、写作思路设计与红线过滤后，仅保留5篇batch_verdict=pass；政治红线/涉港台疆藏/魔鬼化叙事/个股推荐均已避开。"
+}

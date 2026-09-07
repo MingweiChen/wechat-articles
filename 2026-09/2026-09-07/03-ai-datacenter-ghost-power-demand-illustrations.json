@@ -1,0 +1,53 @@
+{
+  "slug": "03-ai-datacenter-ghost-power-demand",
+  "date": "2026-09-07",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/03-ai-datacenter-ghost-power-demand",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/03-ai-datacenter-ghost-power-demand/01-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "caption": "AI基建的泡沫，不只在股价里",
+      "anchor": "AI基建的泡沫，不只在股价里",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/03-ai-datacenter-ghost-power-demand/02-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "caption": "700GW为什么离谱",
+      "anchor": "700GW为什么离谱",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/03-ai-datacenter-ghost-power-demand/03-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "caption": "州政府开始要求验资验真",
+      "anchor": "州政府开始要求验资验真",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/03-ai-datacenter-ghost-power-demand/04-03-ai-datacenter-ghost-power-demand-infographic.jpg",
+      "caption": "AI公司会从抢卡进入抢电",
+      "anchor": "AI公司会从抢卡进入抢电",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

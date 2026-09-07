@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "rank": 1,
+      "title": "英伟达130亿美元买下Hugging Face：开源AI的水电煤，被接管了！",
+      "slug": "01-nvidia-huggingface-open-ai-infra",
+      "score": 94
+    },
+    {
+      "rank": 2,
+      "title": "AI价格战打到1美元以下：大模型公司真正赚钱的地方藏起来了！",
+      "slug": "02-ai-pricing-war-dual-track",
+      "score": 92
+    },
+    {
+      "rank": 3,
+      "title": "700GW幽灵需求炸锅：AI数据中心把美国电网逼到验真时刻！",
+      "slug": "03-ai-datacenter-ghost-power-demand",
+      "score": 91
+    },
+    {
+      "rank": 4,
+      "title": "GitHub热榜第一的Archify：AI画图，终于不只是好看了！",
+      "slug": "04-archify-verifiable-agent-diagrams",
+      "score": 88
+    },
+    {
+      "rank": 5,
+      "title": "AI语音开始退回本地：VoiceStudio让ElevenLabs也被卷到桌面端！",
+      "slug": "05-voicestudio-local-ai-voice",
+      "score": 86
+    }
+  ]
+}

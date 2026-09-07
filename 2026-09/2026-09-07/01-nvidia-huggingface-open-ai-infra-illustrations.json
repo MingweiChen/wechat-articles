@@ -1,0 +1,53 @@
+{
+  "slug": "01-nvidia-huggingface-open-ai-infra",
+  "date": "2026-09-07",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/01-nvidia-huggingface-open-ai-infra",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/01-nvidia-huggingface-open-ai-infra/01-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "caption": "这不是一笔普通并购",
+      "anchor": "这不是一笔普通并购",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/01-nvidia-huggingface-open-ai-infra/02-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "caption": "英伟达买的不是社区，是路径",
+      "anchor": "英伟达买的不是社区，是路径",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/01-nvidia-huggingface-open-ai-infra/03-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "caption": "开源不会死，但会变得更像云",
+      "anchor": "开源不会死，但会变得更像云",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-07/illustrations/01-nvidia-huggingface-open-ai-infra/04-01-nvidia-huggingface-open-ai-infra-infographic.jpg",
+      "caption": "中小团队要看懂这件事",
+      "anchor": "中小团队要看懂这件事",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after web/news topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}
