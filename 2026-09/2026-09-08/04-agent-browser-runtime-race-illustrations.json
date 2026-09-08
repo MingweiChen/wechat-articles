@@ -1,0 +1,53 @@
+{
+  "slug": "04-agent-browser-runtime-race",
+  "date": "2026-09-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/04-agent-browser-runtime-race",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-agent-browser-runtime-race-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/04-agent-browser-runtime-race/01-04-agent-browser-runtime-race-infographic.jpg",
+      "caption": "Agent上网不等于打开浏览器",
+      "anchor": "Agent上网不等于打开浏览器",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-agent-browser-runtime-race-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/04-agent-browser-runtime-race/02-04-agent-browser-runtime-race-infographic.jpg",
+      "caption": "三类需求同时爆发",
+      "anchor": "三类需求同时爆发",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-agent-browser-runtime-race-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/04-agent-browser-runtime-race/03-04-agent-browser-runtime-race-infographic.jpg",
+      "caption": "为什么这很重要",
+      "anchor": "为什么这很重要",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-agent-browser-runtime-race-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/04-agent-browser-runtime-race/04-04-agent-browser-runtime-race-infographic.jpg",
+      "caption": "风险也会一起变大",
+      "anchor": "风险也会一起变大",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

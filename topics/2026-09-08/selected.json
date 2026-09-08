@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-08",
+  "auto_mode": true,
+  "selected": [
+    {
+      "final_title": "HeyGen Hyperframes冲上热榜：网页写出来，视频也能直接渲染了！",
+      "thinking": "从“AI视频生成”换轴到“前端/视频/Agent流水线合流”，强调HTML变视频会改变产品演示、广告素材和自动化内容生产。",
+      "conclusion_d": "视频生产的下一个入口不是剪辑软件，而是可编程页面。",
+      "score": 94,
+      "batch_verdict": "pass",
+      "slug": "hyperframes-html-to-video",
+      "sources": [
+        "OrangeBot GitHub Trending Today：2026-09-08热榜第一是heygen-com/hyperframes。",
+        "findarepo开源AI工具榜：hyperframes描述为“Write a web page, get a video”，HTML可以变成渲染视频。",
+        "同日开发者工具热榜显示AI工具从单点生成转向Agent可调用的生产组件。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-01..2026-09-07 outputs"
+      }
+    },
+    {
+      "final_title": "K2 Horizon一次放出6个全开源模型：开源AI不再只给权重了！",
+      "thinking": "从“又一个模型发布”换轴到“开放程度的竞争”，抓住权重、代码、训练数据、方法论全公开带来的信任与复现价值。",
+      "conclusion_d": "真正的开源AI开始从开放权重，升级到开放生产配方。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "k2-horizon-full-open-models",
+      "sources": [
+        "Yahoo Finance/PRNewswire：Institute of Foundation Models发布K2 Horizon，6个模型从0.9B到375B。",
+        "报道称K2 Horizon开放权重、代码、训练数据和训练方法，强调可检查、可复现、可适配。",
+        "模型覆盖手表/手机/本地服务器/企业部署，并提供同一套架构、词表、训练方法和部署工具。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-01..2026-09-07 outputs"
+      }
+    },
+    {
+      "final_title": "Context-mode爆火：Agent不是不聪明，是上下文被工具日志淹死了！",
+      "thinking": "串点GitHub Trending、上下文压缩、MCP路由，说明Agent工程瓶颈从模型智商转向上下文治理。",
+      "conclusion_d": "谁能管住上下文，谁就能让Agent真正跑长任务。",
+      "score": 91,
+      "batch_verdict": "pass",
+      "slug": "context-mode-agent-context-governance",
+      "sources": [
+        "OrangeBot 2026-09-08 GitHub Trending：mksglu/context-mode位列今日热榜第三。",
+        "StartupCorners 9月7日开发者工具回顾：context-mode被描述为编码Agent上下文优化器，声称通过沙箱化工具输出减少上下文占用。",
+        "同日趋势显示推理路由、Token压缩、会话记忆和MCP路由同时升温。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-01..2026-09-07 outputs"
+      }
+    },
+    {
+      "final_title": "Camofox、Lightpanda、Obscura齐上榜：AI浏览器开始从“会点网页”卷到“能稳定跑”！",
+      "thinking": "把多个浏览器自动化项目串成趋势：Agent上网不是简单Playwright，而是反检测、轻量化、可恢复、低成本执行层。",
+      "conclusion_d": "Agent时代的浏览器会变成基础设施，不再只是人看的窗口。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "agent-browser-runtime-race",
+      "sources": [
+        "OrangeBot 2026-09-08 GitHub Trending：jo-inc/camofox-browser与lightpanda-io/browser进入今日榜单。",
+        "GitTrend AI Infrastructure：h4ckf0r0day/obscura被列为AI agents和web scraping相关的headless browser项目。",
+        "近期开发者工具榜单持续出现浏览器自动化、网页抓取和Agent执行环境项目。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-01..2026-09-07 outputs"
+      }
+    },
+    {
+      "final_title": "VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！",
+      "thinking": "从传统rubber duck debugging切入，解释“主Agent+独立批评者”正在进入IDE，AI工程从单模型输出转向双模型审稿。",
+      "conclusion_d": "未来靠谱的AI编程，不是让一个模型更自信，而是让另一个模型先把它怼一遍。",
+      "score": 87,
+      "batch_verdict": "pass",
+      "slug": "vscode-rubber-duck-ai-review",
+      "sources": [
+        "Visual Studio Magazine：VS Code 1.135引入实验性Rubber Duck功能，让互补AI模型批评Agent的工作。",
+        "报道称Rubber Duck可在规划、实现、测试后或卡住时介入，标记bug、安全问题、设计缺陷和性能问题。",
+        "GitHub曾披露跨模型批评者可以缩小部分复杂任务上的性能差距，尤其适合多文件长任务。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-01..2026-09-07 outputs"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "OpenAI GPT-6 Astra/AGI单篇",
+      "reason": "过去一周已有OpenAI Astra安全闸门、前沿模型同日上新、Astra成本结构等相近文章，Step 3.5查重kill"
+    },
+    {
+      "topic": "Nvidia收购Hugging Face单篇",
+      "reason": "2026-09-07已发布同主题，Step 3.5查重kill"
+    },
+    {
+      "topic": "Anthropic compute deals单篇",
+      "reason": "与2026-09-03 Anthropic IPO/compute bill重合度高，未入选"
+    }
+  ]
+}

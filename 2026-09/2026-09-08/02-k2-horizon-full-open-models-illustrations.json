@@ -1,0 +1,53 @@
+{
+  "slug": "02-k2-horizon-full-open-models",
+  "date": "2026-09-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/02-k2-horizon-full-open-models",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-k2-horizon-full-open-models-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/02-k2-horizon-full-open-models/01-02-k2-horizon-full-open-models-infographic.jpg",
+      "caption": "开源模型终于开始卷“配方”",
+      "anchor": "开源模型终于开始卷“配方”",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-k2-horizon-full-open-models-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/02-k2-horizon-full-open-models/02-02-k2-horizon-full-open-models-infographic.jpg",
+      "caption": "六个模型是一套产品线",
+      "anchor": "六个模型是一套产品线",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-k2-horizon-full-open-models-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/02-k2-horizon-full-open-models/03-02-k2-horizon-full-open-models-infographic.jpg",
+      "caption": "这对开发者有什么实际意义",
+      "anchor": "这对开发者有什么实际意义",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-k2-horizon-full-open-models-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/02-k2-horizon-full-open-models/04-02-k2-horizon-full-open-models-infographic.jpg",
+      "caption": "开源AI的下一场竞争",
+      "anchor": "开源AI的下一场竞争",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

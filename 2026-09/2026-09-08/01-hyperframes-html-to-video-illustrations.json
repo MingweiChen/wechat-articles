@@ -1,0 +1,53 @@
+{
+  "slug": "01-hyperframes-html-to-video",
+  "date": "2026-09-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/01-hyperframes-html-to-video",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-hyperframes-html-to-video-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/01-hyperframes-html-to-video/01-01-hyperframes-html-to-video-infographic.jpg",
+      "caption": "视频工具开始长得像前端框架",
+      "anchor": "视频工具开始长得像前端框架",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-hyperframes-html-to-video-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/01-hyperframes-html-to-video/02-01-hyperframes-html-to-video-infographic.jpg",
+      "caption": "为什么这会打到内容团队",
+      "anchor": "为什么这会打到内容团队",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-hyperframes-html-to-video-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/01-hyperframes-html-to-video/03-01-hyperframes-html-to-video-infographic.jpg",
+      "caption": "HeyGen做这件事的信号",
+      "anchor": "HeyGen做这件事的信号",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-hyperframes-html-to-video-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/01-hyperframes-html-to-video/04-01-hyperframes-html-to-video-infographic.jpg",
+      "caption": "Agent会喜欢这种工具",
+      "anchor": "Agent会喜欢这种工具",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

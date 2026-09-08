@@ -1,0 +1,188 @@
+{
+  "single_scans": [
+    {
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/01-hyperframes-html-to-video-content.md",
+      "title": "HeyGen Hyperframes冲上热榜：网页写出来，视频也能直接渲染了！",
+      "violations": [
+        {
+          "type": "banned_structure",
+          "pattern": "three_segment_meaning",
+          "matched_count": 2
+        }
+      ],
+      "warnings": [],
+      "metrics": {
+        "section_count": 6,
+        "bold_count": 0,
+        "blockquote_count": 1,
+        "short_para_ratio": 0.22
+      },
+      "aigc_score": 7,
+      "needs_rewrite": false
+    },
+    {
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/02-k2-horizon-full-open-models-content.md",
+      "title": "K2 Horizon一次放出6个全开源模型：开源AI不再只给权重了！",
+      "violations": [],
+      "warnings": [],
+      "metrics": {
+        "section_count": 6,
+        "bold_count": 0,
+        "blockquote_count": 1,
+        "short_para_ratio": 0.22
+      },
+      "aigc_score": 9,
+      "needs_rewrite": false
+    },
+    {
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/03-context-mode-agent-context-governance-content.md",
+      "title": "Context-mode爆火：Agent不是不聪明，是上下文被工具日志淹死了！",
+      "violations": [],
+      "warnings": [],
+      "metrics": {
+        "section_count": 6,
+        "bold_count": 0,
+        "blockquote_count": 1,
+        "short_para_ratio": 0.22
+      },
+      "aigc_score": 9,
+      "needs_rewrite": false
+    },
+    {
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/04-agent-browser-runtime-race-content.md",
+      "title": "Camofox、Lightpanda、Obscura齐上榜：AI浏览器开始从“会点网页”卷到“能稳定跑”！",
+      "violations": [],
+      "warnings": [],
+      "metrics": {
+        "section_count": 6,
+        "bold_count": 0,
+        "blockquote_count": 1,
+        "short_para_ratio": 0.11
+      },
+      "aigc_score": 9,
+      "needs_rewrite": false
+    },
+    {
+      "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/05-vscode-rubber-duck-ai-review-content.md",
+      "title": "VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！",
+      "violations": [],
+      "warnings": [],
+      "metrics": {
+        "section_count": 6,
+        "bold_count": 0,
+        "blockquote_count": 1,
+        "short_para_ratio": 0.11
+      },
+      "aigc_score": 9,
+      "needs_rewrite": false
+    }
+  ],
+  "cross_scan": {
+    "articles": [
+      {
+        "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/01-hyperframes-html-to-video-content.md",
+        "title": "HeyGen Hyperframes冲上热榜：网页写出来，视频也能直接渲染了！",
+        "sections": [
+          "先看事实",
+          "视频工具开始长得像前端框架",
+          "为什么这会打到内容团队",
+          "HeyGen做这件事的信号",
+          "Agent会喜欢这种工具",
+          "最后一句"
+        ],
+        "has_three_segment": true,
+        "has_enum_meaning": false,
+        "has_timeline": false,
+        "has_compare_table": false,
+        "opening_first_para": "> 视频生产的下一个入口不是剪辑软件，而是可编程页面。",
+        "title_template_match": false
+      },
+      {
+        "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/02-k2-horizon-full-open-models-content.md",
+        "title": "K2 Horizon一次放出6个全开源模型：开源AI不再只给权重了！",
+        "sections": [
+          "先看事实",
+          "开源模型终于开始卷“配方”",
+          "六个模型是一套产品线",
+          "这对开发者有什么实际意义",
+          "开源AI的下一场竞争",
+          "最后一句"
+        ],
+        "has_three_segment": true,
+        "has_enum_meaning": false,
+        "has_timeline": false,
+        "has_compare_table": false,
+        "opening_first_para": "> 真正的开源AI开始从开放权重，升级到开放生产配方。",
+        "title_template_match": false
+      },
+      {
+        "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/03-context-mode-agent-context-governance-content.md",
+        "title": "Context-mode爆火：Agent不是不聪明，是上下文被工具日志淹死了！",
+        "sections": [
+          "先看事实",
+          "长任务Agent为什么老翻车",
+          "工具输出不是都该进脑子",
+          "这会改变Agent基础设施",
+          "开发者该学会的新能力",
+          "最后一句"
+        ],
+        "has_three_segment": false,
+        "has_enum_meaning": false,
+        "has_timeline": false,
+        "has_compare_table": false,
+        "opening_first_para": "> 谁能管住上下文，谁就能让Agent真正跑长任务。",
+        "title_template_match": false
+      },
+      {
+        "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/04-agent-browser-runtime-race-content.md",
+        "title": "Camofox、Lightpanda、Obscura齐上榜：AI浏览器开始从“会点网页”卷到“能稳定跑”！",
+        "sections": [
+          "先看事实",
+          "Agent上网不等于打开浏览器",
+          "三类需求同时爆发",
+          "为什么这很重要",
+          "风险也会一起变大",
+          "最后一句"
+        ],
+        "has_three_segment": false,
+        "has_enum_meaning": false,
+        "has_timeline": false,
+        "has_compare_table": false,
+        "opening_first_para": "> Agent时代的浏览器会变成基础设施，不再只是人看的窗口。",
+        "title_template_match": false
+      },
+      {
+        "path": "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/05-vscode-rubber-duck-ai-review-content.md",
+        "title": "VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！",
+        "sections": [
+          "先看事实",
+          "橡皮鸭终于会说话了",
+          "为什么一个AI不够",
+          "这比更大上下文更现实",
+          "AI编程会走向多角色流水线",
+          "最后一句"
+        ],
+        "has_three_segment": true,
+        "has_enum_meaning": false,
+        "has_timeline": false,
+        "has_compare_table": false,
+        "opening_first_para": "> 未来靠谱的AI编程，不是让一个模型更自信，而是让另一个模型先把它怼一遍。",
+        "title_template_match": false
+      }
+    ],
+    "violations": [
+      {
+        "type": "three_segment_repeat",
+        "count": 3,
+        "note": "5 篇里有 3 篇用了\"对 X、对 Y、对 Z\"三段论"
+      }
+    ],
+    "cross_score": 8
+  },
+  "summary": {
+    "total_articles": 5,
+    "needs_rewrite": 0,
+    "has_violations": 1,
+    "cross_violations": 1
+  }
+}

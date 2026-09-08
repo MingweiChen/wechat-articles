@@ -1,0 +1,62 @@
+{
+  "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/01-hyperframes-html-to-video-content.md": {
+    "political_hard_lines": [],
+    "stock_recommendations": [],
+    "high_risk_topics": [],
+    "punctuation_issues": [],
+    "summary": {
+      "passed": true,
+      "needs_topic_change": false,
+      "needs_rewrite": false,
+      "needs_packaging": false
+    }
+  },
+  "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/02-k2-horizon-full-open-models-content.md": {
+    "political_hard_lines": [],
+    "stock_recommendations": [],
+    "high_risk_topics": [],
+    "punctuation_issues": [],
+    "summary": {
+      "passed": true,
+      "needs_topic_change": false,
+      "needs_rewrite": false,
+      "needs_packaging": false
+    }
+  },
+  "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/03-context-mode-agent-context-governance-content.md": {
+    "political_hard_lines": [],
+    "stock_recommendations": [],
+    "high_risk_topics": [],
+    "punctuation_issues": [],
+    "summary": {
+      "passed": true,
+      "needs_topic_change": false,
+      "needs_rewrite": false,
+      "needs_packaging": false
+    }
+  },
+  "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/04-agent-browser-runtime-race-content.md": {
+    "political_hard_lines": [],
+    "stock_recommendations": [],
+    "high_risk_topics": [],
+    "punctuation_issues": [],
+    "summary": {
+      "passed": true,
+      "needs_topic_change": false,
+      "needs_rewrite": false,
+      "needs_packaging": false
+    }
+  },
+  "/home/mchen/.openclaw/workspace/wechat-articles/2026-09/2026-09-08/05-vscode-rubber-duck-ai-review-content.md": {
+    "political_hard_lines": [],
+    "stock_recommendations": [],
+    "high_risk_topics": [],
+    "punctuation_issues": [],
+    "summary": {
+      "passed": true,
+      "needs_topic_change": false,
+      "needs_rewrite": false,
+      "needs_packaging": false
+    }
+  }
+}

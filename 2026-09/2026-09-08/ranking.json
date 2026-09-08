@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "rank": 1,
+      "title": "HeyGen Hyperframes冲上热榜：网页写出来，视频也能直接渲染了！",
+      "slug": "01-hyperframes-html-to-video",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "K2 Horizon一次放出6个全开源模型：开源AI不再只给权重了！",
+      "slug": "02-k2-horizon-full-open-models",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Context-mode爆火：Agent不是不聪明，是上下文被工具日志淹死了！",
+      "slug": "03-context-mode-agent-context-governance",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Camofox、Lightpanda、Obscura齐上榜：AI浏览器开始从“会点网页”卷到“能稳定跑”！",
+      "slug": "04-agent-browser-runtime-race",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！",
+      "slug": "05-vscode-rubber-duck-ai-review",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

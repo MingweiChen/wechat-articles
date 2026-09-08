@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #ef4444;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#fff7ed;border-left:5px solid #f97316;padding:14px 16px;margin:20px 0;color:#7c2d12;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 22px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-08</div><h1>VS Code Rubber Duck实验：一个AI写代码，另一个AI专门挑刺！</h1>
+<blockquote>未来靠谱的AI编程，不是让一个模型更自信，而是让另一个模型先把它怼一遍。</blockquote>
+<h2>先看事实</h2>
+<li>Visual Studio Magazine：VS Code 1.135引入实验性Rubber Duck功能，让互补AI模型批评Agent的工作。</li>
+<li>报道称Rubber Duck可在规划、实现、测试后或卡住时介入，标记bug、安全问题、设计缺陷和性能问题。</li>
+<li>GitHub曾披露跨模型批评者可以缩小部分复杂任务上的性能差距，尤其适合多文件长任务。</li>
+<h2>橡皮鸭终于会说话了</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/01-05-vscode-rubber-duck-ai-review-infographic.jpg" alt="橡皮鸭终于会说话了"/><figcaption>橡皮鸭终于会说话了</figcaption></figure>
+<p>程序员讲“橡皮鸭调试”讲了很多年：把问题说给一只不会说话的鸭子听，自己就能发现漏洞。VS Code的新实验把这个老梗升级成AI版本：一个Agent负责写代码，另一个AI扮演会说话的橡皮鸭，专门挑战它的计划、实现和测试。重点不是陪聊，而是独立批评。</p>
+<h2>为什么一个AI不够</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/02-05-vscode-rubber-duck-ai-review-infographic.jpg" alt="为什么一个AI不够"/><figcaption>为什么一个AI不够</figcaption></figure>
+<p>同一个模型在写方案时，很容易沿着自己的假设一路走下去。它会补代码，也会合理化自己的错误。独立批评者的价值，是用不同视角检查盲点：有没有漏掉边界条件、有没有引入安全问题、有没有破坏现有架构、测试是不是只测了快乐路径。人类代码评审本质上也是这个逻辑，只是现在第二意见开始内置到IDE。</p>
+<h2>这比更大上下文更现实</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/03-05-vscode-rubber-duck-ai-review-infographic.jpg" alt="这比更大上下文更现实"/><figcaption>这比更大上下文更现实</figcaption></figure>
+<p>当然，更强模型能减少错误。但软件工程不是一次回答，而是一连串决策。每一步都可能偏一点，最后偏成事故。Rubber Duck模式相当于在关键节点加检查站：先评计划，再看实现，再审测试。它不一定让Agent更快，却可能让结果更稳。对企业团队来说，稳往往比快重要。</p>
+<h2>AI编程会走向多角色流水线</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/04-05-vscode-rubber-duck-ai-review-infographic.jpg" alt="AI编程会走向多角色流水线"/><figcaption>AI编程会走向多角色流水线</figcaption></figure>
+<p>未来IDE里的Agent可能不再是一个万能助手，而是一组角色：规划者、实现者、测试者、审稿人、安全审计者、发布助手。Rubber Duck只是最容易理解的一步。它告诉我们，AI工程的成熟方向不是把所有能力塞进一个模型，而是把工作拆成可互相制衡的流程。</p>
+<h2>最后一句</h2>
+<p>这项实验的爆点在于，它承认AI也需要被审。一个AI写，一个AI挑刺，最后人类做关键决策。听起来绕了一圈，但这正是软件工程一直以来的常识：越重要的代码，越不能只靠作者自己说没问题。</p>
+<hr/>
+<p>*合规说明：本文不涉及中国政治红线，不包含个股推荐；公司名称与项目名称仅作产业新闻分析。*</p>
+</main></body></html>

@@ -1,0 +1,53 @@
+{
+  "slug": "05-vscode-rubber-duck-ai-review",
+  "date": "2026-09-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/01-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "caption": "橡皮鸭终于会说话了",
+      "anchor": "橡皮鸭终于会说话了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/02-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "caption": "为什么一个AI不够",
+      "anchor": "为什么一个AI不够",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/03-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "caption": "这比更大上下文更现实",
+      "anchor": "这比更大上下文更现实",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/05-vscode-rubber-duck-ai-review/04-05-vscode-rubber-duck-ai-review-infographic.jpg",
+      "caption": "AI编程会走向多角色流水线",
+      "anchor": "AI编程会走向多角色流水线",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

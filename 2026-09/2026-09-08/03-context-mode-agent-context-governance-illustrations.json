@@ -1,0 +1,53 @@
+{
+  "slug": "03-context-mode-agent-context-governance",
+  "date": "2026-09-08",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/03-context-mode-agent-context-governance",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-context-mode-agent-context-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/03-context-mode-agent-context-governance/01-03-context-mode-agent-context-governance-infographic.jpg",
+      "caption": "长任务Agent为什么老翻车",
+      "anchor": "长任务Agent为什么老翻车",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-context-mode-agent-context-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/03-context-mode-agent-context-governance/02-03-context-mode-agent-context-governance-infographic.jpg",
+      "caption": "工具输出不是都该进脑子",
+      "anchor": "工具输出不是都该进脑子",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-context-mode-agent-context-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/03-context-mode-agent-context-governance/03-03-context-mode-agent-context-governance-infographic.jpg",
+      "caption": "这会改变Agent基础设施",
+      "anchor": "这会改变Agent基础设施",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-context-mode-agent-context-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-08/illustrations/03-context-mode-agent-context-governance/04-03-context-mode-agent-context-governance-infographic.jpg",
+      "caption": "开发者该学会的新能力",
+      "anchor": "开发者该学会的新能力",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图",
+      "source_url": "local editorial infographic generated with PIL after Bing/news/GitHub topic research",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}
