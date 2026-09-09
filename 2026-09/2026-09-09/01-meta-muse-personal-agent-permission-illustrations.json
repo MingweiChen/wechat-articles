@@ -1,0 +1,53 @@
+{
+  "slug": "01-meta-muse-personal-agent-permission",
+  "date": "2026-09-09",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/01-meta-muse-personal-agent-permission",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/01-meta-muse-personal-agent-permission/01-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "caption": "Agent第一次真的摸到你的账户",
+      "anchor": "Agent第一次真的摸到你的账户",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/01-meta-muse-personal-agent-permission/02-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "caption": "后台虚拟机是便利，也是风险",
+      "anchor": "后台虚拟机是便利，也是风险",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/01-meta-muse-personal-agent-permission/03-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "caption": "隐私争议不是附属剧情",
+      "anchor": "隐私争议不是附属剧情",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/01-meta-muse-personal-agent-permission/04-01-meta-muse-personal-agent-permission-infographic.jpg",
+      "caption": "个人Agent会先成为权限产品",
+      "anchor": "个人Agent会先成为权限产品",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

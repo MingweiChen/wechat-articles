@@ -1,0 +1,53 @@
+{
+  "slug": "04-ponytail-lazy-senior-dev-agent",
+  "date": "2026-09-09",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/04-ponytail-lazy-senior-dev-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/04-ponytail-lazy-senior-dev-agent/01-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "caption": "AI写代码终于开始反内卷",
+      "anchor": "AI写代码终于开始反内卷",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/04-ponytail-lazy-senior-dev-agent/02-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "caption": "高级工程师的懒不是偷懒",
+      "anchor": "高级工程师的懒不是偷懒",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/04-ponytail-lazy-senior-dev-agent/03-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "caption": "这会改变AI编程评估标准",
+      "anchor": "这会改变AI编程评估标准",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/04-ponytail-lazy-senior-dev-agent/04-04-ponytail-lazy-senior-dev-agent-infographic.jpg",
+      "caption": "从炫技到工程克制",
+      "anchor": "从炫技到工程克制",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

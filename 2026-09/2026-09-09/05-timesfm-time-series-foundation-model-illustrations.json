@@ -1,0 +1,53 @@
+{
+  "slug": "05-timesfm-time-series-foundation-model",
+  "date": "2026-09-09",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/05-timesfm-time-series-foundation-model",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/05-timesfm-time-series-foundation-model/01-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "caption": "AI不只处理语言，也处理时间",
+      "anchor": "AI不只处理语言，也处理时间",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/05-timesfm-time-series-foundation-model/02-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "caption": "为什么时间序列难做",
+      "anchor": "为什么时间序列难做",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/05-timesfm-time-series-foundation-model/03-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "caption": "企业会先在低风险场景试水",
+      "anchor": "企业会先在低风险场景试水",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/05-timesfm-time-series-foundation-model/04-05-timesfm-time-series-foundation-model-infographic.jpg",
+      "caption": "时间数据比文本更不干净",
+      "anchor": "时间数据比文本更不干净",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

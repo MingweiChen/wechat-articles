@@ -1,0 +1,53 @@
+{
+  "slug": "02-openai-skills-agent-app-store",
+  "date": "2026-09-09",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/02-openai-skills-agent-app-store",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-openai-skills-agent-app-store-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/02-openai-skills-agent-app-store/01-02-openai-skills-agent-app-store-infographic.jpg",
+      "caption": "提示词正在变成软件包",
+      "anchor": "提示词正在变成软件包",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-openai-skills-agent-app-store-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/02-openai-skills-agent-app-store/02-02-openai-skills-agent-app-store-infographic.jpg",
+      "caption": "技能仓库为什么突然集中爆发",
+      "anchor": "技能仓库为什么突然集中爆发",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-openai-skills-agent-app-store-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/02-openai-skills-agent-app-store/03-02-openai-skills-agent-app-store-infographic.jpg",
+      "caption": "这会重塑平台竞争",
+      "anchor": "这会重塑平台竞争",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-openai-skills-agent-app-store-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/02-openai-skills-agent-app-store/04-02-openai-skills-agent-app-store-infographic.jpg",
+      "caption": "安全问题也会跟着放大",
+      "anchor": "安全问题也会跟着放大",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

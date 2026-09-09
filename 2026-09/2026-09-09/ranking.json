@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Meta Muse上线：你的App权限，开始交给AI代理了！",
+      "slug": "01-meta-muse-personal-agent-permission",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI skills冲上GitHub：AI能力开始像插件一样分发了！",
+      "slug": "02-openai-skills-agent-app-store",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "DeepSeek Harness登顶AI基础设施榜：Agent开始进入“万物皆插件”时代！",
+      "slug": "03-deepseek-harness-plugin-agent-runtime",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Ponytail爆火：最聪明的编码Agent，开始学会少写代码了！",
+      "slug": "04-ponytail-lazy-senior-dev-agent",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "TimesFM重回热榜：AI不只会写字，还开始预测时间了！",
+      "slug": "05-timesfm-time-series-foundation-model",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

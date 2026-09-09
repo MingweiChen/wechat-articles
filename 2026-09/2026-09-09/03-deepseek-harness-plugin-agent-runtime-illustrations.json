@@ -1,0 +1,53 @@
+{
+  "slug": "03-deepseek-harness-plugin-agent-runtime",
+  "date": "2026-09-09",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/03-deepseek-harness-plugin-agent-runtime",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/03-deepseek-harness-plugin-agent-runtime/01-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "caption": "Agent工具箱开始不够用了",
+      "anchor": "Agent工具箱开始不够用了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/03-deepseek-harness-plugin-agent-runtime/02-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "caption": "插件化解决的是治理问题",
+      "anchor": "插件化解决的是治理问题",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/03-deepseek-harness-plugin-agent-runtime/03-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "caption": "运行时会成为新的操作系统",
+      "anchor": "运行时会成为新的操作系统",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-09/illustrations/03-deepseek-harness-plugin-agent-runtime/04-03-deepseek-harness-plugin-agent-runtime-infographic.jpg",
+      "caption": "DeepSeek生态的另一个信号",
+      "anchor": "DeepSeek生态的另一个信号",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}
