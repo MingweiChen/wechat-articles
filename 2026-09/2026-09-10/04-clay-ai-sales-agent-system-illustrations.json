@@ -1,0 +1,53 @@
+{
+  "slug": "04-clay-ai-sales-agent-system",
+  "date": "2026-09-10",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/04-clay-ai-sales-agent-system",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-clay-ai-sales-agent-system-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/04-clay-ai-sales-agent-system/01-04-clay-ai-sales-agent-system-infographic.jpg",
+      "caption": "销售软件终于不只让人填表了",
+      "anchor": "销售软件终于不只让人填表了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-clay-ai-sales-agent-system-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/04-clay-ai-sales-agent-system/02-04-clay-ai-sales-agent-system-infographic.jpg",
+      "caption": "AI最先接管的是搬运流程",
+      "anchor": "AI最先接管的是搬运流程",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-clay-ai-sales-agent-system-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/04-clay-ai-sales-agent-system/03-04-clay-ai-sales-agent-system-infographic.jpg",
+      "caption": "CRM的护城河会变成上下文",
+      "anchor": "CRM的护城河会变成上下文",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-clay-ai-sales-agent-system-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/04-clay-ai-sales-agent-system/04-04-clay-ai-sales-agent-system-infographic.jpg",
+      "caption": "别把它写成替代销售员",
+      "anchor": "别把它写成替代销售员",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

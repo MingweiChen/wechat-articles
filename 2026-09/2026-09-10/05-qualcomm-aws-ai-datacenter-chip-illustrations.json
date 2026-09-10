@@ -1,0 +1,53 @@
+{
+  "slug": "05-qualcomm-aws-ai-datacenter-chip",
+  "date": "2026-09-10",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/05-qualcomm-aws-ai-datacenter-chip",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/05-qualcomm-aws-ai-datacenter-chip/01-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "caption": "API价格战背后是电费账",
+      "anchor": "API价格战背后是电费账",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/05-qualcomm-aws-ai-datacenter-chip/02-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "caption": "推理时代和训练时代不一样",
+      "anchor": "推理时代和训练时代不一样",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/05-qualcomm-aws-ai-datacenter-chip/03-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "caption": "光连接会成为隐藏战场",
+      "anchor": "光连接会成为隐藏战场",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/05-qualcomm-aws-ai-datacenter-chip/04-05-qualcomm-aws-ai-datacenter-chip-infographic.jpg",
+      "caption": "云厂商开始更深地控制硬件",
+      "anchor": "云厂商开始更深地控制硬件",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

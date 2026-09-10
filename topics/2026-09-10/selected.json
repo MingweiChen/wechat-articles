@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-10",
+  "generated_at_utc": "2026-09-10T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "dedup_basis": [
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM",
+    "2026-09-08: Hyperframes、K2 Horizon、Context-mode、AI浏览器、VS Code Rubber Duck",
+    "2026-09-07: Nvidia-HuggingFace、AI价格战、700GW电网、Archify、VoiceStudio",
+    "2026-09-06: OpenAI Agent成本、Nvidia PAIR、Agent防火墙、Gemini音乐、Meta代码Agent",
+    "2026-09-03/02: 前沿模型安全闸门、Google开发者工具、Anthropic财务、企业AI、Academic skills"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-03..2026-09-09",
+    "result": "剔除Meta Muse重复、OpenAI skills/DeepSeek Harness/Context-mode/AI浏览器/电网幽灵需求等同事件同角度；保留Cognition融资、Mistral主权AI、XPeng IRON量产、Clay销售Agent、Qualcomm+AWS推理芯片五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴：交付流程估值、主权AI算力控制、Physical AI制造一致性、CRM行动系统、推理硬件成本。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent review protocol + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自Bing News/Web多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cognition融了20亿美元：AI程序员估值冲到480亿美元！",
+      "category": "AI编程",
+      "score": 95,
+      "batch_verdict": "pass",
+      "sources": [
+        "Forbes 2026-09-09：Andreessen Horowitz参与Cognition 20亿美元Series E，估值约480亿美元；Cursor退出后仍押注AI coding multi-winner。",
+        "Tech Startups 2026-09-09：Cognition融资信息，投资方包括a16z、Accel、Founders Fund、General Catalyst、Avenir等。",
+        "Forbes报道提到Cognition称Devin可从Slack、GitHub、Linear事件自动开始工作，并推出Auto-Triage、Security Swarm和Automations。"
+      ],
+      "hook": "Devin背后的Cognition新融资，把AI编程从工具赛道推成基础设施赛道",
+      "angle": "从“Devin会写代码”换轴到“软件公司估值逻辑被Agent重估”：VC押的不是一个编辑器按钮，而是事件驱动、可验收、可审计的交付系统。",
+      "conclusion_D": "AI编程真正值钱的不是补全，而是接管可衡量的软件交付流程。",
+      "explosive_score": 95,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI编程真正值钱的不是补全，而是接管可衡量的软件交付流程。",
+        "axis": "从“Devin会写代码”换轴到“软件公司估值逻辑被Agent重估”：VC押的不是一个编辑器按钮，而是事件驱动、可验收、可审计的交付系统。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 95,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Mistral融了30亿欧元：欧洲AI开始自己修数据中心！",
+      "category": "主权AI",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "GENZ TECH funding tracker 2026-09-09：Mistral AI完成约30亿欧元Series D，估值超过210亿欧元，称为欧洲科技最大全股权融资之一。",
+        "Bing Grounding资金跟踪结果：Mistral 2026-09-08相关融资条目显示Samsung Electronics、EQT、PSG Equity等参与。",
+        "公开报道强调Mistral将投入欧洲自有数据中心、开放权重模型和可在非外国超大云厂商环境运行的“sovereign AI”能力。"
+      ],
+      "hook": "Mistral巨额融资背后，是欧洲AI从模型独立走向算力独立",
+      "angle": "从融资新闻换轴到“主权AI必须同时拥有模型、权重和算力”：开源权重不够，谁能控制训练和部署基础设施，谁才有长期定价权。",
+      "conclusion_D": "AI主权不是口号，而是模型、数据、算力和部署权的组合控制。",
+      "explosive_score": 93,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI主权不是口号，而是模型、数据、算力和部署权的组合控制。",
+        "axis": "从融资新闻换轴到“主权AI必须同时拥有模型、权重和算力”：开源权重不够，谁能控制训练和部署基础设施，谁才有长期定价权。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "小鹏IRON走下自动产线：人形机器人不再只会发布会走路！",
+      "category": "机器人",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "TechNode 2026-09-09：XPeng宣布人形机器人自动化产线启动，首台IRON完成总装并自主走下生产线。",
+        "The Manila Times / Benzinga 2026-09-05~09-08：XPeng机器人业务融资超过9亿美元，估值超过63亿美元，计划2026年底量产、2027年商业交付。",
+        "报道显示IRON拥有76个自由度、每只手21个自由度，搭载三颗自研Turing AI芯片，Physical AI模型可在本地运行。"
+      ],
+      "hook": "小鹏IRON自动产线投产，把Physical AI的焦点从演示拉到制造",
+      "angle": "从机器人演示换轴到“制造一致性成为Physical AI的第一道门槛”：量产线、质量体系、本地模型和成本结构比发布会动作更重要。",
+      "conclusion_D": "人形机器人真正的拐点，不是能走两步，而是能被稳定生产出来。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：人形机器人真正的拐点，不是能走两步，而是能被稳定生产出来。",
+        "axis": "从机器人演示换轴到“制造一致性成为Physical AI的第一道门槛”：量产线、质量体系、本地模型和成本结构比发布会动作更重要。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Clay融到71亿美元估值：销售团队开始被AI Agent重写！",
+      "category": "企业AI",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "Tech Startups 2026-09-09：Clay完成1.15亿美元Series D，估值约71亿美元，投资方包括Wellington、Sequoia、a16z、StepStone等。",
+        "同日融资汇总还显示Lightfield获得4700万美元Series A，定位AI-native CRM / revenue system of record。",
+        "相关报道描述Clay使用AI agents分析公司与客户数据、推荐动作并执行部分销售和营销流程。"
+      ],
+      "hook": "Clay和新一批AI原生CRM融资，说明销售软件正在从记录系统变成行动系统",
+      "angle": "从CRM/销售自动化融资潮切入，讲销售软件从System of Record变成System of Action：找客户、补数据、写话术、触达、更新记录由Agent串起来。",
+      "conclusion_D": "企业AI最先吃掉的不是岗位，而是那些围绕表格和跟进反复搬运的流程。",
+      "explosive_score": 90,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业AI最先吃掉的不是岗位，而是那些围绕表格和跟进反复搬运的流程。",
+        "axis": "从CRM/销售自动化融资潮切入，讲销售软件从System of Record变成System of Action：找客户、补数据、写话术、触达、更新记录由Agent串起来。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "高通联手AWS做AI数据中心芯片：推理成本战打到硬件层了！",
+      "category": "AI芯片",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "NewsBytes 2026-09-08：Qualcomm与Amazon Web Services合作设计面向下一代AI数据中心的定制芯片，目标是更快、更省电。",
+        "报道提到双方还将推进最高1.6Tbps光连接方案，用于处理AI数据中心内部高吞吐通信。",
+        "同期EIA/Reuters与Data Center Frontier报道显示AI数据中心正在推动电力需求、现场能源和基础设施设计重构。"
+      ],
+      "hook": "Qualcomm与AWS合作定制AI数据中心芯片，指向推理时代的能耗和互联瓶颈",
+      "angle": "从“又一个芯片合作”换轴到“推理时代需要更低功耗、更高带宽的定制基础设施”：API降价背后是硬件、能耗、互联和供应链重构。",
+      "conclusion_D": "大模型价格战的下一站，不在API页面，而在数据中心的芯片和光连接里。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：大模型价格战的下一站，不在API页面，而在数据中心的芯片和光连接里。",
+        "axis": "从“又一个芯片合作”换轴到“推理时代需要更低功耗、更高带宽的定制基础设施”：API降价背后是硬件、能耗、互联和供应链重构。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Cognition融了20亿美元：AI程序员估值冲到480亿美元！",
+      "thinking": "从“Devin会写代码”换轴到“软件公司估值逻辑被Agent重估”：VC押的不是一个编辑器按钮，而是事件驱动、可验收、可审计的交付系统。",
+      "conclusion_d": "AI编程真正值钱的不是补全，而是接管可衡量的软件交付流程。",
+      "score": 95,
+      "batch_verdict": "pass",
+      "slug": "cognition-devin-48b-coding-agent",
+      "sources": [
+        "Forbes 2026-09-09：Andreessen Horowitz参与Cognition 20亿美元Series E，估值约480亿美元；Cursor退出后仍押注AI coding multi-winner。",
+        "Tech Startups 2026-09-09：Cognition融资信息，投资方包括a16z、Accel、Founders Fund、General Catalyst、Avenir等。",
+        "Forbes报道提到Cognition称Devin可从Slack、GitHub、Linear事件自动开始工作，并推出Auto-Triage、Security Swarm和Automations。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-03..2026-09-09 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Mistral融了30亿欧元：欧洲AI开始自己修数据中心！",
+      "thinking": "从融资新闻换轴到“主权AI必须同时拥有模型、权重和算力”：开源权重不够，谁能控制训练和部署基础设施，谁才有长期定价权。",
+      "conclusion_d": "AI主权不是口号，而是模型、数据、算力和部署权的组合控制。",
+      "score": 93,
+      "batch_verdict": "pass",
+      "slug": "mistral-3b-euro-sovereign-ai",
+      "sources": [
+        "GENZ TECH funding tracker 2026-09-09：Mistral AI完成约30亿欧元Series D，估值超过210亿欧元，称为欧洲科技最大全股权融资之一。",
+        "Bing Grounding资金跟踪结果：Mistral 2026-09-08相关融资条目显示Samsung Electronics、EQT、PSG Equity等参与。",
+        "公开报道强调Mistral将投入欧洲自有数据中心、开放权重模型和可在非外国超大云厂商环境运行的“sovereign AI”能力。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-03..2026-09-09 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "小鹏IRON走下自动产线：人形机器人不再只会发布会走路！",
+      "thinking": "从机器人演示换轴到“制造一致性成为Physical AI的第一道门槛”：量产线、质量体系、本地模型和成本结构比发布会动作更重要。",
+      "conclusion_d": "人形机器人真正的拐点，不是能走两步，而是能被稳定生产出来。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "xpeng-iron-humanoid-production-line",
+      "sources": [
+        "TechNode 2026-09-09：XPeng宣布人形机器人自动化产线启动，首台IRON完成总装并自主走下生产线。",
+        "The Manila Times / Benzinga 2026-09-05~09-08：XPeng机器人业务融资超过9亿美元，估值超过63亿美元，计划2026年底量产、2027年商业交付。",
+        "报道显示IRON拥有76个自由度、每只手21个自由度，搭载三颗自研Turing AI芯片，Physical AI模型可在本地运行。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-03..2026-09-09 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Clay融到71亿美元估值：销售团队开始被AI Agent重写！",
+      "thinking": "从CRM/销售自动化融资潮切入，讲销售软件从System of Record变成System of Action：找客户、补数据、写话术、触达、更新记录由Agent串起来。",
+      "conclusion_d": "企业AI最先吃掉的不是岗位，而是那些围绕表格和跟进反复搬运的流程。",
+      "score": 90,
+      "batch_verdict": "pass",
+      "slug": "clay-ai-sales-agent-system",
+      "sources": [
+        "Tech Startups 2026-09-09：Clay完成1.15亿美元Series D，估值约71亿美元，投资方包括Wellington、Sequoia、a16z、StepStone等。",
+        "同日融资汇总还显示Lightfield获得4700万美元Series A，定位AI-native CRM / revenue system of record。",
+        "相关报道描述Clay使用AI agents分析公司与客户数据、推荐动作并执行部分销售和营销流程。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-03..2026-09-09 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "高通联手AWS做AI数据中心芯片：推理成本战打到硬件层了！",
+      "thinking": "从“又一个芯片合作”换轴到“推理时代需要更低功耗、更高带宽的定制基础设施”：API降价背后是硬件、能耗、互联和供应链重构。",
+      "conclusion_d": "大模型价格战的下一站，不在API页面，而在数据中心的芯片和光连接里。",
+      "score": 88,
+      "batch_verdict": "pass",
+      "slug": "qualcomm-aws-ai-datacenter-chip",
+      "sources": [
+        "NewsBytes 2026-09-08：Qualcomm与Amazon Web Services合作设计面向下一代AI数据中心的定制芯片，目标是更快、更省电。",
+        "报道提到双方还将推进最高1.6Tbps光连接方案，用于处理AI数据中心内部高吞吐通信。",
+        "同期EIA/Reuters与Data Center Frontier报道显示AI数据中心正在推动电力需求、现场能源和基础设施设计重构。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-03..2026-09-09 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "Meta Muse后续单篇",
+      "reason": "2026-09-09已发布同主角同方向，Step 3.5查重kill。"
+    },
+    {
+      "topic": "OpenAI skills/DeepSeek Harness插件生态单篇",
+      "reason": "2026-09-09已连续覆盖skills与插件化运行时，今日不重复。"
+    },
+    {
+      "topic": "AI数据中心电网幽灵需求单篇",
+      "reason": "2026-09-07已写700GW幽灵需求；今日只保留Qualcomm+AWS芯片/光连接新角度。"
+    }
+  ]
+}

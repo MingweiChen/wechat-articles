@@ -1,0 +1,53 @@
+{
+  "slug": "03-xpeng-iron-humanoid-production-line",
+  "date": "2026-09-10",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/03-xpeng-iron-humanoid-production-line",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/03-xpeng-iron-humanoid-production-line/01-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "caption": "发布会走路不难，稳定下线才难",
+      "anchor": "发布会走路不难，稳定下线才难",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/03-xpeng-iron-humanoid-production-line/02-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "caption": "Physical AI先被制造业教育",
+      "anchor": "Physical AI先被制造业教育",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/03-xpeng-iron-humanoid-production-line/03-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "caption": "车企做机器人有天然优势",
+      "anchor": "车企做机器人有天然优势",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/03-xpeng-iron-humanoid-production-line/04-03-xpeng-iron-humanoid-production-line-infographic.jpg",
+      "caption": "别急着宣布人形机器人爆发",
+      "anchor": "别急着宣布人形机器人爆发",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

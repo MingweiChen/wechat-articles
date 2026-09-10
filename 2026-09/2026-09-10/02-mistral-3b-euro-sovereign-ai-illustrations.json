@@ -1,0 +1,53 @@
+{
+  "slug": "02-mistral-3b-euro-sovereign-ai",
+  "date": "2026-09-10",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/02-mistral-3b-euro-sovereign-ai",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/02-mistral-3b-euro-sovereign-ai/01-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "caption": "欧洲AI不想只租别人的云",
+      "anchor": "欧洲AI不想只租别人的云",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/02-mistral-3b-euro-sovereign-ai/02-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "caption": "开放权重只是第一步",
+      "anchor": "开放权重只是第一步",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/02-mistral-3b-euro-sovereign-ai/03-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "caption": "主权AI会变成企业采购语言",
+      "anchor": "主权AI会变成企业采购语言",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-10/illustrations/02-mistral-3b-euro-sovereign-ai/04-02-mistral-3b-euro-sovereign-ai-infographic.jpg",
+      "caption": "大厂阴影下的独立路线",
+      "anchor": "大厂阴影下的独立路线",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}
