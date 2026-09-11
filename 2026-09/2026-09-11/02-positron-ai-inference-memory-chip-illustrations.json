@@ -1,0 +1,53 @@
+{
+  "slug": "02-positron-ai-inference-memory-chip",
+  "date": "2026-09-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/02-positron-ai-inference-memory-chip",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/02-positron-ai-inference-memory-chip/01-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "caption": "训练之后，推理账单才是真战场",
+      "anchor": "训练之后，推理账单才是真战场",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/02-positron-ai-inference-memory-chip/02-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "caption": "绕开HBM就是绕开供给瓶颈",
+      "anchor": "绕开HBM就是绕开供给瓶颈",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/02-positron-ai-inference-memory-chip/03-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "caption": "推理芯片看的是吞吐，不是炫技",
+      "anchor": "推理芯片看的是吞吐，不是炫技",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/02-positron-ai-inference-memory-chip/04-02-positron-ai-inference-memory-chip-infographic.jpg",
+      "caption": "估值暴涨也带着巨大验证压力",
+      "anchor": "估值暴涨也带着巨大验证压力",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

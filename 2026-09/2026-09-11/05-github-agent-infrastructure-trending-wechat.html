@@ -1,0 +1,25 @@
+<!doctype html><html lang=“zh-CN”><head><meta charset=“utf-8”><meta name=“viewport” content=“width=device-width,initial-scale=1”><title>GitHub热榜被Agent基建刷屏：开源AI不卷聊天框了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,“PingFang SC”,“Noto Sans CJK SC”,sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class=“wrap”><div class=“meta”>每日自动公众号文章 · 2026-09-11</div><h1>GitHub热榜被Agent基建刷屏：开源AI不卷聊天框了！</h1>
+<blockquote>开源AI的下一个爆点不是更会说话的机器人，而是让机器人可靠干活的底座。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>GitTrend 2026-09-10 AI Infrastructure：deepseek-ai/deepseek-harness、OmniRoute、context-mode、HarnessRouter、arcbox等项目高速增长。</li>
+<li>GitHub Trending weekly 2026-09-11：ECC、ponytail、archify、context-mode、openai/skills、hyperframes、chrome-devtools-mcp等Agent相关项目集中上榜。</li>
+<li>hotin.ai 2026-09-10：trending AI repos中多项指向agent harness、context、gateway、native model routing和agent documentation。</li>
+</ul>
+<h2>开发者不满足于聊天框了</h2>
+<figure><img src=“https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/01-05-github-agent-infrastructure-trending-infographic.jpg” alt=“开发者不满足于聊天框了”/><figcaption>开发者不满足于聊天框了</figcaption></figure>
+<p>今年GitHub AI热榜有个明显变化：大家不再只追“又一个Chat UI”或“又一个模型封装”。真正涨得快的，是deepseek-harness、OmniRoute、context-mode、HarnessRouter、OpenViking、arcbox这类Agent基础设施。它们解决的不是“模型会不会说”，而是“模型怎么稳定地接工具、管上下文、跑任务、切模型、留证据、恢复失败”。</p>
+<h2>Agent开始需要操作系统</h2>
+<figure><img src=“https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/02-05-github-agent-infrastructure-trending-infographic.jpg” alt=“Agent开始需要操作系统”/><figcaption>Agent开始需要操作系统</figcaption></figure>
+<p>单次问答时代，一个API封装就够了；Agent时代，系统复杂度突然上来。任务要跑很久，工具输出会爆上下文，模型会中途失败，权限要分级，成本要控制，多模型要路由，产物要落盘。于是开发者开始给Agent补“操作系统”：调度、记忆、压缩、沙箱、审计、远程控制、协议标准，一个都少不了。</p>
+<h2>上下文工程变成新战场</h2>
+<figure><img src=“https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/03-05-github-agent-infrastructure-trending-infographic.jpg” alt=“上下文工程变成新战场”/><figcaption>上下文工程变成新战场</figcaption></figure>
+<p>context-mode、headroom、OpenViking这类项目共同指向一个问题：不是模型越大越好，而是信息怎么进出模型更重要。工具日志、代码片段、历史决策、错误输出，如果原样塞进去，成本高还容易污染判断；如果压缩过头，又会丢掉关键细节。上下文工程会成为Agent应用的核心能力。</p>
+<h2>开源生态正在把平台拆开</h2>
+<figure><img src=“https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/04-05-github-agent-infrastructure-trending-infographic.jpg” alt=“开源生态正在把平台拆开”/><figcaption>开源生态正在把平台拆开</figcaption></figure>
+<p>大厂会把Agent做成完整产品，但开源社区喜欢拆解：模型路由归模型路由，沙箱归沙箱，记忆归记忆，技能归技能，浏览器控制归浏览器控制。这种拆解让小团队能拼出自己的Agent栈，也让标准之争提前出现。未来谁能成为事实协议，谁就可能控制开发者入口。</p>
+<h2>最后一句</h2>
+<p>GitHub热榜其实在提前告诉我们：AI应用的竞争重心正在从“谁的机器人更会聊”，转向“谁的机器人更可靠地干活”。开源AI的下一波价值，很可能藏在这些不显眼的运行底座里。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻分析，不涉及中国政治红线，不包含个股推荐；公司、产品、数据源名称仅作新闻事实与行业趋势讨论。*</p>
+</main></body></html>

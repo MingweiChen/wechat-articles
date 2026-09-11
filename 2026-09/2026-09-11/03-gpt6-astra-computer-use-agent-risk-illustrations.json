@@ -1,0 +1,53 @@
+{
+  "slug": "03-gpt6-astra-computer-use-agent-risk",
+  "date": "2026-09-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/03-gpt6-astra-computer-use-agent-risk",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/03-gpt6-astra-computer-use-agent-risk/01-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "caption": "电脑使用才是Agent分水岭",
+      "anchor": "电脑使用才是Agent分水岭",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/03-gpt6-astra-computer-use-agent-risk/02-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "caption": "能力越强，权限越难给",
+      "anchor": "能力越强，权限越难给",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/03-gpt6-astra-computer-use-agent-risk/03-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "caption": "长任务记忆让效率和风险一起放大",
+      "anchor": "长任务记忆让效率和风险一起放大",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/03-gpt6-astra-computer-use-agent-risk/04-03-gpt6-astra-computer-use-agent-risk-infographic.jpg",
+      "caption": "别被AGI口号带偏",
+      "anchor": "别被AGI口号带偏",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

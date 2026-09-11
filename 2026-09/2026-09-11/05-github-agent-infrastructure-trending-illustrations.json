@@ -1,0 +1,53 @@
+{
+  "slug": "05-github-agent-infrastructure-trending",
+  "date": "2026-09-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-github-agent-infrastructure-trending-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/01-05-github-agent-infrastructure-trending-infographic.jpg",
+      "caption": "开发者不满足于聊天框了",
+      "anchor": "开发者不满足于聊天框了",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-github-agent-infrastructure-trending-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/02-05-github-agent-infrastructure-trending-infographic.jpg",
+      "caption": "Agent开始需要操作系统",
+      "anchor": "Agent开始需要操作系统",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-github-agent-infrastructure-trending-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/03-05-github-agent-infrastructure-trending-infographic.jpg",
+      "caption": "上下文工程变成新战场",
+      "anchor": "上下文工程变成新战场",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-github-agent-infrastructure-trending-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/05-github-agent-infrastructure-trending/04-05-github-agent-infrastructure-trending-infographic.jpg",
+      "caption": "开源生态正在把平台拆开",
+      "anchor": "开源生态正在把平台拆开",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

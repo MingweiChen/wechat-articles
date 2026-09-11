@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-chatgpt-financial-services",
+  "date": "2026-09-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/01-openai-chatgpt-financial-services",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-chatgpt-financial-services-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/01-openai-chatgpt-financial-services/01-01-openai-chatgpt-financial-services-infographic.jpg",
+      "caption": "这不是金融版聊天框",
+      "anchor": "这不是金融版聊天框",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-chatgpt-financial-services-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/01-openai-chatgpt-financial-services/02-01-openai-chatgpt-financial-services-infographic.jpg",
+      "caption": "AI开始吃掉分析师的拼装活",
+      "anchor": "AI开始吃掉分析师的拼装活",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-chatgpt-financial-services-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/01-openai-chatgpt-financial-services/03-01-openai-chatgpt-financial-services-infographic.jpg",
+      "caption": "行业数据会成为模型的新护城河",
+      "anchor": "行业数据会成为模型的新护城河",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-chatgpt-financial-services-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-11/illustrations/01-openai-chatgpt-financial-services/04-01-openai-chatgpt-financial-services-infographic.jpg",
+      "caption": "别把它误读成投资建议机器",
+      "anchor": "别把它误读成投资建议机器",
+      "position": "after_heading",
+      "source": "Stage 2.5 code-generated B类信息示意图（基于真新闻/热榜事实转译）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股、国旗；非抽象发光科幻图。"
+}

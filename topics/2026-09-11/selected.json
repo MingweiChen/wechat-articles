@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-11",
+  "generated_at_utc": "2026-09-11T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "dedup_basis": [
+    "2026-09-10: Cognition 480亿美元、Mistral 30亿欧元、小鹏IRON、Clay 71亿美元、Qualcomm+AWS推理芯片",
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM",
+    "2026-09-08: Hyperframes、K2 Horizon、Context-mode、AI浏览器、VS Code Rubber Duck",
+    "2026-09-07: Nvidia-HuggingFace、AI价格战、700GW电网、Archify、VoiceStudio",
+    "2026-09-06: OpenAI Agent成本、Nvidia PAIR、Agent防火墙、Gemini音乐、Meta代码Agent"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-04..2026-09-10",
+    "result": "剔除Meta Muse、Cognition、Mistral、Clay、小鹏IRON、Qualcomm+AWS等已发/同角度；保留金融服务ChatGPT、Positron推理芯片、GPT-6 Astra治理、Harvey法律AI、GitHub Agent基建五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴：行业AI产品化、推理内存路线、Computer-use治理、专业服务任务包、Agent基础设施化。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent review protocol + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自Bing News/Web/GitHub Trending多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI把ChatGPT塞进投行：金融分析师的Excel要重写了！",
+      "category": "金融AI",
+      "score": 95,
+      "batch_verdict": "pass",
+      "sources": [
+        "Reuters / U.S. News 2026-09-10：OpenAI launched ChatGPT for Financial Services，结合LSEG、PitchBook、Daloopa等数据，Morgan Stanley与Evercore参与设计。",
+        "报道称产品基于GPT-6 Astra，面向投行和研究团队场景，可做多源研究、财务模型、客户材料与pitchbook。",
+        "产品建立在ChatGPT Enterprise安全控制上，包含基于角色的访问、加密，以及合规团队可导出的workspace logs。"
+      ],
+      "hook": "ChatGPT for Financial Services把模型、金融数据源、权限和审计打包卖给投行与研究团队",
+      "angle": "从“又一个垂直版ChatGPT”换轴到“AI进入监管行业，必须把数据连接、模板、权限、审计一起产品化”。",
+      "conclusion_D": "企业AI最值钱的部分不是聊天，而是把行业数据、工作流和合规日志打包成可采购系统。",
+      "explosive_score": 95,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业AI最值钱的部分不是聊天，而是把行业数据、工作流和合规日志打包成可采购系统。",
+        "axis": "从“又一个垂直版ChatGPT”换轴到“AI进入监管行业，必须把数据连接、模板、权限、审计一起产品化”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 95,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Positron融了8.75亿美元：AI芯片战开始绕开HBM！",
+      "category": "AI芯片",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "Quartz 2026-09-10：Positron AI raised $875M Series C/C-1 at a $5B post-money valuation。",
+        "报道称其下一代Asimov芯片采用288GB到2304GB LPDDR5X内存，试图绕开HBM和先进封装供应约束。",
+        "CNA 2026-09-10：Positron七个月估值从约10.6亿美元升至50亿美元，推理芯片市场成为挑战Nvidia dominance的关键战场。"
+      ],
+      "hook": "Positron用LPDDR5X和大容量内存路线切入推理芯片，挑战高成本HBM依赖",
+      "angle": "从“融资和估值”换轴到“推理时代瓶颈从训练算力转到内存容量、带宽、供给和单位成本”。",
+      "conclusion_D": "大模型推理成本战，不只靠更强GPU，也靠更便宜、更可得的内存路线。",
+      "explosive_score": 94,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：大模型推理成本战，不只靠更强GPU，也靠更便宜、更可得的内存路线。",
+        "axis": "从“融资和估值”换轴到“推理时代瓶颈从训练算力转到内存容量、带宽、供给和单位成本”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "GPT-6 Astra来了：能操作电脑的模型，最难管的不是能力！",
+      "category": "Agent安全",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "InfoQ 2026-09-10：OpenAI released GPT-6 Astra，聚焦coding、computer use、professional workflows、science与cybersecurity。",
+        "报道称Astra可操作图形界面、更新CRM、做研究、建网站、分析数据、安装测试软件，并支持最高约一百万token长上下文评测。",
+        "Reuters / U.S. News 2026-09-03：OpenAI称Astra能力更强但监控更难，安全检查可能放慢、暂停或停止部分任务。"
+      ],
+      "hook": "OpenAI新模型把computer-use、编码、科研和专业流程推进一步，也把审计与监督难度推到台前",
+      "angle": "从“新模型更强”换轴到“能操作电脑的Agent需要像数字员工一样被授权、记录、限制和复盘”。",
+      "conclusion_D": "AI Agent越像员工，企业买到的就越不只是效率，还有一整套权限、审计和刹车系统。",
+      "explosive_score": 93,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI Agent越像员工，企业买到的就越不只是效率，还有一整套权限、审计和刹车系统。",
+        "axis": "从“新模型更强”换轴到“能操作电脑的Agent需要像数字员工一样被授权、记录、限制和复盘”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Harvey估值155亿美元：律师行业先被AI Agent改写了！",
+      "category": "法律AI",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "AndroGuider 2026-09-10：Harvey valuation reached $15.5B，较数月前$11B继续上升，投资方包括Sequoia、Kleiner Perkins、Coatue、GV等。",
+        "报道称Harvey服务超过700家律所、四大会计师事务所和财富500内部法务团队，覆盖合同审查、尽调、诉讼研究、起草等场景。",
+        "同文指出Harvey正在从助手扩展到agentic workflows，并延伸到税务、并购咨询和监管合规。"
+      ],
+      "hook": "Legal AI高估值背后，是合同审阅、尽调、诉讼研究、税务合规等专业服务流程被Agent打包",
+      "angle": "从“法律AI融资”换轴到“专业服务的计费单位从小时，转向可监督、可审计、可复用的任务包”。",
+      "conclusion_D": "AI不会先消灭专业人士，而会先重写他们最昂贵、最重复、最容易标准化的工作层。",
+      "explosive_score": 91,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI不会先消灭专业人士，而会先重写他们最昂贵、最重复、最容易标准化的工作层。",
+        "axis": "从“法律AI融资”换轴到“专业服务的计费单位从小时，转向可监督、可审计、可复用的任务包”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub热榜被Agent基建刷屏：开源AI不卷聊天框了！",
+      "category": "开源AI",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend 2026-09-10 AI Infrastructure：deepseek-ai/deepseek-harness、OmniRoute、context-mode、HarnessRouter、arcbox等项目高速增长。",
+        "GitHub Trending weekly 2026-09-11：ECC、ponytail、archify、context-mode、openai/skills、hyperframes、chrome-devtools-mcp等Agent相关项目集中上榜。",
+        "hotin.ai 2026-09-10：trending AI repos中多项指向agent harness、context、gateway、native model routing和agent documentation。"
+      ],
+      "hook": "从deepseek-harness、OmniRoute、context-mode到OpenViking，开发者注意力转向Agent运行底座",
+      "angle": "从“热榜项目盘点”换轴到“Agent生态进入路由、记忆、压缩、审计、远控、沙箱的基础设施期”。",
+      "conclusion_D": "开源AI的下一个爆点不是更会说话的机器人，而是让机器人可靠干活的底座。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：开源AI的下一个爆点不是更会说话的机器人，而是让机器人可靠干活的底座。",
+        "axis": "从“热榜项目盘点”换轴到“Agent生态进入路由、记忆、压缩、审计、远控、沙箱的基础设施期”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "OpenAI把ChatGPT塞进投行：金融分析师的Excel要重写了！",
+      "thinking": "从“又一个垂直版ChatGPT”换轴到“AI进入监管行业，必须把数据连接、模板、权限、审计一起产品化”。",
+      "conclusion_d": "企业AI最值钱的部分不是聊天，而是把行业数据、工作流和合规日志打包成可采购系统。",
+      "score": 95,
+      "batch_verdict": "pass",
+      "slug": "openai-chatgpt-financial-services",
+      "sources": [
+        "Reuters / U.S. News 2026-09-10：OpenAI launched ChatGPT for Financial Services，结合LSEG、PitchBook、Daloopa等数据，Morgan Stanley与Evercore参与设计。",
+        "报道称产品基于GPT-6 Astra，面向投行和研究团队场景，可做多源研究、财务模型、客户材料与pitchbook。",
+        "产品建立在ChatGPT Enterprise安全控制上，包含基于角色的访问、加密，以及合规团队可导出的workspace logs。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-04..2026-09-10 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Positron融了8.75亿美元：AI芯片战开始绕开HBM！",
+      "thinking": "从“融资和估值”换轴到“推理时代瓶颈从训练算力转到内存容量、带宽、供给和单位成本”。",
+      "conclusion_d": "大模型推理成本战，不只靠更强GPU，也靠更便宜、更可得的内存路线。",
+      "score": 94,
+      "batch_verdict": "pass",
+      "slug": "positron-ai-inference-memory-chip",
+      "sources": [
+        "Quartz 2026-09-10：Positron AI raised $875M Series C/C-1 at a $5B post-money valuation。",
+        "报道称其下一代Asimov芯片采用288GB到2304GB LPDDR5X内存，试图绕开HBM和先进封装供应约束。",
+        "CNA 2026-09-10：Positron七个月估值从约10.6亿美元升至50亿美元，推理芯片市场成为挑战Nvidia dominance的关键战场。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-04..2026-09-10 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "GPT-6 Astra来了：能操作电脑的模型，最难管的不是能力！",
+      "thinking": "从“新模型更强”换轴到“能操作电脑的Agent需要像数字员工一样被授权、记录、限制和复盘”。",
+      "conclusion_d": "AI Agent越像员工，企业买到的就越不只是效率，还有一整套权限、审计和刹车系统。",
+      "score": 93,
+      "batch_verdict": "pass",
+      "slug": "gpt6-astra-computer-use-agent-risk",
+      "sources": [
+        "InfoQ 2026-09-10：OpenAI released GPT-6 Astra，聚焦coding、computer use、professional workflows、science与cybersecurity。",
+        "报道称Astra可操作图形界面、更新CRM、做研究、建网站、分析数据、安装测试软件，并支持最高约一百万token长上下文评测。",
+        "Reuters / U.S. News 2026-09-03：OpenAI称Astra能力更强但监控更难，安全检查可能放慢、暂停或停止部分任务。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-04..2026-09-10 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Harvey估值155亿美元：律师行业先被AI Agent改写了！",
+      "thinking": "从“法律AI融资”换轴到“专业服务的计费单位从小时，转向可监督、可审计、可复用的任务包”。",
+      "conclusion_d": "AI不会先消灭专业人士，而会先重写他们最昂贵、最重复、最容易标准化的工作层。",
+      "score": 91,
+      "batch_verdict": "pass",
+      "slug": "harvey-legal-ai-agent-valuation",
+      "sources": [
+        "AndroGuider 2026-09-10：Harvey valuation reached $15.5B，较数月前$11B继续上升，投资方包括Sequoia、Kleiner Perkins、Coatue、GV等。",
+        "报道称Harvey服务超过700家律所、四大会计师事务所和财富500内部法务团队，覆盖合同审查、尽调、诉讼研究、起草等场景。",
+        "同文指出Harvey正在从助手扩展到agentic workflows，并延伸到税务、并购咨询和监管合规。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-04..2026-09-10 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "GitHub热榜被Agent基建刷屏：开源AI不卷聊天框了！",
+      "thinking": "从“热榜项目盘点”换轴到“Agent生态进入路由、记忆、压缩、审计、远控、沙箱的基础设施期”。",
+      "conclusion_d": "开源AI的下一个爆点不是更会说话的机器人，而是让机器人可靠干活的底座。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "github-agent-infrastructure-trending",
+      "sources": [
+        "GitTrend 2026-09-10 AI Infrastructure：deepseek-ai/deepseek-harness、OmniRoute、context-mode、HarnessRouter、arcbox等项目高速增长。",
+        "GitHub Trending weekly 2026-09-11：ECC、ponytail、archify、context-mode、openai/skills、hyperframes、chrome-devtools-mcp等Agent相关项目集中上榜。",
+        "hotin.ai 2026-09-10：trending AI repos中多项指向agent harness、context、gateway、native model routing和agent documentation。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-04..2026-09-10 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "Meta Muse消费者Agent",
+      "reason": "2026-09-09已覆盖同主角同方向，Step 3.5查重kill。"
+    },
+    {
+      "topic": "Cognition/Mistral/Clay/小鹏IRON/Qualcomm+AWS",
+      "reason": "2026-09-10已作为主选题发布，今日不重复。"
+    },
+    {
+      "topic": "Anthropic研究员辞职AI安全焦虑",
+      "reason": "可写但外部监管/人物舆论叙事过重，自动模式降低争议风险，未入选。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI把ChatGPT塞进投行：金融分析师的Excel要重写了！",
+      "slug": "01-openai-chatgpt-financial-services",
+      "score": 95,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Positron融了8.75亿美元：AI芯片战开始绕开HBM！",
+      "slug": "02-positron-ai-inference-memory-chip",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "GPT-6 Astra来了：能操作电脑的模型，最难管的不是能力！",
+      "slug": "03-gpt6-astra-computer-use-agent-risk",
+      "score": 93,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Harvey估值155亿美元：律师行业先被AI Agent改写了！",
+      "slug": "04-harvey-legal-ai-agent-valuation",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "GitHub热榜被Agent基建刷屏：开源AI不卷聊天框了！",
+      "slug": "05-github-agent-infrastructure-trending",
+      "score": 89,
+      "illustrations": 4
+    }
+  ]
+}

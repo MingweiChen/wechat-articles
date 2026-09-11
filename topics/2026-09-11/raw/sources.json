@@ -1,0 +1,10 @@
+{
+  "bing_news_web_sources": [
+    "Reuters/U.S. News OpenAI Financial Services",
+    "InfoQ GPT-6 Astra",
+    "Quartz/CNA Positron AI funding",
+    "AndroGuider Harvey valuation",
+    "GitTrend/GitHub Trending/hotin AI infrastructure"
+  ],
+  "generated_from": "Bing Grounding searches at cron runtime"
+}
