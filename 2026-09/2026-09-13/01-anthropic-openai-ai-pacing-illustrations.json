@@ -1,0 +1,53 @@
+{
+  "slug": "01-anthropic-openai-ai-pacing",
+  "date": "2026-09-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/01-anthropic-openai-ai-pacing",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/01-anthropic-openai-ai-pacing/01-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "caption": "最会冲刺的人开始谈刹车",
+      "anchor": "最会冲刺的人开始谈刹车",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/01-anthropic-openai-ai-pacing/02-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "caption": "独立评估员要进到研发现场",
+      "anchor": "独立评估员要进到研发现场",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/01-anthropic-openai-ai-pacing/03-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "caption": "安全不再只是伦理口号",
+      "anchor": "安全不再只是伦理口号",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/01-anthropic-openai-ai-pacing/04-01-anthropic-openai-ai-pacing-infographic.jpg",
+      "caption": "慢下来也会变成竞争力",
+      "anchor": "慢下来也会变成竞争力",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股推荐表达或抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "03-ai-labs-ma-over-ipo",
+  "date": "2026-09-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/03-ai-labs-ma-over-ipo",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/03-ai-labs-ma-over-ipo/01-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "caption": "AI退出路径突然反过来了",
+      "anchor": "AI退出路径突然反过来了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/03-ai-labs-ma-over-ipo/02-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "caption": "买的不是收入，是入口",
+      "anchor": "买的不是收入，是入口",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/03-ai-labs-ma-over-ipo/03-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "caption": "私营巨头有更快的交易货币",
+      "anchor": "私营巨头有更快的交易货币",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/03-ai-labs-ma-over-ipo/04-03-ai-labs-ma-over-ipo-infographic.jpg",
+      "caption": "监管会决定这波还能跑多远",
+      "anchor": "监管会决定这波还能跑多远",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股推荐表达或抽象发光科幻图。"
+}

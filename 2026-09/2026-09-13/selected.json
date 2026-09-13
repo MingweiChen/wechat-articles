@@ -1,0 +1,268 @@
+{
+  "date": "2026-09-13",
+  "generated_at_utc": "2026-09-13T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "dedup_basis": [
+    "2026-09-11: OpenAI金融服务、Positron推理芯片、GPT-6 Astra、Harvey法律AI、GitHub Agent基建",
+    "2026-09-10: Cognition、Mistral、小鹏IRON、Clay、Qualcomm+AWS",
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM",
+    "2026-09-08: Hyperframes、K2 Horizon、Context-mode、AI浏览器、VS Code Rubber Duck",
+    "2026-09-07: Nvidia-HuggingFace、AI价格战、700GW电网、Archify、VoiceStudio",
+    "2026-09-06: OpenAI Agent成本、Nvidia PAIR、Agent防火墙、Gemini音乐、Meta代码Agent"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-06..2026-09-12",
+    "result": "剔除OpenAI金融服务、GPT-6 Astra泛能力、Harvey、Positron、GitHub Agent基建等已发同角度；保留AI竞速治理、Nvidia锚定Anthropic IPO、AI并购替代IPO、i-have-adhd输出技能、Soup本地微调五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴：外部审计嵌入研发、算力资本闭环、退出路径反转、认知友好型Agent交互、本地微调软件优化。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent review protocol + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自Bing News/Web/GitHub/GitTrend多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Anthropic喊停AI竞速：最强模型公司开始给自己装刹车了！",
+      "category": "AI治理",
+      "score": 96,
+      "batch_verdict": "pass",
+      "sources": [
+        "TechCrunch 2026-09-12：Anthropic CEO Dario Amodei提出三步计划，呼吁pace the frontier，并承诺给外部评估员接近内部团队的长期访问权。",
+        "NBC News 2026-09-12：OpenAI CEO Sam Altman公开支持“pace the frontier”，称OpenAI也会采用独立评估员访问机制。",
+        "CoinDesk / India Today 2026-09-12/13：Elon Musk也赞同放慢前沿模型竞速，行业讨论从单点安全事件转向共同标准与审计。"
+      ],
+      "hook": "Dario Amodei提出pace the frontier，Sam Altman跟进，独立评估员将进入前沿AI公司",
+      "angle": "从“AI安全恐慌”换轴到“前沿模型公司把外部审计嵌进研发流程”。",
+      "conclusion_D": "AI竞赛的新分水岭不是谁跑得最快，而是谁能证明自己跑得可控。",
+      "explosive_score": 96,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI竞赛的新分水岭不是谁跑得最快，而是谁能证明自己跑得可控。",
+        "axis": "从“AI安全恐慌”换轴到“前沿模型公司把外部审计嵌进研发流程”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 96,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "英伟达要投Anthropic IPO：AI算力房东开始给租客买单了！",
+      "category": "AI资本/算力",
+      "score": 95,
+      "batch_verdict": "pass",
+      "sources": [
+        "Reuters / StreetInsider 2026-09-11：Nvidia正洽谈成为Anthropic计划IPO的锚定投资人，金额最高可达100亿美元。",
+        "报道称Anthropic寻求最高1000亿美元募资，潜在估值约2万亿美元，计划仍在讨论中且可能变化。",
+        "报道同时提到Anthropic与Nvidia、Microsoft Azure、Amazon AWS、Google TPU/Broadcom等算力供应关系，体现模型公司与算力供应商的复杂绑定。"
+      ],
+      "hook": "Reuters称Nvidia考虑作为Anthropic超级IPO锚定投资人，算力供应链与资本市场进一步绑定",
+      "angle": "从“IPO融资”换轴到“GPU供应商、云资源、模型公司形成资本闭环”。",
+      "conclusion_D": "AI时代最硬的护城河，正在从模型参数转向算力账本和资本结构。",
+      "explosive_score": 95,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI时代最硬的护城河，正在从模型参数转向算力账本和资本结构。",
+        "axis": "从“IPO融资”换轴到“GPU供应商、云资源、模型公司形成资本闭环”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 95,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "800亿美元AI并购潮：最好的AI公司，可能不上市了！",
+      "category": "AI并购",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "Yahoo Finance 2026-09-12：8月14日至9月3日期间，三起AI相关收购或确认交易合计约804亿美元，而同期主要AI实验室IPO管线延后。",
+        "报道提到SpaceX收购Cursor、Nvidia收购Hugging Face、Stripe收购OpenRouter，体现战略买家更愿意为AI入口和基础设施付高价。",
+        "Value Add Pulse / TBPN Digest 2026-08/09：AI并购买方从传统科技巨头扩展到大规模私营公司与平台型企业，交易速度快于上市流程。"
+      ],
+      "hook": "Cursor、Hugging Face、OpenRouter等战略并购让AI退出路径从IPO转向大厂收购",
+      "angle": "从“单笔收购新闻”换轴到“AI退出路径从IPO转向战略并购”。",
+      "conclusion_D": "AI创业公司的终局正在变化，公开市场不再是唯一主舞台，大厂资产负债表才是更快出口。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI创业公司的终局正在变化，公开市场不再是唯一主舞台，大厂资产负债表才是更快出口。",
+        "axis": "从“单笔收购新闻”换轴到“AI退出路径从IPO转向战略并购”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "i-have-adhd冲上热榜：AI Agent开始学会别废话了！",
+      "category": "Agent交互",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend 2026-09-10：ayghri/i-have-adhd显示约3.48万星，定位为“stop your coding agent from burying the answer”的ADHD-friendly输出技能。",
+        "GitHub页面 2026-09-12抓取：项目已超过4万星，支持Claude Code、Codex、Cursor、Gemini、OpenCode等多种AI编码环境。",
+        "AIToolly 2026-09-12/13：该项目登上GitHub Trending，反映开发者对Agent输出清晰度和可执行性的需求上升。"
+      ],
+      "hook": "GitHub热门技能用规则约束AI编码助手输出，让答案前置、步骤编号、少废话",
+      "angle": "从“一个Prompt技能”换轴到“Agent输出的人机界面开始被重新设计”。",
+      "conclusion_D": "AI Agent越能干，越需要把答案前置、步骤清楚、噪音降到最低。",
+      "explosive_score": 90,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI Agent越能干，越需要把答案前置、步骤清楚、噪音降到最低。",
+        "axis": "从“一个Prompt技能”换轴到“Agent输出的人机界面开始被重新设计”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "Soup让8B模型跑上4GB显卡：本地微调又被打回笔记本了！",
+      "category": "本地AI",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub / Soup wiki：MakazhanAlpamys/Soup称可用layer streaming在4GB笔记本GPU上微调8B模型，示例峰值约3.32GB、119.6 tok/s。",
+        "Sudo Scout 2026-08-09：Soup通过把冻结基座模型从系统内存逐层流入GPU，降低LoRA微调显存门槛，并强调正确性验证。",
+        "Gennaro Automates / AIToolly 2026-08/09：Soup采用单YAML配置、自动批大小/GPU检测/量化，面向预算有限和重视数据本地化的开发者。"
+      ],
+      "hook": "开源工具Soup用layer streaming把8B模型微调压到4GB笔记本GPU，主打一个YAML配置",
+      "angle": "从“开源工具教程”换轴到“软件优化绕开昂贵GPU，把模型定制权下放”。",
+      "conclusion_D": "AI基础设施不只会越来越大，也会被聪明的软件工程重新压回个人电脑。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI基础设施不只会越来越大，也会被聪明的软件工程重新压回个人电脑。",
+        "axis": "从“开源工具教程”换轴到“软件优化绕开昂贵GPU，把模型定制权下放”。",
+        "why_worth": "读者能从单条新闻看到AI产业结构变化，而不是只记住融资数字或产品名。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Anthropic喊停AI竞速：最强模型公司开始给自己装刹车了！",
+      "thinking": "从“AI安全恐慌”换轴到“前沿模型公司把外部审计嵌进研发流程”。",
+      "conclusion_d": "AI竞赛的新分水岭不是谁跑得最快，而是谁能证明自己跑得可控。",
+      "score": 96,
+      "batch_verdict": "pass",
+      "slug": "anthropic-openai-ai-pacing",
+      "sources": [
+        "TechCrunch 2026-09-12：Anthropic CEO Dario Amodei提出三步计划，呼吁pace the frontier，并承诺给外部评估员接近内部团队的长期访问权。",
+        "NBC News 2026-09-12：OpenAI CEO Sam Altman公开支持“pace the frontier”，称OpenAI也会采用独立评估员访问机制。",
+        "CoinDesk / India Today 2026-09-12/13：Elon Musk也赞同放慢前沿模型竞速，行业讨论从单点安全事件转向共同标准与审计。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-06..2026-09-12 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "英伟达要投Anthropic IPO：AI算力房东开始给租客买单了！",
+      "thinking": "从“IPO融资”换轴到“GPU供应商、云资源、模型公司形成资本闭环”。",
+      "conclusion_d": "AI时代最硬的护城河，正在从模型参数转向算力账本和资本结构。",
+      "score": 95,
+      "batch_verdict": "pass",
+      "slug": "nvidia-anthropic-ipo-compute-landlord",
+      "sources": [
+        "Reuters / StreetInsider 2026-09-11：Nvidia正洽谈成为Anthropic计划IPO的锚定投资人，金额最高可达100亿美元。",
+        "报道称Anthropic寻求最高1000亿美元募资，潜在估值约2万亿美元，计划仍在讨论中且可能变化。",
+        "报道同时提到Anthropic与Nvidia、Microsoft Azure、Amazon AWS、Google TPU/Broadcom等算力供应关系，体现模型公司与算力供应商的复杂绑定。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-06..2026-09-12 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "800亿美元AI并购潮：最好的AI公司，可能不上市了！",
+      "thinking": "从“单笔收购新闻”换轴到“AI退出路径从IPO转向战略并购”。",
+      "conclusion_d": "AI创业公司的终局正在变化，公开市场不再是唯一主舞台，大厂资产负债表才是更快出口。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "ai-labs-ma-over-ipo",
+      "sources": [
+        "Yahoo Finance 2026-09-12：8月14日至9月3日期间，三起AI相关收购或确认交易合计约804亿美元，而同期主要AI实验室IPO管线延后。",
+        "报道提到SpaceX收购Cursor、Nvidia收购Hugging Face、Stripe收购OpenRouter，体现战略买家更愿意为AI入口和基础设施付高价。",
+        "Value Add Pulse / TBPN Digest 2026-08/09：AI并购买方从传统科技巨头扩展到大规模私营公司与平台型企业，交易速度快于上市流程。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-06..2026-09-12 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "i-have-adhd冲上热榜：AI Agent开始学会别废话了！",
+      "thinking": "从“一个Prompt技能”换轴到“Agent输出的人机界面开始被重新设计”。",
+      "conclusion_d": "AI Agent越能干，越需要把答案前置、步骤清楚、噪音降到最低。",
+      "score": 90,
+      "batch_verdict": "pass",
+      "slug": "i-have-adhd-agent-output",
+      "sources": [
+        "GitTrend 2026-09-10：ayghri/i-have-adhd显示约3.48万星，定位为“stop your coding agent from burying the answer”的ADHD-friendly输出技能。",
+        "GitHub页面 2026-09-12抓取：项目已超过4万星，支持Claude Code、Codex、Cursor、Gemini、OpenCode等多种AI编码环境。",
+        "AIToolly 2026-09-12/13：该项目登上GitHub Trending，反映开发者对Agent输出清晰度和可执行性的需求上升。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-06..2026-09-12 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Soup让8B模型跑上4GB显卡：本地微调又被打回笔记本了！",
+      "thinking": "从“开源工具教程”换轴到“软件优化绕开昂贵GPU，把模型定制权下放”。",
+      "conclusion_d": "AI基础设施不只会越来越大，也会被聪明的软件工程重新压回个人电脑。",
+      "score": 88,
+      "batch_verdict": "pass",
+      "slug": "soup-local-llm-finetune",
+      "sources": [
+        "GitHub / Soup wiki：MakazhanAlpamys/Soup称可用layer streaming在4GB笔记本GPU上微调8B模型，示例峰值约3.32GB、119.6 tok/s。",
+        "Sudo Scout 2026-08-09：Soup通过把冻结基座模型从系统内存逐层流入GPU，降低LoRA微调显存门槛，并强调正确性验证。",
+        "Gennaro Automates / AIToolly 2026-08/09：Soup采用单YAML配置、自动批大小/GPU检测/量化，面向预算有限和重视数据本地化的开发者。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-06..2026-09-12 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "OpenAI金融服务/Harvey/Positron/GPT-6 Astra泛能力",
+      "reason": "2026-09-11已覆盖主角或同角度，Step 3.5查重kill。"
+    },
+    {
+      "topic": "AI竞速中国因素单独成文",
+      "reason": "涉及敏感地缘叙事，自动模式直接kill；正文仅以行业治理和审计为主，不展开政治角度。"
+    },
+    {
+      "topic": "Nvidia/Anthropic股票交易视角",
+      "reason": "个股推荐风险，kill；只保留产业结构分析。"
+    }
+  ]
+}

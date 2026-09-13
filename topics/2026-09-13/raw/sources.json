@@ -1,0 +1,10 @@
+{
+  "bing_news_web_sources": [
+    "TechCrunch/NBC/CoinDesk/India Today: AI pacing and embedded evaluators",
+    "Reuters/StreetInsider/Yahoo Finance: Nvidia anchor investor in Anthropic IPO",
+    "Yahoo Finance/Value Add Pulse/TBPN: AI M&A vs IPO path",
+    "GitTrend/GitHub/AIToolly: i-have-adhd skill trending",
+    "GitHub/Sudo Scout/Gennaro/AIToolly: Soup local 8B fine-tune on 4GB GPU"
+  ],
+  "generated_from": "Bing Grounding searches at cron runtime"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "04-i-have-adhd-agent-output",
+  "date": "2026-09-13",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/04-i-have-adhd-agent-output",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-i-have-adhd-agent-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/04-i-have-adhd-agent-output/01-04-i-have-adhd-agent-output-infographic.jpg",
+      "caption": "爆火的不是功能，是少说废话",
+      "anchor": "爆火的不是功能，是少说废话",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-i-have-adhd-agent-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/04-i-have-adhd-agent-output/02-04-i-have-adhd-agent-output-infographic.jpg",
+      "caption": "Agent越复杂，输出越要像仪表盘",
+      "anchor": "Agent越复杂，输出越要像仪表盘",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-i-have-adhd-agent-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/04-i-have-adhd-agent-output/03-04-i-have-adhd-agent-output-infographic.jpg",
+      "caption": "这是认知友好，也是生产力友好",
+      "anchor": "这是认知友好，也是生产力友好",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-i-have-adhd-agent-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-13/illustrations/04-i-have-adhd-agent-output/04-04-i-have-adhd-agent-output-infographic.jpg",
+      "caption": "提示词正在变成产品层",
+      "anchor": "提示词正在变成产品层",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权与敏感人物风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、个股推荐表达或抽象发光科幻图。"
+}

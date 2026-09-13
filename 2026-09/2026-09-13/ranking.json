@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic喊停AI竞速：最强模型公司开始给自己装刹车了！",
+      "slug": "01-anthropic-openai-ai-pacing",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "英伟达要投Anthropic IPO：AI算力房东开始给租客买单了！",
+      "slug": "02-nvidia-anthropic-ipo-compute-landlord",
+      "score": 95,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "800亿美元AI并购潮：最好的AI公司，可能不上市了！",
+      "slug": "03-ai-labs-ma-over-ipo",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "i-have-adhd冲上热榜：AI Agent开始学会别废话了！",
+      "slug": "04-i-have-adhd-agent-output",
+      "score": 90,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Soup让8B模型跑上4GB显卡：本地微调又被打回笔记本了！",
+      "slug": "05-soup-local-llm-finetune",
+      "score": 88,
+      "illustrations": 4
+    }
+  ]
+}
