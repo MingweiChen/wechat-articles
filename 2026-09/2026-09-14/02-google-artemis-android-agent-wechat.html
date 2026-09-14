@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Google Artemis开源：AI Agent终于能真机操作安卓了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-14</div><h1>Google Artemis开源：AI Agent终于能真机操作安卓了！</h1>
+<blockquote>AI Agent要进入现实世界，第一站不是机器人，而是你手里的手机。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>GitTrend 2026-09-12/13：google/artemis进入GitHub Trending，描述为让AI助手用自然语言操作真实Android手机或模拟器。</li>
+<li>GhTrends.dev 2026-09-13：Artemis可通过MCP接入编码助手，驱动设备并回传截图与Logcat日志，浏览器界面实时镜像屏幕。</li>
+<li>GitTrend Monthly 2026-09：google/artemis月榜第43，称其在AndroidWorld Benchmark达到99%+成功率。</li>
+</ul>
+<h2>Agent终于从网页走到手机屏幕</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/01-02-google-artemis-android-agent-infographic.jpg" alt="Agent终于从网页走到手机屏幕"/><figcaption>Agent终于从网页走到手机屏幕</figcaption></figure>
+<p>过去很多AI Agent的舞台是浏览器：点按钮、填表单、抓网页。Artemis把舞台换成Android手机和模拟器。它允许AI助手用自然语言执行移动端任务，同时拿到截图、日志和设备状态。这听起来像测试工具，但本质上是给Agent接上了真实移动设备的执行层。</p>
+<h2>手机比浏览器更接近真实工作流</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/02-02-google-artemis-android-agent-infographic.jpg" alt="手机比浏览器更接近真实工作流"/><figcaption>手机比浏览器更接近真实工作流</figcaption></figure>
+<p>很多真实任务并不发生在网页里，而发生在App里：登录、授权、推送、相机、定位、支付、系统设置、异常弹窗。网页Agent再强，也碰不到这些移动端细节。Artemis让编码助手可以在真机或模拟器里复现问题、看Logcat、点击真实界面，意味着AI不再只是写测试代码，而是能参与“发现问题—复现问题—修复问题—验证结果”的闭环。</p>
+<h2>MCP让设备变成可调用工具</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/03-02-google-artemis-android-agent-infographic.jpg" alt="MCP让设备变成可调用工具"/><figcaption>MCP让设备变成可调用工具</figcaption></figure>
+<p>Artemis通过MCP接入AI编码助手，这一点很关键。它不是做一个孤立自动化脚本，而是把手机能力封装成Agent可以调用的工具：截图、操作、日志、状态都变成上下文。未来一个修Bug的Agent，可能会先改代码，再把App装到模拟器里跑一遍，发现崩溃后直接读日志继续修。</p>
+<h2>现实世界入口先从可控设备开始</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/04-02-google-artemis-android-agent-infographic.jpg" alt="现实世界入口先从可控设备开始"/><figcaption>现实世界入口先从可控设备开始</figcaption></figure>
+<p>谈到AI进入现实世界，很多人第一反应是机器人。但机器人复杂、昂贵、风险高。手机更现实：它有标准系统、丰富传感器、海量应用、可重置环境和明确权限边界。Artemis的意义在于，Agent落地不一定先去搬箱子，可能先学会可靠地操作一台手机。</p>
+<h2>最后一句</h2>
+<p>Artemis把AI Agent从“会写移动端代码”推进到“能亲自操作移动端环境”。当设备也变成工具，软件开发的最后一公里——真机验证和真实交互——会被Agent吃掉很大一块。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻分析，不涉及中国政治红线，不包含个股推荐；公司、产品、融资和趋势仅作新闻事实与行业观察。*</p>
+</main></body></html>

@@ -1,0 +1,53 @@
+{
+  "slug": "04-agent-governance-stack",
+  "date": "2026-09-14",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/04-agent-governance-stack",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-agent-governance-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/04-agent-governance-stack/01-04-agent-governance-stack-infographic.jpg",
+      "caption": "企业AI的问题从“能不能做”变成“谁允许它做”",
+      "anchor": "企业AI的问题从“能不能做”变成“谁允许它做”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-agent-governance-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/04-agent-governance-stack/02-04-agent-governance-stack-infographic.jpg",
+      "caption": "身份只是第一层，行为还要被约束",
+      "anchor": "身份只是第一层，行为还要被约束",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-agent-governance-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/04-agent-governance-stack/03-04-agent-governance-stack-infographic.jpg",
+      "caption": "治理正在从功能变成基础设施",
+      "anchor": "治理正在从功能变成基础设施",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-agent-governance-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/04-agent-governance-stack/04-04-agent-governance-stack-infographic.jpg",
+      "caption": "没有治理，Agent越强越危险",
+      "anchor": "没有治理，Agent越强越危险",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、国旗、个股推荐表达或抽象发光科幻图。"
+}

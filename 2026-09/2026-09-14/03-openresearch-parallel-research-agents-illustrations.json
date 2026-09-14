@@ -1,0 +1,53 @@
+{
+  "slug": "03-openresearch-parallel-research-agents",
+  "date": "2026-09-14",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/03-openresearch-parallel-research-agents",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-openresearch-parallel-research-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/03-openresearch-parallel-research-agents/01-03-openresearch-parallel-research-agents-infographic.jpg",
+      "caption": "研究Agent不再只负责“帮我查一下”",
+      "anchor": "研究Agent不再只负责“帮我查一下”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-openresearch-parallel-research-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/03-openresearch-parallel-research-agents/02-03-openresearch-parallel-research-agents-infographic.jpg",
+      "caption": "并行化改变的是研究节奏",
+      "anchor": "并行化改变的是研究节奏",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-openresearch-parallel-research-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/03-openresearch-parallel-research-agents/03-03-openresearch-parallel-research-agents-infographic.jpg",
+      "caption": "关键不在模型，而在工作协议",
+      "anchor": "关键不在模型，而在工作协议",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-openresearch-parallel-research-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/03-openresearch-parallel-research-agents/04-03-openresearch-parallel-research-agents-infographic.jpg",
+      "caption": "科研自动化会先服务工程和内容团队",
+      "anchor": "科研自动化会先服务工程和内容团队",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、国旗、个股推荐表达或抽象发光科幻图。"
+}

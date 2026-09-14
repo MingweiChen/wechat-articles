@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Colibri冲上GitHub第一：744B大模型，开始从硬盘里“流”出来了！",
+      "slug": "01-colibri-disk-streaming-local-moe",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Google Artemis开源：AI Agent终于能真机操作安卓了！",
+      "slug": "02-google-artemis-android-agent",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "OpenResearch爆火：科研Agent开始学会“分身并行”了！",
+      "slug": "03-openresearch-parallel-research-agents",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Agent治理栈两周成形：企业终于开始给AI员工办工牌了！",
+      "slug": "04-agent-governance-stack",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "OpenMontage冲上热榜：AI视频生产开始从模型变成片场了！",
+      "slug": "05-openmontage-agentic-video-studio",
+      "score": 89,
+      "illustrations": 4
+    }
+  ]
+}

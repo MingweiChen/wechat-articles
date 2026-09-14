@@ -1,0 +1,53 @@
+{
+  "slug": "02-google-artemis-android-agent",
+  "date": "2026-09-14",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-google-artemis-android-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/01-02-google-artemis-android-agent-infographic.jpg",
+      "caption": "Agent终于从网页走到手机屏幕",
+      "anchor": "Agent终于从网页走到手机屏幕",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-google-artemis-android-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/02-02-google-artemis-android-agent-infographic.jpg",
+      "caption": "手机比浏览器更接近真实工作流",
+      "anchor": "手机比浏览器更接近真实工作流",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-google-artemis-android-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/03-02-google-artemis-android-agent-infographic.jpg",
+      "caption": "MCP让设备变成可调用工具",
+      "anchor": "MCP让设备变成可调用工具",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-google-artemis-android-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/02-google-artemis-android-agent/04-02-google-artemis-android-agent-infographic.jpg",
+      "caption": "现实世界入口先从可控设备开始",
+      "anchor": "现实世界入口先从可控设备开始",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、国旗、个股推荐表达或抽象发光科幻图。"
+}

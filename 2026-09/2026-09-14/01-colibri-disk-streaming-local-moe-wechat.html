@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Colibri冲上GitHub第一：744B大模型，开始从硬盘里“流”出来了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-14</div><h1>Colibri冲上GitHub第一：744B大模型，开始从硬盘里“流”出来了！</h1>
+<blockquote>本地AI的下一次突破，不是买更贵显卡，而是让软件重新定义内存边界。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>OrangeBot GitHub Trending Today 2026-09-14：JustVugg/colibri位列今日GitHub Trending第1。</li>
+<li>GhTrends.dev 2026-09-13：colibri是零依赖纯C推理引擎，把MoE专家从磁盘流式加载，README示例显示744B模型在普通桌面约32秒回答。</li>
+<li>GitTrend AI Infrastructure 2026-09-13：colibri位列AI Infrastructure趋势榜第2，描述为“Run frontier MoE models on hardware you already own”。</li>
+</ul>
+<h2>第一名不是新模型，是一台“内存搬运机”</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/01-01-colibri-disk-streaming-local-moe-infographic.jpg" alt="第一名不是新模型，是一台“内存搬运机”"/><figcaption>第一名不是新模型，是一台“内存搬运机”</figcaption></figure>
+<p>今天GitHub最热的AI项目很反直觉：Colibri不是训练了一个更强模型，而是试图让巨型MoE模型在普通硬件上跑起来。它用纯C、零依赖，把专家层从磁盘流式加载，把显存、内存和SSD当成一个分层系统。爆点不在速度碾压云端，而在“原来大模型不一定要一次性塞进显卡”。</p>
+<h2>MoE模型给了本地AI一个缝隙</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/02-01-colibri-disk-streaming-local-moe-infographic.jpg" alt="MoE模型给了本地AI一个缝隙"/><figcaption>MoE模型给了本地AI一个缝隙</figcaption></figure>
+<p>MoE的特点是参数总量巨大，但每次推理只激活一部分专家。Colibri抓住这个结构：既然不是每个参数都同时工作，就可以把不活跃的专家放在更慢但更便宜的存储里，需要时再搬进来。它牺牲一部分速度，换来硬件门槛骤降。这是典型的软件工程思维：不和物理限制硬撞，而是重排数据流。</p>
+<h2>本地大模型的价值不是省钱那么简单</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/03-01-colibri-disk-streaming-local-moe-infographic.jpg" alt="本地大模型的价值不是省钱那么简单"/><figcaption>本地大模型的价值不是省钱那么简单</figcaption></figure>
+<p>能在自己机器上跑更大的模型，意义不只是少付API费。它意味着隐私数据不用离开设备，实验者可以拆模型、看专家层、改运行策略，中小团队也能验证过去只有大厂集群才能碰的推理路径。哪怕今天还像研究平台，它也会把开发者的想象力从“我没有GPU所以不能玩”里解放出来。</p>
+<h2>硬件焦虑会被系统软件反复打穿</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/04-01-colibri-disk-streaming-local-moe-infographic.jpg" alt="硬件焦虑会被系统软件反复打穿"/><figcaption>硬件焦虑会被系统软件反复打穿</figcaption></figure>
+<p>AI圈很容易形成一种线性叙事：模型越大，硬件越贵，门槛越高。但历史上很多基础设施突破，都是靠系统软件把昂贵资源重新切片。量化、分页、KV缓存、 speculative decoding、磁盘流式加载，本质都在做同一件事：让有限硬件看起来像更大的机器。Colibri的走红说明，本地AI不会只是小模型路线，也会有“用工程把巨兽拖回桌面”的路线。</p>
+<h2>最后一句</h2>
+<p>Colibri未必马上变成大众工具，但它给了本地AI一个重要方向：如果不能无限堆显卡，就重新设计模型和硬件之间的数据流。未来的本地AI竞争，拼的不只是模型大小，也拼谁更会调度内存、缓存和磁盘。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻分析，不涉及中国政治红线，不包含个股推荐；公司、产品、融资和趋势仅作新闻事实与行业观察。*</p>
+</main></body></html>

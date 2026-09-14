@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-14",
+  "generated_at_utc": "2026-09-14T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无个股推荐。",
+  "dedup_basis": [
+    "2026-09-13: Anthropic/OpenAI AI竞速治理、Nvidia-Anthropic IPO、AI并购替代IPO、i-have-adhd、Soup本地微调",
+    "2026-09-11: OpenAI金融服务、Positron推理芯片、GPT-6 Astra、Harvey法律AI、GitHub Agent基建",
+    "2026-09-10: Cognition、Mistral、小鹏IRON、Clay、Qualcomm+AWS",
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM",
+    "2026-09-08: Hyperframes、K2 Horizon、Context-mode、AI浏览器、VS Code Rubber Duck",
+    "2026-09-07: Nvidia-HuggingFace、AI价格战、700GW电网、Archify、VoiceStudio"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-07..2026-09-13",
+    "result": "剔除VoiceStudio、agent-skills/OpenAI skills、DeepSeek Harness/Ponytail、Hyperframes同角度、交易/股票导向、政治敏感叙事；保留Colibri、Google Artemis、OpenResearch、Agent治理栈、OpenMontage五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴：内存边界重组、移动设备执行层、研究过程并行化、治理控制层独立、视频生产流水线Agent化。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent review protocol + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无荐股；与过去7天低重复；爆点来自Bing Grounding/GitHub Trending/GitTrend/OrangeBot/Yahoo Finance多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Colibri冲上GitHub第一：744B大模型，开始从硬盘里“流”出来了！",
+      "category": "本地AI/推理",
+      "score": 96,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：JustVugg/colibri位列今日GitHub Trending第1。",
+        "GhTrends.dev 2026-09-13：colibri是零依赖纯C推理引擎，把MoE专家从磁盘流式加载，README示例显示744B模型在普通桌面约32秒回答。",
+        "GitTrend AI Infrastructure 2026-09-13：colibri位列AI Infrastructure趋势榜第2，描述为“Run frontier MoE models on hardware you already own”。"
+      ],
+      "hook": "JustVugg/colibri登顶GitHub Trending，用纯C和磁盘流式专家层让巨型MoE跑上普通桌面",
+      "angle": "从“本地跑大模型”换轴到“VRAM/RAM/SSD被软件工程重组为统一记忆层”。",
+      "conclusion_D": "本地AI的下一次突破，不是买更贵显卡，而是让软件重新定义内存边界。",
+      "explosive_score": 96,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：本地AI的下一次突破，不是买更贵显卡，而是让软件重新定义内存边界。",
+        "axis": "从“本地跑大模型”换轴到“VRAM/RAM/SSD被软件工程重组为统一记忆层”。",
+        "why_worth": "读者能从单条热榜/新闻看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 96,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 2,
+      "topic": "Google Artemis开源：AI Agent终于能真机操作安卓了！",
+      "category": "AI测试/移动Agent",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend 2026-09-12/13：google/artemis进入GitHub Trending，描述为让AI助手用自然语言操作真实Android手机或模拟器。",
+        "GhTrends.dev 2026-09-13：Artemis可通过MCP接入编码助手，驱动设备并回传截图与Logcat日志，浏览器界面实时镜像屏幕。",
+        "GitTrend Monthly 2026-09：google/artemis月榜第43，称其在AndroidWorld Benchmark达到99%+成功率。"
+      ],
+      "hook": "Google开源Artemis，用自然语言驱动真实Android手机/模拟器测试，并通过MCP接入编码助手",
+      "angle": "从“手机自动化测试工具”换轴到“Agent进入真实移动设备执行层”。",
+      "conclusion_D": "AI Agent要进入现实世界，第一站不是机器人，而是你手里的手机。",
+      "explosive_score": 94,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI Agent要进入现实世界，第一站不是机器人，而是你手里的手机。",
+        "axis": "从“手机自动化测试工具”换轴到“Agent进入真实移动设备执行层”。",
+        "why_worth": "读者能从单条热榜/新闻看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 3,
+      "topic": "OpenResearch爆火：科研Agent开始学会“分身并行”了！",
+      "category": "科研Agent",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：alphaXiv/OpenResearch进入今日趋势榜。",
+        "StartupCorners 2026-09-13：OpenResearch被描述为“Run parallel research agents with any model”，同日hyperresearch、OpenResearch等研究Agent集中上榜。",
+        "GitTrend AI Workflow 2026-09-14：alphaXiv/OpenResearch位列AI Workflow趋势榜第6，EvoMap/AutoResearch、NVlabs/SoL-Pi等自动研究循环项目也同时升温。"
+      ],
+      "hook": "alphaXiv/OpenResearch与多款研究Agent上榜，开发者开始把研究过程拆成并发任务",
+      "angle": "从“AI帮你搜论文”换轴到“多个研究Agent并发假设、检索、证据合成”。",
+      "conclusion_D": "AI科研的生产力跃迁，不在单个回答更聪明，而在研究过程被并行化。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI科研的生产力跃迁，不在单个回答更聪明，而在研究过程被并行化。",
+        "axis": "从“AI帮你搜论文”换轴到“多个研究Agent并发假设、检索、证据合成”。",
+        "why_worth": "读者能从单条热榜/新闻看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 4,
+      "topic": "Agent治理栈两周成形：企业终于开始给AI员工办工牌了！",
+      "category": "企业AI治理",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "Yahoo Finance 2026-09-12：两周内Okta Agent SSO、IBM watsonx Orchestrate AgentOps、Broadcom AgentMinder、Dataiku Agent Management等四类产品相继出现。",
+        "报道指出这些产品分别从身份、编排、运行时安全、业务绩效监控切入，并把治理作为独立基础设施出售。",
+        "Okta 2026 AI Agents at Work报告被引用称，仅约34%的组织对AI Agent应用与人类员工相同级别的安全控制。"
+      ],
+      "hook": "Okta、IBM、Broadcom、Dataiku密集推出Agent治理产品，身份、权限、审计、绩效开始独立成层",
+      "angle": "串点Okta、IBM、Broadcom、Dataiku，说明Agent控制层开始独立成市场。",
+      "conclusion_D": "企业真正缺的不是更多Agent，而是一套知道谁能做什么、做得好不好的控制层。",
+      "explosive_score": 91,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业真正缺的不是更多Agent，而是一套知道谁能做什么、做得好不好的控制层。",
+        "axis": "串点Okta、IBM、Broadcom、Dataiku，说明Agent控制层开始独立成市场。",
+        "why_worth": "读者能从单条热榜/新闻看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    },
+    {
+      "rank": 5,
+      "topic": "OpenMontage冲上热榜：AI视频生产开始从模型变成片场了！",
+      "category": "AI视频工作流",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：calesthio/OpenMontage位列今日GitHub Trending第6。",
+        "GitTrend AI Workflow 2026-09-14：OpenMontage位列AI Workflow趋势榜第4，描述为开源agentic video production system。",
+        "GitTrend Monthly 2026-09：OpenMontage月榜显示约5.79万星、+3.0k星增长，定位为12条生产流水线、100+工具、700+ agent skill与production-knowledge文件。"
+      ],
+      "hook": "OpenMontage以12条生产流水线、100+工具和700+技能文件，把视频制作包装成Agent可编排系统",
+      "angle": "从“又一个视频生成工具”换轴到“脚本、素材、剪辑、配音、交付流水线的Agent化”。",
+      "conclusion_D": "AI视频的下一步不是更会生成一段画面，而是把整条制作流水线交给Agent编排。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI视频的下一步不是更会生成一段画面，而是把整条制作流水线交给Agent编排。",
+        "axis": "从“又一个视频生成工具”换轴到“脚本、素材、剪辑、配音、交付流水线的Agent化”。",
+        "why_worth": "读者能从单条热榜/新闻看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无个股推荐。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Colibri冲上GitHub第一：744B大模型，开始从硬盘里“流”出来了！",
+      "thinking": "从“本地跑大模型”换轴到“VRAM/RAM/SSD被软件工程重组为统一记忆层”。",
+      "conclusion_d": "本地AI的下一次突破，不是买更贵显卡，而是让软件重新定义内存边界。",
+      "score": 96,
+      "batch_verdict": "pass",
+      "slug": "colibri-disk-streaming-local-moe",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：JustVugg/colibri位列今日GitHub Trending第1。",
+        "GhTrends.dev 2026-09-13：colibri是零依赖纯C推理引擎，把MoE专家从磁盘流式加载，README示例显示744B模型在普通桌面约32秒回答。",
+        "GitTrend AI Infrastructure 2026-09-13：colibri位列AI Infrastructure趋势榜第2，描述为“Run frontier MoE models on hardware you already own”。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-07..2026-09-13 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Google Artemis开源：AI Agent终于能真机操作安卓了！",
+      "thinking": "从“手机自动化测试工具”换轴到“Agent进入真实移动设备执行层”。",
+      "conclusion_d": "AI Agent要进入现实世界，第一站不是机器人，而是你手里的手机。",
+      "score": 94,
+      "batch_verdict": "pass",
+      "slug": "google-artemis-android-agent",
+      "sources": [
+        "GitTrend 2026-09-12/13：google/artemis进入GitHub Trending，描述为让AI助手用自然语言操作真实Android手机或模拟器。",
+        "GhTrends.dev 2026-09-13：Artemis可通过MCP接入编码助手，驱动设备并回传截图与Logcat日志，浏览器界面实时镜像屏幕。",
+        "GitTrend Monthly 2026-09：google/artemis月榜第43，称其在AndroidWorld Benchmark达到99%+成功率。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-07..2026-09-13 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "OpenResearch爆火：科研Agent开始学会“分身并行”了！",
+      "thinking": "从“AI帮你搜论文”换轴到“多个研究Agent并发假设、检索、证据合成”。",
+      "conclusion_d": "AI科研的生产力跃迁，不在单个回答更聪明，而在研究过程被并行化。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "openresearch-parallel-research-agents",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：alphaXiv/OpenResearch进入今日趋势榜。",
+        "StartupCorners 2026-09-13：OpenResearch被描述为“Run parallel research agents with any model”，同日hyperresearch、OpenResearch等研究Agent集中上榜。",
+        "GitTrend AI Workflow 2026-09-14：alphaXiv/OpenResearch位列AI Workflow趋势榜第6，EvoMap/AutoResearch、NVlabs/SoL-Pi等自动研究循环项目也同时升温。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-07..2026-09-13 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Agent治理栈两周成形：企业终于开始给AI员工办工牌了！",
+      "thinking": "串点Okta、IBM、Broadcom、Dataiku，说明Agent控制层开始独立成市场。",
+      "conclusion_d": "企业真正缺的不是更多Agent，而是一套知道谁能做什么、做得好不好的控制层。",
+      "score": 91,
+      "batch_verdict": "pass",
+      "slug": "agent-governance-stack",
+      "sources": [
+        "Yahoo Finance 2026-09-12：两周内Okta Agent SSO、IBM watsonx Orchestrate AgentOps、Broadcom AgentMinder、Dataiku Agent Management等四类产品相继出现。",
+        "报道指出这些产品分别从身份、编排、运行时安全、业务绩效监控切入，并把治理作为独立基础设施出售。",
+        "Okta 2026 AI Agents at Work报告被引用称，仅约34%的组织对AI Agent应用与人类员工相同级别的安全控制。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-07..2026-09-13 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "OpenMontage冲上热榜：AI视频生产开始从模型变成片场了！",
+      "thinking": "从“又一个视频生成工具”换轴到“脚本、素材、剪辑、配音、交付流水线的Agent化”。",
+      "conclusion_d": "AI视频的下一步不是更会生成一段画面，而是把整条制作流水线交给Agent编排。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "openmontage-agentic-video-studio",
+      "sources": [
+        "OrangeBot GitHub Trending Today 2026-09-14：calesthio/OpenMontage位列今日GitHub Trending第6。",
+        "GitTrend AI Workflow 2026-09-14：OpenMontage位列AI Workflow趋势榜第4，描述为开源agentic video production system。",
+        "GitTrend Monthly 2026-09：OpenMontage月榜显示约5.79万星、+3.0k星增长，定位为12条生产流水线、100+工具、700+ agent skill与production-knowledge文件。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-07..2026-09-13 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "VoiceStudio/本地语音工作站",
+      "reason": "2026-09-07已发VoiceStudio同主角，Step 3.5查重kill。"
+    },
+    {
+      "topic": "agent-skills/OpenAI skills/技能商店",
+      "reason": "2026-09-09已发OpenAI skills同角度，Step 3.5查重kill。"
+    },
+    {
+      "topic": "交易Agent/个股或币价视角",
+      "reason": "个股/资产建议风险，自动模式kill；不进入撰写。"
+    },
+    {
+      "topic": "系统提示泄露库细节教程",
+      "reason": "可能涉及敏感提示与隐私/滥用风险，仅作为趋势观察，不单独成文。"
+    }
+  ]
+}

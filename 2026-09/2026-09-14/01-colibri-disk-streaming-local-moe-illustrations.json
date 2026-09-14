@@ -1,0 +1,53 @@
+{
+  "slug": "01-colibri-disk-streaming-local-moe",
+  "date": "2026-09-14",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/01-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "caption": "第一名不是新模型，是一台“内存搬运机”",
+      "anchor": "第一名不是新模型，是一台“内存搬运机”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/02-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "caption": "MoE模型给了本地AI一个缝隙",
+      "anchor": "MoE模型给了本地AI一个缝隙",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/03-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "caption": "本地大模型的价值不是省钱那么简单",
+      "anchor": "本地大模型的价值不是省钱那么简单",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/01-colibri-disk-streaming-local-moe/04-01-colibri-disk-streaming-local-moe-infographic.jpg",
+      "caption": "硬件焦虑会被系统软件反复打穿",
+      "anchor": "硬件焦虑会被系统软件反复打穿",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、国旗、个股推荐表达或抽象发光科幻图。"
+}

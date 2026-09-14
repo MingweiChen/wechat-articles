@@ -1,0 +1,53 @@
+{
+  "slug": "05-openmontage-agentic-video-studio",
+  "date": "2026-09-14",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/05-openmontage-agentic-video-studio",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-openmontage-agentic-video-studio-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/05-openmontage-agentic-video-studio/01-05-openmontage-agentic-video-studio-infographic.jpg",
+      "caption": "AI视频不缺“生成一段画面”了",
+      "anchor": "AI视频不缺“生成一段画面”了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-openmontage-agentic-video-studio-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/05-openmontage-agentic-video-studio/02-05-openmontage-agentic-video-studio-infographic.jpg",
+      "caption": "片场思维比模型思维更接近交付",
+      "anchor": "片场思维比模型思维更接近交付",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-openmontage-agentic-video-studio-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/05-openmontage-agentic-video-studio/03-05-openmontage-agentic-video-studio-infographic.jpg",
+      "caption": "开源视频流水线会降低小团队门槛",
+      "anchor": "开源视频流水线会降低小团队门槛",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-openmontage-agentic-video-studio-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-14/illustrations/05-openmontage-agentic-video-studio/04-05-openmontage-agentic-video-studio-infographic.jpg",
+      "caption": "真正的竞争会转向工作流资产",
+      "anchor": "真正的竞争会转向工作流资产",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、国旗与个股表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、国旗、个股推荐表达或抽象发光科幻图。"
+}
