@@ -1,0 +1,53 @@
+{
+  "slug": "03-alibaba-open-code-review",
+  "date": "2026-09-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-alibaba-open-code-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/01-03-alibaba-open-code-review-infographic.jpg",
+      "caption": "代码审查正在成为AI时代的瓶颈",
+      "anchor": "代码审查正在成为AI时代的瓶颈",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-alibaba-open-code-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/02-03-alibaba-open-code-review-infographic.jpg",
+      "caption": "它不是让大模型自由发挥",
+      "anchor": "它不是让大模型自由发挥",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-alibaba-open-code-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/03-03-alibaba-open-code-review-infographic.jpg",
+      "caption": "低噪声比全覆盖更值钱",
+      "anchor": "低噪声比全覆盖更值钱",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-alibaba-open-code-review-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/04-03-alibaba-open-code-review-infographic.jpg",
+      "caption": "AI代码工具会先把流程拆开",
+      "anchor": "AI代码工具会先把流程拆开",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

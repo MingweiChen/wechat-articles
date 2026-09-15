@@ -1,0 +1,271 @@
+{
+  "date": "2026-09-15",
+  "generated_at_utc": "2026-09-15T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、外政魔鬼化叙事；本批无政治题、无投资建议。",
+  "dedup_basis": [
+    "2026-09-14: Colibri、Google Artemis、OpenResearch、Agent治理栈、OpenMontage",
+    "2026-09-13: Anthropic减速、Nvidia-Anthropic IPO、AI并购、i-have-adhd、Soup",
+    "2026-09-11: OpenAI金融服务、Positron、GPT-6 Astra、Harvey、GitHub Agent基建",
+    "2026-09-10: Cognition、Mistral、小鹏IRON、Clay、Qualcomm+AWS",
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-09..2026-09-14",
+    "result": "剔除GPT-6 Astra、OpenAI金融服务、Anthropic减速、Google Artemis、OpenResearch、OpenMontage、Agent治理栈等已发或同质角度；剔除交易/资产建议与政治敏感叙事；保留Apple Siri AI、LangWatch、Open Code Review、LG自主实验室、YuE2五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴：系统级个人上下文入口、Agent可测试可追踪基础设施、确定性工程+Agent审查、模型+机器人实验闭环、可编辑符号乐谱中间层。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent review protocol + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无投资建议；与过去7天低重复；爆点来自Bing Grounding/Apple/GitTrend/GitGenius/GitHub/Seoul Economic Daily/AI-TLDR多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Siri AI上线：苹果把个人助理塞回系统层了！",
+      "category": "Apple/系统AI",
+      "score": 95,
+      "batch_verdict": "pass",
+      "sources": [
+        "Apple Newsroom 2026-09-14：Siri AI开始以英文beta推出，强调个人上下文理解、屏幕感知、世界知识和系统级App动作。",
+        "MethodShop 2026-09-13：macOS 27 Golden Gate把Siri AI接入Spotlight、右键菜单和系统设置，与Windows Copilot/Recall形成桌面AI入口竞争。",
+        "Bing News 2026-09-14：多家科技媒体把这次更新视作Apple Intelligence真正进入日常系统体验的节点。"
+      ],
+      "hook": "Apple在9月14日发布新一代Apple Intelligence与Siri AI，把个人上下文、屏幕理解和系统级操作接进助手",
+      "angle": "从“苹果终于补AI课”换轴到“系统级个人上下文入口重新开战”。",
+      "conclusion_D": "真正的AI入口不是聊天框，而是操作系统里能读懂你当下场景的那一层。",
+      "explosive_score": 95,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：真正的AI入口不是聊天框，而是操作系统里能读懂你当下场景的那一层。",
+        "axis": "从“苹果终于补AI课”换轴到“系统级个人上下文入口重新开战”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住产品名。"
+      },
+      "review_score": 95,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 2,
+      "topic": "LangWatch登顶AI Workflow：Agent开始需要“安全带”和“行车记录仪”了！",
+      "category": "AI工程/评测",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend AI Workflow 2026-09-14：langwatch/langwatch位列AI Workflow趋势榜第1，描述为LLM evaluations与AI agent testing平台。",
+        "GitHub 2026-09-15抓取：LangWatch项目约4.8k星，提供OpenTelemetry tracing、evaluations、agent testing、prompt management与AI gateway能力。",
+        "DiscoverAI 2026-09-03：LangWatch适合把对话Agent上线前场景模拟和上线后trace检查放进同一工作流，但仍需校准评测器和代表性样本。"
+      ],
+      "hook": "LangWatch在AI Workflow热榜冲到第一，把LLM观测、评测、Agent场景模拟、Prompt版本和AI网关收进一套生产工具链",
+      "angle": "从“又一个观测平台”换轴到“Agent测试/追踪/预算控制成为生产基础设施”。",
+      "conclusion_D": "企业AI的瓶颈正在从模型能力，转向上线前怎么测、上线后怎么追责。",
+      "explosive_score": 93,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业AI的瓶颈正在从模型能力，转向上线前怎么测、上线后怎么追责。",
+        "axis": "从“又一个观测平台”换轴到“Agent测试/追踪/预算控制成为生产基础设施”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住产品名。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 3,
+      "topic": "阿里开源Open Code Review：代码审查要从“人看Diff”变成“AI先过筛”了！",
+      "category": "代码审查/DevTools",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitGenius 2026-09-13：alibaba/open-code-review成为Repository of the Day，当日新增约748星，总星数约2.35万。",
+        "GitHub README：该工具源自阿里内部AI代码审查助手，两年服务数万开发者，开源后支持Git diff、全文件扫描、多语言规则和多模型后端。",
+        "Flowtivity 2026-09-12：其AACR-Bench显示同模型下Open Code Review precision为33.90%，Claude Code为7.23%，token消耗约为后者九分之一。"
+      ],
+      "hook": "Open Code Review在GitGenius日榜成为Repo of the Day，用确定性流水线加LLM Agent做行级代码审查",
+      "angle": "从“AI代码审查工具”换轴到“确定性工程 + Agent 决策的混合架构”。",
+      "conclusion_D": "AI写代码越多，最先工业化的不会是写代码，而是审代码。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI写代码越多，最先工业化的不会是写代码，而是审代码。",
+        "axis": "从“AI代码审查工具”换轴到“确定性工程 + Agent 决策的混合架构”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住产品名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 4,
+      "topic": "LG自主实验室年内开跑：AI终于从写报告走进真实实验台了！",
+      "category": "科学AI/工业",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "Seoul Economic Daily 2026-09-14：LG计划年内运行AI自主实验室，由EXAONE Discovery结合实验设计、分析AI和机械臂执行材料实验。",
+        "报道称LG已将该系统用于下一代AI数据中心浸没式冷却液材料探索，并与多个产业伙伴扩展新材料发现。",
+        "同场发布还包括EXAONE Omni Inspect制造质检模型和金融BI方案，显示LG把专家AI推进科学、制造、金融现场。"
+      ],
+      "hook": "LG AI Research发布EXAONE Discovery与自主实验室计划，把材料发现、实验设计、机器人执行和结果分析连成闭环",
+      "angle": "从“工业AI发布会”换轴到“模型+机器人+材料实验闭环”。",
+      "conclusion_D": "AI进入产业现场的标志，不是会总结实验，而是能设计、执行并缩短实验周期。",
+      "explosive_score": 91,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI进入产业现场的标志，不是会总结实验，而是能设计、执行并缩短实验周期。",
+        "axis": "从“工业AI发布会”换轴到“模型+机器人+材料实验闭环”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住产品名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 5,
+      "topic": "YuE2爆火：AI音乐生成开始从“一首歌”进化成“可编辑工程”了！",
+      "category": "音乐生成/开源模型",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub 2026-09-14抓取：Cunhe/yue页面显示YuE2以symbolic planning、zero-shot covers和agentic music editing为核心。",
+        "AI/TLDR 2026-09-09：YuE2发布v0.1.6，支持可编辑符号作曲、零样本翻唱与Agent式编辑，YuE2-3B在WildSongBench best-of-8得分6.9632。",
+        "Hugging Face YuE2-3B：模型卡显示YuE2生成48kHz立体声音频，先生成旋律和和弦等score，再渲染成完整歌曲。"
+      ],
+      "hook": "YuE2用符号乐谱规划、48kHz立体声生成、零样本翻唱和Agent式编辑，把音乐生成变成可读可改的工程流程",
+      "angle": "从“文生音乐质量变好”换轴到“符号乐谱让生成结果可读、可改、可复现”。",
+      "conclusion_D": "音乐AI真正进入创作流程，要靠可编辑的中间层，而不是一次性抽卡。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：音乐AI真正进入创作流程，要靠可编辑的中间层，而不是一次性抽卡。",
+        "axis": "从“文生音乐质量变好”换轴到“符号乐谱让生成结果可读、可改、可复现”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住产品名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Siri AI上线：苹果把个人助理塞回系统层了！",
+      "thinking": "从“苹果终于补AI课”换轴到“系统级个人上下文入口重新开战”。",
+      "conclusion_d": "真正的AI入口不是聊天框，而是操作系统里能读懂你当下场景的那一层。",
+      "score": 95,
+      "batch_verdict": "pass",
+      "slug": "apple-siri-ai-system-layer",
+      "sources": [
+        "Apple Newsroom 2026-09-14：Siri AI开始以英文beta推出，强调个人上下文理解、屏幕感知、世界知识和系统级App动作。",
+        "MethodShop 2026-09-13：macOS 27 Golden Gate把Siri AI接入Spotlight、右键菜单和系统设置，与Windows Copilot/Recall形成桌面AI入口竞争。",
+        "Bing News 2026-09-14：多家科技媒体把这次更新视作Apple Intelligence真正进入日常系统体验的节点。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-14 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "LangWatch登顶AI Workflow：Agent开始需要“安全带”和“行车记录仪”了！",
+      "thinking": "从“又一个观测平台”换轴到“Agent测试/追踪/预算控制成为生产基础设施”。",
+      "conclusion_d": "企业AI的瓶颈正在从模型能力，转向上线前怎么测、上线后怎么追责。",
+      "score": 93,
+      "batch_verdict": "pass",
+      "slug": "langwatch-agent-safety-observability",
+      "sources": [
+        "GitTrend AI Workflow 2026-09-14：langwatch/langwatch位列AI Workflow趋势榜第1，描述为LLM evaluations与AI agent testing平台。",
+        "GitHub 2026-09-15抓取：LangWatch项目约4.8k星，提供OpenTelemetry tracing、evaluations、agent testing、prompt management与AI gateway能力。",
+        "DiscoverAI 2026-09-03：LangWatch适合把对话Agent上线前场景模拟和上线后trace检查放进同一工作流，但仍需校准评测器和代表性样本。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-14 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "阿里开源Open Code Review：代码审查要从“人看Diff”变成“AI先过筛”了！",
+      "thinking": "从“AI代码审查工具”换轴到“确定性工程 + Agent 决策的混合架构”。",
+      "conclusion_d": "AI写代码越多，最先工业化的不会是写代码，而是审代码。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "alibaba-open-code-review",
+      "sources": [
+        "GitGenius 2026-09-13：alibaba/open-code-review成为Repository of the Day，当日新增约748星，总星数约2.35万。",
+        "GitHub README：该工具源自阿里内部AI代码审查助手，两年服务数万开发者，开源后支持Git diff、全文件扫描、多语言规则和多模型后端。",
+        "Flowtivity 2026-09-12：其AACR-Bench显示同模型下Open Code Review precision为33.90%，Claude Code为7.23%，token消耗约为后者九分之一。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-14 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "LG自主实验室年内开跑：AI终于从写报告走进真实实验台了！",
+      "thinking": "从“工业AI发布会”换轴到“模型+机器人+材料实验闭环”。",
+      "conclusion_d": "AI进入产业现场的标志，不是会总结实验，而是能设计、执行并缩短实验周期。",
+      "score": 91,
+      "batch_verdict": "pass",
+      "slug": "lg-exaone-autonomous-lab",
+      "sources": [
+        "Seoul Economic Daily 2026-09-14：LG计划年内运行AI自主实验室，由EXAONE Discovery结合实验设计、分析AI和机械臂执行材料实验。",
+        "报道称LG已将该系统用于下一代AI数据中心浸没式冷却液材料探索，并与多个产业伙伴扩展新材料发现。",
+        "同场发布还包括EXAONE Omni Inspect制造质检模型和金融BI方案，显示LG把专家AI推进科学、制造、金融现场。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-14 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "YuE2爆火：AI音乐生成开始从“一首歌”进化成“可编辑工程”了！",
+      "thinking": "从“文生音乐质量变好”换轴到“符号乐谱让生成结果可读、可改、可复现”。",
+      "conclusion_d": "音乐AI真正进入创作流程，要靠可编辑的中间层，而不是一次性抽卡。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "yue2-editable-music-generation",
+      "sources": [
+        "GitHub 2026-09-14抓取：Cunhe/yue页面显示YuE2以symbolic planning、zero-shot covers和agentic music editing为核心。",
+        "AI/TLDR 2026-09-09：YuE2发布v0.1.6，支持可编辑符号作曲、零样本翻唱与Agent式编辑，YuE2-3B在WildSongBench best-of-8得分6.9632。",
+        "Hugging Face YuE2-3B：模型卡显示YuE2生成48kHz立体声音频，先生成旋律和和弦等score，再渲染成完整歌曲。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-14 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "GPT-6 Astra / OpenAI金融服务",
+      "reason": "2026-09-11已发同主角或同角度，Step 3.5查重kill。"
+    },
+    {
+      "topic": "Anthropic/OpenAI/xAI减速讨论",
+      "reason": "2026-09-13已发AI竞速减速主线，查重kill。"
+    },
+    {
+      "topic": "Google Artemis / OpenResearch / OpenMontage / Agent治理栈",
+      "reason": "2026-09-14刚发，查重kill。"
+    },
+    {
+      "topic": "交易Agent/个股或币价视角",
+      "reason": "投资建议风险，自动模式kill；不进入撰写。"
+    }
+  ]
+}

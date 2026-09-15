@@ -1,0 +1,53 @@
+{
+  "slug": "01-apple-siri-ai-system-layer",
+  "date": "2026-09-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/01-apple-siri-ai-system-layer",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-apple-siri-ai-system-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/01-apple-siri-ai-system-layer/01-01-apple-siri-ai-system-layer-infographic.jpg",
+      "caption": "苹果这次补的不是聊天框",
+      "anchor": "苹果这次补的不是聊天框",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-apple-siri-ai-system-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/01-apple-siri-ai-system-layer/02-01-apple-siri-ai-system-layer-infographic.jpg",
+      "caption": "个人上下文是苹果最强也最危险的牌",
+      "anchor": "个人上下文是苹果最强也最危险的牌",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-apple-siri-ai-system-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/01-apple-siri-ai-system-layer/03-01-apple-siri-ai-system-layer-infographic.jpg",
+      "caption": "桌面AI入口战重新开始",
+      "anchor": "桌面AI入口战重新开始",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-apple-siri-ai-system-layer-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/01-apple-siri-ai-system-layer/04-01-apple-siri-ai-system-layer-infographic.jpg",
+      "caption": "真正的赢家会消失在界面里",
+      "anchor": "真正的赢家会消失在界面里",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

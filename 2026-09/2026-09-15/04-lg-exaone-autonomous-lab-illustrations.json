@@ -1,0 +1,53 @@
+{
+  "slug": "04-lg-exaone-autonomous-lab",
+  "date": "2026-09-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/04-lg-exaone-autonomous-lab",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/04-lg-exaone-autonomous-lab/01-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "caption": "AI终于摸到实验台了",
+      "anchor": "AI终于摸到实验台了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/04-lg-exaone-autonomous-lab/02-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "caption": "材料发现最怕慢循环",
+      "anchor": "材料发现最怕慢循环",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/04-lg-exaone-autonomous-lab/03-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "caption": "工业AI开始从通用走向专家",
+      "anchor": "工业AI开始从通用走向专家",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/04-lg-exaone-autonomous-lab/04-04-lg-exaone-autonomous-lab-infographic.jpg",
+      "caption": "真正的门槛在模型之外",
+      "anchor": "真正的门槛在模型之外",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,10 @@
+{
+  "bing_news_web_sources": [
+    "Apple Newsroom 2026-09-14: Siri AI release with personal context, onscreen awareness and systemwide app actions",
+    "GitTrend AI Workflow 2026-09-14: langwatch/langwatch ranked #1 in AI Workflow",
+    "GitGenius Daily Trends 2026-09-13: alibaba/open-code-review as Repository of the Day with +748 stars",
+    "Seoul Economic Daily 2026-09-14: LG EXAONE Discovery autonomous lab by year-end",
+    "AI/TLDR 2026-09-09 + Hugging Face/GitHub: YuE2 editable score, zero-shot covers, agentic editing and benchmark numbers"
+  ],
+  "generated_from": "Bing Grounding searches at cron runtime"
+}

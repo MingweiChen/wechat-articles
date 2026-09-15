@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>阿里开源Open Code Review：代码审查要从“人看Diff”变成“AI先过筛”了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-15</div><h1>阿里开源Open Code Review：代码审查要从“人看Diff”变成“AI先过筛”了！</h1>
+<blockquote>AI写代码越多，最先工业化的不会是写代码，而是审代码。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>GitGenius 2026-09-13：alibaba/open-code-review成为Repository of the Day，当日新增约748星，总星数约2.35万。</li>
+<li>GitHub README：该工具源自阿里内部AI代码审查助手，两年服务数万开发者，开源后支持Git diff、全文件扫描、多语言规则和多模型后端。</li>
+<li>Flowtivity 2026-09-12：其AACR-Bench显示同模型下Open Code Review precision为33.90%，Claude Code为7.23%，token消耗约为后者九分之一。</li>
+</ul>
+<h2>代码审查正在成为AI时代的瓶颈</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/01-03-alibaba-open-code-review-infographic.jpg" alt="代码审查正在成为AI时代的瓶颈"/><figcaption>代码审查正在成为AI时代的瓶颈</figcaption></figure>
+<p>AI写代码越来越快，团队真正头疼的反而是怎么审。人类Reviewer的注意力有限，通用Coding Agent又容易漏文件、报错位置漂移、把低价值建议刷屏。Open Code Review的走红，说明市场开始承认一个现实：写代码的自动化越强，审代码的工业化越急。</p>
+<h2>它不是让大模型自由发挥</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/02-03-alibaba-open-code-review-infographic.jpg" alt="它不是让大模型自由发挥"/><figcaption>它不是让大模型自由发挥</figcaption></figure>
+<p>Open Code Review最有意思的地方，是把确定性工程和Agent能力分开。文件选择、变更分组、规则匹配、定位校正这些必须稳定的步骤，由流水线硬约束；需要动态读上下文、搜索代码库、理解变更意图的部分，再交给LLM Agent。这样做的目标不是让AI更会“聊天式评审”，而是让它少漏、少飘、少乱说。</p>
+<h2>低噪声比全覆盖更值钱</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/03-03-alibaba-open-code-review-infographic.jpg" alt="低噪声比全覆盖更值钱"/><figcaption>低噪声比全覆盖更值钱</figcaption></figure>
+<p>代码审查里，召回率当然重要，但如果一个Bot每天报一堆无关紧要的问题，人很快就会静音它。Open Code Review选择更偏向precision，牺牲一部分覆盖，换来更少噪声和更低token成本。对工程团队来说，这个取舍很现实：Reviewer注意力才是最贵的资源。</p>
+<h2>AI代码工具会先把流程拆开</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/03-alibaba-open-code-review/04-03-alibaba-open-code-review-infographic.jpg" alt="AI代码工具会先把流程拆开"/><figcaption>AI代码工具会先把流程拆开</figcaption></figure>
+<p>很多人把AI编程想象成一个全能程序员，从需求到上线一条龙。但真实工程更可能被拆成多个专业环节：生成、测试、审查、安全扫描、性能回归、发布。Open Code Review代表的是其中一个很具体但很刚需的环节：让AI先把明显风险筛出来，把人类留给架构判断和高价值取舍。</p>
+<h2>最后一句</h2>
+<p>Open Code Review提醒我们，AI编程革命不是只有“谁更会写代码”。当机器开始大量产出代码，谁能把审查做得稳定、低噪、可追责，谁就抓住了下一阶段的软件工程入口。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻分析，不涉及中国政治红线，不包含投资建议；公司、产品和趋势仅作新闻事实与行业观察。*</p>
+</main></body></html>

@@ -1,0 +1,53 @@
+{
+  "slug": "05-yue2-editable-music-generation",
+  "date": "2026-09-15",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/05-yue2-editable-music-generation",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-yue2-editable-music-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/05-yue2-editable-music-generation/01-05-yue2-editable-music-generation-infographic.jpg",
+      "caption": "音乐AI不该只是抽卡",
+      "anchor": "音乐AI不该只是抽卡",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-yue2-editable-music-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/05-yue2-editable-music-generation/02-05-yue2-editable-music-generation-infographic.jpg",
+      "caption": "可编辑中间层改变创作关系",
+      "anchor": "可编辑中间层改变创作关系",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-yue2-editable-music-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/05-yue2-editable-music-generation/03-05-yue2-editable-music-generation-infographic.jpg",
+      "caption": "开源音乐模型进入可复现阶段",
+      "anchor": "开源音乐模型进入可复现阶段",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-yue2-editable-music-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-15/illustrations/05-yue2-editable-music-generation/04-05-yue2-editable-music-generation-infographic.jpg",
+      "caption": "Agent式编辑比一键生成更接近专业生产",
+      "anchor": "Agent式编辑比一键生成更接近专业生产",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

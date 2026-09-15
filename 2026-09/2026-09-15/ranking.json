@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Siri AI上线：苹果把个人助理塞回系统层了！",
+      "slug": "01-apple-siri-ai-system-layer",
+      "score": 95,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "LangWatch登顶AI Workflow：Agent开始需要“安全带”和“行车记录仪”了！",
+      "slug": "02-langwatch-agent-safety-observability",
+      "score": 93,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "阿里开源Open Code Review：代码审查要从“人看Diff”变成“AI先过筛”了！",
+      "slug": "03-alibaba-open-code-review",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "LG自主实验室年内开跑：AI终于从写报告走进真实实验台了！",
+      "slug": "04-lg-exaone-autonomous-lab",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "YuE2爆火：AI音乐生成开始从“一首歌”进化成“可编辑工程”了！",
+      "slug": "05-yue2-editable-music-generation",
+      "score": 89,
+      "illustrations": 4
+    }
+  ]
+}
