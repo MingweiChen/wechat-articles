@@ -1,0 +1,53 @@
+{
+  "slug": "02-voicestudio-local-open-voice-stack",
+  "date": "2026-09-16",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/02-voicestudio-local-open-voice-stack",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/02-voicestudio-local-open-voice-stack/01-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "caption": "语音AI不想只租一个API",
+      "anchor": "语音AI不想只租一个API",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/02-voicestudio-local-open-voice-stack/02-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "caption": "本地化改变的是控制权",
+      "anchor": "本地化改变的是控制权",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/02-voicestudio-local-open-voice-stack/03-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "caption": "646种语言背后是长尾市场",
+      "anchor": "646种语言背后是长尾市场",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/02-voicestudio-local-open-voice-stack/04-02-voicestudio-local-open-voice-stack-infographic.jpg",
+      "caption": "声音生成会走向“制作软件”",
+      "anchor": "声音生成会走向“制作软件”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

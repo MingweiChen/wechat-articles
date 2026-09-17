@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-17",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！",
+      "virality": 10,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 95,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic知识工作插件上榜：Claude开始把办公室任务拆成积木了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 93,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 91,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 89,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Hyperframes走红：AI视频生成，可能先从HTML页面开始！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 87,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    }
+  ],
+  "swap_candidates": []
+}

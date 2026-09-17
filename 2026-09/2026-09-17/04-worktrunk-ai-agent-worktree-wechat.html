@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-17</div><h1>Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！</h1>
+<blockquote>多Agent开发的基础设施会回到Git：隔离分支、并行试错、快速对比，正在成为AI编程的日常工位管理。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>GitHub Trending weekly 2026-09-17：max-sixty/worktrunk上榜，描述为CLI for Git worktree management, designed for parallel AI agent workflows。</li>
+<li>GitHub Trending developers 2026-09：max-sixty凭worktrunk成为月度趋势开发者第1，显示并行Agent工作流受到关注。</li>
+<li>Step 3.5查重：9月16日已写Atlas多Agent源控，本篇避开“源控层”总论，聚焦Git worktree如何成为并行Agent的操作基座。</li>
+</ul>
+<h2>AI编程开始需要“工位”</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/04-worktrunk-ai-agent-worktree/01-04-worktrunk-ai-agent-worktree-infographic.jpg" alt="AI编程开始需要“工位”"/><figcaption>AI编程开始需要“工位”</figcaption></figure>
+<p>一个开发者同时让三个Agent试三个方案，听起来很美；现实是目录被改乱、依赖装冲突、临时文件满天飞。Worktrunk冲上热榜，说明多Agent写代码已经逼出了一个朴素需求：每个Agent需要自己的工位。Git worktree原本就是让一个仓库同时检出多个工作树，现在正好变成AI并行开发的天然隔离层。</p>
+<h2>Worktree比新建仓库更轻</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/04-worktrunk-ai-agent-worktree/02-04-worktrunk-ai-agent-worktree-infographic.jpg" alt="Worktree比新建仓库更轻"/><figcaption>Worktree比新建仓库更轻</figcaption></figure>
+<p>复制整个仓库很笨，切来切去又互相污染。Worktree的好处是同一个Git历史下开多个工作目录，每个目录对应一个分支或提交。Agent A修Bug，Agent B重构，Agent C写测试，彼此不踩文件。人类最后只需要比较结果、挑选方案、合并好的一支。</p>
+<h2>并行不是堆模型，而是管现场</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/04-worktrunk-ai-agent-worktree/03-04-worktrunk-ai-agent-worktree-infographic.jpg" alt="并行不是堆模型，而是管现场"/><figcaption>并行不是堆模型，而是管现场</figcaption></figure>
+<p>很多团队以为并行Agent就是多开几个终端。真正的问题是现场管理：谁在哪个分支，跑过哪些测试，环境是不是干净，失败方案怎么快速删除，成功方案怎么合并。Worktrunk这类CLI的价值不在炫技，而在把混乱的并行试错变成可复用操作流程。</p>
+<h2>Git会重新成为Agent控制平面</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/04-worktrunk-ai-agent-worktree/04-04-worktrunk-ai-agent-worktree-infographic.jpg" alt="Git会重新成为Agent控制平面"/><figcaption>Git会重新成为Agent控制平面</figcaption></figure>
+<p>AI编程工具层出不穷，但最后都要回到代码差异、分支历史和可回滚状态。未来的Agent开发环境，很可能围绕Git worktree、PR、测试矩阵和审查记录重组。Worktrunk的走红说明，基础设施不一定是新平台，有时是老工具被AI工作流重新点亮。</p>
+<h2>最后一句</h2>
+<p>Worktrunk的意义是把Git worktree变成AI Agent的工位管理器。多Agent时代，效率不只来自并行，而来自隔离、对比和可回滚。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。*</p>
+</main></body></html>

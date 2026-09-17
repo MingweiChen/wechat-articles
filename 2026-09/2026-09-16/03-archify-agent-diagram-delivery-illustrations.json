@@ -1,0 +1,53 @@
+{
+  "slug": "03-archify-agent-diagram-delivery",
+  "date": "2026-09-16",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/03-archify-agent-diagram-delivery",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-archify-agent-diagram-delivery-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/03-archify-agent-diagram-delivery/01-03-archify-agent-diagram-delivery-infographic.jpg",
+      "caption": "架构图终于不只是会后补文档",
+      "anchor": "架构图终于不只是会后补文档",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-archify-agent-diagram-delivery-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/03-archify-agent-diagram-delivery/02-03-archify-agent-diagram-delivery-infographic.jpg",
+      "caption": "Mermaid不够，交付物要能直接展示",
+      "anchor": "Mermaid不够，交付物要能直接展示",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-archify-agent-diagram-delivery-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/03-archify-agent-diagram-delivery/03-03-archify-agent-diagram-delivery-infographic.jpg",
+      "caption": "Agent越多，越需要可验证视图",
+      "anchor": "Agent越多，越需要可验证视图",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-archify-agent-diagram-delivery-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/03-archify-agent-diagram-delivery/04-03-archify-agent-diagram-delivery-infographic.jpg",
+      "caption": "文档工具会重新分层",
+      "anchor": "文档工具会重新分层",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

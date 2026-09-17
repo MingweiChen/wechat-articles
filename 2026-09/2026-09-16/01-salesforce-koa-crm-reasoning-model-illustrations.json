@@ -1,0 +1,53 @@
+{
+  "slug": "01-salesforce-koa-crm-reasoning-model",
+  "date": "2026-09-16",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/01-salesforce-koa-crm-reasoning-model",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/01-salesforce-koa-crm-reasoning-model/01-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "caption": "通用模型开始让位给行业模型",
+      "anchor": "通用模型开始让位给行业模型",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/01-salesforce-koa-crm-reasoning-model/02-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "caption": "Koa真正卖的是三十年流程经验",
+      "anchor": "Koa真正卖的是三十年流程经验",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/01-salesforce-koa-crm-reasoning-model/03-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "caption": "不用客户数据训练，是产品也是信任",
+      "anchor": "不用客户数据训练，是产品也是信任",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-16/illustrations/01-salesforce-koa-crm-reasoning-model/04-01-salesforce-koa-crm-reasoning-model-infographic.jpg",
+      "caption": "下一代SaaS会变成动作系统",
+      "anchor": "下一代SaaS会变成动作系统",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

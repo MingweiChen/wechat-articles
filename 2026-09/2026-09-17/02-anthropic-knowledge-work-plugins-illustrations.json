@@ -1,0 +1,53 @@
+{
+  "slug": "02-anthropic-knowledge-work-plugins",
+  "date": "2026-09-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/02-anthropic-knowledge-work-plugins",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/02-anthropic-knowledge-work-plugins/01-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "caption": "办公室AI不能只会聊天",
+      "anchor": "办公室AI不能只会聊天",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/02-anthropic-knowledge-work-plugins/02-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "caption": "插件把能力变成权限单位",
+      "anchor": "插件把能力变成权限单位",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/02-anthropic-knowledge-work-plugins/03-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "caption": "知识工作会被重新拆分",
+      "anchor": "知识工作会被重新拆分",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/02-anthropic-knowledge-work-plugins/04-02-anthropic-knowledge-work-plugins-infographic.jpg",
+      "caption": "生态竞争会转向插件密度",
+      "anchor": "生态竞争会转向插件密度",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

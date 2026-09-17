@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！",
+      "slug": "01-cloudflare-security-audit-skill",
+      "score": 95,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic知识工作插件上榜：Claude开始把办公室任务拆成积木了！",
+      "slug": "02-anthropic-knowledge-work-plugins",
+      "score": 93,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！",
+      "slug": "03-context-mode-agent-token-sandbox",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！",
+      "slug": "04-worktrunk-ai-agent-worktree",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Hyperframes走红：AI视频生成，可能先从HTML页面开始！",
+      "slug": "05-hyperframes-html-to-video-agents",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

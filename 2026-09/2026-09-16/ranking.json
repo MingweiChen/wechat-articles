@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Salesforce Koa上线：CRM开始有自己的推理模型了！",
+      "slug": "01-salesforce-koa-crm-reasoning-model",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "VoiceStudio冲上热榜：开源语音工具开始拆掉ElevenLabs的围墙了！",
+      "slug": "02-voicestudio-local-open-voice-stack",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Archify登顶GitHub月榜：AI画架构图，终于从Mermaid草稿变成可交付作品了！",
+      "slug": "03-archify-agent-diagram-delivery",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Atlas冲上GitHub：多Agent写代码，最缺的不是模型而是版本控制！",
+      "slug": "04-atlas-agent-source-control",
+      "score": 90,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "TencentDB Agent Memory走红：团队记忆，可能才是AI员工真正的入职系统！",
+      "slug": "05-tencentdb-agent-memory-team-onboarding",
+      "score": 88,
+      "illustrations": 4
+    }
+  ]
+}

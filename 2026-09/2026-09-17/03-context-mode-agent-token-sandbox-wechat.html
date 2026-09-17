@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-17</div><h1>Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！</h1>
+<blockquote>Agent成本优化会从“压缩回答长度”升级为“重构上下文管道”，让工具输出、记忆和路由都按需进入模型。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>GitHub Trending weekly 2026-09-17：mksglu/context-mode进入周榜，描述为Context window optimization for AI coding agents，支持工具输出沙箱、持久会话记忆和17个平台路由。</li>
+<li>同周热榜里i-have-adhd、headroom、no-ai-slop等项目同时走红，说明开发者已开始治理Agent的冗长输出和上下文浪费。</li>
+<li>Step 3.5查重：9月13日已写i-have-adhd，本篇不写“让AI别废话”，专写上下文管道与成本结构。</li>
+</ul>
+<h2>Token浪费不是让模型闭嘴就能解决</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/01-03-context-mode-agent-token-sandbox-infographic.jpg" alt="Token浪费不是让模型闭嘴就能解决"/><figcaption>Token浪费不是让模型闭嘴就能解决</figcaption></figure>
+<p>很多人谈AI成本，第一反应是让模型少输出。但Agent真正烧钱的地方，往往不是最后那段回答，而是工具日志、文件内容、搜索结果、报错堆栈和反复塞进上下文的历史。Context Mode爆火，击中的正是这个痛点：省Token不能只靠“少说两句”，而要把上下文入口重新设计。</p>
+<h2>工具输出需要沙箱</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/02-03-context-mode-agent-token-sandbox-infographic.jpg" alt="工具输出需要沙箱"/><figcaption>工具输出需要沙箱</figcaption></figure>
+<p>Agent调用工具后，结果常常一股脑进入上下文。一次测试日志几千行，一份JSON几十KB，模型还会带着它继续推理。Context Mode强调工具输出沙箱，意思是先把原始材料放在外部，需要时再摘要、索引或局部读取。这样上下文窗口不再是垃圾桶，而是工作台。</p>
+<h2>记忆和路由也要省</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/03-03-context-mode-agent-token-sandbox-infographic.jpg" alt="记忆和路由也要省"/><figcaption>记忆和路由也要省</figcaption></figure>
+<p>持久会话记忆听起来像“记得更多”，但好的记忆系统其实是“只取相关”。跨平台路由也是同理：同一个任务可能在Claude Code、Codex、Cursor、OpenCode之间流转，如果每个平台都重新喂一遍上下文，成本和错漏都会放大。Context Mode代表的方向，是把记忆、工具输出和平台路由变成统一管道。</p>
+<h2>价格战会转到系统层</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/04-03-context-mode-agent-token-sandbox-infographic.jpg" alt="价格战会转到系统层"/><figcaption>价格战会转到系统层</figcaption></figure>
+<p>未来模型单价还会降，但企业真正关心的是每个任务多少钱、多久完成、重试几次。上下文管道如果设计不好，再便宜的模型也会被日志和重复推理拖贵。Context Mode的热度说明，Agent生态开始从“模型更强”进入“系统更省”的阶段。</p>
+<h2>最后一句</h2>
+<p>Context Mode提醒我们，Agent降本不是简单压缩回答，而是重构上下文流。谁能让模型只看该看的东西，谁才能把长期自动化跑得又稳又便宜。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。*</p>
+</main></body></html>

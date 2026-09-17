@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-17</div><h1>Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！</h1>
+<blockquote>Agent生态正在从“让AI会写代码”走向“让AI按安全流程写代码”，安全会变成每个Agent的默认插件。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>OrangeBot GitHub Trending 2026-09-17：cloudflare/security-audit-skill位列今日趋势第2。</li>
+<li>GitHub Trending周榜同时出现agent-skills、openai/skills、Open Code Review、AI Infra Guard等项目，显示开发者正在把工程规范、安全审计和技能化流程装进Agent。</li>
+<li>Step 3.5查重：9月15日已写Open Code Review，本篇避开代码审查产品，聚焦“安全审计流程被Skill化”。</li>
+</ul>
+<h2>安全不再是上线前补票</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/01-01-cloudflare-security-audit-skill-infographic.jpg" alt="安全不再是上线前补票"/><figcaption>安全不再是上线前补票</figcaption></figure>
+<p>过去很多团队的安全检查发生在最后：代码写完、PR发出、扫描工具跑一遍，再由安全同事补刀。Cloudflare的security-audit-skill冲上热榜，说明开发者想把这个步骤提前到Agent动手写代码之前。Agent如果能一开始就按安全清单规划、检查权限边界、避免常见注入和泄露，安全就不再是上线前的补票，而是开发流程的默认门禁。</p>
+<h2>Skill化比工具化更关键</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/02-01-cloudflare-security-audit-skill-infographic.jpg" alt="Skill化比工具化更关键"/><figcaption>Skill化比工具化更关键</figcaption></figure>
+<p>传统安全工具给出报警，开发者再解释、取舍、修复；Skill化的安全审计更像一套工作规程，告诉Agent什么时候该看依赖、什么时候该看输入校验、什么时候必须停下来让人确认。对AI编程来说，真正稀缺的不是多一个扫描器，而是让模型在正确时机调用正确审计动作。</p>
+<h2>Cloudflare做这件事有示范意义</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/03-01-cloudflare-security-audit-skill-infographic.jpg" alt="Cloudflare做这件事有示范意义"/><figcaption>Cloudflare做这件事有示范意义</figcaption></figure>
+<p>Cloudflare本身处在网络、边缘计算和安全交汇处，它把安全审计做成Agent Skill，会给生态一个信号：未来优秀的Agent不是只看生成速度，而要看内置多少可靠流程。安全公司、云厂商、开源社区都可能把自己的最佳实践包装成Skill，直接嵌进开发者的日常代理。</p>
+<h2>Agent时代的安全产品会前移</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/04-01-cloudflare-security-audit-skill-infographic.jpg" alt="Agent时代的安全产品会前移"/><figcaption>Agent时代的安全产品会前移</figcaption></figure>
+<p>当AI能连续改几十个文件、配置CI、调用云资源时，安全如果只靠事后扫描就太慢了。更合理的形态是：需求阶段有威胁建模Skill，编码阶段有安全审计Skill，合并阶段有自动Review，部署阶段有策略门禁。security-audit-skill的热度，本质上是在给这个新分层投票。</p>
+<h2>最后一句</h2>
+<p>Cloudflare安全审计Skill的重点不是它能查出多少漏洞，而是安全流程开始变成Agent的基础能力。AI员工越能干，安检门越要前置到它开始工作之前。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。*</p>
+</main></body></html>

@@ -1,0 +1,53 @@
+{
+  "slug": "01-cloudflare-security-audit-skill",
+  "date": "2026-09-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-cloudflare-security-audit-skill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/01-01-cloudflare-security-audit-skill-infographic.jpg",
+      "caption": "安全不再是上线前补票",
+      "anchor": "安全不再是上线前补票",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-cloudflare-security-audit-skill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/02-01-cloudflare-security-audit-skill-infographic.jpg",
+      "caption": "Skill化比工具化更关键",
+      "anchor": "Skill化比工具化更关键",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-cloudflare-security-audit-skill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/03-01-cloudflare-security-audit-skill-infographic.jpg",
+      "caption": "Cloudflare做这件事有示范意义",
+      "anchor": "Cloudflare做这件事有示范意义",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-cloudflare-security-audit-skill-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/01-cloudflare-security-audit-skill/04-01-cloudflare-security-audit-skill-infographic.jpg",
+      "caption": "Agent时代的安全产品会前移",
+      "anchor": "Agent时代的安全产品会前移",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

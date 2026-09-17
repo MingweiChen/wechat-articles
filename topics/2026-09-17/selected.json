@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-17",
+  "generated_at_utc": "2026-09-17T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、国旗/政治人物视觉叙事与外政魔鬼化叙事；本批无政治题、无投资建议。",
+  "dedup_basis": [
+    "2026-09-16: Salesforce Koa、VoiceStudio、Archify、Atlas、TencentDB Agent Memory",
+    "2026-09-15: Siri AI、LangWatch、Open Code Review、LG自主实验室、YuE2",
+    "2026-09-14: Colibri、Google Artemis、OpenResearch、Agent治理栈、OpenMontage",
+    "2026-09-13: Anthropic/OpenAI AI pacing、Nvidia-Anthropic IPO、AI并购、i-have-adhd、Soup",
+    "2026-09-11: OpenAI金融服务、Positron、GPT-6 Astra、Harvey、GitHub Agent基建",
+    "2026-09-10: Cognition、Mistral、小鹏IRON、Clay、高通AWS AI芯片"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-10..2026-09-16",
+    "result": "剔除Salesforce Koa、VoiceStudio、Archify、Atlas、TencentDB Agent Memory、Open Code Review、OpenResearch、OpenMontage、GPT-6 Astra、AI安全减速等已发或高同质主题；剔除TradingAgents/个股推荐角度；保留Cloudflare安全审计Skill、Anthropic知识工作插件、Context Mode、Worktrunk、Hyperframes五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴/串点：Agent内置安检门、知识工作插件积木化、上下文管道降本、Git worktree工位化、HTML视频中间层。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent-subagent topic_review_20260917 + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无投资建议；与过去7天低重复；爆点来自Bing Grounding、GitHub Trending、OrangeBot、findarepo等多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！",
+      "category": "Agent安全/Skill",
+      "score": 95,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-17：cloudflare/security-audit-skill位列今日趋势第2。",
+        "GitHub Trending周榜同时出现agent-skills、openai/skills、Open Code Review、AI Infra Guard等项目，显示开发者正在把工程规范、安全审计和技能化流程装进Agent。",
+        "Step 3.5查重：9月15日已写Open Code Review，本篇避开代码审查产品，聚焦“安全审计流程被Skill化”。"
+      ],
+      "hook": "Cloudflare/security-audit-skill登上GitHub今日趋势前列，把安全审计流程打包成可复用Agent Skill",
+      "angle": "从“又一个安全工具”换轴到“Agent工作流的内置安检门”。",
+      "conclusion_D": "Agent生态正在从“让AI会写代码”走向“让AI按安全流程写代码”，安全会变成每个Agent的默认插件。",
+      "explosive_score": 95,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：Agent生态正在从“让AI会写代码”走向“让AI按安全流程写代码”，安全会变成每个Agent的默认插件。",
+        "axis": "从“又一个安全工具”换轴到“Agent工作流的内置安检门”。",
+        "why_worth": "读者能从热榜项目看到Agent生态的工程化分层变化，而不是只记住项目名。"
+      },
+      "review_score": 95,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic知识工作插件上榜：Claude开始把办公室任务拆成积木了！",
+      "category": "AI办公/插件生态",
+      "score": 93,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-17：anthropics/knowledge-work-plugins位列今日趋势第7。",
+        "GitHub Trending月榜中anthropics/claude-plugins-community亦有明显热度，说明Claude生态正在把插件、技能和工作流作为增长重点。",
+        "Step 3.5查重：过去一周写过OpenAI skills与Agent基建，本篇聚焦“知识工作动作插件化”，不是泛谈技能生态。"
+      ],
+      "hook": "anthropics/knowledge-work-plugins进入GitHub今日趋势，把知识工作常见动作做成插件化能力",
+      "angle": "从“Claude插件仓库”换轴到“办公室动作积木化”。",
+      "conclusion_D": "AI办公的下一步不是一个万能聊天框，而是一组可组合、可授权、可审计的知识工作插件。",
+      "explosive_score": 93,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI办公的下一步不是一个万能聊天框，而是一组可组合、可授权、可审计的知识工作插件。",
+        "axis": "从“Claude插件仓库”换轴到“办公室动作积木化”。",
+        "why_worth": "读者能从热榜项目看到Agent生态的工程化分层变化，而不是只记住项目名。"
+      },
+      "review_score": 93,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 3,
+      "topic": "Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！",
+      "category": "Agent成本/上下文工程",
+      "score": 91,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：mksglu/context-mode进入周榜，描述为Context window optimization for AI coding agents，支持工具输出沙箱、持久会话记忆和17个平台路由。",
+        "同周热榜里i-have-adhd、headroom、no-ai-slop等项目同时走红，说明开发者已开始治理Agent的冗长输出和上下文浪费。",
+        "Step 3.5查重：9月13日已写i-have-adhd，本篇不写“让AI别废话”，专写上下文管道与成本结构。"
+      ],
+      "hook": "mksglu/context-mode在GitHub周榜走高，主打工具输出沙箱、持久会话记忆与跨17个平台路由，宣称显著压缩上下文浪费",
+      "angle": "从“上下文优化工具”换轴到“Agent成本管道重构”。",
+      "conclusion_D": "Agent成本优化会从“压缩回答长度”升级为“重构上下文管道”，让工具输出、记忆和路由都按需进入模型。",
+      "explosive_score": 91,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：Agent成本优化会从“压缩回答长度”升级为“重构上下文管道”，让工具输出、记忆和路由都按需进入模型。",
+        "axis": "从“上下文优化工具”换轴到“Agent成本管道重构”。",
+        "why_worth": "读者能从热榜项目看到Agent生态的工程化分层变化，而不是只记住项目名。"
+      },
+      "review_score": 91,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 4,
+      "topic": "Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！",
+      "category": "开发者工具/Git工作流",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：max-sixty/worktrunk上榜，描述为CLI for Git worktree management, designed for parallel AI agent workflows。",
+        "GitHub Trending developers 2026-09：max-sixty凭worktrunk成为月度趋势开发者第1，显示并行Agent工作流受到关注。",
+        "Step 3.5查重：9月16日已写Atlas多Agent源控，本篇避开“源控层”总论，聚焦Git worktree如何成为并行Agent的操作基座。"
+      ],
+      "hook": "max-sixty/worktrunk进入GitHub周榜，定位面向并行AI Agent工作流的Git worktree管理CLI",
+      "angle": "从“worktree小工具”换轴到“并行Agent工位管理”。",
+      "conclusion_D": "多Agent开发的基础设施会回到Git：隔离分支、并行试错、快速对比，正在成为AI编程的日常工位管理。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：多Agent开发的基础设施会回到Git：隔离分支、并行试错、快速对比，正在成为AI编程的日常工位管理。",
+        "axis": "从“worktree小工具”换轴到“并行Agent工位管理”。",
+        "why_worth": "读者能从热榜项目看到Agent生态的工程化分层变化，而不是只记住项目名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 5,
+      "topic": "Hyperframes走红：AI视频生成，可能先从HTML页面开始！",
+      "category": "AI视频/工程渲染",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：heygen-com/hyperframes上榜，描述为Write HTML. Render video. Built for agents。",
+        "findarepo 2026-09 AI video排名：hyperframes在AI视频方向高速增长，强调HTML becomes rendered video。",
+        "Step 3.5查重：9月14日已写OpenMontage视频生产片场，本篇改写“HTML到视频”的技术路径，不重复谈多镜头片场化。"
+      ],
+      "hook": "heygen-com/hyperframes进入GitHub周榜，主打Write HTML, render video，面向AI Agent的视频渲染工作流",
+      "angle": "从“又一个视频生成工具”换轴到“HTML作为可控视频中间表示”。",
+      "conclusion_D": "视频AI不一定只靠端到端大模型，HTML这种可控中间层可能成为Agent批量生成商业视频的新底座。",
+      "explosive_score": 87,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：视频AI不一定只靠端到端大模型，HTML这种可控中间层可能成为Agent批量生成商业视频的新底座。",
+        "axis": "从“又一个视频生成工具”换轴到“HTML作为可控视频中间表示”。",
+        "why_worth": "读者能从热榜项目看到Agent生态的工程化分层变化，而不是只记住项目名。"
+      },
+      "review_score": 87,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Cloudflare安全审计Skill冲上热榜：AI Agent开始自带安检门了！",
+      "thinking": "从“又一个安全工具”换轴到“Agent工作流的内置安检门”。",
+      "conclusion_d": "Agent生态正在从“让AI会写代码”走向“让AI按安全流程写代码”，安全会变成每个Agent的默认插件。",
+      "score": 95,
+      "batch_verdict": "pass",
+      "slug": "cloudflare-security-audit-skill",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-17：cloudflare/security-audit-skill位列今日趋势第2。",
+        "GitHub Trending周榜同时出现agent-skills、openai/skills、Open Code Review、AI Infra Guard等项目，显示开发者正在把工程规范、安全审计和技能化流程装进Agent。",
+        "Step 3.5查重：9月15日已写Open Code Review，本篇避开代码审查产品，聚焦“安全审计流程被Skill化”。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-10..2026-09-16 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Anthropic知识工作插件上榜：Claude开始把办公室任务拆成积木了！",
+      "thinking": "从“Claude插件仓库”换轴到“办公室动作积木化”。",
+      "conclusion_d": "AI办公的下一步不是一个万能聊天框，而是一组可组合、可授权、可审计的知识工作插件。",
+      "score": 93,
+      "batch_verdict": "pass",
+      "slug": "anthropic-knowledge-work-plugins",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-17：anthropics/knowledge-work-plugins位列今日趋势第7。",
+        "GitHub Trending月榜中anthropics/claude-plugins-community亦有明显热度，说明Claude生态正在把插件、技能和工作流作为增长重点。",
+        "Step 3.5查重：过去一周写过OpenAI skills与Agent基建，本篇聚焦“知识工作动作插件化”，不是泛谈技能生态。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-10..2026-09-16 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Context Mode爆火：AI Agent省Token，终于不靠“少说两句”了！",
+      "thinking": "从“上下文优化工具”换轴到“Agent成本管道重构”。",
+      "conclusion_d": "Agent成本优化会从“压缩回答长度”升级为“重构上下文管道”，让工具输出、记忆和路由都按需进入模型。",
+      "score": 91,
+      "batch_verdict": "pass",
+      "slug": "context-mode-agent-token-sandbox",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：mksglu/context-mode进入周榜，描述为Context window optimization for AI coding agents，支持工具输出沙箱、持久会话记忆和17个平台路由。",
+        "同周热榜里i-have-adhd、headroom、no-ai-slop等项目同时走红，说明开发者已开始治理Agent的冗长输出和上下文浪费。",
+        "Step 3.5查重：9月13日已写i-have-adhd，本篇不写“让AI别废话”，专写上下文管道与成本结构。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-10..2026-09-16 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Worktrunk冲上热榜：AI并行写代码，Git工作树成了新工位！",
+      "thinking": "从“worktree小工具”换轴到“并行Agent工位管理”。",
+      "conclusion_d": "多Agent开发的基础设施会回到Git：隔离分支、并行试错、快速对比，正在成为AI编程的日常工位管理。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "worktrunk-ai-agent-worktree",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：max-sixty/worktrunk上榜，描述为CLI for Git worktree management, designed for parallel AI agent workflows。",
+        "GitHub Trending developers 2026-09：max-sixty凭worktrunk成为月度趋势开发者第1，显示并行Agent工作流受到关注。",
+        "Step 3.5查重：9月16日已写Atlas多Agent源控，本篇避开“源控层”总论，聚焦Git worktree如何成为并行Agent的操作基座。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-10..2026-09-16 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Hyperframes走红：AI视频生成，可能先从HTML页面开始！",
+      "thinking": "从“又一个视频生成工具”换轴到“HTML作为可控视频中间表示”。",
+      "conclusion_d": "视频AI不一定只靠端到端大模型，HTML这种可控中间层可能成为Agent批量生成商业视频的新底座。",
+      "score": 87,
+      "batch_verdict": "pass",
+      "slug": "hyperframes-html-to-video-agents",
+      "sources": [
+        "GitHub Trending weekly 2026-09-17：heygen-com/hyperframes上榜，描述为Write HTML. Render video. Built for agents。",
+        "findarepo 2026-09 AI video排名：hyperframes在AI视频方向高速增长，强调HTML becomes rendered video。",
+        "Step 3.5查重：9月14日已写OpenMontage视频生产片场，本篇改写“HTML到视频”的技术路径，不重复谈多镜头片场化。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-10..2026-09-16 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "OpenAI/Anthropic/Google AI安全标准组织与Sam Altman减速表态",
+      "reason": "与2026-09-13 AI pacing/安全减速主线重复度高，且外政/监管叙事过重，Step 3.5 kill。"
+    },
+    {
+      "topic": "Salesforce Koa / VoiceStudio / Archify / Atlas / TencentDB Agent Memory",
+      "reason": "2026-09-16刚发同题，Step 3.5查重kill。"
+    },
+    {
+      "topic": "Open Code Review / LangWatch / YuE2 / OpenMontage",
+      "reason": "2026-09-14或09-15刚发，Step 3.5查重kill。"
+    },
+    {
+      "topic": "TradingAgents / 系统化交易 / 个股或资产预测视角",
+      "reason": "个股/交易建议风险，自动模式kill；不进入撰写。"
+    }
+  ]
+}

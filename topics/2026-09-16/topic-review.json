@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-16",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Salesforce Koa上线：CRM开始有自己的推理模型了！",
+      "virality": 10,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 96,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "VoiceStudio冲上热榜：开源语音工具开始拆掉ElevenLabs的围墙了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Archify登顶GitHub月榜：AI画架构图，终于从Mermaid草稿变成可交付作品了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 92,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Atlas冲上GitHub：多Agent写代码，最缺的不是模型而是版本控制！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 90,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "TencentDB Agent Memory走红：团队记忆，可能才是AI员工真正的入职系统！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 88,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    }
+  ],
+  "swap_candidates": []
+}

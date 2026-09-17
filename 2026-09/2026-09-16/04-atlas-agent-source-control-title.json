@@ -1,0 +1,6 @@
+{
+  "title": "Atlas冲上GitHub：多Agent写代码，最缺的不是模型而是版本控制！",
+  "score": 90,
+  "slug": "04-atlas-agent-source-control",
+  "conclusion_d": "当多个编码Agent同时改同一仓库，新的刚需不是更聪明的Agent，而是能追踪、比较、回滚它们产物的Agent源控层。"
+}

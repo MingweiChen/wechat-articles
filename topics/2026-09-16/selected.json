@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-16",
+  "generated_at_utc": "2026-09-16T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、国旗/政治人物视觉叙事与外政魔鬼化叙事；本批无政治题、无投资建议。",
+  "dedup_basis": [
+    "2026-09-15: Siri AI、LangWatch、Open Code Review、LG自主实验室、YuE2",
+    "2026-09-14: Colibri、Google Artemis、OpenResearch、Agent治理栈、OpenMontage",
+    "2026-09-13: Anthropic/OpenAI AI pacing、Nvidia-Anthropic IPO、AI并购、i-have-adhd、Soup",
+    "2026-09-11: OpenAI金融服务、Positron、GPT-6 Astra、Harvey、GitHub Agent基建",
+    "2026-09-10: Cognition、Mistral、小鹏IRON、Clay、高通AWS AI芯片",
+    "2026-09-09: Meta Muse、OpenAI skills、DeepSeek Harness、Ponytail、TimesFM"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-09..2026-09-15",
+    "result": "剔除Siri AI、LangWatch、Open Code Review、LG自主实验室、YuE2、OpenResearch、OpenMontage、Agent治理栈、GPT-6 Astra、AI安全减速等已发或高同质主题；剔除交易Agent/投资建议角度；保留Salesforce Koa、VoiceStudio、Archify、Atlas、TencentDB Agent Memory五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴/串点：CRM专用推理层、本地语音生产工作台、AI工程可交付架构图、多Agent源控层、团队记忆/权限入职系统。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent subagent topic_review_20260916 + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无投资建议；与过去7天低重复；爆点来自Bing Grounding/GitHub Trending/GitTrend/StartupCorners/SiliconANGLE/Artimind等多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Salesforce Koa上线：CRM开始有自己的推理模型了！",
+      "category": "企业AI/SaaS",
+      "score": 96,
+      "batch_verdict": "pass",
+      "sources": [
+        "SiliconANGLE 2026-09-15：Salesforce在Dreamforce发布Koa，称其为面向CRM数据的reasoning model，基于Nvidia Nemotron开放权重构建。",
+        "同场发布AIforce与Claudeforce，后者把Anthropic Claude带入AIforce，并提供37个预置销售管理技能。",
+        "Salesforce在发布中强调，训练Koa使用的是近30年CRM部署经验形成的大规模合成数据，不直接使用客户数据训练模型。"
+      ],
+      "hook": "Dreamforce发布Koa reasoning model、AIforce与Claudeforce，Salesforce把CRM数据、合成数据和37个预置技能做成企业Agent底座",
+      "angle": "从“Salesforce又接入大模型”换轴到“CRM正在长出专用推理层”。",
+      "conclusion_D": "企业AI的护城河不是谁接入了最强通用模型，而是谁能把行业数据和工作流训练成专用推理层。",
+      "explosive_score": 96,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业AI的护城河不是谁接入了最强通用模型，而是谁能把行业数据和工作流训练成专用推理层。",
+        "axis": "从“Salesforce又接入大模型”换轴到“CRM正在长出专用推理层”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 96,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 2,
+      "topic": "VoiceStudio冲上热榜：开源语音工具开始拆掉ElevenLabs的围墙了！",
+      "category": "语音AI/开源",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub Trending 2026-09-16：debpalash/VoiceStudio位列今日趋势，项目描述为本地ElevenLabs替代，支持646种语言。",
+        "StartupCorners 2026-09-15：VoiceStudio在语音、音频与媒体生成方向单日新增约2776星，覆盖voice cloning、dubbing、transcription与audiobook。",
+        "GitTrend 2026-09月榜：VoiceStudio进入月度热门前十附近，显示开发者对本地语音栈的关注快速升温。"
+      ],
+      "hook": "VoiceStudio在GitHub热榜快速走高，定位本地ElevenLabs替代，覆盖声音克隆、设计、视频配音、听写、转录与有声书生产",
+      "angle": "从“开源TTS替代品”换轴到“语音生产工作台本地化”。",
+      "conclusion_D": "语音AI的下一轮竞争会从单次TTS效果，转向本地可控、可批处理、可审计的音频工作台。",
+      "explosive_score": 94,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：语音AI的下一轮竞争会从单次TTS效果，转向本地可控、可批处理、可审计的音频工作台。",
+        "axis": "从“开源TTS替代品”换轴到“语音生产工作台本地化”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 3,
+      "topic": "Archify登顶GitHub月榜：AI画架构图，终于从Mermaid草稿变成可交付作品了！",
+      "category": "工程可视化",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend 2026-09月榜：tt-a1i/archify位列月度趋势第1，9月星标增长约2.36万。",
+        "项目描述强调面向architecture、workflow、sequence、data-flow、lifecycle diagrams，生成自包含HTML，支持动效与清晰导出。",
+        "同榜还出现diagram-design、agent-skills等项目，显示AI Agent周边的技能化、可视化和交付化工具同时升温。"
+      ],
+      "hook": "Archify以超高星增登上GitTrend 9月榜首，主打架构、流程、时序、数据流和生命周期图的自包含HTML交付",
+      "angle": "从“AI画图工具”换轴到“工程交付物可视化”。",
+      "conclusion_D": "Agent时代的文档不是附属品，架构图正在变成AI工程的可验证交付物。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：Agent时代的文档不是附属品，架构图正在变成AI工程的可验证交付物。",
+        "axis": "从“AI画图工具”换轴到“工程交付物可视化”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 4,
+      "topic": "Atlas冲上GitHub：多Agent写代码，最缺的不是模型而是版本控制！",
+      "category": "开发者工具/多Agent",
+      "score": 90,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitHub Trending 2026-09-16：pacifio/atlas项目描述为Source control for agents，可使用多个coding agents、track changes并query in one place。",
+        "同日热榜中还出现Open Code Review、agent-skills、pi等Agent工程工具，显示编码Agent生态正在从单点能力转向协作配套。",
+        "过去一周Open Code Review与Agent治理栈已热，本篇避开审查/治理总论，专写多Agent变更追踪这一窄切口。"
+      ],
+      "hook": "pacifio/atlas进入GitHub今日趋势，定位Agent source control：同时使用多个编码Agent，追踪它们的改动并集中查询",
+      "angle": "从“又一个编码Agent工具”换轴到“多Agent协作的变更治理”。",
+      "conclusion_D": "当多个编码Agent同时改同一仓库，新的刚需不是更聪明的Agent，而是能追踪、比较、回滚它们产物的Agent源控层。",
+      "explosive_score": 90,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：当多个编码Agent同时改同一仓库，新的刚需不是更聪明的Agent，而是能追踪、比较、回滚它们产物的Agent源控层。",
+        "axis": "从“又一个编码Agent工具”换轴到“多Agent协作的变更治理”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 90,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 5,
+      "topic": "TencentDB Agent Memory走红：团队记忆，可能才是AI员工真正的入职系统！",
+      "category": "Agent记忆/企业协作",
+      "score": 88,
+      "batch_verdict": "pass",
+      "sources": [
+        "StartupCorners 2026-09-15：TencentCloud/TencentDB-Agent-Memory被列入GitHub trending AI agent tooling，描述为团队级memory hub。",
+        "Artimind 2026-09月AI GitHub仓库盘点：TencentDB Agent Memory把 conversations、documents、code 转成 Chat Memory、Skills、LLM Wiki、Code Graph 四类资产。",
+        "同类趋势包括OpenViking、LoopX、agent-skills等，说明Agent生态开始重视记忆、技能、状态和可审计流程。"
+      ],
+      "hook": "TencentDB Agent Memory把对话、文档和代码转成Chat Memory、Skills、LLM Wiki、Code Graph，并支持管理员分配不同记忆集合",
+      "angle": "从“Agent记忆工具”换轴到“AI员工入职与权限系统”。",
+      "conclusion_D": "Agent落地企业后，最难的不是让它会回答，而是让它拿到该拿的团队记忆，同时不越权。",
+      "explosive_score": 88,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：Agent落地企业后，最难的不是让它会回答，而是让它拿到该拿的团队记忆，同时不越权。",
+        "axis": "从“Agent记忆工具”换轴到“AI员工入职与权限系统”。",
+        "why_worth": "读者能从单条新闻/热榜看到AI产业结构变化，而不是只记住项目名。"
+      },
+      "review_score": 88,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Salesforce Koa上线：CRM开始有自己的推理模型了！",
+      "thinking": "从“Salesforce又接入大模型”换轴到“CRM正在长出专用推理层”。",
+      "conclusion_d": "企业AI的护城河不是谁接入了最强通用模型，而是谁能把行业数据和工作流训练成专用推理层。",
+      "score": 96,
+      "batch_verdict": "pass",
+      "slug": "salesforce-koa-crm-reasoning-model",
+      "sources": [
+        "SiliconANGLE 2026-09-15：Salesforce在Dreamforce发布Koa，称其为面向CRM数据的reasoning model，基于Nvidia Nemotron开放权重构建。",
+        "同场发布AIforce与Claudeforce，后者把Anthropic Claude带入AIforce，并提供37个预置销售管理技能。",
+        "Salesforce在发布中强调，训练Koa使用的是近30年CRM部署经验形成的大规模合成数据，不直接使用客户数据训练模型。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-15 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "VoiceStudio冲上热榜：开源语音工具开始拆掉ElevenLabs的围墙了！",
+      "thinking": "从“开源TTS替代品”换轴到“语音生产工作台本地化”。",
+      "conclusion_d": "语音AI的下一轮竞争会从单次TTS效果，转向本地可控、可批处理、可审计的音频工作台。",
+      "score": 94,
+      "batch_verdict": "pass",
+      "slug": "voicestudio-local-open-voice-stack",
+      "sources": [
+        "GitHub Trending 2026-09-16：debpalash/VoiceStudio位列今日趋势，项目描述为本地ElevenLabs替代，支持646种语言。",
+        "StartupCorners 2026-09-15：VoiceStudio在语音、音频与媒体生成方向单日新增约2776星，覆盖voice cloning、dubbing、transcription与audiobook。",
+        "GitTrend 2026-09月榜：VoiceStudio进入月度热门前十附近，显示开发者对本地语音栈的关注快速升温。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-15 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Archify登顶GitHub月榜：AI画架构图，终于从Mermaid草稿变成可交付作品了！",
+      "thinking": "从“AI画图工具”换轴到“工程交付物可视化”。",
+      "conclusion_d": "Agent时代的文档不是附属品，架构图正在变成AI工程的可验证交付物。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "archify-agent-diagram-delivery",
+      "sources": [
+        "GitTrend 2026-09月榜：tt-a1i/archify位列月度趋势第1，9月星标增长约2.36万。",
+        "项目描述强调面向architecture、workflow、sequence、data-flow、lifecycle diagrams，生成自包含HTML，支持动效与清晰导出。",
+        "同榜还出现diagram-design、agent-skills等项目，显示AI Agent周边的技能化、可视化和交付化工具同时升温。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-15 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Atlas冲上GitHub：多Agent写代码，最缺的不是模型而是版本控制！",
+      "thinking": "从“又一个编码Agent工具”换轴到“多Agent协作的变更治理”。",
+      "conclusion_d": "当多个编码Agent同时改同一仓库，新的刚需不是更聪明的Agent，而是能追踪、比较、回滚它们产物的Agent源控层。",
+      "score": 90,
+      "batch_verdict": "pass",
+      "slug": "atlas-agent-source-control",
+      "sources": [
+        "GitHub Trending 2026-09-16：pacifio/atlas项目描述为Source control for agents，可使用多个coding agents、track changes并query in one place。",
+        "同日热榜中还出现Open Code Review、agent-skills、pi等Agent工程工具，显示编码Agent生态正在从单点能力转向协作配套。",
+        "过去一周Open Code Review与Agent治理栈已热，本篇避开审查/治理总论，专写多Agent变更追踪这一窄切口。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-15 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "TencentDB Agent Memory走红：团队记忆，可能才是AI员工真正的入职系统！",
+      "thinking": "从“Agent记忆工具”换轴到“AI员工入职与权限系统”。",
+      "conclusion_d": "Agent落地企业后，最难的不是让它会回答，而是让它拿到该拿的团队记忆，同时不越权。",
+      "score": 88,
+      "batch_verdict": "pass",
+      "slug": "tencentdb-agent-memory-team-onboarding",
+      "sources": [
+        "StartupCorners 2026-09-15：TencentCloud/TencentDB-Agent-Memory被列入GitHub trending AI agent tooling，描述为团队级memory hub。",
+        "Artimind 2026-09月AI GitHub仓库盘点：TencentDB Agent Memory把 conversations、documents、code 转成 Chat Memory、Skills、LLM Wiki、Code Graph 四类资产。",
+        "同类趋势包括OpenViking、LoopX、agent-skills等，说明Agent生态开始重视记忆、技能、状态和可审计流程。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-09..2026-09-15 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "OpenAI/Anthropic/Google AI安全标准组织",
+      "reason": "与2026-09-13 AI pacing/安全减速主线重复度高，且外政/监管叙事过重，Step 3.5 kill。"
+    },
+    {
+      "topic": "Siri AI / LangWatch / Open Code Review / LG自主实验室 / YuE2",
+      "reason": "2026-09-15刚发同题，Step 3.5查重kill。"
+    },
+    {
+      "topic": "OpenResearch / OpenMontage / Agent治理栈",
+      "reason": "2026-09-14刚发，Step 3.5查重kill。"
+    },
+    {
+      "topic": "TradingAgents / AutoHedge / 个股或资产预测视角",
+      "reason": "个股/交易建议风险，自动模式kill；不进入撰写。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "05-hyperframes-html-to-video-agents",
+  "date": "2026-09-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/05-hyperframes-html-to-video-agents",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/05-hyperframes-html-to-video-agents/01-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "caption": "视频生成不一定从提示词直出",
+      "anchor": "视频生成不一定从提示词直出",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/05-hyperframes-html-to-video-agents/02-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "caption": "HTML是Agent最会操作的画布",
+      "anchor": "HTML是Agent最会操作的画布",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/05-hyperframes-html-to-video-agents/03-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "caption": "这不是替代视频模型，而是分工",
+      "anchor": "这不是替代视频模型，而是分工",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/05-hyperframes-html-to-video-agents/04-05-hyperframes-html-to-video-agents-infographic.jpg",
+      "caption": "营销视频会被批量化重写",
+      "anchor": "营销视频会被批量化重写",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

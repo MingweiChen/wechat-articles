@@ -1,0 +1,53 @@
+{
+  "slug": "03-context-mode-agent-token-sandbox",
+  "date": "2026-09-17",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/01-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "caption": "Token浪费不是让模型闭嘴就能解决",
+      "anchor": "Token浪费不是让模型闭嘴就能解决",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/02-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "caption": "工具输出需要沙箱",
+      "anchor": "工具输出需要沙箱",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/03-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "caption": "记忆和路由也要省",
+      "anchor": "记忆和路由也要省",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-17/illustrations/03-context-mode-agent-token-sandbox/04-03-context-mode-agent-token-sandbox-infographic.jpg",
+      "caption": "价格战会转到系统层",
+      "anchor": "价格战会转到系统层",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
