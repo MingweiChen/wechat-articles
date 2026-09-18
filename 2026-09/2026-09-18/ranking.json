@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！",
+      "slug": "01-tencent-browserskill-real-browser-agent",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "hypit走红：AI开始批量复刻爆款视频，短视频工厂要变天了！",
+      "slug": "02-hypit-ai-viral-video-agent-factory",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "WeKnora上榜：企业知识库开始自己长出Wiki和Agent了！",
+      "slug": "03-tencent-weknora-self-maintaining-knowledge",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Faraday Future 919机器人发布会：车企开始把AI身体做成产品矩阵了！",
+      "slug": "04-faraday-future-919-embodied-ai-matrix",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Roboflow Supervision再上热榜：视觉AI正在从模型比赛变成工程套件！",
+      "slug": "05-roboflow-supervision-cv-engineering-kit",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-18",
+  "generated_at_utc": "2026-09-18T01:00:00Z",
+  "mode": "auto-cron",
+  "batch_verdict": "pass",
+  "political_redline_policy": "选题阶段已排除中国领导人、涉港台疆藏、国旗/政治人物视觉叙事与外政魔鬼化叙事；本批无政治题、无投资建议。",
+  "dedup_basis": [
+    "2026-09-17: Cloudflare安全审计Skill、Anthropic知识工作插件、Context Mode、Worktrunk、Hyperframes",
+    "2026-09-16: Salesforce Koa、VoiceStudio、Archify、Atlas、TencentDB Agent Memory",
+    "2026-09-15: Siri AI、LangWatch、Open Code Review、LG自主实验室、YuE2",
+    "2026-09-14: Colibri、Google Artemis、OpenResearch、Agent治理栈、OpenMontage",
+    "2026-09-13: Anthropic/OpenAI AI pacing、Nvidia-Anthropic IPO、AI并购、i-have-adhd、Soup",
+    "2026-09-11: OpenAI金融服务、Positron、GPT-6 Astra、Harvey、GitHub Agent基建"
+  ],
+  "dedup_step_3_5": {
+    "lookback": "2026-09-11..2026-09-17",
+    "result": "剔除OpenAI/Anthropic/Google安全标准组织、Salesforce Koa/AIforce、Open Code Review、OpenResearch、OpenMontage、Hyperframes、Context Mode、Worktrunk等近一周已发或高同质主题；剔除TradingAgents/个股预测视角；保留BrowserSkill、hypit、WeKnora、Faraday Future机器人矩阵、Roboflow Supervision五个新增切口。"
+  },
+  "step_3_6_writing_design": "五篇均设计结论D，采用换轴/串点：真实登录态浏览器、短视频Agent流水线、自维护知识Wiki、具身AI设备矩阵、视觉AI工程胶水层。",
+  "step_3_7_independent_review": {
+    "reviewer": "independent-subagent topic_review_20260918 + deterministic compliance check",
+    "batch_verdict": "pass",
+    "notes": "5题无政治红线、无投资建议；与过去7天低重复；爆点来自Bing Grounding、GitHub Trending、GitTrend、Yahoo Finance/Business Wire等多源信号。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！",
+      "category": "Agent浏览器自动化",
+      "score": 96,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：Tencent/BrowserSkill位列今日趋势第4，描述为让AI agents使用真实、已登录浏览器，同时不打断用户工作。",
+        "GitTrend AI Agent 2026-09-16：Tencent/BrowserSkill位列AI Agent趋势第3，强调CLI+扩展、跨任意shell代理使用浏览器。",
+        "Step 3.5查重：过去一周写过Google Artemis真机安卓和Worktrunk并行开发，本篇聚焦“真实登录态浏览器”这一不同基础设施。"
+      ],
+      "hook": "Tencent/BrowserSkill登上GitHub今日趋势，主打让AI Agent使用真实登录态浏览器、同时不打断用户操作",
+      "angle": "从“浏览器自动化工具”换轴到“Agent进入真实账号现场”。",
+      "conclusion_D": "浏览器会从人类界面变成Agent的工作台，登录态、权限和旁路控制将成为AI自动化的新基础设施。",
+      "explosive_score": 96,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：浏览器会从人类界面变成Agent的工作台，登录态、权限和旁路控制将成为AI自动化的新基础设施。",
+        "axis": "从“浏览器自动化工具”换轴到“Agent进入真实账号现场”。",
+        "why_worth": "读者能从当日热榜/新闻看到AI工具链的新分层，而不是只记住项目名。"
+      },
+      "review_score": 96,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 2,
+      "topic": "hypit走红：AI开始批量复刻爆款视频，短视频工厂要变天了！",
+      "category": "AI视频/内容工厂",
+      "score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "GitTrend AI Agent 2026-09-16：hypit-ai/hypit位列AI Agent趋势第1，描述为Clone any viral video with AI agents，支持脚本、B-roll与批量生产工作流。",
+        "GitHub周榜同期出现OpenMontage、Hyperframes、Recordly等视频生产项目，说明AI视频从单点生成转向流程化工具链。",
+        "Step 3.5查重：9月14日写过OpenMontage，9月17日写过Hyperframes；本篇不写HTML渲染或多镜头片场，聚焦短视频爆款复刻流水线及治理风险。"
+      ],
+      "hook": "hypit-ai/hypit进入AI Agent趋势榜，定位为用AI Agent复刻爆款视频工作流：脚本、口播、B-roll与批量生产",
+      "angle": "从“视频克隆工具”换轴到“短视频生产线被Agent化”。",
+      "conclusion_D": "AI视频的爆点不只是生成一条片，而是把选题、脚本、口播、B-roll和发布测试做成可复制流水线；深伪和版权治理会同时变成刚需。",
+      "explosive_score": 94,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：AI视频的爆点不只是生成一条片，而是把选题、脚本、口播、B-roll和发布测试做成可复制流水线；深伪和版权治理会同时变成刚需。",
+        "axis": "从“视频克隆工具”换轴到“短视频生产线被Agent化”。",
+        "why_worth": "读者能从当日热榜/新闻看到AI工具链的新分层，而不是只记住项目名。"
+      },
+      "review_score": 94,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 3,
+      "topic": "WeKnora上榜：企业知识库开始自己长出Wiki和Agent了！",
+      "category": "企业知识库/RAG",
+      "score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：Tencent/WeKnora位列今日趋势第9，描述为Open-source LLM knowledge platform，将原始文档转为可查询RAG、自治推理Agent和自维护Wiki。",
+        "GitHub今日趋势同时出现knowledge-work-plugins、agent-skills、OpenResearch等项目，说明知识工作正在从“问答”走向“可行动知识系统”。",
+        "Step 3.5查重：9月16日写过TencentDB Agent Memory，主题是团队记忆资产；本篇聚焦文档知识库如何自维护Wiki并驱动Agent，切口不同。"
+      ],
+      "hook": "Tencent/WeKnora登上GitHub今日趋势，定位开源LLM知识平台：把原始文档变成可查询RAG、自治推理Agent和自维护Wiki",
+      "angle": "从“又一个RAG平台”换轴到“知识库自维护”。",
+      "conclusion_D": "企业AI的下一阶段不是把文档塞进向量库，而是让知识库持续更新、解释来源，并直接驱动Agent行动。",
+      "explosive_score": 92,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：企业AI的下一阶段不是把文档塞进向量库，而是让知识库持续更新、解释来源，并直接驱动Agent行动。",
+        "axis": "从“又一个RAG平台”换轴到“知识库自维护”。",
+        "why_worth": "读者能从当日热榜/新闻看到AI工具链的新分层，而不是只记住项目名。"
+      },
+      "review_score": 92,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 4,
+      "topic": "Faraday Future 919机器人发布会：车企开始把AI身体做成产品矩阵了！",
+      "category": "具身AI/机器人商业化",
+      "score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "Yahoo Finance/Business Wire 2026-09-17：Faraday Future宣布将在9月19日919发布会展示9款AI机器人设备和4套行业生产力方案。",
+        "报道披露方案覆盖K-12教育、科研、安防、巡检，并在IMTS 2026展示Aegis系列安防与巡检四足机器人。",
+        "Step 3.5查重：9月15日写过LG自主实验室，切口是AI走进实验台；本篇聚焦车企/硬件公司把具身AI做成设备矩阵和行业方案。"
+      ],
+      "hook": "Faraday Future宣布将在919活动发布9款AI机器人设备和4套行业方案，覆盖教育、科研、安防和巡检等场景",
+      "angle": "从“电动车公司跨界机器人”换轴到“具身AI从单机演示转为行业方案”。",
+      "conclusion_D": "具身AI商业化会先从设备矩阵+行业方案开始，而不是等待一个万能人形机器人突然成熟。",
+      "explosive_score": 89,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：具身AI商业化会先从设备矩阵+行业方案开始，而不是等待一个万能人形机器人突然成熟。",
+        "axis": "从“电动车公司跨界机器人”换轴到“具身AI从单机演示转为行业方案”。",
+        "why_worth": "读者能从当日热榜/新闻看到AI工具链的新分层，而不是只记住项目名。"
+      },
+      "review_score": 89,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    },
+    {
+      "rank": 5,
+      "topic": "Roboflow Supervision再上热榜：视觉AI正在从模型比赛变成工程套件！",
+      "category": "计算机视觉/工程化",
+      "score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：roboflow/supervision位列今日趋势第14。",
+        "Supervision长期围绕计算机视觉的检测、分割、跟踪、可视化与数据处理工作流，适合连接不同模型和真实业务场景。",
+        "Step 3.5查重：过去一周没有单独写视觉AI工程套件；避开个股、监管和政治叙事，聚焦开发者落地链路。"
+      ],
+      "hook": "roboflow/supervision登上GitHub今日趋势，代表视觉AI落地所需的检测、跟踪、标注、评估和可视化工具链继续升温",
+      "angle": "从“CV开源库”换轴到“视觉模型落地的胶水层”。",
+      "conclusion_D": "视觉AI落地的关键正在从更大的模型，转向标注、检测、跟踪、评估和部署这些工程环节能否被快速拼起来。",
+      "explosive_score": 87,
+      "writing_approach": {
+        "increment_path": "换轴/串点",
+        "thesis": "D：视觉AI落地的关键正在从更大的模型，转向标注、检测、跟踪、评估和部署这些工程环节能否被快速拼起来。",
+        "axis": "从“CV开源库”换轴到“视觉模型落地的胶水层”。",
+        "why_worth": "读者能从当日热榜/新闻看到AI工具链的新分层，而不是只记住项目名。"
+      },
+      "review_score": 87,
+      "review_verdict": "pass",
+      "compliance": "通过：无中国政治红线、无涉港台疆藏、无外政魔鬼化叙事、无投资建议。"
+    }
+  ],
+  "selected": [
+    {
+      "final_title": "Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！",
+      "thinking": "从“浏览器自动化工具”换轴到“Agent进入真实账号现场”。",
+      "conclusion_d": "浏览器会从人类界面变成Agent的工作台，登录态、权限和旁路控制将成为AI自动化的新基础设施。",
+      "score": 96,
+      "batch_verdict": "pass",
+      "slug": "tencent-browserskill-real-browser-agent",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：Tencent/BrowserSkill位列今日趋势第4，描述为让AI agents使用真实、已登录浏览器，同时不打断用户工作。",
+        "GitTrend AI Agent 2026-09-16：Tencent/BrowserSkill位列AI Agent趋势第3，强调CLI+扩展、跨任意shell代理使用浏览器。",
+        "Step 3.5查重：过去一周写过Google Artemis真机安卓和Worktrunk并行开发，本篇聚焦“真实登录态浏览器”这一不同基础设施。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-11..2026-09-17 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "hypit走红：AI开始批量复刻爆款视频，短视频工厂要变天了！",
+      "thinking": "从“视频克隆工具”换轴到“短视频生产线被Agent化”。",
+      "conclusion_d": "AI视频的爆点不只是生成一条片，而是把选题、脚本、口播、B-roll和发布测试做成可复制流水线；深伪和版权治理会同时变成刚需。",
+      "score": 94,
+      "batch_verdict": "pass",
+      "slug": "hypit-ai-viral-video-agent-factory",
+      "sources": [
+        "GitTrend AI Agent 2026-09-16：hypit-ai/hypit位列AI Agent趋势第1，描述为Clone any viral video with AI agents，支持脚本、B-roll与批量生产工作流。",
+        "GitHub周榜同期出现OpenMontage、Hyperframes、Recordly等视频生产项目，说明AI视频从单点生成转向流程化工具链。",
+        "Step 3.5查重：9月14日写过OpenMontage，9月17日写过Hyperframes；本篇不写HTML渲染或多镜头片场，聚焦短视频爆款复刻流水线及治理风险。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-11..2026-09-17 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "WeKnora上榜：企业知识库开始自己长出Wiki和Agent了！",
+      "thinking": "从“又一个RAG平台”换轴到“知识库自维护”。",
+      "conclusion_d": "企业AI的下一阶段不是把文档塞进向量库，而是让知识库持续更新、解释来源，并直接驱动Agent行动。",
+      "score": 92,
+      "batch_verdict": "pass",
+      "slug": "tencent-weknora-self-maintaining-knowledge",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：Tencent/WeKnora位列今日趋势第9，描述为Open-source LLM knowledge platform，将原始文档转为可查询RAG、自治推理Agent和自维护Wiki。",
+        "GitHub今日趋势同时出现knowledge-work-plugins、agent-skills、OpenResearch等项目，说明知识工作正在从“问答”走向“可行动知识系统”。",
+        "Step 3.5查重：9月16日写过TencentDB Agent Memory，主题是团队记忆资产；本篇聚焦文档知识库如何自维护Wiki并驱动Agent，切口不同。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-11..2026-09-17 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Faraday Future 919机器人发布会：车企开始把AI身体做成产品矩阵了！",
+      "thinking": "从“电动车公司跨界机器人”换轴到“具身AI从单机演示转为行业方案”。",
+      "conclusion_d": "具身AI商业化会先从设备矩阵+行业方案开始，而不是等待一个万能人形机器人突然成熟。",
+      "score": 89,
+      "batch_verdict": "pass",
+      "slug": "faraday-future-919-embodied-ai-matrix",
+      "sources": [
+        "Yahoo Finance/Business Wire 2026-09-17：Faraday Future宣布将在9月19日919发布会展示9款AI机器人设备和4套行业生产力方案。",
+        "报道披露方案覆盖K-12教育、科研、安防、巡检，并在IMTS 2026展示Aegis系列安防与巡检四足机器人。",
+        "Step 3.5查重：9月15日写过LG自主实验室，切口是AI走进实验台；本篇聚焦车企/硬件公司把具身AI做成设备矩阵和行业方案。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-11..2026-09-17 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    },
+    {
+      "final_title": "Roboflow Supervision再上热榜：视觉AI正在从模型比赛变成工程套件！",
+      "thinking": "从“CV开源库”换轴到“视觉模型落地的胶水层”。",
+      "conclusion_d": "视觉AI落地的关键正在从更大的模型，转向标注、检测、跟踪、评估和部署这些工程环节能否被快速拼起来。",
+      "score": 87,
+      "batch_verdict": "pass",
+      "slug": "roboflow-supervision-cv-engineering-kit",
+      "sources": [
+        "OrangeBot GitHub Trending 2026-09-18：roboflow/supervision位列今日趋势第14。",
+        "Supervision长期围绕计算机视觉的检测、分割、跟踪、可视化与数据处理工作流，适合连接不同模型和真实业务场景。",
+        "Step 3.5查重：过去一周没有单独写视觉AI工程套件；避开个股、监管和政治叙事，聚焦开发者落地链路。"
+      ],
+      "review": {
+        "verdict": "pass",
+        "political_red_line": "clear",
+        "stock_recommendation": "clear",
+        "duplicate_check": "passed against 2026-09-11..2026-09-17 outputs",
+        "writing_angle": "incremental, non-duplicate"
+      }
+    }
+  ],
+  "killed": [
+    {
+      "topic": "OpenAI/Anthropic/Google AI安全标准组织与Sam Altman减速表态",
+      "reason": "与2026-09-13、2026-09-17 AI pacing/安全减速主线重复度高，且外政/监管叙事过重，Step 3.5 kill。"
+    },
+    {
+      "topic": "Salesforce Koa / AIforce / VoiceStudio / Archify / Atlas / TencentDB Agent Memory",
+      "reason": "2026-09-16或近两日刚发同题，Step 3.5查重kill。"
+    },
+    {
+      "topic": "Open Code Review / OpenResearch / OpenMontage / Context Mode / Worktrunk / Hyperframes",
+      "reason": "2026-09-14..17刚发，Step 3.5查重kill。"
+    },
+    {
+      "topic": "TradingAgents / 系统化交易 / 个股或资产预测视角",
+      "reason": "个股/交易建议风险，自动模式kill；不进入撰写。"
+    }
+  ]
+}

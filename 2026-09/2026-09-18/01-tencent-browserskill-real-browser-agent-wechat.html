@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！</title><style>body{margin:0;background:#f6f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}.wrap{max-width:760px;margin:0 auto;background:#fff;padding:34px 22px 70px}h1{font-size:30px;line-height:1.25;margin:8px 0 18px;font-weight:900;color:#111827}h2{font-size:22px;line-height:1.35;margin:34px 0 14px;padding-left:12px;border-left:5px solid #2563eb;color:#111827}p{font-size:17px;line-height:1.95;margin:14px 0}blockquote{font-size:18px;line-height:1.75;background:#eff6ff;border-left:5px solid #2563eb;padding:14px 16px;margin:20px 0;color:#1e3a8a;font-weight:700}li{font-size:16px;line-height:1.8;margin:8px 0 8px 4px}ul{padding-left:22px;background:#f8fafc;border-radius:12px;padding-top:10px;padding-bottom:10px}figure{margin:22px 0;text-align:center}img{max-width:92%;border-radius:14px;box-shadow:0 10px 28px rgba(15,23,42,.12)}figcaption{font-size:13px;color:#64748b;margin-top:8px}hr{border:0;border-top:1px solid #e5e7eb;margin:32px 0}.meta{font-size:13px;color:#94a3b8;margin-bottom:24px}</style></head><body><main class="wrap"><div class="meta">每日自动公众号文章 · 2026-09-18</div><h1>Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！</h1>
+<blockquote>浏览器会从人类界面变成Agent的工作台，登录态、权限和旁路控制将成为AI自动化的新基础设施。</blockquote>
+<h2>先看事实</h2>
+<ul>
+<li>OrangeBot GitHub Trending 2026-09-18：Tencent/BrowserSkill位列今日趋势第4，描述为让AI agents使用真实、已登录浏览器，同时不打断用户工作。</li>
+<li>GitTrend AI Agent 2026-09-16：Tencent/BrowserSkill位列AI Agent趋势第3，强调CLI+扩展、跨任意shell代理使用浏览器。</li>
+<li>Step 3.5查重：过去一周写过Google Artemis真机安卓和Worktrunk并行开发，本篇聚焦“真实登录态浏览器”这一不同基础设施。</li>
+</ul>
+<h2>浏览器是Agent最后一公里</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/01-01-tencent-browserskill-real-browser-agent-infographic.jpg" alt="浏览器是Agent最后一公里"/><figcaption>浏览器是Agent最后一公里</figcaption></figure>
+<p>很多Agent在命令行里很强，但一遇到真实网站就卡住：登录态在浏览器里，验证码在浏览器里，企业后台权限也在浏览器里。Tencent BrowserSkill冲上热榜，说明开发者正在补上这块短板。真正有用的Agent不能只会读API文档，它还得能进入人类每天工作的网页现场。</p>
+<h2>“真实登录态”比模拟页面更重要</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/02-01-tencent-browserskill-real-browser-agent-infographic.jpg" alt="“真实登录态”比模拟页面更重要"/><figcaption>“真实登录态”比模拟页面更重要</figcaption></figure>
+<p>传统浏览器自动化可以开一个干净页面跑脚本，但企业工作流往往依赖已有账号、Cookie、二次验证和内部权限。BrowserSkill的关键词是让AI使用真实、已登录的浏览器，同时尽量不打断用户。这意味着Agent可以在授权边界内查看后台、填写表单、导出资料，而不是让用户反复复制粘贴。</p>
+<h2>新问题是权限和旁路控制</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/03-01-tencent-browserskill-real-browser-agent-infographic.jpg" alt="新问题是权限和旁路控制"/><figcaption>新问题是权限和旁路控制</figcaption></figure>
+<p>让Agent碰真实浏览器很强，也很危险。它可能看到敏感信息，可能点错按钮，可能触发外部动作。所以这类工具的核心不是“能不能点网页”，而是有没有可暂停、可审计、可确认的控制面。浏览器会变成Agent工作台，也必须同时变成安全沙箱。</p>
+<h2>浏览器插件可能成为Agent标配</h2>
+<figure><img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/04-01-tencent-browserskill-real-browser-agent-infographic.jpg" alt="浏览器插件可能成为Agent标配"/><figcaption>浏览器插件可能成为Agent标配</figcaption></figure>
+<p>未来AI办公和开发工具很可能都会带一个浏览器桥。命令行Agent负责规划和写代码，浏览器Skill负责进入真实系统验证结果。谁能把登录态、权限、可见性和操作记录处理好，谁就能让Agent从演示走进日常生产。</p>
+<h2>最后一句</h2>
+<p>BrowserSkill的信号很直接：Agent不再满足于“看网页”，它要进入真实浏览器干活。下一轮竞争，会围绕登录态、权限控制和操作审计展开。</p>
+<hr/>
+<p>*合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。*</p>
+</main></body></html>

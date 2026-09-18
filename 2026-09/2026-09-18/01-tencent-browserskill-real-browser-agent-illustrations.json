@@ -1,0 +1,53 @@
+{
+  "slug": "01-tencent-browserskill-real-browser-agent",
+  "date": "2026-09-18",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/01-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "caption": "浏览器是Agent最后一公里",
+      "anchor": "浏览器是Agent最后一公里",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/02-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "caption": "“真实登录态”比模拟页面更重要",
+      "anchor": "“真实登录态”比模拟页面更重要",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/03-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "caption": "新问题是权限和旁路控制",
+      "anchor": "新问题是权限和旁路控制",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/01-tencent-browserskill-real-browser-agent/04-01-tencent-browserskill-real-browser-agent-infographic.jpg",
+      "caption": "浏览器插件可能成为Agent标配",
+      "anchor": "浏览器插件可能成为Agent标配",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

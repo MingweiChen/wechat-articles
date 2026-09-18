@@ -1,0 +1,53 @@
+{
+  "slug": "05-roboflow-supervision-cv-engineering-kit",
+  "date": "2026-09-18",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/05-roboflow-supervision-cv-engineering-kit",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/05-roboflow-supervision-cv-engineering-kit/01-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "caption": "视觉AI不缺模型，缺胶水",
+      "anchor": "视觉AI不缺模型，缺胶水",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/05-roboflow-supervision-cv-engineering-kit/02-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "caption": "从Demo到生产差一整条链",
+      "anchor": "从Demo到生产差一整条链",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/05-roboflow-supervision-cv-engineering-kit/03-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "caption": "开源工具会降低视觉应用门槛",
+      "anchor": "开源工具会降低视觉应用门槛",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/05-roboflow-supervision-cv-engineering-kit/04-05-roboflow-supervision-cv-engineering-kit-infographic.jpg",
+      "caption": "模型竞争之后是工作流竞争",
+      "anchor": "模型竞争之后是工作流竞争",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

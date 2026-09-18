@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-18",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Tencent BrowserSkill冲上热榜：AI Agent终于能接管你的真实浏览器了！",
+      "virality": 10,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 96,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "hypit走红：AI开始批量复刻爆款视频，短视频工厂要变天了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "WeKnora上榜：企业知识库开始自己长出Wiki和Agent了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 92,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Faraday Future 919机器人发布会：车企开始把AI身体做成产品矩阵了！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 89,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Roboflow Supervision再上热榜：视觉AI正在从模型比赛变成工程套件！",
+      "virality": 9,
+      "dedup": 9,
+      "originality": 9,
+      "title_pool": 9,
+      "score": 87,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "按既定结论D写，避免泛泛复述热榜。"
+      ]
+    }
+  ],
+  "swap_candidates": []
+}

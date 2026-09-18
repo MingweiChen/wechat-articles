@@ -1,0 +1,53 @@
+{
+  "slug": "03-tencent-weknora-self-maintaining-knowledge",
+  "date": "2026-09-18",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/03-tencent-weknora-self-maintaining-knowledge",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/03-tencent-weknora-self-maintaining-knowledge/01-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "caption": "RAG的第一阶段太像资料仓库",
+      "anchor": "RAG的第一阶段太像资料仓库",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/03-tencent-weknora-self-maintaining-knowledge/02-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "caption": "自维护Wiki是关键变化",
+      "anchor": "自维护Wiki是关键变化",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/03-tencent-weknora-self-maintaining-knowledge/03-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "caption": "Agent需要知识库，不只是搜索框",
+      "anchor": "Agent需要知识库，不只是搜索框",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/03-tencent-weknora-self-maintaining-knowledge/04-03-tencent-weknora-self-maintaining-knowledge-infographic.jpg",
+      "caption": "企业AI会从模型采购转向知识治理",
+      "anchor": "企业AI会从模型采购转向知识治理",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

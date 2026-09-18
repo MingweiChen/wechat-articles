@@ -1,0 +1,9 @@
+{
+  "bing_sources": [
+    "OrangeBot GitHub Trending Today 2026-09-18: BrowserSkill, WeKnora, roboflow/supervision, open-code-review and other trend signals.",
+    "GitTrend AI Agent 2026-09-16: hypit, BrowserSkill, OpenResearch, ECC, stablyai/orca trend context.",
+    "Yahoo Finance/Business Wire 2026-09-17: Faraday Future 919 robotics launch with nine robot devices and four industry solutions.",
+    "CNBC/TechCrunch/Straits Times 2026-09-15..16 AI safety standards coverage used as killed/redundant context rather than selected topic."
+  ],
+  "generated_from": "Bing Grounding searches at cron runtime"
+}

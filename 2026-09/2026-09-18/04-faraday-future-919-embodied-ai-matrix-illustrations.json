@@ -1,0 +1,53 @@
+{
+  "slug": "04-faraday-future-919-embodied-ai-matrix",
+  "date": "2026-09-18",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/04-faraday-future-919-embodied-ai-matrix",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/04-faraday-future-919-embodied-ai-matrix/01-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "caption": "机器人公司不再只秀一个样机",
+      "anchor": "机器人公司不再只秀一个样机",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/04-faraday-future-919-embodied-ai-matrix/02-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "caption": "设备矩阵比单一形态更现实",
+      "anchor": "设备矩阵比单一形态更现实",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/04-faraday-future-919-embodied-ai-matrix/03-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "caption": "行业方案说明客户要的是结果",
+      "anchor": "行业方案说明客户要的是结果",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/04-faraday-future-919-embodied-ai-matrix/04-04-faraday-future-919-embodied-ai-matrix-infographic.jpg",
+      "caption": "车企跨界具身AI有天然联想",
+      "anchor": "车企跨界具身AI有天然联想",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

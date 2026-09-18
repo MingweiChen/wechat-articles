@@ -1,0 +1,53 @@
+{
+  "slug": "02-hypit-ai-viral-video-agent-factory",
+  "date": "2026-09-18",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/02-hypit-ai-viral-video-agent-factory",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/02-hypit-ai-viral-video-agent-factory/01-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "caption": "短视频不是一段视频，而是一条流水线",
+      "anchor": "短视频不是一段视频，而是一条流水线",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/02-hypit-ai-viral-video-agent-factory/02-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "caption": "复刻爆款会带来效率，也会带来风险",
+      "anchor": "复刻爆款会带来效率，也会带来风险",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/02-hypit-ai-viral-video-agent-factory/03-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "caption": "Agent比单模型更适合内容工厂",
+      "anchor": "Agent比单模型更适合内容工厂",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-18/illustrations/02-hypit-ai-viral-video-agent-factory/04-02-hypit-ai-viral-video-agent-factory-infographic.jpg",
+      "caption": "平台会更看重“可解释的原创性”",
+      "anchor": "平台会更看重“可解释的原创性”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式下用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
