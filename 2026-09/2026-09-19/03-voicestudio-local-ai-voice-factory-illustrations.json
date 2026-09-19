@@ -1,0 +1,53 @@
+{
+  "slug": "03-voicestudio-local-ai-voice-factory",
+  "date": "2026-09-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/03-voicestudio-local-ai-voice-factory",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/03-voicestudio-local-ai-voice-factory/01-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "caption": "声音生成进入“生产线”阶段",
+      "anchor": "声音生成进入“生产线”阶段",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/03-voicestudio-local-ai-voice-factory/02-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "caption": "本地优先解决的是隐私和成本",
+      "anchor": "本地优先解决的是隐私和成本",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/03-voicestudio-local-ai-voice-factory/03-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "caption": "风险也会一起本地化",
+      "anchor": "风险也会一起本地化",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/03-voicestudio-local-ai-voice-factory/04-03-voicestudio-local-ai-voice-factory-infographic.jpg",
+      "caption": "音频内容会更像软件工程",
+      "anchor": "音频内容会更像软件工程",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-19",
+  "items": [
+    {
+      "rank": 1,
+      "title": "阿里open-code-review爆火：代码审查开始进入Agent时代！",
+      "slug": "01-alibaba-open-code-review-ai-review-cli",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Jev Ultrafast冲上榜首：浏览器Agent终于不想再点坐标了！",
+      "slug": "02-jev-ultrafast-browser-agent-no-coordinates",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "VoiceStudio一周涨万星：AI声音工厂开始本地化了！",
+      "slug": "03-voicestudio-local-ai-voice-factory",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI和Anthropic盯上小型数据中心：AI算力开始从巨舰转向蜂群！",
+      "slug": "04-openai-anthropic-small-datacenters-inference",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Universal Robots Gen 7发布：工业机器人开始为Physical AI重做底座！",
+      "slug": "05-universal-robots-gen7-physical-ai-platform",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

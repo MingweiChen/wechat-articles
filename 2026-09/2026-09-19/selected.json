@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-19",
+  "mode": "auto",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "slug": "01-alibaba-open-code-review-ai-review-cli",
+      "title": "阿里open-code-review爆火：代码审查开始进入Agent时代！",
+      "idea": "从“AI帮忙看代码”换轴到“代码审查成为可复用工程流水线”。",
+      "conclusion_d": "AI代码审查的下一步不是让模型随口点评，而是把规则、Diff、Agent工具调用和CI门禁装进同一条可审计流水线。",
+      "viral_score": 96,
+      "batch_verdict": "pass",
+      "sources": [
+        "SegmentFault GitHub热榜2026-09-18：alibaba/open-code-review位列日榜第1，描述为确定性流水线+LLM Agent的混合架构代码审查工具，支持行级评论与多语言规则。",
+        "findarepo 2026-09-18：alibaba/open-code-review位列Trending GitHub Repos第1，Stars约36k。",
+        "GitTrend AI Agent 2026-09-17：alibaba/open-code-review在AI Agent趋势中位列第1，今日新增约2.9k stars。",
+        "Step 3.5查重：过去一周写过Worktrunk并行开发、BrowserSkill真实浏览器，但未写“AI代码审查流水线”。"
+      ],
+      "step_3_5_dedup": "past-week dedupe passed; no same-angle article found",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 2,
+      "slug": "02-jev-ultrafast-browser-agent-no-coordinates",
+      "title": "Jev Ultrafast冲上榜首：浏览器Agent终于不想再点坐标了！",
+      "idea": "从“浏览器自动化加速”换轴到“Agent网页操作范式升级”。",
+      "conclusion_d": "浏览器Agent的核心竞争正在从能不能点网页，转向能否用更稳定的语义动作完成任务，避开脆弱坐标和选择器。",
+      "viral_score": 94,
+      "batch_verdict": "pass",
+      "sources": [
+        "findarepo 2026-09-18 Digest：browser-use/jev-ultrafast位列10 Fastest-Growing GitHub Repos第1，1日增长约3.1k stars。",
+        "hotin.ai 2026-09-19：browser-use/jev-ultrafast描述为“a browser agent that never generates a coordinate or a selector”。",
+        "findarepo Trending 2026-09-18：browser-use/jev-ultrafast位列当日趋势第2。",
+        "Step 3.5查重：9月18日写过Tencent BrowserSkill，重点是复用真实登录态；本篇聚焦“无坐标/无选择器”的浏览器Agent执行可靠性，切口不同。"
+      ],
+      "step_3_5_dedup": "past-week dedupe passed; no same-angle article found",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 3,
+      "slug": "03-voicestudio-local-ai-voice-factory",
+      "title": "VoiceStudio一周涨万星：AI声音工厂开始本地化了！",
+      "idea": "从“语音克隆工具”换轴到“本地化声音生产线”。",
+      "conclusion_d": "AI语音的爆点从“像不像真人”转向“能否在本地、批量、可控地完成克隆、配音和审计”，授权与水印会成为标配。",
+      "viral_score": 92,
+      "batch_verdict": "pass",
+      "sources": [
+        "findarepo 2026-09-18 Digest：debpalash/VoiceStudio位列最快增长榜第5，7日增长约10k stars，描述为本地ElevenLabs替代方案。",
+        "refft 2026-09-18 Monthly Trending：VoiceStudio被描述为local-first speech platform，覆盖cloning、dubbing和long-form audio production。",
+        "findarepo Trending 2026-09-18：VoiceStudio位列当日趋势第4。",
+        "Step 3.5查重：过去一周写过AI视频生成工作流，但未写“本地AI声音生产线”。"
+      ],
+      "step_3_5_dedup": "past-week dedupe passed; no same-angle article found",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 4,
+      "slug": "04-openai-anthropic-small-datacenters-inference",
+      "title": "OpenAI和Anthropic盯上小型数据中心：AI算力开始从巨舰转向蜂群！",
+      "idea": "从“AI数据中心越大越好”换轴到“推理负载让小容量节点重新变香”。",
+      "conclusion_d": "AI基础设施不只会越建越大，推理时代还会催生更分散、更快交付、更贴近业务的算力蜂群。",
+      "viral_score": 89,
+      "batch_verdict": "pass",
+      "sources": [
+        "CNBC 2026-09-18：Anthropic和OpenAI正在寻找较小AI数据中心容量机会，范围约20-30MW，涉及英国、北欧和美国等区域。",
+        "CNBC报道引用Structure Research观点：小容量交易的吸引力在于“speed to usable capacity”，现有供电站点比等待大型单点容量更实际。",
+        "报道指出推理工作负载预计在2027年超过训练工作负载，到2030年推理将占数据中心容量更高比例。",
+        "Step 3.5查重：过去一周写过模型、Agent和机器人，但未写“推理算力分散部署”。"
+      ],
+      "step_3_5_dedup": "past-week dedupe passed; no same-angle article found",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 5,
+      "slug": "05-universal-robots-gen7-physical-ai-platform",
+      "title": "Universal Robots Gen 7发布：工业机器人开始为Physical AI重做底座！",
+      "idea": "从“协作机器人更新换代”换轴到“工业现场为Physical AI补基础设施”。",
+      "conclusion_d": "Physical AI落地不只需要更聪明的模型，还需要机器人硬件、控制器、传感接口和生态应用一起升级。",
+      "viral_score": 87,
+      "batch_verdict": "pass",
+      "sources": [
+        "Financial Times Markets/PRNewswire 2026-09-15：Universal Robots在IMTS发布Gen 7机器人平台，定位为面向工业自动化和Physical AI部署的新平台。",
+        "发布信息显示Gen 7包含CB7 Core控制器、PolyScope X、ROS2通信、开放API，以及工具法兰侧视觉/高带宽传感连接。",
+        "报道提到Gen 7在IMTS展示与20多个生态伙伴的Physical AI、机器视觉和夹爪应用。",
+        "Step 3.5查重：9月18日写过Faraday Future机器人矩阵，本篇聚焦工业协作机器人平台如何为Physical AI补硬件与软件底座。"
+      ],
+      "step_3_5_dedup": "past-week dedupe passed; no same-angle article found",
+      "political_redline": "clear"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "Cloudflare security-audit-skill",
+      "reason": "Step 3.5查重命中：9月17日已写过Cloudflare安全审计Skill，避免重复。"
+    },
+    {
+      "topic": "AI安全标准组织政治化角度",
+      "reason": "涉及美国监管政治博弈较重，自动模式避开政治叙事。"
+    }
+  ]
+}

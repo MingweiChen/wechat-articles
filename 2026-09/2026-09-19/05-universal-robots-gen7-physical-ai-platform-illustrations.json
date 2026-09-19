@@ -1,0 +1,53 @@
+{
+  "slug": "05-universal-robots-gen7-physical-ai-platform",
+  "date": "2026-09-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/05-universal-robots-gen7-physical-ai-platform",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/05-universal-robots-gen7-physical-ai-platform/01-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "caption": "Physical AI不是把模型塞进机器人就完事",
+      "anchor": "Physical AI不是把模型塞进机器人就完事",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/05-universal-robots-gen7-physical-ai-platform/02-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "caption": "控制器和接口决定AI能不能上工位",
+      "anchor": "控制器和接口决定AI能不能上工位",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/05-universal-robots-gen7-physical-ai-platform/03-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "caption": "生态伙伴比单机能力更关键",
+      "anchor": "生态伙伴比单机能力更关键",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/05-universal-robots-gen7-physical-ai-platform/04-05-universal-robots-gen7-physical-ai-platform-infographic.jpg",
+      "caption": "工业落地会先从“可验证任务”开始",
+      "anchor": "工业落地会先从“可验证任务”开始",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

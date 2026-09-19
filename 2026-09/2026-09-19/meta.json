@@ -1,0 +1,47 @@
+{
+  "01-alibaba-open-code-review-ai-review-cli": {
+    "theme": "tech",
+    "main_title": "阿里open-code-review爆火：代码审查开始进入Agent时代！",
+    "sub_title": "AI代码审查的下一步不是让模型随口点评，而是把规则、Diff、Agent工具调用和CI门禁装进同一条可审计流水线。",
+    "subtitle_brief": "alibaba/open-code-review登上GitHub日榜与AI Agent趋势榜，主打确定性流水线+LLM Agent，给Git diff生成行级审查意见",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI代码审查/开发者工具",
+    "punch": ""
+  },
+  "02-jev-ultrafast-browser-agent-no-coordinates": {
+    "theme": "frontier",
+    "main_title": "Jev Ultrafast冲上榜首：浏览器Agent终于不想再点坐标了！",
+    "sub_title": "浏览器Agent的核心竞争正在从能不能点网页，转向能否用更稳定的语义动作完成任务，避开脆弱坐标和选择器。",
+    "subtitle_brief": "browser-use/jev-ultrafast在findarepo 9月18日最快增长榜位列第1，hotin称其为“never generates a coordinate or a selector”的浏览器Agent",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "浏览器Agent/网页自动化",
+    "punch": ""
+  },
+  "03-voicestudio-local-ai-voice-factory": {
+    "theme": "industry",
+    "main_title": "VoiceStudio一周涨万星：AI声音工厂开始本地化了！",
+    "sub_title": "AI语音的爆点从“像不像真人”转向“能否在本地、批量、可控地完成克隆、配音和审计”，授权与水印会成为标配。",
+    "subtitle_brief": "debpalash/VoiceStudio登上findarepo最快增长榜，定位为开源、本地优先的ElevenLabs替代方案，覆盖声音克隆、设计和长音频生产",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI语音/内容生产",
+    "punch": ""
+  },
+  "04-openai-anthropic-small-datacenters-inference": {
+    "theme": "business",
+    "main_title": "OpenAI和Anthropic盯上小型数据中心：AI算力开始从巨舰转向蜂群！",
+    "sub_title": "AI基础设施不只会越建越大，推理时代还会催生更分散、更快交付、更贴近业务的算力蜂群。",
+    "subtitle_brief": "CNBC报道OpenAI和Anthropic正在寻找20-30MW级别较小数据中心容量，原因是可更快获得可用算力，且推理负载更适合分散部署",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI基础设施/推理算力",
+    "punch": ""
+  },
+  "05-universal-robots-gen7-physical-ai-platform": {
+    "theme": "industry",
+    "main_title": "Universal Robots Gen 7发布：工业机器人开始为Physical AI重做底座！",
+    "sub_title": "Physical AI落地不只需要更聪明的模型，还需要机器人硬件、控制器、传感接口和生态应用一起升级。",
+    "subtitle_brief": "Universal Robots在IMTS发布第七代机器人平台，强调AI-ready控制器、工具法兰视觉/传感连接、ROS2和开放API，面向Physical AI部署",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "Physical AI/工业机器人",
+    "punch": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "01-alibaba-open-code-review-ai-review-cli",
+  "date": "2026-09-19",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/01-alibaba-open-code-review-ai-review-cli",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/01-alibaba-open-code-review-ai-review-cli/01-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "caption": "代码审查不该只靠“模型感觉”",
+      "anchor": "代码审查不该只靠“模型感觉”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/01-alibaba-open-code-review-ai-review-cli/02-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "caption": "混合架构会比纯Agent更稳",
+      "anchor": "混合架构会比纯Agent更稳",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/01-alibaba-open-code-review-ai-review-cli/03-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "caption": "行级评论才是进入工作流的门票",
+      "anchor": "行级评论才是进入工作流的门票",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-19/illustrations/01-alibaba-open-code-review-ai-review-cli/04-01-alibaba-open-code-review-ai-review-cli-infographic.jpg",
+      "caption": "未来Review会变成多代理协作",
+      "anchor": "未来Review会变成多代理协作",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于真新闻/热榜事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "Bing Grounding sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
