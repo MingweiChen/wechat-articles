@@ -1,0 +1,53 @@
+{
+  "slug": "03-claude-code-agentsmd-standard",
+  "date": "2026-09-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-claude-code-agentsmd-standard-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/01-03-claude-code-agentsmd-standard-infographic.jpg",
+      "caption": "小文件可能比大模型更重要",
+      "anchor": "小文件可能比大模型更重要",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-claude-code-agentsmd-standard-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/02-03-claude-code-agentsmd-standard-infographic.jpg",
+      "caption": "Agent真正需要的是上下文契约",
+      "anchor": "Agent真正需要的是上下文契约",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-claude-code-agentsmd-standard-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/03-03-claude-code-agentsmd-standard-infographic.jpg",
+      "caption": "标准化会降低切换成本",
+      "anchor": "标准化会降低切换成本",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-claude-code-agentsmd-standard-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/04-03-claude-code-agentsmd-standard-infographic.jpg",
+      "caption": "这也是安全边界的起点",
+      "anchor": "这也是安全边界的起点",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

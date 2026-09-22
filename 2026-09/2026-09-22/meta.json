@@ -1,0 +1,47 @@
+{
+  "01-nvidia-huggingface-open-ai-distribution": {
+    "theme": "infrastructure",
+    "main_title": "Nvidia收购Hugging Face：开源AI入口被GPU巨头拿走了！",
+    "sub_title": "这笔交易的核心不是买一个社区网站，而是把模型分发、开发者关系和算力需求接到了同一家公司手里。",
+    "subtitle_brief": "多家科技与财经站点报道，Nvidia以约129亿美元收购Hugging Face，后者拥有模型、数据集与应用生态，是AI开发者事实入口",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI基础设施/开源生态",
+    "punch": ""
+  },
+  "02-openai-frontier-enterprise-agent-os": {
+    "theme": "enterprise",
+    "main_title": "OpenAI Frontier亮牌：企业AI超级应用要抢SaaS饭碗了！",
+    "sub_title": "OpenAI的企业野心已经不是卖模型API，而是成为公司里所有Agent运行、协作和治理的统一操作层。",
+    "subtitle_brief": "OpenAI在“The next phase of enterprise AI”中提出Frontier与统一AI superapp，强调公司级Agent、权限、上下文、AWS Stateful Runtime和咨询伙伴联盟",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "企业Agent/SaaS变革",
+    "punch": ""
+  },
+  "03-claude-code-agentsmd-standard": {
+    "theme": "developer",
+    "main_title": "Claude Code支持AGENTS.md：AI编程终于有共同说明书了！",
+    "sub_title": "AI编程Agent互通的第一步，不是所有模型用同一个API，而是项目规则、边界和工作习惯能在不同Agent之间迁移。",
+    "subtitle_brief": "InfoWorld与AIWeekly等报道，Claude Code 2.1.277在缺少CLAUDE.md时可读取AGENTS.md项目说明，OpenAI格式开始跨工具复用",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI编程/开发者工具",
+    "punch": ""
+  },
+  "04-cloudflare-wallets-agent-payments": {
+    "theme": "agentic-commerce",
+    "main_title": "Cloudflare给AI Agent开钱包：会花钱的机器人来了！",
+    "sub_title": "Agent一旦能自主发起付款，就从自动化脚本变成了企业里的非人账户，权限、预算和审计必须重新设计。",
+    "subtitle_brief": "AI Agent新闻汇总显示，Cloudflare推出面向Agent的钱包能力，围绕x402协议提供限额、商户白名单等控制，已有多家公司参与Agent付款流程",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "Agent商业化/安全治理",
+    "punch": ""
+  },
+  "05-desktop-ai-supercomputer-edge-shift": {
+    "theme": "hardware",
+    "main_title": "300B模型搬上办公桌：本地AI硬件开始反攻云端了！",
+    "sub_title": "本地AI硬件的价值不是替代云，而是在隐私、延迟、成本和可控性之间，重新划出企业AI的云边界。",
+    "subtitle_brief": "GMKtec EVO-X5 Pro、ASUS Ascent QN10等9月新品把桌面AI超级计算机/Agentic mini PC推到前台，强调本地运行大模型、低延迟与隐私控制",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI硬件/边缘计算",
+    "punch": ""
+  }
+}

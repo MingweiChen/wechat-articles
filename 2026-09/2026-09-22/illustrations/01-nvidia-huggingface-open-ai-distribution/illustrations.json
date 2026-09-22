@@ -1,0 +1,53 @@
+{
+  "slug": "01-nvidia-huggingface-open-ai-distribution",
+  "date": "2026-09-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/01-nvidia-huggingface-open-ai-distribution",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/01-nvidia-huggingface-open-ai-distribution/01-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "caption": "芯片公司买走了模型集市",
+      "anchor": "芯片公司买走了模型集市",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/01-nvidia-huggingface-open-ai-distribution/02-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "caption": "Hugging Face的价值在默认选择",
+      "anchor": "Hugging Face的价值在默认选择",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/01-nvidia-huggingface-open-ai-distribution/03-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "caption": "开源不会消失，但中立性会被追问",
+      "anchor": "开源不会消失，但中立性会被追问",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/01-nvidia-huggingface-open-ai-distribution/04-01-nvidia-huggingface-open-ai-distribution-infographic.jpg",
+      "caption": "AI基础设施开始纵向整合",
+      "anchor": "AI基础设施开始纵向整合",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

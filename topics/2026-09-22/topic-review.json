@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-22",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Nvidia收购Hugging Face：开源AI从社区入口变成芯片公司的分发层",
+      "virality": 10,
+      "dedup": 9,
+      "originality": 8,
+      "title_pool": 10,
+      "score": 93,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": ["标题可突出“英伟达买下AI开源入口/18百万开发者入口”，把并购冲击感前置。"]
+    },
+    {
+      "rank": 2,
+      "topic": "Cloudflare Wallets/x402：AI Agent开始拥有自己的付款轨道",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 8,
+      "score": 83,
+      "verdict": "keep",
+      "issues": ["与9-17 Cloudflare主题同公司但事件和角度不同，重复度可控。"],
+      "suggestions": ["标题尽量避开币圈腔，强调“AI开始自己花钱/非人账户”。"]
+    },
+    {
+      "rank": 3,
+      "topic": "OpenAI Frontier企业战略：AI超级应用要接管公司里的所有Agent",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 78,
+      "verdict": "keep",
+      "issues": ["过去一周写过OpenAI估值，需避免再次写成公司资本故事。"],
+      "suggestions": ["从“企业Agent操作系统”切入，少写估值和融资，多写SaaS/云厂商位置争夺。"]
+    },
+    {
+      "rank": 4,
+      "topic": "Claude Code支持AGENTS.md：AI编程Agent开始共享“项目说明书”标准",
+      "virality": 7,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 7,
+      "score": 76,
+      "verdict": "keep",
+      "issues": ["偏开发者向，泛读者爆点弱于并购/付款轨道。"],
+      "suggestions": ["标题用“AI程序员终于能看同一份说明书”降低门槛，正文强调标准化带来的团队协作变化。"]
+    },
+    {
+      "rank": 5,
+      "topic": "桌面AI超级计算机/Agentic Mini PC：300B模型开始从云端搬回办公桌",
+      "virality": 7,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 75,
+      "verdict": "keep",
+      "issues": ["与9-19 small datacenters有轻微“算力下沉”主题相近，但载体和读者问题不同。"],
+      "suggestions": ["标题突出“300B大模型搬回办公桌”，正文补充量化/内存限制，避免把厂商宣传当实测。"]
+    }
+  ],
+  "swap_candidates": []
+}

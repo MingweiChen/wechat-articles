@@ -1,0 +1,53 @@
+{
+  "slug": "02-openai-frontier-enterprise-agent-os",
+  "date": "2026-09-22",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/02-openai-frontier-enterprise-agent-os",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/02-openai-frontier-enterprise-agent-os/01-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "caption": "OpenAI不想只当模型供应商",
+      "anchor": "OpenAI不想只当模型供应商",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/02-openai-frontier-enterprise-agent-os/02-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "caption": "企业要的是统一层，不是更多聊天框",
+      "anchor": "企业要的是统一层，不是更多聊天框",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/02-openai-frontier-enterprise-agent-os/03-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "caption": "Stateful Runtime是关键暗线",
+      "anchor": "Stateful Runtime是关键暗线",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/02-openai-frontier-enterprise-agent-os/04-02-openai-frontier-enterprise-agent-os-infographic.jpg",
+      "caption": "SaaS公司的护城河会被重估",
+      "anchor": "SaaS公司的护城河会被重估",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

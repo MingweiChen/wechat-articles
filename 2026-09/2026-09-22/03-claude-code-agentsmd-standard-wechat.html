@@ -1,0 +1,58 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">AI编程/开发者工具</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Claude Code支持AGENTS.md：AI编程终于有共同说明书了！<br>AI编程Agent互通的第一步，不是所有模型用同一个API，而是项目规则、边界和工作习惯能在不同Agent之间迁移。</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">InfoWorld与AIWeekly等报道，Claude Code 2.1.277在缺少CLAUDE.md时可读取AGENTS.md项目说明，OpenAI格式开始跨工具复用</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">AI编程Agent互通的第一步，不是所有模型用同一个API，而是项目规则、边界和工作习惯能在不同Agent之间迁移。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先看事实</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• AIWeekly 2026-09-19：Claude Code 2.1.277可在缺少CLAUDE.md时读取AGENTS.md，并提供配置控制。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• InfoWorld 2026-09-21新闻列表提到“Claude Code now also accepts instructions in OpenAI’s Agents.md format”。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• OpenAI生态此前推动AGENTS.md作为Agent读取项目说明、编码规范和安全边界的轻量文件格式。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Step 3.5查重：过去一周写过多个编程Agent项目，但未写AGENTS.md跨工具标准化；与9月17的Context Mode/Worktrunk角度不同。</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">小文件可能比大模型更重要</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/01-03-claude-code-agentsmd-standard-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">小文件可能比大模型更重要</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">AGENTS.md看起来只是仓库里的一个说明文件，但它解决的是AI编程最烦的问题：每换一个Agent，就要重新解释项目结构、测试命令、代码风格和禁区。Claude Code愿意兼容这个格式，说明工具之间开始承认共同工作规约。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent真正需要的是上下文契约</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/02-03-claude-code-agentsmd-standard-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Agent真正需要的是上下文契约</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">模型能不能写代码是一层，能不能按这个仓库的规矩写是另一层。AGENTS.md把“怎么构建、怎么测试、哪些文件别碰、出了错先看哪里”固化下来，相当于给AI员工发了一本入职手册。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">标准化会降低切换成本</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/03-03-claude-code-agentsmd-standard-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">标准化会降低切换成本</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">如果OpenAI、Anthropic和更多本地Agent都能读同一份说明，开发团队就不必被某个工具的私有配置锁死。今天用Claude Code，明天用Codex或本地Agent，至少项目上下文可以迁移。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这也是安全边界的起点</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-09/2026-09-22/illustrations/03-claude-code-agentsmd-standard/04-03-claude-code-agentsmd-standard-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">这也是安全边界的起点</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Agent越能动代码，越需要明确边界。哪些命令不能跑、哪些凭据不能读、哪些目录不能改，写进项目说明比靠临场提醒更可靠。AGENTS.md的价值不只是方便，更是把安全和流程前置。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后一句</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Claude Code支持AGENTS.md不是一个普通兼容项，而是AI编程工具走向工业化的信号。真正成熟的Agent生态，需要共同的项目说明书。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><em>合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。</em></p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这个趋势会最快落在哪个场景？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>
