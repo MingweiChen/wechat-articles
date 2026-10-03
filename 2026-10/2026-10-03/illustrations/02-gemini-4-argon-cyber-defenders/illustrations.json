@@ -1,0 +1,53 @@
+{
+  "slug": "02-gemini-4-argon-cyber-defenders",
+  "date": "2026-10-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/01-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "caption": "最强模型没有先给所有人聊天",
+      "anchor": "最强模型没有先给所有人聊天",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/02-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "caption": "1M输出不是炫技，而是任务形态变化",
+      "anchor": "1M输出不是炫技，而是任务形态变化",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/03-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "caption": "Fairwind是在给强能力装闸门",
+      "anchor": "Fairwind是在给强能力装闸门",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/04-02-gemini-4-argon-cyber-defenders-infographic.jpg",
+      "caption": "前沿模型会先进入高价值脏活",
+      "anchor": "前沿模型会先进入高价值脏活",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

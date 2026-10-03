@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "web_search: OpenAI DevDay 2026 GPT-6.1 Sol Agents API computer use Codex multi-agent",
+    "web_search: Google Gemini 4 Argon Fairwind Program 1M output cyber defenders",
+    "web_search: NVIDIA Open Agent Safety Platform OpenShell Sentry BlueField-4",
+    "web_search: Anthropic Claude Sonnet 5.5 Terminal-Bench pricing faster cheaper",
+    "web_search: GitHub Trending agent skills plugins AGENTS.md AI coding"
+  ],
+  "bing_grounding": "401 unauthorized; fallback to configured web_search provider"
+}

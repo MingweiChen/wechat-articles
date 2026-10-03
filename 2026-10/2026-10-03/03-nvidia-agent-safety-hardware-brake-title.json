@@ -1,0 +1,6 @@
+{
+  "title": "NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！",
+  "score": 93,
+  "slug": "nvidia-agent-safety-hardware-brake",
+  "conclusion_d": "Agent安全从提示词和应用层过滤升级为全栈执行控制，未来能不能让AI做事取决于能不能在硬件侧刹住它。"
+}

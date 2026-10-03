@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-devday-agent-runtime",
+  "date": "2026-10-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/01-openai-devday-agent-runtime",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-devday-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/01-openai-devday-agent-runtime/01-01-openai-devday-agent-runtime-infographic.jpg",
+      "caption": "发布会真正的主角不是模型名",
+      "anchor": "发布会真正的主角不是模型名",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-devday-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/01-openai-devday-agent-runtime/02-01-openai-devday-agent-runtime-infographic.jpg",
+      "caption": "API调用正在变成工作流员工",
+      "anchor": "API调用正在变成工作流员工",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-devday-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/01-openai-devday-agent-runtime/03-01-openai-devday-agent-runtime-infographic.jpg",
+      "caption": "Codex多Agent让开发从单线程变多线程",
+      "anchor": "Codex多Agent让开发从单线程变多线程",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-devday-agent-runtime-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/01-openai-devday-agent-runtime/04-01-openai-devday-agent-runtime-infographic.jpg",
+      "caption": "商业竞争从模型榜单转向运行时",
+      "anchor": "商业竞争从模型榜单转向运行时",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,59 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">大模型/商业化</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Claude Sonnet 5.5降本提速：大模型进入任务账单时代！<br>模型竞争从榜单第一转成每个任务的可用成本，企业采购真正关心的是单位工作流的吞吐和账单。</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">Anthropic发布Claude Sonnet 5.5：比Sonnet 5快30%+，典型工作最多省30%；Terminal-Bench 4.0从10.3%跃升至70.6%；价格为$2/M输入、$10/M输出、cache read $0.20/M。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">模型竞争从榜单第一转成每个任务的可用成本，企业采购真正关心的是单位工作流的吞吐和账单。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先看事实</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Anthropic于9月28日发布Claude Sonnet 5.5，称其比Sonnet 5快30%+，多数工作最多降低30%成本。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Sonnet 5.5在Terminal-Bench 4.0得分70.6%，而Sonnet 5为10.3%。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 官方价格为每百万输入token 2美元、输出token 10美元、cache read每百万0.20美元，并支持缓存与批处理节省成本。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Sonnet 5.5面向编码、知识工作、图表阅读、交互式和延迟敏感工作流。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Step 3.5查重：9月20写过Anthropic新模型/IPO，9月27脚本候选写过Opus 5.5价格战；本篇只写Sonnet 5.5“任务账单/吞吐”视角，避免重复。</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">这次不是简单的版本号升级</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/04-claude-sonnet-5-5-task-economics/01-04-claude-sonnet-5-5-task-economics-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">这次不是简单的版本号升级</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">Sonnet 5.5最值得看的不是名字多了0.5，而是Anthropic反复强调“更快”和“更省”。30%+速度提升、典型任务最多省30%，这些指标比抽象榜单更接近企业真实关心的东西：同样一批任务，多久做完，月底账单是多少。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Terminal-Bench暴涨说明Agent任务变硬了</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/04-claude-sonnet-5-5-task-economics/02-04-claude-sonnet-5-5-task-economics-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Terminal-Bench暴涨说明Agent任务变硬了</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Terminal-Bench 4.0从Sonnet 5的10.3%跳到70.6%，这个数字的意义不只是模型更会写代码，而是它更适合在真实终端里拆任务、执行、修错、继续推进。Agent时代的评测，越来越像工作现场，而不是选择题考场。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">企业买的是单位工作流成本</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/04-claude-sonnet-5-5-task-economics/03-04-claude-sonnet-5-5-task-economics-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">企业买的是单位工作流成本</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">一个模型如果单次调用便宜，但需要反复重试、输出冗长、速度慢，最后仍然贵。Sonnet 5.5把价格、缓存、批处理、速度和成功率放在一起讲，本质是在卖“每个完成任务的成本”。这会逼所有模型公司把账算得更细。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">前沿模型矩阵开始分工</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/04-claude-sonnet-5-5-task-economics/04-04-claude-sonnet-5-5-task-economics-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">前沿模型矩阵开始分工</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Opus负责更重的任务，Sonnet负责大量日常专业工作，后面还会有Haiku承接高频低价场景。模型公司正在从“一个最强模型打天下”转向产品矩阵：不同任务用不同模型，像云计算选择不同实例规格。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后一句</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Claude Sonnet 5.5的真正信号是，大模型商业化进入任务账单时代。客户不会只问谁最强，而会问：同样一个工作流，谁能更快、更稳、更便宜地跑完。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><em>合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。</em></p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这个趋势会最快落在哪个场景？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

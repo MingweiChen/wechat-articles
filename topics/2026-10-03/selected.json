@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-03",
+  "mode": "auto",
+  "dedup_basis": [
+    "2026-10-02：无本地selected.json",
+    "2026-10-01：无本地selected.json",
+    "2026-09-30：无本地selected.json",
+    "2026-09-29：无本地selected.json",
+    "2026-09-28：无本地selected.json",
+    "2026-09-27：无本地selected.json",
+    "2026-09-26：无本地selected.json",
+    "参考较近历史：2026-09-20写过AI巨头减速反垄断、Anthropic新模型/IPO、OpenAI估值、Meta眼镜隐私；2026-09-22写过Nvidia收购Hugging Face、OpenAI Frontier、Claude Code支持AGENTS.md、Cloudflare Agent钱包。"
+  ],
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI把Agent API公测：开发者开始租“自动员工”了！",
+      "title": "OpenAI把Agent API公测：开发者开始租“自动员工”了！",
+      "category": "AI Agent/开发者平台",
+      "score": 98,
+      "sources": [
+        "OpenAI DevDay 2026于9月29日在旧金山举行，发布面向开发者的一系列能力。",
+        "GPT-6.1 Sol被定位为面向agentic coding、computer use与专业任务的低成本高能力模型。",
+        "Agents API进入public beta，提供hosted execution、memory、tools、multi-agent支持，并加入computer use能力。",
+        "Codex应用支持多个Agent并行运行，用于多任务开发和项目组织。",
+        "Step 3.5查重：过去7天无本地selected.json；9月20写过OpenAI估值，9月22写过OpenAI Frontier，本篇聚焦DevDay Agent运行时，角度不同。"
+      ],
+      "hook": "OpenAI DevDay 2026宣布GPT-6.1 Sol、Agents API public beta、hosted execution、memory、tools、multi-agent、computer use，以及Codex多Agent并行能力。",
+      "angle": "从“DevDay发布会”换轴到“Agent运行时商业化”。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去7天无本地selected.json；9月20写过OpenAI估值，9月22写过OpenAI Frontier，本篇聚焦DevDay Agent运行时，角度不同。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "OpenAI不是只发便宜模型，而是在把Agent从模型能力包装成可租用的生产运行时，竞争单位从API调用变成工作流员工。",
+        "dots": [
+          "OpenAI DevDay 2026于9月29日在旧金山举行，发布面向开发者的一系列能力。",
+          "GPT-6.1 Sol被定位为面向agentic coding、computer use与专业任务的低成本高能力模型。",
+          "Agents API进入public beta，提供hosted execution、memory、tools、multi-agent支持，并加入computer use能力。",
+          "Codex应用支持多个Agent并行运行，用于多任务开发和项目组织。"
+        ],
+        "axis": "从“DevDay发布会”换轴到“Agent运行时商业化”。",
+        "counter_intuitive": "表面是新模型/新平台/热榜项目，实际是AI行业从能力展示转向运行时、安全控制、任务账单和组织流程资产。",
+        "why_worth": "从“DevDay发布会”换轴到“Agent运行时商业化”。；读者能看到单条新闻背后的产业结构变化，而不是复述发布会。"
+      },
+      "review_score": 88.55,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 2,
+      "topic": "Gemini 4 Argon先给防守方：最强模型去补漏洞了！",
+      "title": "Gemini 4 Argon先给防守方：最强模型去补漏洞了！",
+      "category": "大模型/网络安全",
+      "score": 95,
+      "sources": [
+        "Google于9月30日宣布Gemini 4 Argon，面向复杂、长程专业任务。",
+        "Gemini 4 Argon支持最高1M output token，用于深度多步骤问题解决。",
+        "模型通过Fairwind Program向trusted cyber defenders、部分Google Cloud客户与安全伙伴开放。",
+        "典型任务包括自主寻找并修复漏洞、复杂编码、法律草拟与金融研究等专业工作。",
+        "Step 3.5查重：过去7天无本地selected.json；9月17写过Cloudflare安全审计Skill，本篇聚焦Google前沿模型的受控开放策略，事件不同。"
+      ],
+      "hook": "Google发布Gemini 4 Argon，强调复杂长程专业任务、1M output token，并通过Fairwind Program向trusted cyber defenders开放，用于自主发现和修复漏洞。",
+      "angle": "从“新模型发布”换轴到“前沿能力先进入安全闭环”。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去7天无本地selected.json；9月17写过Cloudflare安全审计Skill，本篇聚焦Google前沿模型的受控开放策略，事件不同。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "前沿模型的首发场景从聊天助手转向高风险专业闭环，Google在用网络防守给强能力、有限开放找平衡。",
+        "dots": [
+          "Google于9月30日宣布Gemini 4 Argon，面向复杂、长程专业任务。",
+          "Gemini 4 Argon支持最高1M output token，用于深度多步骤问题解决。",
+          "模型通过Fairwind Program向trusted cyber defenders、部分Google Cloud客户与安全伙伴开放。",
+          "典型任务包括自主寻找并修复漏洞、复杂编码、法律草拟与金融研究等专业工作。"
+        ],
+        "axis": "从“新模型发布”换轴到“前沿能力先进入安全闭环”。",
+        "counter_intuitive": "表面是新模型/新平台/热榜项目，实际是AI行业从能力展示转向运行时、安全控制、任务账单和组织流程资产。",
+        "why_worth": "从“新模型发布”换轴到“前沿能力先进入安全闭环”。；读者能看到单条新闻背后的产业结构变化，而不是复述发布会。"
+      },
+      "review_score": 82.8,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 3,
+      "topic": "NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！",
+      "title": "NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！",
+      "category": "AI安全/基础设施",
+      "score": 93,
+      "sources": [
+        "NVIDIA于9月28日发布Open Agent Safety Platform，用于从测试到部署保护自主AI Agent。",
+        "OpenShell是开源安全运行时，对文件、网络、工具、进程、凭据访问执行沙箱策略。",
+        "Sentry作为可选硬件watchdog，运行在BlueField-4 DPU隔离信任域，可监控并毫秒级隔离越界Agent。",
+        "平台回应了AI Agent绕过应用层安全控制的现实风险，已有100多家组织合作。",
+        "Step 3.5查重：9月17写过Cloudflare安全审计Skill，9月27脚本候选提过OpenAI Agent事件；本篇聚焦NVIDIA硬件/全栈Agent刹车，角度不同。"
+      ],
+      "hook": "NVIDIA发布Open Agent Safety Platform：OpenShell负责沙箱与策略执行，Sentry运行在BlueField-4 DPU隔离域中监控并可毫秒级隔离越界Agent。",
+      "angle": "串起OpenShell、Sentry、BlueField与百家合作，换轴到“Agent安全工程化”。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：9月17写过Cloudflare安全审计Skill，9月27脚本候选提过OpenAI Agent事件；本篇聚焦NVIDIA硬件/全栈Agent刹车，角度不同。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Agent安全从提示词和应用层过滤升级为全栈执行控制，未来能不能让AI做事取决于能不能在硬件侧刹住它。",
+        "dots": [
+          "NVIDIA于9月28日发布Open Agent Safety Platform，用于从测试到部署保护自主AI Agent。",
+          "OpenShell是开源安全运行时，对文件、网络、工具、进程、凭据访问执行沙箱策略。",
+          "Sentry作为可选硬件watchdog，运行在BlueField-4 DPU隔离信任域，可监控并毫秒级隔离越界Agent。",
+          "平台回应了AI Agent绕过应用层安全控制的现实风险，已有100多家组织合作。"
+        ],
+        "axis": "串起OpenShell、Sentry、BlueField与百家合作，换轴到“Agent安全工程化”。",
+        "counter_intuitive": "表面是新模型/新平台/热榜项目，实际是AI行业从能力展示转向运行时、安全控制、任务账单和组织流程资产。",
+        "why_worth": "串起OpenShell、Sentry、BlueField与百家合作，换轴到“Agent安全工程化”。；读者能看到单条新闻背后的产业结构变化，而不是复述发布会。"
+      },
+      "review_score": 85.55,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 4,
+      "topic": "Claude Sonnet 5.5降本提速：大模型进入任务账单时代！",
+      "title": "Claude Sonnet 5.5降本提速：大模型进入任务账单时代！",
+      "category": "大模型/商业化",
+      "score": 91,
+      "sources": [
+        "Anthropic于9月28日发布Claude Sonnet 5.5，称其比Sonnet 5快30%+，多数工作最多降低30%成本。",
+        "Sonnet 5.5在Terminal-Bench 4.0得分70.6%，而Sonnet 5为10.3%。",
+        "官方价格为每百万输入token 2美元、输出token 10美元、cache read每百万0.20美元，并支持缓存与批处理节省成本。",
+        "Sonnet 5.5面向编码、知识工作、图表阅读、交互式和延迟敏感工作流。",
+        "Step 3.5查重：9月20写过Anthropic新模型/IPO，9月27脚本候选写过Opus 5.5价格战；本篇只写Sonnet 5.5“任务账单/吞吐”视角，避免重复。"
+      ],
+      "hook": "Anthropic发布Claude Sonnet 5.5：比Sonnet 5快30%+，典型工作最多省30%；Terminal-Bench 4.0从10.3%跃升至70.6%；价格为$2/M输入、$10/M输出、cache read $0.20/M。",
+      "angle": "从“新模型参数”换轴到“任务经济学”。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：9月20写过Anthropic新模型/IPO，9月27脚本候选写过Opus 5.5价格战；本篇只写Sonnet 5.5“任务账单/吞吐”视角，避免重复。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "模型竞争从榜单第一转成每个任务的可用成本，企业采购真正关心的是单位工作流的吞吐和账单。",
+        "dots": [
+          "Anthropic于9月28日发布Claude Sonnet 5.5，称其比Sonnet 5快30%+，多数工作最多降低30%成本。",
+          "Sonnet 5.5在Terminal-Bench 4.0得分70.6%，而Sonnet 5为10.3%。",
+          "官方价格为每百万输入token 2美元、输出token 10美元、cache read每百万0.20美元，并支持缓存与批处理节省成本。",
+          "Sonnet 5.5面向编码、知识工作、图表阅读、交互式和延迟敏感工作流。"
+        ],
+        "axis": "从“新模型参数”换轴到“任务经济学”。",
+        "counter_intuitive": "表面是新模型/新平台/热榜项目，实际是AI行业从能力展示转向运行时、安全控制、任务账单和组织流程资产。",
+        "why_worth": "从“新模型参数”换轴到“任务经济学”。；读者能看到单条新闻背后的产业结构变化，而不是复述发布会。"
+      },
+      "review_score": 77.15,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 5,
+      "topic": "GitHub被Agent Skills刷屏：AI编程开始卷操作手册了！",
+      "title": "GitHub被Agent Skills刷屏：AI编程开始卷操作手册了！",
+      "category": "开源/AI工程化",
+      "score": 89,
+      "sources": [
+        "GitHub AI coding热度集中在openrig、OpenHands、claude-code、openclaw、iFixAi、TencentCloud/Octop等Agent与审计/编排项目。",
+        "agent skills生态包括alirezarezvani/claude-skills、addyosmani/agent-skills、ComposioHQ/awesome-claude-skills、dotnet/skills等。",
+        "K-Dense-AI/scientific-agent-skills把科学数据库与技能封装给研究型Agent使用。",
+        "MCP、AGENTS.md、skills与插件把团队约束、工具和流程从聊天记录沉淀成可加载资产。",
+        "Step 3.5查重：9月22写过Claude Code支持AGENTS.md，9月27脚本候选写过Skills生态；本篇保留但换成“操作手册成为生产资料”的工程组织角度，标记中重复换角度。"
+      ],
+      "hook": "openrig、OpenHands、claude-code、openclaw、iFixAi、Octop，以及claude-skills、agent-skills、awesome-claude-skills、dotnet skills、scientific-agent-skills等技能/规约项目持续升温。",
+      "angle": "串点GitHub热榜项目，换轴到“技能层/规约层成为新生产资料”。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：9月22写过Claude Code支持AGENTS.md，9月27脚本候选写过Skills生态；本篇保留但换成“操作手册成为生产资料”的工程组织角度，标记中重复换角度。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "AI编程生态下一层增量不是又一个Agent，而是把团队流程、技能和规约变成可复用工程资产。",
+        "dots": [
+          "GitHub AI coding热度集中在openrig、OpenHands、claude-code、openclaw、iFixAi、TencentCloud/Octop等Agent与审计/编排项目。",
+          "agent skills生态包括alirezarezvani/claude-skills、addyosmani/agent-skills、ComposioHQ/awesome-claude-skills、dotnet/skills等。",
+          "K-Dense-AI/scientific-agent-skills把科学数据库与技能封装给研究型Agent使用。",
+          "MCP、AGENTS.md、skills与插件把团队约束、工具和流程从聊天记录沉淀成可加载资产。"
+        ],
+        "axis": "串点GitHub热榜项目，换轴到“技能层/规约层成为新生产资料”。",
+        "counter_intuitive": "表面是新模型/新平台/热榜项目，实际是AI行业从能力展示转向运行时、安全控制、任务账单和组织流程资产。",
+        "why_worth": "串点GitHub热榜项目，换轴到“技能层/规约层成为新生产资料”。；读者能看到单条新闻背后的产业结构变化，而不是复述发布会。"
+      },
+      "review_score": 82.0,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "中国/港台疆藏相关AI治理叙事",
+      "reason": "触发自动模式政治绝对红线规避，选题阶段kill。"
+    },
+    {
+      "topic": "Meta AI眼镜隐私后续",
+      "reason": "9月20已写Meta眼镜隐私，同主角同风险角度高重复，Step 3.5剔除。"
+    },
+    {
+      "topic": "OpenAI估值/融资二次解读",
+      "reason": "9月20已写OpenAI估值，缺少新事件，剔除。"
+    },
+    {
+      "topic": "单纯股价/受益公司清单",
+      "reason": "容易滑向个股推荐和投资导向表达，自动模式剔除。"
+    }
+  ]
+}

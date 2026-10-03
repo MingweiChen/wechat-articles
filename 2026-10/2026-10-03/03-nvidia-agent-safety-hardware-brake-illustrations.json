@@ -1,0 +1,53 @@
+{
+  "slug": "03-nvidia-agent-safety-hardware-brake",
+  "date": "2026-10-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/01-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "caption": "Agent安全不再只是提示词问题",
+      "anchor": "Agent安全不再只是提示词问题",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/02-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "caption": "OpenShell管的是执行边界",
+      "anchor": "OpenShell管的是执行边界",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/03-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "caption": "Sentry把刹车放进隔离硬件",
+      "anchor": "Sentry把刹车放进隔离硬件",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/04-03-nvidia-agent-safety-hardware-brake-infographic.jpg",
+      "caption": "能做事的AI必须能被关停",
+      "anchor": "能做事的AI必须能被关停",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI把Agent API公测：开发者开始租“自动员工”了！",
+      "slug": "01-openai-devday-agent-runtime",
+      "score": 98,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Gemini 4 Argon先给防守方：最强模型去补漏洞了！",
+      "slug": "02-gemini-4-argon-cyber-defenders",
+      "score": 95,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！",
+      "slug": "03-nvidia-agent-safety-hardware-brake",
+      "score": 93,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Claude Sonnet 5.5降本提速：大模型进入任务账单时代！",
+      "slug": "04-claude-sonnet-5-5-task-economics",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "GitHub被Agent Skills刷屏：AI编程开始卷操作手册了！",
+      "slug": "05-github-agent-skills-operating-manuals",
+      "score": 89,
+      "illustrations": 4
+    }
+  ]
+}

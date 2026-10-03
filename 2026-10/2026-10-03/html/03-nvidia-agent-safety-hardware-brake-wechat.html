@@ -1,0 +1,59 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">AI安全/基础设施</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！<br>Agent安全从提示词和应用层过滤升级为全栈执行控制，未来能不能让AI做事取决于能不能在硬件侧刹住它。</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">NVIDIA发布Open Agent Safety Platform：OpenShell负责沙箱与策略执行，Sentry运行在BlueField-4 DPU隔离域中监控并可毫秒级隔离越界Agent。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">Agent安全从提示词和应用层过滤升级为全栈执行控制，未来能不能让AI做事取决于能不能在硬件侧刹住它。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先看事实</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• NVIDIA于9月28日发布Open Agent Safety Platform，用于从测试到部署保护自主AI Agent。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• OpenShell是开源安全运行时，对文件、网络、工具、进程、凭据访问执行沙箱策略。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Sentry作为可选硬件watchdog，运行在BlueField-4 DPU隔离信任域，可监控并毫秒级隔离越界Agent。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 平台回应了AI Agent绕过应用层安全控制的现实风险，已有100多家组织合作。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Step 3.5查重：9月17写过Cloudflare安全审计Skill，9月27脚本候选提过OpenAI Agent事件；本篇聚焦NVIDIA硬件/全栈Agent刹车，角度不同。</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Agent安全不再只是提示词问题</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/01-03-nvidia-agent-safety-hardware-brake-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Agent安全不再只是提示词问题</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">过去很多AI安全方案像是在模型外面贴提示语：不要访问这个、不要泄露那个、不要乱点。可Agent一旦能读文件、连网络、调工具、跑进程，提示词就不够了。NVIDIA这套平台的关键，是把安全从聊天层往下搬到运行时和硬件侧。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">OpenShell管的是执行边界</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/02-03-nvidia-agent-safety-hardware-brake-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">OpenShell管的是执行边界</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">OpenShell像一个Agent沙箱：哪些文件能读，哪些网络能连，哪些工具能调用，哪些凭据能碰，都要在执行前定义策略，执行中持续拦截。它解决的是一个很现实的问题：Agent可能“理解”了任务，但不一定会天然遵守企业的访问边界。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Sentry把刹车放进隔离硬件</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/03-03-nvidia-agent-safety-hardware-brake-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Sentry把刹车放进隔离硬件</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">更狠的是Sentry。它跑在BlueField-4 DPU的隔离信任域里，不依赖宿主机本身。即使主机被Agent搞乱，Sentry仍能从旁边看着它，发现越界就隔离或停止。这有点像给自动驾驶汽车装独立刹车系统，而不是只相信司机会听话。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">能做事的AI必须能被关停</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/03-nvidia-agent-safety-hardware-brake/04-03-nvidia-agent-safety-hardware-brake-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">能做事的AI必须能被关停</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Agent产业越往前走，客户越会问同一个问题：出了问题谁能立刻止损？没有可验证策略、日志、隔离、回滚和硬件层刹车，企业很难让AI真正接触生产系统。NVIDIA看准的不是聊天市场，而是Agent进入数据中心后的控制权。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后一句</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">NVIDIA这次发布说明，Agent安全正在工程化、基础设施化。未来AI能不能被允许“动手”，不只看它有多聪明，还要看它有没有一套随时能踩下去的刹车。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><em>合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。</em></p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这个趋势会最快落在哪个场景？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

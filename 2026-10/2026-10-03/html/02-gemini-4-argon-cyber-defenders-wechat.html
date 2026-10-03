@@ -1,0 +1,59 @@
+<section style="max-width:100%; box-sizing:border-box; padding:0 8px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;">
+
+<!-- 统一开篇区块（brand-block 2026-06-17）-->
+<section style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%); border-radius:16px; padding:34px 26px; margin:1em 0 26px; text-align:center;">
+  <p style="color:#a8c7e8; font-size:13px; letter-spacing:4px; margin:0 0 14px; text-align:center;">大模型/网络安全</p>
+  <p style="color:#ffffff; font-size:25px; font-weight:bold; line-height:1.5; margin:0; letter-spacing:0.5px;">Gemini 4 Argon先给防守方：最强模型去补漏洞了！<br>前沿模型的首发场景从聊天助手转向高风险专业闭环，Google在用网络防守给强能力、有限开放找平衡。</p>
+  <p style="width:46px; height:3px; background:#a8c7e8; margin:18px auto 16px; border-radius:2px; font-size:0; line-height:0;">&nbsp;</p>
+  <p style="color:rgba(255,255,255,0.85); font-size:15px; line-height:1.7; margin:0;">Google发布Gemini 4 Argon，强调复杂长程专业任务、1M output token，并通过Fairwind Program向trusted cyber defenders开放，用于自主发现和修复漏洞。</p>
+</section>
+
+<blockquote style="background:#f5f5f5; border-left:4px solid #e74c3c; padding:16px 20px; margin:1.2em 0; border-radius:0 8px 8px 0; font-size:16px; color:#333; line-height:1.8;">前沿模型的首发场景从聊天助手转向高风险专业闭环，Google在用网络防守给强能力、有限开放找平衡。</blockquote>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">先看事实</p>
+<section style="background:#f8f9fa; border-radius:10px; padding:18px 20px; margin:1.2em 0;">
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Google于9月30日宣布Gemini 4 Argon，面向复杂、长程专业任务。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Gemini 4 Argon支持最高1M output token，用于深度多步骤问题解决。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 模型通过Fairwind Program向trusted cyber defenders、部分Google Cloud客户与安全伙伴开放。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• 典型任务包括自主寻找并修复漏洞、复杂编码、法律草拟与金融研究等专业工作。</p>
+  <p style="font-size:15px; color:#555; line-height:1.8; margin:0 0 6px 0;">• Step 3.5查重：过去7天无本地selected.json；9月17写过Cloudflare安全审计Skill，本篇聚焦Google前沿模型的受控开放策略，事件不同。</p>
+</section>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最强模型没有先给所有人聊天</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/01-02-gemini-4-argon-cyber-defenders-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">最强模型没有先给所有人聊天</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.5em 0; text-indent:0;">很多人以为新模型发布的默认路径是先上App、再进API、最后进企业产品。Gemini 4 Argon反过来：它强调的是长程专业任务和网络防守，先给可信防守方使用。这个顺序本身就是信号：前沿能力越强，越不适合直接变成无边界玩具。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">1M输出不是炫技，而是任务形态变化</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/02-02-gemini-4-argon-cyber-defenders-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">1M输出不是炫技，而是任务形态变化</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">1M output token听起来像参数表里的夸张数字，但它对应的是另一种工作：读很多材料，做长链推理，持续修改方案，最后交付完整结果。补漏洞就是典型场景——发现问题、复现、定位、生成补丁、解释影响，每一步都需要持续上下文。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">Fairwind是在给强能力装闸门</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/03-02-gemini-4-argon-cyber-defenders-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">Fairwind是在给强能力装闸门</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Google没有把Argon简单开放给所有开发者，而是通过Fairwind Program给可信网络防守方。这像是在承认一个现实：同一套能力既能找漏洞，也可能被滥用。最现实的商业化路径，不是把风险假装不存在，而是先放进可审计、可约束、可追责的专业闭环。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">前沿模型会先进入高价值脏活</p>
+<section style="text-align:center; margin:1.4em 0;">
+<img src="https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/02-gemini-4-argon-cyber-defenders/04-02-gemini-4-argon-cyber-defenders-infographic.jpg" style="width:92%; max-width:78%; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12);" />
+<p style="color:#888; font-size:13px; margin:8px 0 0; line-height:1.6; text-indent:0;">前沿模型会先进入高价值脏活</p>
+</section>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">聊天助手是流量入口，但网络防守、代码修复、法律草拟、金融研究这些场景，才是真正愿意为长程推理买单的地方。Argon的意义不只是“Google又发了一个模型”，而是前沿AI正在从通用聊天转向高风险、高价值、高约束的专业生产。</p>
+<p style="font-size:20px; font-weight:bold; color:#1a1a2e; margin:1.5em 0 0.8em; padding-bottom:8px; border-bottom:3px solid #e74c3c;">最后一句</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;">Gemini 4 Argon的爆点不只是1M输出，而是发布路线：最强模型先去做可控的网络防守。前沿AI的下一站，可能不是陪你聊天，而是钻进专业系统里解决最难、也最需要边界的问题。</p>
+<p style="text-align:center; color:#ddd; margin:2em 0; letter-spacing:8px;">● ● ●</p>
+<p style="font-size:16px; color:#333; line-height:1.9; margin:1.2em 0; text-indent:2em;"><em>合规说明：本文为产业新闻与技术趋势分析，不涉及中国政治红线，不包含投资建议或个股推荐；公司、项目和产品仅作新闻事实与行业观察。</em></p>
+
+<!-- 统一结尾块（brand-block 2026-06-17）-->
+<section style="text-align:center; margin:1.8em 0 1.4em;">
+  <p style="display:inline-block; color:#a8c7e8; font-size:13px; font-weight:bold; letter-spacing:4px; border:1px solid #a8c7e8; border-radius:20px; padding:6px 22px; margin:0;">· E N D ·</p>
+</section>
+<section style="background:#f7f7fb; border-radius:12px; padding:18px 20px; margin:1.4em 0 0; text-align:center;">
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">👍 点<strong style="color:#07c160;">在看</strong>，让更多人看到</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0 0 6px;">💬 你觉得这个趋势会最快落在哪个场景？评论区聊聊</p>
+  <p style="color:#333; font-size:15px; line-height:1.9; margin:0;">📤 转发给关心这个话题的朋友</p>
+</section>
+
+</section>

@@ -1,0 +1,47 @@
+{
+  "01-openai-devday-agent-runtime": {
+    "theme": "agents",
+    "main_title": "OpenAI把Agent API公测：开发者开始租“自动员工”了！",
+    "sub_title": "OpenAI不是只发便宜模型，而是在把Agent从模型能力包装成可租用的生产运行时，竞争单位从API调用变成工作流员工。",
+    "subtitle_brief": "OpenAI DevDay 2026宣布GPT-6.1 Sol、Agents API public beta、hosted execution、memory、tools、multi-agent、computer use，以及Codex多Agent并行能力。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI Agent/开发者平台",
+    "punch": ""
+  },
+  "02-gemini-4-argon-cyber-defenders": {
+    "theme": "cyber",
+    "main_title": "Gemini 4 Argon先给防守方：最强模型去补漏洞了！",
+    "sub_title": "前沿模型的首发场景从聊天助手转向高风险专业闭环，Google在用网络防守给强能力、有限开放找平衡。",
+    "subtitle_brief": "Google发布Gemini 4 Argon，强调复杂长程专业任务、1M output token，并通过Fairwind Program向trusted cyber defenders开放，用于自主发现和修复漏洞。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "大模型/网络安全",
+    "punch": ""
+  },
+  "03-nvidia-agent-safety-hardware-brake": {
+    "theme": "safety",
+    "main_title": "NVIDIA给AI Agent装硬件刹车：安全下沉到DPU了！",
+    "sub_title": "Agent安全从提示词和应用层过滤升级为全栈执行控制，未来能不能让AI做事取决于能不能在硬件侧刹住它。",
+    "subtitle_brief": "NVIDIA发布Open Agent Safety Platform：OpenShell负责沙箱与策略执行，Sentry运行在BlueField-4 DPU隔离域中监控并可毫秒级隔离越界Agent。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI安全/基础设施",
+    "punch": ""
+  },
+  "04-claude-sonnet-5-5-task-economics": {
+    "theme": "models",
+    "main_title": "Claude Sonnet 5.5降本提速：大模型进入任务账单时代！",
+    "sub_title": "模型竞争从榜单第一转成每个任务的可用成本，企业采购真正关心的是单位工作流的吞吐和账单。",
+    "subtitle_brief": "Anthropic发布Claude Sonnet 5.5：比Sonnet 5快30%+，典型工作最多省30%；Terminal-Bench 4.0从10.3%跃升至70.6%；价格为$2/M输入、$10/M输出、cache read $0.20/M。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "大模型/商业化",
+    "punch": ""
+  },
+  "05-github-agent-skills-operating-manuals": {
+    "theme": "opensource",
+    "main_title": "GitHub被Agent Skills刷屏：AI编程开始卷操作手册了！",
+    "sub_title": "AI编程生态下一层增量不是又一个Agent，而是把团队流程、技能和规约变成可复用工程资产。",
+    "subtitle_brief": "openrig、OpenHands、claude-code、openclaw、iFixAi、Octop，以及claude-skills、agent-skills、awesome-claude-skills、dotnet skills、scientific-agent-skills等技能/规约项目持续升温。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "开源/AI工程化",
+    "punch": ""
+  }
+}

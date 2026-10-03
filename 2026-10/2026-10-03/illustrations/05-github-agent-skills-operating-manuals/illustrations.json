@@ -1,0 +1,53 @@
+{
+  "slug": "05-github-agent-skills-operating-manuals",
+  "date": "2026-10-03",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/05-github-agent-skills-operating-manuals",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/05-github-agent-skills-operating-manuals/01-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "caption": "开源热度从Agent本体转向技能层",
+      "anchor": "开源热度从Agent本体转向技能层",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/05-github-agent-skills-operating-manuals/02-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "caption": "Skills把经验变成可复用资产",
+      "anchor": "Skills把经验变成可复用资产",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/05-github-agent-skills-operating-manuals/03-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "caption": "AGENTS.md和MCP让边界变清楚",
+      "anchor": "AGENTS.md和MCP让边界变清楚",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-03/illustrations/05-github-agent-skills-operating-manuals/04-05-github-agent-skills-operating-manuals-infographic.jpg",
+      "caption": "未来团队会维护自己的Agent手册库",
+      "anchor": "未来团队会维护自己的Agent手册库",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
