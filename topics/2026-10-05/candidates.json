@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Google把AI机房送上天：算力开始抢太阳能轨道！",
+      "title": "Google把AI机房送上天：算力开始抢太阳能轨道！",
+      "category": "AI基础设施/太空算力",
+      "score": 97,
+      "sources": [
+        "Google于10月1日发射Project Suncatcher MVP实验卫星，携带4颗Trillium TPU进入低轨。",
+        "实验目标包括验证发射振动、空间辐射、极端温度与热管理对AI芯片的影响。",
+        "低轨持续日照可提供比地面更稳定的太阳能，真空环境减少传统冷却需求。",
+        "Google计划后续测试卫星间激光链路，探索多卫星集群处理AI工作负载。",
+        "Step 3.5查重：10月3日未写太空数据中心/轨道算力；10月4仅缓存候选未发布，本篇低重复。"
+      ],
+      "hook": "Google Project Suncatcher 用实验卫星把 Trillium TPU 送入低轨，验证辐射、散热、通信和在轨推理，背后是AI数据中心电力与冷却瓶颈。",
+      "angle": "Google Project Suncatcher 用实验卫星把 Trillium TPU 送入低轨，验证辐射、散热、通信和在轨推理，背后是AI数据中心电力与冷却瓶颈。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：10月3日未写太空数据中心/轨道算力；10月4仅缓存候选未发布，本篇低重复。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Project Suncatcher 的信号不是科幻，而是AI基础设施进入资源极限竞争：当地面电力、散热和土地都变贵，算力公司会把边界推向能源更充足的位置。",
+        "dots": [
+          "Google于10月1日发射Project Suncatcher MVP实验卫星，携带4颗Trillium TPU进入低轨。",
+          "实验目标包括验证发射振动、空间辐射、极端温度与热管理对AI芯片的影响。",
+          "低轨持续日照可提供比地面更稳定的太阳能，真空环境减少传统冷却需求。",
+          "Google计划后续测试卫星间激光链路，探索多卫星集群处理AI工作负载。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI基础设施/太空算力",
+        "counter_intuitive": "表面是新闻发布或融资事件，实际是AI行业从模型能力展示转向基础设施、常驻工作流、安全责任与防守供应链。",
+        "why_worth": "读者能获得事件背后的商业/工程判断，而不是复述新闻。"
+      },
+      "review_score": 88.8,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 2,
+      "topic": "FTC盯上AI Agent：公司别想把锅甩给机器人！",
+      "title": "FTC盯上AI Agent：公司别想把锅甩给机器人！",
+      "category": "AI安全/产品责任",
+      "score": 94,
+      "sources": [
+        "媒体报道称FTC对OpenAI、Anthropic等AI开发者启动调查，关注AI Agent与消费者风险。",
+        "监管讨论的核心是公司应为Agent部署、授权、监控和事故后果负责。",
+        "行业会议和隐私治理讨论把“your company’s agents are your problem”作为企业AI治理关键词。",
+        "这类动作意味着AI从研究实验进入产品责任语境，日志、审计、事故响应会变成商业化门票。",
+        "Step 3.5查重：10月3日写过NVIDIA硬件刹车，本篇从产品责任与企业治理角度切入，不复写基础设施安全。"
+      ],
+      "hook": "FTC对OpenAI、Anthropic等AI Agent风险展开调查，核心问题是：Agent若越界、误导或造成损害，企业不能把责任推给“机器人自己做的”。",
+      "angle": "FTC对OpenAI、Anthropic等AI Agent风险展开调查，核心问题是：Agent若越界、误导或造成损害，企业不能把责任推给“机器人自己做的”。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：10月3日写过NVIDIA硬件刹车，本篇从产品责任与企业治理角度切入，不复写基础设施安全。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "AI Agent开始进入产品责任时代，企业要补日志、审计、事故响应和责任链，而不是只讲模型能力。",
+        "dots": [
+          "媒体报道称FTC对OpenAI、Anthropic等AI开发者启动调查，关注AI Agent与消费者风险。",
+          "监管讨论的核心是公司应为Agent部署、授权、监控和事故后果负责。",
+          "行业会议和隐私治理讨论把“your company’s agents are your problem”作为企业AI治理关键词。",
+          "这类动作意味着AI从研究实验进入产品责任语境，日志、审计、事故响应会变成商业化门票。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI安全/产品责任",
+        "counter_intuitive": "表面是新闻发布或融资事件，实际是AI行业从模型能力展示转向基础设施、常驻工作流、安全责任与防守供应链。",
+        "why_worth": "读者能获得事件背后的商业/工程判断，而不是复述新闻。"
+      },
+      "review_score": 82.2,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 3,
+      "topic": "个人Agent开始抢入口：聊天框要被日程表吞掉了！",
+      "title": "个人Agent开始抢入口：聊天框要被日程表吞掉了！",
+      "category": "AI Agent/消费入口",
+      "score": 91,
+      "sources": [
+        "Meta Muse主打安全、私密、主动的个人AI Agent，可跨目标和长期计划协助用户。",
+        "OpenAI Dots定位always-on Agent，能持续代办任务、连接应用和云端工作区。",
+        "Google Gemini Spark/Workspace能力把邮件、文档、任务和日历串成更主动的办公层。",
+        "三家路线共同说明，AI入口从聊天问答迁移到持续在线的任务调度。",
+        "Step 3.5查重：10月3日写过OpenAI开发者Agent API；本篇横向比较Meta/OpenAI/Google个人Agent入口战，主轴不同，降低重复。"
+      ],
+      "hook": "Meta Muse、OpenAI Dots、Google Gemini Spark相继瞄准always-on个人Agent：不再等用户提问，而是持续处理日程、邮件、预算、旅行和办公任务。",
+      "angle": "Meta Muse、OpenAI Dots、Google Gemini Spark相继瞄准always-on个人Agent：不再等用户提问，而是持续处理日程、邮件、预算、旅行和办公任务。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：10月3日写过OpenAI开发者Agent API；本篇横向比较Meta/OpenAI/Google个人Agent入口战，主轴不同，降低重复。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "个人Agent竞争从聊天App转向持续在线的任务层，谁掌握日程、邮件、预算、旅行和办公流，谁就掌握下一代入口。",
+        "dots": [
+          "Meta Muse主打安全、私密、主动的个人AI Agent，可跨目标和长期计划协助用户。",
+          "OpenAI Dots定位always-on Agent，能持续代办任务、连接应用和云端工作区。",
+          "Google Gemini Spark/Workspace能力把邮件、文档、任务和日历串成更主动的办公层。",
+          "三家路线共同说明，AI入口从聊天问答迁移到持续在线的任务调度。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI Agent/消费入口",
+        "counter_intuitive": "表面是新闻发布或融资事件，实际是AI行业从模型能力展示转向基础设施、常驻工作流、安全责任与防守供应链。",
+        "why_worth": "读者能获得事件背后的商业/工程判断，而不是复述新闻。"
+      },
+      "review_score": 82.2,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 4,
+      "topic": "Google把MCP接进办公套件：企业AI开始卷权限和审计！",
+      "title": "Google把MCP接进办公套件：企业AI开始卷权限和审计！",
+      "category": "企业AI/办公自动化",
+      "score": 89,
+      "sources": [
+        "Google Workspace Intelligence把邮件、聊天、文件、日历和组织知识整合成实时上下文。",
+        "Workspace MCP Server预览允许外部AI应用和Agent安全调用Workspace能力。",
+        "Workspace Skills与AI控制中心用于自动化流程、管理Agent访问和审计数据权限。",
+        "这些能力说明企业AI竞争从内容生成升级为跨应用行动和治理。",
+        "Step 3.5查重：近7天未写Google Workspace MCP/企业权限治理；与10月3日GitHub Skills不同，本篇聚焦企业办公套件治理。"
+      ],
+      "hook": "Google Workspace Intelligence、Workspace MCP Server、Skills和AI控制中心，把邮件、Drive、日历、Chat与第三方Agent接成可治理的工作图谱。",
+      "angle": "Google Workspace Intelligence、Workspace MCP Server、Skills和AI控制中心，把邮件、Drive、日历、Chat与第三方Agent接成可治理的工作图谱。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：近7天未写Google Workspace MCP/企业权限治理；与10月3日GitHub Skills不同，本篇聚焦企业办公套件治理。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "企业AI不再只是写文档，而是把邮件、Drive、日历、Chat和第三方Agent接成可治理的工作图谱，竞争点变成上下文、权限和审计。",
+        "dots": [
+          "Google Workspace Intelligence把邮件、聊天、文件、日历和组织知识整合成实时上下文。",
+          "Workspace MCP Server预览允许外部AI应用和Agent安全调用Workspace能力。",
+          "Workspace Skills与AI控制中心用于自动化流程、管理Agent访问和审计数据权限。",
+          "这些能力说明企业AI竞争从内容生成升级为跨应用行动和治理。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：企业AI/办公自动化",
+        "counter_intuitive": "表面是新闻发布或融资事件，实际是AI行业从模型能力展示转向基础设施、常驻工作流、安全责任与防守供应链。",
+        "why_worth": "读者能获得事件背后的商业/工程判断，而不是复述新闻。"
+      },
+      "review_score": 75.6,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 5,
+      "topic": "Claude开始要语音数据：你的声音也成了训练燃料！",
+      "title": "Claude开始要语音数据：你的声音也成了训练燃料！",
+      "category": "AI隐私/语音交互",
+      "score": 86,
+      "sources": [
+        "Anthropic开始请求Claude语音用户自愿允许使用语音数据训练和改进模型。",
+        "提示说明音频记录和语音聊天数据可帮助模型更好理解和回应语音。",
+        "该选项与文本/代码训练设置分开，默认关闭，用户可选择允许、暂不允许或在隐私设置中关闭并删除。",
+        "语音数据比文本更贴近身份、情绪和场景，因此会成为AI隐私的新焦点。",
+        "Step 3.5查重：10月3日写过Claude Sonnet 5.5任务账单，本篇聚焦语音数据和隐私体验，角度不同，低-中重复。"
+      ],
+      "hook": "Anthropic开始向Claude语音功能用户请求自愿共享语音数据，用于改进模型理解和回应语音；选项默认关闭，可在隐私设置中管理。",
+      "angle": "Anthropic开始向Claude语音功能用户请求自愿共享语音数据，用于改进模型理解和回应语音；选项默认关闭，可在隐私设置中管理。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：10月3日写过Claude Sonnet 5.5任务账单，本篇聚焦语音数据和隐私体验，角度不同，低-中重复。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "语音AI进入数据饥饿期，用户的声音、口吻和对话上下文成为模型改进资源，产品要在体验、隐私和默认关闭之间找平衡。",
+        "dots": [
+          "Anthropic开始请求Claude语音用户自愿允许使用语音数据训练和改进模型。",
+          "提示说明音频记录和语音聊天数据可帮助模型更好理解和回应语音。",
+          "该选项与文本/代码训练设置分开，默认关闭，用户可选择允许、暂不允许或在隐私设置中关闭并删除。",
+          "语音数据比文本更贴近身份、情绪和场景，因此会成为AI隐私的新焦点。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI隐私/语音交互",
+        "counter_intuitive": "表面是新闻发布或融资事件，实际是AI行业从模型能力展示转向基础设施、常驻工作流、安全责任与防守供应链。",
+        "why_worth": "读者能获得事件背后的商业/工程判断，而不是复述新闻。"
+      },
+      "review_score": 73.4,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "中国领导人/港台疆藏/对华政治动员叙事",
+      "reason": "政治绝对红线，选题阶段kill。"
+    },
+    {
+      "topic": "白宫AI自律协定/政坛人物会面细节",
+      "reason": "容易滑向外国政治人物叙事，本批保守规避，不纳入5篇。"
+    },
+    {
+      "topic": "NVIDIA Open Agent Safety Platform复写",
+      "reason": "2026-10-03已写同事件同角度，高重复剔除。"
+    },
+    {
+      "topic": "Gemini 4 Argon防守方复写",
+      "reason": "2026-10-03已写同事件同角度，高重复剔除。"
+    },
+    {
+      "topic": "个股/受益标的清单",
+      "reason": "容易滑向个股推荐，自动模式剔除。"
+    }
+  ]
+}

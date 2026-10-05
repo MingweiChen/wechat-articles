@@ -1,0 +1,47 @@
+{
+  "01-google-suncatcher-orbital-ai": {
+    "theme": "infra",
+    "main_title": "Google把AI机房送上天：算力开始抢太阳能轨道！",
+    "sub_title": "Project Suncatcher 的信号不是科幻，而是AI基础设施进入资源极限竞争：当地面电力、散热和土地都变贵，算力公司会把边界推向能源更充足的位置。",
+    "subtitle_brief": "Google Project Suncatcher 用实验卫星把 Trillium TPU 送入低轨，验证辐射、散热、通信和在轨推理，背后是AI数据中心电力与冷却瓶颈。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI基础设施/太空算力",
+    "punch": ""
+  },
+  "02-ftc-agent-liability": {
+    "theme": "policy",
+    "main_title": "FTC盯上AI Agent：公司别想把锅甩给机器人！",
+    "sub_title": "AI Agent开始进入产品责任时代，企业要补日志、审计、事故响应和责任链，而不是只讲模型能力。",
+    "subtitle_brief": "FTC对OpenAI、Anthropic等AI Agent风险展开调查，核心问题是：Agent若越界、误导或造成损害，企业不能把责任推给“机器人自己做的”。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI安全/产品责任",
+    "punch": ""
+  },
+  "03-personal-agent-entry-war": {
+    "theme": "agent",
+    "main_title": "个人Agent开始抢入口：聊天框要被日程表吞掉了！",
+    "sub_title": "个人Agent竞争从聊天App转向持续在线的任务层，谁掌握日程、邮件、预算、旅行和办公流，谁就掌握下一代入口。",
+    "subtitle_brief": "Meta Muse、OpenAI Dots、Google Gemini Spark相继瞄准always-on个人Agent：不再等用户提问，而是持续处理日程、邮件、预算、旅行和办公任务。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI Agent/消费入口",
+    "punch": ""
+  },
+  "04-google-workspace-agent-governance": {
+    "theme": "enterprise",
+    "main_title": "Google把MCP接进办公套件：企业AI开始卷权限和审计！",
+    "sub_title": "企业AI不再只是写文档，而是把邮件、Drive、日历、Chat和第三方Agent接成可治理的工作图谱，竞争点变成上下文、权限和审计。",
+    "subtitle_brief": "Google Workspace Intelligence、Workspace MCP Server、Skills和AI控制中心，把邮件、Drive、日历、Chat与第三方Agent接成可治理的工作图谱。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "企业AI/办公自动化",
+    "punch": ""
+  },
+  "05-claude-voice-data-training": {
+    "theme": "privacy",
+    "main_title": "Claude开始要语音数据：你的声音也成了训练燃料！",
+    "sub_title": "语音AI进入数据饥饿期，用户的声音、口吻和对话上下文成为模型改进资源，产品要在体验、隐私和默认关闭之间找平衡。",
+    "subtitle_brief": "Anthropic开始向Claude语音功能用户请求自愿共享语音数据，用于改进模型理解和回应语音；选项默认关闭，可在隐私设置中管理。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI隐私/语音交互",
+    "punch": ""
+  }
+}

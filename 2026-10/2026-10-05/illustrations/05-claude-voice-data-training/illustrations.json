@@ -1,0 +1,53 @@
+{
+  "slug": "05-claude-voice-data-training",
+  "date": "2026-10-05",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/05-claude-voice-data-training",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-claude-voice-data-training-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/05-claude-voice-data-training/01-05-claude-voice-data-training-infographic.jpg",
+      "caption": "语音比文本更敏感",
+      "anchor": "语音比文本更敏感",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-claude-voice-data-training-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/05-claude-voice-data-training/02-05-claude-voice-data-training-infographic.jpg",
+      "caption": "默认关闭是关键细节",
+      "anchor": "默认关闭是关键细节",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-claude-voice-data-training-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/05-claude-voice-data-training/03-05-claude-voice-data-training-infographic.jpg",
+      "caption": "为什么模型公司想要声音",
+      "anchor": "为什么模型公司想要声音",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-claude-voice-data-training-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/05-claude-voice-data-training/04-05-claude-voice-data-training-infographic.jpg",
+      "caption": "下一轮隐私争议会从聊天记录转向感官数据",
+      "anchor": "下一轮隐私争议会从聊天记录转向感官数据",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

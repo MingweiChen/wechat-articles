@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-05",
+  "reviewer": "topic-review-2026-10-05-revised-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Google把AI机房送上天：算力开始抢太阳能轨道！",
+      "virality": 9.0,
+      "dedup": 9.0,
+      "originality": 8.5,
+      "title_pool": 9.0,
+      "score": 88.8,
+      "verdict": "keep",
+      "issues": [
+        "无政治红线；纯海外科技基础设施议题。",
+        "需要避免把Project Suncatcher写成已大规模商业部署，注意区分原型/测试与长期愿景。"
+      ],
+      "suggestions": [
+        "主轴建议写成‘AI算力从抢电、抢地、抢水，升级到抢轨道太阳能’，比单纯航天噱头更有产业纵深。",
+        "标题池可围绕‘上天/抢太阳/地球电网不够了/数据中心飞出大气层’扩展。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Meta Muse、OpenAI Dots、Gemini Spark混战：个人Agent开始抢入口！",
+      "virality": 9.0,
+      "dedup": 7.3,
+      "originality": 8.1,
+      "title_pool": 8.8,
+      "score": 82.2,
+      "verdict": "keep",
+      "issues": [
+        "无政治红线；但与已发OpenAI Agent API公测、Claude Code/Agent Skills等Agent连续选题存在主题近邻。",
+        "三个产品名和能力边界必须逐项核实，避免把营销口径写成确定事实。"
+      ],
+      "suggestions": [
+        "切口不要写‘又一个Agent发布’，而写‘个人Agent从聊天框变成入口层’，突出入口战争。",
+        "正文可用日程、邮件、预算、旅行、办公五个生活/工作场景做横向对比。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "FTC盯上AI Agent：公司别想把锅甩给机器人！",
+      "virality": 8.4,
+      "dedup": 8.4,
+      "originality": 7.9,
+      "title_pool": 8.5,
+      "score": 82.2,
+      "verdict": "keep",
+      "issues": [
+        "无政治红线；美国监管议题安全。",
+        "与安全/审计类近邻有轻微重叠，但从‘产品责任’切入足够区分NVIDIA安全平台和Cloudflare审计Skill。"
+      ],
+      "suggestions": [
+        "建议强调企业实操：日志、权限、审计、事故响应、责任链，而不是泛泛讲监管来了。",
+        "标题池可扩展‘机器人犯错老板买单’、‘AI Agent出事谁赔’、‘自主不是免责金牌’。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Google Workspace把MCP接进办公套件：企业AI开始卷权限和审计！",
+      "virality": 7.8,
+      "dedup": 7.1,
+      "originality": 7.7,
+      "title_pool": 7.8,
+      "score": 75.6,
+      "verdict": "keep",
+      "issues": [
+        "无政治红线；企业办公/协议/权限治理议题安全。",
+        "与Claude Code AGENTS.md、GitHub Agent Skills、Cloudflare安全审计Skill有‘工具治理’近邻，爆点弱于消费级Agent。"
+      ],
+      "suggestions": [
+        "把文章写成‘企业AI的胜负不在会写文档，而在谁能安全接管工作流’，增强大众可读性。",
+        "可用Gmail、Drive、Calendar、Chat、第三方Agent串成一张‘可审计工作图谱’作为核心比喻。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Anthropic让用户自愿贡献Claude语音：声音也变成训练燃料！",
+      "virality": 7.5,
+      "dedup": 7.0,
+      "originality": 7.3,
+      "title_pool": 7.6,
+      "score": 73.4,
+      "verdict": "keep",
+      "issues": [
+        "无政治红线；隐私/数据训练议题安全。",
+        "分数刚过线：Anthropic与隐私/模型训练近邻较多，且‘自愿贡献’的冲突性弱于默认开启类故事。"
+      ],
+      "suggestions": [
+        "建议把冲突写成‘语音模型的数据饥饿’与‘默认关闭/自愿贡献’之间的产品权衡，不要夸大成强制收集。",
+        "标题池可围绕‘你的声音也成燃料’、‘AI开始要口音和语气’、‘语音助手为什么缺数据’扩展。"
+      ]
+    }
+  ],
+  "swap_candidates": []
+}

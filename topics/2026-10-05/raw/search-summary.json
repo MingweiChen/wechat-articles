@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "web_search: Google Project Suncatcher TPU satellite orbital AI datacenter",
+    "web_search: OpenAI Dots always-on agents DevDay 2026",
+    "web_search: Anthropic AI infrastructure commitments compute lock-in",
+    "web_search: Armadin $255.5M Series B AI-native cybersecurity",
+    "web_search: FTC OpenAI Anthropic AI product safety investigation"
+  ],
+  "bing_grounding": "401 unauthorized; used configured web_search fallbacks"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Google把AI机房送上天：算力开始抢太阳能轨道！",
+      "slug": "01-google-suncatcher-orbital-ai",
+      "score": 97,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "FTC盯上AI Agent：公司别想把锅甩给机器人！",
+      "slug": "02-ftc-agent-liability",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "个人Agent开始抢入口：聊天框要被日程表吞掉了！",
+      "slug": "03-personal-agent-entry-war",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Google把MCP接进办公套件：企业AI开始卷权限和审计！",
+      "slug": "04-google-workspace-agent-governance",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Claude开始要语音数据：你的声音也成了训练燃料！",
+      "slug": "05-claude-voice-data-training",
+      "score": 86,
+      "illustrations": 4
+    }
+  ]
+}

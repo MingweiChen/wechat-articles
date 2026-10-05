@@ -1,0 +1,53 @@
+{
+  "slug": "01-google-suncatcher-orbital-ai",
+  "date": "2026-10-05",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/01-google-suncatcher-orbital-ai",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/01-google-suncatcher-orbital-ai/01-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "caption": "这不是科幻片，是电力账单的外溢",
+      "anchor": "这不是科幻片，是电力账单的外溢",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/01-google-suncatcher-orbital-ai/02-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "caption": "低轨的诱惑：太阳能和真空",
+      "anchor": "低轨的诱惑：太阳能和真空",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/01-google-suncatcher-orbital-ai/03-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "caption": "真正难点在集群，而不是单颗卫星",
+      "anchor": "真正难点在集群，而不是单颗卫星",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/01-google-suncatcher-orbital-ai/04-01-google-suncatcher-orbital-ai-infographic.jpg",
+      "caption": "算力竞争正在从芯片卷到资源边界",
+      "anchor": "算力竞争正在从芯片卷到资源边界",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

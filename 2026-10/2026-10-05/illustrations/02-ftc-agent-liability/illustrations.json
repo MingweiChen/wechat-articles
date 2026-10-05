@@ -1,0 +1,53 @@
+{
+  "slug": "02-ftc-agent-liability",
+  "date": "2026-10-05",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/02-ftc-agent-liability",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-ftc-agent-liability-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/02-ftc-agent-liability/01-02-ftc-agent-liability-infographic.jpg",
+      "caption": "AI公司不能只交技术报告了",
+      "anchor": "AI公司不能只交技术报告了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-ftc-agent-liability-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/02-ftc-agent-liability/02-02-ftc-agent-liability-infographic.jpg",
+      "caption": "“机器人自己做的”不会成为免责理由",
+      "anchor": "“机器人自己做的”不会成为免责理由",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-ftc-agent-liability-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/02-ftc-agent-liability/03-02-ftc-agent-liability-infographic.jpg",
+      "caption": "召回时代的核心是责任链",
+      "anchor": "召回时代的核心是责任链",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-ftc-agent-liability-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/02-ftc-agent-liability/04-02-ftc-agent-liability-infographic.jpg",
+      "caption": "安全不是拖慢商业化，而是商业化门票",
+      "anchor": "安全不是拖慢商业化，而是商业化门票",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "04-google-workspace-agent-governance",
+  "date": "2026-10-05",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/04-google-workspace-agent-governance",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-google-workspace-agent-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/04-google-workspace-agent-governance/01-04-google-workspace-agent-governance-infographic.jpg",
+      "caption": "企业AI终于碰到真问题",
+      "anchor": "企业AI终于碰到真问题",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-google-workspace-agent-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/04-google-workspace-agent-governance/02-04-google-workspace-agent-governance-infographic.jpg",
+      "caption": "上下文比模型分数更值钱",
+      "anchor": "上下文比模型分数更值钱",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-google-workspace-agent-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/04-google-workspace-agent-governance/03-04-google-workspace-agent-governance-infographic.jpg",
+      "caption": "MCP让办公套件变成Agent接口",
+      "anchor": "MCP让办公套件变成Agent接口",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-google-workspace-agent-governance-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-05/illustrations/04-google-workspace-agent-governance/04-04-google-workspace-agent-governance-infographic.jpg",
+      "caption": "权限和审计会成为新卖点",
+      "anchor": "权限和审计会成为新卖点",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
