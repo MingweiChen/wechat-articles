@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI把Agent塞进群聊：Slack一@，AI就替团队开工！",
+      "slug": "01-openai-slack-teams-workflow",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Codex Security Cloud来了：写代码的AI开始反向抓漏洞！",
+      "slug": "02-codex-security-cloud",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic锁定5180亿美元算力：AI大战先买十年电费！",
+      "slug": "03-anthropic-compute-commitments",
+      "score": 92,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "VoiceStudio一天涨3200星：本地语音克隆开始掀桌子！",
+      "slug": "04-voicestudio-local-voice-ai",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Agent也能花钱了：电商要迎来一批机器顾客！",
+      "slug": "05-agent-commerce-payments",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-06",
+  "reviewer": "independent-subagent",
+  "batch_verdict": "pass",
+  "items": [
+    {"rank":1,"topic":"OpenAI把Agent装进办公流：Slack/Teams一@就开工，聊天入口变成团队操作台","virality":8,"dedup":6,"originality":8,"title_pool":8,"score":75,"verdict":"keep","issues":["与10/03 OpenAI Agent API公测、10/05个人Agent入口战存在中等重复，需避免再写成泛泛入口战","OpenAI/Agent题材本周密度偏高"],"suggestions":["保留但收窄到团队协作现场：Slack/Teams上下文读取、Space/Pages沉淀、Team Tasks分工","标题突出办公软件边界被重画，避免与个人Agent入口战撞角度"]},
+    {"rank":2,"topic":"Codex Security Cloud来了：写代码的AI开始反过来当安全审计员","virality":8,"dedup":7,"originality":8,"title_pool":8,"score":78,"verdict":"keep","issues":["同属OpenAI DevDay延展，需和10/03 Agent API公测拉开距离","安全云能力如果信息不足，容易写成产品发布复述"],"suggestions":["主轴放在开发者AI从生产工具变成持续运维层","用云端常驻审计、去重、修复闭环强化增量"]},
+    {"rank":3,"topic":"Anthropic锁定5180亿美元算力承诺：AI公司开始把未来十年电费提前买断","virality":8,"dedup":9,"originality":9,"title_pool":9,"score":87,"verdict":"keep","issues":["数字冲击力强，但需核实5180亿美元口径与承诺期限","涉及上市公司、云厂商和融资约束，撰写阶段需避免个股推荐或投资建议"],"suggestions":["重点写模型竞争转向产能锁仓","标题可强化未来十年电费、算力租约、不可取消合同等硬约束"]},
+    {"rank":4,"topic":"VoiceStudio一天涨3200星：本地语音克隆把ElevenLabs打成开源模板","virality":7,"dedup":9,"originality":7,"title_pool":8,"score":77,"verdict":"keep","issues":["开源项目爆点依赖GitHub增长数据，需核实一天涨3200星和646 languages表述","ElevenLabs对比有标题张力，但正文需避免夸大替代"],"suggestions":["写成本地创作者工作台，而不是单点TTS工具","把克隆、配音、转录、听写、多语言生产链串成离线Studio趋势"]},
+    {"rank":5,"topic":"Agent能花钱了：Mastercard/Worldline给AI购物铺轨，电商要多一个“机器顾客”","virality":8,"dedup":7,"originality":8,"title_pool":9,"score":80,"verdict":"keep","issues":["与本周Agent主题有轻度拥挤，但支付基础设施角度足够独立","需避免写成支付公司通稿"],"suggestions":["重点写意图证明、授权、风控、可撤销性成为机器顾客基础设施","标题保留机器顾客概念，进池相较好"]}
+  ],
+  "swap_candidates": []
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "03-anthropic-compute-commitments",
+  "date": "2026-10-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/03-anthropic-compute-commitments",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-anthropic-compute-commitments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/03-anthropic-compute-commitments/01-03-anthropic-compute-commitments-infographic.jpg",
+      "caption": "模型竞争正在变成产能锁仓",
+      "anchor": "模型竞争正在变成产能锁仓",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-anthropic-compute-commitments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/03-anthropic-compute-commitments/02-03-anthropic-compute-commitments-infographic.jpg",
+      "caption": "不可取消合同是双刃剑",
+      "anchor": "不可取消合同是双刃剑",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-anthropic-compute-commitments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/03-anthropic-compute-commitments/03-03-anthropic-compute-commitments-infographic.jpg",
+      "caption": "瓶颈不止GPU",
+      "anchor": "瓶颈不止GPU",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-anthropic-compute-commitments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/03-anthropic-compute-commitments/04-03-anthropic-compute-commitments-infographic.jpg",
+      "caption": "这会改变行业估值逻辑",
+      "anchor": "这会改变行业估值逻辑",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

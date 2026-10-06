@@ -1,0 +1,53 @@
+{
+  "slug": "02-codex-security-cloud",
+  "date": "2026-10-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/02-codex-security-cloud",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-codex-security-cloud-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/02-codex-security-cloud/01-02-codex-security-cloud-infographic.jpg",
+      "caption": "AI不只会制造代码债，也开始还债",
+      "anchor": "AI不只会制造代码债，也开始还债",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-codex-security-cloud-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/02-codex-security-cloud/02-02-codex-security-cloud-infographic.jpg",
+      "caption": "安全扫描从工具变成云端同事",
+      "anchor": "安全扫描从工具变成云端同事",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-codex-security-cloud-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/02-codex-security-cloud/03-02-codex-security-cloud-infographic.jpg",
+      "caption": "代码审查会被重新分工",
+      "anchor": "代码审查会被重新分工",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-codex-security-cloud-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/02-codex-security-cloud/04-02-codex-security-cloud-infographic.jpg",
+      "caption": "安全团队会买的是可控性",
+      "anchor": "安全团队会买的是可控性",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

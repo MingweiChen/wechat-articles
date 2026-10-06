@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-slack-teams-workflow",
+  "date": "2026-10-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/01-openai-slack-teams-workflow",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-slack-teams-workflow-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/01-openai-slack-teams-workflow/01-01-openai-slack-teams-workflow-infographic.jpg",
+      "caption": "群聊正在变成操作系统",
+      "anchor": "群聊正在变成操作系统",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-slack-teams-workflow-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/01-openai-slack-teams-workflow/02-01-openai-slack-teams-workflow-infographic.jpg",
+      "caption": "上下文从个人聊天搬进团队现场",
+      "anchor": "上下文从个人聊天搬进团队现场",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-slack-teams-workflow-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/01-openai-slack-teams-workflow/03-01-openai-slack-teams-workflow-infographic.jpg",
+      "caption": "Space和Pages是第二层沉淀",
+      "anchor": "Space和Pages是第二层沉淀",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-slack-teams-workflow-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/01-openai-slack-teams-workflow/04-01-openai-slack-teams-workflow-infographic.jpg",
+      "caption": "真正的门槛是权限和边界",
+      "anchor": "真正的门槛是权限和边界",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

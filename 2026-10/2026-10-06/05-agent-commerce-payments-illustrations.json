@@ -1,0 +1,53 @@
+{
+  "slug": "05-agent-commerce-payments",
+  "date": "2026-10-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/05-agent-commerce-payments",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-agent-commerce-payments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/05-agent-commerce-payments/01-05-agent-commerce-payments-infographic.jpg",
+      "caption": "AI下单不是科幻，是协议问题",
+      "anchor": "AI下单不是科幻，是协议问题",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-agent-commerce-payments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/05-agent-commerce-payments/02-05-agent-commerce-payments-infographic.jpg",
+      "caption": "支付网络在修“意图证明”",
+      "anchor": "支付网络在修“意图证明”",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-agent-commerce-payments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/05-agent-commerce-payments/03-05-agent-commerce-payments-infographic.jpg",
+      "caption": "电商页面要服务两种顾客",
+      "anchor": "电商页面要服务两种顾客",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-agent-commerce-payments-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/05-agent-commerce-payments/04-05-agent-commerce-payments-infographic.jpg",
+      "caption": "授权边界会决定能不能落地",
+      "anchor": "授权边界会决定能不能落地",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

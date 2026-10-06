@@ -1,0 +1,53 @@
+{
+  "slug": "04-voicestudio-local-voice-ai",
+  "date": "2026-10-06",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/04-voicestudio-local-voice-ai",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-voicestudio-local-voice-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/04-voicestudio-local-voice-ai/01-04-voicestudio-local-voice-ai-infographic.jpg",
+      "caption": "云端语音服务的替代品来了",
+      "anchor": "云端语音服务的替代品来了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-voicestudio-local-voice-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/04-voicestudio-local-voice-ai/02-04-voicestudio-local-voice-ai-infographic.jpg",
+      "caption": "创作者要的是一条生产线",
+      "anchor": "创作者要的是一条生产线",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-voicestudio-local-voice-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/04-voicestudio-local-voice-ai/03-04-voicestudio-local-voice-ai-infographic.jpg",
+      "caption": "本地化解决的是成本和隐私",
+      "anchor": "本地化解决的是成本和隐私",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-voicestudio-local-voice-ai-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-06/illustrations/04-voicestudio-local-voice-ai/04-04-voicestudio-local-voice-ai-infographic.jpg",
+      "caption": "开源会倒逼商业服务升级",
+      "anchor": "开源会倒逼商业服务升级",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}
