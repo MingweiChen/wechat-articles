@@ -1,0 +1,53 @@
+{
+  "slug": "04-openai-dots-cloud-workers",
+  "date": "2026-10-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/04-openai-dots-cloud-workers",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-04-openai-dots-cloud-workers-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/04-openai-dots-cloud-workers/01-04-openai-dots-cloud-workers-infographic.jpg",
+      "caption": "助手会回答，员工会跟进",
+      "anchor": "助手会回答，员工会跟进",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-04-openai-dots-cloud-workers-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/04-openai-dots-cloud-workers/02-04-openai-dots-cloud-workers-infographic.jpg",
+      "caption": "独立云电脑是关键细节",
+      "anchor": "独立云电脑是关键细节",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-04-openai-dots-cloud-workers-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/04-openai-dots-cloud-workers/03-04-openai-dots-cloud-workers-infographic.jpg",
+      "caption": "跨渠道记忆会改变协作方式",
+      "anchor": "跨渠道记忆会改变协作方式",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-04-openai-dots-cloud-workers-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/04-openai-dots-cloud-workers/04-04-openai-dots-cloud-workers-infographic.jpg",
+      "caption": "真正难的是审批节奏",
+      "anchor": "真正难的是审批节奏",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

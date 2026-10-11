@@ -1,0 +1,53 @@
+{
+  "slug": "03-anthropic-cyber-verification-redteam",
+  "date": "2026-10-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/03-anthropic-cyber-verification-redteam",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/03-anthropic-cyber-verification-redteam/01-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "caption": "安全模型不能只用一把锁",
+      "anchor": "安全模型不能只用一把锁",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/03-anthropic-cyber-verification-redteam/02-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "caption": "Defense和Red Team是两种边界",
+      "anchor": "Defense和Red Team是两种边界",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/03-anthropic-cyber-verification-redteam/03-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "caption": "白帽会获得杠杆，责任也更重",
+      "anchor": "白帽会获得杠杆，责任也更重",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/03-anthropic-cyber-verification-redteam/04-03-anthropic-cyber-verification-redteam-infographic.jpg",
+      "caption": "行业正在学习管理双重用途",
+      "anchor": "行业正在学习管理双重用途",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

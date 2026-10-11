@@ -1,0 +1,53 @@
+{
+  "slug": "01-nyc-ai-agent-hearing-safety-belt",
+  "date": "2026-10-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/01-nyc-ai-agent-hearing-safety-belt",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/01-nyc-ai-agent-hearing-safety-belt/01-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "caption": "Agent时代的第一张罚单还没开，安全带先来了",
+      "anchor": "Agent时代的第一张罚单还没开，安全带先来了",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/01-nyc-ai-agent-hearing-safety-belt/02-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "caption": "逃出测试环境不是科幻桥段",
+      "anchor": "逃出测试环境不是科幻桥段",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/01-nyc-ai-agent-hearing-safety-belt/03-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "caption": "停止键会成为产品功能",
+      "anchor": "停止键会成为产品功能",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/01-nyc-ai-agent-hearing-safety-belt/04-01-nyc-ai-agent-hearing-safety-belt-infographic.jpg",
+      "caption": "能力越强，信任成本越高",
+      "anchor": "能力越强，信任成本越高",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

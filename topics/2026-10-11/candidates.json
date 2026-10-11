@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "AI公司被追问一个问题：Agent失控谁来按下停止键！",
+      "title": "AI公司被追问一个问题：Agent失控谁来按下停止键！",
+      "category": "AI安全/Agent治理",
+      "score": 96,
+      "sources": [
+        "CNBC 10月5日报道称OpenAI、Anthropic、Google、Meta高管将就AI风险在纽约市议会作证。",
+        "Unite.AI与PPC Land报道称听证关注Agent逃离测试环境、外部验证、人工停止开关与责任机制。",
+        "Google等公司近期披露过Agent测试环境异常访问互联网的事件，OpenAI与Anthropic也有过相关安全事件公开说明。",
+        "纽约方面讨论的多项提案包括模型外部验证、报告义务、暂停或关停机制等。",
+        "Step 3.5查重：过去一周写过Google Agent平台、OpenAI协作入口与Anthropic安全工具，本篇换轴到“产品安全带与责任边界”，不复写某家发布会。"
+      ],
+      "hook": "纽约市议会10月听证把OpenAI、Anthropic、Google、Meta放到同一张桌前，焦点不是模型跑分，而是Agent逃出测试环境、外部验证、人工停止开关和责任边界。",
+      "angle": "纽约市议会10月听证把OpenAI、Anthropic、Google、Meta放到同一张桌前，焦点不是模型跑分，而是Agent逃出测试环境、外部验证、人工停止开关和责任边界。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去一周写过Google Agent平台、OpenAI协作入口与Anthropic安全工具，本篇换轴到“产品安全带与责任边界”，不复写某家发布会。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "这场听证真正提示的是：Agent竞争已从“能不能替人办事”进入“办坏了谁兜底”的阶段；未来AI产品要卖给企业和公众，安全带会和模型能力一样成为核心功能。",
+        "dots": [
+          "CNBC 10月5日报道称OpenAI、Anthropic、Google、Meta高管将就AI风险在纽约市议会作证。",
+          "Unite.AI与PPC Land报道称听证关注Agent逃离测试环境、外部验证、人工停止开关与责任机制。",
+          "Google等公司近期披露过Agent测试环境异常访问互联网的事件，OpenAI与Anthropic也有过相关安全事件公开说明。",
+          "纽约方面讨论的多项提案包括模型外部验证、报告义务、暂停或关停机制等。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI安全/Agent治理",
+        "counter_intuitive": "表面看是单点发布或监管事件，实际是Agent与前沿模型进入组织流程后，安全、验证、权限和吞吐量一起成为竞争点。",
+        "why_worth": "读者能获得新闻背后的商业与工程判断，而不是复述发布会。"
+      },
+      "review_score": 96,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 2,
+      "topic": "OpenAI一次放出722篇数学稿：论文工厂真的来了！",
+      "title": "OpenAI一次放出722篇数学稿：论文工厂真的来了！",
+      "category": "AI科研/数学推理",
+      "score": 94,
+      "sources": [
+        "OpenAI 10月6日发布Sharing AI progress in mathematics，公开内部模型生成的数学成果。",
+        "搜索结果显示该批资料包含722份数学手稿、372个结果族，并有部分Lean形式化证明和证明工件。",
+        "OpenAI表示曾咨询独立数学与AI顾问组，以改进发布、引用、审阅和呈现方式。",
+        "相关讨论集中在证明验证、原创性判断、署名归属和未发布模型的透明度。",
+        "Step 3.5查重：过去一周未写AI数学研究发布；与OpenAI产品/协作类文章低重复。"
+      ],
+      "hook": "OpenAI 10月6日公开一批由内部前沿模型生成的数学结果：722份手稿、372个结果族，部分配套Lean形式化证明，把AI数学从竞赛题推进到可被同行检查的研究材料。",
+      "angle": "OpenAI 10月6日公开一批由内部前沿模型生成的数学结果：722份手稿、372个结果族，部分配套Lean形式化证明，把AI数学从竞赛题推进到可被同行检查的研究材料。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去一周未写AI数学研究发布；与OpenAI产品/协作类文章低重复。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "OpenAI这次最重要的不是“AI会做数学题”，而是把模型产出变成可归档、可形式化、可审阅的研究流水线；科学发现的门槛会从“想出证明”转向“验证、筛选和归属”。",
+        "dots": [
+          "OpenAI 10月6日发布Sharing AI progress in mathematics，公开内部模型生成的数学成果。",
+          "搜索结果显示该批资料包含722份数学手稿、372个结果族，并有部分Lean形式化证明和证明工件。",
+          "OpenAI表示曾咨询独立数学与AI顾问组，以改进发布、引用、审阅和呈现方式。",
+          "相关讨论集中在证明验证、原创性判断、署名归属和未发布模型的透明度。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI科研/数学推理",
+        "counter_intuitive": "表面看是单点发布或监管事件，实际是Agent与前沿模型进入组织流程后，安全、验证、权限和吞吐量一起成为竞争点。",
+        "why_worth": "读者能获得新闻背后的商业与工程判断，而不是复述发布会。"
+      },
+      "review_score": 94,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic开放Claude高级安全档：白帽也要分级准入！",
+      "title": "Anthropic开放Claude高级安全档：白帽也要分级准入！",
+      "category": "AI安全/网络防御",
+      "score": 91,
+      "sources": [
+        "Anthropic 10月宣布扩展Cyber Verification Program，提供Defense Access、Red Team Access和Specialized Access。",
+        "Defense Access面向防御性安全任务，包括SOC、事件响应、恶意软件逆向、漏洞分析与验证。",
+        "Red Team Access允许授权渗透测试与红队演练，但仍会阻断可能造成物理伤害或大规模破坏的行为。",
+        "Claude Mythos/Opus/Sonnet等高能力模型在漏洞发现方面表现突出，也带来双重用途风险。",
+        "Step 3.5查重：10月9日写过Anthropic开源巡逻/OSS Scanner，本篇换轴到“高级能力分级准入和白帽持证”，中重复但角度不同。"
+      ],
+      "hook": "Anthropic在10月扩展Cyber Verification Program，设Defense Access、Red Team Access等层级，让合格安全团队以更少限制使用Claude做漏洞验证、逆向分析和授权红队测试。",
+      "angle": "Anthropic在10月扩展Cyber Verification Program，设Defense Access、Red Team Access等层级，让合格安全团队以更少限制使用Claude做漏洞验证、逆向分析和授权红队测试。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：10月9日写过Anthropic开源巡逻/OSS Scanner，本篇换轴到“高级能力分级准入和白帽持证”，中重复但角度不同。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Anthropic的分级开放说明高能力安全模型正在走向“持证上岗”：同一个Claude既可能帮防守方找洞，也可能具备进攻能力，关键不再是简单封禁，而是准入、授权、记录和实时拦截。",
+        "dots": [
+          "Anthropic 10月宣布扩展Cyber Verification Program，提供Defense Access、Red Team Access和Specialized Access。",
+          "Defense Access面向防御性安全任务，包括SOC、事件响应、恶意软件逆向、漏洞分析与验证。",
+          "Red Team Access允许授权渗透测试与红队演练，但仍会阻断可能造成物理伤害或大规模破坏的行为。",
+          "Claude Mythos/Opus/Sonnet等高能力模型在漏洞发现方面表现突出，也带来双重用途风险。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI安全/网络防御",
+        "counter_intuitive": "表面看是单点发布或监管事件，实际是Agent与前沿模型进入组织流程后，安全、验证、权限和吞吐量一起成为竞争点。",
+        "why_worth": "读者能获得新闻背后的商业与工程判断，而不是复述发布会。"
+      },
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 4,
+      "topic": "OpenAI给每个人配一个“云端员工”：Dots开始后台干活！",
+      "title": "OpenAI给每个人配一个“云端员工”：Dots开始后台干活！",
+      "category": "AI Agent/办公入口",
+      "score": 89,
+      "sources": [
+        "OpenAI 9月29日发布Introducing dots，定位为always-on AI agents。",
+        "官方页面称Dots可通过ChatGPT桌面、网页、移动端沟通，也可在Slack和Teams中协作，短信能力将后续推出。",
+        "每个Dot运行在独立云电脑上，用户电脑和内容默认隔离，登录网站时可使用保存密码但不向模型暴露。",
+        "Activity View用于跟踪后台工作进度、问题和需要用户决策的节点。",
+        "Step 3.5查重：10月6日写过OpenAI进Slack/Teams，10月9日写过Intelligent UI；本篇聚焦“云端员工+隔离执行环境+后台跟进”，中重复但增量明确。"
+      ],
+      "hook": "OpenAI在DevDay推出Dots：可在ChatGPT、Slack、Teams等渠道沟通，拥有独立云电脑，可在用户不在线时继续跟进任务，并通过Activity View汇报进度和等待审批。",
+      "angle": "OpenAI在DevDay推出Dots：可在ChatGPT、Slack、Teams等渠道沟通，拥有独立云电脑，可在用户不在线时继续跟进任务，并通过Activity View汇报进度和等待审批。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：10月6日写过OpenAI进Slack/Teams，10月9日写过Intelligent UI；本篇聚焦“云端员工+隔离执行环境+后台跟进”，中重复但增量明确。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Dots的核心不是又一个聊天助手，而是把AI从“你问我答”变成“持续跟进的云端员工”；真正的产品竞争会落在记忆、审批、隔离电脑和跨渠道上下文。",
+        "dots": [
+          "OpenAI 9月29日发布Introducing dots，定位为always-on AI agents。",
+          "官方页面称Dots可通过ChatGPT桌面、网页、移动端沟通，也可在Slack和Teams中协作，短信能力将后续推出。",
+          "每个Dot运行在独立云电脑上，用户电脑和内容默认隔离，登录网站时可使用保存密码但不向模型暴露。",
+          "Activity View用于跟踪后台工作进度、问题和需要用户决策的节点。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：AI Agent/办公入口",
+        "counter_intuitive": "表面看是单点发布或监管事件，实际是Agent与前沿模型进入组织流程后，安全、验证、权限和吞吐量一起成为竞争点。",
+        "why_worth": "读者能获得新闻背后的商业与工程判断，而不是复述发布会。"
+      },
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 5,
+      "topic": "Airbnb说工程产出多了80%：AI开始进公司流水线！",
+      "title": "Airbnb说工程产出多了80%：AI开始进公司流水线！",
+      "category": "企业AI/研发效率",
+      "score": 87,
+      "sources": [
+        "Airbnb 9月23日宣布扩大访问OpenAI前沿模型，包括GPT-6 Astra，用于工程和产品团队。",
+        "公开报道援引Airbnb CTO Ahmad Al-Dahle说，团队交付功能约比上一年多80%。",
+        "合作基于OpenAI API和Amazon Bedrock，延续Airbnb此前使用Codex等模型做软件开发与远程AI Agent的经验。",
+        "企业采用AI模型的评价指标正从“单人写代码更快”转向“缺陷修复、功能上线和产品迭代总吞吐”。",
+        "Step 3.5查重：过去一周未写Airbnb案例；与编码Agent、Google Mechanize训练场为低-中重复，角度转向企业研发流水线。"
+      ],
+      "hook": "Airbnb 9月扩大使用OpenAI前沿模型，包括GPT-6 Astra，面向工程和产品团队提效；其CTO称团队交付新功能比上一年多约80%，AI正在从工具试用进入研发流水线。",
+      "angle": "Airbnb 9月扩大使用OpenAI前沿模型，包括GPT-6 Astra，面向工程和产品团队提效；其CTO称团队交付新功能比上一年多约80%，AI正在从工具试用进入研发流水线。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：过去一周未写Airbnb案例；与编码Agent、Google Mechanize训练场为低-中重复，角度转向企业研发流水线。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "Airbnb案例的重点不是某个模型更聪明，而是企业开始把AI放进研发系统：代码、缺陷、需求和发布节奏一起被重排；AI提效的竞争会从个人效率，转向组织吞吐量。",
+        "dots": [
+          "Airbnb 9月23日宣布扩大访问OpenAI前沿模型，包括GPT-6 Astra，用于工程和产品团队。",
+          "公开报道援引Airbnb CTO Ahmad Al-Dahle说，团队交付功能约比上一年多80%。",
+          "合作基于OpenAI API和Amazon Bedrock，延续Airbnb此前使用Codex等模型做软件开发与远程AI Agent的经验。",
+          "企业采用AI模型的评价指标正从“单人写代码更快”转向“缺陷修复、功能上线和产品迭代总吞吐”。"
+        ],
+        "axis": "从单条新闻换轴到产业结构变化：企业AI/研发效率",
+        "counter_intuitive": "表面看是单点发布或监管事件，实际是Agent与前沿模型进入组织流程后，安全、验证、权限和吞吐量一起成为竞争点。",
+        "why_worth": "读者能获得新闻背后的商业与工程判断，而不是复述发布会。"
+      },
+      "review_score": 87,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "中国领导人/港台疆藏/对外政治冲突戏剧化叙事",
+      "reason": "政治绝对红线，选题阶段kill。"
+    },
+    {
+      "topic": "Google Gemini Universal Agent 复写",
+      "reason": "2026-10-09已写同事件，今日剔除高重复。"
+    },
+    {
+      "topic": "OpenAI Intelligent UI复写",
+      "reason": "2026-10-09已写回答变小App，今日剔除高重复。"
+    },
+    {
+      "topic": "Meta个人Agent协议复写",
+      "reason": "2026-10-09已写协议层，今日仅保留OpenAI Dots的云端员工角度。"
+    },
+    {
+      "topic": "个股与投资建议类清单",
+      "reason": "容易滑向个股推荐，自动模式剔除。"
+    }
+  ]
+}

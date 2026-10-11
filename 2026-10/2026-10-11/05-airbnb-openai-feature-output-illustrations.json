@@ -1,0 +1,53 @@
+{
+  "slug": "05-airbnb-openai-feature-output",
+  "date": "2026-10-11",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/05-airbnb-openai-feature-output",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-airbnb-openai-feature-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/05-airbnb-openai-feature-output/01-05-airbnb-openai-feature-output-infographic.jpg",
+      "caption": "80%不是魔法数字，是组织信号",
+      "anchor": "80%不是魔法数字，是组织信号",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-airbnb-openai-feature-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/05-airbnb-openai-feature-output/02-05-airbnb-openai-feature-output-infographic.jpg",
+      "caption": "AI提效不再只属于个人",
+      "anchor": "AI提效不再只属于个人",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-airbnb-openai-feature-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/05-airbnb-openai-feature-output/03-05-airbnb-openai-feature-output-infographic.jpg",
+      "caption": "模型只是入口，流程才是护城河",
+      "anchor": "模型只是入口，流程才是护城河",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-airbnb-openai-feature-output-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-11/illustrations/05-airbnb-openai-feature-output/04-05-airbnb-openai-feature-output-infographic.jpg",
+      "caption": "真正的指标会变成吞吐量",
+      "anchor": "真正的指标会变成吞吐量",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

@@ -1,0 +1,47 @@
+{
+  "01-nyc-ai-agent-hearing-safety-belt": {
+    "theme": "safety",
+    "main_title": "AI公司被追问一个问题：Agent失控谁来按下停止键！",
+    "sub_title": "这场听证真正提示的是：Agent竞争已从“能不能替人办事”进入“办坏了谁兜底”的阶段；未来AI产品要卖给企业和公众，安全带会和模型能力一样成为核心功能。",
+    "subtitle_brief": "纽约市议会10月听证把OpenAI、Anthropic、Google、Meta放到同一张桌前，焦点不是模型跑分，而是Agent逃出测试环境、外部验证、人工停止开关和责任边界。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI安全/Agent治理",
+    "punch": ""
+  },
+  "02-openai-722-math-manuscripts": {
+    "theme": "math",
+    "main_title": "OpenAI一次放出722篇数学稿：论文工厂真的来了！",
+    "sub_title": "OpenAI这次最重要的不是“AI会做数学题”，而是把模型产出变成可归档、可形式化、可审阅的研究流水线；科学发现的门槛会从“想出证明”转向“验证、筛选和归属”。",
+    "subtitle_brief": "OpenAI 10月6日公开一批由内部前沿模型生成的数学结果：722份手稿、372个结果族，部分配套Lean形式化证明，把AI数学从竞赛题推进到可被同行检查的研究材料。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI科研/数学推理",
+    "punch": ""
+  },
+  "03-anthropic-cyber-verification-redteam": {
+    "theme": "cyber",
+    "main_title": "Anthropic开放Claude高级安全档：白帽也要分级准入！",
+    "sub_title": "Anthropic的分级开放说明高能力安全模型正在走向“持证上岗”：同一个Claude既可能帮防守方找洞，也可能具备进攻能力，关键不再是简单封禁，而是准入、授权、记录和实时拦截。",
+    "subtitle_brief": "Anthropic在10月扩展Cyber Verification Program，设Defense Access、Red Team Access等层级，让合格安全团队以更少限制使用Claude做漏洞验证、逆向分析和授权红队测试。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI安全/网络防御",
+    "punch": ""
+  },
+  "04-openai-dots-cloud-workers": {
+    "theme": "agents",
+    "main_title": "OpenAI给每个人配一个“云端员工”：Dots开始后台干活！",
+    "sub_title": "Dots的核心不是又一个聊天助手，而是把AI从“你问我答”变成“持续跟进的云端员工”；真正的产品竞争会落在记忆、审批、隔离电脑和跨渠道上下文。",
+    "subtitle_brief": "OpenAI在DevDay推出Dots：可在ChatGPT、Slack、Teams等渠道沟通，拥有独立云电脑，可在用户不在线时继续跟进任务，并通过Activity View汇报进度和等待审批。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI Agent/办公入口",
+    "punch": ""
+  },
+  "05-airbnb-openai-feature-output": {
+    "theme": "enterprise",
+    "main_title": "Airbnb说工程产出多了80%：AI开始进公司流水线！",
+    "sub_title": "Airbnb案例的重点不是某个模型更聪明，而是企业开始把AI放进研发系统：代码、缺陷、需求和发布节奏一起被重排；AI提效的竞争会从个人效率，转向组织吞吐量。",
+    "subtitle_brief": "Airbnb 9月扩大使用OpenAI前沿模型，包括GPT-6 Astra，面向工程和产品团队提效；其CTO称团队交付新功能比上一年多约80%，AI正在从工具试用进入研发流水线。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "企业AI/研发效率",
+    "punch": ""
+  }
+}

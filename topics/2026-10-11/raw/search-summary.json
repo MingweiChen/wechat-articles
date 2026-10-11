@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "web_search: NYC Council AI hearing OpenAI Anthropic Google Meta Oct 2026",
+    "web_search: OpenAI sharing AI progress in mathematics Oct 6 2026",
+    "web_search: Anthropic Cyber Verification Program Oct 2026",
+    "web_search: OpenAI introducing dots Sep 29 2026",
+    "web_search: Airbnb expands OpenAI GPT-6 Astra access Sep 2026"
+  ],
+  "bing_grounding": "401 unauthorized; used configured web_search fallbacks"
+}

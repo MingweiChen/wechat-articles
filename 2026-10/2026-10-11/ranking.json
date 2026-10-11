@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "rank": 1,
+      "title": "AI公司被追问一个问题：Agent失控谁来按下停止键！",
+      "slug": "01-nyc-ai-agent-hearing-safety-belt",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI一次放出722篇数学稿：论文工厂真的来了！",
+      "slug": "02-openai-722-math-manuscripts",
+      "score": 94,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic开放Claude高级安全档：白帽也要分级准入！",
+      "slug": "03-anthropic-cyber-verification-redteam",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI给每个人配一个“云端员工”：Dots开始后台干活！",
+      "slug": "04-openai-dots-cloud-workers",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Airbnb说工程产出多了80%：AI开始进公司流水线！",
+      "slug": "05-airbnb-openai-feature-output",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

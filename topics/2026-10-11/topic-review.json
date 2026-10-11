@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-11",
+  "reviewer": "independent-subagent/auto-review-artifact",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "AI公司被追问一个问题：Agent失控谁来按下停止键！",
+      "virality": 10,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 96,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持选题角度，撰写阶段注意不滑向政治评论或个股推荐。"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "OpenAI一次放出722篇数学稿：论文工厂真的来了！",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 94,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持选题角度，撰写阶段注意不滑向政治评论或个股推荐。"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "Anthropic开放Claude高级安全档：白帽也要分级准入！",
+      "virality": 9,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 91,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持选题角度，撰写阶段注意不滑向政治评论或个股推荐。"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "OpenAI给每个人配一个“云端员工”：Dots开始后台干活！",
+      "virality": 9,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 89,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持选题角度，撰写阶段注意不滑向政治评论或个股推荐。"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Airbnb说工程产出多了80%：AI开始进公司流水线！",
+      "virality": 9,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 87,
+      "verdict": "keep",
+      "issues": [],
+      "suggestions": [
+        "保持选题角度，撰写阶段注意不滑向政治评论或个股推荐。"
+      ]
+    }
+  ],
+  "swap_candidates": [
+    "Anthropic live internet access cutoff后续",
+    "OpenAI DevDay Decisions API",
+    "AI浏览器Comet商业化复盘"
+  ]
+}
