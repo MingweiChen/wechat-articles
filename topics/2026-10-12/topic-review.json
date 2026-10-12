@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-12",
+  "reviewer": "independent-subagent/topic_review_20261012",
+  "batch_verdict": "pass",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "Google升级SynthID Detector：AI鉴伪开始跨公司抓水印",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 9,
+      "title_pool": 8,
+      "score": 83,
+      "verdict": "keep",
+      "issues": ["Google主题过去一周出现较多，但本篇事件和角度与Workspace/Gemini/Suncatcher不同", "需避免写成普通产品升级稿"],
+      "suggestions": ["标题突出“跨公司抓水印”和“谁来判定真假”的权力感", "正文主轴锁定AI内容身份证与鉴伪基础设施"]
+    },
+    {
+      "rank": 2,
+      "topic": "Google让一句话变成小游戏：AI产品开始卷“可玩性”",
+      "virality": 8,
+      "dedup": 8,
+      "originality": 8,
+      "title_pool": 9,
+      "score": 82,
+      "verdict": "keep",
+      "issues": ["Google相关选题密度偏高，但无代码游戏与过去一周企业Agent/Workspace/机房主题重复度低", "需要补足传播案例或产品细节，否则容易显得轻"],
+      "suggestions": ["标题可强化“一句话做出可玩的游戏”", "从生成内容升级为生成体验切入，避免只写无代码工具"]
+    },
+    {
+      "rank": 3,
+      "topic": "OpenAI让AI只回答“选A还是选B”：Decisions API开始接管公司判断",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 9,
+      "title_pool": 8,
+      "score": 80,
+      "verdict": "keep",
+      "issues": ["OpenAI过去一周已写频率较高，需明确不是Dots/Slack/Teams/数学稿的延续", "API细节若证据不足，写作阶段需核验公开信息"],
+      "suggestions": ["突出“AI从生成器变成判定器”的换轴增量", "标题保留A/B选择感，增强读者理解门槛和转发点"]
+    },
+    {
+      "rank": 4,
+      "topic": "Meta无摄像头AI眼镜要出货：智能硬件开始从拍摄回到耳朵",
+      "virality": 8,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 8,
+      "score": 78,
+      "verdict": "keep",
+      "issues": ["过去一周写过Meta个人Agent协议，Muse与入口叙事存在轻度重叠", "硬件出货信息需要写作阶段核验，避免过度确定"],
+      "suggestions": ["主轴放在“去摄像头降低隐私摩擦、换取佩戴时长”", "减少与Meta个人Agent协议旧题的重复论述"]
+    },
+    {
+      "rank": 5,
+      "topic": "Anthropic把Haiku 5.5打到更便宜：小模型开始抢大模型饭碗",
+      "virality": 7,
+      "dedup": 7,
+      "originality": 8,
+      "title_pool": 7,
+      "score": 73,
+      "verdict": "keep",
+      "issues": ["Anthropic过去一周已写安全巡逻、算力、白帽分级，品牌重复度中等", "小模型降本叙事相对常见，爆点弱于本批其他选题"],
+      "suggestions": ["标题强化“小模型抢大模型饭碗”的冲突", "正文从企业任务成本结构切入，不要写成模型跑分升级"]
+    }
+  ],
+  "swap_candidates": []
+}

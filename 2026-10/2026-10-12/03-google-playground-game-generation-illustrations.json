@@ -1,0 +1,53 @@
+{
+  "slug": "03-google-playground-game-generation",
+  "date": "2026-10-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/03-google-playground-game-generation",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-03-google-playground-game-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/03-google-playground-game-generation/01-03-google-playground-game-generation-infographic.jpg",
+      "caption": "生成内容的终点不是一张图",
+      "anchor": "生成内容的终点不是一张图",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-03-google-playground-game-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/03-google-playground-game-generation/02-03-google-playground-game-generation-infographic.jpg",
+      "caption": "无代码游戏是最好的传播样品",
+      "anchor": "无代码游戏是最好的传播样品",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-03-google-playground-game-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/03-google-playground-game-generation/03-03-google-playground-game-generation-infographic.jpg",
+      "caption": "创作者门槛会被重新定义",
+      "anchor": "创作者门槛会被重新定义",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-03-google-playground-game-generation-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/03-google-playground-game-generation/04-03-google-playground-game-generation-infographic.jpg",
+      "caption": "真正难的是从玩具到作品",
+      "anchor": "真正难的是从玩具到作品",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

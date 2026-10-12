@@ -1,0 +1,53 @@
+{
+  "slug": "01-openai-decisions-api-judgment-pipeline",
+  "date": "2026-10-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/01-openai-decisions-api-judgment-pipeline",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/01-openai-decisions-api-judgment-pipeline/01-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "caption": "聊天是入口，判断才是流程",
+      "anchor": "聊天是入口，判断才是流程",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/01-openai-decisions-api-judgment-pipeline/02-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "caption": "它卖的不是文采，是稳定的答案格式",
+      "anchor": "它卖的不是文采，是稳定的答案格式",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/01-openai-decisions-api-judgment-pipeline/03-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "caption": "速度会改变使用场景",
+      "anchor": "速度会改变使用场景",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/01-openai-decisions-api-judgment-pipeline/04-01-openai-decisions-api-judgment-pipeline-infographic.jpg",
+      "caption": "新的护城河是审计和阈值",
+      "anchor": "新的护城河是审计和阈值",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

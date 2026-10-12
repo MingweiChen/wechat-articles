@@ -1,0 +1,53 @@
+{
+  "slug": "02-anthropic-haiku-55-small-model-economics",
+  "date": "2026-10-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/02-anthropic-haiku-55-small-model-economics",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/02-anthropic-haiku-55-small-model-economics/01-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "caption": "最赚钱的活，未必交给最强模型",
+      "anchor": "最赚钱的活，未必交给最强模型",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/02-anthropic-haiku-55-small-model-economics/02-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "caption": "Haiku像AI流水线里的螺丝刀",
+      "anchor": "Haiku像AI流水线里的螺丝刀",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/02-anthropic-haiku-55-small-model-economics/03-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "caption": "大模型和小模型会分工",
+      "anchor": "大模型和小模型会分工",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/02-anthropic-haiku-55-small-model-economics/04-02-anthropic-haiku-55-small-model-economics-infographic.jpg",
+      "caption": "价格战会倒逼产品形态变化",
+      "anchor": "价格战会倒逼产品形态变化",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

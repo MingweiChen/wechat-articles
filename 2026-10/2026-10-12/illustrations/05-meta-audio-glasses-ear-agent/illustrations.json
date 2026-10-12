@@ -1,0 +1,53 @@
+{
+  "slug": "05-meta-audio-glasses-ear-agent",
+  "date": "2026-10-12",
+  "count": 4,
+  "cdn_base": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/05-meta-audio-glasses-ear-agent",
+  "images": [
+    {
+      "seq": "01",
+      "file": "01-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/05-meta-audio-glasses-ear-agent/01-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "caption": "少一个摄像头，可能多一批用户",
+      "anchor": "少一个摄像头，可能多一批用户",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "02",
+      "file": "02-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/05-meta-audio-glasses-ear-agent/02-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "caption": "耳朵入口比屏幕更现实",
+      "anchor": "耳朵入口比屏幕更现实",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "03",
+      "file": "03-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/05-meta-audio-glasses-ear-agent/03-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "caption": "个人Agent需要一个随身身体",
+      "anchor": "个人Agent需要一个随身身体",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    },
+    {
+      "seq": "04",
+      "file": "04-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/MingweiChen/wechat-articles@main/2026-10/2026-10-12/illustrations/05-meta-audio-glasses-ear-agent/04-05-meta-audio-glasses-ear-agent-infographic.jpg",
+      "caption": "AI眼镜第一战是佩戴时长",
+      "anchor": "AI眼镜第一战是佩戴时长",
+      "position": "after_heading",
+      "source": "Stage 2.5 B类信息图（基于公开新闻事实转译；自动模式用于正文配图，避免版权、政治人物、旗帜与投资建议表达风险）",
+      "source_url": "web_search sourced editorial infographic; local render for copyright/control",
+      "width": "92%"
+    }
+  ],
+  "quality": "每篇4张正文插图；B类信息图/流程图风格；未使用政治人物、旗帜、投资建议表达或抽象发光科幻图。"
+}

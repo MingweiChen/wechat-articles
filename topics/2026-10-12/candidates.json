@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "rank": 1,
+      "topic": "OpenAI让AI只答选A还是选B：判断开始流水线化！",
+      "title": "OpenAI让AI只答选A还是选B：判断开始流水线化！",
+      "category": "AI基础设施/企业流程",
+      "score": 96,
+      "sources": [
+        "OpenAI DevDay 2026后，Decisions API以公共beta形式进入开发者视野。",
+        "相关开发者资料称它面向概率、选择、评分等结构化答案，而非自由文本。",
+        "报道与社区讨论提到它在这类任务上比通用Responses路径更快，适合低延迟批量调用。",
+        "它与Dots、Agents API共同指向一个趋势：AI不只是回复，还要进入企业流程里的判断节点。",
+        "Step 3.5查重：过去一周写过OpenAI Dots、Intelligent UI、Slack/Teams，但未写“结构化判定API”；本篇从判断流水线切入，低-中重复。"
+      ],
+      "hook": "OpenAI DevDay后，Decisions API进入公共beta：它不主打长文本生成，而是把文本和图像快速转成概率、选择、评分等结构化答案，给业务流程当低延迟判定器。",
+      "angle": "OpenAI DevDay后，Decisions API进入公共beta：它不主打长文本生成，而是把文本和图像快速转成概率、选择、评分等结构化答案，给业务流程当低延迟判定器。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去一周写过OpenAI Dots、Intelligent UI、Slack/Teams，但未写“结构化判定API”；本篇从判断流水线切入，低-中重复。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Decisions API的关键不是更会聊天，而是把AI从内容生成器变成企业流程里的判定器；真正有价值的是低延迟、可审计、可批量调用的“判断流水线”。",
+        "dots": [
+          "OpenAI DevDay 2026后，Decisions API以公共beta形式进入开发者视野。",
+          "相关开发者资料称它面向概率、选择、评分等结构化答案，而非自由文本。",
+          "报道与社区讨论提到它在这类任务上比通用Responses路径更快，适合低延迟批量调用。",
+          "它与Dots、Agents API共同指向一个趋势：AI不只是回复，还要进入企业流程里的判断节点。"
+        ],
+        "axis": "从单条发布换轴到产业结构变化：AI基础设施/企业流程",
+        "counter_intuitive": "表面是一次产品或模型更新，实际是在把AI推进企业判断、成本、互动体验、内容身份证和随身硬件这些更底层的位置。",
+        "why_worth": "读者能获得新闻背后的商业与产品判断，而不是复述发布会。"
+      },
+      "review_score": 96,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 2,
+      "topic": "Anthropic把Haiku打到更便宜：小模型开始抢饭碗！",
+      "title": "Anthropic把Haiku打到更便宜：小模型开始抢饭碗！",
+      "category": "模型经济学/企业AI",
+      "score": 93,
+      "sources": [
+        "Anthropic在10月7日前后发布Claude Haiku 5.5，定位为更快、更便宜、更强的小模型。",
+        "公开介绍强调它适合低延迟、高吞吐、成本敏感的应用。",
+        "过去一周OpenAI、Google、Meta都在把Agent和AI流程推向办公、开发与硬件入口。",
+        "企业AI的真实成本来自海量小任务，而不是少数几次展示级推理。",
+        "Step 3.5查重：过去一周写过Claude语音数据、Anthropic算力和安全工具，未写Haiku 5.5成本结构；低重复。"
+      ],
+      "hook": "Anthropic 10月7日升级Claude Haiku 5.5，强调更快、更便宜、更强。它不一定是最闪亮的大模型，但正好击中企业AI落地最现实的痛点：高频任务的成本和延迟。",
+      "angle": "Anthropic 10月7日升级Claude Haiku 5.5，强调更快、更便宜、更强。它不一定是最闪亮的大模型，但正好击中企业AI落地最现实的痛点：高频任务的成本和延迟。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去一周写过Claude语音数据、Anthropic算力和安全工具，未写Haiku 5.5成本结构；低重复。",
+      "writing_approach": {
+        "increment_path": "串点",
+        "thesis": "Haiku 5.5的爆点不是单次升级，而是证明企业AI会先被“够快够便宜的工作马”吃掉，大模型负责难题，小模型负责高频流水线。",
+        "dots": [
+          "Anthropic在10月7日前后发布Claude Haiku 5.5，定位为更快、更便宜、更强的小模型。",
+          "公开介绍强调它适合低延迟、高吞吐、成本敏感的应用。",
+          "过去一周OpenAI、Google、Meta都在把Agent和AI流程推向办公、开发与硬件入口。",
+          "企业AI的真实成本来自海量小任务，而不是少数几次展示级推理。"
+        ],
+        "axis": "从单条发布换轴到产业结构变化：模型经济学/企业AI",
+        "counter_intuitive": "表面是一次产品或模型更新，实际是在把AI推进企业判断、成本、互动体验、内容身份证和随身硬件这些更底层的位置。",
+        "why_worth": "读者能获得新闻背后的商业与产品判断，而不是复述发布会。"
+      },
+      "review_score": 93,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 3,
+      "topic": "Google让一句话变小游戏：AI产品开始卷可玩性！",
+      "title": "Google让一句话变小游戏：AI产品开始卷可玩性！",
+      "category": "AI产品/互动内容",
+      "score": 91,
+      "sources": [
+        "Google在10月11日前后推出Playground实验AI工具，主打用自然语言创建可玩小游戏。",
+        "产品卖点是不需要用户写代码，只要描述玩法与设定即可生成互动内容。",
+        "Google近期同时推进Gemini工作Agent、多模态创作和开发者工具，生成边界持续外扩。",
+        "互动内容天然比静态内容更适合传播、分享和二次创作。",
+        "Step 3.5查重：过去一周未写Google Playground或AI游戏生成；与Gemini办公Agent不同方向，低重复。"
+      ],
+      "hook": "Google 10月11日推出Playground实验工具，用户用自然语言描述想法，就能生成可玩的小游戏。AI生成物正在从静态文本、图片和视频，往“可交互体验”推进。",
+      "angle": "Google 10月11日推出Playground实验工具，用户用自然语言描述想法，就能生成可玩的小游戏。AI生成物正在从静态文本、图片和视频，往“可交互体验”推进。",
+      "urgency": "high",
+      "dedup": "Step 3.5查重：过去一周未写Google Playground或AI游戏生成；与Gemini办公Agent不同方向，低重复。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Google Playground说明AI生成的下一站不是更多文本图片，而是可交互作品；当用户能一句话做出可玩的小游戏，AI产品的竞争从“生成素材”转向“生成体验”。",
+        "dots": [
+          "Google在10月11日前后推出Playground实验AI工具，主打用自然语言创建可玩小游戏。",
+          "产品卖点是不需要用户写代码，只要描述玩法与设定即可生成互动内容。",
+          "Google近期同时推进Gemini工作Agent、多模态创作和开发者工具，生成边界持续外扩。",
+          "互动内容天然比静态内容更适合传播、分享和二次创作。"
+        ],
+        "axis": "从单条发布换轴到产业结构变化：AI产品/互动内容",
+        "counter_intuitive": "表面是一次产品或模型更新，实际是在把AI推进企业判断、成本、互动体验、内容身份证和随身硬件这些更底层的位置。",
+        "why_worth": "读者能获得新闻背后的商业与产品判断，而不是复述发布会。"
+      },
+      "review_score": 91,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 4,
+      "topic": "Google升级SynthID：AI鉴伪开始跨公司抓水印！",
+      "title": "Google升级SynthID：AI鉴伪开始跨公司抓水印！",
+      "category": "AI治理/内容溯源",
+      "score": 89,
+      "sources": [
+        "Google在10月11日前后升级SynthID Detector。",
+        "新版检测范围包括AI生成图像、视频和音频。",
+        "公开信息提到检测可覆盖OpenAI、NVIDIA、Kakao等来源，后续计划纳入更多生态。",
+        "AI生成内容越逼真，平台、媒体和企业越需要内容溯源与水印识别能力。",
+        "Step 3.5查重：过去一周未写AI水印/鉴伪基础设施；与OpenAI election deepfake safeguards相关但角度不同，低重复。"
+      ],
+      "hook": "Google 10月11日升级SynthID Detector，检测范围覆盖AI图像、视频和音频，并扩展到OpenAI、NVIDIA、Kakao等来源。AI内容正在被迫长出“身份证”。",
+      "angle": "Google 10月11日升级SynthID Detector，检测范围覆盖AI图像、视频和音频，并扩展到OpenAI、NVIDIA、Kakao等来源。AI内容正在被迫长出“身份证”。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：过去一周未写AI水印/鉴伪基础设施；与OpenAI election deepfake safeguards相关但角度不同，低重复。",
+      "writing_approach": {
+        "increment_path": "串点+换轴",
+        "thesis": "SynthID Detector的意义不是谷歌又做了识别器，而是AI内容平台开始争夺“谁有资格判定真假”的基础设施位置；鉴伪权会变成模型生态的新入口。",
+        "dots": [
+          "Google在10月11日前后升级SynthID Detector。",
+          "新版检测范围包括AI生成图像、视频和音频。",
+          "公开信息提到检测可覆盖OpenAI、NVIDIA、Kakao等来源，后续计划纳入更多生态。",
+          "AI生成内容越逼真，平台、媒体和企业越需要内容溯源与水印识别能力。"
+        ],
+        "axis": "从单条发布换轴到产业结构变化：AI治理/内容溯源",
+        "counter_intuitive": "表面是一次产品或模型更新，实际是在把AI推进企业判断、成本、互动体验、内容身份证和随身硬件这些更底层的位置。",
+        "why_worth": "读者能获得新闻背后的商业与产品判断，而不是复述发布会。"
+      },
+      "review_score": 89,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    },
+    {
+      "rank": 5,
+      "topic": "Meta无摄像头AI眼镜出货：智能硬件先抢耳朵！",
+      "title": "Meta无摄像头AI眼镜出货：智能硬件先抢耳朵！",
+      "category": "AI硬件/个人Agent",
+      "score": 87,
+      "sources": [
+        "Meta Connect 2026期间发布Ray-Ban Meta Audio等AI眼镜新品。",
+        "其中无摄像头音频眼镜强调长续航、全天佩戴和AI语音能力，并计划10月中旬出货。",
+        "Meta同时强化Muse个人Agent与智能眼镜、个人设备入口的结合。",
+        "去掉摄像头可以降低隐私摩擦，也弱化“被拍摄”的社交压力。",
+        "Step 3.5查重：过去一周写过Meta个人Agent协议，未写Meta无摄像头音频眼镜；本篇从硬件入口与佩戴时长切入，中低重复。"
+      ],
+      "hook": "Meta Connect 2026发布Ray-Ban Meta Audio无摄像头AI眼镜，强调全天佩戴、长续航和语音AI，10月中旬开始出货。它把AI眼镜从“拍摄设备”拉回“耳朵入口”。",
+      "angle": "Meta Connect 2026发布Ray-Ban Meta Audio无摄像头AI眼镜，强调全天佩戴、长续航和语音AI，10月中旬开始出货。它把AI眼镜从“拍摄设备”拉回“耳朵入口”。",
+      "urgency": "medium",
+      "dedup": "Step 3.5查重：过去一周写过Meta个人Agent协议，未写Meta无摄像头音频眼镜；本篇从硬件入口与佩戴时长切入，中低重复。",
+      "writing_approach": {
+        "increment_path": "换轴",
+        "thesis": "Meta无摄像头AI音频眼镜的关键不是少了摄像头，而是把隐私争议最大的“看见”拿掉，先用全天候语音助手占住佩戴时长；AI硬件的第一战可能不是AR显示，而是耳朵入口。",
+        "dots": [
+          "Meta Connect 2026期间发布Ray-Ban Meta Audio等AI眼镜新品。",
+          "其中无摄像头音频眼镜强调长续航、全天佩戴和AI语音能力，并计划10月中旬出货。",
+          "Meta同时强化Muse个人Agent与智能眼镜、个人设备入口的结合。",
+          "去掉摄像头可以降低隐私摩擦，也弱化“被拍摄”的社交压力。"
+        ],
+        "axis": "从单条发布换轴到产业结构变化：AI硬件/个人Agent",
+        "counter_intuitive": "表面是一次产品或模型更新，实际是在把AI推进企业判断、成本、互动体验、内容身份证和随身硬件这些更底层的位置。",
+        "why_worth": "读者能获得新闻背后的商业与产品判断，而不是复述发布会。"
+      },
+      "review_score": 87,
+      "review_verdict": "keep",
+      "batch_verdict": "pass",
+      "political_redline": "clear"
+    }
+  ],
+  "killed": [
+    {
+      "topic": "中国领导人/港台疆藏/对外政治冲突戏剧化叙事",
+      "reason": "政治绝对红线，选题阶段kill。"
+    },
+    {
+      "topic": "OpenAI Dots云端员工复写",
+      "reason": "2026-10-11已写同事件，今日剔除高重复。"
+    },
+    {
+      "topic": "Google Gemini企业Agent总控台复写",
+      "reason": "2026-10-09已写，今日不再重复。"
+    },
+    {
+      "topic": "Anthropic Cyber Verification/开源安全巡逻复写",
+      "reason": "过去一周已连续写安全工具，今日仅保留Haiku成本线。"
+    },
+    {
+      "topic": "个股与投资建议类清单",
+      "reason": "容易滑向个股推荐，自动模式剔除。"
+    }
+  ]
+}

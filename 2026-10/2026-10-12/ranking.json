@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI让AI只答选A还是选B：判断开始流水线化！",
+      "slug": "01-openai-decisions-api-judgment-pipeline",
+      "score": 96,
+      "illustrations": 4
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic把Haiku打到更便宜：小模型开始抢饭碗！",
+      "slug": "02-anthropic-haiku-55-small-model-economics",
+      "score": 93,
+      "illustrations": 4
+    },
+    {
+      "rank": 3,
+      "title": "Google让一句话变小游戏：AI产品开始卷可玩性！",
+      "slug": "03-google-playground-game-generation",
+      "score": 91,
+      "illustrations": 4
+    },
+    {
+      "rank": 4,
+      "title": "Google升级SynthID：AI鉴伪开始跨公司抓水印！",
+      "slug": "04-google-synthid-detector-content-passport",
+      "score": 89,
+      "illustrations": 4
+    },
+    {
+      "rank": 5,
+      "title": "Meta无摄像头AI眼镜出货：智能硬件先抢耳朵！",
+      "slug": "05-meta-audio-glasses-ear-agent",
+      "score": 87,
+      "illustrations": 4
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "01-openai-decisions-api-judgment-pipeline": {
+    "theme": "decision",
+    "main_title": "OpenAI让AI只答选A还是选B：判断开始流水线化！",
+    "sub_title": "Decisions API的关键不是更会聊天，而是把AI从内容生成器变成企业流程里的判定器；真正有价值的是低延迟、可审计、可批量调用的“判断流水线”。",
+    "subtitle_brief": "OpenAI DevDay后，Decisions API进入公共beta：它不主打长文本生成，而是把文本和图像快速转成概率、选择、评分等结构化答案，给业务流程当低延迟判定器。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI基础设施/企业流程",
+    "punch": ""
+  },
+  "02-anthropic-haiku-55-small-model-economics": {
+    "theme": "cost",
+    "main_title": "Anthropic把Haiku打到更便宜：小模型开始抢饭碗！",
+    "sub_title": "Haiku 5.5的爆点不是单次升级，而是证明企业AI会先被“够快够便宜的工作马”吃掉，大模型负责难题，小模型负责高频流水线。",
+    "subtitle_brief": "Anthropic 10月7日升级Claude Haiku 5.5，强调更快、更便宜、更强。它不一定是最闪亮的大模型，但正好击中企业AI落地最现实的痛点：高频任务的成本和延迟。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "模型经济学/企业AI",
+    "punch": ""
+  },
+  "03-google-playground-game-generation": {
+    "theme": "games",
+    "main_title": "Google让一句话变小游戏：AI产品开始卷可玩性！",
+    "sub_title": "Google Playground说明AI生成的下一站不是更多文本图片，而是可交互作品；当用户能一句话做出可玩的小游戏，AI产品的竞争从“生成素材”转向“生成体验”。",
+    "subtitle_brief": "Google 10月11日推出Playground实验工具，用户用自然语言描述想法，就能生成可玩的小游戏。AI生成物正在从静态文本、图片和视频，往“可交互体验”推进。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI产品/互动内容",
+    "punch": ""
+  },
+  "04-google-synthid-detector-content-passport": {
+    "theme": "watermark",
+    "main_title": "Google升级SynthID：AI鉴伪开始跨公司抓水印！",
+    "sub_title": "SynthID Detector的意义不是谷歌又做了识别器，而是AI内容平台开始争夺“谁有资格判定真假”的基础设施位置；鉴伪权会变成模型生态的新入口。",
+    "subtitle_brief": "Google 10月11日升级SynthID Detector，检测范围覆盖AI图像、视频和音频，并扩展到OpenAI、NVIDIA、Kakao等来源。AI内容正在被迫长出“身份证”。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI治理/内容溯源",
+    "punch": ""
+  },
+  "05-meta-audio-glasses-ear-agent": {
+    "theme": "hardware",
+    "main_title": "Meta无摄像头AI眼镜出货：智能硬件先抢耳朵！",
+    "sub_title": "Meta无摄像头AI音频眼镜的关键不是少了摄像头，而是把隐私争议最大的“看见”拿掉，先用全天候语音助手占住佩戴时长；AI硬件的第一战可能不是AR显示，而是耳朵入口。",
+    "subtitle_brief": "Meta Connect 2026发布Ray-Ban Meta Audio无摄像头AI眼镜，强调全天佩戴、长续航和语音AI，10月中旬开始出货。它把AI眼镜从“拍摄设备”拉回“耳朵入口”。",
+    "comment_cta": "你觉得这个趋势会最快落在哪个场景？评论区聊聊",
+    "kicker": "AI硬件/个人Agent",
+    "punch": ""
+  }
+}
